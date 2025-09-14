@@ -31,7 +31,7 @@ ClassInfo
 	uishader 		"models/players/lobot/mb2_icon_default"
 	classNumberLimit	1
 	rateoffire		0.85
-	holdables		HI_SENTRY_GUN|HI_SHIELD
+	holdables		HI_SENTRY_GUN|HI_SHIELD|HI_MEDPAC
 	modelscale       0.987
 	damageTaken		0.9
 	damageGiven 		1.15
@@ -41,7 +41,7 @@ ClassInfo
 	special1 EAS_HI_DODGE
 	special2 EAS_MELEE
 	special3 EAS_HI_DASH
-	special4	EAS_HI_SENTRY_GUN
+	special4 EAS_HI_SHIELD
 	
 	uioverlay "gfx/icons/tactician"
 	
