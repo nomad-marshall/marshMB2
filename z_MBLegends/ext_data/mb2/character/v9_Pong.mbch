@@ -41,7 +41,7 @@ ClassInfo
 	CSmultiplier 		0.98
 	ASmultiplier 		1
 	
-	classflags CFL_BLOODYMELEE
+	classflags CFL_BLOODYMELEE|CFL_NOPICKUPS
 	//saberMaxChain 4
 	
 	gloatAnim 	BOTH_SHOWOFF_DUAL
