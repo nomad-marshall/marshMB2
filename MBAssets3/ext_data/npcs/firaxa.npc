@@ -21,7 +21,7 @@ firaxa
 	yawspeed	50
 //	walkSpeed	250
 //	runSpeed	500
-	walkSpeed	80
+	walkSpeed	200
 	runSpeed	500
 	dismemberProbHead	0
 	dismemberProbArms	0
