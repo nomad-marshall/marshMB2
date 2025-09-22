@@ -5,9 +5,9 @@ ClassInfo
 	attributes MB_ATT_DODGE,2|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,1|MB_ATT_AMMO,1|MB_ATT_CLONE_PISTOL,3|MB_ATT_WESTARM5,1|MB_ATT_ARC_RIFLE_SCOPE 
 	maxhealth 100
 	maxarmor 75
-	model			"clonetrooper_p2"
-	skin			"327_bly"
-	uishader		"models/players/clonetrooper_p2/mb2_icon_327_bly"
+	model "clonetrooper_p2"
+	skin "maceunit"
+	uishader "models/players/clonetrooper_p2/mb2_icon_maceunit"
 	MBClass MB_CLASS_ARCTROOPER
 	classNumberLimit 1
 	resource	resource_stamina

@@ -10,9 +10,6 @@ ClassInfo
 	model			"clonetrooper_p2"
 	skin			"212"
 	uishader		"models/players/clonetrooper_p2/mb2_icon_212"
-	customred		0.825
-	customgreen		0.474
-	customblue		0.120
 	MBClass			MB_CLASS_CLONETROOPER
 	extralives		1
 	rateOfFire 		1.3
