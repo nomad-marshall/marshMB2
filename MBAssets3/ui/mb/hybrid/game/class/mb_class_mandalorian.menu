@@ -462,7 +462,60 @@
 				setitemcolor	setfp_push forecolor1 0.1 0.7 1 0.7
 			}
 		}
+		
+		// EE-4 Blaster
+		itemDef
+		{
+			name				setfp_speed
+			group				"playersettingforcegroup"
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"EE-4 Carbine"
+			rect				230 140 110 15
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			105
+			textaligny			0
+			font				4
+			textscale			1
+			forecolor			0.1 0.7 1 0.7
+			outlinecolor		1 1 1 1
+			backcolor			0 0 0 0
+			visible				1
+			decoration
+		}
 
+		// EE-4 Blaster assign
+		itemDef
+		{
+			name				setfp_speed
+			group				"playersettingforcegroup"
+			style				WINDOW_STYLE_TEXT_RGB3
+			ownerdraw			UI_FORCE_RANK_SPEED
+			rect				230 140 175 15
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			115
+			textaligny			-6
+			textscale			.25
+			outlinecolor		1 1 1 1
+			backcolor			0 0 0 0
+			forecolor			0.1 0.7 1 0.7
+			border				0
+			bordercolor			0 0 0 0
+			descText			"Improve rate of fire and add a scope, and add a sniper shot mode"
+			visible				1
+			action
+			{
+				play			"sound/interface/button1.wav"
+			}
+			mouseenter
+			{
+				setitemcolor	setfp_speed forecolor2 1 1 1 1
+			}
+			mouseExit
+			{
+				setitemcolor	setfp_speed forecolor1 0.1 0.7 1 0.7
+			}
+		}
+		
 		// Fuel title
 		itemDef
 		{
@@ -471,7 +524,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Fuel"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 150 110 15
+			rect				230 170 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -493,7 +546,7 @@
 			group				darkpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_GRIP
-			rect				230 150 175 15
+			rect				230 170 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -527,7 +580,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Flamethrower"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 170 110 15
+			rect				230 190 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -549,7 +602,7 @@
 			group				darkpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_DRAIN
-			rect				230 170 175 15
+			rect				230 190 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -582,7 +635,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Wrist Laser"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 190 110 15
+			rect				230 210 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -604,7 +657,7 @@
 			group				darkpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SEE
-			rect				230 190 175 15
+			rect				230 210 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -637,7 +690,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Rocket"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 210 110 15
+			rect				230 230 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -659,7 +712,7 @@
 			group				darkpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_LIGHTNING
-			rect				230 210 175 15
+			rect				230 230 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -693,7 +746,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Armour"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 240 110 15
+			rect				230 260 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -715,7 +768,7 @@
 			group				"playersettingforcegroup"
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SABERATTACK
-			rect				230 240 175 15
+			rect				230 260 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -749,7 +802,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Ammo"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 260 110 15
+			rect				230 280 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -771,7 +824,7 @@
 			group				"playersettingforcegroup"
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SABERDEFEND
-			rect				230 260 175 15
+			rect				230 280 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6

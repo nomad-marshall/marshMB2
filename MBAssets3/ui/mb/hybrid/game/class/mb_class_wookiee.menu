@@ -254,7 +254,63 @@
 				setitemcolor	setfp_see forecolor1 0.1 0.7 1 0.7
 			}
 		}
+		
+		// Traditional Bowcaster
+		itemDef
+		{
+			name				setfp_drain
+			group				"playersettingforcegroup"
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Traditional Bowcaster"
+			rect				230 120 110 15
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			105
+			textaligny			0
+			font				4
+			textscale			1
+			forecolor			0.1 0.7 1 0.7
+			outlinecolor		1 1 1 1
+			backcolor			0 0 0 0
+			border				0
+			bordercolor			0 0 0 0
+			visible				1
+			decoration
+		}
 
+		// Traditional Bowcaster assign
+		itemDef
+		{
+			name				setfp_drain
+			group				"playersettingforcegroup"
+			style				WINDOW_STYLE_TEXT_RGB3
+			ownerdraw			UI_FORCE_RANK_DRAIN
+			rect				230 120 175 15
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			115
+			textaligny			-6
+			textscale			.25
+			outlinecolor		1 1 1 1
+			backcolor			0 0 0 0
+			forecolor			0.1 0.7 1 0.7
+			border				0
+			bordercolor			0 0 0 0
+			descText			"An archaic wookiee weapon, higher levels unlock a scope, charged multishot mode"
+			visible				1
+			action
+			{
+				play			"sound/interface/button1.wav"
+			}
+			mouseenter
+			{
+				setitemcolor	setfp_see forecolor2 1 1 1 1
+			}
+			mouseExit
+			{
+				setitemcolor	setfp_see forecolor1 0.1 0.7 1 0.7
+			}
+		}
+		
+		
 		// Thermal Detonator title
 		itemDef
 		{
