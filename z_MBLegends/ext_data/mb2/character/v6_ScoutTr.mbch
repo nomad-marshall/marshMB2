@@ -1,220 +1,304 @@
-//Legends Mode character file
-
 ClassInfo
 {
-	name			"v6_ScoutTr"
-	weapons			WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_THERMAL
-	
-	resource		RESOURCE_STAMINA
-	forcepool		80
-	rankforcepool	100,120,140
-	forceregen 		1.1
-
-	attributes		MB_ATT_ASSEMBLE,3|MB_ATT_GUN_DEFENSE,2|MB_ATT_PISTOL,1|MB_ATT_DEFLECT,0
-
-	MBClass			MB_CLASS_HERO
+	name	"v6_ScoutTr"
+	weapons	WP_MELEE|WP_SABER
+	resource	RESOURCE_STAMINA
+	forcepool	75
+	forceregen	1.1
+	rankforcepool	100
+	attributes	MB_ATT_ASSEMBLE,3|MB_ATT_GUN_DEFENSE,0|MB_ATT_DEFLECT,0|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2
+	MBClass	MB_CLASS_HERO
 	classNumberLimit	3
-
-	maxhealth		80
-	maxarmor		10
-	rankArmor		25,50,75
-	
-	speed           .78
-	rateofFire		1
-
-	CSmultiplier    1.05
-
-	ASmultiplier	1
-	rankAS			1.03,1.07,1.11
-
-	APmultiplier  	0.75
-	BPmultiplier   	1.15
-	
-	saberDamage 100
-	modelscale		1
-	
-	extralives		1
-
-	WP_ProjFlags 	HELD_LOWDAMAGE
-	
+	maxhealth	80
+	RankHealth 100
+	maxarmor	75
+	ArmourRegenRate	1000
+	rankArmourRegenAmount 2
+	basespeed 187
+	RankBaseSpeed 190
+	DamageGiven 1
+	RankDmgGiven 1.2
+	rateOfFire	1.1
+	rankROF 1
+	CSmultiplier	1.05
+	ASmultiplier	0.95
+	rankAS	1,1.05,1.1
+	APmultiplier 0.75
+	BPmultiplier 0
+	rankBPMultiplier	1.15
+	saberDamage 75
+	RankSaberDamage 100
+	extralives	1
+	holdables	HI_MEDPAC
+	skilltimermod 3
+	rankSTM   2,1
 	//tauntAnim 	BOTH_SCEPTER_HOLD
 	gloatAnim 		TORSO_HANDSIGNAL4
 	flourishAnim 	BOTH_STAND5STARTLEDLOOKLEFT
 	saberStanceAnim	BOTH_ROSH_HEAL
-
-	holdables		HI_MEDPAC
-
 	saberstyle 		SS_TAVION
 	saber1			riot_baton_p_legends
 	saber2			riot_shield_legends
-
 	saber1_1		riot_baton_b_legends
 	saber2_1		riot_shield_legends
-	
 	saber1_2		riot_baton_o_legends
 	saber2_2		riot_shield_legends
 
 	uioverlay_c "gfx/icons/scout"
 	uioverlay_r "gfx/icons/infantry"
-	uioverlay_l "gfx/icons/hybrid"
-
-	model			"scouttrooper"
-	skin			"default"	
-	uishader		"models/players/scouttrooper/mb2_icon_default"
-
-	model_1			"scouttrooper"
-	skin_1			"captain_rgb"	
-	uishader_1		"models/players/scouttrooper/mb2_icon_captain_rgb"
-	userRGB_1 		1
-	customred_1 	1
+	uioverlay_l "gfx/icons/spec_infantry"
+	model	"scouttrooper"
+	skin	"default"
+	uishader	"models/players/scouttrooper/mb2_icon_default"
+	model_1	"scouttrooper"
+	skin_1	"captain_rgb"
+	uishader_1	"models/players/scouttrooper/mb2_icon_captain_rgb"
+	userRGB_1 1
+	customred_1 1
 	customgreen_1	1
-	customblue_1 	1 //def w
-	
-	model_2			"scouttrooper"
-	skin_2			"swamp"	
-	uishader_2		"models/players/scouttrooper/mb2_icon_swamp"
-	
-	model_3			"scouttrooper"
-	skin_3			"swamp2"
-	uishader_3		"models/players/scouttrooper/mb2_icon_swamp2"
-	
-	model_4			"scouttrooper"
-	skin_4  		"novaofficer"
-	uishader_4  	"models/players/scouttrooper/mb2_icon_novaofficer"
+	customblue_1 1 //def w
+	model_2	"scouttrooper"
+	skin_2	"swamp"
+	uishader_2	"models/players/scouttrooper/mb2_icon_swamp"
+	model_3	"scouttrooper"
+	skin_3	"swamp2"
+	uishader_3	"models/players/scouttrooper/mb2_icon_swamp2"
+	model_4	"scouttrooper"
+	skin_4	"novaofficer"
+	uishader_4	"models/players/scouttrooper/mb2_icon_novaofficer"
+	model_5	"scouttrooper"
+	skin_5	"commando"
+	uishader_5	"models/players/scouttrooper/mb2_icon_commando"
 
-	special1		EAS_HI_SPRINT
-	special2		EAS_MELEE
-	special3		EAS_HI_DEX
-	special4		EAS_HI_DASH
+	special1	EAS_HI_SPRINT
+	special2	EAS_MELEE
+	special3	EAS_HI_DEX
+	special4	EAS_HI_DASH
+	isCustomBuild	1
+	mbPoints	12
+	hasCustomSpec 3
+	isOnlyOneSpec 1
+	customSpecName_1 "Shield Trooper"
+	customSpecIcon_1 "gfx/2d/hud/hlp_defend"
+	customSpecDesc_1 "Mobile tank melee specialist"
+	customSpecName_2 "Commando"
+	customSpecIcon_2 "gfx/menus/alpha/icon_weap_poison"
+	customSpecDesc_2 "Assault specialist"
+	customSpecName_3 "Sharpshooter"
+	customSpecIcon_3 "gfx/menus/alpha/icon_weap_accuracy"
+	customSpecDesc_3 "Sniper"
 
-	isCustomBuild		1
-	mbPoints			66
-	
 	c_att_skill_0	MB_ATT_FP_SABER_DEFENSE
 	c_att_names_0	"Saber Defense"
-	c_att_ranks_0	6,10	
-	
-	c_att_skill_1	MB_ATT_AS_MULTIPLIER
-	c_att_names_1	"Saber AS (103/107/111%)"
-	c_att_ranks_1	4,4,4
-	
-	c_att_skill_2	MB_ATT_PISTOL
-	c_att_names_2	"EC-17 Hold-Out Pistol"
-	c_att_ranks_2	0,1,6
-	c_att_descs_2 "10% more FP DMG, 10% slower RoF"
-	c_att_skill_3	MB_ATT_PROJECTILE_RIFLE
-	c_att_names_3	"DLT-20A Sniper Config (Proj)"
-	c_att_ranks_3	12
-	c_att_descs_3 "2 shot clip, 10 slower RoF 35%, faster reload, 50% less DMG"
-	c_att_skill_4	MB_ATT_AMMO
-	c_att_names_4	"Ammo"
-	c_att_ranks_4	1,2,2
-	c_att_descs_4 "Pistol: 100 default, 180, 300, 420, Proj: 8 default, 8, 12, 18"
-	c_att_skill_5	MB_ATT_BASE_TD
-	c_att_names_5	"Thermal Grenades"
-	c_att_ranks_5	1,1
+	c_att_ranks_0	0,2
 
-	c_att_skill_6	MB_ATT_PULSE_GRENADES
-	c_att_names_6	"Pulse Grenades"
-	c_att_ranks_6	3,3
-	
-	c_att_skill_7	MB_ATT_SONIC_DETONATOR
-	c_att_names_7	"Sonic Detonators"
-	c_att_ranks_7	4,4
+	c_att_skill_1	MB_ATT_GUN_DEFENSE
+	c_att_names_1	"Blaster Defense"
+	c_att_ranks_1	0,1,2
+
+	c_att_skill_2 MB_ATT_BP_MULTIPLIER
+	c_att_names_2 "Saber BP (115%)"
+	c_att_ranks_2 0
+
+	c_att_skill_3	MB_ATT_AS_MULTIPLIER
+	c_att_names_3	"Saber AS (100/105/110%)"
+	c_att_ranks_3	1,1,1
+
+	c_att_skill_4 MB_ATT_SABER_DAMAGE
+	c_att_names_4 "Saber Damage (100)"
+	c_att_ranks_4 1
+
+	c_att_skill_5	MB_ATT_FORCEBLOCK
+	c_att_names_5	"Force Block"
+	c_att_ranks_5	1
+	c_att_descs_5 "Blocking resists Force Powers"
+
+	c_att_skill_6	MB_ATT_PISTOL
+	c_att_names_6	"EC-17 Hold-Out Pistol"
+	c_att_ranks_6	2,0
+
+	c_att_skill_7	MB_ATT_PULSE_GRENADES
+	c_att_names_7	"Pulse Grenades"
+	c_att_ranks_7	1,1
 	
 	c_att_skill_8	MB_ATT_RESPAWNS
 	c_att_names_8	"Reinforcement"
-	c_att_ranks_8	22
+	c_att_ranks_8	8
 	c_att_descs_8 "1 default"
-	c_att_skill_9	MB_ATT_ARMOUR
-	c_att_names_9	"Armor (25/50/75)"
-	c_att_ranks_9	2,4,4
 
-	c_att_skill_10	MB_ATT_POWER
-	c_att_names_10	"Resource (100/120/140)"
-	c_att_ranks_10	3,3,3
+	c_att_skill_9	MB_ATT_STAMINA
+	c_att_names_9	"Stamina ^3[CS1]"
+	c_att_ranks_9	0,0,2
+
+	c_att_skill_10	MB_ATT_DEXTERITY
+	c_att_names_10	"Dexterity ^3[CS3]"
+	c_att_ranks_10	0,0,1
+
+
+	c_att_skill_15	MB_ATT_PISTOL
+	c_att_names_15	"EC-17 Hold-Out Pistol"
+	c_att_ranks_15	0,0,2
+
+	c_att_skill_16	MB_ATT_BLASTER
+	c_att_names_16	"E-11 Blaster Rifle"
+	c_att_ranks_16	1,1,2
+
+	c_att_skill_17	MB_ATT_T21
+	c_att_names_17	"T-21 Heavy Blaster"
+	c_att_ranks_17	2,2,1
+	c_att_descs_17 "10% slower RoF, 10% more DMG, 10% more FP DMG"
+
+	c_att_skill_18	MB_ATT_MICRO_GRENADES
+	c_att_names_18	"Concussion Grenades"
+	c_att_ranks_18	1,1,1
+
+	c_att_skill_19	MB_ATT_THERMALS
+	c_att_names_19	"Thermal Detonator"
+	c_att_ranks_19	2
 	
-	c_att_skill_11	MB_ATT_STAMINA
-	c_att_names_11	"Stamina ^3[CS1]"
-	c_att_ranks_11	2,2,2
+	c_att_skill_20	MB_ATT_HEALTH
+	c_att_names_20	"Health (100)"
+	c_att_ranks_20	0
 	
-	c_att_skill_12	MB_ATT_DEXTERITY
-	c_att_names_12	"Dexterity ^3[CS3]"
-	c_att_ranks_12 	2,2,3
+	c_att_skill_20 MB_ATT_BASESPEED
+	c_att_names_20 "Speed (190)"
+	c_att_ranks_20 0
+
+	c_att_skill_21	MB_ATT_ARMOUR_REGEN_AMOUNT
+	c_att_names_21	"Armor Regen (2/s)"
+	c_att_ranks_21	4
+
+	c_att_skill_22	MB_ATT_ROF_MULTIPLIER
+	c_att_names_22	"RoF (100%)"
+	c_att_ranks_22 1
+
+	c_att_skill_23	MB_ATT_STM_MULTIPLIER
+	c_att_names_23	"Skill CD (200/100%)"
+	c_att_ranks_23	1,1
+
+	c_att_skill_24	MB_ATT_STAMINA
+	c_att_names_24	"Stamina ^3[CS1]"
+	c_att_ranks_24	0,0,1
 	
-	c_att_skill_13	MB_ATT_DASH
-	c_att_names_13	"Dash ^3[CS4]"
-	c_att_ranks_13	0,2
+	c_att_skill_25	MB_ATT_POWER
+	c_att_names_25	"Stamina Pool (100)"
+	c_att_ranks_25	0
+
+
+	c_att_skill_30	MB_ATT_PISTOL
+	c_att_names_30	"EC-17 Hold-Out Pistol"
+	c_att_ranks_30	0,0,2
+
+	c_att_skill_31	MB_ATT_E_22
+	c_att_names_31	"E-22 Rec. Blaster Rifle"
+	c_att_ranks_31	2,0,2
+
+	c_att_skill_32	MB_ATT_EE4
+	c_att_names_32	"DLT-20A Sniper Config (EE-4)"
+	c_att_ranks_32	2,2
+	c_att_descs_32 " 50% slower RoF, 50% more DMG, 50% more FP DMG,
+	100% faster velocity, 100% slower reload"
+
+	c_att_skill_33	MB_ATT_SONIC_DETONATOR
+	c_att_names_33	"Sonic Detonators"
+	c_att_ranks_33	2,2
+	
+	c_att_skill_34	MB_ATT_RESPAWNS
+	c_att_names_34	"Reinforcement"
+	c_att_ranks_34	8
+	c_att_descs_34 "1 default"
+
+	c_att_skill_35	MB_ATT_DMG_GIVEN_MULTIPLIER
+	c_att_names_35	"Damage Given (120%)"
+	c_att_ranks_35	2
+
+	c_att_skill_36	MB_ATT_STM_MULTIPLIER
+	c_att_names_36	"Skill CD (200%)"
+	c_att_ranks_36	1
+	c_att_skill_37	MB_ATT_STAMINA
+	c_att_names_37	"Stamina ^3[CS1]"
+	c_att_ranks_37	0,0,1
+	
+	c_att_skill_38	MB_ATT_POWER
+	c_att_names_38	"Stamina Pool (100)"
+	c_att_ranks_38	0
 }
-
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER
-	WeaponBasedOff		WP_SABER
-	NewWorldModel		"models/weapons2/electrostaff/electrostaff.glm"
-	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon				"gfx/hud/w_icon_purgesticks"
-	WeaponName		"Electrobaton/Riot Shield"				
+WeaponToReplace	WP_SABER
+WeaponBasedOff	WP_SABER
+NewWorldModel	"models/weapons2/electrostaff/electrostaff.glm"
+NewViewModel	"models/weapons2/dummy/dummy.md3"
+Icon	"gfx/hud/w_icon_purgesticks"
+WeaponName	"Electrobaton/Riot Shield"
 }
-
 WeaponInfo1
 {
-	WeaponToReplace		WP_BLASTER_PISTOL
-	WeaponBasedOff		WP_BLASTER_PISTOL	
-	NewWorldModel		"models/weapons2/scout_pistol/blaster_pistol_w.glm"
-	NewViewModel		"models/weapons2/scout_pistol/blaster_pistol.md3" 
-	Icon				"gfx/hud/w_icon_scout_pistol" 
-	WeaponName			"EC-17 Hold-out Blaster Pistol"
-		ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
-	clipSize 24
-	FPMult 	 	1.1
-	ratemod 1.1
+WeaponToReplace	WP_BLASTER_PISTOL
+WeaponBasedOff	WP_BLASTER_PISTOL
+NewWorldModel	"models/weapons2/scout_pistol/blaster_pistol_w.glm"
+NewViewModel	"models/weapons2/scout_pistol/blaster_pistol.md3"
+Icon	"gfx/hud/w_icon_scout_pistol"
+WeaponName	"EC-17 Hold-out Blaster Pistol"
+ChargeSound	"sound/weapons/leia_pistol/altcharge.mp3"
+clipSize 24
 }
-
 WeaponInfo2
 {
-	WeaponToReplace		WP_PROJ
-	WeaponBasedOff		WP_PROJ
-	NewWorldModel		"models/weapons2/dlt20a/dlt20a_w.glm"
-	NewViewModel		"models/weapons2/dlt20a/dlt20a.md3"
-	Icon				"gfx/hud/w_icon_DLT20a"
-	WeaponName			"DLT-20A Sniper Config"
-	MuzzleEffect			"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect			"Blaster/Shot01R" 
-	AltMissileEffect		"Blaster/Shot01R"
-	Missile3Effect		"Blaster/Shot01R" 
-	clipsize				2
-	FlashSound0 			"sound/weapons/Glie-44/alt_fire.wav"
-	ReloadTimeModifier 	0.65
-	ratemod 1.1
+WeaponToReplace	WP_EE4
+WeaponBasedOff	WP_EE4
+NewWorldModel	"models/weapons2/dlt20a/dlt20a_w.glm"
+NewViewModel	"models/weapons2/dlt20a/dlt20a.md3"
+Icon	"gfx/hud/w_icon_DLT20a"
+WeaponName	"DLT-20A Sniper Config"
+MuzzleEffect	"Blaster/MuzzleFlash01R"
+MissileEffect	"Blaster/Shot01R"
+Missile3Effect	"Blaster/Shot01R"
+clipsize	12
+FlashSound0 "sound/weapons/Glie-44/alt_fire.wav"
+ratemod 1.5
+fpmult 1.5
+damagemod 1.5
+Velocitymod 2
+ReloadTimeModifier 41
 }
-
+WeaponInfo3
+{
+WeaponToReplace	WP_T21
+WeaponBasedOff	WP_T21
+NewWorldModel	"models/weapons2/t-21/t-21_w.glm"
+NewViewModel	"models/weapons2/t-21/t-21.md3"
+Icon	"gfx/hud/w_icon_t-21"
+WeaponName	"T-21 Heavy Blaster"
+customAmmo 800
+damagemod 1.1
+ratemod 1.1
+fpmult 1.1
+}
 description	"Imperial Scout Trooper [Hero]
 
-A lightly armored yet versatile 2-life class. Spec options include mobility, Saber Defense, sniping, and a 3rd life.
+A customizable scout class.
 
 ^2Weaponry:
 - Melee
 - Electrobaton/Riot Shield (Cyan Saber)
 -- Saber Defense/Deflect (0)
--- Blaster Defense (2)
--- 16% less DMG
+-- Blaster Defense (0)
+-- 37.5% less DMG
 -- 65% less reach
 -- Slap ^3[CS2]
-- EC-17 Hold-out Blaster Pistol (1)
--- 10% more FP DMG
--- 10% slower RoF
 
 ^6Inventory:
 - Kolto (Gradual 50 HP)
 
 ^8Attributes:
 - Reinforcement (1)
-- Stamina (0)
+- 200% slower skill CD
+- Stamina (2)
 - Assemble (3)
+- Dexterity (1)
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Limited Dex Roll ^3[CS3]
+- Dex Roll ^3[CS3]
 - Dash (1) ^3[CS4]"
