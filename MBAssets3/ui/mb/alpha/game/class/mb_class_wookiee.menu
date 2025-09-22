@@ -246,11 +246,105 @@
 			}
 		}
 
+		/*itemDef
+		{
+			name				Info_Bowcaster_1
+			group				pointssetup
+			rect				113 85 14 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "1"
+				open			mb_weapon_bowcaster
+			}
+			mouseExit {
+				setcvar			ui_help_performance "0"
+				close			mb_weapon_bowcaster
+			}
+		}
+
+		itemDef
+		{
+			name				Info_Bowcaster_2
+			group				pointssetup
+			rect				127 85 14 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "2"
+				open			mb_weapon_bowcaster
+			}
+			mouseExit {
+				setcvar			ui_help_performance "0"
+				close			mb_weapon_bowcaster
+			}
+		}
+
+		itemDef
+		{
+			name				Info_Bowcaster_3
+			group				pointssetup
+			rect				141 85 13 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "3"
+				open			mb_weapon_bowcaster
+			}
+			mouseExit {
+				setcvar			ui_help_performance "0"
+				close			mb_weapon_bowcaster
+			}
+		}*/
+
+		// Traditional Bowcaster assign
+		itemDef
+		{
+			name				setfp_drain
+			group				pointssetup
+			style				WINDOW_STYLE_TEXT_RGB3
+			ownerdraw			UI_FORCE_RANK_DRAIN
+			rect 8 85 147 18
+			text " "
+            noTextBlink 1
+			text2 "Traditional Bowcaster"
+			font 6
+			text2alignx -95
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			95
+			textaligny			-5
+			textscale			.15
+			forecolor			1 1 1 0.8
+			descText			"An archaic wookiee weapon, higher levels unlock\n a scope, charged multishot mode"
+			visible				1
+			action {
+				play			"sound/interface/button1.wav"
+			}
+			mouseEnter {
+				show			button_glow
+				setitemrect		button_glow	8 84 147 20
+				setcolor	forecolor 1 1 1 1
+			}
+			mouseExit {
+				hide			button_glow
+				setcolor	forecolor 1 1 1 0.8
+			}
+		}
+
 		itemDef
 		{
 			name				Info_FragGrenade
 			group				pointssetup
-			rect				113 85 27 18
+			rect				113 105 27 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -271,7 +365,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SPEED
-			rect 8 85 147 18
+			rect 8 105 147 18
 			text " "
             noTextBlink 1
 			text2 "Frag Grenade"
@@ -289,7 +383,7 @@
 			}
 			mouseEnter {
 				show			button_glow
-				setitemrect		button_glow	8 84 147 20
+				setitemrect		button_glow	8 104 147 20
 				setcolor	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -305,7 +399,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_ABSORB
-			rect 8 115 147 18
+			rect 8 135 147 18
 			text " "
             noTextBlink 1
 			text2 "Health"
@@ -323,7 +417,7 @@
 			}
 			mouseEnter {
 				show			button_glow
-				setitemrect		button_glow	8 114 147 20
+				setitemrect		button_glow	8 134 147 20
 				setcolor	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -339,7 +433,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_HEAL
-			rect 8 135 147 18
+			rect 8 155 147 18
 			text " "
             noTextBlink 1
 			text2 "Strength"
@@ -357,7 +451,7 @@
 			}
 			mouseEnter {
 				show			button_glow
-				setitemrect		button_glow	8 134 147 20
+				setitemrect		button_glow	8 174 147 20
 				setcolor	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -370,7 +464,7 @@
 		{
 			name				Info_Fury
 			group				pointssetup
-			rect				113 155 27 18
+			rect				113 175 27 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -391,7 +485,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_GRIP
-			rect				8 155 147 18
+			rect				8 175 147 18
 			text " "
             noTextBlink 1
 			text2 "Fury [CS1]"
@@ -409,7 +503,7 @@
 			}
 			mouseEnter {
 				show			button_glow
-				setitemrect		button_glow	8 154 147 20
+				setitemrect		button_glow	8 174 147 20
 				setcolor	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -426,7 +520,7 @@
 			style				WINDOW_STYLE_TEXT_RGB3
 			text				"Agility"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect 8 175 147 16
+			rect 8 195 147 16
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			0
 			textaligny			-5
@@ -444,7 +538,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_LIGHTNING
-			rect 8 175 147 16
+			rect 8 195 147 16
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
 			textaligny			-5
@@ -471,7 +565,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			text				"Balance"
-			rect 8 155 147 16
+			rect 8 175 147 16
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			0
 			textaligny			-5
@@ -489,7 +583,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_PUSH
-			rect 8 155 147 16
+			rect 8 175 147 16
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
 			textaligny			-5
@@ -516,7 +610,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SABERDEFEND
-			rect 8 215 147 18
+			rect 8 235 147 18
 			text " "
             noTextBlink 1
 			text2 "Ammo"
@@ -534,7 +628,7 @@
 			}
 			mouseEnter {
 				show			button_glow
-				setitemrect		button_glow	8 214 147 20
+				setitemrect		button_glow	8 234 147 20
 				setcolor	forecolor 1 1 1 1
 			}
 			mouseExit {
