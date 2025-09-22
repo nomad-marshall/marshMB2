@@ -2,8 +2,8 @@ head,*off
 head_lekku,*off
 head_mouth,*off
 
-head_officer,models/players/FO_Female/head.tga
-face_officer,models/players/FO_Female/head.tga
+head_officer,models/players/sith_officer/head_fem.tga
+face_officer,models/players/sith_officer/head_fem.tga
 mouth_officer,models/players/FO_Female/mouth.tga
 hair_officer,models/players/sith_officer/hairFem.tga
 hat_officer,*off

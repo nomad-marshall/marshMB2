@@ -5,7 +5,7 @@ head_helmet_ep2_fin,models/players/MB2_Clones/helmet_mixer.tga
 head_helmet_ep2_visor,models/players/MB2_Clones/visor.tga
 
 torso,models/players/MB2_Clones/bodysuit_clean.tga
-torso_armor,models/players/MB2_Clones/body_ep2_clean.tga
+torso_armor,models/players/MB2_Clones/body_clean.tga
 torso_belt,models/players/MB2_Clones/body_ep2_501.tga
 
 r_arm,models/players/MB2_Clones/bodysuit_clean.tga
