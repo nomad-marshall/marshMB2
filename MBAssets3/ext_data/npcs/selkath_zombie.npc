@@ -23,7 +23,7 @@ selkath_zombie
 	sndcombat	firaxa
 	sndextra	firaxa
 	yawspeed	80
-	walkSpeed	47		//120
+	walkSpeed	90		//120
 	runSpeed	390		//300
 	hfov		100
 	vfov		90
