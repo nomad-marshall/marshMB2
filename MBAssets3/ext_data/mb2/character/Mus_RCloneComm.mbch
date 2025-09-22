@@ -10,9 +10,6 @@ maxarmor		120
 model			"clonetrooper_p2"
 skin			"327_deviss"
 uishader		"models/players/clonetrooper_p2/mb2_icon_327_deviss"
-customred		0.530
-customgreen	0.140
-customblue	0.140
 MBClass			MB_CLASS_ARCTROOPER
 classnumberlimit	1
 speed			1.05
