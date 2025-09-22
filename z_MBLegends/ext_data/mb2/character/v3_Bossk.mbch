@@ -27,7 +27,7 @@ ClassInfo
 	uishader	"models/players/bossk/mb2_icon_default"
 	uioverlay "gfx/icons/heavy"
 	Classflags	CFL_BLOODYMELEE|CFL_ACIDBLOOD|CFL_STRONGAGAINSTPHYSICAL
-	holdables HI_MEDPAC
+
 
 	WP_BowcasterFlags	HELD_POISON|HELD_ALTRELOAD
 	
