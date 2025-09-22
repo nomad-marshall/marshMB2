@@ -36,7 +36,7 @@ ClassInfo
 	mbPoints			115
 	
 	c_att_skill_0	MB_ATT_PISTOL
-	c_att_names_0	"Han Solo's DL-44 Pistol"
+	c_att_names_0	"Greedo's Blaster Pistol"
 	c_att_ranks_0	0,5,25
 	c_att_descs_0 "100% more DMG, 20% more FP DMG, 20% faster velocity,
 20.5% slower RoF, 15% slower movement, 150% slower reload"
