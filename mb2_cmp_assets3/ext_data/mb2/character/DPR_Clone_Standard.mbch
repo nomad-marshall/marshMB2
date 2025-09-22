@@ -7,8 +7,8 @@ ClassInfo
 	maxhealth 80
 	maxarmor 80
 	model "clonetrooper_p2"
-	skin "327"
-	uishader "models/players/clonetrooper_p2/mb2_icon_327"
+	skin "maceunit"
+	uishader "models/players/clonetrooper_p2/mb2_icon_maceunit"
 	MBClass MB_CLASS_CLONETROOPER
 	resource	resource_energy
 	special3	EAS_HI_DODGE

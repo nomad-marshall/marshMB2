@@ -10,9 +10,6 @@ maxarmor		70
 model			"clonetrooper_p2"
 skin			"shock"
 uishader		"models/players/clonetrooper_p2/mb2_icon_shock"
-customred		0.630
-customgreen		0.198
-customblue		0.198
 MBClass			MB_CLASS_CLONETROOPER
 extralives		1
 speed			1.05

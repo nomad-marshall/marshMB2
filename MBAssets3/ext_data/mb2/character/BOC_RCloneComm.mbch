@@ -11,9 +11,6 @@ ClassInfo
 	model				"clonetrooper_p2"
 	skin				"212_cody"
 	uishader			"models/players/clonetrooper_p2/mb2_icon_212_cody"
-	customred			0.825
-	customgreen			0.474
-	customblue			0.120
 	MBClass				MB_CLASS_ARCTROOPER
 	classNumberLimit	1
 	holdables			HI_MEDPAC_BIG|HI_CLOAK

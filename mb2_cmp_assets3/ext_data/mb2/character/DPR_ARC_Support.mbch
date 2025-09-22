@@ -6,11 +6,8 @@ ClassInfo
 	maxhealth 100
 	maxarmor 60
 	model "clonetrooper_p2"
-	skin "cody_rgb"
-	uishader "gfx/hud/fa_icons/mb2_icon_clonep2_cody_brown"
-	customred	0.708
-	customgreen	0.530
-	customblue	0.198
+	skin "shadow_arc"
+	uishader "models/players/clonetrooper_p2/mb2_icon_shadow_arc"
 	classflags CFL_STATVIEWER
 	holdables HI_SHIELD
 	MBClass MB_CLASS_ARCTROOPER
