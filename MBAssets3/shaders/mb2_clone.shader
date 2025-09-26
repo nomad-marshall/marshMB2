@@ -1489,6 +1489,29 @@ models/players/mb2_clones/helmet_nemec
     }
 }
 
+models/players/mb2_clones/helmet_fireball
+{
+    {
+        map models/players/mb2_clones/helmet_fireball
+        blendFunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/mb2_clones/gloss_elite
+        blendFunc GL_ONE GL_ONE
+        rgbGen lightingDiffuse
+        alphaGen const 1
+        tcGen environment
+        detail
+    }
+    {
+        map models/players/mb2_clones/helmet_gree_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen lightingSpecular
+        detail
+    }
+}
+
 models/players/MB2_Clones/head_face
 {
     {
@@ -4556,6 +4579,27 @@ models/players/mb2_clones/body_gree
 {
     {
         map models/players/mb2_clones/body_gree
+        rgbGen lightingDiffuse
+    }
+    //{
+       // map models/players/mb2_clones/gloss_elite
+       // blendFunc GL_DST_ALPHA GL_ONE
+       // detail
+       // alphaGen lightingSpecular
+       // tcGen environment
+   // }
+    {
+        map models/players/mb2_clones/body_gree_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        detail
+        alphaGen lightingSpecular
+    }
+}
+
+models/players/mb2_clones/body_fireball
+{
+    {
+        map models/players/mb2_clones/body_fireball
         rgbGen lightingDiffuse
     }
     //{
