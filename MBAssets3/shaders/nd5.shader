@@ -46,7 +46,7 @@ models/players/nd5/hipszor
 		tcGen environment
 	}
 	{
-		map models/players/bxdroid/hipszor_spec
+		map models/players/bxdroid/hipsorz_spec
 		blendFunc GL_SRC_ALPHA GL_ONE
 		detail
 		alphaGen lightingSpecular

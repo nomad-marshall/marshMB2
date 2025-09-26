@@ -1,6 +1,7 @@
 //Default
 models/players/qimir/armor
 {
+	cull	disable
 	{
 		map models/players/qimir/armor
 		blendFunc GL_ONE GL_ZERO
@@ -24,7 +25,7 @@ models/players/qimir/armor
 	}
 }
 
-models/players/qimiro/skirt
+models/players/qimir/skirt
 {
 	cull	disable
 	{
