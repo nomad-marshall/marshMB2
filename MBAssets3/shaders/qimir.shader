@@ -23,3 +23,12 @@ models/players/qimir/armor
 		alphaGen lightingSpecular
 	}
 }
+
+models/players/qimiro/skirt
+{
+	cull	disable
+	{
+		map models/players/qimir/skirt
+		rgbGen lightingDiffuse
+	}
+}
