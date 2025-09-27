@@ -1,0 +1,837 @@
+// MEDIUM STYLES TOOLTIP MENU 
+{
+	menuDef
+	{
+		name					"mb_ability_mediumstyles"
+		visible					0
+		fullscreen				0
+		rect					432 68 109 352
+		focusColor				1 1 1 1
+		descX					320
+		descY					445
+		descScale				0.8
+		descColor				1 1 1 1
+		descAlignment			ITEM_ALIGN_CENTER
+
+		itemDef 
+		{
+			name				bgVideoYellow
+			group				none
+			style				WINDOW_STYLE_CINEMATIC
+			rect				0 0 109 127
+			cinematic			"LightsaberStyle_Yellow.roq"
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bgVideoDuals
+			group				none
+			style				WINDOW_STYLE_CINEMATIC
+			rect				0 0 109 127
+			cinematic			"LightsaberStyle_Duals.roq"
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bgVideoStaff
+			group				none
+			style				WINDOW_STYLE_CINEMATIC
+			rect				0 0 109 127
+			cinematic			"LightsaberStyle_Staff.roq"
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				glowYel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				-4 0 30 30
+			forecolor			0.9 1 0.1 1
+			background			"gfx/hud/Alpha/mb_acmglow0"
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				hiltYel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				-4 0 30 30
+			forecolor			1 1 1 1
+			background			"gfx/hud/Alpha/mb_stylehilt_single"
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				glowDuals
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				-2 0 30 30
+			forecolor			0 1 0 0.9
+			background			"gfx/hud/Alpha/mb_acmglow0"
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				hiltDuals
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				-2 0 30 30
+			forecolor			1 1 1 1
+			background			"gfx/hud/Alpha/mb_stylehilt_dual"
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				glowStaff
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 30 30
+			forecolor			1 1 1 0.9
+			background			"gfx/hud/Alpha/mb_acmglow0"
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				hiltStaff
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 30 30
+			forecolor			1 1 1 1
+			background			"gfx/hud/Alpha/mb_stylehilt_staff"
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				menu_background
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 127 109 166
+			forecolor			1 1 1 1
+			backcolor			0 0 0 1
+			visible				1
+			decoration
+		}
+
+		itemDef
+		{
+			name				bg0
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 130 103 14
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.15
+			visible				1
+			decoration
+		}
+		
+		itemDef
+		{
+			name				bg1
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 144 103 14
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.05
+			visible				1
+			decoration
+		}
+		
+		itemDef
+		{
+			name				bg2
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 158 103 14
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.15
+			visible				1
+			decoration
+		}
+
+		itemDef
+		{
+			name				bg3
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 172 103 14
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.05
+			visible				1
+			decoration
+		}
+
+		itemDef
+		{
+			name				bg4
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 186 103 14
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.15
+			visible				1
+			decoration
+		}
+
+		itemDef
+		{
+			name				offenseRating
+			group				none
+			type ITEM_TYPE_TEXT
+			text "Offense Rating"
+			rect				6 131 10 12
+			forecolor			1 1 1 1
+			visible				1
+			font 7
+			textscale 0.1
+			textaligny -3
+			textalignx -1
+			decoration
+		}
+
+
+				itemDef
+		{
+			name				defenseRating
+			group				none
+			type ITEM_TYPE_TEXT
+			text "Defense Rating"
+			rect				6 145 10 12
+			forecolor			1 1 1 1
+			visible				1
+			font 7
+			textscale 0.1
+			textaligny -3
+			textalignx -1
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				comboLimit
+			group				none
+			type ITEM_TYPE_TEXT
+			text "Combo Limit"
+			rect				6 159 10 12
+			forecolor			1 1 1 1
+			visible				1
+			font 7
+			textscale 0.1
+			textaligny -3
+			textalignx -1
+			decoration
+		}
+
+		itemDef
+		{
+			name				healthDamage
+			group				none
+			type ITEM_TYPE_TEXT
+			text "Health Damage"
+			rect				6 173 10 12
+			forecolor			1 1 1 1
+			visible				1
+			font 7
+			textscale 0.1
+			textaligny -3
+			textalignx -1
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				styleCategory
+			group				none
+			type ITEM_TYPE_TEXT
+			text "Style Category"
+			rect				6 187 10 12
+			forecolor			1 1 1 1
+			visible				1
+			font 7
+			textscale 0.1
+			textaligny -3
+			textalignx -1
+			decoration
+		}
+
+
+// =================================
+// ============= YELLOW ==============
+// =================================
+
+		itemDef // Damage Secondary
+		{
+			name				yellowAP
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_YELLOW_AP"
+			rect 				75 130 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				yellowBP
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_YELLOW_BP"
+			rect 				75 144 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				yellowSwingCount
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_YELLOW_SWINGCOUNT"
+			rect 				75 158 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				yellowHpDmg
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_YELLOW_HPDAMAGE"
+			rect 				75 172 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				yellowCategory
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Balanced"
+			rect 				75 186 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				yellowPerk1
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Gains extra 0.25 ACM on successful\nmanual block counter."
+			rect 				6 214 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"1"}
+			decoration
+		}
+
+// =================================
+// ============= DUALS ==============
+// =================================
+
+		itemDef // Damage Secondary
+		{
+			name				dualsAP
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_DUALS_AP"
+			rect 				75 130 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				dualsBP
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_DUALS_BP"
+			rect 				75 144 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				dualsSwingCount
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_DUALS_SWINGCOUNT"
+			rect 				75 158 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				dualsHpDmg
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_DUALS_HPDAMAGE"
+			rect 				75 172 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				dualsCategory
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Balanced"
+			rect 				75 186 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				dualsPerk1
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Gains an extra swing to combo limit\nevery 3 ACM. Infinite at 14 ACM."
+			rect 				6 214 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				dualsPerk2
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Halfswinging before the end of\ncombo limit results in a combo limit\nreset."
+			rect 				6 240 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+		
+		itemDef
+		{
+			name				dualsPerk3
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Specials damage scale with ACM."
+			rect 				6 276 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"2"}
+			decoration
+		}
+
+// =================================
+// ============= STAFF =============
+// =================================
+
+		itemDef // Damage Secondary
+		{
+			name				staffAP
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_STAFF_AP"
+			rect 				75 130 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				staffBP
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_STAFF_BP"
+			rect 				75 144 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				staffwingCount
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_STAFF_SWINGCOUNT"
+			rect 				75 158 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				staffHpDmg
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"#UI_SABER_STAFF_HPDAMAGE"
+			rect 				75 172 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				staffCategory
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Defensive"
+			rect 				75 186 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				staffPerk1
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Successful manual block staggers\nswingblocking opponent."
+			rect 				6 214 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				staffPerk2
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Performs a perfect block even\nwithout matching PB zone in the\ncase of successful manual block."
+			rect 				6 240 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+				itemDef
+		{
+			name				staffPerk2
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Spin attacks deal 75% extra damage."
+			rect 				6 276 20 14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-2
+			font				6
+			textscale			0.1
+			forecolor			1 1 1 1
+			visible				1
+			cvarTest "ui_help_performance"
+			showCvar {"3"}
+			decoration
+		}
+
+// =================================
+// ============= END OF STAFF =============
+// =================================
+
+				itemDef
+		{
+			name				perks
+			group				Stats
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Perks"
+			rect 				45 199.25 20 14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			10
+			textaligny			-2
+			font				7
+			textscale			0.11
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				PrimaryDesc_Background
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 214 103 26
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.15
+			visible				1
+			decoration
+		}
+
+		itemDef
+		{
+			name				PointIcon
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				6 218 5 6
+			forecolor			1 1 1 1
+			background			"gfx/menus/Alpha/Icon_Weap_Point"
+			visible				1
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				SecondaryDesc_Background
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 240 103 36
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.05
+			visible				1
+			cvarTest "ui_help_performance"
+			hideCvar { "1" }
+			decoration
+		}
+
+		itemDef
+		{
+			name				SecondaryIcon
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				6 244 5 6
+			forecolor			1 1 1 1
+			background			"gfx/menus/Alpha/Icon_Weap_Point"
+			visible				1
+			cvarTest "ui_help_performance"
+			hideCvar { "1" }
+			decoration
+		}
+
+
+		itemDef
+		{
+			name				NoteDesc_Background
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				3 276 103 14
+			forecolor			1 1 1 1
+			backcolor			1 1 1 0.15
+			visible				1
+			cvarTest "ui_help_performance"
+			hideCvar {"1"}
+			decoration
+		}
+
+		itemDef
+		{
+			name				NoteIcon
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				6 280 5 6
+			forecolor			1 1 1 1
+			background			"gfx/menus/Alpha/Icon_Weap_Point"
+			visible				1
+			cvarTest "ui_help_performance"
+			hideCvar {"1"}
+			decoration
+		}
+
+	}
+}

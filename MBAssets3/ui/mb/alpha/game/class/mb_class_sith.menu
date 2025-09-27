@@ -305,7 +305,7 @@
 				setcolor	 	forecolor 1 1 1 0.8
 			}
 		}
-/*		
+	
 		// Force Stasis assign
 		itemDef
 		{
@@ -339,7 +339,7 @@
 				setcolor	 	forecolor 1 1 1 0.8
 			}
 		}
-*/
+
 		// DARKSIDE POWERS
 		// Force Grip title
 
@@ -486,6 +486,45 @@
 */
 		// SABER POWERS
 		
+				itemDef
+		{
+			name				Info_FastStyles_1 // Blue
+			group				pointssetup
+			rect				113 214 14 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "1"
+				open			mb_ability_lightstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_lightstyles
+			}
+		}
+
+		itemDef
+		{
+			name				Info_FastStyles_2 // Cyan
+			group				pointssetup
+			rect				127 214 27 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "2"
+				open			mb_ability_lightstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_lightstyles
+			}
+		}
 
 		// Fast Styles assign
 		itemDef
@@ -521,6 +560,67 @@
 			}
 		}
 
+				itemDef
+		{
+			name				Info_MediumStyles_1 // Yellow
+			group				pointssetup
+			rect				113 231 14 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "1"
+				open			mb_ability_mediumstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_mediumstyles
+			}
+		}
+
+		itemDef
+		{
+			name				Info_MediumStyles_2 // Duals
+			group				pointssetup
+			rect				127 231 13 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "2"
+				open			mb_ability_mediumstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_mediumstyles
+			}
+		}
+
+		
+		itemDef
+		{
+			name				Info_MediumStyles_3 // Staff
+			group				pointssetup
+			rect				140 231 14 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "3"
+				open			mb_ability_mediumstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_mediumstyles
+			}
+		}
+
 		// Medium Styles assign
 		itemDef
 		{
@@ -552,6 +652,46 @@
 			mouseExit {
 				hide			button_glow
 				setcolor		forecolor 1 1 1 0.8
+			}
+		}
+
+				itemDef
+		{
+			name				Info_StrongStyles_1 // Red
+			group				pointssetup
+			rect				113 248 14 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "1"
+				open			mb_ability_strongstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_strongstyles
+			}
+		}
+
+		itemDef
+		{
+			name				Info_StrongStyles_2 // Purple
+			group				pointssetup
+			rect				127 248 27 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				setcvar			ui_help_performance "2"
+				open			mb_ability_strongstyles
+			}
+			mouseexit {
+				setcvar			ui_help_performance "0"
+				close			mb_ability_strongstyles
 			}
 		}
 
@@ -828,6 +968,24 @@
 			mouseExit {
 				hide			button_glow
 				setcolor		forecolor 1 1 1 0.8
+			}
+		}
+
+		itemDef
+		{
+			name				Info_SaberDefense
+			group				pointssetup
+			rect				113 293 41 18
+			style				WINDOW_STYLE_SHADER
+			//background			"gfx/menus/alpha/Btn_Info"
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+			mouseEnter {
+				open			mb_ability_saberdefense
+			}
+			mouseexit {
+				close			mb_ability_saberdefense
 			}
 		}
 
