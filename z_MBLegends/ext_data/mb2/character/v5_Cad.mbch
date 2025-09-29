@@ -65,7 +65,7 @@ WeaponInfo0
 	PowerupShotEffect	"Blaster/Shot04r"
 	ChargeEffect		"gfx/effects/bryarfrontflash"
 	WeaponName	"Dual LL-30 Blaster Pistols"
-	customAmmo	800
+	customAmmo	825
 	//clipsize	100
 	velocityMod 1.05
 }
