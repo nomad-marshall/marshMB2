@@ -1,0 +1,16 @@
+models/weapons2/merr_sonn/projectile
+{
+    {
+        map models/weapons2/merr_sonn/projectile_c
+        rmoMap models/weapons2/merr_sonn/projectile_rmo
+        normalMap models/weapons2/merr_sonn/projectile_n
+        alphaFunc GE128
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/weapons2/merr_sonn/projectile_g
+        blendFunc GL_ONE GL_ONE
+        glow
+        rgbGen identity
+    }
+}

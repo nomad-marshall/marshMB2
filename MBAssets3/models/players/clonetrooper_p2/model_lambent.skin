@@ -107,6 +107,10 @@ l_leg_calfarmor,models/players/MB2_Clones/arc_legs_lambent.tga
 r_leg_calfarmor,models/players/MB2_Clones/arc_legs_lambent.tga
 torso_bpog,models/players/MB2_Clones/arc_pack.tga
 
+torso_fbpouches,*off
+torso_fbwrap,*off
+torso_belt2,*off
+
 r_leg_cap_hips_off,models/players/stormtrooper/caps.tga
 l_leg_cap_hips_off,models/players/stormtrooper/caps.tga
 l_hand_cap_l_arm_off,models/players/stormtrooper/caps.tga
