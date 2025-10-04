@@ -160,7 +160,7 @@ description	"Scavenger [Bounty Hunter]
 -- Electrifies on hit
 -- 30% more FP DMG
 -- 15% faster mag reload
--- 20% slower velocity
+-- 20% less velocity
 -- 40% slower RoF
 - Stun Grenade (1) (Knockdown Frag)
 -- 50% less DMG

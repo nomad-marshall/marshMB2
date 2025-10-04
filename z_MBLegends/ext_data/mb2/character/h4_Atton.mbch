@@ -74,7 +74,7 @@ c_att_descs_0 "Electrifies on hit, 50% more charged FP DMG, 50% less DMG,
 c_att_skill_1	MB_ATT_MANDO_PISTOL
 c_att_names_1	"Disintegrators (WESTARs)"
 c_att_ranks_1	3,0,0
-c_att_descs_1 "25% faster velocity, 75% slower mag reload"
+c_att_descs_1 "25% more velocity, 75% slower mag reload"
 c_att_skill_2	MB_ATT_SONIC_DETONATOR
 c_att_names_2	"Sonic Detonators"
 c_att_ranks_2	1,1
