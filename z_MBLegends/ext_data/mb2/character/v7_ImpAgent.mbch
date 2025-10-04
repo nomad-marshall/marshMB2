@@ -80,7 +80,7 @@ ClassInfo
 	c_att_names_0	"Assassin Blaster Pistol"
 	c_att_ranks_0	2,2,3
 	c_att_descs_0	"40% less DMG, 25% less RoF, 40% more charged FP DMG
-	Prim. fire: Hitscan, Alt. fire: Poisons on hit, 20% slower velocity"
+	Prim. fire: Hitscan, Alt. fire: Poisons on hit, 20% less velocity"
 
 	c_att_skill_1	MB_ATT_DC_CARBINE
 	c_att_names_1	"E-11 Stun Carbine"

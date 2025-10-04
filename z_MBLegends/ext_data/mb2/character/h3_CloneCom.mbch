@@ -8,7 +8,7 @@ weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL
 WP_DCCarbineFlags HELD_ALTRELOAD
 WP_DisruptorFlags HELD_ALTRELOAD
 WP_FlechetteFlags HELD_ALTRELOAD
-attributes MB_ATT_STAMINA,2|MB_ATT_PISTOL,1|MB_ATT_BASE_TD,2|MB_ATT_DEXTERITY,1
+attributes MB_ATT_STAMINA,2|MB_ATT_PISTOL,1|MB_ATT_BASE_TD,2|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR
 BPmultiplier 0
 saber1 cc
 saberstyle SS_TAVION
@@ -25,9 +25,10 @@ healthRegenrate 1000
 healthRegenCap 25
 basespeed 180
 rankbasespeed 200,220
-rankHack 0.85
+rankHack 0.84
 knockbackTaken 0.85
 rankROFMelee 0.7
+rankForcePool 140
 special1 EAS_HI_SPRINT
 special2 EAS_MELEE
 modelscale   1.02
@@ -65,7 +66,7 @@ isOnlyOneSpec 1
 customSpecName_1 "Gunner"
 customSpecIcon_1 "gfx/menus/alpha/icon_weap_accuracy"
 customSpecDesc_1 ""
-customSpecName_2 "Demolition"
+customSpecName_2 "Heavy"
 customSpecIcon_2 "gfx/menus/alpha/icon_weap_expdamagesplash"
 customSpecDesc_2 ""
 customSpecName_3 "Wild Card"
@@ -78,28 +79,29 @@ c_att_descs_0 "40% faster RoF, 10% less FP DMG, 25% slower mag reload"
 c_att_skill_1 MB_ATT_DISRUPTOR
 c_att_names_1 "DC-17m Sniper (Disruptor)"
 c_att_ranks_1 0
-c_att_descs_1 "120% more DMG, 120% more FP DMG, 10% slower RoF,
-75% slower mag reload"
+c_att_descs_1 "120% more DMG/FP DMG, 10% slower RoF, 75% slower mag reload"
 c_att_skill_2 MB_ATT_BASESPEED
 c_att_names_2 "Speed (200)"
 c_att_ranks_2 0
+
 c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
-c_att_names_15 "Commando Strength"
+c_att_names_15 "Strength"
 c_att_ranks_15 0,0
-c_att_skill_16 MB_ATT_UGL
-c_att_names_16 "DC-17m Anti-Armor (UGL)"
-c_att_ranks_16 0,0
-c_att_descs_16 "25% slower RoF"
-c_att_skill_17 MB_ATT_MICRO_GRENADES
-c_att_names_17 "> DC-17m Conc. Grenades (8)"
-c_att_ranks_17 0
-c_att_descs_17 "Cannot be hand-thrown, 60% less DMG"
-c_att_skill_18 MB_ATT_DET_PACK
-c_att_names_18 "Det Packs"
-c_att_ranks_18 0,0,0
-c_att_skill_19 MB_ATT_BLAST_ARMOUR
-c_att_names_19 "Blast Armor"
-c_att_ranks_19 0
+c_att_skill_16 MB_ATT_TRAD_BOWCASTER
+c_att_names_16 "Trad. Wookiee Bowcaster"
+c_att_ranks_16 0,0,0
+c_att_skill_17 MB_ATT_UGL
+c_att_names_17 "DC-17m Anti-Armor (UGL)"
+c_att_ranks_17 0,0
+c_att_descs_17 "25% slower RoF"
+c_att_skill_18 MB_ATT_MICRO_GRENADES
+c_att_names_18 "> DC-17m Conc. Grenades (6)"
+c_att_ranks_18 0
+c_att_descs_18 "Cannot be hand-thrown, 60% less DMG"
+c_att_skill_19 MB_ATT_DET_PACK
+c_att_names_19 "Det Packs"
+c_att_ranks_19 0,0,0
+
 c_att_skill_30 MB_ATT_ROF_MELEE_MULTIPLIER
 c_att_names_30 "Melee RoF (130%)"
 c_att_ranks_30 0
@@ -114,8 +116,11 @@ c_att_skill_33 MB_ATT_BASESPEED
 c_att_names_33 "Speed (220)"
 c_att_ranks_33 0,0
 c_att_skill_34 MB_ATT_HACK_MULTIPLIER
-c_att_names_34 "Hack Speed (115%)"
+c_att_names_34 "Hack Speed (118%)"
 c_att_ranks_34 0
+c_att_skill_35 MB_ATT_POWER
+c_att_names_35 "Extra Stamina (140)"
+c_att_ranks_35 0
 }
 WeaponInfo0
 {
@@ -142,7 +147,7 @@ animReadyNoAmmo BOTH_ATTACK3
 animAttack BOTH_ATTACK3
 animAttackWalk BOTH_ATTACK3
 animStand BOTH_STAND1
-rateMod 0.6
+rateMod .6
 selectSound "sound/weapons/dc17m/select.mp3"
 }
 WeaponInfo1
@@ -203,18 +208,14 @@ WeaponInfo4
 {
 WeaponToReplace WP_CONC_NADE
 WeaponBasedOff WP_CONC_NADE
-NewWorldModel	"models/weapons2/v-59_concussion/v-59_conc_w.glm"
-NewViewModel	"models/weapons2/v-59_concussion/v-59_conc.md3"
-NewHandsModel "models/weapons2/v-59_concussion/v-59_conc_hand.md3"
+NewWorldModel "models/weapons2/dummyblaster/model.glm"
+NewViewModel "models/weapons2/dummy/dummy.md3"
 Icon	"gfx/hud/w_icon_v-59_conc"
 WeaponName "DC-17m Concussion Grenades"
 primfireenabled 0
 altFireEnabled 0
-customAmmo 8
+customAmmo 6
 damageMod .4
-hasAnimOverrides 1
-animReady BOTH_STAND5TOSTAND8
-animReadyWalk BOTH_STAND5TOSTAND8
 }
 WeaponInfo5
 {
@@ -255,9 +256,9 @@ Icon	"gfx/hud/w_thermal_grenade"
 WeaponName "Hand Thermal Grenades"
 damagemod 3
 }
-description	"Clone Commando [Clone Trooper]
+description "Clone Commando [Clone Trooper]
 
-Adaptable 2-life units with staying power.
+Adaptable 2-lifes with staying power.
 
 ^2Weaponry:
 - Melee
@@ -277,10 +278,11 @@ Adaptable 2-life units with staying power.
 
 ^8Attributes:
 - 15% less KB taken
-- Dexterity (1)
-- Stamina (2)
 - Health Regen: 1/s to 25
 - Armor Regen: 2/s
+- Stamina (2)
+- Dexterity (1)
+- Blast Armor
 
 ^3Abilities:
 - Sprint ^3[CS1]"

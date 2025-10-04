@@ -85,7 +85,7 @@ c_att_skill_1	MB_ATT_MINIGUN
 c_att_names_1	"Assault Cannon (Minigun)"
 c_att_ranks_1	2,1
 c_att_descs_1 "Ignites on hit, 50% more DMG, 25% more FP DMG,
-20% slower velocity, 75% slower RoF"
+20% less velocity, 75% slower RoF"
 c_att_skill_2	MB_ATT_FRAGS
 c_att_names_2	"Frag Grenade"
 c_att_ranks_2	1
@@ -108,11 +108,11 @@ c_att_ranks_15	6
 c_att_skill_16	MB_ATT_DC_CARBINE
 c_att_names_16	"Repeat. Blaster (C. Carbine)"
 c_att_ranks_16	3,0
-c_att_descs_16 "20% faster velocity, 10% faster RoF, 10% less DMG/FP DMG"
+c_att_descs_16 "20% more velocity, 10% faster RoF, 10% less DMG/FP DMG"
 c_att_skill_17	MB_ATT_WESTARM5
 c_att_names_17	"Pulse Grenade Launcher (M5)"
 c_att_ranks_17 1,0
-c_att_descs_17 "Prim. fire: Single shot, 50% more DMG/FP DMG, 50% faster velocity,
+c_att_descs_17 "Prim. fire: Single shot, 50% more DMG/FP DMG, 50% more velocity,
 25% slower reload, Sec. fire: 70% faster RoF"
 c_att_skill_18	MB_ATT_ARC_RIFLE_GRENADELAUNCHER
 c_att_names_18	"> Launcher Pulse Grenades"
