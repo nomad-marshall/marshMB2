@@ -1497,14 +1497,6 @@ models/players/mb2_clones/helmet_fireball
         rgbGen lightingDiffuse
     }
     {
-        map models/players/mb2_clones/gloss_elite
-        blendFunc GL_ONE GL_ONE
-        rgbGen lightingDiffuse
-        alphaGen const 1
-        tcGen environment
-        detail
-    }
-    {
         map models/players/mb2_clones/helmet_gree_spec
         blendFunc GL_SRC_ALPHA GL_ONE
         alphaGen lightingSpecular
@@ -3441,6 +3433,22 @@ models/players/MB2_Clones/commander_parts_cull
 
 models/players/MB2_Clones/commander_parts_appo
 {
+    {
+        map models/players/MB2_Clones/commander_parts_appo
+        blendFunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/MB2_Clones/commander_parts_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen lightingSpecular
+		detail
+    }
+}
+
+models/players/MB2_Clones/commander_parts_appo_cull
+{
+	cull	disable
     {
         map models/players/MB2_Clones/commander_parts_appo
         blendFunc GL_ONE GL_ZERO
