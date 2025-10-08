@@ -46,12 +46,8 @@ uishader_1  "models/players/clonetrooper_p1/mb2_icon_rgb"
 	customblue_1 		1 //def w
 
 model_2     "clonetrooper_p1"
-skin_2      "filsquad_rgb"
-uishader_2  "models/players/clonetrooper_p1/mb2_icon_filsquad_rgb"
-	userRGB_2 		1
-	customred_2 		0.471
-	customgreen_2		0.239
-	customblue_2 		0.353 //def purp
+skin_2      "filsquad"
+uishader_2  "models/players/clonetrooper_p1/mb2_icon_filsquad"
 
 model_3     "clonetrooper_p1"
 skin_3      "horncompany"
@@ -74,76 +70,52 @@ skin_7      "nohelmet"
 uishader_7  "models/players/clonetrooper_p2/mb2_icon_nohelmet"
 
 model_8     "clonetrooper_p2"
-skin_8      "nohelmet_bald"
-uishader_8  "models/players/clonetrooper_p2/mb2_icon_nohelmet_bald"
+skin_8      "shock"
+uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock"
 
 	model_9     "clonetrooper_p2"
-	skin_9      "shock_rgb"
-	uishader_9  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
-	userRGB_9 	1
-	customred_9 		0.709
-	customgreen_9		0.12
-	customblue_9 		0.12 //def r
+	skin_9      "13"
+	uishader_9  "models/players/clonetrooper_p2/mb2_icon_13"
 
 	model_10    "clonetrooper_p2"
-	skin_10     "13_rgb"
-	uishader_10 "models/players/clonetrooper_p2/mb2_icon_13_rgb"
-	userRGB_10 		1
-	customred_10		0.945
-	customgreen_10	0.785
-	customblue_10		0.0 //defaults to Open y
+	skin_10     "21a"
+	uishader_10 "models/players/clonetrooper_p2/mb2_icon_21a"
 
 	model_11    "clonetrooper_p2"
-	skin_11     "41_rgb"
-	uishader_11 "models/players/clonetrooper_p2/mb2_icon_41_rgb"
-	userRGB_11 	1
-	customred_11 		0.502
-	customgreen_11	0.502
-	customblue_11 	0.502 //def grey
+	skin_11     "41"
+	uishader_11 "models/players/clonetrooper_p2/mb2_icon_41"
 
 	model_12    "clonetrooper_p2"
-	skin_12     "104_rgb"
-	uishader_12 "models/players/clonetrooper_p2/mb2_icon_104_rgb"
-	userRGB_12 	1
-	customred_12 		0.502
-	customgreen_12	0.502
-	customblue_12 	0.502 //def grey
+	skin_12     "104"
+	uishader_12 "models/players/clonetrooper_p2/mb2_icon_104"
 
 	model_13    "clonetrooper_p2"
-	skin_13     "212_rgb"
-	uishader_13 "models/players/clonetrooper_p2/mb2_icon_212_rgb"
-	userRGB_13 	1
-	customred_13 		0.785
-	customgreen_13	0.63
-	customblue_13 	0.314 //def gold
+	skin_13     "212"
+	uishader_13 "models/players/clonetrooper_p2/mb2_icon_212"
 
 	model_14    "clonetrooper_p2"
 	skin_14     "332"
 	uishader_14 "models/players/clonetrooper_p2/mb2_icon_332"
 
 	model_15    "clonetrooper_p2"
-	skin_15     "501_rgb"
-	uishader_15 "models/players/clonetrooper_p2/mb2_icon_501_rgb"
-	userRGB_15 	1
-	customred_15		0.18
-	customgreen_15	0.355
-	customblue_15		0.55 //defaults to Open blue
+	skin_15     "501"
+	uishader_15 "models/players/clonetrooper_p2/mb2_icon_501"
 
 	model_16    "clonetrooper_p2"
-	skin_16     "maceunit_rgb"
-	uishader_16 "models/players/clonetrooper_p2/mb2_icon_maceunit_rgb"
-	userRGB_16 	1
-	customred_16 		0.709
-	customgreen_16	0.12
-	customblue_16 	0.12 //def r
+	skin_16     "maceunit"
+	uishader_16 "models/players/clonetrooper_p2/mb2_icon_maceunit"
 
-model_17    "clonetrooper_p2"
-skin_17     "doomunit"
-uishader_17 "models/players/clonetrooper_p2/mb2_icon_doomunit"
+	model_17    "clonetrooper_p2"
+	skin_17     "doomunit"
+	uishader_17 "models/players/clonetrooper_p2/mb2_icon_doomunit"
 
-model_18    "clonetrooper_p2"
-skin_18     "kamino_security"
-uishader_18 "models/players/clonetrooper_p2/mb2_icon_kamino_security"
+	model_18    "clonetrooper_p2"
+	skin_18     "kamino_security"
+	uishader_18 "models/players/clonetrooper_p2/mb2_icon_kamino_security"
+
+	model_19    "clonetrooper_p2"
+	skin_19     "41_ranger"
+	uishader_19 "models/players/clonetrooper_p2/mb2_icon_41_ranger"
 
 	isCustomBuild	 1
 	mbPoints		 50
