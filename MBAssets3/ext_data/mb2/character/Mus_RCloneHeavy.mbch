@@ -8,11 +8,8 @@ attributes		MB_ATT_CLONE_PISTOL,1|MB_ATT_MINIGUN,3|MB_ATT_WOOKIE_STRENGTH,1|MB_A
 maxhealth		100
 maxarmor		80
 model			"clonetrooper_p2"
-skin			"bacara_rgb"
-uishader		"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_red"
-customred		0.630
-customgreen	0.198
-customblue	0.198
+skin			"shock"
+uishader		"models/players/clonetrooper_p2/mb2_icon_shock"
 MBClass			MB_CLASS_CLONETROOPER
 classNumberLimit	2
 speed			0.95
