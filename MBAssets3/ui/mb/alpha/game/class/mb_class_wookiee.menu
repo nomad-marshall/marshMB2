@@ -451,7 +451,7 @@
 			}
 			mouseEnter {
 				show			button_glow
-				setitemrect		button_glow	8 174 147 20
+				setitemrect		button_glow	8 154 147 20
 				setcolor	forecolor 1 1 1 1
 			}
 			mouseExit {
