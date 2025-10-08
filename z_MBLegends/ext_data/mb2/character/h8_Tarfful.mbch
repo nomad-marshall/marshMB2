@@ -2,63 +2,61 @@
 
 ClassInfo
 {
-	name				"h8_Tarfful"
-	weapons 			WP_BOWCASTER|WP_MELEE|WP_FRAG_NADE|WP_SABER
-	saber1				ryyk_A_legends
-    saberstyle			SS_STRONG|SS_DESANN
-	saberDamage 300
-	attributes			MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_QUICKTHROW,1|MB_ATT_AMMO,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_FRAGS,2|MB_ATT_BLAST_ARMOUR|MB_ATT_BOWCASTER,1		
-	maxhealth			500
-	maxarmor            150
-	Forcepool           115
-	forceregen			0.9
-	MBClass				MB_CLASS_WOOKIE
-	WP_FragNadeFlags 	HELD_LOWDAMAGE
+	name		"h8_Tarfful"
+	MBClass	MB_CLASS_WOOKIE
 	classNumberLimit	1
-	APmultiplier      	1.5
-	ASmultiplier      	1
-	CSmultiplier      	1
-	BPmultiplier 		0.75
-	modelscale			1.221
-	speed           	1.04
-	RateOfFire     		0.95
-	rateoffire_melee	0.95
+	
+	weapons 	WP_TRAD_BOWCASTER|WP_MELEE|WP_FRAG_NADE|WP_SABER
+	WP_FragNadeFlags 	HELD_LOWDAMAGE
+	
+	attributes MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_QUICKTHROW,1|MB_ATT_AMMO,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_FRAGS,2|MB_ATT_BLAST_ARMOUR|MB_ATT_TRAD_BOWCASTER,2	
+	
+	saber1	ryyk_A_legends
+    saberstyle	SS_STRONG|SS_DESANN
+	saberDamage 300
+	APmultiplier   1.5
+	BPmultiplier 	.75
+	
+	maxhealth 500
+	maxarmor  150
+	Forcepool 115
+	forceregen 0.9
+
+	speed   1.04
+	RateOfFire  .95
+	rateoffire_melee	.95
 	
 	skilltimermod 0.9
 	
-	special1			EAS_HI_FURY
-	special2 			EAS_HI_BARGE
-	special3			EAS_HI_QUICKTOSS
-	special4			EAS_MELEE
+	special1	EAS_HI_FURY
+	special2 EAS_HI_BARGE
+	special3	EAS_HI_QUICKTOSS
+	special4	EAS_MELEE
 	
-	resource			resource_rage
+	resource	RESOURCE_RAGE
 	
-	uioverlay "gfx/icons/brawler"
-	
-	damageTaken     	1
-	
-	saberStanceAnim		BOTH_TRIPLE3_REDSTANCE
-	gloatAnim			BOTH_VICTORY_MEDIUM
+	saberStanceAnim	BOTH_TRIPLE3_REDSTANCE
+	gloatAnim		BOTH_VICTORY_MEDIUM
 	flourishAnim 		BOTH_FORCE_DRAIN_GRAB_START
-	//gloatAnim       	BOTH_VICTORY_FAST
+	//gloatAnim       BOTH_VICTORY_FAST
 	
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	
-	//respawncustomtime 	75000
-
-	model				"tarfful"
-	skin				"default"
-	uishader			"models/players/tarfful/mb2_icon_default"
+	modelscale	1.221
+	uioverlay "gfx/icons/brawler"
+	model	"tarfful"
+	skin		"default"
+	uishader	"models/players/tarfful/mb2_icon_default"
 }
 
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER
-	WeaponBasedOff		WP_SABER
+	WeaponToReplace	WP_SABER
+	WeaponBasedOff	WP_SABER
   	NewWorldModel		"models/weapons2/dummyblaster/model.glm"
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
-	Icon			"gfx/hud/w_icon_ryykA"
-	WeaponName		"Ryyk Blade"
+	Icon		"gfx/hud/w_icon_ryykA"
+	WeaponName	"Ryyk Blade"
 }
 
 description	"Tarfful [Wookiee]
@@ -74,7 +72,7 @@ A large tank with Fury, a deadly Ryyk Blade, and a Bowcaster. Immune to most kno
 -- 25/42% less DMG
 -- 33% more reach
 -- Slap ^3[CS4]
-- Bowcaster (1)
+- Trad Bowcaster (2)
 - Frag Grenades (2)
 -- 50% less DMG
 
