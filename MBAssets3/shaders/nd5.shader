@@ -133,11 +133,11 @@ models/players/nd5/headzor
 	}
 }
 
-models/players/nd5/nd5_coat
+models/players/nd5/coat
 {
 	cull	disable
 	{
-		map models/players/nd5/nd5_coat
+		map models/players/nd5/coat
 		rgbGen lightingDiffuse
 	}
 }
