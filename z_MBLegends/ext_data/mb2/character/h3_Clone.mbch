@@ -146,7 +146,7 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 
 	c_att_skill_5		MB_ATT_MINIGUN
 	c_att_names_5		"Z-6 Rotary Blaster Cannon"
-	c_att_ranks_5		8
+	c_att_ranks_5		10
 
 	c_att_skill_6		MB_ATT_PLX1
 	c_att_names_6		"PLX-1 Rocket Launcher"
