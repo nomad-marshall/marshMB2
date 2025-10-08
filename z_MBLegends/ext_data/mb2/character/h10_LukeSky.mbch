@@ -106,9 +106,9 @@ model_16     "luke_rotj"
 skin_16      "tm_robedown"
 uishader_16  "models/players/luke_rotj/mb2_icon_tm_robedown"
 
-model_17     "luke_bobf"
-skin_17      "default"
-uishader_17  "models/players/luke_bobf/mb2_icon_default"
+model_17     "luke_tfa"
+skin_17      "cloak"
+uishader_17  "models/players/luke_tfa/mb2_icon_cloak"
 
 model_18     "luke_bobf"
 skin_18      "grogu"
