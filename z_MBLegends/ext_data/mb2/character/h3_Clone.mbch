@@ -145,11 +145,6 @@ model_18    "clonetrooper_p2"
 skin_18     "kamino_security"
 uishader_18 "models/players/clonetrooper_p2/mb2_icon_kamino_security"
 
-model_19    "clonemarine"
-skin_19     "default"
-uishader_19 "models/players/clonemarine/mb2_icon_default"
-
-	
 	isCustomBuild	 1
 	mbPoints		 50
 	
