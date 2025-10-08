@@ -70,8 +70,12 @@ skin_7      "nohelmet"
 uishader_7  "models/players/clonetrooper_p2/mb2_icon_nohelmet"
 
 model_8     "clonetrooper_p2"
-skin_8      "shock"
-uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock"
+skin_8      "shock_rgb"
+uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
+                userRGB_8 	1
+	customred_8 		0.709
+	customgreen_8		0.12
+	customblue_8 		0.12 //def r
 
 	model_9     "clonetrooper_p2"
 	skin_9      "13"
