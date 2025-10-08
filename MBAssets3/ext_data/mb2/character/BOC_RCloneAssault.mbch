@@ -8,11 +8,8 @@ ClassInfo
 	maxhealth			100
 	maxarmor			70
 	model				"clonetrooper_p2"
-	skin				"bacara_rgb"
-	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_orange"
-	customred			0.825
-	customgreen			0.474
-	customblue			0.120
+	skin				"212"
+	uishader			"models/players/clonetrooper_p2/mb2_icon_212"
 	MBClass				MB_CLASS_ARCTROOPER
 	classNumberLimit	1
 }
