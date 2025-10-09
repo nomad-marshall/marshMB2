@@ -88,16 +88,16 @@ c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
 c_att_names_15 "Strength"
 c_att_ranks_15 0,0
 c_att_skill_16 MB_ATT_TRAD_BOWCASTER
-c_att_names_16 "Trad. Wookiee Bowcaster"
+c_att_names_16 "Trad Wookiee Bowcaster"
 c_att_ranks_16 0,0,0
 c_att_skill_17 MB_ATT_UGL
 c_att_names_17 "DC-17m Anti-Armor (UGL)"
 c_att_ranks_17 0,0
 c_att_descs_17 "25% slower RoF"
 c_att_skill_18 MB_ATT_MICRO_GRENADES
-c_att_names_18 "> DC-17m Conc. Grenades (6)"
+c_att_names_18 "> DC-17m Rounds (6)"
 c_att_ranks_18 0
-c_att_descs_18 "Cannot be hand-thrown, 60% less DMG"
+c_att_descs_18 "Cannot be hand-thrown, 50% less DMG"
 c_att_skill_19 MB_ATT_DET_PACK
 c_att_names_19 "Det Packs"
 c_att_ranks_19 0,0,0
@@ -119,7 +119,7 @@ c_att_skill_34 MB_ATT_HACK_MULTIPLIER
 c_att_names_34 "Hack Speed (118%)"
 c_att_ranks_34 0
 c_att_skill_35 MB_ATT_POWER
-c_att_names_35 "Extra Stamina (140)"
+c_att_names_35 "Extra Stamina Pool (140)"
 c_att_ranks_35 0
 }
 WeaponInfo0
@@ -195,10 +195,8 @@ WeaponToReplace WP_UGL
 WeaponBasedOff WP_UGL
 NewWorldModel	"models/weapons2/DC-17m/launcher.glm"
 NewViewModel	"models/weapons2/DC-17m/launcher.md3"
-altflashsound0 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound1 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound2 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound3 "sound/weapons/dc-17m/alt_fire.wav"
+FlashSound0 "sound/weapons/upl/fire_mortar.wav"
+altFlashSound0 "sound/weapons/dc17m/alt_fire.wav"
 Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
@@ -211,11 +209,15 @@ WeaponBasedOff WP_CONC_NADE
 NewWorldModel "models/weapons2/dummyblaster/model.glm"
 NewViewModel "models/weapons2/dummy/dummy.md3"
 Icon	"gfx/hud/w_icon_v-59_conc"
-WeaponName "DC-17m Concussion Grenades"
+WeaponName "DC-17m ICWS Anti-Armor Rounds"
+MissileEffect "effects/flechette/alt_shot"
+altMissileEffect "effects/flechette/alt_shot"
+MissileMissEffect "wook_rocket/wall_impact"
+altMissileMissEffect "wook_rocket/wall_impact"
 primfireenabled 0
 altFireEnabled 0
 customAmmo 6
-damageMod .4
+damageMod .5
 }
 WeaponInfo5
 {
