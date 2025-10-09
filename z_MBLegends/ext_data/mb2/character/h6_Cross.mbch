@@ -6,26 +6,24 @@ ClassInfo
 	MBClass	MB_CLASS_ARCTROOPER
 	classNumberLimit	1
 	
-	weapons	WP_MELEE|WP_PULSE_NADE|WP_PROJ|WP_FRAG_NADE|WP_SABER|WP_M5|WP_CLONE_PISTOL
+	weapons	WP_MELEE|WP_PULSE_NADE|WP_PROJ|WP_FRAG_NADE|WP_SABER|WP_CLONE_PISTOL|WP_EE4
 	
-	attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_FLIPKICK,1|MB_ATT_TRACKING_BEACON|MB_ATT_WESTARM5,2|MB_ATT_ARC_RIFLE_SCOPE|MB_ATT_TRACKING_DART,4
+	attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,1|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_FLIPKICK,1|MB_ATT_TRACKING_BEACON|MB_ATT_TRACKING_DART,4|MB_ATT_EE4,3
 	
-	maxhealth	125
-	maxarmor		125
+	maxhealth	120
+	maxarmor		100
 	forcepool 	100
-	forceregen 	1
 	resource		RESOURCE_STAMINA
 	
-	BPmultiplier		0
-	saber1		legends_Knife
+	BPmultiplier	0
+	saber1		cross_knife
 	saberstyle	SS_TAVION
-	saberdamage 	82 //90
+	saberdamage 	90
 	
 	holdables	HI_BINOCULARS
-
-	WP_ProjFlags 			HELD_PULSE
-
-	damageGiven 1.1
+	WP_EE4Flags HELD_ALTRELOAD
+	WP_ClonePistolFlags HELD_ALTRELOAD
+	WP_ProjFlags 	HELD_ALTRELOAD|HELD_PULSE
 	speed   1.09
 	
 	modelscale  1.02
@@ -61,29 +59,47 @@ WeaponInfo1
 	NewWorldModel	"models/weapons2/me3-widow/disruptor_w.glm"
 	NewViewModel	"models/weapons2/me3-widow/disruptor.md3"
 	Icon		"Gfx\MPLevels\ultimate_showdown\widow_na.png"
-	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
+	FlashSound0 "sound/weapons/dc17m/fire.wav"
+	altFlashSound0 "sound/weapons/dc17m/fire.wav"
 	WeaponName			"773 Firepuncher Rifle Pulse Config"  
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot10B"	
-	CustomAmmo 	18
+	CustomAmmo 	24
 	fpmult	1.15
-	ReloadTimeModifier 	0.8
 	velocityMod 1.15
+	damageMod 1.15
+	selectSound "sound/weapons/silencedpistol/select.wav"
+	hasAnimOverrides 1
+	animReady BOTH_DC15_IDLE
+	animReadyWalk BOTH_DC15_IDLE 
+	animReadyNoAmmo BOTH_AMBAN_AIM_ATTACK
+	animAttack BOTH_AMBAN_AIM_ATTACK
+	animAttackWalk BOTH_AMBAN_AIM_ATTACK
 }
 
 WeaponInfo2
 {
-	WeaponToReplace	WP_M5					 
-	WeaponBasedOff   WP_M5	
+	WeaponToReplace	WP_EE4					 
+	WeaponBasedOff  WP_EE4
 	NewWorldModel	"models/weapons2/me3-widow/disruptor_w.glm"
 	NewViewModel	"models/weapons2/me3-widow/disruptor.md3"
 	Icon		"Gfx\MPLevels\ultimate_showdown\widow_na.png"
-	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
+	FlashSound0 "sound/weapons/dc17m/fire.wav"
+	altFlashSound0 "sound/weapons/dc17m/fire.wav"
 	WeaponName			"773 Firepuncher Rifle Standard Config"  
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot10B"	
-	rateMod 2.5
-	velocityMod 1.15
+	rateMod 2
+	clipSize 90
+	velocityMod 1.2
+	damageMod 1.1
+	hasAnimOverrides 1
+	animReady BOTH_AMBAN_READY
+	animReadyWalk BOTH_AMBAN_READY
+	animReadyNoAmmo BOTH_AMBAN_ATTACK
+	animAttack BOTH_AMBAN_ATTACK
+	animAttackWalk BOTH_AMBAN_ATTACK
+	selectSound "sound/weapons/silencedpistol/select.wav"
 }	
 WeaponInfo3
 {
@@ -92,37 +108,56 @@ WeaponInfo3
 	NewWorldModel	"models/weapons2/me3-widow/disruptor_w.glm"
 	NewViewModel	"models/weapons2/me3-widow/disruptor.md3"
 	Icon		"Gfx\MPLevels\ultimate_showdown\widow_na.png"
-	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
+	FlashSound0  "sound/weapons/dc17m/fire.wav"
+	altFlashSound0 "sound/weapons/dc17m/fire.wav"
 	WeaponName			"773 Firepuncher Rifle Ricochet Config"  
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"Blaster/Shot10B"	
+	altMuzzleEffect	"Blaster/MuzzleFlash01B"
+	altMissileEffect	"Blaster/Shot10B"	
+	ChargeEffect null
+	ChargeSound null
 	primFireEnabled 0
-	rateMod .5
 	velocityMod 1.15
+	damageMod 2
+	fpmult 2
+	hasAnimOverrides 1
+	animReady BOTH_DC15_IDLE
+	animReadyWalk BOTH_DC15_IDLE 
+	animReadyNoAmmo BOTH_AMBAN_AIM_ATTACK
+	animAttack BOTH_AMBAN_AIM_ATTACK
+	animAttackWalk BOTH_AMBAN_AIM_ATTACK
+//	animReady TORSO_WEAPONREADY2
+//	animReadyWalk TORSO_WEAPONREADY2
+//	animReadyNoAmmo BOTH_ATTACK2 
+//	animAttack BOTH_ATTACK2
+	//animAttackWalk BOTH_ATTACK2
+	animCharge BOTH_AMBAN_READY
+	selectSound "sound/weapons/silencedpistol/select.wav"
 }
 description	"CT-9904 aka 'Crosshair' [ARC Trooper]
 
-A dexterous class with an all-in-one sniper rifle.
+A dexterous class with an all-in-one rifle.
 
 ^2Weaponry:
 - Melee
 - Crosshair's Vibroknife (Cyan Saber)
 -- No Saber/Blaster Block
--- 31% less DMG
+-- 25% less DMG
 -- 60% less reach
 -- Slap ^3[Gunbash]
 - 773 Firepuncher Rifle Ricochet Config (Clone Pistol 2)
--- 50% faster RoF
--- 15% faster velocity
+-- 100% more DMG/FP DMG
+-- 15% more velocity
+-- Mag reload
 -- Sec. only
-- 773 Firepuncher Rifle Standard Config (WESTAR-M5 2 + Scope)
--- 15% faster velocity
--- 150% slower RoF
+- 773 Firepuncher Rifle Standard Config (EE-4 3)
+-- 10% more DMG
+-- 20% more velocity
+-- 100% slower RoF
+-- Mag reload
 - 773 Firepuncher Rifle Pulse Config (Proj)
 -- Electrifies targets
--- 15% faster velocity
--- 15% more FP DMG
--- 20% faster reload
+-- 15% more DMG/FP DMG/velocity
+-- Mag reload
 - Frag Grenade (1)
 - Pulse Grenades (2)
 
@@ -130,10 +165,10 @@ A dexterous class with an all-in-one sniper rifle.
 - Electrobinoculars
 
 ^8Attributes:
-- Stamina (3)
+- Stamina (1)
 - Dexterity (3)
 - Blast Armor
-- Healing (2)
+- Healing (1)
 - Tracking Beacon
 
 ^3Abilities:
