@@ -205,19 +205,20 @@ rateMod 1.25
 WeaponInfo4
 {
 WeaponToReplace WP_CONC_NADE
-WeaponBasedOff WP_CONC_NADE
+WeaponBasedOff WP_M5
 NewWorldModel "models/weapons2/dummyblaster/model.glm"
 NewViewModel "models/weapons2/dummy/dummy.md3"
-Icon	"gfx/hud/w_icon_v-59_conc"
-WeaponName "DC-17m ICWS Anti-Armor Rounds"
-MissileEffect "effects/flechette/alt_shot"
-altMissileEffect "effects/flechette/alt_shot"
+Icon	"gfx/hud/mgs/weapon_melee"
+WeaponName ""
+MissileEffect "flechette/alt_shot"
+altMissileEffect "flechette/alt_shot"
 MissileMissEffect "wook_rocket/wall_impact"
 altMissileMissEffect "wook_rocket/wall_impact"
 primfireenabled 0
 altFireEnabled 0
 customAmmo 6
 damageMod .5
+selectSound "sound/chars/clone_rc/misc/gasp.mp3"
 }
 WeaponInfo5
 {
