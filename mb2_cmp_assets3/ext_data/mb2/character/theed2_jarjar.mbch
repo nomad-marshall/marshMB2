@@ -10,10 +10,10 @@ ClassInfo
 	forcepowers		FP_LEVITATION,2
 	forcepool		50
 	maxhealth		250
-	model			"jarjar" 				//this is optional, if it's here it forces the model to this.
-	skin			"default"					//this is optional, if it's here it forces the skin to this.
+	model			"gungan" 				//this is optional, if it's here it forces the model to this.
+	skin			"jarjar_cl"					//this is optional, if it's here it forces the skin to this.
 	modelscale		1.1
-	uishader		"models/players/jarjar/mb2_icon_default"
+	uishader		"models/players/gungan/mb2_icon_jarjar_cl"
 	MBClass			MB_CLASS_ARCTROOPER	
 	classNumberLimit	1
 	classflags		CFL_BPFREEJUMPS
