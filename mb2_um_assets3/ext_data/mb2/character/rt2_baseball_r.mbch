@@ -3,9 +3,9 @@ ClassInfo
 	name			"rt2_baseball_r"
 	MBClass			MB_CLASS_ELITETROOPER
   
-	model			"jarjar"
-	skin			"default"
-	uishader			"models/players/jarjar/mb2_icon_default"
+	model			"gungan"
+	skin			"jarjar_cl"
+	uishader			"models/players/gungan/mb2_icon_jarjar_cl"
   
 	model_1			"wookieev2"
 	skin_1			"albino"
