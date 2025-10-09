@@ -28,7 +28,7 @@ ClassInfo
 	
 	modelscale  1.02
 	model	"clonerc2"
-	skin		"crosshair"
+	skin		"crosshair_legends"
 	uishader	"models/players/clonerc2/mb2_icon_crosshair"
 	uioverlay "gfx/icons/scout"
 	
