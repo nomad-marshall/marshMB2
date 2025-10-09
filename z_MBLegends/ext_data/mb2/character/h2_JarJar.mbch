@@ -49,9 +49,13 @@ Classinfo
 	
 	classflags CFL_BLOODYMELEE
 	
- 	model 			"jarjar"					
- 	skin				"default"	
-	uishader			"models/players/jarjar/mb2_icon_default"
+ 	model 			"gungan"					
+ 	skin				"jarjar_cl"	
+	uishader			"models/players/gungan/mb2_icon_jarjar_cl"
+
+ 	model_1			"gungan"					
+ 	skin_1				"jarjar"	
+	uishader_1			"models/players/gungan/mb2_icon_jarjar"
 
 	WalkForward		BOTH_WALK7
 	WalkBackward 		BOTH_WALK7

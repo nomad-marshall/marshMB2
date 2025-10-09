@@ -90,8 +90,12 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 	uishader_11 "models/players/clonetrooper_p2/mb2_icon_41"
 
 	model_12    "clonetrooper_p2"
-	skin_12     "104"
-	uishader_12 "models/players/clonetrooper_p2/mb2_icon_104"
+	skin_12     "104_rgb"
+	uishader_12 "models/players/clonetrooper_p2/mb2_icon_104_rgb"
+                userRGB_12 	1
+	customred_12 		0.502
+	customgreen_12	0.502
+	customblue_12 	0.502 //def grey
 
 	model_13    "clonetrooper_p2"
 	skin_13     "212"
