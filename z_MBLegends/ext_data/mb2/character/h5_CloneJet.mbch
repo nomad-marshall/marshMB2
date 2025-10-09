@@ -44,11 +44,8 @@ ClassInfo
 	uishader_1		"gfx/hud/FA_icons/mb2_icon_clonep2_501_jp_blue"
 	
 	model_2			"clonetrooper_p2"
-	skin_2			"501_jetpack_rgb"
-	customred_2		0.576
-	customgreen_2	0.521
-	customblue_2	0.427
-	uishader_2		"gfx/hud/FA_icons/mb2_icon_clonep2_legendsjet"
+	skin_2			"rc_jetpack"
+	uishader_2		"gfx/hud/FA_icons/mb2_icon_rc_jetpack"
 	
 	model_3			"clonetrooper_p1"
 	skin_3			"legendsjet_bf1"
