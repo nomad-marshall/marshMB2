@@ -80,7 +80,7 @@ c_att_ranks_1	1,1
 c_att_skill_2	MB_ATT_MICRO_GRENADES
 c_att_names_2	"Concussion Grenades (4)"
 c_att_ranks_2	4
-c_att_descs_2 "40% less DMG"
+c_att_descs_2 "50% less DMG"
 }
 
 WeaponInfo0
@@ -182,10 +182,8 @@ WeaponToReplace WP_UGL
 WeaponBasedOff WP_UGL
 NewWorldModel	"models/weapons2/DC-17m/launcher.glm"
 NewViewModel	"models/weapons2/DC-17m/launcher.md3"
-altflashsound0 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound1 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound2 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound3 "sound/weapons/dc-17m/alt_fire.wav"
+FlashSound0 "sound/weapons/upl/fire_mortar.wav"
+altFlashSound0 "sound/weapons/dc17m/alt_fire.wav"
 Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
@@ -193,16 +191,16 @@ selectSound "sound/weapons/dc17m/select.mp3"
 
 WeaponInfo5
 {
-	WeaponToReplace WP_CONC_NADE
-	WeaponBasedOff WP_CONC_NADE
-	NewWorldModel	"models/weapons2/v-59_concussion/v-59_conc_w.glm"
-	NewViewModel	"models/weapons2/v-59_concussion/v-59_conc.md3"
-	MissileModel 	"models/weapons2/v-59_concussion/v-59_conc_proj.md3"
-	NewHandsModel	"models/weapons2/v-59_concussion/v-59_conc_hand.md3"
-	Icon	"gfx/hud/w_icon_V-59_conc"
-	WeaponName	"Concussion Grenades"
-	customAmmo 4
-	damageMod .6
+WeaponToReplace WP_CONC_NADE
+WeaponBasedOff WP_CONC_NADE
+NewWorldModel	"models/weapons2/v-59_concussion/v-59_conc_w.glm"
+NewViewModel	"models/weapons2/v-59_concussion/v-59_conc.md3"
+MissileModel 	"models/weapons2/v-59_concussion/v-59_conc_proj.md3"
+NewHandsModel	"models/weapons2/v-59_concussion/v-59_conc_hand.md3"
+Icon	"gfx/hud/w_icon_V-59_conc"
+WeaponName	"Concussion Grenades"
+customAmmo 4
+damageMod .5
 }
 
 WeaponInfo6
