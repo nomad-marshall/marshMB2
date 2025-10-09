@@ -8,9 +8,9 @@ ClassInfo
 	forcepool 40
 	forceregen  0.8
 	speed 1.2
-	model "jarjar"
-	skin  "zombie"
-	uishader  "models/players/jarjar/mb2_icon_zombie"
+	model "gungan"
+	skin  "jarjar_jclz"
+	uishader  "models/players/gungan/mb2_icon_jarjar_jclz"
 	MBClass MB_CLASS_MANDALORIAN
 	classNumberLimit  1
 	classflags  CFL_HEAVYMELEE|CFL_STRONGAGAINSTPHYSICAL
