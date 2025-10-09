@@ -81,7 +81,7 @@ WeaponInfo0
 	AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 	FPMult				1.15
 	rateMod 0.95
-	customAmmo 650
+	customAmmo 700
 }
 
 WeaponInfo1
