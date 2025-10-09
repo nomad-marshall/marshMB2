@@ -245,6 +245,7 @@ WeaponToReplace WP_STUN_BATON
 WeaponBasedOff WP_STUN_BATON
 NewWorldModel "models/weapons2/fc_f187/f187.glm"
 NewViewModel "models/weapons2/fc_f187/f187.md3"
+NewHandsModel "models/weapons2/fc_f187/f187_hand.md3"
 Icon "gfx/hud/w_icon_fc_f187_all"
 WeaponName "F-187 Fusioncutter"
 hasAnimOverrides 1
