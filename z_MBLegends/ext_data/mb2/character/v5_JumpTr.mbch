@@ -17,7 +17,6 @@ ClassInfo
     modelscale			1.13
 	classNumberLimit		2
 	speed              	1.0
-	rateOfFire     		1.2
 	
 	knockbackTaken 0.9
 	
@@ -80,6 +79,7 @@ WeaponInfo0
 	clipSize 				48
 	ReloadTimeModifier 		1.15
 	damageMod 0.95
+	Ratemod 1.2
 }
 
 WeaponInfo1
@@ -106,6 +106,7 @@ A 2-life Jetpack user with a unique suppression Repeater and a micro-Rocket Laun
 ^2Weaponry:
 - Melee
 - Imperial Heavy Repeater
+-- 20% slower RoF
 -- 5% less DMG
 -- 25% less FP DMG
 -- 15% slower mag reload
