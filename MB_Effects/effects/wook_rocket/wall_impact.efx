@@ -3,16 +3,16 @@ Particle
 	name				OrangeGlow
 	flags				setShaderTime
 	count				8
-	life				1300
-	delay				0 200
+	life				1000
+	delay				0 0
 	origin				4 -30 -30 20 30 30
 	rotation			0 360
 	rotationDelta		-2 2
 	velocity			5 -10 -10 10 10 10
 	size
 	{
-		start			2 8
-		end				35 60
+		start			4 6
+		end				125 125
 		parm			5 25
 		flags			linear clamp
 	}
@@ -35,9 +35,9 @@ Particle
 
 	life				1500 2500
 
-	delay				300
+	delay				0
 
-	cullrange			1200
+	cullrange			1100
 
 	origin				0 -25 -25 20 25 25
 
@@ -74,26 +74,6 @@ Particle
 	[
 		gfx/misc/steam
 	]
-}
-
-Light
-{
-	name				Flash
-
-	life				950
-
-	alpha
-	{
-		end				0
-		flags			random linear
-	}
-
-	size
-	{
-		start			350
-		end				100
-		flags			linear
-	}
 }
 
 Particle
@@ -163,11 +143,15 @@ Sound
 
 Decal
 {
+	delay    150
 	size
 	{
-		start			20 30
-	}
+		start		70 80
 
+	}
+	
+	life		10000
+	
 	shaders
 	[
 		gfx/damage/burnmark4
