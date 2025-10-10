@@ -520,7 +520,7 @@
 			name				dualsPerk1
 			group				Stats
 			style				WINDOW_STYLE_TEXT_RGB1
-			text				"10% increased damage on Perfect Block Counter.\nStacks with Manual Block Counters, and\napplies to parries as well."
+			text				"Specials damage scales with ACM."
 			rect 				6 214 20 14
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			8
@@ -539,7 +539,7 @@
 			name				dualsPerk2
 			group				Stats
 			style				WINDOW_STYLE_TEXT_RGB1
-			text				"Specials damage scale with ACM."
+			text				"10% increased damage on Perfect\nBlock Counter. Stacks with MBC and\napplies to parries as well."
 			rect 				6 240 20 14
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			8
@@ -716,7 +716,7 @@
 			name				staffPerk2
 			group				Stats
 			style				WINDOW_STYLE_TEXT_RGB1
-			text				"Spin attacks deal 75% extra damage."
+			text				"Spin attacks do 75% extra damage."
 			rect 				6 276 20 14
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			8
@@ -816,7 +816,7 @@
 			backcolor			1 1 1 0.15
 			visible				1
 			cvarTest "ui_help_performance"
-			hideCvar {"1"}
+			hideCvar {"1", "2"}
 			decoration
 		}
 
@@ -830,7 +830,7 @@
 			background			"gfx/menus/Alpha/Icon_Weap_Point"
 			visible				1
 			cvarTest "ui_help_performance"
-			hideCvar {"1"}
+			hideCvar {"1", "2"}
 			decoration
 		}
 
