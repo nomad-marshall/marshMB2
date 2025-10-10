@@ -307,6 +307,7 @@
 		}
 	
 		// Force Stasis assign
+		/*
 		itemDef
 		{
 			name				setfp_team_force
@@ -339,6 +340,7 @@
 				setcolor	 	forecolor 1 1 1 0.8
 			}
 		}
+		*/
 
 		// DARKSIDE POWERS
 		// Force Grip title

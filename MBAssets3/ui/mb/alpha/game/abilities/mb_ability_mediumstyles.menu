@@ -520,7 +520,7 @@
 			name				dualsPerk1
 			group				Stats
 			style				WINDOW_STYLE_TEXT_RGB1
-			text				"Gains an extra swing to combo limit\nevery 3 ACM. Infinite at 14 ACM."
+			text				"10% increased damage on Perfect Block Counter.\nStacks with Manual Block Counters, and\napplies to parries as well."
 			rect 				6 214 20 14
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			8
@@ -539,7 +539,7 @@
 			name				dualsPerk2
 			group				Stats
 			style				WINDOW_STYLE_TEXT_RGB1
-			text				"Halfswinging before the end of\ncombo limit results in a combo limit\nreset."
+			text				"Specials damage scale with ACM."
 			rect 				6 240 20 14
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			8
@@ -552,7 +552,7 @@
 			showCvar {"2"}
 			decoration
 		}
-		
+		/*
 		itemDef
 		{
 			name				dualsPerk3
@@ -571,6 +571,7 @@
 			showCvar {"2"}
 			decoration
 		}
+		*/
 
 // =================================
 // ============= STAFF =============
