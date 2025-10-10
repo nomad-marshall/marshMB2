@@ -19,7 +19,7 @@
 			group				none
 			style				WINDOW_STYLE_CINEMATIC
 			rect				0 0 109 127
-			cinematic			"ClassWeapon_SonicGrenade.roq"
+			cinematic			"Lightsaber_SaberDefense.roq"
 			forecolor			1 1 1 1
 			visible				1
 			decoration
