@@ -1,0 +1,213 @@
+//Legends Mode character file - Created by Frenzy & Leos
+
+ClassInfo
+{
+	name  		"v6_Dengar"
+	MBClass 	MB_CLASS_BOUNTY_HUNTER
+	classNumberLimit 1
+	weapons   WP_MELEE|WP_CONC_NADE|WP_SABER|WP_MGL|WP_BLASTER_PISTOL
+
+	attributes  	MB_ATT_AMMO,2|MB_ATT_BLAST_ARMOUR|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_TRACKING_DART,3|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,1|MB_ATT_MGL,1|MB_ATT_STICKY_BOMBS,6|MB_ATT_MAGNETIC_PLATING|MB_ATT_ARC_RIFLE_SCOPE|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_MICRO_GRENADES,2|MB_ATT_PISTOL,3
+
+	basespeed 248
+
+	special1 EAS_HI_POISON
+	special2	EAS_HI_TRACKER
+	special3 EAS_FP_SEE
+	special4	EAS_HI_KICK
+
+	resource RESOURCE_FORCE
+	forcepool 100
+	forceregen 2
+	
+	maxhealth 125
+	maxarmor  120
+	
+	classFlags CFL_HEAVYMELEE|CFL_STRONGAGAINSTPHYSICAL
+	
+	WP_CloneRifleFlags HELD_ALTRELOAD
+	WP_Melee HELD_SPEED
+	WP_SaberFlags HELD_FLAME
+	WP_MGLFlags HELD_ALTRELOAD
+	
+	rateOfFire_Melee 0.8
+	
+	saberMaxChain 1
+	saber1 fblade
+	saberStyle SS_TAVION
+	saberDamage 120
+	saberColor 1
+	saberStanceAnim	BOTH_TRIPLE3_STAFFSTANCE
+	
+	BPMultiplier 0
+	ASMultiplier 1.1
+	CSMultiplier 1
+	APMultiplier 1.3
+
+	flourishAnim BOTH_STAND5TOAIM
+	bowAnim BOTH_MAND_FLAME_ATTACK
+	
+	modelscale	1.01
+	model	"dengar"
+	skin		"default"
+	uishader	"models/players/dengar/mb2_icon_default"
+	uioverlay_l "gfx/icons/scout"
+	uioverlay_r "gfx/icons/spec_infantry"
+	
+	isCustomBuild	1
+	mbPoints		1
+	
+	c_att_skill_0	MB_ATT_CLONERIFLE
+	c_att_names_0	"DLT-19 Blaster Rifle (CR)"
+	c_att_ranks_0	1,0
+	c_att_descs_0 "10% more DMG, 8% faster RoF, Mag reload"
+	c_att_skill_1	MB_ATT_WESTARM5
+	c_att_names_1	"Valken-38x Blaster Rifle (M5)"
+	c_att_ranks_1	1,0
+	c_att_descs_1 "25% more DMG/FP DMG, 10% faster reload, 100% slower RoF"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace WP_CLONE_RIFLE
+	WeaponBasedOff  WP_CLONE_RIFLE
+	NewWorldModel "models/weapons2/DLT-19_HeavyBlaster/model_scope.glm"
+	NewViewModel  "models/weapons2/dummy/dummy.md3"
+	Icon  "gfx/hud/w_icon_dlt19scoped"
+	WeaponName  "DLT-19 Heavy Blaster Rifle"
+	FlashSound0	"sound/weapons/DLT19/fire.wav"
+	MuzzleEffect  "Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	MissileMissEffect "Blaster/impact_wall01"
+	customAmmo         750
+	damageMod 1.10
+	clipsize 85
+	rateMod 0.92
+}
+
+WeaponInfo1
+{
+	WeaponToReplace			WP_CONC_NADE
+	WeaponBasedOff			WP_CONC_NADE
+	NewWorldModel				"models/weapons2/thermal/thermal_w.glm"
+	NewViewModel				"models/weapons2/thermal/thermal_hand.md3"
+	Icon						"gfx/hud/w_thermal_grenade"
+	MissileModel 				"models/weapons2/thermal/thermal_proj.md3"
+	AltMissileModel			"models/weapons2/thermal/thermal_proj.md3"
+	MissileEffect 			"stone/missile1"
+	AltMissileEffect 			"stone/missile1"
+	MissileMissEffect			"smokenadeleg/explode_vol"
+	MissileHitHumanEffect	"smokenadeleg/explode_vol"
+	MissileHitDroidEffect	"smokenadeleg/explode_vol"
+	AltMissileMissEffect		"smokenadeleg/explode_vol"
+	AltMissileHitHumanEffect	"smokenadeleg/explode_vol"
+	AltMissileHitDroidEffect	"smokenadeleg/explode_vol"
+	FlashSound0		"sound/weapons/smokenade/select.mp3"
+	AltFlashSound0 	"sound/weapons/smokenade/select.mp3"
+	WeaponName  				"Smoke Grenades"
+	hasAnimOverrides 1
+	animReady 	BOTH_THERMAL_READY2
+	animReadyWalk BOTH_THERMAL_READY2
+	animReadyNoAmmo  BOTH_THERMAL_READY2
+	animAttack 	BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
+	animCharge 	BOTH_SABERDUAL_STANCE
+	damageMod 0.001
+	ratemod 0.6
+}
+WeaponInfo2
+{
+	WeaponToReplace	WP_M5
+	WeaponBasedOff    WP_M5	
+	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+	Icon  "gfx/hud/w_icon_dlt-18"
+	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"
+	altFlashSound0 "sound/weapons/dc-17/fire_scope.wav"
+	WeaponName	"Valken-38x Blaster Rifle"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot10R"
+	MissileMissEffect "Blaster/Impact_Wall01R"
+	MissileHitHumanEffect "Blaster/Impact_flesh"
+	MissileHitDroidEffect "Blaster/Impact_droid"
+	altMuzzleEffect		"Blaster/MuzzleFlash01R"
+	altMissileEffect		"Blaster/Shot09R"
+	altMissileMissEffect 	"Blaster/Impact_Wall01R"
+	altMissileHitHumanEffect "Blaster/Impact_flesh"
+	altMissileHitDroidEffect "Blaster/Impact_droid"
+	damageMod 1.25
+	fpmult	1.25
+	ReloadTimeModifier 	0.9
+	rateMod 2
+	clipSize 48
+	customAmmo 480
+}
+WeaponInfo3
+{
+	WeaponToReplace	WP_MGL
+	WeaponBasedOff	WP_MGL
+	NewWorldModel	"models/weapons2/detpack/det_pack_w.glm"
+	NewViewModel	"models/weapons2/detpack/det_pack.md3"
+	NewHandsModel "models/weapons2/detpack/det_pack_hand.md3"
+	Icon			"gfx/hud/w_icon_detpack"
+	WeaponName	"Sticky Bombs"
+	MuzzleEffect null
+	MissileEffect "stone/missile1"
+	FlashSound0 	"sound/weapons/stone/fire.mp3"
+	rateMod 3
+	clipSize 18
+	customAmmo -1
+	altFireEnabled 0
+	hasAnimOverrides 1
+	animReady 	BOTH_THERMAL_READY2
+	animReadyWalk BOTH_THERMAL_READY2
+	animReadyNoAmmo BOTH_THERMAL_THROW2
+	animAttack 	  BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
+	animStand 	BOTH_SABERDUAL_STANCE
+	animCharge 	BOTH_SABERDUAL_STANCE
+}
+WeaponInfo4
+{
+	WeaponToReplace WP_SABER
+	WeaponBasedOff  WP_SABER
+	NewWorldModel		"models/weapons2/dummyblaster/model.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon			"gfx/hud/w_icon_lightsaber"
+	WeaponName		"Dengar's Fire Blade"
+}
+description	"Dengar [Bounty Hunter]
+
+A ruthless assault class who likes to bring his bounties in cold.
+
+^2Default Weaponry:
+- Heavy Melee
+-- 20% faster RoF
+-- 15% faster movement
+- Dengar's Fire Blade (Cyan Saber)
+-- No Saber/Blaster Block
+-- Ignites on hit
+-- 62% less range
+-- 33% more radius
+-- Slap ^3[GB]
+- DL-21 Blaster Pistol (3)
+- Smoke Grenades (2) (Conc Grenades)
+-- Obscures vision
+-- 40% faster RoF
+-- 99.9% less DMG
+- Sticky Bombs (6) (MGL 1)
+-- 200% slower RoF
+-- Prim. only
+-- Mag reload
+
+^8Attributes:
+- Dexterity (1)
+- Blast Armor
+- Magnetic Plating
+- Physical Resist
+- Armor Regen (1)
+- Tracking Beacon
+
+^3Abilities:
+- Tracking Darts (6) ^3[CS2 Melee]
+- Gun Kick ^3[CS2 Gun/4]"
