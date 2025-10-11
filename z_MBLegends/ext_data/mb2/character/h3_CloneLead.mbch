@@ -44,60 +44,57 @@ ClassInfo
 	uishader		"models/players/clonetrooper_p2/mb2_icon_212_cody"
 	
 	model_1			"clonetrooper_p2"
-	skin_1			"501_rex"
-	uishader_1		"models/players/clonetrooper_p2/mb2_icon_501_rex"
+	skin_1			"fives"
+	uishader_1		"models/players/clonetrooper_p2/mb2_icon_fives"
 	
 	model_2			"clonetrooper_p2"
-	skin_2			"fives"
-	uishader_2		"models/players/clonetrooper_p2/mb2_icon_fives"
+	skin_2			"gree"
+	uishader_2		"models/players/clonetrooper_p2/mb2_icon_gree"
 	
 	model_3			"clonetrooper_p2"
-	skin_3			"gree"
-	uishader_3		"models/players/clonetrooper_p2/mb2_icon_gree"
+	skin_3			"nemec"
+	uishader_3		"models/players/clonetrooper_p2/mb2_icon_nemec"
 	
 	model_4			"clonetrooper_p2"
-	skin_4			"nemec"
-	uishader_4		"models/players/clonetrooper_p2/mb2_icon_nemec"
-	
-	model_5			"clonetrooper_p2"
-	skin_5			"21_bacara"
-	uishader_5		"models/players/clonetrooper_p2/mb2_icon_21_bacara"
+	skin_4			"21_bacara"
+	uishader_4		"models/players/clonetrooper_p2/mb2_icon_21_bacara"
 
+	model_5			"clonetrooper_p2"
+	skin_5			"91_neyo"
+	uishader_5		"models/players/clonetrooper_p2/mb2_icon_91_neyo"
+	
 	model_6			"clonetrooper_p2"
-	skin_6			"91_neyo"
-	uishader_6		"models/players/clonetrooper_p2/mb2_icon_91_neyo"
+	skin_6			"104_wolffe"
+	uishader_6		"models/players/clonetrooper_p2/mb2_icon_104_wolffe"
 	
 	model_7			"clonetrooper_p2"
-	skin_7			"104_wolffe"
-	uishader_7		"models/players/clonetrooper_p2/mb2_icon_104_wolffe"
+	skin_7			"327_bly"
+	uishader_7		"models/players/clonetrooper_p2/mb2_icon_327_bly"
 	
 	model_8			"clonetrooper_p2"
-	skin_8			"327_bly"
-	uishader_8		"models/players/clonetrooper_p2/mb2_icon_327_bly"
+	skin_8			"327_deviss"
+	uishader_8		"models/players/clonetrooper_p2/mb2_icon_327_deviss"
 	
 	model_9			"clonetrooper_p2"
-	skin_9			"327_deviss"
-	uishader_9		"models/players/clonetrooper_p2/mb2_icon_327_deviss"
+	skin_9			"doom"
+	uishader_9		"models/players/clonetrooper_p2/mb2_icon_doom"
 	
 	model_10		"clonetrooper_p2"
-	skin_10			"doom"
-	uishader_10		"models/players/clonetrooper_p2/mb2_icon_doom"
+	skin_10			"fordo"
+	uishader_10		"models/players/clonetrooper_p2/mb2_icon_fordo"
 	
 	model_11		"clonetrooper_p2"
-	skin_11			"fordo"
-	uishader_11		"models/players/clonetrooper_p2/mb2_icon_fordo"
+	skin_11			"thorn"
+	uishader_11		"models/players/clonetrooper_p2/mb2_icon_thorn"
 	
 	model_12		"clonetrooper_p2"
-	skin_12			"thorn"
-	uishader_12		"models/players/clonetrooper_p2/mb2_icon_thorn"
+	skin_12			"fox"
+	uishader_12		"models/players/clonetrooper_p2/mb2_icon_fox"
 	
-	model_13		"clonetrooper_p2"
-	skin_13			"fox"
-	uishader_13		"models/players/clonetrooper_p2/mb2_icon_fox"
-	
-	model_14		"clonerc2"
-	skin_14			"hunter"
-	uishader_14		"models/players/clonerc2/mb2_icon_hunter"
+	model_13		"clonerc2"
+	skin_13			"hunter"
+	uishader_13		"models/players/clonerc2/mb2_icon_hunter"
+
 
 	
 	isCustomBuild	1
