@@ -8,7 +8,7 @@ ClassInfo
 	
 	weapons	WP_MELEE|WP_PULSE_NADE|WP_PROJ|WP_FRAG_NADE|WP_SABER|WP_CLONE_PISTOL|WP_EE4
 	
-	attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,1|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_FLIPKICK,1|MB_ATT_TRACKING_BEACON|MB_ATT_TRACKING_DART,4|MB_ATT_EE4,3
+	attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,1|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_FLIPKICK,1|MB_ATT_TRACKING_BEACON|MB_ATT_TRACKING_DART,4|MB_ATT_EE4,2
 	
 	maxhealth	120
 	maxarmor		100
@@ -67,9 +67,9 @@ WeaponInfo1
 	MissileMissEffect "Blaster/impact_wall01b"
 	AltMissileMissEffect "Blaster/impact_wall01b"
 	CustomAmmo 	24
-	fpmult	1.15
-	velocityMod 1.15
-	damageMod 1.15
+	fpmult	1.1
+	velocityMod 1.1
+	damageMod 1.1
 	selectSound "sound/weapons/silencedpistol/select.wav"
 	hasAnimOverrides 1
 	animReady BOTH_DC15_IDLE
@@ -77,6 +77,7 @@ WeaponInfo1
 	animReadyNoAmmo BOTH_AMBAN_AIM_ATTACK
 	animAttack BOTH_AMBAN_AIM_ATTACK
 	animAttackWalk BOTH_AMBAN_AIM_ATTACK
+	reloadTimeModifier 1.75
 }
 
 WeaponInfo2
@@ -97,9 +98,12 @@ WeaponInfo2
 	MissileMissEffect "Blaster/impact_wall01b"
 	AltMissileMissEffect "Blaster/impact_wall01b"
 	rateMod 2
-	clipSize 90
-	velocityMod 1.25
+	clipSize 40
+	customAmmo 960
+	velocityMod 1.827
 	damageMod 1.15
+	fpMult 1.15
+		reloadTimeModifier 1.75
 	hasAnimOverrides 1
 	animReady BOTH_AMBAN_READY
 	animReadyWalk BOTH_AMBAN_READY
@@ -123,9 +127,10 @@ WeaponInfo3
 	ChargeEffect null
 	ChargeSound null
 	primFireEnabled 0
-	velocityMod 1.35
-	damageMod 2
-	fpmult 2
+	velocityMod 1.827
+	damageMod 3
+	fpmult 3
+		reloadTimeModifier 1.75
 	hasAnimOverrides 1
 	animReady BOTH_DC15_IDLE
 	animReadyWalk BOTH_DC15_IDLE 
@@ -152,19 +157,19 @@ A dexterous class with an all-in-one rifle.
 -- 60% less reach
 -- Slap ^3[Gunbash]
 - 773 Firepuncher Rifle Ricochet Config (Clone Pistol 2)
--- 100% more DMG/FP DMG
--- 35% more velocity
--- Mag reload
+-- 200% more DMG/FP DMG
+-- 82% more velocity
+-- 75% slower mag reload
 -- Sec. only
-- 773 Firepuncher Rifle Standard Config (EE-4 3)
--- 15% more DMG
--- 25% more velocity
+- 773 Firepuncher Rifle Standard Config (EE-4 2)
+-- 15% more DMG/FP DMG
+-- 82% more velocity
 -- 100% slower RoF
--- Mag reload
+-- 75% slower mag reload
 - 773 Firepuncher Rifle Pulse Config (Proj)
 -- Electrifies targets
--- 15% more DMG/FP DMG/velocity
--- Mag reload
+-- 10% more DMG/FP DMG/velocity
+-- 75% slower mag reload
 - Frag Grenade (1)
 - Pulse Grenades (2)
 
