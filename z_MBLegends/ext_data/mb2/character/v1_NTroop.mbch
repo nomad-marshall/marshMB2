@@ -18,23 +18,25 @@ ClassInfo
 	rateOfFire							1.25
 	rateOfFire_Melee 1.2
 	
-	damageTaken 						0.5
-	damageGiven      	1.15
+	damageTaken 						0.4
+	damageGiven      	1.2
 	
 	knockbacktaken 			0.5
-	knockbackGiven 			0.5
+	//knockbackGiven 			0.5
 	
 	HealthRegenCap 50
 	HealthRegenRate	500
 	HealthRegenAmount 1
-	
+
 	BPmultiplier		0
 	hackRate 0.95
 	
 	resource RESOURCE_BATTERY
 	forcepool 100
 	baseSpeed 168
-	
+
+	flourishanim	BOTH_STAND5TOAIM
+
 	uioverlay_r 	"gfx/icons/infantry"
 	uioverlay_l 	"gfx/icons/brawler"
 	modelscale 		1
@@ -94,7 +96,7 @@ description	"Night Trooper [Commander]
 
 ^8Attributes:
 - Reinforcements (3)
-- 50% less KB taken/given
+- 50% less KB taken
 - 5% slower Hacking
 - Health Regen: 1/0.5s
 - Assemble (1)"
