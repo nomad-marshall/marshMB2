@@ -71,8 +71,9 @@ SubclassesForClass3
 	Subclass11	"v7_Krennic"
 	Subclass12	"v7_Veers"
 	Subclass13	"v7_Zuck"
-	Subclass14	"v7_Thrawn"
-	Subclass15	"v7_Reelo"
+	Subclass14	"v7_Enoch"
+	Subclass15	"v7_Thrawn"
+	Subclass16	"v7_Reelo"
 }
 
 SubclassesForClass4
