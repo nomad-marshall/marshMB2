@@ -56,14 +56,16 @@ WeaponInfo1
 {
 	WeaponToReplace	WP_PROJ					 
 	WeaponBasedOff   WP_PROJ	
-	NewWorldModel	"models/weapons2/me3-widow/disruptor_w.glm"
-	NewViewModel	"models/weapons2/me3-widow/disruptor.md3"
-	Icon		"Gfx\MPLevels\ultimate_showdown\widow_na.png"
+	NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
+	NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
+	Icon		"gfx/hud/w_icon_som3_rifle"
 	FlashSound0 "sound/weapons/dc17m/fire.wav"
 	altFlashSound0 "sound/weapons/dc17m/fire.wav"
 	WeaponName			"773 Firepuncher Rifle Pulse Config"  
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot10B"	
+	MissileMissEffect "Blaster/impact_wall01b"
+	AltMissileMissEffect "Blaster/impact_wall01b"
 	CustomAmmo 	24
 	fpmult	1.15
 	velocityMod 1.15
@@ -81,18 +83,23 @@ WeaponInfo2
 {
 	WeaponToReplace	WP_EE4					 
 	WeaponBasedOff  WP_EE4
-	NewWorldModel	"models/weapons2/me3-widow/disruptor_w.glm"
-	NewViewModel	"models/weapons2/me3-widow/disruptor.md3"
-	Icon		"Gfx\MPLevels\ultimate_showdown\widow_na.png"
+	NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
+	NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
+	Icon		"gfx/hud/w_icon_som3_rifle"
 	FlashSound0 "sound/weapons/dc17m/fire.wav"
 	altFlashSound0 "sound/weapons/dc17m/fire.wav"
-	WeaponName			"773 Firepuncher Rifle Standard Config"  
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"Blaster/Shot10B"	
+	WeaponName		"773 Firepuncher Rifle Standard Config"  
+	MuzzleEffect	"Blaster/MuzzleFlash01B"
+	altMuzzleEffect "Blaster/Shot10B"
+	MissileEffect	"Blaster/Shot10B"
+	altMissileEffect	"Blaster/Shot10B"
+	Missile3Effect "Blaster/Shot10B"
+	MissileMissEffect "Blaster/impact_wall01b"
+	AltMissileMissEffect "Blaster/impact_wall01b"
 	rateMod 2
 	clipSize 90
-	velocityMod 1.2
-	damageMod 1.1
+	velocityMod 1.25
+	damageMod 1.15
 	hasAnimOverrides 1
 	animReady BOTH_AMBAN_READY
 	animReadyWalk BOTH_AMBAN_READY
@@ -105,9 +112,9 @@ WeaponInfo3
 {
 	WeaponToReplace	WP_CLONE_PISTOL					 
 	WeaponBasedOff   WP_CLONE_PISTOL
-	NewWorldModel	"models/weapons2/me3-widow/disruptor_w.glm"
-	NewViewModel	"models/weapons2/me3-widow/disruptor.md3"
-	Icon		"Gfx\MPLevels\ultimate_showdown\widow_na.png"
+	NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
+	NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
+	Icon		"gfx/hud/w_icon_som3_rifle"
 	FlashSound0  "sound/weapons/dc17m/fire.wav"
 	altFlashSound0 "sound/weapons/dc17m/fire.wav"
 	WeaponName			"773 Firepuncher Rifle Ricochet Config"  
@@ -116,7 +123,7 @@ WeaponInfo3
 	ChargeEffect null
 	ChargeSound null
 	primFireEnabled 0
-	velocityMod 1.15
+	velocityMod 1.35
 	damageMod 2
 	fpmult 2
 	hasAnimOverrides 1
@@ -146,12 +153,12 @@ A dexterous class with an all-in-one rifle.
 -- Slap ^3[Gunbash]
 - 773 Firepuncher Rifle Ricochet Config (Clone Pistol 2)
 -- 100% more DMG/FP DMG
--- 15% more velocity
+-- 35% more velocity
 -- Mag reload
 -- Sec. only
 - 773 Firepuncher Rifle Standard Config (EE-4 3)
--- 10% more DMG
--- 20% more velocity
+-- 15% more DMG
+-- 25% more velocity
 -- 100% slower RoF
 -- Mag reload
 - 773 Firepuncher Rifle Pulse Config (Proj)
