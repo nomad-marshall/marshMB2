@@ -71,6 +71,7 @@ WeaponInfo0
 	WeaponName	"Dual DC-17 Clone Pistols"
 	clipSize 72
 	customAmmo 1080
+	reloadTimeModifier 1.1
 }
 
 description	"CT-7567 aka Captain 'Rex' [Hero]
@@ -81,7 +82,7 @@ A hard-boiled leader with high mobility and powerful Dual Pistols.
 - Melee
 -- 10% faster RoF
 - Dual DC-17 Clone Pistols (4)
--- Mag reload
+-- 10% slower mag reload
 - Pulse Grenades (2)
 
 ^6Inventory:
