@@ -29,10 +29,15 @@ ClassInfo
 	HealthRegenAmount 1
 
 	BPmultiplier		0
-	hackRate 0.95
+	hackRate 1.05
 	
 	resource RESOURCE_BATTERY
 	forcepool 100
+	forceregen 0.1
+	resourceRegenRate 30000
+    resourceRegenCap 100
+    resourceRegenAmount 50
+	
 	baseSpeed 168
 
 	flourishanim	BOTH_STAND5TOAIM
