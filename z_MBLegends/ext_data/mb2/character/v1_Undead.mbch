@@ -5,45 +5,48 @@ ClassInfo
 	extralives		4
 	weapons 		WP_MELEE|WP_STUN_BATON
 
-	WP_MeleeFlags HELD_HEAL
-	WP_StunBatonFlags HELD_POISON|HELD_HIGHDAMAGE|HELD_STUN
+	//WP_MeleeFlags HELD_POISON //HELD_HEAL
+	WP_StunBatonFlags HELD_POISON|HELD_STUN
 	
-	attributes  	MB_ATT_RALLY|MB_ATT_ASSEMBLE,1|MB_ATT_STUN_BATON,1|MB_ATT_GETUPS,0|MB_ATT_WOOKIEE_FURY,3|MB_ATT_RECHARGE,3
-	forcepowers FP_RAGE,3
-	maxhealth 	40
-	maxarmor  	200
+	attributes  	MB_ATT_RALLY|MB_ATT_ASSEMBLE,1|MB_ATT_STUN_BATON,1|MB_ATT_GETUPS,0|MB_ATT_WOOKIEE_FURY,3|MB_ATT_HEALING,1
+	forcepowers FP_RAGE,3|FP_HEAL,3
 	
-	hackRate 0.5
-	
-	classflags CFL_DISMEMBERFRAGILE|CFL_BLOODYMELEE|CFL_ACIDBLOOD|CFL_NOPICKUPS
-	
-	disableGunBash 1
-	
-	special1 EAS_FP_RAGE
-	special2 EAS_HI_BARGE
-	
-	damageTaken 	2
-	damageGiven  2
+	maxhealth 	200
+	maxarmor  	25
+	starthealth 5
+		
+	//HealthRegenCap 200
+	//HealthRegenRate	2000
+	//HealthRegenAmount -1
+		
+	damageTaken 	0.25
+	damageGiven  5
 	
 	knockbackTaken 	0.01
 	knockbackGiven 	0.01
-
+	
+	//ResourceRegenCap 25
+	//ResourceRegenAmount -1
+	//ResourceRegenRate 1000
+	
+	forcepool 70
+	forceregen 2
+	resource RESOURCE_RAGE
 	//meleeknockback_flat -50
 	//meleeknockback_mult -22
 	
 	baseSpeed 168
-	skilltimermod 1.3
+	skilltimermod 1.2
 	
-	//HealthRegenCap 	50
-	//HealthRegenRate	500
-	//HealthRegenAmount -1
+	classflags CFL_DISMEMBERFRAGILE|CFL_BLOODYMELEE|CFL_ACIDBLOOD|CFL_NOPICKUPS	
 	
-	//ResourceRegenCap 90
-	//ResourceRegenAmount 5
-	//ResourceRegenRate 1000
+	special1 EAS_FP_RAGE
+	special2 EAS_HI_BARGE
+	special3 EAS_FP_HEAL
 	
-	forcepool 100
-	resource RESOURCE_BATTERY //RESOURCE_RAGE
+	hackRate 4
+	disableGunBash 1
+
 	
 	tauntAnim 	BOTH_MAND_DUAL_PISTOLS_ATTACK
 	gloatAnim 	BOTH_GUNGAN_TAUNT
@@ -58,7 +61,7 @@ ClassInfo
 	WalkBackward BOTH_WALKBACK_DUAL
 	
 	
-	meleeMoves M_KATA
+	meleeMoves M_KATA|M_KICK
 	
 	modelscale 	1
 	uioverlay_r 	"gfx/icons/infantry"
@@ -94,6 +97,7 @@ WeaponInfo0
 	animAttack  	  BOTH_MELEE6
 	animAttackWalk BOTH_MELEE6
 	animStand 	  		LEGS_CHOKING1
+	damageMod 0.25
 }
 
 WeaponInfo1
@@ -122,7 +126,7 @@ WeaponInfo1
 	MissileHitDroidEffect 		null
 	AltMissileHitDroidEffect 	null
 	rateMod 3
-	damageMod 1
+	damageMod 0.8
 }
 
 description "Undead Trooper [Wookiee]
@@ -130,29 +134,33 @@ description "Undead Trooper [Wookiee]
 Brains........................
 
 ^2Weaponry:
-- Zombified (Melee)
--- Passive HP regen
--- Grabs only
+- Zombie Melee
+-- 75% less DMG
+-- Grab/slap only
 - Deadly Squeeze (Stun Baton 1)
 -- Poisons/staggers on hit
--- 100% more DMG
+-- 80% less DMG
 -- 200% slower Rof
 
 ^5Powers:
-- Bloodlust (Dark Rage 3) ^3[CS1]
+- Bio-Frenzy (Dark Rage 3) ^3[CS1]
+- Corpse Feast (Heal 3) ^3[CS3]
 
 ^8Attributes:
 - Reinforcements (4)
+- Starting HP: 5
 - No weapon pickups
 - No Gunbash
+- 100% faster Resource decay
 - 99% less KB taken/given
-- 30% slower skill CD
-- 50% slower Hacking
+- 20% slower skill CD
+- 300% slower Hacking
+- Healing (1)
 - Rally
 - Assemble (1)
 - Getup (0)
-- Infected Blood
 - Fury (3)
+- Infected Blood
 
 ^3Abilities:
 - Lunge (Shoulder Barge) ^3[CS2]"
