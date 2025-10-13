@@ -6,7 +6,7 @@ ClassInfo
 	maxhealth 			65
 	maxarmor  			30
 	damageGiven 1.2
-	damageTaken 0.4
+	damageTaken 0.5
 	basespeed			187
 	
 	knockbacktaken 			0.5

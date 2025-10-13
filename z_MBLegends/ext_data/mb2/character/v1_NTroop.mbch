@@ -18,7 +18,7 @@ ClassInfo
 	rateOfFire							1.25
 	rateOfFire_Melee 1.2
 	
-	damageTaken 						0.4
+	damageTaken 						0.5
 	damageGiven      	1.2
 	
 	knockbacktaken 			0.5
