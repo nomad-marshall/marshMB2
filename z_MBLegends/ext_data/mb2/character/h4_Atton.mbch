@@ -74,7 +74,7 @@ c_att_names_2	"Sonic Detonators"
 c_att_ranks_2	1,1
 c_att_skill_3	MB_ATT_EE4
 c_att_names_3	"Charric (EE-4)"
-c_att_ranks_3	1,1,2
+c_att_ranks_3	2,1,1
 c_att_descs_3 "Ignites/poisons/pushes on hit, 20% more DMG, 40% more FP DMG,
 80% slower RoF, 70% slower mag reload"
 c_att_skill_4	MB_ATT_FP_RAGE
