@@ -4,7 +4,7 @@ name	"v3_Trando"
 MBClass MB_CLASS_WOOKIE
 extralives 1
 classNumberLimit 4
-weapons WP_MELEE|WP_SABER|WP_FLECHETTE
+weapons WP_SABER|WP_FLECHETTE
 attributes MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_TRACKING_BEACON|MB_ATT_FLECHETTE,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_DART,2|MB_ATT_FRAGS,1|MB_ATT_SONIC_DETONATOR,1
 saber1 tb
 saberstyle SS_DESANN
@@ -25,6 +25,7 @@ rankBaseSpeed 213,225
 classflags CFL_BLOODYMELEE
 flourishAnim BOTH_SPINATTACK6
 gloatAnim BOTH_WOOKIEE_ENRAGE
+RunForward BOTH_WOOKIEE_RAGE_RUN
 special1 EAS_FP_SEE
 special2 EAS_MELEE
 special3 EAS_HI_TRACKER
@@ -44,7 +45,7 @@ WP_DCCarbineFlags HELD_SLOW|HELD_ALTRELOAD
 WP_ConcussionFlags HELD_SLOW|HELD_ALTRELOAD
 WP_ShotgunFlags HELD_PULSE|HELD_KNOCKBACK|HELD_STUN|HELD_FREEZE|HELD_LOWDAMAGE
 WP_AmbanFlags HELD_SPEED
-meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+meleeMoves M_UPPERCUT|M_KATA|M_KICK|M_PUNCH
 uioverlay_r "gfx/icons/infantry"
 isCustomBuild	1
 mbPoints	0
@@ -67,16 +68,19 @@ c_att_names_1	"ACP Repeater"
 c_att_ranks_1	0
 c_att_descs_1 "100% faster velocity, 45% less DMG/FP DMG, 10% slower RoF,
 Mag reload, Prim. only"
-c_att_skill_2	MB_ATT_PROJECTILE_RIFLE
-c_att_names_2	"Hunting Rifle (Proj)"
+c_att_skill_2	MB_ATT_TRIP_MINES
+c_att_names_2	"Trip Mine"
 c_att_ranks_2	0
-c_att_descs_2 "30% less DMG"
-c_att_skill_3	MB_ATT_BASESPEED
-c_att_names_3	"Speed (213)"
+c_att_skill_3	MB_ATT_PROJECTILE_RIFLE
+c_att_names_3	"Hunting Rifle (Proj)"
 c_att_ranks_3	0
-c_att_skill_4	MB_ATT_DEXTERITY
-c_att_names_4	"Dexterity"
-c_att_ranks_4	0,0
+c_att_descs_3 "30% less DMG"
+c_att_skill_4	MB_ATT_BASESPEED
+c_att_names_4	"Speed (213)"
+c_att_ranks_4	0
+c_att_skill_5 MB_ATT_DEXTERITY
+c_att_names_5	"Dexterity"
+c_att_ranks_5	0,0
 c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
 c_att_names_15 "Strength"
 c_att_ranks_15 0,0
@@ -250,7 +254,7 @@ WeaponName "Slave Prod"
 clipsize -1
 CustomAmmo -1
 }
-description "Trandoshan Hunter [Wookiee]
+description "Trandoshan Fiend [Wookiee]
 
 Hiss
 
