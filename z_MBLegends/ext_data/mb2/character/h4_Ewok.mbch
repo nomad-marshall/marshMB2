@@ -39,12 +39,9 @@ ClassInfo
 	gloatanim	 	BOTH_VICTORY_FAST
 	tauntAnim		BOTH_ENGAGETAUNT
 	flourishAnim		BOTH_FORCE_RAGE
-	WalkBackward BOTH_WALKBACK_DUAL
-	WalkForward BOTH_WALK_DUAL
-	saberStanceAnim BOTH_TAVION_STANCE
-	//WalkBackward 		BOTH_WALKBACK_DUAL
-	//WalkForward 		BOTH_WALK_DUAL
-	//saberStanceAnim 	BOTH_SPEAR_STANCE 
+	WalkBackward 		BOTH_WALKBACK_DUAL
+	WalkForward 		BOTH_WALK_DUAL
+	saberStanceAnim 	BOTH_SPEAR_STANCE 
 
 	uioverlay_r "gfx/icons/infantry"
 	uioverlay_l "gfx/icons/tactician"
@@ -151,18 +148,12 @@ WeaponInfo2
 	customAmmo 125
 	reloadTimeModifier 1.8
 	hasAnimOverrides 1
-	animReady BOTH_SABERDUAL_STANCE
-	animReadyWalk BOTH_SABERDUAL_STANCE
-	animReadyNoAmmo BOTH_SABERDUAL_STANCE
-	animAttack NADE_SECONDARY
-	animAttackWalk NADE_SECONDARY
-	animStand BOTH_SABERDUAL_STANCE
-	//animReady BOTH_TRIPLE3_DUALSTANCE
-	//animReadyWalk BOTH_TRIPLE3_DUALSTANCE
-	//animReadyNoAmmo BOTH_TRIPLE3_DUALSTANCE
-	//animAttack BOTH_THERMAL_THROW2
-	//animAttackWalk BOTH_THERMAL_THROW2
-	//animStand BOTH_TRIPLE3_DUALSTANCE
+	animReady BOTH_TRIPLE3_DUALSTANCE
+	animReadyWalk BOTH_TRIPLE3_DUALSTANCE
+	animReadyNoAmmo BOTH_TRIPLE3_DUALSTANCE
+	animAttack BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
+	animStand BOTH_TRIPLE3_DUALSTANCE
 }
 WeaponInfo3
 {
