@@ -14,11 +14,8 @@ maxarmor	50
 basespeed 235
 rankbasespeed	250
 forcepool 75
-resource	RESOURCE_ENERGY
 rankForcepool	100,120
-forceregen	1
 rankForceregen 1.34,2
-knockbackTaken 1
 rankKbTaken	.8
 HealthRegenCap 25
 RankHealthRegenCap 50
@@ -34,13 +31,10 @@ rankSaberdamage 240
 forcepowers FP_PROTECT,2|FP_ABSORB,1|FP_LEVITATION,2|FP_SEE,1
 BPMultiplier	0
 rankBP	1,1.2
-ASMultiplier	1
 rankAS	1.12
 CSmultiplier	1.05
 rankCS	1.12
-rateOfFire_Melee 1
 rankROFMelee 0.8
-modelscale	1
 uioverlay_r "gfx/icons/hybrid"
 uioverlay_l "gfx/icons/heavy"
 model "atton"
@@ -52,7 +46,7 @@ uishader_1 "models/players/jedipack_hb/mb2_icon_atton"
 special1 EAS_HI_POISON
 special3 EAS_HI_DEX
 special4 EAS_MELEE
-//flourishAnim BOTH_HAN_TAUNT
+flourishAnim BOTH_HAN_TAUNT
 isCustomBuild	1
 mbPoints	9
 hasCustomSpec 3
@@ -86,7 +80,6 @@ c_att_descs_3 "Ignites/poisons/pushes on hit, 20% more DMG, 40% more FP DMG,
 c_att_skill_4	MB_ATT_FP_RAGE
 c_att_names_4	"Rapid Shot (Dark Rage)"
 c_att_ranks_4 0,1,2
-
 c_att_skill_5	MB_ATT_BASESPEED
 c_att_names_5	"Speed (250)"
 c_att_ranks_5	0
@@ -138,7 +131,6 @@ c_att_ranks_27 0,1
 c_att_skill_28 MB_ATT_REGEN
 c_att_names_28 "Energy Regen (134%)"
 c_att_ranks_28 1
-
 c_att_skill_30	MB_ATT_DMG_GIVEN_MULTIPLIER
 c_att_names_30	"Damage Given (125%)"
 c_att_ranks_30	2
@@ -152,7 +144,7 @@ c_att_skill_33	MB_ATT_FP_SABER_DEFENSE
 c_att_names_33	"Saber Defense"
 c_att_ranks_33	2
 c_att_skill_34	MB_ATT_PISTOL
-c_att_names_34	"Blaster Pistol"
+c_att_names_34	"Atton's Blaster Pistol"
 c_att_ranks_34	0,0,4
 c_att_skill_35	MB_ATT_HEALTH_REGEN_CAP
 c_att_names_35	"Heroic Resolve"
@@ -241,9 +233,15 @@ NewViewModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2.md3"
 Icon	"gfx/hud/w_icon_kotor_bpistol2"
 flashsound0	"sound/weapons/kotor/fire_light.wav"
 Altflashsound0 "sound/weapons/kotor/fire_power1.wav"
-WeaponName "Blaster Pistol"
+WeaponName "Atton's Blaster Pistol"
+ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
 customammo 460
-//anim
+hasAnimOverrides 1
+animReady TORSO_WEAPONIDLE2
+animReadyWalk TORSO_WEAPONIDLE2
+animReadyNoAmmo BOTH_ATTACK2 
+animAttack BOTH_ATTACK2 
+animAttackWalk BOTH_ATTACK2 
 }
 description "Atton 'Jaq' Rand [Hero]
 
