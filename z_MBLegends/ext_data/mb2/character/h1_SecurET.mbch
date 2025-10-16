@@ -176,7 +176,14 @@ WeaponInfo1
 	FPMult  0.75
 	reloadtimemodifier 1.5
 	clipsize 18
-	customAmmo 360
+	customAmmo 360 
+	hasAnimOverrides 1
+	animReady BOTH_WESTARM5_IDLE
+	animReadyWalk  BOTH_WESTARM5_READY
+	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animStand BOTH_STAND1
 }
 
 WeaponInfo2

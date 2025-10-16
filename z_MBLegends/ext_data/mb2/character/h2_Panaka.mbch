@@ -121,11 +121,11 @@ WeaponInfo2
 	customAmmo 700
 	FPmult 1.1
 	damageMod 1.1
-//	hasAnimOverrides 1
-//	animReadyNoAmmo BOTH_ATTACK2 
-//	animAttack BOTH_ATTACK2
-//	animAttackWalk BOTH_ATTACK2
-//	animStand BOTH_MAND_PISTOL_READY
+hasAnimOverrides 1
+animReadyNoAmmo BOTH_ATTACK2 
+animAttack BOTH_ATTACK2
+animAttackWalk BOTH_ATTACK2
+animStand BOTH_MAND_PISTOL_READY
 }
 
 description	"Captain Quarsh Panaka [Hero]

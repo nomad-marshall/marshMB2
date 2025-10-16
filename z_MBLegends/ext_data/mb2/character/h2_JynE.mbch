@@ -7,11 +7,12 @@ ClassInfo
 	
 	WP_BowcasterFlags  HELD_ALTRELOAD|HELD_KNOCKDOWN|HELD_PULSE|HELD_KNOCKBACK
 	
-	attributes  	MB_ATT_MANDO_PISTOL,2|MB_ATT_HEALING,3|MB_ATT_AMMO,3|MB_ATT_DODGE,3|MB_ATT_FLIPKICK,2|MB_ATT_DASH,2|MB_ATT_BOWCASTER,3|MB_ATT_SONIC_DETONATOR,2|MB_ATT_DET_PACK,3
+	attributes  	MB_ATT_MANDO_PISTOL,2|MB_ATT_HEALING,3|MB_ATT_AMMO,3|MB_ATT_DODGE,3|MB_ATT_FLIPKICK,2|MB_ATT_DASH,2|MB_ATT_BOWCASTER,3|MB_ATT_SONIC_DETONATOR,2|MB_ATT_DET_PACK,3|MB_ATT_DEXTERITY,1
 	
 	forcepowers 	FP_SABER_OFFENSE,3
 	maxhealth 150
 	maxarmor  95
+
 	saber1	truncheon_legends
 	saber2     a180_saber_legends
 	saberstyle	SS_DUAL|SS_TAVION
@@ -20,11 +21,13 @@ ClassInfo
 	CSmultiplier  1.1
 	ASmultiplier  1.15
 	BPmultiplier 0
-		saberMaxChain 2
+	saberMaxChain 2
+
 	modelscale 	0.933
 	model 		"jynerso"
 	skin  		"default"
 	uishader  	"models/players/jynerso/mb2_icon_default"
+
 	model_1 		"jyn_impgunner"
 	skin_1 		"default"
 	uishader_1 	"models/players/jyn_impgunner/mb2_icon_default"
@@ -32,13 +35,14 @@ ClassInfo
 	forcepool 	125
 	forceregen	1.8
 	resource	 RESOURCE_ENERGY
+
 	holdables 	HI_BINOCULARS|HI_MEDPAC_BIG
 	classflags	CFL_SEEING_STEALTH
 
-	DamageGiven     	1.15
-	rateOfFire 		0.8
-	rateoffire_melee	0.9
-	speed           	1.05
+	DamageGiven     1.15
+	rateOfFire 	    	0.8
+	rateoffire_melee 0.9
+	speed            1.05
 	
 	saberStanceAnim	BOTH_MELEEPOSE
 	flourishAnim     BOTH_STAND5TOAIM
@@ -51,8 +55,6 @@ ClassInfo
 	special4 EAS_HI_MEDPAC_BIG
 	
 	uioverlay "gfx/icons/spec_infantry"
-
-	//respawncustomtime  	50000
 }
 
 WeaponInfo0
@@ -72,17 +74,12 @@ WeaponInfo0
 	CustomAmmo			820
 	FPMult 				1.1
 	hasAnimOverrides 1
-	animReady BOTH_STAND4TOATTACK2
-	animReadyWalk BOTH_STAND4TOATTACK2
-	animReadyNoAmmo BOTH_PISTOL_ATTACK 
-	animAttack BOTH_PISTOL_ATTACK 
-	animAttackWalk BOTH_PISTOL_ATTACK 
 	animStand BOTH_STAND1
-	//animAttack BOTH_ATTACK2
-	//animAttackWalk BOTH_ATTACK2
-	//animReady BOTH_PISTOL_IDLE
-	//animReadyWalk BOTH_PISTOL_IDLE2
-	//animReadyNoAmmo BOTH_ATTACK2
+	animAttack BOTH_ATTACK2
+	animAttackWalk BOTH_ATTACK2
+	animReady BOTH_PISTOL_IDLE
+	animReadyWalk BOTH_PISTOL_IDLE2
+	animReadyNoAmmo BOTH_ATTACK2
 }
 WeaponInfo1
 {
@@ -102,13 +99,13 @@ WeaponInfo1
 	CustomAmmo 			38
 	ReloadTimeModifier 	1.75
 	FPMult 				2.5
-	//hasAnimOverrides 1
-	//animStand BOTH_STAND1
-	//animReady BOTH_WESTARM5_IDLE
-	//amimReadyWalk BOTH_WESTARM5_IDLE
-	//animAttack BOTH_DC15_AIM_ATTACK
-	//animAttackWalk BOTH_DC15_AIM_ATTACK
-	//animReadyNoAmmo BOTH_DC15_AIM_ATTACK
+	hasAnimOverrides 1
+	animStand BOTH_STAND1
+	animReady BOTH_WESTARM5_READY
+	amimReadyWalk BOTH_WESTARM5_IDLE
+	animAttack BOTH_DC15_AIM_ATTACK
+	animAttackWalk BOTH_DC15_AIM_ATTACK
+	AnimReadyNoAmmo BOTH_DC15_AIM_ATTACK
 }
 
 WeaponInfo2
@@ -149,6 +146,7 @@ A speedy pistoleer with advanced movement capabilities and a shocking/displacing
 - Electrobinoculars
 
 ^8Attributes:
+- Dexterity (1)
 - Healing (3)
 - Sense Immunity
 
