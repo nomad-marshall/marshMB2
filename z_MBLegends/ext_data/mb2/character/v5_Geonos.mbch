@@ -31,8 +31,8 @@ ClassInfo
 	WP_BowcasterFlags    HELD_SONIC|HELD_ALTRELOAD
 	WP_SaberFlags			HELD_PULSE
 	//tauntAnim BOTH_AMBAN_MELEE	
-	saberStanceAnim    BOTH_TAVION_STANCE
-	//saberStanceAnim    BOTH_SPEAR_STANCE
+	//saberStanceAnim    BOTH_TAVION_STANCE
+	saberStanceAnim    BOTH_SPEAR_STANCE
 	flourishAnim 		BOTH_FLIP_ATTACK7
 	WalkBackward 		BOTH_WALK_DUAL
 	WalkForward		 BOTH_WALK_DUAL
