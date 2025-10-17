@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"h9_JBrute"
 	weapons				WP_MELEE|WP_SABER
-	attributes			MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_FP_REPULSE,3|MB_ATT_HEALING,1|MB_ATT_WOOKIE_STRENGTH,2
+	attributes			MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_FP_REPULSE,3|MB_ATT_HEALING,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_GETUPS,3
 	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_SABERTHROW,2|FP_PROTECT,1|FP_PUSH,1
 	saberstyle			SS_STAFF
 	MBClass				MB_CLASS_JEDI
@@ -160,6 +160,7 @@ A large melee bruiser that wields a high-powered, long-reaching staff lightsaber
 
 ^8Attributes:
 - 25% slower skill CD
+- Getup (3)
 - Strength (2)
 - Physical Resist
 - Healing (1)
