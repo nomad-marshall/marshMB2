@@ -78,12 +78,11 @@ WeaponInfo0
 	clipSize			12
 	FPMult				1.35
 	hasAnimOverrides 1
-	animReady BOTH_STAND4TOATTACK2
-	animReadyWalk BOTH_STAND4TOATTACK2
-	animReadyNoAmmo BOTH_PISTOL_ATTACK
-	animAttack BOTH_PISTOL_ATTACK
-	animAttackWalk BOTH_PISTOL_ATTACK
-	animStand BOTH_STAND1
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2 
 }
 
 WeaponInfo1
@@ -104,13 +103,11 @@ WeaponInfo1
 	damageMod	1.25
 	velocityMod 1.1
 	hasAnimOverrides 1
-	animReady 		BOTH_DC15_IDLE
-		animReadyWalk 	TORSO_WEAPONREADY4
-	animReadyNoAmmo TORSO_WEAPONREADY4
-	//animReadyWalk 	BOTH_TORSO_WEAPONREADY4
-	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
-	animAttack 		BOTH_ATTACK4
-	animAttackWalk 	BOTH_ATTACK4
+	animReady 		BOTH_WESTARM5_IDLE
+	animReadyWalk 	BOTH_WESTARM5_READY
+	animReadyNoAmmo BOTH_WESTARM5_READY
+	animAttack 		BOTH_WESTARM5_ATTACK
+	animAttackWalk 	BOTH_WESTARM5_ATTACK
 	animStand 		TORSO_WEAPONREADY3			
 }
 
