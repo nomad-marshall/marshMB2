@@ -936,6 +936,7 @@ cross_knife
 	jumpAtkRightMove LS_NONE
 	jumpAtkUpMove	LS_NONE
 	lungeAtkMove LS_NONE
+ jumpAtkFwdMove LS_NONE
 	drawAnim BOTH_SHOWOFF_FAST
 	readyAnim BOTH_STAND9
 	tauntAnim BOTH_SHOWOFF_MEDIUM

@@ -4,8 +4,8 @@ ClassInfo
 	MBClass 		MB_CLASS_COMMANDER
  extralives		3
 	weapons 		WP_BLASTER|WP_MELEE|WP_SABER
-	WP_SaberFlags HELD_SPEED
-	WP_MeleeFlags HELD_SPEED
+//	WP_SaberFlags HELD_SPEED
+//	WP_MeleeFlags HELD_SPEED
 	saber1 feign_leg
 
 	attributes  	MB_ATT_BLASTER,2|MB_ATT_AMMO,2|MB_ATT_ASSEMBLE,1|MB_ATT_GETUPS,0

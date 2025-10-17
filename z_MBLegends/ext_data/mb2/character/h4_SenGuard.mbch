@@ -86,6 +86,8 @@ WeaponInfo0
 	damageMod 1.15
 	rateMod 1.2
 	hasAnimOverrides 1
+	animReady BOTH_DC15_IDLE
+	animReadyWalk BOTH_AMBAN_IDLE
 	animStand BOTH_STAND5
 }
 

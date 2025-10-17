@@ -4,8 +4,8 @@ ClassInfo
 {
 	name				"h3_CloneLead"
 	weapons				WP_SABER|WP_MELEE|WP_CLONE_PISTOL
-	attributes			MB_ATT_RALLY|MB_ATT_FP_MIRALUKA,1|MB_ATT_CLONE_PISTOL,1|MB_ATT_AMMO,3
-	forcepowers			FP_SEE,1
+	attributes			MB_ATT_RALLY|MB_ATT_CLONE_PISTOL,1|MB_ATT_AMMO,3
+//	forcepowers			FP_SEE,1
 	resource RESOURCE_STAMINA
 	forcepool 150
 	forceregen 1.15
@@ -122,14 +122,14 @@ ClassInfo
 	
 	c_att_skill_5		MB_ATT_FRAGS
 	c_att_names_5		"Frag Grenades"
-	c_att_ranks_5		10,10,10
+	c_att_ranks_5		8,8,8
 	
 	c_att_skill_6		MB_ATT_PULSE_GRENADES
 	c_att_names_6		"Pulse Grenades"
 	c_att_ranks_6		8,8,8
 	
 	c_att_skill_7		MB_ATT_FP_SEE
-	c_att_names_7		"Radar Scanner (P. Sense)"
+	c_att_names_7		"Radar Scanner (Sense)"
 	c_att_ranks_7		15
 
 	c_att_skill_8		MB_ATT_HEALING
@@ -181,6 +181,8 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_clonerifle"
 	WeaponName			"DC-15A Clone Rifle"
 	altfireenabled		1
+hasAnimOverrides 1
+animReady BOTH_DC15_IDLE
 }
 
 //WeaponInfo2
@@ -204,9 +206,11 @@ WeaponInfo1
 
 ForceInfo0
 {
-	ForceToReplace		FP_SEE
-	Icon				"gfx/forcepowers/radar"
-	ForcePowerName		"Passive Radar Scanner"
+	ForceToReplace FP_SEE
+	Icon	"gfx/forcepowers/radar"
+	ForcePowerName "Radar Scanner"
+	StartSound 	"sound/ambience/kotor/consolebeep03.mp3"
+	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
 description	"Clone Leader [Clone Trooper]

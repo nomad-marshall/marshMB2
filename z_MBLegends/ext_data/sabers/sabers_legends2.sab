@@ -126,7 +126,7 @@ saber_ahsoka_2_legends
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
-		//readyAnim BOTH_SABER_STARKILLER_STANCE
+		readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 saber_ahsoka_rebels_legends
@@ -150,7 +150,7 @@ saber_ahsoka_rebels_legends
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
-		//readyAnim BOTH_SABER_STARKILLER_STANCE
+		readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 saber_yarael_legends
@@ -583,7 +583,7 @@ serra_legends
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
-	//readyAnim MELEE_BLOCK_BL
+	readyAnim BOTH_SABER_STARKILLER_STANCE
 	jumpAtkFwdMove LS_A_FLIP_SLASH
 	jumpAtkLeftMove LS_JUMPATTACK_DUAL
 	jumpAtkRightMove LS_KICK_S

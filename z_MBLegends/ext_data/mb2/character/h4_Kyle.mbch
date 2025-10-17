@@ -157,6 +157,12 @@ WeaponInfo0
 	//OverchargeEffect	"Blaster/MuzzleFlash01Y"
 	velocityMod 0.8
 	FPChargeMult	1.20
+	hasAnimOverrides 1
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2
 }
 
 description	"Kyle Katarn [Jedi]

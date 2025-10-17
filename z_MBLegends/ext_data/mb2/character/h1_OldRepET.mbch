@@ -45,7 +45,7 @@ ClassInfo
 	
 	saberdamage 130
 		
-	gloatAnim       	BOTH_VICTORY_FAST
+	gloatAnim  BOTH_VICTORY_FAST
 	
 	model			"prisoner"
 	skin				"rolandwann"
@@ -86,10 +86,12 @@ ClassInfo
 	c_att_names_3	"Old Republic Blaster Pistol"
 	c_att_ranks_3	0,1,4
 	c_att_descs_3 "Mag reload"
+
 	c_att_skill_4	MB_ATT_E_22
 	c_att_names_4	"Heat Rifle (E-22)"
 	c_att_ranks_4	6,1,6
 	c_att_descs_4 "Ignites on hit, 25% less DMG, Mag reload"
+
 	c_att_skill_5	MB_ATT_FIRE_GRENADES
 	c_att_names_5	"Fire Grenades"
 	c_att_ranks_5	4,4
@@ -106,6 +108,7 @@ ClassInfo
 	c_att_names_8	"Reinforcements"
 	c_att_ranks_8	10,16
 	c_att_descs_8 "1 default"
+
 	c_att_skill_9 	MB_ATT_ARMOUR
 	c_att_names_9 	"Armor (15/35/60)"
 	c_att_ranks_9 	2,3,4
@@ -128,7 +131,7 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_kotor_brifle1"
 	WeaponName		"Old Republic Blaster Rifle"
 	FlashSound0		"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound0	"sound/weapons/kotor/fire_med.wav"
+AltFlashSound0	"sound/weapons/kotor/fire_med.wav"
 }
 
 WeaponInfo1
@@ -147,19 +150,13 @@ WeaponInfo2
 	WeaponToReplace	WP_BLASTER_PISTOL
 	WeaponBasedOff	WP_BLASTER_PISTOL	
 	NewWorldModel		"models/weapons2/kotor_bpistol1/kotor_bpistol1_w.glm"  
-    NewViewModel		"models/weapons2/kotor_bpistol1/kotor_bpistol1.md3"
+ NewViewModel		"models/weapons2/kotor_bpistol1/kotor_bpistol1.md3"
 	Icon				"gfx/hud/w_icon_kotor_bpistol1"
 	flashsound0		"sound/weapons/kotor/fire_light.wav"
-	Altflashsound0	"sound/weapons/kotor/fire_power1.wav"
-    WeaponName		"Old Republic Blaster Pistol"
+	Altflashsound0	"sound/weapons/kotor/fire_heavy.wav"
+ WeaponName		"Old Republic Blaster Pistol"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
-	clipSize       	18
-	hasAnimOverrides 1
-	animReady BOTH_STAND4TOATTACK2
-	animReadyWalk BOTH_STAND4TOATTACK2
-	animReadyNoAmmo BOTH_PISTOL_ATTACK 
-	animAttack BOTH_PISTOL_ATTACK 
-	animAttackWalk BOTH_PISTOL_ATTACK 
+	clipSize       	24
 }
 
 WeaponInfo3
@@ -170,14 +167,14 @@ WeaponInfo3
 	NewViewModel		"models/weapons2/kotor_drifle/kotor_drifle.md3"
 	Icon				"gfx/hud/w_icon_kotor_drifle"
 	WeaponName		"Heat Rifle"
-	MissileEffect 	"Blaster/Shot04Y"
+	MissileEffect 	"Blaster/Shot02Y"
 	Missile3Effect 	"Blaster/Shot04Y"
 	AltMissileEffect 	"Blaster/Shot04Y"
 	FlashSound0		"sound/weapons/kotor/fire_power2"
-	clipSize       	16
-	customAmmo 		320
-	AltFlashSound0	"sound/weapons/kotor/fire_power2"
-	damageMod     0.75
+	AltFlashSound0	"sound/weapons/kotor/fire_power1"
+	clipSize  16
+	customAmmo 320
+	damageMod 0.75
 }
 
 description	"Old Republic Defender [Clone Trooper]

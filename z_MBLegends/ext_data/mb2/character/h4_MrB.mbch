@@ -9,7 +9,7 @@ ClassInfo
 	uishader			"models/players/battledroid/mb2_icon_bones"
 	maxhealth			100
 	maxarmor			60
-	forceregen			1.5
+	forceregen			1.75
 	forcepool			60
 	forcepowers			FP_LEVITATION,1|FP_SEE,1|FP_SABER_OFFENSE,3
 	Speed               1.13
@@ -20,7 +20,7 @@ ClassInfo
 	APmultiplier        1.15
 	CSmultiplier        1.1
 	saberDamage		120
-	attributes			MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_FUELREGEN,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_FORCEBLOCK,1|MB_ATT_DASH,2|MB_ATT_BOWCASTER,3|MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_FP_MIRALUKA,1|MB_ATT_FUEL,3|MB_ATT_BESKAR,3|MB_ATT_TRACKING_BEACON|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_DEXTERITY,1
+	attributes			MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_FUELREGEN,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_FORCEBLOCK,1|MB_ATT_DASH,2|MB_ATT_BOWCASTER,3|MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_FUEL,3|MB_ATT_BESKAR,3|MB_ATT_TRACKING_BEACON|MB_ATT_KNOCKDOWN_ROLL|MB_ATT_DEXTERITY,1
 	classflags			CFL_HEAVYMELEE|CFL_DISMEMBERFRAGILE
 	classNumberLimit 	1
 	modelscale 	 	1.035
@@ -33,8 +33,9 @@ ClassInfo
 	flourishAnim BOTH_FORCELEAP2_T__B_
 	
 	//respawncustomtime 50000	
+special1 EAS_FP_SEE
 	special2 EAS_MELEE
-	special3	EAS_HI_DASH		
+	special3	EAS_HI_DASH
 	
 	uioverlay "gfx/icons/hybrid"
 }
@@ -43,9 +44,9 @@ WeaponInfo0
 {           
 	WeaponToReplace        WP_SABER
 	WeaponBasedOff         WP_SABER
-	NewWorldModel		"models/weapons2/droid_shiv/bones.glm"  	//Required: New 3rd person/dropped weapon model
-	NewViewModel		"models/weapons2/dummy/dummy.md3"   	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_bonesblade" 	//Required: Weapon change icon
+	NewWorldModel		"models/weapons2/droid_shiv/bones.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/hud/w_icon_bonesblade"
 	WeaponName			"Bones' Wristblade"
 	SelectSound "sound/sbd/armbash.mp3"
 }
@@ -61,17 +62,23 @@ WeaponInfo1
 	FlashSound0 "sound/weapons/bx_e5/fire.mp3"
 	AltFlashSound0 "sound/weapons/ee3/sniperfire.mp3"
 	ChargeSound 		"sound/weapons/bowcaster/altcharge.mp3"
-	firingAnim	DC15_FIRE
-	//firingAnim	BOTH_DC15_ATTACK
 	FPMult 1.3
 	velocityMod 1.1
+	hasAnimOverrides 1
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2
 }
 
 ForceInfo0
 {
-	ForceToReplace	FP_SEE
-	Icon		"gfx/forcepowers/radar"
-	ForcePowerName	"Passive Radar Scanner"
+	ForceToReplace FP_SEE
+	Icon	"gfx/forcepowers/radar"
+	ForcePowerName "Radar Scanner"
+	StartSound 	"sound/ambience/kotor/consolebeep03.mp3"
+	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
 description	"Mister Bones [Mandalorian]
@@ -95,13 +102,13 @@ An agile class with a balanced outfit of tools and abilities.
 
 ^5Powers:
 - Hydraulic Legs (Jump 1)
+- Radar Scanner (Sense 1) ^3[CS1]
 
 ^8Attributes:
 - Dexterity (1)
 - Knockdown Roll
 - Beskar (3)
 - Armor Regen (1)
-- Passive Radar Scanner (Miraluka Vision 1)
 - Tracking Beacon
 - Force Block (1)
 

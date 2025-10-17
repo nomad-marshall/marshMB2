@@ -137,11 +137,6 @@ WeaponInfo3
 	animReadyNoAmmo BOTH_AMBAN_AIM_ATTACK
 	animAttack BOTH_AMBAN_AIM_ATTACK
 	animAttackWalk BOTH_AMBAN_AIM_ATTACK
-//	animReady TORSO_WEAPONREADY2
-//	animReadyWalk TORSO_WEAPONREADY2
-//	animReadyNoAmmo BOTH_ATTACK2 
-//	animAttack BOTH_ATTACK2
-	//animAttackWalk BOTH_ATTACK2
 	animCharge BOTH_AMBAN_READY
 	selectSound "sound/weapons/silencedpistol/select.wav"
 }

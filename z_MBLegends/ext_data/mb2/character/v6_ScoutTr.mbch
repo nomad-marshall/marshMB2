@@ -108,23 +108,23 @@ ClassInfo
 	c_att_names_4 "Saber Damage (100)"
 	c_att_ranks_4 1
 
-	c_att_skill_5	MB_ATT_FORCEBLOCK
-	c_att_names_5	"Force Block"
-	c_att_ranks_5	1
-	c_att_descs_5 "Blocking resists Force Powers"
+	c_att_skill_5	MB_ATT_PISTOL
+	c_att_names_5	"EC-17 Hold-Out Pistol"
+	c_att_ranks_5	2,0
 
-	c_att_skill_6	MB_ATT_PISTOL
-	c_att_names_6	"EC-17 Hold-Out Pistol"
-	c_att_ranks_6	2,0
-
-	c_att_skill_7	MB_ATT_PULSE_GRENADES
-	c_att_names_7	"Pulse Grenades"
-	c_att_ranks_7	1,1
+	c_att_skill_6	MB_ATT_PULSE_GRENADES
+	c_att_names_6	"Pulse Grenades"
+	c_att_ranks_6	1,1
 	
-	c_att_skill_8	MB_ATT_RESPAWNS
-	c_att_names_8	"Reinforcement"
-	c_att_ranks_8	8
-	c_att_descs_8 "1 default"
+	c_att_skill_7	MB_ATT_RESPAWNS
+	c_att_names_7	"Reinforcement"
+	c_att_ranks_7	8
+	c_att_descs_7 "1 default"
+
+	c_att_skill_8	MB_ATT_FORCEBLOCK
+	c_att_names_8	"Force Block"
+	c_att_ranks_8	1
+	c_att_descs_8 "Blocking resists Force Powers"
 
 	c_att_skill_9	MB_ATT_STAMINA
 	c_att_names_9	"Stamina ^3[CS1]"
@@ -146,7 +146,7 @@ ClassInfo
 	c_att_skill_17	MB_ATT_T21
 	c_att_names_17	"T-21 Heavy Blaster"
 	c_att_ranks_17	2,2,1
-	c_att_descs_17 "10% slower RoF, 10% more DMG, 10% more FP DMG"
+	c_att_descs_17 "10% more DMG, 10% more FP DMG, 10% slower RoF"
 
 	c_att_skill_18	MB_ATT_MICRO_GRENADES
 	c_att_names_18	"Concussion Grenades"
@@ -176,14 +176,13 @@ ClassInfo
 	c_att_names_23	"Skill CD (200/100%)"
 	c_att_ranks_23	1,1
 
-	c_att_skill_24	MB_ATT_STAMINA
-	c_att_names_24	"Stamina ^3[CS1]"
-	c_att_ranks_24	0,0,1
-	
-	c_att_skill_25	MB_ATT_POWER
-	c_att_names_25	"Stamina Pool (100)"
-	c_att_ranks_25	0
+	c_att_skill_24	MB_ATT_POWER
+	c_att_names_24	"Stamina Pool (100)"
+	c_att_ranks_24	0
 
+	c_att_skill_25	MB_ATT_STAMINA
+	c_att_names_25	"Stamina ^3[CS1]"
+	c_att_ranks_25	0,0,1
 
 	c_att_skill_30	MB_ATT_PISTOL
 	c_att_names_30	"EC-17 Hold-Out Pistol"
@@ -196,8 +195,8 @@ ClassInfo
 	c_att_skill_32	MB_ATT_EE4
 	c_att_names_32	"DLT-20A Sniper Config (EE-4)"
 	c_att_ranks_32	2,2
-	c_att_descs_32 " 50% slower RoF, 50% more DMG, 50% more FP DMG,
-	100% more velocity, 100% slower reload"
+	c_att_descs_32 "50% more DMG, 50% more FP DMG, 100% more velocity,
+50% slower RoF, 100% slower reload"
 
 	c_att_skill_33	MB_ATT_SONIC_DETONATOR
 	c_att_names_33	"Sonic Detonators"
@@ -215,13 +214,15 @@ ClassInfo
 	c_att_skill_36	MB_ATT_STM_MULTIPLIER
 	c_att_names_36	"Skill CD (200%)"
 	c_att_ranks_36	1
-	c_att_skill_37	MB_ATT_STAMINA
-	c_att_names_37	"Stamina ^3[CS1]"
-	c_att_ranks_37	0,0,1
-	
-	c_att_skill_38	MB_ATT_POWER
-	c_att_names_38	"Stamina Pool (100)"
-	c_att_ranks_38	0
+
+	c_att_skill_37	MB_ATT_POWER
+	c_att_names_37	"Stamina Pool (100)"
+	c_att_ranks_37	0
+
+	c_att_skill_38	MB_ATT_STAMINA
+	c_att_names_38	"Stamina ^3[CS1]"
+	c_att_ranks_38	0,0,1
+
 }
 WeaponInfo0
 {
@@ -282,9 +283,9 @@ A customizable scout class.
 ^2Weaponry:
 - Melee
 - Electrobaton/Riot Shield (Cyan Saber)
--- Saber Defense/Deflect (0)
--- Blaster Defense (0)
--- 37.5% less DMG
+-- Saber/Blaster Defense (0)
+-- Saber Deflect (0)
+-- 37% less DMG
 -- 65% less reach
 -- Slap ^3[CS2]
 

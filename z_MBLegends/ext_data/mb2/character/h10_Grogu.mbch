@@ -8,8 +8,8 @@ ClassInfo
 	forcepowers	FP_PUSH,3|FP_PULL,3|FP_SEE,3|FP_GRIP,3|FP_TEAM_HEAL,1|FP_TEAM_FORCE,2|FP_PROTECT,3|FP_ABSORB,3|FP_HEAL,1|FP_LEVITATION,2
 	maxhealth	60
 	forcepool	200
-	forceregen	1.20
-	basespeed	188
+	forceregen	1.15
+	basespeed	187
 	resource RESOURCE_FORCE
 
 	weapons WP_MELEE
@@ -21,7 +21,7 @@ ClassInfo
 	walkBackward	BOTH_RUNBACK4
 	flourishAnim 	BOTH_HUGGER1
 	
-	skilltimermod 1.25
+	skilltimermod 1.3
 
 	special1	EAS_FP_HEAL
 	special2	EAS_FP_ABSORB
@@ -31,6 +31,7 @@ ClassInfo
 	saber1		grogu_poop_stick
 	saberstyle	SS_TAVION
 	WP_SaberFlags HELD_SPEED
+ WP_MeleeFlags HELD_LOWDAMAGE
 	
 	modelscale 0.40
 	model	"baby_yoda" 					
@@ -45,7 +46,7 @@ description	"Grogu [Jedi]
 A small and vulnerable supportive Force user with the ability to share his strong healing and protective abilities with allies.
 
 ^2Weaponry:
-- Melee
+- Light Melee
 
 ^5Force Powers:
 - Jump (2)
@@ -62,6 +63,6 @@ A small and vulnerable supportive Force user with the ability to share his stron
 
 ^8Attributes:
 ^7- ^3*^7Light's Beacon (Shares Force Powers with a ^7targeted/nearby ally)
-- 25% slower skill CD
+- 30% slower skill CD
 - Ally Stat Viewer
 - Force Focus (1)"

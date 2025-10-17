@@ -27,7 +27,7 @@ ClassInfo
 	uishader	"models/players/bossk/mb2_icon_default"
 	uioverlay "gfx/icons/heavy"
 	Classflags	CFL_BLOODYMELEE|CFL_ACIDBLOOD|CFL_STRONGAGAINSTPHYSICAL
-
+ RunForward BOTH_WOOKIEE_RAGE_RUN
 
 	WP_BowcasterFlags	HELD_POISON|HELD_ALTRELOAD
 	
@@ -60,6 +60,12 @@ WeaponInfo0
 	CustomAmmo  800
 	damageMod 0.8
 	FPChargeMult	1.1
+hasAnimOverrides 1
+animReady BOTH_DC15_IDLE
+animReadyWalk BOTH_WESTARM5_READY
+animReadyNoAmmo BOTH_WESTARM5_ATTACK
+animAttack BOTH_WESTARM5_ATTACK
+animAttackWalk BOTH_WESTARM5_ATTACK
 }
 
 //WeaponInfo1
