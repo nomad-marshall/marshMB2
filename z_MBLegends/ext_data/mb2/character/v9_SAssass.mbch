@@ -1,7 +1,7 @@
 ClassInfo
 {
 	name 			"v9_SAssass"
-	MBClass 			MB_CLASS_JEDI
+	MBClass 			MB_CLASS_SITH
 	classNumberLimit	1
 	
 	weapons			WP_SABER|WP_MELEE
@@ -10,7 +10,7 @@ ClassInfo
 
 	forcepowers 	FP_LEVITATION,3|FP_SEE,2|FP_SPEED,3|FP_PULL,2|FP_SABERTHROW,3|FP_GRIP,3|FP_SABER_OFFENSE,2|FP_TELEPATHY,1
 	
-	maxhealth 		100
+	maxhealth 		115
 	forcepool		110
 	forceregen		1.07
 	
