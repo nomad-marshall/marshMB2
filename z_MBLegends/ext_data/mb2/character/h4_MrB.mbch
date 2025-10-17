@@ -9,8 +9,8 @@ ClassInfo
 	uishader			"models/players/battledroid/mb2_icon_bones"
 	maxhealth			100
 	maxarmor			60
-	forceregen			1.5
-	forcepool			80
+	forceregen			1.75
+	forcepool			60
 	forcepowers			FP_LEVITATION,1|FP_SEE,1|FP_SABER_OFFENSE,3
 	Speed               1.13
 	weapons				WP_SABER|WP_MELEE|WP_BOWCASTER|WP_FIRE_NADE
