@@ -12,7 +12,7 @@ ClassInfo
 	WP_SaberFlags HELD_STUN
 	WP_MeleeFlags HELD_SLOW
 
- 	attributes	MB_ATT_SHIELD_RECHARGE,1|MB_ATT_JETPACK,1|MB_ATT_WRISTLASER,1|MB_ATT_FP_MIRALUKA,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_FLIPKICK,1|MB_ATT_DISP_BLOCK,2|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_THROWER_FLAME|MB_ATT_USE_DISTANCE,1|MB_ATT_HEALING,2|MB_ATT_FUELREGEN,2|MB_ATT_CORTOSIS,1
+ 	attributes	MB_ATT_SHIELD_RECHARGE,1|MB_ATT_JETPACK,1|MB_ATT_WRISTLASER,1|MB_ATT_FP_MIRALUKA,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_DISP_BLOCK,2|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_THROWER_FLAME|MB_ATT_USE_DISTANCE,1|MB_ATT_HEALING,2|MB_ATT_FUELREGEN,2|MB_ATT_CORTOSIS,1
 	
 	forcepowers	FP_SEE,1|FP_PUSH,1|FP_SPEED,3|FP_LIGHTNING,1
 
@@ -23,10 +23,10 @@ ClassInfo
 	maxarmor		40
 
 	special1 EAS_FP_PUSH
-	special2	EAS_HI_WRIST
-	special3	EAS_FP_LIGHTNING
+	special2	EAS_HI_BARGE
+	special3	EAS_HI_WRIST
 	special4 EAS_FP_SPEED
-
+	bargeSoundOverride	"sound/chars/r2d2/misc/death1.mp3"
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE|CFL_STATVIEWER|
 	
 	//CFL_NO_FUEL_USE
@@ -49,7 +49,7 @@ ClassInfo
 	//resourceRegenRate  3000
 	//resourceRegenCap 15
 
-	//meleeMoves M_KICK|M_JUMPKICK
+	meleeMoves M_KICK|M_JUMPKICK
 	
 	//tauntAnim BOTH_PAIN1
 	//gloatAnim BOTH_PAIN2
@@ -84,7 +84,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
 	Icon			"gfx/hud/Alpha/HUD_Icon_WhistlingBird"
 	WeaponName		"Prod"
-	primFireEnabled	0
+	primFireEnabled	1
 	AltFireEnabled 		1
 }
 
@@ -153,19 +153,18 @@ A plucky support with numerous gadgets.
 ^2Weaponry:
 - Prod (Limited Melee)
 -- 15% slower movement
--- Sec. only
 - Circular Saw (Blue Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers on hit
--- 2500% faster RoF
+-- 2400% faster RoF
 -- 90% less DMG
 -- 50% less reach
 - Flamethrower
 
 ^5Powers:
 - Steam Projector (Push 1) ^3[CS1]
-- Electroshock Probe (Lightning 1) ^3[CS3]
+- Electroshock Probe (Lightning 1)
 - Overclock (Speed 3) ^3[CS4]
 
 ^8Attributes:
@@ -185,5 +184,5 @@ A plucky support with numerous gadgets.
 - Armor/BP/Resource Dispenser (2) ^3['Use' ^3on allies]
 -- +1 range
 - Jet Boosters (Jetpack)
-- Headbutt (Flipkick 1) ^3[Contact Jump]
-- Recharging Mini-Blaster (Wrist Laser) ^3[CS2]"
+- Barge ^3[CS2 M]
+- Mini-Blaster (Wrist Laser) ^3[CS3 M]"
