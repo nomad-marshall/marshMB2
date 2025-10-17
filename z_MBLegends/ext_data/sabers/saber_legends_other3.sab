@@ -653,7 +653,7 @@ electro-bisento_legends
 	useGoreConfig 1
 	useGoreConfig2 1
 	disarmable 1
-	readyAnim      TRIPLE3_BLUESTANCE
+	readyAnim      BOTH_TRIPLE3_BLUESTANCE
 }
 vibro-voulge_legends
 {
@@ -706,7 +706,7 @@ vibro-voulge_legends
 	g2WeaponMarkShader	"gfx/effects/bloodsplat"
 	useGoreConfig 1
 	useGoreConfig2 1
-	readyAnim     TRIPLE3_REDSTANCE
+	readyAnim     BOTH_TRIPLE3_REDSTANCE
 	lungeAtkMove LS_PULL_ATTACK_STAB
 	saberStyleLearned strong
 }

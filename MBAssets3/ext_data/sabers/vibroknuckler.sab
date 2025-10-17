@@ -66,16 +66,16 @@ vibroknuckler
 	useGoreConfig	1
 	useGoreConfig2	1
 
-	readyAnim 			MELEE_STAND
-	drawAnim			MELEE_BLOCK_BR
-	putawayAnim			SBD_GUN_OUT_TO_UP
+	readyAnim 			BOTH_MELEE_STAND1
+	drawAnim			BOTH_MELEE_BLOCK_BR
+	putawayAnim			TORSO_BLASTER_OUT_TO_UP
 	tauntAnim			BOTH_DOOKU_TAUNT
-	gloatAnim			BOTH_MELEE_SPINKICK
+	gloatAnim			BOTH_MELEE_SPIN_KICK_L
 	flourishAnim		both_stand9idle1
 	meditateAnim 		both_sit6
 	bowAnim 			both_headshake
 
-	lungeAtkMove	BOTH_UPPERCUT
+	lungeAtkMove	BOTH_MELEE_UPPERCUT
 	jumpAtkFwdMove	LS_A2_SPECIAL
 	jumpAtkRightMove	LS_A3_SPECIAL		
 	jumpAtkLeftMove	LS_A1_SPECIAL

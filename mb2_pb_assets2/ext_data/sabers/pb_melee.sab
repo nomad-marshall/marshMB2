@@ -180,7 +180,7 @@ heavymelee
 
 	drawanim	BOTH_K6_S6_BR
 	tauntAnim	BOTH_TUSKENTAUNT1
-	readyanim	BOTH_RAGESTAND
+	readyanim	BOTH_WOOKIEE_RAGE_STAND_IDLE
 }
 
 iceman
@@ -251,7 +251,7 @@ iceman
 	hitOtherEffect	"iceman/freeze.efx"
 
 	tauntAnim	BOTH_STAND5TOSTAND8
-	readyanim	MELEE_BLOCK_BLASTER_R //MELEE_STAND
+	readyanim	BOTH_MELEE_BLOCK_BLASTER_R //BOTH_MELEE_STAND1
 	lungeAtkMove	LS_HILT_BASH
 	jumpAtkFwdMove	LS_A_BACKFLIP_ATK
 }

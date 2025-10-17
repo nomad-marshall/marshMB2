@@ -70,7 +70,7 @@ arc_shiv_short
 	drawAnim			BOTH_MELEE2
 	putawayAnim			BOTH_MELEE1
 	tauntAnim			BOTH_VICTORY_FAST
-	gloatAnim			BOTH_MELEE_SPINKICK
+	gloatAnim			BOTH_MELEE_SPIN_KICK_L
 	flourishAnim		both_stand9idle1
 	meditateAnim 		both_knockdown4
 	bowAnim 			both_headshake
