@@ -33,7 +33,7 @@ ClassInfo
 	special2	EAS_MELEE
 	special3 EAS_FP_PROTECT
 	special4 EAS_FP_SPEED
-	//bowAnim BOTH_HAN_TAUNT
+	bowAnim BOTH_HAN_TAUNT
 	flourishAnim BOTH_STAND10_TALK2
 	
 	WP_ProjFlags	HELD_ALTRELOAD
@@ -58,7 +58,6 @@ WeaponInfo0
 	ChargeEffect		"gfx/effects/bryarfrontflash"
 	FlashSound0			"sound/weapons/bryar/fire.mp3"
 	AltFlashSound0		"sound/weapons/bryar/alt_fire.mp3"
-	ChargeSound 		"sound/weapons/bryar/altcharge.mp3"
 	WeaponName			"Aurra's Dual Pistols"
 }
 WeaponInfo1
