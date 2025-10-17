@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"h9_Anakin"
 	weapons			WP_MELEE|WP_SABER
-	attributes		MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_HEALING,1
+	attributes		MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_HEALING,1|MB_ATT_WOOKIEE_FURY,1
 	saberstyle		SS_MEDIUM|SS_STRONG|SS_DESANN
 	forcepowers		FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,3|FP_PULL,2|FP_SEE,2|FP_GRIP,2|FP_SABERTHROW,1|FP_RAGE,1
 	maxhealth	130
@@ -98,4 +98,5 @@ A master of combat - possessing equally strong Lightsaber and Force abilities. R
 
 ^8Attributes:
 - Healing (1)
-- Force Block/Focus (2)"
+- Force Block/Focus (2)
+- Fury (1)"
