@@ -9,7 +9,7 @@ ClassInfo
 	maxhealth	60
 	forcepool	200
 	forceregen	1.15
-	basespeed	187.5
+	basespeed	187
 	resource RESOURCE_FORCE
 
 	weapons WP_MELEE
