@@ -12,7 +12,7 @@ ClassInfo
 	maxhealth    140
 	Speed       	1
 	modelscale	1
-	MBClass			MB_CLASS_JEDI
+	MBClass			MB_CLASS_SITH
 	classNumberLimit	2
 	classflags		CFL_SEEING_STEALTH|CFL_HEAVYMELEE|CFL_NOPICKUPS|CFL_BPFREEJUMPS
 
@@ -23,7 +23,7 @@ ClassInfo
 	APmultiplier       0.8
 	BPmultiplier		1
 	saberspecialDamage 2
-	saberStanceAnim	 BOTH_MELEEPOSE
+	saberStanceAnim	 BOTH_MELEE_STAND2
 	gloatAnim BOTH_ATTACK10
 	flourishAnim BOTH_STAND5TOSIT3
 
