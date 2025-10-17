@@ -4,7 +4,7 @@ name "h3_CloneCom"
 MBClass	MB_CLASS_CLONETROOPER
 classNumberLimit 4
 extralives 1
-weapons	WP_MELEE|WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL
+weapons	WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL
 WP_DCCarbineFlags HELD_ALTRELOAD
 WP_DisruptorFlags HELD_ALTRELOAD
 WP_FlechetteFlags HELD_ALTRELOAD
@@ -29,7 +29,6 @@ rankHack 0.84
 knockbackTaken 0.85
 rankROFMelee 0.7
 rankForcePool 140
-special1 EAS_HI_SPRINT
 special2 EAS_MELEE
 modelscale   1.02
 uioverlay_l "gfx/icons/spec_infantry"
@@ -83,7 +82,6 @@ c_att_descs_1 "120% more DMG/FP DMG, 10% slower RoF, 75% slower mag reload"
 c_att_skill_2 MB_ATT_BASESPEED
 c_att_names_2 "Speed (200)"
 c_att_ranks_2 0
-
 c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
 c_att_names_15 "Strength"
 c_att_ranks_15 0,0
@@ -101,7 +99,6 @@ c_att_descs_18 "Cannot be hand-thrown, 50% less DMG"
 c_att_skill_19 MB_ATT_DET_PACK
 c_att_names_19 "Det Packs"
 c_att_ranks_19 0,0,0
-
 c_att_skill_30 MB_ATT_ROF_MELEE_MULTIPLIER
 c_att_names_30 "Melee RoF (130%)"
 c_att_ranks_30 0
@@ -201,6 +198,8 @@ Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
 rateMod 1.25
+hasAnimOverrides 1
+animAttackWalk BOTH_ATTACK3
 }
 WeaponInfo4
 {
