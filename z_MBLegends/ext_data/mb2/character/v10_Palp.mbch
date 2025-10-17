@@ -4,16 +4,16 @@ Classinfo
 {
 	name			"v10_Palp"
 	weapons			WP_MELEE|WP_SABER
-	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,3|MB_ATT_DEFLECT,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEXTERITY,3|MB_ATT_BLAST_ARMOUR
+	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,3|MB_ATT_DEFLECT,0|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEXTERITY,3
 
 	forcepowers		FP_SABER_OFFENSE,2|FP_LIGHTNING,3|FP_PUSH,3|FP_PULL,3|FP_LEVITATION,3|FP_SEE,3|FP_GRIP,3
 	
 	APmultiplier	1.35
-	BPmultiplier	1.0
-	ASmultiplier 	1.0
+	BPmultiplier	0.95
+	ASmultiplier 	1.015
 	CSmultiplier 	1
 	classflags CFL_NOPICKUPS
-	maxhealth		85
+	maxhealth		100
 	forcepool		140
 	MBclass			MB_CLASS_JEDI
 	classNumberLimit  1
@@ -86,14 +86,15 @@ saberThrowDamage 40
 
 Description 	"Darth Sidious [Sith]
 
-A glass cannon Force user with fast Force regen and powerful dark side abilities, including a corkscrew special. 
+A powerful but relatively frail Dark side user with fast Force regeneration and potent dark side abilities, including a corkscrew special. 
 
 ^2Weaponry:
 - Melee
 -- 15% faster movement
 - Lightsaber 
--- Saber/Blaster Defense (1)
--- Saber Deflect (1)
+-- Saber Defense (2)
+-- Blaster Defense (1)
+-- Saber Deflect (0)
 -- Saber Throw ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[CS2]
@@ -112,5 +113,4 @@ A glass cannon Force user with fast Force regen and powerful dark side abilities
 
 ^8Attributes:
 - Dexterity (3)
-- Blast Armor
 - Force Block/Focus (3)"
