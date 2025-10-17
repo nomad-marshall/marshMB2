@@ -10,7 +10,7 @@ ClassInfo
 	
 	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_QUICKTHROW,1|MB_ATT_JETPACK,1|MB_ATT_AMMO,3|MB_ATT_RESPAWNS,1|MB_ATT_STRONGBLOBS,3|MB_ATT_ASSEMBLE,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_CLONEBLOBS,2|MB_ATT_MANDO_PISTOL,3|MB_ATT_DASH,1
 	
-	maxhealth 	70
+	maxhealth 	75
 	maxarmor	90
 	forcepool 	100
 	resource	resource_fuel
@@ -44,11 +44,8 @@ ClassInfo
 	uishader_1		"gfx/hud/FA_icons/mb2_icon_clonep2_501_jp_blue"
 	
 	model_2			"clonetrooper_p2"
-	skin_2			"501_jetpack_rgb"
-	customred_2		0.576
-	customgreen_2	0.521
-	customblue_2	0.427
-	uishader_2		"gfx/hud/FA_icons/mb2_icon_clonep2_legendsjet"
+	skin_2			"rc_jetpack"
+	uishader_2		"gfx/hud/FA_icons/mb2_icon_rc_jetpack"
 	
 	model_3			"clonetrooper_p1"
 	skin_3			"legendsjet_bf1"
@@ -97,13 +94,12 @@ WeaponInfo0
 	damageMod 1.25
 	velocityMod 1.15
 	hasAnimOverrides 1
-	animReady		BOTH_DC15_READY
-	//animReady		BOTH_DC15_IDLE
-	animReadyWalk		BOTH_DC15_ATTACK
-	animReadyNoAmmo	BOTH_DC15_ATTACK
-	animAttack      BOTH_DC15_ATTACK
-	animAttackWalk   BOTH_DC15_ATTACK
-	animStand 		BOTH_STAND1
+	animReady		BOTH_WESTARM5_READY
+	animReadyWalk		BOTH_WESTARM5_READY
+	animReadyNoAmmo	BOTH_WESTARM5_ATTACK
+	animAttack      BOTH_WESTARM5_ATTACK
+	animAttackWalk   BOTH_WESTARM5_ATTACK
+animStand BOTH_DC15_READY
 }
 
 WeaponInfo1
@@ -143,7 +139,7 @@ description	"Clone Jet Trooper [Clone Trooper]
 -- Ion Blobs (6)
 - EMP Launcher (10) (Rocket Launcher)
 -- Electrifies on direct hit
--- 15% faster velocity
+-- 15% more velocity
 -- 25% more DMG
 -- 40% slower mag reload
 -- Prim. only

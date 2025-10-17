@@ -21,7 +21,7 @@ ClassInfo
 	CSmultiplier    1.2
 	saberThrowDamage 55 //60
 	damageGiven     1.10
-	knockbackTaken 0.80
+	knockbackTaken 0.5
 	forcepool		110
 	maxhealth		140
 	modelscale		1.035
@@ -80,6 +80,6 @@ A powerful, versatile Jedi with an increased Lightsaber chain limit and a variet
 - Speed (2) ^3[CS4]
 
 ^8Attributes:
-- 20% less KB taken
+- 50% less KB taken
 - Healing (1)
 - Force Block/Focus (2)"

@@ -88,7 +88,7 @@ c_att_ranks_1       8,8,4
 c_att_skill_2       MB_ATT_PISTOL
 c_att_names_2       "Bryar (Blaster) Pistol"
 c_att_ranks_2       2,2,15
-c_att_descs_2 "20% more charged FP DMG, 20% slower velocity"
+c_att_descs_2 "20% more charged FP DMG, 20% less velocity"
 c_att_skill_3       MB_ATT_BLASTER
 c_att_names_3       "E-11 Blaster Rifle"
 c_att_ranks_3       6,6
@@ -157,6 +157,12 @@ WeaponInfo0
 	//OverchargeEffect	"Blaster/MuzzleFlash01Y"
 	velocityMod 0.8
 	FPChargeMult	1.20
+	hasAnimOverrides 1
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2
 }
 
 description	"Kyle Katarn [Jedi]
@@ -172,7 +178,7 @@ A Force-sensitive mercenary with the ability to choose his own path.
 --- 33% more DMG
 -- Slap ^3[CS2]
 - Thermal Grenades (2)
-- Stun Baton
+- Stun Baton (3)
 
 ^5Force Powers:
 - Jump (2)

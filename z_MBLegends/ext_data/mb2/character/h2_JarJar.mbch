@@ -32,7 +32,7 @@ Classinfo
 	resourceRegenRate 1
 	resource RESOURCE_STAMINA
 
-  	classNumberLimit	1
+  classNumberLimit	1
 	
 	rateOfFire .15
 	rateOfFire_Melee	0.75
@@ -44,21 +44,28 @@ Classinfo
 	special1	EAS_HI_DODGE
 	special2	EAS_HI_DEX
 	special3	EAS_HI_DASH
+	//special4 EAS_HI_GRAPPLEHOOK
 	
-	uioverlay "gfx/icons/spec_infantry"
+	uioverlay_r "gfx/icons/spec_infantry"
+	uioverlay_l "gfx/icons/brawler"
 	
 	classflags CFL_BLOODYMELEE
 	
- 	model 			"jarjar"					
- 	skin				"default"	
-	uishader			"models/players/jarjar/mb2_icon_default"
+ 	model 			"gungan"					
+ 	skin				"jarjar_cl"	
+	uishader			"models/players/gungan/mb2_icon_jarjar_cl"
+
+ 	model_1			"gungan"					
+ 	skin_1				"jarjar"	
+	uishader_1			"models/players/gungan/mb2_icon_jarjar"
 
 	WalkForward		BOTH_WALK7
 	WalkBackward 		BOTH_WALK7
 	tauntAnim		BOTH_ENGAGETAUNT
 	gloatAnim       	BOTH_TUSKENTAUNT1
 	flourishAnim		BOTH_FORCEWALLRUNFLIP_START
-	bowAnim 			BOTH_KNOCKDOWN3
+	bowAnim 			BOTH_GUNGAN_TAUNT
+	//meditateAnim 	
 	saberStanceAnim	TORSO_SURRENDER_START
 	
 	WP_MeleeFlags HELD_HIGHDAMAGE
@@ -114,12 +121,11 @@ WeaponInfo1
 	customAmmo 				4
 	SelectSound	"sound/weapons/blunt/spin.mp3"	
 	hasAnimOverrides 1
-	animReady BOTH_SABERDUAL_STANCE
-	animReadyWalk BOTH_SABERDUAL_STANCE
-	animReadyNoAmmo BOTH_SABERDUAL_STANCE
-	animAttack NADE_SECONDARY
-	animAttackWalk NADE_SECONDARY
-	animStand BOTH_SABERDUAL_STANCE
+	animReady BOTH_THERMAL_READY2
+	animReadyWalk BOTH_THERMAL_READY2
+	animReadyNoAmmo BOTH_THERMAL_READY2
+	animAttack BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
 }
 
 WeaponInfo2
@@ -141,6 +147,10 @@ WeaponInfo2
 	altMissileEffect		"blaster/Shot01R"
 	customAmmo 		1008
 	clipsize 		144
+	hasAnimOverrides 1
+	animReadyNoAmmo BOTH_ARC_FORWARD_DIVE
+	animAttack BOTH_ARC_FORWARD_DIVE
+	animAttackWalk BOTH_ARC_FORWARD_DIVE
 }
 
 WeaponInfo3

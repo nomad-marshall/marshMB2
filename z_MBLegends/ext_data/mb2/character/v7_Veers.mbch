@@ -128,7 +128,7 @@ A supportive gunner who can mark enemies for death, repair his troops' armor, an
 -- Freezes on hit
 -- 90% faster shot swap
 -- 50% less DMG/FP DMG
--- 50% slower velocity
+-- 50% less velocity
 -- 50% slower mag reload
 
 ^6Inventory:

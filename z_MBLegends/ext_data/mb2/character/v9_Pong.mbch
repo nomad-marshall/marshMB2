@@ -2,24 +2,24 @@
 ClassInfo
 {
 	name				"v9_Pong"
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 	classNumberLimit	1
 	weapons				WP_SABER|WP_MELEE
 	WP_MeleeFlags HELD_SPEED
-	attributes			MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DEFLECT,1|MB_ATT_FORCEBLOCK,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_FP_REPULSE,3|MB_ATT_FORCEFOCUS,1|MB_ATT_DEXTERITY,3
+	attributes			MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DEFLECT,1|MB_ATT_FORCEBLOCK,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_FP_REPULSE,3|MB_ATT_FORCEFOCUS,1|MB_ATT_DEXTERITY,3|MB_ATT_HEALING,1
 
 	forcepowers 		FP_LEVITATION,3|FP_PUSH,3|FP_PULL,3|FP_SABERTHROW,2|
 	
-	forcepool 	120
-	forceregen   1.1
+	forcepool 	130
+	forceregen   1.15
 	resource RESOURCE_FORCE
 	
-	maxhealth	115
+	maxhealth	120
 	basespeed    232
 	saberDamage 273 //300
 	saberthrowDamage 50 //55
 	damageGiven 1.1
-	knockbackTaken 0.5
+	knockbackTaken 0.25
 	special2 EAS_MELEE
 	special3 EAS_HI_DEX
 	special4 EAS_FP_REPULSE
@@ -39,9 +39,9 @@ ClassInfo
 	BPMultiplier 		0.75
 	APMultiplier 		1.05
 	CSmultiplier 		0.98
-	ASmultiplier 		1
+	ASmultiplier 		1.02
 	
-	classflags CFL_BLOODYMELEE
+	classflags CFL_BLOODYMELEE|CFL_NOPICKUPS
 	//saberMaxChain 4
 	
 	gloatAnim 	BOTH_SHOWOFF_DUAL
@@ -89,9 +89,10 @@ A dark sider with two double-bladed Lightsabers and strong Melee skills. Dispatc
 - Repulse ^3[CS4 Melee]
 
 ^8Attributes:
-- 50% less KB taken
+- 75% less KB taken
 - Dexterity (3)
 - Strength (1)
+- Healing (1)
 - Force Block/Focus (1)
 
 ^3Abilities:

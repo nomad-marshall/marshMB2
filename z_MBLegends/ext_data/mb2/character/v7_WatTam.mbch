@@ -184,7 +184,7 @@ Utilizes experimental tech.
 - RA-EV Glove Blaster (Pistol 1)
 -- Ignites on hit
 -- 50% more DMG/FP DMG
--- 25% slower velocity/reload
+-- 25% less velocity/reload
 -- Mag reload
 - DEMP2 (3)
 -- Pushes on hit
@@ -193,7 +193,7 @@ Utilizes experimental tech.
 -- Decimates on direct hit
 -- Bonus explosive DMG
 -- 100% more DMG
--- 75% slower velocity
+-- 75% less velocity
 -- 100% slower mag reload
 -- Sec. only
 - Liquid Detonite (2) (Knockdown Frags)
@@ -210,7 +210,7 @@ Utilizes experimental tech.
 - Assault Sentry
 - Seeker Drone (2)
 - Forcefield ^3[CS3]
-- Bacta (Instant 50 HP) ^3[CS4]
+- Big Bacta ^3[CS4]
 
 ^8Attributes:
 - Armor Regen (1)

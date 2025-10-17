@@ -28,8 +28,8 @@ ClassInfo
 	
 	gloatAnim       BOTH_TUSKENATTACK2
 	flourishAnim    BOTH_TUSKENTAUNT1
-	//saberStanceAnim	BOTH_SPEAR_STANCE
-	SaberStanceAnim	BOTH_TRIPLE3_STAFFSTANCE
+	saberStanceAnim	BOTH_SPEAR_STANCE
+	//SaberStanceAnim	BOTH_TRIPLE3_STAFFSTANCE
 	
 	WP_T21Flags   HELD_KNOCKBACK
 	WP_SaberFlags HELD_PULSE|HELD_STUN
@@ -67,7 +67,7 @@ WeaponInfo1
 	ALTMissileEffect	"concussion/shot"
 	Missile3Effect		"concussion/shot"
 	PowerupShotEffect	"concussion/shot"
-	MissileMissEffect "concussion/alt_miss"
+	MissileMissEffect "concussion/alt_hit"
 	MissileHitHumanEffect "concussion/alt_hit"
 	MissileHitDroidEffect	"concussion/alt_hit"
 	Icon				"gfx/hud/w_icon_w90conc"
@@ -181,7 +181,7 @@ A hunter focused on disruption.
 -- Prim. only
 - Ammonia Bombs (3) (Flechette 1)
 -- Deals AoE DMG while traveling
--- Poisons on hit on hit
+-- Poisons on hit
 -- 100% slower mag reload
 -- Sec. only
 - W-90 Concussion Rifle (T-21 1)

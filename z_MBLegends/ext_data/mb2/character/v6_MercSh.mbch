@@ -33,33 +33,29 @@ ClassInfo
 	//resourceRegenCap 30
 	resource resource_fuel
 
-	model	"dengar"
-	skin		"default"
-	uishader	"models/players/dengar/mb2_icon_default"
+model		"4lom"
+skin		"default"
+uishader	"models/players/4lom/mb2_icon_default"
 
-	model_1 	"4lom"
-	skin_1  	"default"
-	uishader_1  "models/players/4lom/mb2_icon_default"
+model_1		"bounty_hunter"
+skin_1		"default"
+uishader_1	"models/players/bounty_hunter/mb2_icon_default"
 
-	model_2		"bounty_hunter"
-	skin_2		"default"
-	uishader_2	"models/players/bounty_hunter/mb2_icon_default"
+model_2		"RAB-24"
+skin_2		"default"
+uishader_2	"models/players/RAB-24/mb2_icon_default"
 
-	model_3		"RAB-24"
-	skin_3		"default"
-	uishader_3	"models/players/RAB-24/mb2_icon_default"
+model_3		"mayfeld"
+skin_3		"default"
+uishader_3	"models/players/mayfeld/mb2_icon_default"
 
-	model_4		"mayfeld"
-	skin_4		"default"
-	uishader_4	"models/players/mayfeld/mb2_icon_default"
+model_4		"jedi_rm"
+skin_4		"ootyr"
+uishader_4	"models/players/ootyr/mb2_icon_default_jab"
 
-	model_5		"jedi_rm"
-	skin_5		"ootyr"
-	uishader_5	"models/players/ootyr/mb2_icon_default_jab"
-
-	model_6		"human_merc"
-	skin_6		"azanti"
-	uishader_6	"models/players/human_merc/mb2_icon_azanti"
+model_5		"human_merc"
+skin_5		"azanti"
+uishader_5	"models/players/human_merc/mb2_icon_azanti"
 
 	uioverlay_l "gfx/icons/scout"
 	uioverlay_r "gfx/icons/spec_infantry"
@@ -118,9 +114,6 @@ WeaponInfo0
 	MuzzleEffect  "Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
 	MissileMissEffect "Blaster/impact_wall01"
-		altMissileMissEffect "blobs/concussion"
-	altMissileHitHumanEffect "blobs/concussion"
-	altMissileHitDroidEffect "blobs/concussion"
 	customAmmo         750
 	damageMod 1.10
 	clipsize 85

@@ -72,7 +72,7 @@ WeaponInfo0
 	WeaponBasedOff		WP_BOWCASTER
 	NewWorldModel		"models/weapons2/geonosian/sonicrifle.glm" 
 	NewViewModel		"models/weapons2/geonosian/sonicrifle.md3"
-	Icon				"gfx/hud/w_icon_sonicrifle" 			
+	Icon				"gfx/hud/w_icon_sonicrifle2" 			
 	WeaponName			"Geonosian Sonic Blaster"    			
 	MissileHitHumanEffect "effects/geo_sonic/hit"
 	MissileHitDroidEffect "effects/geo_sonic/hit"
@@ -117,7 +117,7 @@ A flight-capable, 2-life dexterous gunner with a Sonic stun Blaster and electric
 - Geonosian Sonic Blaster (Bowcaster 1)
 -- Stuns on hit
 -- 25% more FP DMG
--- 25% slower velocity
+-- 25% less velocity
 -- Mag reload
 -- Prim. only
 - Concussion Grenades (2)

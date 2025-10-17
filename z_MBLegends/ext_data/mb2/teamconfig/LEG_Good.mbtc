@@ -33,21 +33,23 @@ SubclassesForClass1
 
 SubclassesForClass2
 {
-	Subclass1	"h3_CloneCom"
-	Subclass2	"h3_Arc"
-	Subclass3	"h3_CloneLead"
-	Subclass4	"h3_Delta"
-	Subclass5	"h3_BossNass"
-	Subclass6  	"h3_Baze"
-	Subclass7	"h3_Cander"
-	Subclass8	"h4_Ewok"
-	Subclass9	"h4_SenGuard"
-	Subclass10 	"h4_Chir"
-	Subclass11	"h4_Kyle"
-	Subclass12	"h4_Atton" 
-	Subclass13	"h4_Finn"
-	Subclass14	"h4_MrB"
-	Subclass15 	"h4_KirKanos"
+	Subclass1	"h3_Arc"
+	Subclass2	"h3_CloneSpec"
+	Subclass3	"h3_CloneCom"
+	Subclass4	"h3_CloneLead"
+	Subclass5 	"h3_Rex"
+	Subclass6	"h3_Delta"
+	Subclass7	"h3_BossNass"
+	Subclass8  	"h3_Baze"
+	Subclass9	"h3_Cander"
+	Subclass10	"h4_Ewok"
+	Subclass11	"h4_SenGuard"
+	Subclass12 	"h4_Chir"
+	Subclass13	"h4_Kyle"
+	Subclass14	"h4_Atton" 
+	Subclass15	"h4_Finn"
+	Subclass16	"h4_MrB"
+	Subclass17 	"h4_KirKanos"
 }
 
 SubclassesForClass3

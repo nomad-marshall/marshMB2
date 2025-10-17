@@ -36,10 +36,8 @@ ClassInfo
 	gloatAnim		TORSO_HANDSIGNAL1
 	flourishAnim		TORSO_HANDSIGNAL4
 	tauntAnim		TORSO_HANDSIGNAL3
-		WalkForward 		SBD_WALK_NOGUN
-	WalkBackward		SBD_WALKBACK_NOGUN
-//	WalkForward 	BOTH_SBD_WALK1
-//	WalkBackward	BOTH_SBD_WALKBACK1
+WalkForward 	BOTH_SBD_WALK1
+WalkBackward	BOTH_SBD_WALKBACK1
 	
 	uioverlay_l "gfx/icons/brawler"
 	uioverlay_r "gfx/icons/infantry"
@@ -128,7 +126,7 @@ Tanky gunner/brawler hybrids who can spec into an extra life, many forms of dama
 
 ^2Weaponry:
 - Melee
-- Stun Baton
+- Stun Baton (3)
 
 ^8Attributes:
 - Assemble (3) 

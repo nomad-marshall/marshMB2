@@ -1,4 +1,4 @@
-//Siege class def file. wp
+//Siege class def file
 
 ClassInfo
 {
@@ -160,7 +160,7 @@ description	"Scavenger [Bounty Hunter]
 -- Electrifies on hit
 -- 30% more FP DMG
 -- 15% faster mag reload
--- 20% slower velocity
+-- 20% less velocity
 -- 40% slower RoF
 - Stun Grenade (1) (Knockdown Frag)
 -- 50% less DMG
@@ -170,7 +170,7 @@ description	"Scavenger [Bounty Hunter]
 -- Cooking does not affect det. timer
 - Trip Mines (2)
 - Pulse Grenade (1)
-- Stun Baton
+- Stun Baton (3)
 
 ^6Inventory:
 - Kolto (Gradual 50 HP) ^3[CS4]
