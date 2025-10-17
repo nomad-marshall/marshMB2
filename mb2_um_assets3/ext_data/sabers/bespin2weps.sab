@@ -180,8 +180,8 @@ animSpeedScale		1.15
 tauntAnim	BOTH_FORCE_PROTECT
 flourishAnim	BOTH_H6_S6_T_
 gloatAnim 	BOTH_JUMPATTACK7
-drawAnim 	MELEE_BLOCK_BLASTER_R
-readyanim	BOTH_RAGESTAND
+drawAnim 	BOTH_MELEE_BLOCK_BLASTER_R
+readyanim	BOTH_WOOKIEE_RAGE_STAND_IDLE
 	
 splashRadius	126
 splashDamage	10

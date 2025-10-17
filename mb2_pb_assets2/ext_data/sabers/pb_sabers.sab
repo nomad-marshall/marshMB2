@@ -216,10 +216,10 @@ swhartz_ring
 	damageScale		1.2
 	lungeAtkMove              LS_SPINATTACK_ALORA
     jumpAtkFwdMove            LS_A_JUMP_T__B_
-	readyAnim MELEE_STAND
-	drawAnim  MELEE_STAND
-	//tauntAnim MELEE_BLOCK_C
-	//gloatAnim MELEE_BLOCK_C
+	readyAnim BOTH_MELEE_STAND1
+	drawAnim  BOTH_MELEE_STAND1
+	//tauntAnim BOTH_MELEE_BLOCK_C
+	//gloatAnim BOTH_MELEE_BLOCK_C
 	noManualDeactivate 1
 	boltToWrist	1
 	

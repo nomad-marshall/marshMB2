@@ -307,7 +307,7 @@ Gaffi_legends2
 	soundOn		"s/w/t/swing9.wav"
 	soundLoop	null
 	soundOff	"s/w/t/saberoff.wav"
-	readyAnim  MELEE_STAND 
+	readyAnim  BOTH_MELEE_STAND1 
 	animSpeedScale      0.93
 	swingSound1	"s/w/t/staffswing4.wav"
 	swingSound2	"s/w/t/staffswing5.wav"
@@ -397,7 +397,7 @@ vibroaxe_new_legends
 	useGoreConfig	    1
 	disarmable 1
 	drawAnim BOTH_B4_T___
-	readyAnim    TRIPLE3_BLUESTANCE
+	readyAnim    BOTH_TRIPLE3_BLUESTANCE
 	noCartwheels 1
 	jumpAtkFwdMove LS_A_JUMP_T__B_
 	jumpAtkLeftMove LS_NONE
@@ -609,7 +609,7 @@ lightsaber_pike_legends
 	animSpeedScale   1
 	damageScale     1
 	disarmable 	1
-	readyAnim     TRIPLE3_REDSTANCE
+	readyAnim     BOTH_TRIPLE3_REDSTANCE
 	//lungeAtkMove LS_PULL_ATTACK_STAB
 }
 
@@ -1140,7 +1140,7 @@ vibroaxe_snoova
 	useGoreConfig	    1
 	disarmable 1
 	drawAnim BOTH_B4_T___
-	readyAnim    TRIPLE3_BLUESTANCE
+	readyAnim    BOTH_TRIPLE3_BLUESTANCE
 	noCartwheels 1
 	jumpAtkFwdMove LS_A_JUMP_T__B_
 	jumpAtkLeftMove LS_NONE

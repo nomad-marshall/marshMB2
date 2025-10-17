@@ -215,7 +215,7 @@ saber_savage_legends
     jumpAtkFwdMove    LS_A_JUMP_T__B_
     jumpAtkRightMove    LS_NONE   
     jumpAtkLeftMove     LS_NONE 
-	readyAnim TRIPLE3_STAFFSTANCE
+	readyAnim BOTH_TRIPLE3_STAFFSTANCE
 	lungeAtkMove LS_A3_SPECIAL	
 	singleBladeStyle	strong
 	singleBladeThrowable		1

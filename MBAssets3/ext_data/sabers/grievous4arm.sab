@@ -21,7 +21,7 @@ grievb4
 	lungeAtkMove		LS_SPINATTACK_DUAL
 	//jumpAtkFwdMove LS_A_LUNGE
 	jumpAtkFwdMove LS_A_JUMP_T__B_
-	readyAnim BOTH_RAGESTAND
+	readyAnim BOTH_WOOKIEE_RAGE_STAND_IDLE
 	noFlips 1
 }
 
@@ -48,6 +48,6 @@ grievg4
 	lungeAtkMove		LS_SPINATTACK_DUAL
 	//jumpAtkFwdMove LS_A_LUNGE
 	jumpAtkFwdMove LS_A_JUMP_T__B_
-	readyAnim BOTH_RAGESTAND
+	readyAnim BOTH_WOOKIEE_RAGE_STAND_IDLE
 	noFlips 1
 }

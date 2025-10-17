@@ -29,7 +29,7 @@ minishield
     	notinopen    1
 	blasterblocking 1
 
-	drawAnim	DUAL_DRAW
+	drawAnim	BOTH_DUAL_PISTOLS_DRAW
 	putawayAnim 	BOTH_A2_TL_BR
 	readyAnim	BOTH_MELEE_BLOCK_C	//THIS LOOKS REALLY GOOD with single
 	lungeAtkMove 	LS_HILT_BASH
@@ -86,7 +86,7 @@ minishield_sub
     	notinopen    1
 	blasterblocking 1
 
-	readyAnim	BOTH_MELEEPOSE
+	readyAnim	BOTH_MELEE_STAND2
 
 	soundOn		"s/w/s/yon.wav"
 	soundLoop	"s/w/s/yhum.wav"	
