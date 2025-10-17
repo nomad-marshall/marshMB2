@@ -108,8 +108,8 @@ WeaponInfo0
 	customAmmo -1
 	rateMod 8
 	hasAnimOverrides 1
-	animReady MELEE_STAND
-	animReadyWalk MELEE_STAND
+	animReady BOTH_MELEE_STAND1
+	animReadyWalk BOTH_MELEE_STAND1
 	//animReady BOTH_MELEE_STAND1
 	//animReadyWalk BOTH_MELEE_STAND1
 	animReadyNoAmmo BOTH_SUPERPUSH

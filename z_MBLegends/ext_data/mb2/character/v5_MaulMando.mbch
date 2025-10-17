@@ -114,11 +114,11 @@ WeaponInfo1
 	animReady 		BOTH_PAIN16   
 	animReadyWalk 	BOTH_PAIN16    
 	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
-	animRunAttackR	DUAL_PISTOLS_FIRE_RIGHT
-	animRunAttackL	DUAL_PISTOLS_FIRE_LEFT
+	animRunAttackR	BOTH_DUAL_PISTOLS_ATTACK_R
+	animRunAttackL	BOTH_DUAL_PISTOLS_ATTACK_L
 	animWalkAttackR	DUAL_RUNNING_FIRE_RIGHT
 	animWalkAttackL	DUAL_RUNNING_FIRE_LEFT
-	animCharge	DUAL_PISTOLS_READY
+	animCharge	BOTH_DUAL_PISTOLS_UP
 	animStand 	BOTH_STAND9
 	customAmmo 800
 	clipsize	30

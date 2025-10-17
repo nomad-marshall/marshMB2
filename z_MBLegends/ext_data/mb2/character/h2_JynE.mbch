@@ -44,7 +44,7 @@ ClassInfo
 	rateoffire_melee 0.9
 	speed            1.05
 	
-	saberStanceAnim	BOTH_MELEEPOSE
+	saberStanceAnim	BOTH_MELEE_STAND2
 	flourishAnim     BOTH_STAND5TOAIM
 	gloatAnim	BOTH_SHOWOFF_FAST
 	tauntAnim	BOTH_ENGAGETAUNT

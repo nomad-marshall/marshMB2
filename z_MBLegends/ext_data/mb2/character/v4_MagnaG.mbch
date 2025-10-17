@@ -29,8 +29,8 @@ ClassInfo
 	classflags CFL_STRONGAGAINSTPHYSICAL
 	special1 EAS_NONE
 	special2 EAS_MELEE
-	//meditateAnim SBD_DEAD
-	deathAnim	SBD_DEATH
+	//meditateAnim BOTH_SBD_DEAD1
+	deathAnim	BOTH_SBD_DEATH1
 	
 	modelscale 	1.13
 	
