@@ -54,7 +54,7 @@ WeaponInfo0
 	FlashSound3		"s/w/m/punch4.mp3"
 	WeaponName  		"Very ^1Hot ^7Punch"
 	CustomAmmo			50
-	firingAnim			MAND_FLAME
+	firingAnim			BOTH_MAND_FLAME_ATTACK
 	Idleanim			BOTH_MELEE_STAND1
 	clipSize			2
 	FPMult	2

@@ -41,7 +41,7 @@ ClassInfo
 	uioverlay_c "gfx/icons/brawler"
 	modelscale		1.25
 	
-	gloatAnim DUAL_DRAW
+	gloatAnim BOTH_DUAL_PISTOLS_DRAW
 	flourishAnim BOTH_FORCE_RAGE
 	
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK

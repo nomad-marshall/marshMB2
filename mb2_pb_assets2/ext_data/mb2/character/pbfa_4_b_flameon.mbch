@@ -67,7 +67,7 @@ WeaponInfo1
 	FlashSound2 "weapons/impact/hit10"
 	WeaponName  "Fire Blasts"
 	CustomAmmo	200
-	firingAnim		MAND_FLAME
+	firingAnim		BOTH_MAND_FLAME_ATTACK
 	Idleanim	BOTH_MELEE_STAND1
 	clipSize	10
 		
@@ -91,7 +91,7 @@ altFireEnabled 		0
 primFireEnabled		1
 customAmmo		300
 AltFlashSound	"sound/detpack/fire.mp3"
-firingAnim		MAND_FLAME
+firingAnim		BOTH_MAND_FLAME_ATTACK
 Idleanim	BOTH_MELEE_STAND1
 
 }

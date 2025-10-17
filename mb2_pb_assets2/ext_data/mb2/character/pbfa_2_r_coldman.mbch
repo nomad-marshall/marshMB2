@@ -69,7 +69,7 @@ WeaponInfo2
  	FlashSound2		"Sound/player/snow_land.mp3"
  	FlashSound3		"Sound/player/snow_land.mp3"
 	WeaponName  	"Ice Dart"
-	firingAnim		MAND_FLAME
+	firingAnim		BOTH_MAND_FLAME_ATTACK
 	Idleanim		BOTH_HEROPISTOLIDLE
 	altFireEnabled  0
 	CustomAmmo		200
@@ -96,7 +96,7 @@ WeaponInfo3
 	FlashSound1		"Sound/effects/ice.wav"
  	FlashSound2		"Sound/effects/ice.wav"
  	FlashSound3		"Sound/effects/ice.wav"
-	firingAnim		MAND_FLAME
+	firingAnim		BOTH_MAND_FLAME_ATTACK
 	Idleanim		BOTH_MELEE_STAND1
 
 }
