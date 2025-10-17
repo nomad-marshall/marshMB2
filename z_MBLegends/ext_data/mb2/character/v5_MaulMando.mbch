@@ -48,8 +48,8 @@ ClassInfo
 	special3 EAS_HI_DEX
 	special4 EAS_FP_RAGE
 	
-	//WalkBackward 	BOTH_WALK_DUAL
-	//WalkForward 	BOTH_WALK_DUAL
+	WalkBackward 	BOTH_WALK_DUAL
+	WalkForward 	BOTH_WALK_DUAL
 	isCustomBuild	1
 	mbPoints		6
 	
@@ -113,8 +113,7 @@ WeaponInfo1
 	hasAnimOverrides 	1
 	animReady 		BOTH_PAIN16   
 	animReadyWalk 	BOTH_PAIN16    
-	animReadyNoAmmo 	DUAL_DRAW 
-	//animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
+	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
 	animRunAttackR	DUAL_PISTOLS_FIRE_RIGHT
 	animRunAttackL	DUAL_PISTOLS_FIRE_LEFT
 	animWalkAttackR	DUAL_RUNNING_FIRE_RIGHT
@@ -219,7 +218,7 @@ Enforcers with brutal burst fire/area control.
 -- Slap ^3[GB]
 - Fire Grenade (1)
 
-^5Default Powers:
+^5Powers:
 - Dark Rage (3) ^3[CS4]
 
 ^8Attributes:
