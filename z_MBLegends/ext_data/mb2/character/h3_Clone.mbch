@@ -28,7 +28,9 @@ ClassInfo
 	special2			EAS_HI_MEDPAC
 	special4 		EAS_HI_GRAPPLEHOOK
 	
-	flourishAnim BOTH_PUNCH1
+	//flourishAnim BOTH_PUNCH1
+	flourishAnim BOTH_STAND5TOAIM
+	
 	
 	uioverlay_l "gfx/icons/heavy"
 	uioverlay_r "gfx/icons/infantry"
