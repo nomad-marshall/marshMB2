@@ -94,7 +94,7 @@ WeaponInfo1
 	Icon			"gfx/hud/w_icon_wristrocket"
 	WeaponName		"Wrist Rockets"
 	clipSize 10
-	CustomAmmo 50
+	CustomAmmo 40
  hasAnimOverrides 1
 	animReady TORSO_WEAPONREADY2
 	animReadyWalk TORSO_WEAPONREADY2
@@ -115,13 +115,6 @@ WeaponInfo2
 	Icon			"gfx/hud/w_icon_ee-3" 
 	WeaponName		"EE-3 Carbine Rifle"
 	customAmmo 800
- hasAnimOverrides 1
-	animReady TORSO_WEAPONREADY2
-	animReadyWalk BOTH_WESTARM5_IDLE
-	animReadyNoAmmo BOTH_ATTACK2
-	animAttack BOTH_ATTACK2
-	animAttackWalk BOTH_ATTACK2
-	animCharge BOTH_ATTACK2
 }
 
 description	"Boba Fett [Bounty Hunter]
@@ -135,7 +128,7 @@ A versatile Jetpack gunner with an arsenal of Mandalorian abilities.
 -- Fires focused blasts while hovering
 -- 10% less FP DMG
 -- 40% slower mag reload
-- Wrist Rockets (Conc Rifle 3)
+- Wrist Rockets (5) (Conc Rifle 3)
 -- Pushes on direct hit
 -- 75% less velocity
 -- 40% slower mag reload
