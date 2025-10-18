@@ -12,11 +12,12 @@ ClassInfo
 	forcepowers			FP_SABER_OFFENSE,3|FP_DRAIN,3|FP_LEVITATION,3|FP_PUSH,2|FP_PULL,2|FP_SEE,3|FP_LIGHTNING,2|FP_SABERTHROW,1|FP_GRIP,1|FP_ABSORB,1|FP_DEADLYSIGHT,2
 	maxhealth			130
 	forcepool			125
+resource RESOURCE_FORCE
 	model				"nihiluspnk"
 	skin				"default"
 	uishader			"models/players/nihiluspnk/mb2_icon_default"
 	modelscale			1.14
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 	classNumberLimit	1
 		classflags CFL_NOPICKUPS
 	APmultiplier		1.05

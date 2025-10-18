@@ -18,6 +18,7 @@ ClassInfo
 	modelscale			1.09
 	speed               0.92
 	forceregen          0.95
+resource RESOURCE_FORCE
 	special2 EAS_MELEE
 	special3 EAS_FP_PUSH
 	special4 EAS_FP_GRIP
@@ -37,7 +38,7 @@ ClassInfo
 	bowAnim BOTH_CROUCH3
 	
 	classflags			CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 	classNumberLimit  	1
 	
 	saber1				Vader_legends1

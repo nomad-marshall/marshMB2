@@ -54,6 +54,11 @@ WeaponInfo0
 	PrimHitscanTracer	10
 	clipSize			1
 	customAmmo 			8
+	hasAnimOverrides 1
+	animReady BOTH_DC15_IDLE
+	animReadyWalk BOTH_WESTARM5_IDLE
+	animReadyNoAmmo BOTH_DC15_ATTACK
+	animStand BOTH_STAND1 //lower
 }
 
 description	"Jango Fett [Mandalorian]

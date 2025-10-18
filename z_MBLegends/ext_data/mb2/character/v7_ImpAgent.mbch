@@ -48,30 +48,31 @@ ClassInfo
 	gloatAnim TORSO_HANDSIGNAL4
 	flourishAnim BOTH_SPINATTACK7
 	saberStanceAnim BOTH_STAND9
-	
-	model	"stormie"
-	skin	"shadow"
-	uishader	"models/players/stormie/mb2_icon_shadow"
 
-	model_1 	"stormie"
-	skin_1 	"vader"
-	uishader_1	"models/players/stormie/mb2_icon_vader"
 
-	model_2	"saboteur" 				
-	skin_2	"default"					
-	uishader_2	"models/players/saboteur/mb2_icon_default"
+model		"tie_pilot"
+skin		"garindan"
+uishader	"models/players/tie_pilot/mb2_icon_garindan"
 
-	model_3	"tie_pilot"
-	skin_3	"garindan"
-	uishader_3 "models/players/tie_pilot/mb2_icon_garindan"
+model_1		"tie_pilot"
+skin_1		"kubaz"
+uishader_1	"models/players/tie_pilot/mb2_icon_kubaz"
 
-	model_4	"tie_pilot"
-	skin_4	"kubaz"
-	uishader_4	"models/players/tie_pilot/mb2_icon_kubaz"
+model_2		"tie_pilot"
+skin_2		"kubazb"
+uishader_2	"models/players/tie_pilot/mb2_icon_kubazb"
 
-	model_5	"tie_pilot"
-	skin_5	"kubazb"
-	uishader_5	"models/players/tie_pilot/mb2_icon_kubazb"
+model_3		"stormie"
+skin_3		"shadow"
+uishader_3	"models/players/stormie/mb2_icon_shadow"
+
+model_4 	"stormie"
+skin_4 		"vader"
+uishader_4	"models/players/stormie/mb2_icon_vader"
+
+model_5		"saboteur" 				
+skin_5		"default"					
+uishader_5	"models/players/saboteur/mb2_icon_default"
 
 	isCustomBuild	1
 	mbPoints	50

@@ -12,10 +12,11 @@ ClassInfo
 	ASmultiplier		.95
 	CSmultiplier	1.05
 	forceregen			0.90
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 	classNumberLimit	1
 	modelScale       1.18
 	speed			0.97
+resource RESOURCE_FORCE
 	classflags		CFL_BLOODYMELEE|CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
 	skillTimerMod		1.25
 	saberThrowDamage	70
@@ -35,11 +36,11 @@ ClassInfo
 	special3	EAS_FP_REPULSE	
 	special4	EAS_HI_BARGE
 	
-	//RunForward BOTH_WOOKIEE_RAGE_RUN
+	runForward BOTH_SABERSTAFF_RUN
 	gloatAnim BOTH_FORCE_RAGE
 	flourishAnim BOTH_WOOKIEE_ENRAGE
 	bowAnim BOTH_CROUCH3
-	
+	saberStanceAnim BOTH_SPEAR_STANCE
 	isCustomBuild		1
 	mbPoints			36
 	
