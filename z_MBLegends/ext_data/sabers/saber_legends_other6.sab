@@ -764,7 +764,7 @@ jarjar_leg
 	useGoreConfig 1
 	useGoreConfig2 1
 	drawanim	BOTH_K6_S6_BR
-	jumpAtkFwdMove LS_JUMPATTACK_DUAL
+	jumpAtkFwdMove LS_CYAN_DFA
 	lungeAtkMove LS_KICK_RL
 	jumpAtkLeftMove LS_JUMPATTACK_CART_LEFT
 	jumpAtkRightMove LS_JUMPATTACK_CART_RIGHT
