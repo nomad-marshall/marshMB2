@@ -6,7 +6,7 @@ ClassInfo
 	MBClass			MB_CLASS_HERO
 	classNumberLimit	1
 	
-	weapons			WP_MELEE|WP_BLASTER_PISTOL
+	weapons			WP_MELEE
 	attributes MB_ATT_TRACKING_BEACON
 	
 	maxhealth		160
@@ -154,13 +154,6 @@ A scrappy class with custom options like a double-damage Pistol, a massive Energ
 
 ^2Weaponry:
 - Melee
-- Han Solo's DL-44 Heavy Blaster Pistol (1)
--- 100% more DMG
--- 20% more FP DMG
--- 20% more velocity
--- 20% slower RoF
--- 15% slower movement
--- 150% slower reload
 
 ^8Attributes:
 - Tracking Beacon"

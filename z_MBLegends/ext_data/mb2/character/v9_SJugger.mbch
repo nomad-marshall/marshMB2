@@ -31,7 +31,7 @@ saberThrowDamage 36 //40
 	special4 EAS_FP_LIGHTNING
 	
 	classflags 		CFL_NOPICKUPS
-	MBClass			MB_CLASS_JEDI
+	MBClass			MB_CLASS_SITH
 	classNumberLimit	1
 	
 	uioverlay "gfx/icons/frontline"

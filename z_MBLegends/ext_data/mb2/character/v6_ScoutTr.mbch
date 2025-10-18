@@ -25,7 +25,7 @@ ClassInfo
 	rankAS	1,1.05,1.1
 	APmultiplier 0.75
 	BPmultiplier 0
-	rankBPMultiplier	1.15
+	rankBP	1.15
 	saberDamage 75
 	RankSaberDamage 100
 	extralives	1

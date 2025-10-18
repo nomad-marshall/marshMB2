@@ -3,16 +3,16 @@
 ClassInfo
 {
 	name				"v9_Sion"
-	MBClass			MB_CLASS_JEDI
+	MBClass			MB_CLASS_SITH
 	classNumberLimit		1
 	weapons				WP_SABER|WP_MELEE
-	attributes			MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3
+	attributes			MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_WOOKIEE_FURY,1
 
 	forcepowers			FP_LEVITATION,3|FP_PUSH,2|FP_SABER_OFFENSE,1|FP_SEE,1|FP_DRAIN,2|FP_GRIP,1|FP_SABERTHROW,1|FP_RAGE,2
 	
 	maxhealth		130
 	forcepool        125
-
+resource RESOURCE_FORCE
 	special2 EAS_MELEE
 	special3 EAS_FP_DRAIN
 	special4 EAS_FP_RAGE
@@ -22,11 +22,10 @@ ClassInfo
 	speed 1.04
 	damageGiven   1.10
 	saberThrowDamage 37 //40
-	flourishAnim BOTH_FORCE_RAGE
-	//flourishAnim BOTH_STAND_INJURED_IDLE
-	//gloatAnim BOTH_COLLAPSED_IDLE
-	//tauntAnim BOTH_FORCE_RAGE
-	//bowAnim BOTH_INJURED_TO_COLLAPSED
+	flourishAnim BOTH_STAND_INJURED_IDLE
+	gloatAnim BOTH_COLLAPSED_IDLE
+	tauntAnim BOTH_FORCE_RAGE
+	bowAnim BOTH_INJURED_TO_COLLAPSED
 	modelscale	1.03
 	model	"darthsion"
 	skin		"default"
@@ -70,4 +69,5 @@ A Sith that can drain resource pools from others to heal himself, and possesses 
 - Blast Armor
 - Healing (2)
 - Force Block (3)
-- Force Focus (2)"
+- Force Focus (2)
+- Fury (1)"

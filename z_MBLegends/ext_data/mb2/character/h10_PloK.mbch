@@ -110,8 +110,6 @@ WeaponInfo0
 	hasAnimOverrides 1
 	animReady BOTH_MELEE_STAND1
 	animReadyWalk BOTH_MELEE_STAND1
-	//animReady BOTH_MELEE_STAND1
-	//animReadyWalk BOTH_MELEE_STAND1
 	animReadyNoAmmo BOTH_SUPERPUSH
 	animAttack BOTH_SUPERPUSH
 	animAttackWalk BOTH_SUPERPUSH

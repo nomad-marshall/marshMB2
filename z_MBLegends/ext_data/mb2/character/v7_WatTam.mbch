@@ -121,7 +121,6 @@ WeaponInfo2
 	animReadyNoAmmo BOTH_STAND5TURNLEFTSTART
 	animAttack   BOTH_FORCEGRIP3 
 	animAttackWalk BOTH_FORCEGRIP3 
-	typeCharge BOTH_REACHFORSABER1
 	animCharge BOTH_REACHFORSABER1
 	animStand BOTH_REACHFORSABER1 //lower
 }

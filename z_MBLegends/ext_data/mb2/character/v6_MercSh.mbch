@@ -27,8 +27,8 @@ ClassInfo
 	WP_CloneRifleFlags HELD_ALTRELOAD
 
 	forcepowers	FP_SEE,3
-	forcepool	80
-	resourceRegenAmount 80
+	forcepool	70
+	resourceRegenAmount 70
 	resourceRegenRate 25000
 	//resourceRegenCap 30
 	resource resource_fuel
@@ -118,6 +118,13 @@ WeaponInfo0
 	damageMod 1.10
 	clipsize 85
 	rateMod 0.92
+hasAnimOverrides 1
+animReady BOTH_DC15_IDLE
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_ATTACK
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+animStand BOTH_STAND1
 }
 
 WeaponInfo1
@@ -181,7 +188,7 @@ A suppressive fire class with rifles and area-control tools.
 - Infrared Motion Sensor (Sense 3) ^3[CS3]
 
 ^8Attributes:
-- Resource Regen: 80/25s
+- Resource Regen: 70/25s
 - Dexterity (1)
 - Blast Armor
 - Magnetic Plating

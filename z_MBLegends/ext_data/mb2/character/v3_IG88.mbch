@@ -32,8 +32,6 @@ ClassInfo
 		WalkForward 		BOTH_SBD_WALK1
 	WalkBackward		BOTH_SBD_WALKBACK1
 	//bowAnim 		BOTH_DEFLECTSLASH__R__L_FIN
-	//WalkForward 	BOTH_SBD_WALK1
-	//WalkBackward	BOTH_SBD_WALKBACK1
 	//drawAnim 		BOTH_A6_FB
 	//altFireAnim BOTH_PISTOL_ATTACK
 	uioverlay "gfx/icons/heavy"
@@ -153,7 +151,7 @@ A sturdy and heavily armored gunner.
 -- 35% less reach
 -- 300% more radius
 -- Slap ^3[CS2]
-- Dual Blaster Rifles (WESTAR 4)
+- Dual Blaster Rifles (WESTARs 4)
 -- 35% slower RoF
 -- 10% less DMG
 -- 15% less FP DMG

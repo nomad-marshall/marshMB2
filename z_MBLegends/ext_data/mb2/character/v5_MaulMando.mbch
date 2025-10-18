@@ -49,7 +49,7 @@ ClassInfo
 	special4 EAS_FP_RAGE
 	
 	WalkBackward 	BOTH_WALK_DUAL
-	WalkForward 	BOTH_WALK_DUAL
+	WalkForward 	BOTH_WALKBACK_DUAL
 	isCustomBuild	1
 	mbPoints		6
 	
@@ -169,12 +169,10 @@ WeaponInfo3
 	FlashSound1 		"sound/weapons/EL-16/fire.wav"
 	FlashSound2 		"sound/weapons/EL-16/fire.wav"
 	FlashSound3 		"sound/weapons/EL-16/fire.wav"
-	FlashSound4  	"sound/weapons/EL-16/alt_fire.wav"	
 	AltFlashSound0  	"sound/weapons/EL-16/alt_fire.wav"
 	AltFlashSound1  	"sound/weapons/EL-16/alt_fire.wav"
 	AltFlashSound2  	"sound/weapons/EL-16/alt_fire.wav"
 	AltFlashSound3  	"sound/weapons/EL-16/alt_fire.wav"
-	AltFlashSound4  	"sound/weapons/EL-16/alt_fire.wav"
 	customammo 	800
 	clipsize 80
 	FPMult	1.25

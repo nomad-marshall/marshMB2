@@ -13,7 +13,8 @@ ClassInfo
 	speed				0.97
 	classflags			CFL_BLOODYMELEE|CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
 	skillTimerMod		1.25
-
+ saberStanceAnim BOTH_SPEAR_STANCE
+	runForward BOTH_SABERSTAFF_RUN
 	bargeSoundOverride 	"sound/chars/jedibrute/misc/pushed1.mp3"
 	
 	uioverlay_r "gfx/icons/frontline"
@@ -83,7 +84,7 @@ ClassInfo
 	rankAP     1.5
 	
 	BPMultiplier	1
-	rankBPMultiplier	1.4
+	rankBP	1.4
 	
 	knockbackTaken		1
 	rankKbTaken			0.10

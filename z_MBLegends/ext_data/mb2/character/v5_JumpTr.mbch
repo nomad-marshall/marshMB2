@@ -11,7 +11,7 @@ ClassInfo
 	resource				resource_fuel
 	forcepool 100
 	flourishAnim BOTH_WOOKIEE_RAGE_MELEE1
-	
+
     classNumberLimit		2
 	extralives      		1
     modelscale			1.13
@@ -80,6 +80,9 @@ WeaponInfo0
 	ReloadTimeModifier 		1.15
 	damageMod 0.95
 	Ratemod 1.2
+hasAnimOverrides 1
+animReady BOTH_WESTARM5_IDLE
+animStand BOTH_STAND1
 }
 
 WeaponInfo1
