@@ -110,16 +110,16 @@ WeaponInfo1
 	altFlashSound0	"sound/weapons/LPA_NN-14/alt_fire.wav"	
 	ChargeSound		"sound/weapons/leia_pistol/altcharge.mp3"
 	ChargeEffect		"gfx/effects/yellow_bryarFrontFlash" 
-	hasAnimOverrides 	1
-	animReady 		BOTH_PAIN16   
-	animReadyWalk 	BOTH_PAIN16    
-	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
-	animRunAttackR	DUAL_PISTOLS_FIRE_RIGHT
-	animRunAttackL	DUAL_PISTOLS_FIRE_LEFT
-	animWalkAttackR	DUAL_RUNNING_FIRE_RIGHT
-	animWalkAttackL	DUAL_RUNNING_FIRE_LEFT
-	animCharge	DUAL_PISTOLS_READY
-	animStand 	BOTH_STAND9
+	//hasAnimOverrides 	1
+	//animReady 		BOTH_PAIN16   
+	//animReadyWalk 	BOTH_PAIN16    
+	//animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
+	//animRunAttackR	DUAL_PISTOLS_FIRE_RIGHT
+	//animRunAttackL	DUAL_PISTOLS_FIRE_LEFT
+	//animWalkAttackR	DUAL_RUNNING_FIRE_RIGHT
+	//animWalkAttackL	DUAL_RUNNING_FIRE_LEFT
+	//animCharge	DUAL_PISTOLS_READY
+	//animStand 	BOTH_STAND9
 	customAmmo 800
 	clipsize	30
 	rateMod 	0.80

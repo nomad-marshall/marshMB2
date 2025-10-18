@@ -58,10 +58,10 @@ resource RESOURCE_FORCE
 	rankforcepool		110,130,150
 	
 	APMultiplier		1
-	rankAPMultiplier  1.5
+	rankAP 1.5
 	
 	BPmultiplier		1
-	rankBPMultiplier	1.4
+	rankBP	1.4
 	
 	//broken - let's revisit this
 	//BlockRegenRate 		400 //Matches with Saber Defense 2

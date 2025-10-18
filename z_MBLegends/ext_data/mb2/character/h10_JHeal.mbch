@@ -73,8 +73,8 @@ ClassInfo
 	ASmultiplier 		1.00
 	CSmultiplier 		1.00
 	BPmultiplier		0.8
-	rankBPmultiplier	1,1.2
-	
+	rankBP	1,1.2
+
 	uioverlay_r "gfx/icons/support"
 	uioverlay_l "gfx/icons/medic"
 	

@@ -11,7 +11,7 @@ ClassInfo
 	basespeed 240
 
 	special1 EAS_HI_SPRINT
-	special4	EAS_HI_KICK
+	special2	EAS_HI_KICK
 
 	resource RESOURCE_STAMINA
 	forcepool 80
@@ -25,7 +25,7 @@ ClassInfo
 	classFlags CFL_STRONGAGAINSTPHYSICAL
 	
 	WP_CloneRifleFlags HELD_ALTRELOAD
-	WP_Melee HELD_SPEED
+	WP_MeleeFlags HELD_SPEED
 	WP_SaberFlags HELD_FLAME
 	WP_MGLFlags HELD_ALTRELOAD
 	WP_DCCarbineFlags	HELD_ALTRELOAD|HELD_PULSE|HELD_KNOCKBACK|HELD_STUN
@@ -282,4 +282,4 @@ A ruthless assault class who likes to bring his bounties in cold.
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Gun Kick ^3[CS4 Gun]"
+- Gun Kick ^3[CS2 Gun]"

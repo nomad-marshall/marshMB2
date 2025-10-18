@@ -29,7 +29,8 @@ ClassInfo
 	special2	EAS_HI_BARGE
 	special3 EAS_HI_QUICKTOSS
 	
-	flourishAnim BOTH_DUAL_DRAW
+	//flourishAnim BOTH_DUAL_DRAW
+	flourishAnim BOTH_STAND5TOAIM
 	
 	uioverlay "gfx/icons/brawler"
 	
