@@ -38,16 +38,24 @@ ClassInfo
 	uioverlay_r "gfx/icons/infantry"
 
 	model	"magnaguard"
-	skin		"default_magutapau"
-	uishader	"models/players/magnaguard/mb2_icon_default_magutapau"
-	
+	skin	"default"
+	uishader "models/players/magnaguard/mb2_icon_default"
+
 	model_1	"magnaguard"
 	skin_1	"default_cape"
 	uishader_1 "models/players/magnaguard/mb2_icon_default_cape"
-	
+
 	model_2	"magnaguard"
-	skin_2	"default"
-	uishader_2 "models/players/magnaguard/mb2_icon_default"
+	skin_2		"default_magutapau"
+	uishader_2	"models/players/magnaguard/mb2_icon_default_magutapau"
+
+	model_3	"magnaguard"
+	skin_3	"bedlam"
+	uishader_3 "models/players/magnaguard/mb2_icon_bedlam"
+
+	model_4	"magnaguard"
+	skin_4	"bedlam_cape"
+	uishader_4 "models/players/magnaguard/mb2_icon_bedlam_cape"
 	
 	//respawncustomtime 30000
 }
