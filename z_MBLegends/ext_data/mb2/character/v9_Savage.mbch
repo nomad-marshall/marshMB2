@@ -61,7 +61,7 @@ resource RESOURCE_FORCE
 	rankAP 1.5
 	
 	BPmultiplier		1
-	rankBPM	1.4
+	rankBP	1.4
 	
 	//broken - let's revisit this
 	//BlockRegenRate 		400 //Matches with Saber Defense 2
