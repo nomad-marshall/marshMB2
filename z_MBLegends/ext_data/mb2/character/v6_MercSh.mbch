@@ -118,6 +118,13 @@ WeaponInfo0
 	damageMod 1.10
 	clipsize 85
 	rateMod 0.92
+hasAnimOverrides 1
+animReady BOTH_DC15_IDLE
+animReadyWalk BOTH_DC15_READY
+animReadyNoAmmo BOTH_DC15_ATTACK
+animAttack BOTH_DC15_ATTACK
+animAttackWalk BOTH_DC15_ATTACK
+animStand BOTH_STAND1
 }
 
 WeaponInfo1
