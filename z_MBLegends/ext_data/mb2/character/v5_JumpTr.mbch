@@ -80,6 +80,9 @@ WeaponInfo0
 	ReloadTimeModifier 		1.15
 	damageMod 0.95
 	Ratemod 1.2
+hasAnimOverrides 1
+animReady BOTH_WESTARM5_IDLE
+animStand BOTH_STAND1
 }
 
 WeaponInfo1
