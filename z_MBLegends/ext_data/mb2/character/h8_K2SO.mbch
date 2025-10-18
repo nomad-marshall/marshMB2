@@ -11,8 +11,8 @@ ClassInfo
 	armourRegenCap 80
 	armourRegenAmount	1
 	armourRegenRate		1500
-	maxhealth   		250
-	maxarmor   	 	250
+	maxhealth   		200
+	maxarmor   	 	275
 	basespeed 		185
 	resource 		RESOURCE_RAGE
 	forcepool		60
