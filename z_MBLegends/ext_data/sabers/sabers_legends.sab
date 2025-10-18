@@ -283,7 +283,8 @@ saber_asajj_legacy
 	jumpAtkLeftMove LS_JUMPATTACK_STAFF_LEFT
 	jumpAtkRightMove  LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove	LS_A_BACKFLIP_ATK
-	readyAnim BOTH_DESANN_BL
+readyAnim BOTH_TRIPLE3_DUALSTANCE
+	//readyAnim BOTH_DESANN_BL
 	flourishAnim	BOTH_ALORA_TAUNT
 	throwable 0
 }
@@ -309,7 +310,8 @@ saber_asajj2_legacy
 	jumpAtkLeftMove LS_JUMPATTACK_STAFF_LEFT
 	jumpAtkRightMove  LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove	LS_A_BACKFLIP_ATK
-	readyAnim BOTH_DESANN_BL
+readyAnim BOTH_TRIPLE3_DUALSTANCE
+	//readyAnim BOTH_DESANN_BL
 	flourishAnim	BOTH_ALORA_TAUNT
 	throwable 0
 }
