@@ -665,14 +665,8 @@ electrostaff_legends
 	soundOn		"s/w/e/spin.mp3"
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"
-	//useGoreConfig 1
-	//useGoreConfig2 1
-	//noG2Marks 1
-	//noG2Marks2 1
 	noDismemberment 1
 	noDismemberment2 1
-	//noBladeEffects 1
-	//noBladeEffects2 1
 	noBladeCortosisReaction 1
 	noBladeCortosisReaction2 1
 	idleInBack	1
@@ -680,10 +674,11 @@ electrostaff_legends
 	tauntAnim BOTH_SPINATTACK7
 	gloatAnim BOTH_SHOWOFF_FAST
 	flourishAnim BOTH_SHOWOFF_MEDIUM
-	jumpAtkFwdMove LS_A_FLIP_SLASH
+	jumpAtkFwdMove LS_PURPLE_DFA
 	LungeAtkMove LS_A3_SPECIAL
 	jumpAtkLeftMove LS_JUMPATTACK_CART_LEFT
 	jumpAtkRightMove LS_JUMPATTACK_CART_RIGHT
+ readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 electro_purp_legends
@@ -694,7 +689,6 @@ electro_purp_legends
 	soundOn		"sound/electrostaff/saberon.wav"
 	soundLoop	"sound/weapons/baton/idle.wav"
 	soundOff	"sound/electrostaff/saberoff.wav"
-
 	saberColor	purple
 	numBlades	3
 	saberLength	55
@@ -705,7 +699,6 @@ electro_purp_legends
 	noBlade				1
 	trailStyle			2
 	noManualDeactivate	1
-
 	bladeStyle2Start		1
 	noWallMarks2			1
 	noDlight2			0
@@ -714,11 +707,9 @@ electro_purp_legends
 	noDismemberment2		1
 	noIdleEffect2			1
 	noManualDeactivate2	1
-
 	disarmable 		1
 	blocking			1
 	blasterBlocking 0
-
 	noIdleEffect	1
 	noWallMarks	1
 	onInWater	1
@@ -727,11 +718,8 @@ electro_purp_legends
 	throwable		0
 	singleBladeStyle	staff
 	singleBladeThrowable	0
-	
 	animSpeedScale 	1.2
-	
 	damageScale		0.75
-	
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
 	hitPersonEffect 	"electrostaff/hit.efx"
@@ -739,29 +727,22 @@ electro_purp_legends
 	g2WeaponMarkShader	"gfx/damage/burnmark1"
 	blockEffect		"electrostaff/block.efx"
 	hitOtherEffect		"electrostaff/other.efx"
-
 	spinsound	"s/w/e/spin.mp3"
-
 	swingSound1	"s/w/e/swing1.mp3"
 	swingSound2	"s/w/e/swing2.mp3"
 	swingSound3	"s/w/e/swing3.mp3"
-
 	blockSound1	"s/w/e/block1.mp3"
 	blockSound2	"s/w/e/block2.mp3"
 	blockSound3	"s/w/e/block3.mp3"
-
 	bounceSound1	"s/w/e/bounce1.mp3"
 	bounceSound2	"s/w/e/bounce2.mp3"
 	bounceSound3	"s/w/e/bounce3.mp3"
-
 	hit2Sound1	"s/w/e/slash1.mp3"
 	hit2Sound2	"s/w/e/slash2.mp3"
 	hit2Sound3	"s/w/e/slash3.mp3"
-
 	block2Sound1	"s/w/e/block4.mp3"
 	block2Sound2	"s/w/e/block5.mp3"
 	block2Sound3	"s/w/e/block6.mp3"
-
 	soundOn		"s/w/e/spin.mp3"
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"
@@ -769,6 +750,7 @@ electro_purp_legends
 	jumpAtkFwdMove LS_NONE
 	jumpAtkLeftMove LS_NONE
 	jumpAtkRightMove LS_NONE
+ readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 electro1h_purp_legends
@@ -828,19 +810,14 @@ electro1h_purp_legends
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"
 	animSpeedScale 1.08
-	//useGoreConfig 1
-	//useGoreConfig2 1
-	//noG2Marks 1
-	//noG2Marks2 1
 	noDismemberment 1
 	noDismemberment2 1
-	//noBladeEffects 1
-	//noBladeEffects2 1
-	jumpAtkFwdMove LS_STABDOWN_STAFF
+	jumpAtkFwdMove LS_NONE
 	jumpAtkLeftMove LS_NONE
 	jumpAtkRightMove LS_NONE
-	lungeAtkMove LS_A1_SPECIAL
+	lungeAtkMove LS_PURPLE_DFA
 	drawAnim BOTH_A6_LR
+ readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 electro1h_orng_legends
@@ -900,11 +877,12 @@ electro1h_orng_legends
 	animSpeedScale 1.08
 	noDismemberment 1
 	noDismemberment2 1
-	jumpAtkFwdMove LS_STABDOWN_STAFF
+	jumpAtkFwdMove LS_NONE
 	jumpAtkLeftMove LS_NONE
 	jumpAtkRightMove LS_NONE
-	lungeAtkMove LS_A1_SPECIAL
+	lungeAtkMove LS_PURPLE_DFA
 	drawAnim BOTH_A6_LR
+ readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 electro1h_blu_legends
@@ -964,11 +942,12 @@ electro1h_blu_legends
 	animSpeedScale 1.08
 	noDismemberment 1
 	noDismemberment2 1
-	jumpAtkFwdMove LS_STABDOWN_STAFF
+	jumpAtkFwdMove LS_NONE
 	jumpAtkLeftMove LS_NONE
 	jumpAtkRightMove LS_NONE
-	lungeAtkMove LS_A1_SPECIAL
+	lungeAtkMove LS_PURPLE_DFA
 	drawAnim BOTH_A6_LR
+ readyAnim BOTH_SABER_STARKILLER_STANCE
 }
 
 riot_baton_p_legends
