@@ -29,9 +29,9 @@ model_1	"clonetrooper_p2"
 skin_1 "airborne_rgb"
 uishader_1 "models/players/clonetrooper_p2/mb2_icon_airborne_rgb"
 userRGB_1 1
-customred_1 .785
-customgreen_1	.63
-customblue_1	.314
+customred_1 .945
+customgreen_1	.510
+customblue_1	.099
 model_2 "clonetactician"
 skin_2 "rgb"
 uishader_2 "models/players/clonetactician/mb2_icon_rgb"
