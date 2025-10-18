@@ -84,7 +84,7 @@ ClassInfo
 	rankAP     1.5
 	
 	BPMultiplier	1
-	rankBPMultiplier	1.4
+	rankBP	1.4
 	
 	knockbackTaken		1
 	rankKbTaken			0.10
