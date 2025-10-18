@@ -3,8 +3,8 @@
 ClassInfo
 {
 	name				"v5_Boba"
-	weapons				WP_MELEE|WP_SHOTGUN|WP_SONIC_NADE|WP_CLONE_PISTOL|WP_EE3
-	attributes			MB_ATT_BESKAR,1|MB_ATT_SHOTGUN,2|MB_ATT_EE3,3|MB_ATT_FRAGS,1|MB_ATT_FUEL,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_FLAMETHROWER,1|MB_ATT_WRISTLASER,1|MB_ATT_HEALING,2|MB_ATT_SONIC_DETONATOR,1|MB_ATT_WHISTLINGBIRD,1|MB_ATT_TRACKING_BEACON
+	weapons				WP_MELEE|WP_SHOTGUN|WP_SONIC_NADE|WP_CONCUSSION|WP_EE3
+	attributes			MB_ATT_BESKAR,1|MB_ATT_SHOTGUN,2|MB_ATT_EE3,3|MB_ATT_FRAGS,1|MB_ATT_FUEL,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_FLAMETHROWER,1|MB_ATT_WRISTLASER,1|MB_ATT_HEALING,2|MB_ATT_SONIC_DETONATOR,1|MB_ATT_WHISTLINGBIRD,1|MB_ATT_TRACKING_BEACON|MB_ATT_CONCUSSION,3
 	maxhealth		125
 	maxarmor			125
 	forcepool 		130
@@ -15,7 +15,7 @@ ClassInfo
 	rateoffire			0.79
 	modelscale          1.02
 	WP_ShotgunFlags     HELD_ALTRELOAD|HELD_DISRUPTIFY
-	WP_ClonePistolFlags HELD_SLOWPROJ|HELD_KNOCKDOWN|HELD_EXPLOSIVE|HELD_HIGHDAMAGE|HELD_KNOCKBACK|HELD_ALTRELOAD
+	WP_ConcussionFlags HELD_SLOWPROJ|HELD_KNOCKBACK|HELD_ALTRELOAD
 	
 	damageTaken		0.9
 	damageGiven 		1.1
@@ -58,27 +58,21 @@ ClassInfo
 WeaponInfo0
 {
 	WeaponToReplace 	WP_SHOTGUN
-	WeaponBasedOff      WP_BLASTER_PISTOL
+	WeaponBasedOff   WP_BLASTER_PISTOL
 	NewWorldModel 		"models/weapons/FWG-5_FlechettePistol/model.glm"
 	NewViewModel		"models/weapons/FWG-5_FlechettePistol/model.md3"
 	Icon				"gfx/hud/w_icon_flechettepistol"
-    FlashSound0			"sound/weapons/flechette/fire.mp3"  			
+ FlashSound0			"sound/weapons/flechette/fire.mp3"  			
 	WeaponName 			"FWG-5 Flechette Pistol"
 	hasAnimOverrides 1
-		animReady BOTH_STAND4TOATTACK2
-	animReadyWalk BOTH_STAND4TOATTACK2
-	animReadyNoAmmo BOTH_PISTOL_ATTACK 
-	animAttack BOTH_PISTOL_ATTACK 
-	animAttackWalk BOTH_PISTOL_ATTACK 
-	animStand BOTH_STAND1
-	//animReady BOTH_MAND_PISTOL_READY
-	//animReadyWalk BOTH_MAND_PISTOL_READY
-	//animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
-	//animAttack BOTH_MAND_PISTOL_ATTACK
-	//animAttackWalk BOTH_MAND_PISTOL_ATTACK
-	//animStand BOTH_MAND_PISTOL_READY
-	clipsize           	24
-	customAmmo         	84
+	animReady BOTH_MAND_PISTOL_READY
+	animReadyWalk BOTH_MAND_PISTOL_READY
+	animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttack BOTH_MAND_PISTOL_ATTACK
+	animAttackWalk BOTH_MAND_PISTOL_ATTACK
+	animStand BOTH_MAND_PISTOL_READY
+	clipsize   24
+	customAmmo     84
 	AltFireEnabled 		0
 	ReloadTimeModifier  	1.4
 	FPMult				0.9
@@ -88,27 +82,26 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace		WP_CLONE_PISTOL
-	WeaponBasedOff		WP_SBD
-	MissileMissEffect        "Grenades/EXP_Alt"
-    MissileHitHumanEffect    "Grenades/EXP_Alt"
-    MissileHitDroidEffect    "Grenades/EXP_Alt"
-	MissileEffect		 "rockets/missile" 
-	FlashSound0          "sound/weapons/rocket/fire.mp3"
+	WeaponToReplace	WP_CONCUSSION
+	WeaponBasedOff		WP_CONCUSSION
+	MissileMissEffect      "Grenades/EXP_Alt"
+ MissileHitHumanEffect  "Grenades/EXP_Alt"
+ MissileHitDroidEffect  "Grenades/EXP_Alt"
+	MissileEffect		"rockets/missile" 
+	FlashSound0    "sound/weapons/rocket/fire.mp3"
 	NewWorldModel		"models/weapons2/dummyblaster/model.glm"
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
 	Icon			"gfx/hud/w_icon_wristrocket"
 	WeaponName		"Wrist Rockets"
-	clipSize 2
-	CustomAmmo 6
-	hasAnimOverrides 1
-	animReady BOTH_JET_FORWARD //upper
-	animReadyWalk BOTH_MAND_FLAME_READY 
-	animReadyNoAmmo BOTH_JET_FORWARD
-	animAttack BOTH_MAND_FLAME_READY 
-	animAttackWalk BOTH_MAND_FLAME_READY 
+	clipSize 10
+	CustomAmmo 50
+ hasAnimOverrides 1
+	animReady TORSO_WEAPONREADY2
+	animReadyWalk TORSO_WEAPONREADY2
+	animReadyNoAmmo BOTH_ATTACK2
+	animAttack BOTH_ATTACK2
+	animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1 //lower
-	rateMod 0.85
 	MuzzleEffect "null"
 	ReloadTimeModifier  1.4
 }
@@ -122,6 +115,13 @@ WeaponInfo2
 	Icon			"gfx/hud/w_icon_ee-3" 
 	WeaponName		"EE-3 Carbine Rifle"
 	customAmmo 800
+ hasAnimOverrides 1
+	animReady TORSO_WEAPONREADY2
+	animReadyWalk BOTH_WESTARM5_IDLE
+	animReadyNoAmmo BOTH_ATTACK2
+	animAttack BOTH_ATTACK2
+	animAttackWalk BOTH_ATTACK2
+	animCharge BOTH_ATTACK2
 }
 
 description	"Boba Fett [Bounty Hunter]
@@ -135,10 +135,8 @@ A versatile Jetpack gunner with an arsenal of Mandalorian abilities.
 -- Fires focused blasts while hovering
 -- 10% less FP DMG
 -- 40% slower mag reload
-- Wrist Rockets (Clone Pistols 1)
--- Explosive rounds
--- Pushes/knocks down on direct hit
--- 100% more DMG
+- Wrist Rockets (Conc Rifle 3)
+-- Pushes on direct hit
 -- 75% less velocity
 -- 40% slower mag reload
 - Sonic Detonator (1)
