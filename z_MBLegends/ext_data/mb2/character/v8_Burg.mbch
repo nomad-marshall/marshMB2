@@ -28,6 +28,7 @@ ClassInfo
 	special1	EAS_HI_FURY
 	special2	EAS_HI_BARGE
 	special3 EAS_HI_QUICKTOSS
+
 	flourishAnim BOTH_DUAL_PISTOLS_DRAW
 	
 	uioverlay "gfx/icons/brawler"
