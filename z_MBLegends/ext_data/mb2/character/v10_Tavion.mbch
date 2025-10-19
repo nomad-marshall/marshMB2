@@ -2,33 +2,41 @@
 ClassInfo
 {
 	name				"v10_Tavion"
+
+	MBClass				MB_CLASS_SITH
+	classNumberLimit	1
+
 	weapons				WP_SABER|WP_MELEE
+
 	attributes			MB_ATT_RALLY,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_BUNNY_HOP,1|MB_ATT_FLOAT_HOP|MB_ATT_FP_SABER_DEFENSE,1
+
 	APMultiplier 		1.15
 	BPMultiplier 		1.2
 	ASmultiplier 		1
 	CSmultiplier 		1.1
-	forcepowers 		FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,2|FP_PULL,2|FP_SEE,2|FP_SABERTHROW,3|FP_LIGHTNING,1|FP_TEAM_FORCE,3|FP_DRAIN,2
-	forcepool 			110
-	forceregen          1.04
-	maxhealth			120
-	MBClass				MB_CLASS_JEDI
-	classNumberLimit	1
-	speed               1.05
-		classflags CFL_NOPICKUPS|CFL_STATVIEWER
-	damageGiven         1.10
 	saberThrowDamage 37 //40
+
+	forcepowers 		FP_SABER_OFFENSE,3|FP_PUSH,2|FP_PULL,2|FP_SEE,2|FP_SABERTHROW,3|FP_LIGHTNING,1|FP_TEAM_FORCE,3|FP_DRAIN,2
+
+	forcepool 			110
+	forceregen  1.04
+ resource RESOURCE_FORCE
+
+	maxhealth	120
+	speed     1.05
+	damageGiven 1.10
+	classflags CFL_NOPICKUPS|CFL_STATVIEWER
+
 	special2 EAS_MELEE
 	special3 EAS_FP_DRAIN
 	special4 EAS_FP_TEAM_FORCE
-
-	//saberStanceAnim BOTH_TAVION_STANCE
-	saber1              tavion_legends
+	
+	saber1      tavion_legends
 	saber1_1 			sith_sword_legends
 	sabercolor 			1
-	sabercolor_1        0
-	saberstyle		    SS_MEDIUM|SS_TAVION
-	//bowAnim BOTH_SABERKILLEE1
+	sabercolor_1  0
+	saberstyle		  SS_MEDIUM|SS_TAVION
+
 	gloatAnim BOTH_TOSS1
 	
 	uioverlay "gfx/icons/support"
@@ -38,24 +46,29 @@ ClassInfo
 	uishader	"models/players/tavion_new/mb2_icon_default"
 	
 	model_1		"tavion_new"
-	skin_1		"possessed"
+	skin_1		 "possessed"
 	uishader_1	"models/players/tavion_new/mb2_icon_possessed"
 	
 	model_2 		"tavion"
-	skin_2 		"default"
+	skin_2 		 "default"
 	uishader_2	"models/players/tavion/mb2_icon_default"
 
-	//respawncustomtime 50000
+	isCustomBuild	1
+	mbPoints		0
+	
+	c_att_skill_0		MB_ATT_FP_LEVITATION
+	c_att_names_0		"Force Jump"
+	c_att_ranks_0		0,0,0
 
 }
 WeaponInfo0
 {
-	WeaponToReplace		WP_SABER					//Required: Weapon Slot of weapon you're replacing
-	WeaponBasedOff		WP_SABER					//Required: For future use, should be the same as WeaponToReplace
-	NewWorldModel		"models/weapons2/dummyblaster/model.glm"  	//Required: New 3rd person/dropped weapon model
-	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  	//Required: New 1st person weapon model
-	Icon				"gfx/hud/w_icon_ragnos_Weapons" 	//Required: Weapon change icon
-	WeaponName			"Ragnos' Saber"    					//Required: Weapon change display name
+	WeaponToReplace		WP_SABER
+	WeaponBasedOff		WP_SABER
+	NewWorldModel		"models/weapons2/dummyblaster/model.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 
+	Icon				"gfx/hud/w_icon_ragnos_Weapons"
+	WeaponName		"Ragnos' Saber"
 }
 
 description	"Tavion Axmis [Sith]
@@ -77,12 +90,12 @@ A Dark Jedi that can wield either a slow but powerful extended-reach Lightsaber-
 -- 10% slower AS
 -- 33% less radius
 > Sith Sword
+-- 5% faster movement
 -- 10% faster AS
 -- 10% less DMG
 -- 8% less reach
 
 ^5Force Powers:
-- Jump (3)
 - Push (2)
 - Pull (2) 
 - Sense (2) 

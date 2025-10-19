@@ -474,15 +474,14 @@ tavion_legends
 	animSpeedScale	.90
 	damageScale  	1.15
 	readyAnim	BOTH_TAVION_STANCE
-	flourishanim	BOTH_TAVION_SWORDPOWER	
-	//bowAnim BOTH_SABERKILLEE1
+	flourishanim	BOTH_TAVION_SWORDPOWER
 	soundOn		"s/w/s/on.wav"
 	soundLoop	"s/w/s/hum.wav"
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -498,6 +497,7 @@ sith_sword_legends
 	soundOff	"sound/weapons/tai_weap/saberoff.wav"
 	saberLength	37
 	damageScale 		0.9
+ moveSpeedScale 1.05
 	animSpeedScale	1.1
 	noDlight		1
 	noIdleEffect	1
