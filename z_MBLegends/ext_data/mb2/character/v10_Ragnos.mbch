@@ -58,8 +58,7 @@ Classinfo
 	jetpackStartSound 	"sound/effects/woosh22"
 	jetpackIdleSound	"sound/ambience/artus/artus_shaft"
 	
-	saberStanceAnim 	BOTH_MELEE_BLOCK_BLASTER_R
-	//saberStanceAnim BOTH_MELEE_BLOCK_BLASTER_R
+	saberStanceAnim BOTH_MAND_DUAL_PISTOLS_READY
 	WalkForward 	BOTH_SWIM_IDLE1
 	WalkBackward 	BOTH_SWIM_IDLE1
 	RunForward 	BOTH_SWIM_IDLE1
