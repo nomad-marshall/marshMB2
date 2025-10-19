@@ -14,7 +14,7 @@ ClassInfo
 	classflags			CFL_BLOODYMELEE|CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
 	skillTimerMod		1.25
  saberStanceAnim BOTH_SPEAR_STANCE
-	runForward BOTH_SABERSTAFF_RUN
+	//runForward BOTH_SABERSTAFF_RUN
 	bargeSoundOverride 	"sound/chars/jedibrute/misc/pushed1.mp3"
 	
 	uioverlay_r "gfx/icons/frontline"
