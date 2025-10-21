@@ -105,7 +105,7 @@ ClassInfo
 	
 	model_12		"human_merc"
 	skin_12 		"key_carrier"
-	uishader_12 	"models/players/human_merc/mb2_icon_key_carrier2"
+	uishader_12 	"models/players/human_merc/mb2_icon_key_carrier"
 	
 	model_13		"human_merc"
 	skin_13 		"default"
