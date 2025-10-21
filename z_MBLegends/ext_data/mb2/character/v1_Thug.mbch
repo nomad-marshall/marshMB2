@@ -105,11 +105,11 @@ ClassInfo
 	
 	model_12		"human_merc"
 	skin_12 		"key_carrier"
-	uishader_12 	"models/players/human_merc/mb2_icon_key_carrier"
+	uishader_12 	"models/players/human_merc/mb2_icon_key_carrier2"
 	
 	model_13		"human_merc"
-	skin_13 		"key_carrier2"
-	uishader_13 	"models/players/human_merc/mb2_icon_key_carrier2"
+	skin_13 		"default"
+	uishader_13 	"models/players/human_merc/mb2_icon_default"
 	
 	isCustomBuild		1
 	mbPoints			50
