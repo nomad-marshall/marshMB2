@@ -23,7 +23,7 @@ ClassInfo
 	
 	maxhealth	80
 	maxarmor		80
-	speed		1
+	speed		1.01
 	
 	special2 EAS_MELEE
 	special3 EAS_HI_DEX
@@ -34,7 +34,13 @@ ClassInfo
 	saber1		royal_pike_legends
 	BPmultiplier 1.3
 	CSmultiplier 	1.0
-	
+
+	blockRegenAmount 4
+	blockRegenCap 100
+	blockRegenRate 400
+
+	rateoffire_melee 0.93
+
 	modelscale        1.01
 	uioverlay_l 		"gfx/icons/hybrid"
 	uioverlay_r "gfx/icons/infantry"
@@ -112,7 +118,6 @@ WeaponInfo2
 	clipsize            21
 	hasAnimOverrides 1
 	animStand 		BOTH_STAND5
-	altfireenabled 	0
 }
 
 WeaponInfo3
