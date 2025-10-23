@@ -2,16 +2,16 @@ ClassInfo
 {
 	name				"h10_Starkiller"
 	weapons				WP_SABER|WP_MELEE
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 
 	attributes			MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,3|MB_ATT_DEFLECT,1|MB_ATT_FP_REPULSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1
 	forcepowers			FP_SABER_OFFENSE,2|FP_LEVITATION,3|FP_SEE,2|FP_PUSH,3|FP_PULL,2|FP_LIGHTNING,3|FP_SABERTHROW,3|FP_GRIP,3
 	maxhealth		100
 	maxarmor			20
-	
+	//saberDamage 300
 	forcepool		140
 	forceregen       1.35
-	//saberStanceAnim BOTH_SABER_STARKILLER_STANCE
+	saberStanceAnim BOTH_SABER_STARKILLER_STANCE
 	APmultiplier		0.9
 	BPmultiplier		1.0
 	ASmultiplier 		1.1
@@ -19,13 +19,15 @@ ClassInfo
 	saberThrowDamage 50
 	classNumberLimit	1
 	classflags CFL_NOPICKUPS
-	saberstyle		SS_DUAL
 
-	saber1			saber_marek_legends
-	sabercolor		4
-	saber2			saber_marek_legends
-	saber2color		4	
-	//katamove	BOTH_K6_S6_T
+ saberstyle SS_DESANN
+ saber1 saber_marek_legends_s
+ sabercolor 4
+	saberstyle_1		SS_DUAL
+	saber1_1			saber_marek_legends
+	sabercolor_1		4
+	saber2_1			saber_marek_legends
+	saber2color_1		4	
 
 	model			"jedi_hm"
 	skin				"sk2_armored"
@@ -36,37 +38,40 @@ ClassInfo
 	uishader_1		"models/players/jedi_hm/mb2_icon_sk2_pilot"
 
 	//special1	EAS_FP_SABERTHROW
-	special2 	EAS_MELEE
-	special3		EAS_FP_REPULSE
-	special4 	EAS_FP_LIGHTNING
+	special2 	EAS_FP_REPULSE
+	//special3		EAS_FP_REPULSE
+	//special4 	EAS_FP_LIGHTNING
 	
 	//respawncustomtime  50000
 	
 	uioverlay "gfx/icons/support"
 }
 
-description	"Galen Marek aka 'Starkiller' [Jedi]
+description	"Galen Marek aka 'Starkiller' [Sith]
 
 A Jedi/Sith hybrid sporting a strong combination of Force powers.
 
 ^2Weaponry:
 - Melee
-- Lightsaber (Dual)
+- Lightsaber
 -- Saber/Blaster Defense (1)
 -- Saber Deflect (1)
 -- 10% more DMG
+-- 50% more KB
 -- EX Saber Throw (3) ^3[CS1]
 --- 66% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
+> Single (Purple)
+> Double (Dual)
 
 ^5Force Powers:
 - Jump (3)
 - Push (3)
 - Pull (2)
 - Sense (2)
-- Repulse ^3[CS3 Melee]
+- Repulse ^3[CS2 Melee]
 - Lightning (3) ^3[CS4]
-- Grip (3)
+- Grip (3) ^3[CS3]
 
 ^8Attributes:
 - Force Block/Focus (3)"

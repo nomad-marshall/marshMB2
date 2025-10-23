@@ -15,15 +15,14 @@ Classinfo
 	classflags CFL_NOPICKUPS
 	maxhealth		100
 	forcepool		140
-	MBclass			MB_CLASS_JEDI
+	MBclass			MB_CLASS_SITH
+ resource RESOURCE_FORCE
 	classNumberLimit  1
 	modelScale    0.97
 	speed        0.99
 	forceregen   1.40
 	WP_MeleeFlags HELD_SPEED
-	//SaberStanceAnim BOTH_TAVION_STANCE 
-	// Moved to sabers_legends as "readyAnim" for "saber_sidious_legacy"
-saberThrowDamage 40
+ saberThrowDamage 40
 	flourishAnim	BOTH_FORCE_PROTECT_FAST
 	gloatAnim	BOTH_CONSOLE1
 	//flourishAnim BOTH_DUAL_TAUNT
@@ -32,8 +31,8 @@ saberThrowDamage 40
 	uioverlay "gfx/icons/support"
 	
 	special2 EAS_MELEE
-	special3 EAS_FP_LIGHTNING
-	special4 EAS_FP_GRIP
+//	special3 EAS_FP_LIGHTNING
+//	special4 EAS_FP_GRIP
 	
 	saber1		saber_sidious_legacy
 	sabercolor	0
@@ -86,7 +85,7 @@ saberThrowDamage 40
 
 Description 	"Darth Sidious [Sith]
 
-A powerful but relatively frail Dark side user with fast Force regeneration and potent dark side abilities, including a corkscrew special. 
+A powerful but relatively frail Sith with fast Force regeneration and potent Dark Side abilities, including a corkscrew special.
 
 ^2Weaponry:
 - Melee
@@ -98,9 +97,9 @@ A powerful but relatively frail Dark side user with fast Force regeneration and 
 -- Saber Throw ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[CS2]
-> Single Saber (Red)
--- 10% faster RoF
-> Double Saber (Dual)
+> Single (Red)
+-- 10% faster AS
+> Double (Dual)
 -- 10% more DMG
 
 ^5Force Powers:
@@ -108,8 +107,8 @@ A powerful but relatively frail Dark side user with fast Force regeneration and 
 - Push (3) 
 - Pull (3) 
 - Sense (3) 
-- Lightning (3) ^3[CS3]
-- Grip (3) ^3[CS4]
+- Lightning (3) ^3[CS4]
+- Grip (3) ^3[CS3]
 
 ^8Attributes:
 - Dexterity (3)
