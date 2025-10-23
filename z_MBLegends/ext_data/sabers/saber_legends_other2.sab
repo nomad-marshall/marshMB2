@@ -1115,6 +1115,7 @@ saberModel	"models/weapons2/arc_shiv_short/shiv_short_w.glm"
 soundOn	"sound/weapons/arc_shiv/wep_GEN_bladeShing_01.mp3"
 soundLoop	"s/w/shwartz/saberhum1.wav"
 soundOff	"sound/weapons/arc_shiv/wep_GEN_bladeShing_02.mp3"
+knockbackScale 0.5
 numblades	1
 saberLength	17
 saberLength2	17
