@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name			"v4_RoyalPr"
-	MBClass		MB_CLASS_JEDI
+	MBClass		MB_CLASS_SITH
 	classNumberLimit	2
 	extralives	1
 	weapons		WP_SABER|WP_MELEE|WP_BLASTER_PISTOL
@@ -28,7 +28,7 @@ ClassInfo
 	special2 EAS_MELEE
 	special3 EAS_HI_DEX
 
-	saberDamage 110
+	saberDamage 120
 	saberMaxChain 3
 	saberstyle	SS_MEDIUM|SS_DESANN
 	saber1		royal_pike_legends
@@ -150,7 +150,7 @@ Mobile 2-lifes with a Saber and Force Block.
 -- Staggers on hit
 -- 7% faster AS
 -- 15% more KB given
--- 54/72% less DMG
+-- 50/70% less DMG
 -- 30% less reach
 -- 167% more radius
 -- Slap ^3[CS2]
