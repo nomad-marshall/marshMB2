@@ -609,8 +609,10 @@ lightsaber_pike_legends
 	animSpeedScale   1
 	damageScale     1
 	disarmable 	1
-	readyAnim     BOTH_TRIPLE3_REDSTANCE
-	//lungeAtkMove LS_PULL_ATTACK_STAB
+	//readyAnim     BOTH_TRIPLE3_REDSTANCE
+ jumpAtkLeftMove LS_A1_SPECIAL
+ jumpAtkRightMove LS_A2_SPECIAL
+throwable 0
 }
 
 Guard_pike_legends
@@ -716,13 +718,12 @@ saber_r2_fire
 	name  		"r2"
 	saberType 	SABER_SINGLE
 	saberModel		"models/weapons2/dummyblaster/model.glm"
-    soundOn		none
+ soundOn		none
 	soundLoop	none
 	soundOff none
 	sabercolor orange
 	saberLength 12
 	saberRadius 36
-
 	lungeAtkMove LS_A_BACKFLIP_ATK
 	jumpAtkFwdMove LS_A_BACKFLIP_ATK
 	//jumpAtkRightMove LS_A_BACKFLIP_ATK
@@ -745,24 +746,24 @@ saber_r2_fire
 	blasterblocking		0
 	disarmable	0
 	noRollStab    1
-    noPullAttack 1
-    noBackAttack 1
-    noStabDown  1
-    noWallRuns  1
-    noWallFlips  1
-    noWallGrab   1
-    noRolls      1
-    noFlips      1
-    noCartwheels   1
-    noKicks    1
-    noMirrorAttacks   1
+ noPullAttack 1
+ noBackAttack 1
+ noStabDown  1
+ noWallRuns  1
+ noWallFlips  1
+ noWallGrab   1
+ noRolls      1
+ noFlips      1
+ noCartwheels   1
+ noKicks    1
+ noMirrorAttacks   1
 	splashRadius       50
-    splashDamage       1  
-    splashKnockback    1 
+ splashDamage       1  
+ splashKnockback    1 
 	maxchain 1
 	animspeedscale 0.80
 	knockbackScale   1
-    damageScale    0.01
+ damageScale    0.01
 }
 //Created by Goosto
 
