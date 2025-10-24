@@ -6,7 +6,7 @@ ClassInfo
 	name					"h1_SecurET"
 	MBClass				MB_CLASS_CLONETROOPER
 	weapons				WP_MELEE|WP_SABER
-	attributes			MB_ATT_ASSEMBLE,3|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_STAMINA,2|MB_ATT_AMMO,3|MB_ATT_SABER_COMBO_NONE
+	attributes			MB_ATT_ASSEMBLE,2|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_STAMINA,2|MB_ATT_AMMO,3|MB_ATT_SABER_COMBO_NONE
 	WP_CloneRifleFlags 	HELD_ALTRELOAD
 	WP_SaberFlags HELD_STUN
 	resource 		RESOURCE_STAMINA
@@ -217,7 +217,7 @@ Quick, versatile guards. Adept at disabling enemies.
 ^8Attributes:
 - Reinforcement (1)
 - Stamina (2)
-- Assemble (3)
+- Assemble (2)
 
 ^3Abilities:
 - Sprint ^3[CS1]

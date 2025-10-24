@@ -6,7 +6,7 @@ ClassInfo
 	forcepool	75
 	forceregen	1.1
 	rankforcepool	100
-	attributes	MB_ATT_ASSEMBLE,3|MB_ATT_GUN_DEFENSE,0|MB_ATT_DEFLECT,0|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2
+	attributes	MB_ATT_ASSEMBLE,2|MB_ATT_GUN_DEFENSE,0|MB_ATT_DEFLECT,0|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2
 	MBClass	MB_CLASS_HERO
 	classNumberLimit	3
 	maxhealth	80
@@ -296,7 +296,7 @@ A customizable scout class.
 - Reinforcement (1)
 - 200% slower skill CD
 - Stamina (2)
-- Assemble (3)
+- Assemble (2)
 - Dexterity (1)
 
 ^3Abilities:
