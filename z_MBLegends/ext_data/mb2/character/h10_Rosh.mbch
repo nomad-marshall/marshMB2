@@ -36,7 +36,7 @@ ClassInfo
 	
 	special2 EAS_MELEE
 	special3 EAS_FP_LIGHTNING
-	special4 EAS_FP_MINDTRICK
+	special4 EAS_FP_TELEPATHY
 	//respawncustomtime  50000		
 	
 	uioverlay "gfx/icons/support"
