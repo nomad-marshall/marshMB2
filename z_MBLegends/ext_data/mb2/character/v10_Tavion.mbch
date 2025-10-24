@@ -27,9 +27,9 @@ ClassInfo
 	damageGiven 1.10
 	classflags CFL_NOPICKUPS|CFL_STATVIEWER
 
-	special2 EAS_MELEE
-	special3 EAS_FP_DRAIN
-	special4 EAS_FP_TEAM_FORCE
+	special2 EAS_FP_DRAIN
+	special3 EAS_FP_TEAM_FORCE
+	special4 EAS_FP_LIGHTNING
 	
 	saber1      tavion_legends
 	saber1_1 			sith_sword_legends
@@ -83,7 +83,7 @@ A Dark Jedi that can wield either a slow but powerful extended-reach Lightsaber-
 -- Saber Deflect (2)
 -- EX Saber Throw (3) ^3[CS1]
 --- 23% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 > Scepter of Ragnos
 -- 50% more reach
 -- 15% more DMG
@@ -99,9 +99,9 @@ A Dark Jedi that can wield either a slow but powerful extended-reach Lightsaber-
 - Push (2)
 - Pull (2) 
 - Sense (2) 
-- Lightning (1)
-- Drain (2) ^3[CS3]
-- Team Energize (3) ^3[CS4]
+- Lightning (1) ^3[CS4]
+- Drain (2) ^3[CS2]
+- Team Energize (3) ^3[CS3]
 
 ^8Attributes:
 - Bunny Hop (1)

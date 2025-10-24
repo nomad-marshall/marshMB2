@@ -15,9 +15,9 @@ ClassInfo
 	
 	//special1 EAS_FP_SABERTHROW
 	special2 EAS_MELEE
-	special3 EAS_FP_PROTECT
-	special4 EAS_FP_SPEED
-	
+	special3 EAS_FP_SPEED
+	special4 EAS_FP_PROTECT
+
 	classNumberLimit	1
 	BPmultiplier		1.0
 	APmultiplier		1.2
@@ -98,8 +98,8 @@ An offense-oriented Jedi with uniquely high-damage, extended-combo Cyan and Blue
 - Push (2)
 - Pull (2)
 - Sense (2) 
-- Protect (2) ^3[CS3]
-- Speed (3) ^3[CS4]
+- Protect (2) ^3[CS4]
+- Speed (3) ^3[CS3]
 
 ^8Attributes:
 - Force Block/Focus (2)"

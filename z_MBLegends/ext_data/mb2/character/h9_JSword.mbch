@@ -17,14 +17,15 @@ ClassInfo
 	
 	//special1		EAS_FP_SABERTHROW
 	special2		EAS_MELEE
-	special4		EAS_FP_SPEED
-	special3 	EAS_FP_PROTECT
-saberThrowDamage 42 //50
+	special3		EAS_FP_SPEED
+	special4 	EAS_FP_PROTECT
+
+ saberThrowDamage 42 //50
 	APmultiplier	1.25
 	BPmultiplier	1.25
 	ASmultiplier	1.1
 	CSmultiplier	1.2
-		classflags CFL_NOPICKUPS
+	classflags CFL_NOPICKUPS
 	damageGiven		1.2
 
 	uioverlay "gfx/icons/frontline"
@@ -95,8 +96,8 @@ A master saberist that sacrifices Force abilities for unmatched dueling skills.
 - Push (2)
 - Pull (1) 
 - Sense (1)
-- Protect (1) ^3[CS3]
-- Speed (3) ^3[CS4]
+- Protect (1) ^3[CS4]
+- Speed (3) ^3[CS3]
 
 ^8Attributes:
 - Force Block (2)

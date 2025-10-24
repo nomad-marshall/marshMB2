@@ -225,11 +225,11 @@ ClassInfo
 	c_att_ranks_3	2,2
 	
 	c_att_skill_4	MB_ATT_FP_TELEPATHY
-	c_att_names_4	"Force Mind Trick"
+	c_att_names_4	"Force Mind Trick ^3[CS4]"
 	c_att_ranks_4	6,2
 	
 	c_att_skill_5	MB_ATT_FP_SPEED
-	c_att_names_5	"Force Speed"
+	c_att_names_5	"Force Speed ^3[CS3]"
 	c_att_ranks_5	4,2
 	
 	c_att_skill_6	MB_ATT_POWER
