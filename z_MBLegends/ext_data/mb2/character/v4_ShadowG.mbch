@@ -22,7 +22,7 @@ ClassInfo
 	
 	//holdables HI_MEDPAC_BIG
 	special1 EAS_FP_REPULSE
-	special2 EAS_FP_SPEED
+	//special2 EAS_FP_SPEED
 
 	saberstyle	SS_DESANN|SS_STAFF|SS_TAVION
 	saber1		lightsaber_pike_legends
@@ -58,7 +58,7 @@ mbPoints	4
 	c_att_ranks_2	1,0
 	
 	c_att_skill_3	MB_ATT_FP_SPEED
-	c_att_names_3	"Force Speed ^3[CS2]"
+	c_att_names_3	"Force Speed"
 	c_att_ranks_3	0,1
 	
 	c_att_skill_4	MB_ATT_REINFORCEMENTS
@@ -105,12 +105,13 @@ Force users with high flexibility.
 -- Saber/Blaster Defense (2)
 -- Saber Deflect (1)
 -- 10% less reach
+-- Slap ^3[CS2]
 
 ^5Force Powers:
 - Jump (2)
 - Push (2)
-- Speed (1) ^3[CS2]
-- Repulse ^3[CS1 M]
+- Speed (1)
+- Repulse ^3[CS1 Melee]
 
 ^8Attributes:
 - Dexterity (2)
