@@ -2,7 +2,7 @@ ClassInfo
 {
 	name				"h10_Starkiller"
 	weapons				WP_SABER|WP_MELEE
-	MBClass				MB_CLASS_SITH
+	MBClass				MB_CLASS_JEDI
 
 	attributes			MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,3|MB_ATT_DEFLECT,1|MB_ATT_FP_REPULSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1
 	forcepowers			FP_SABER_OFFENSE,2|FP_LEVITATION,3|FP_SEE,2|FP_PUSH,3|FP_PULL,2|FP_LIGHTNING,3|FP_SABERTHROW,3|FP_GRIP,3
@@ -39,15 +39,15 @@ ClassInfo
 
 	//special1	EAS_FP_SABERTHROW
 	special2 	EAS_FP_REPULSE
-	//special3		EAS_FP_REPULSE
-	//special4 	EAS_FP_LIGHTNING
+	special3 	EAS_FP_GRIP
+	special4		EAS_FP_LIGHTNING
 	
 	//respawncustomtime  50000
 	
 	uioverlay "gfx/icons/support"
 }
 
-description	"Galen Marek aka 'Starkiller' [Sith]
+description	"Galen Marek aka 'Starkiller' [Jedi]
 
 A Jedi/Sith hybrid sporting a strong combination of Force powers.
 

@@ -45,7 +45,7 @@ skin_1	"atton"
 uishader_1 "models/players/jedipack_hb/mb2_icon_atton"
 special1 EAS_HI_POISON
 special3 EAS_HI_DEX
-special4 EAS_MELEE
+special4 EAS_FP_PROTECT
 flourishAnim BOTH_HAN_TAUNT
 isCustomBuild	1
 mbPoints	9
@@ -253,7 +253,7 @@ Pure Pazaak
 -- Saber/Blaster Defense (0)
 -- Saber Deflect (1)
 -- Blocking resists Force Powers
--- Slap ^3[CS4]
+-- Slap ^3[GB]
 > Lightsaber (Yellow)
 -- 50% less DMG
 > Echani Melee (Dual/Cyan)
@@ -263,7 +263,7 @@ Pure Pazaak
 ^5Force Powers:
 - Jump (2)
 - Absorb (1)
-- Protect (2)
+- Protect (2) ^3[CS4]
 
 ^8Attributes:
 - Healing (2)

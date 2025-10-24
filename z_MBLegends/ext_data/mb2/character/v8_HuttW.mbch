@@ -71,7 +71,10 @@ A tanky brawler class with innate Strength and resistances.
 -- 12% slower RoF
 - Hutt Bardiche (Red Saber)
 -- No Saber/Blaster Block
--- Surface hits deal AoE KB/KD
+-- Surface hits deal splash KB/KD
+--- Splash radius: 130
+--- Splash DMG: 25
+--- Splash KB: 100
 -- 20% less DMG
 -- 38% more reach
 -- 67% more radius
