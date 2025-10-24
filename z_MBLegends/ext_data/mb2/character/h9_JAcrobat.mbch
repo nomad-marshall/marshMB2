@@ -11,18 +11,18 @@ ClassInfo
 
 	forcepowers			FP_SEE,1|FP_LEVITATION,3|FP_PUSH,2|FP_PULL,1|FP_SPEED,3|FP_SABER_OFFENSE,2
 	
-	maxhealth 		115
+	maxhealth 	115
 	forcepool		110
-	forceregen       1.2
+	forceregen 1.2
 
 	saberstyle		SS_DUAL
 	BPmultiplier		0.90
 	APmultiplier		1
 	ASmultiplier	    1.15
 	CSmultiplier	    1.10
-saberThrowDamage 57 //45
+ saberThrowDamage 57 //45
 	speed			1.09
-	damageGiven		0.80
+	damageGiven		0.85
 	rateOfFire_Melee	0.88
 	
 	classflags CFL_NOPICKUPS|CFL_SEEING_STEALTH|CFL_BPFREEJUMPS
@@ -30,9 +30,9 @@ saberThrowDamage 57 //45
 	flourishanim BOTH_JUMPATTACK7
 	
 	//special1	EAS_FP_SABERTHROW
-	special2 EAS_MELEE
-	special3 EAS_HI_DEX
-	special4 EAS_FP_SPEED
+	special2 EAS_HI_DEX
+	special3 EAS_FP_SPEED
+	special4 EAS_MELEE
 
 	uioverlay "gfx/icons/frontline"
 	
@@ -86,18 +86,18 @@ A speedy dual Lightsaber user that excels at flanking, ambushing, and aerial com
 -- 12% faster RoF
 - Lightsaber (Dual/Blue)
 -- Saber Defense/Deflect (3)
+--- BP-Free Jumps
 -- Blaster Defense (2)
--- BP-Free Jumps
 -- Saber Throw ^3[CS1]
 --- 90% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[CS4]
 
 ^5Force Powers:
 - Jump (3)
 - Push (2)
 - Pull (1)
 - Sense (1)
-- Speed (3) ^3[CS4]
+- Speed (3) ^3[CS3]
 
 ^8Attributes:
 - Bunny Hop (1)
@@ -109,4 +109,4 @@ A speedy dual Lightsaber user that excels at flanking, ambushing, and aerial com
 
 ^3Abilities:
 - Flipkick (1) ^3[Contact Jump]
-- Dex Roll ^3[CS3]"
+- Dex Roll ^3[CS2]"
