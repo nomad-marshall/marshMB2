@@ -27,9 +27,9 @@ resource RESOURCE_FORCE
 	speed           	0.95
 	forceregen         1.04
 	
-	special2 EAS_MELEE
-	special3 EAS_FP_DRAIN
-	special4 EAS_FP_DEADLYSIGHT
+	special2 EAS_FP_DRAIN
+	special3 EAS_FP_GRIP
+	special4 EAS_FP_LIGHTNING
 	
 	uioverlay "gfx/icons/support"
 	
@@ -57,17 +57,17 @@ An offensive support Sith with crowd control abilities. Among his many Force Pow
 -- 10% less radius
 -- EX Saber Throw (1) ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)
 - Push (2) 
 - Pull (2) 
 - Sense (3) 
-- Lightning (2)
-- Drain (3) ^3[CS3]
-- Grip (1)
-- Deadly Speech (Deadly Sight 2) ^3[CS4]
+- Lightning (2) ^3[CS4]
+- Drain (3) ^3[CS2]
+- Grip (1) ^3[CS3]
+- Deadly Speech (Deadly Sight 2)
 - Absorb (1)
 
 ^8Attributes:

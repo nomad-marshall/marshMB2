@@ -4,6 +4,10 @@ yarael_poof
 	playerModel	yarael
 	saber	saber_yarael_legends
 	weapon	WP_SABER
+ APmultiplier 1.15
+ BPmultiplier 1.2
+ ASmultiplier 1.05
+ CSmultiplier 1.05
 	MB_ATT_FORCEBLOCK 2
 	MB_ATT_FP_SABER_DEFENSE 2
 	MB_ATT_GUN_DEFENSE 2

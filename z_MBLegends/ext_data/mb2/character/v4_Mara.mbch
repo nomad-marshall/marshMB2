@@ -61,8 +61,8 @@ ClassInfo
 	
 	special1 EAS_FP_SABERTHROW
 	special2 EAS_MELEE
-	special3 EAS_FP_TELEPATHY
-	special4 EAS_FP_SPEED
+	special4 EAS_FP_TELEPATHY
+	special3 EAS_FP_SPEED
 }
 
 WeaponInfo0
@@ -110,8 +110,8 @@ A Sith/pistoleer hybrid that rewards flanking, skirmishing, and swapping between
 - Push (2)
 - Pull (1)
 - Sense (2)
-- Mind Trick (3) ^3[CS3]
-- Speed (2) ^3[CS4]
+- Mind Trick (3) ^3[CS4]
+- Speed (2) ^3[CS3]
 
 ^6Inventory:
 - Bacta (Instant 50 HP)

@@ -19,11 +19,12 @@ ClassInfo
 	modelScale       1.06
 	saberThrowDamage 37 //40
 	flourishanim 	BOTH_CROUCH3
-		classflags CFL_NOPICKUPS
+	classflags CFL_NOPICKUPS
 	special2 EAS_MELEE
-	special3 EAS_FP_ABSORB
-	special4 EAS_FP_SPEED
+ special3 EAS_FP_SPEED
+	special4 EAS_FP_ABSORB
 	
+	resource RESOURCE_FORCE
 	MBClass	MB_CLASS_JEDI
 	classNumberLimit	1
 	
@@ -110,8 +111,8 @@ An offense-oriented Jedi, characterized by powerful Lightsaber swings and solid 
 - Push (3)
 - Pull (2)
 - Sense (2)
-- Absorb (3) ^3[CS3]
-- Speed (2) ^3[CS4]
+- Absorb (3) ^3[CS4]
+- Speed (2) ^3[CS3]
 
 ^8Attributes:
 - Healing (1)

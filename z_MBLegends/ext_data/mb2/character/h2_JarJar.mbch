@@ -4,15 +4,15 @@ Classinfo
 {		  		
  
  	name				"h2_JarJar"		
- 	MBClass				MB_CLASS_HERO
+ 	MBClass			MB_CLASS_HERO
 	weapons			WP_MELEE|WP_SABER|WP_T21|WP_FRAG_NADE|WP_PULSE_NADE
 	
 	attributes	MB_ATT_BUNNY_HOP,2|MB_ATT_FLOAT_HOP|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_ROSHTAUNT|MB_ATT_WATER_BREATHING|MB_ATT_FLIPKICK,3|MB_ATT_DASH_JUMP|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_T21,1|MB_ATT_BLAST_ARMOUR|
 
-	modelScale   1.07			
+	modelScale  1.07			
 	basespeed 	200
 	forcepowers FP_LEVITATION,1
- 	maxhealth	200
+ maxhealth	200
 	maxarmor		60
 	
 	saber1 		jarjar_leg
@@ -32,7 +32,7 @@ Classinfo
 	resourceRegenRate 1
 	resource RESOURCE_STAMINA
 
-  classNumberLimit	1
+ classNumberLimit	1
 	
 	rateOfFire .15
 	rateOfFire_Melee	0.75
@@ -51,17 +51,16 @@ Classinfo
 	
 	classflags CFL_BLOODYMELEE
 	
- 	model 			"gungan"					
- 	skin				"jarjar_cl"	
+ model 			"gungan"					
+ skin				 "jarjar_cl"	
 	uishader			"models/players/gungan/mb2_icon_jarjar_cl"
 
-	WalkForward		BOTH_WALK7
-	WalkBackward 		BOTH_WALK7
-	tauntAnim		BOTH_ENGAGETAUNT
-	gloatAnim       	BOTH_TUSKENTAUNT1
+	WalkForward		  BOTH_WALK7
+	WalkBackward 		BOTH_WALKBACK_DUAL
+	tauntAnim		    BOTH_ENGAGETAUNT
+	gloatAnim      BOTH_TUSKENTAUNT1
 	flourishAnim		BOTH_FORCEWALLRUNFLIP_START
-	bowAnim 			BOTH_GUNGAN_TAUNT
-	//meditateAnim 	
+	bowAnim 			   BOTH_GUNGAN_TAUNT
 	saberStanceAnim	TORSO_SURRENDER_START
 	
 	WP_MeleeFlags HELD_HIGHDAMAGE
@@ -69,8 +68,7 @@ Classinfo
 	WP_FragNadeFlags HELD_STUN|HELD_PULSE|HELD_HIGHDAMAGE|HELD_DISRUPTIFY|HELD_KNOCKDOWN
 	WP_PulseNadeFlags HELD_DISRUPTIFY|HELD_HIGHDAMAGE
 	WP_T21Flags HELD_LOWDAMAGE
-	
-	//respawncustomtime  	50000
+
 }
 
 WeaponInfo0
@@ -173,7 +171,7 @@ Mesa, uh, clumsy...
 -- Chain Limit: 1
 -- Knocks down on hit
 -- 30% faster AS
--- 50% more KB given
+-- 150% more KB
 -- 66% less DMG
 -- 25% less reach
 - Salvaged E-5 Blaster Rifle (T-21 1)

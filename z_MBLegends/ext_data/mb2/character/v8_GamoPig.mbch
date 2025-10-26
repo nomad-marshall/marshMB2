@@ -8,7 +8,7 @@ ClassInfo
 	extralives		1
 	weapons	WP_SABER|WP_MELEE|WP_A280|WP_THERMAL
 
-	attributes	MB_ATT_A280,3|MB_ATT_AMMO,3|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_ASSEMBLE,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HEALING,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_BASE_TD,2
+	attributes	MB_ATT_A280,3|MB_ATT_AMMO,3|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_ASSEMBLE,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HEALING,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_BASE_TD,2
 
 	skilltimerMod 0.5
 	maxhealth	300
@@ -118,7 +118,7 @@ Versatile 2-life gunners with Strength and a heavy Saber.
 - Blast Armor
 - Physical Resist
 - Healing (2)
-- Assemble (3)
+- Assemble (2)
 
 ^3Abilities:
 - Shoulder Barge ^3[CS2 Melee]"

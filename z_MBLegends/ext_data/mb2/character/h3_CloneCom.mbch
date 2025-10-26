@@ -74,7 +74,7 @@ customSpecDesc_3 ""
 c_att_skill_0 MB_ATT_DC_CARBINE
 c_att_names_0 "DC-17m Blaster (C. Carbine)"
 c_att_ranks_0 0
-c_att_descs_0 "40% faster RoF, 10% less FP DMG, 25% slower mag reload"
+c_att_descs_0 "35% faster RoF, 10% less FP DMG, 25% slower mag reload"
 c_att_skill_1 MB_ATT_DISRUPTOR
 c_att_names_1 "DC-17m Sniper (Disruptor)"
 c_att_ranks_1 0
@@ -144,7 +144,7 @@ animReadyNoAmmo BOTH_ATTACK3
 animAttack BOTH_ATTACK3
 animAttackWalk BOTH_ATTACK3
 animStand BOTH_STAND1
-rateMod .6
+rateMod .65
 selectSound "sound/weapons/dc17m/select.mp3"
 }
 WeaponInfo1
@@ -256,7 +256,7 @@ NewWorldModel	"models/weapons2/thermal/thermal_w.glm"
 NewViewModel "models/weapons2/thermal/thermal_hand.md3"
 Icon	"gfx/hud/w_thermal_grenade"
 WeaponName "Hand Thermal Grenades"
-damagemod 3
+damagemod 2.25
 }
 description "Clone Commando [Clone Trooper]
 
@@ -267,6 +267,7 @@ Adaptable 2-lifes with staying power.
 - Knuckle Plate Vibroblade (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
+-- 50% more KB
 -- 20% less DMG
 -- 57% less reach
 -- 33% more radius
@@ -276,7 +277,7 @@ Adaptable 2-lifes with staying power.
 -- 40% faster RoF
 -- 100% slower reload
 - Hand Thermal Grenades (2)
--- 200% more DMG
+-- 125% more DMG
 
 ^8Attributes:
 - 15% less KB taken

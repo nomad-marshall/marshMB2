@@ -20,8 +20,8 @@ ClassInfo
 	
 
 	special2	EAS_MELEE
-	special3	EAS_FP_LIGHTNING
-	special4 EAS_FP_SPEED
+	special3	EAS_FP_SPEED
+	special4 EAS_FP_LIGHTNING
 	
 	classNumberLimit	1
 	modelscale		1
@@ -181,8 +181,8 @@ A defensive Jedi supplemented with a light side variant of Force Lightning, and 
 - Jump (3)
 - Push (2)
 - Sense (3)
-- Emerald Lightning (1) ^3[CS3]
-- Speed (1) ^3[CS4]
+- Emerald Lightning (1) ^3[CS4]
+- Speed (1) ^3[CS3]
 
 ^8Attributes:
 ^7- ^3*^7Light's Beacon (Shares Force Powers with a ^7targeted/nearby ally)

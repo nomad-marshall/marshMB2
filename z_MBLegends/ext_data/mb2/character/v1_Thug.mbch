@@ -4,7 +4,7 @@ ClassInfo
 	name		"v1_Thug"
 	weapons		WP_MELEE|WP_BOWCASTER|WP_SABER|WP_THERMAL
 	
-	attributes	MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_BOWCASTER,1|MB_ATT_AMMO,3|MB_ATT_STAMINA,2|MB_ATT_ASSEMBLE,3
+	attributes	MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_BOWCASTER,1|MB_ATT_AMMO,3|MB_ATT_STAMINA,2|MB_ATT_ASSEMBLE,2
 	
 	saberMaxChain 2
 	rankSaberMaxChain 3,4
@@ -108,8 +108,8 @@ ClassInfo
 	uishader_12 	"models/players/human_merc/mb2_icon_key_carrier"
 	
 	model_13		"human_merc"
-	skin_13 		"key_carrier2"
-	uishader_13 	"models/players/human_merc/mb2_icon_key_carrier2"
+	skin_13 		"default"
+	uishader_13 	"models/players/human_merc/mb2_icon_default"
 	
 	isCustomBuild		1
 	mbPoints			50
@@ -247,7 +247,7 @@ A multi-life hybrid brawler that can spec into Sabering upgrades, melee, explosi
 ^8Attributes:
 - Reinforcement (1)
 - Stamina (2)
-- Assemble (3)
+- Assemble (2)
 
 ^3Abilities:
 - Sprint ^3[CS1]"
