@@ -211,7 +211,7 @@ WeaponInfo6
 	missileHitHumanEffect	"Grenades/EXP_Explosion"
 	altMissileHitDroidEffect"Grenades/EXP_Explosion"
 	missileHitDroidEffect	"Grenades/EXP_Explosion"
-	damagemod 4
+	damagemod 2.5
 }
 
 description	"Delta Squad Clone Commando [Clone Trooper]
@@ -241,7 +241,7 @@ A highly adaptable special ops unit.
 -- 10% slower RoF
 -- 75% slower mag reload
 - Hand Thermal Grenades (2)
--- 300% more DMG
+-- 150% more DMG
 - DC-17m ICWS Anti-Armor Attachment (UGL 2)
 
 ^8Attributes:
