@@ -2535,6 +2535,31 @@ gfx/mplevels/mb2_scarif/map
 //####################
 //##### Citadel
 //####################
+
+gfx/automap/citadel_alpha
+{
+	nopicmip
+    {
+		clampmap gfx/automap/citadel_alpha
+		blendfunc blend
+		alphaGen vertex
+		depthfunc equal
+    }
+}
+
+gfx/automap/citadel_alphafull
+{
+	nopicmip
+    {
+		clampmap gfx/automap/citadel_alpha
+		blendfunc blend
+		alphaGen vertex
+		depthfunc equal
+    }
+}
+
+
+
 gfx/automap/mb2_citadel0
 {
 	nopicmip
