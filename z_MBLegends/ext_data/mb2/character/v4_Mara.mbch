@@ -61,8 +61,8 @@ ClassInfo
 	
 	special1 EAS_FP_SABERTHROW
 	special2 EAS_MELEE
-	special3 EAS_FP_TELEPATHY
-	special4 EAS_FP_SPEED
+	special4 EAS_FP_TELEPATHY
+	special3 EAS_FP_SPEED
 }
 
 WeaponInfo0
@@ -79,12 +79,12 @@ WeaponInfo0
 	CustomAmmo			300
 	CustomClip			100
 	velocityMod 0.8
-		hasAnimOverrides 1
-	animReady BOTH_STAND4TOATTACK2
-	animReadyWalk BOTH_STAND4TOATTACK2
-	animReadyNoAmmo BOTH_PISTOL_ATTACK 
-	animAttack BOTH_PISTOL_ATTACK 
-	animAttackWalk BOTH_PISTOL_ATTACK 
+	hasAnimOverrides 1
+animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2 
 	animStand BOTH_STAND9
 }
 
@@ -101,7 +101,7 @@ A Sith/pistoleer hybrid that rewards flanking, skirmishing, and swapping between
 --- 33% more DMG
 -- Slap ^3[CS2]
 - Hold-out Blaster Pistol (3)
--- 20% slower velocity
+-- 20% less velocity
 - Thermal Grenades (4)
 - Sonic Detonator (1)
 
@@ -110,8 +110,8 @@ A Sith/pistoleer hybrid that rewards flanking, skirmishing, and swapping between
 - Push (2)
 - Pull (1)
 - Sense (2)
-- Mind Trick (3) ^3[CS3]
-- Speed (2) ^3[CS4]
+- Mind Trick (3) ^3[CS4]
+- Speed (2) ^3[CS3]
 
 ^6Inventory:
 - Bacta (Instant 50 HP)

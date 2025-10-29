@@ -65,7 +65,7 @@ WeaponInfo1
 	WeaponName		"Wrist Blast"
 	ReloadTimeModifier 	2
     ProjSpeedModifier 	.25
-	firingAnim		SBD_GUN_OUT_STAND
+	firingAnim		BOTH_STAND1_BLASTER
 	Idleanim	BOTH_MINIGUN_READY
 	isMinigun 1
 	

@@ -60,7 +60,7 @@ soundOn		"sound/weapons/tai_weap/swing9.wav"
 	blasterblocking		0
 	bounceOnWalls	0
 	twohanded	1
-	readyAnim  MELEE_STAND  
+	readyAnim  BOTH_MELEE_STAND1  
 	
 	damageScale 	0.2
 
@@ -184,7 +184,7 @@ grievtraya14_wacky
 	lockBonus		4
 	notinopen	1
 	throwable		1
-//	readyanim	TRIPLE3_YELLOWSTANCE
+//	readyanim	BOTH_TRIPLE3_YELLOWSTANCE
 //	readyanim	BOTH_V6_B__S6
 	readyanim	TRIPLE3_DUALSSTANCE
 }
@@ -212,7 +212,7 @@ grievtraya24_wacky
 	lockBonus		4
 	notinopen		1
 	throwable		1
-//	readyanim	TRIPLE3_YELLOWSTANCE
+//	readyanim	BOTH_TRIPLE3_YELLOWSTANCE
 //	readyanim	BOTH_V6_B__S6
 	readyanim	TRIPLE3_DUALSSTANCE
 }

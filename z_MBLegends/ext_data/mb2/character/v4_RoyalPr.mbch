@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name			"v4_RoyalPr"
-	MBClass		MB_CLASS_JEDI
+	MBClass		MB_CLASS_SITH
 	classNumberLimit	2
 	extralives	1
 	weapons		WP_SABER|WP_MELEE|WP_BLASTER_PISTOL
@@ -23,18 +23,24 @@ ClassInfo
 	
 	maxhealth	80
 	maxarmor		80
-	speed		1
+	speed		1.01
 	
 	special2 EAS_MELEE
 	special3 EAS_HI_DEX
 
-	saberDamage 110
+	saberDamage 120
 	saberMaxChain 3
 	saberstyle	SS_MEDIUM|SS_DESANN
 	saber1		royal_pike_legends
 	BPmultiplier 1.3
 	CSmultiplier 	1.0
-	
+
+	blockRegenAmount 4
+	blockRegenCap 100
+	blockRegenRate 400
+
+	rateoffire_melee 0.93
+
 	modelscale        1.01
 	uioverlay_l 		"gfx/icons/hybrid"
 	uioverlay_r "gfx/icons/infantry"
@@ -53,7 +59,7 @@ ClassInfo
 	c_att_skill_0	MB_ATT_SHOTGUN
 	c_att_names_0	"ARC Caster (Shotgun)"
 	c_att_ranks_0	1
-	c_att_descs_0 "Electrifies on hit, 75% slower velocity, 75% slower mag reload"
+	c_att_descs_0 "Electrifies on hit, 75% less velocity, 75% slower mag reload"
 	c_att_skill_1	MB_ATT_T21
 	c_att_names_1	"T-21 Heavy Blaster"
 	c_att_ranks_1	1,0
@@ -81,13 +87,11 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_arc_caster" 
 	WeaponName			"ARC Caster"
 	hasAnimOverrides 1
-	animReady BOTH_DC15_IDLE
-		animReadyWalk TORSO_WEAPONREADY4
-	animReadyNoAmmo TORSO_WEAPONREADY4
-	//animReadyWalk BOTH_TORSO_WEAPONREADY4
-	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
-	animAttack BOTH_ATTACK4
-	animAttackWalk BOTH_ATTACK4
+	animReady BOTH_WESTARM5_IDLE
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
 	animStand BOTH_STAND5
 	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
 	MissileEffect		"arc_caster/ArcCasterShock"
@@ -114,7 +118,6 @@ WeaponInfo2
 	clipsize            21
 	hasAnimOverrides 1
 	animStand 		BOTH_STAND5
-	altfireenabled 	0
 }
 
 WeaponInfo3
@@ -147,7 +150,7 @@ Mobile 2-lifes with a Saber and Force Block.
 -- Staggers on hit
 -- 7% faster AS
 -- 15% more KB given
--- 54/72% less DMG
+-- 50/70% less DMG
 -- 30% less reach
 -- 167% more radius
 -- Slap ^3[CS2]

@@ -149,7 +149,7 @@ sarlacc_gaffi_boss
 	tauntAnim	BOTH_ENGAGETAUNT
 	flourishAnim BOTH_VICTORY_FAST
 	gloatAnim	BOTH_MAUL_TAUNT
-	readyanim	TRIPLE3_YELLOWSTANCE
+	readyanim	BOTH_TRIPLE3_YELLOWSTANCE
 	
 	spinsound	"sound/weapons/tai_weap/swing3.wav"
 

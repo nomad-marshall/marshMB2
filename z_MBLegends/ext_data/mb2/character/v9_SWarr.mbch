@@ -4,18 +4,18 @@ ClassInfo
 {
 	name				"v9_SWarr"
 	weapons				WP_SABER|WP_MELEE
-	attributes			MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_HEALING,1
+	attributes			MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_HEALING,1|MB_ATT_WOOKIEE_FURY,1
 	saberstyle		SS_MEDIUM|SS_STRONG|SS_DESANN
 	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_SEE,2|FP_PUSH,3|FP_PULL,2|FP_GRIP,2|FP_SABERTHROW,1|FP_RAGE,2
 	maxhealth			130
 	forcepool           120
-	
+	resource RESOURCE_FORCE
 	APmultiplier		1.2
 	BPmultiplier		1.15
 	ASmultiplier 		1.1
 	CSmultiplier 		1.2
 		classflags CFL_NOPICKUPS
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 	classNumberLimit	1
 	modelscale          1.01
 	speed               1.03
@@ -23,8 +23,8 @@ ClassInfo
 	forceregen          1.1
 	saberThrowDamage 41 //45
 	special2 EAS_MELEE
-	special3 EAS_FP_RAGE
-	special4 EAS_FP_GRIP	
+	special4 EAS_FP_RAGE
+	special3 EAS_FP_GRIP	
 	
 	uioverlay "gfx/icons/frontline"
 	
@@ -81,9 +81,10 @@ A master of combat - possessing equally strong Lightsaber and Force abilities. R
 - Push (3)
 - Pull (2) 
 - Sense (2) 
-- Dark Rage (2) ^3[CS3]
-- Grip (2) ^3[CS4] 
+- Dark Rage (2) ^3[CS4]
+- Grip (2) ^3[CS3] 
 
 ^8Attributes:
 - Healing (1)
-- Force Block/Focus (2)"
+- Force Block/Focus (2)
+- Fury (1)"

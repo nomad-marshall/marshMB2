@@ -4,7 +4,7 @@ ClassInfo
 	name 				 "h3_Cander"
 	weapons 			WP_MELEE|WP_SABER
 	saber1				"vibroblade_canderous_legends"
-	attributes  		MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_DEXTERITY,1
+	attributes  		MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_DEXTERITY,1|MB_ATT_WOOKIE_STRENGTH,1
 	saberstyle  		SS_MEDIUM|SS_STRONG
 	
 	maxhealth 		100
@@ -38,7 +38,7 @@ ClassInfo
 
 	MBClass			MB_CLASS_CLONETROOPER
 	forcepowers		FP_SABER_OFFENSE,3
-	classflags		CFL_HEAVYMELEE|CFL_STRONGAGAINSTPHYSICAL
+	classflags		CFL_STRONGAGAINSTPHYSICAL
 
 	modelscale	1.03
 	damageTaken	0.93
@@ -80,7 +80,7 @@ ClassInfo
 	
 	c_att_skill_4	MB_ATT_FRAGS
 	c_att_names_4	"Frag Grenades"
-	c_att_ranks_4	10,10,10
+	c_att_ranks_4	8,8,8
 	
 	c_att_skill_5	MB_ATT_HEALTH
 	c_att_names_5	"Health (110/125/150)"
@@ -133,6 +133,13 @@ WeaponInfo0
 	//FPMult     			0.9
 	clipsize			60
 	ReloadTimeModifier  2	
+hasAnimOverrides 1
+animReady BOTH_DC15_IDLE
+animReadyWalk TORSO_WEAPONREADY3
+animReadyNoAmmo BOTH_ATTACK3
+animAttack BOTH_ATTACK3
+animAttackWalk BOTH_ATTACK3
+animStand BOTH_STAND1
 }
 
 WeaponInfo1
@@ -151,7 +158,7 @@ description	"Canderous Ordo aka Mandalore the Preserver [Clone Trooper]
 A tanky hybrid who can spec into Blaster and Saber skills.
 
 ^2Weaponry:
-- Heavy Melee
+- Melee
 - Canderous' Vibroblade (Yellow/Red Saber)
 -- No Blaster Block
 -- 48% more reach
@@ -161,6 +168,7 @@ A tanky hybrid who can spec into Blaster and Saber skills.
 ^8Attributes:
 - 20% less KB taken
 - Stamina (0)
+- Strength (1)
 - Dexterity (1)
 - Physical Resist
 - Rally

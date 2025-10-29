@@ -57,8 +57,8 @@ ot_monk
 	transitionDamage	1
 	noManualDeactivate	1
 	
-	readyAnim MELEE_STAND
-	drawAnim  MELEE_STAND
+	readyAnim BOTH_MELEE_STAND1
+	drawAnim  BOTH_MELEE_STAND1
 	
 	tauntAnim	BOTH_FORCE_2HANDEDLIGHTNING
 	flourishAnim	BOTH_FORCE_DRAIN_RELEASE

@@ -15,7 +15,7 @@ ClassInfo
 	MBClass			MB_CLASS_JEDI
 	classNumberLimit	2
 	classflags		CFL_SEEING_STEALTH|CFL_HEAVYMELEE|CFL_NOPICKUPS|CFL_BPFREEJUMPS
-
+ saberSpecialDamage 2
 	saberDamage 70
 	saber1	martialarts_legends
 	saber2	martialarts_legends
@@ -23,7 +23,7 @@ ClassInfo
 	APmultiplier       0.8
 	BPmultiplier		1
 	saberspecialDamage 2
-	saberStanceAnim	MELEE_STAND
+	saberStanceAnim	BOTH_MELEE_STAND1
 	gloatAnim BOTH_ATTACK10
 	flourishAnim BOTH_STAND5TOSIT3
 	
@@ -41,9 +41,9 @@ ClassInfo
 		
 	//respawncustomtime 30000	
 	
-	special1		EAS_FP_PROTECT
-	special2	 	EAS_HI_DEX
-	special3		EAS_FP_REPULSE
+	special1		EAS_FP_REPULSE
+	special2	 EAS_HI_DEX
+	special3		EAS_FP_SPEED
 	special4		EAS_HI_DASH
 	isCustomBuild		1
 	mbPoints			4
@@ -61,7 +61,7 @@ ClassInfo
 	c_att_ranks_2	0,0,1
 	
 	c_att_skill_3	MB_ATT_FP_PROTECT
-	c_att_names_3	"Force Protect ^3[CS1]"
+	c_att_names_3	"Force Protect"
 	c_att_ranks_3	0,0,1
 	
 	c_att_skill_4	MB_ATT_FLIPKICK
@@ -91,6 +91,7 @@ Light side masters who forego the use of a Lightsaber in favor of martial arts a
 -- Blocking resists Force Powers
 -- BP-Free Jumps
 -- 73% less DMG
+-- 46% less special DMG
 -- 55% less reach
 -- 167% more radius
 -- Slap ^3[Gunbash]
@@ -101,9 +102,9 @@ Light side masters who forego the use of a Lightsaber in favor of martial arts a
 - Pull (2)
 - Sense (3)
 - Mind Trick (3)
-- Protect (2) ^3[CS1]
-- Repulse ^3[CS3 Melee]
-- Speed (2)
+- Protect (2)
+- Repulse ^3[CS1 Melee]
+- Speed (2) ^3[CS3]
 
 ^8Attributes:
 - Bunny Hop (1)

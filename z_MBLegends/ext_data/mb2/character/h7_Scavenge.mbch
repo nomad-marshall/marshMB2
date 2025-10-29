@@ -1,4 +1,4 @@
-//Siege class def file. wp
+//Siege class def file
 
 ClassInfo
 {
@@ -7,7 +7,7 @@ ClassInfo
 	
 	weapons			WP_MELEE|WP_BLASTER|WP_TRIP_MINE|WP_PULSE_NADE|WP_FRAG_NADE|WP_STUN_BATON|WP_SABER
 
-	attributes		MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,3|MB_ATT_BLASTER,1|MB_ATT_DODGE,2|MB_ATT_DASH,1|MB_ATT_TRIP_MINES,2|MB_ATT_PULSE_GRENADES,1|MB_ATT_STUN_BATON,3|MB_ATT_SABER_COMBO_NONE
+	attributes		MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_BLASTER,1|MB_ATT_DODGE,2|MB_ATT_DASH,1|MB_ATT_TRIP_MINES,1|MB_ATT_PULSE_GRENADES,1|MB_ATT_STUN_BATON,3|MB_ATT_SABER_COMBO_NONE
 	
 	maxhealth		70
 	maxarmor			35
@@ -151,7 +151,7 @@ description	"Scavenger [Bounty Hunter]
 - Short Wrench (Blue Saber)
 -- No Saber/Blaster Block
 -- No Saber Training
--- 200% more KB given
+-- 300% more KB given
 -- 58% less DMG
 -- 50% less reach
 -- 167% more radius
@@ -160,7 +160,7 @@ description	"Scavenger [Bounty Hunter]
 -- Electrifies on hit
 -- 30% more FP DMG
 -- 15% faster mag reload
--- 20% slower velocity
+-- 20% less velocity
 -- 40% slower RoF
 - Stun Grenade (1) (Knockdown Frag)
 -- 50% less DMG
@@ -168,9 +168,9 @@ description	"Scavenger [Bounty Hunter]
 -- Detonates upon any contact
 -- Fully cooked nades are auto-thrown
 -- Cooking does not affect det. timer
-- Trip Mines (2)
+- Trip Mine (1)
 - Pulse Grenade (1)
-- Stun Baton
+- Stun Baton (3)
 
 ^6Inventory:
 - Kolto (Gradual 50 HP) ^3[CS4]
@@ -179,7 +179,7 @@ description	"Scavenger [Bounty Hunter]
 
 ^8Attributes:
 - Reinforcements (2)
-- Assemble (3)
+- Assemble (2)
 
 ^3Abilities:
 - Dodge (2) ^3[CS1]

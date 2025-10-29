@@ -71,6 +71,10 @@
 	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_whistlingbird.menu" }
 	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_wookgunbash.menu" }
 	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_wristblaster.menu" }
+	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_saberdefense.menu" }
+	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_lightstyles.menu" }
+	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_mediumstyles.menu" }
+	loadMenu { "ui/mb/alpha/game/abilities/mb_ability_strongstyles.menu" }
 
 	// Weapons
 	loadMenu { "ui/mb/alpha/game/weapons/mb_weapon_a280.menu" }

@@ -18,9 +18,9 @@ ClassInfo
 	saberThrowDamage 40
 	forceregen     1.1
 	classflags CFL_NOPICKUPS|CFL_STATVIEWER
-	special2 EAS_MELEE
 	special3 EAS_FP_TEAM_FORCE
-	special4 EAS_FP_ABSORB
+	special2 EAS_FP_ABSORB
+	special4 EAS_FP_DRAIN
 	
 	saberstyle SS_STAFF|SS_TAVION
 	
@@ -71,16 +71,16 @@ A well-rounded Jedi with a powerful Force ability that lets them Energize their 
 -- Saber Deflect (3)
 -- EX Saber Throw (1) ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)
 - Push (2)
 - Pull (2)
 - Sense (2)
-- Drain (3)
+- Drain (3) ^3[CS4]
 - Team Energize (3) ^3[CS3]
-- Absorb (1) ^3[CS4]
+- Absorb (1) ^3[CS2]
 - Speed (1)
 
 ^8Attributes:

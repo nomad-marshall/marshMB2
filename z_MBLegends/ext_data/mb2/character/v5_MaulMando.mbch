@@ -40,7 +40,7 @@ ClassInfo
 	resource RESOURCE_RAGE 
 	forcepool	150
 	resourceRegenCap 	50
-    resourceRegenAmount 2.5
+    resourceRegenAmount 2
     resourceRegenRate 750
 
 	special1 EAS_HI_ROCKET
@@ -48,31 +48,31 @@ ClassInfo
 	special3 EAS_HI_DEX
 	special4 EAS_FP_RAGE
 	
-	//WalkBackward 	BOTH_WALK_DUAL
-	//WalkForward 	BOTH_WALK_DUAL
+	WalkBackward 	BOTH_WALK_DUAL
+	WalkForward 	BOTH_WALKBACK_DUAL
 	isCustomBuild	1
 	mbPoints		6
 	
 	c_att_skill_0	MB_ATT_MANDO_PISTOL
 	c_att_names_0	"DX-13 Pistols (WESTARs)"
 	c_att_ranks_0	2,0,1
-	c_att_descs_0 "20% faster RoF, 20% faster velocity, 10% more FP DMG, 
+	c_att_descs_0 "20% faster RoF, 20% more velocity, 10% more FP DMG, 
 10% less DMG, Mag reload"
 	c_att_skill_1	MB_ATT_MINIGUN
 	c_att_names_1	"Vornax Cannon (Minigun)"
 	c_att_ranks_1	5,0
 	c_att_descs_1 "Ignites/staggers/pushes on direct hit, 300% more DMG/FP DMG,
-700% slower RoF, 50% slower velocity, 100% slower mag reload" 
+700% slower RoF, 50% less velocity, 100% slower mag reload" 
 	700/50/200% slower RoF"
 	c_att_skill_2	MB_ATT_A280
 	c_att_names_2	"Concordian Rifle (A280)"
 	c_att_ranks_2	1,2,0
-	c_att_descs_2 "25% more FP DMG, 25% faster velocity, 25% slower RoF, 
+	c_att_descs_2 "25% more FP DMG, 25% more velocity, 25% slower RoF, 
 40% slower mag reload"
 	c_att_skill_3	MB_ATT_EE3
 	c_att_names_3	"Sundari Repeater (EE-3)"
 	c_att_ranks_3	2,0,1
-	c_att_descs_3 "30% faster RoF, 20% faster velocity, 40% slower mag reload"
+	c_att_descs_3 "30% faster RoF, 20% more velocity, 40% slower mag reload"
 	c_att_skill_4 MB_ATT_RESPAWNS
 	c_att_names_4	"Reinforcement"
 	c_att_ranks_4 2
@@ -80,7 +80,7 @@ ClassInfo
 	c_att_skill_5	MB_ATT_FLAMETHROWER
 	c_att_names_5	"Wrist Flamethrower ^3[CS2 TM]"
 	c_att_ranks_5	1
-	c_att_descs_5 "Toggle Melee Weapon Mode to swap Wrist Flamethrower/Laser"
+	c_att_descs_5 "Toggle Melee Weapon Mode to swap Wrist Laser/Flamethrower"
 }
 WeaponInfo0
 {
@@ -113,13 +113,12 @@ WeaponInfo1
 	hasAnimOverrides 	1
 	animReady 		BOTH_PAIN16   
 	animReadyWalk 	BOTH_PAIN16    
-	animReadyNoAmmo 	DUAL_DRAW 
-	//animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
-	animRunAttackR	DUAL_PISTOLS_FIRE_RIGHT
-	animRunAttackL	DUAL_PISTOLS_FIRE_LEFT
+	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
+	animRunAttackR	BOTH_DUAL_PISTOLS_ATTACK_R
+	animRunAttackL	BOTH_DUAL_PISTOLS_ATTACK_L
 	animWalkAttackR	DUAL_RUNNING_FIRE_RIGHT
 	animWalkAttackL	DUAL_RUNNING_FIRE_LEFT
-	animCharge	DUAL_PISTOLS_READY
+	animCharge	BOTH_DUAL_PISTOLS_UP
 	animStand 	BOTH_STAND9
 	customAmmo 800
 	clipsize	30
@@ -139,9 +138,9 @@ WeaponInfo2
 	MuzzleEffect  		"DW_Cannon/muzzleflash"
 	altMuzzleEffect  		"DW_Cannon/muzzleflash"
 	MissileEffect 		"Blaster/Shot04R"
-	missileMissEffect 	"effects/impacts/impactMediumRed3"
-	MissileHitHumanEffect	"effects/impacts/impactMediumRed3"
-	MissileHitDroidEffect 	"effects/impacts/impactMediumRed3"
+	missileMissEffect 	"effects/Grenades/EXP_BaseThermal"
+	MissileHitHumanEffect	"effects/Grenades/EXP_BaseThermal"
+	MissileHitDroidEffect 	"effects/Grenades/EXP_BaseThermal"
 	FlashSound0	"sound/weapons/MWC-35c/fire.wav"
 	isMinigun 1
 	Icon	 "gfx/hud/w_icon_rotary_cannon"
@@ -152,7 +151,7 @@ WeaponInfo2
 	velocityMod	0.5
 	ReloadTimeModifier 2
 	clipsize	10
-	customAmmo	400
+	customAmmo	350
 }
 WeaponInfo3
 {
@@ -170,12 +169,10 @@ WeaponInfo3
 	FlashSound1 		"sound/weapons/EL-16/fire.wav"
 	FlashSound2 		"sound/weapons/EL-16/fire.wav"
 	FlashSound3 		"sound/weapons/EL-16/fire.wav"
-	FlashSound4  	"sound/weapons/EL-16/alt_fire.wav"	
 	AltFlashSound0  	"sound/weapons/EL-16/alt_fire.wav"
 	AltFlashSound1  	"sound/weapons/EL-16/alt_fire.wav"
 	AltFlashSound2  	"sound/weapons/EL-16/alt_fire.wav"
 	AltFlashSound3  	"sound/weapons/EL-16/alt_fire.wav"
-	AltFlashSound4  	"sound/weapons/EL-16/alt_fire.wav"
 	customammo 	800
 	clipsize 80
 	FPMult	1.25
@@ -213,10 +210,10 @@ Enforcers with brutal burst fire/area control.
 - Mandalorian Personal Energy Shield (Cyan Saber)
 -- Saber Defense/Deflect (0)
 -- Blaster Defense (3)
--- 50% more KB
+-- 150% more KB
 -- 50% less DMG
--- 12% shorter reach
--- 66% wider radius
+-- 12% less reach
+-- 66% more radius
 -- Slap ^3[GB]
 - Fire Grenade (1)
 

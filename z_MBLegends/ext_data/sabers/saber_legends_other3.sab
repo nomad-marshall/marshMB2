@@ -653,7 +653,7 @@ electro-bisento_legends
 	useGoreConfig 1
 	useGoreConfig2 1
 	disarmable 1
-	readyAnim      TRIPLE3_BLUESTANCE
+	readyAnim      BOTH_TRIPLE3_BLUESTANCE
 }
 vibro-voulge_legends
 {
@@ -706,7 +706,7 @@ vibro-voulge_legends
 	g2WeaponMarkShader	"gfx/effects/bloodsplat"
 	useGoreConfig 1
 	useGoreConfig2 1
-	readyAnim     TRIPLE3_REDSTANCE
+	readyAnim     BOTH_TRIPLE3_REDSTANCE
 	lungeAtkMove LS_PULL_ATTACK_STAB
 	saberStyleLearned strong
 }
@@ -1021,66 +1021,79 @@ feign_leg
 	jumpAtkFwdMove LS_KICK_F_AIR
 }
 
-
-
 Bossk_legends
 {
 	name		"Bossk Claws"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/noweap/noweap.glm"
-
-	soundOn		null
-	soundLoop	null
+	soundOn	null
+	soundLoop null
 	soundOff	null
-
 	swingSound1	"s/w/p/swing2.mp3"
 	swingSound2	"s/w/p/swing3.mp3"
 	swingSound3	"s/w/p/swing4.mp3"
-
 	hitSound1 "s/w/d/stab1.wav"
 	hitSound2 "s/w/d/stab2.wav"
 	hitSound3 "s/w/d/stab3.wav"
-
 	blockSound1	"s/w/p/swing2.mp3"
 	blockSound2	"s/w/p/swing3.mp3"
 	blockSound3	"s/w/p/swing4.mp3"
-
 	bounceSound1	"s/w/p/swing4.mp3"	
 	bounceSound2	"s/w/p/swing2.mp3"
 	bounceSound3	"s/w/p/swing1.mp3"
-	
 	spinsound	"s/w/p/swing3.mp3"
-
 	numBlades	1
 	saberLength	18
 	saberRadius	8
-
 	throwable	0
 	disarmable	0
-
 	blocking		0
-	onInWater		1
-
-	noRollStab		1
-	noStabDown		1
-
-	noWallMarks		1
+	onInWater	1
+	noRollStab	1
+	noStabDown	1
+	noWallMarks	1
 	noDlight		1
-	noBlade			1
-	noClashFlare 		1
-	trailStyle		2
-
-	noIdleEffect		1
-	damageScale		0.6
+	noBlade		1
+	noClashFlare 	1
+	trailStyle	2
+	noIdleEffect	1
+	damageScale	0.6
 	noManualDeactivate	1
-
 	blockEffect	"melee_weap/block"
  	hitPersonEffect "melee_weap/attack"
 	hitOtherEffect	"sparks/spark"
-	
 	g2MarksShader		"gfx/damage/bloodcutmark"
-	g2WeaponMarkShader	"gfx/effects/bloodsplat"
-	
-	lungeAtkMove              LS_SPINATTACK_ALORA
-    jumpAtkFwdMove            LS_A_JUMP_T__B_
+	g2WeaponMarkShader "gfx/effects/bloodsplat"
+	lungeAtkMove   LS_SPINATTACK_ALORA
+    jumpAtkFwdMove  LS_A_JUMP_T__B_
+}
+
+fblade
+{
+	name		"Dengar's Fire Blade"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_plasma/saber_stranger_split_bottom.glm"
+	saberLength	15
+	saberRadius  4
+	blasterBlocking 0
+	unstable 1
+	soundOn		"sound/flamethrower/flame_on.mp3"
+	soundOff		"sound/flamethrower/flame_douse.mp3"
+	soundLoop	"sound/effects/fire_lp.mp3"
+	swingSound1	"sound/flamethrower/flame_on.mp3"
+	swingSound2	"sound/flamethrower/flame_on.mp3"
+	swingSound3	"sound/flamethrower/flame_on.mp3"
+	hitSound1	"sound/effects/fireburst.mp3"
+	hitSound2	"sound/effects/fireburst.mp3"
+	hitSound3	"sound/effects/fireburst.mp3"
+	bounceSound1	"sound/effects/fireburst.mp3"
+	bounceSound2	"sound/effects/fireburst.mp3"
+	bounceSound3	"sound/effects/fireburst.mp3"
+	blockSound1	"sound/effects/fireout.mp3"
+	blockSound2	"sound/effects/fireout.mp3"
+	blockSound3	"sound/effects/fireout.mp3"
+	jumpAtkFwdMove LS_KICK_F
+	jumpAtkLeftMove LS_KICK_L
+	jumpAtkRightMove LS_KICK_R
+	lungeAtkMove LS_KICK_B
 }

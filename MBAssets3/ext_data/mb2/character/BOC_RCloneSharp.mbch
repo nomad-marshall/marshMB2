@@ -9,9 +9,6 @@ ClassInfo
 	maxarmor			60
 	model				"clonetrooper_p2"
 	skin				"212_airborne"
-	customred			0.825
-	customgreen			0.474
-	customblue			0.120
 	uishader			"models/players/clonetrooper_p2/mb2_icon_212_airborne"
 	MBClass				MB_CLASS_ELITETROOPER
 	classNumberLimit	1

@@ -50,7 +50,7 @@ ryyk_B
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
 
-	readyAnim 			MAND_PISTOLS_READY
+	readyAnim 			BOTH_MAND_DUAL_PISTOLS_READY
 	drawAnim			DUALS_DRAW
 	putawayAnim		DUALS_DRAW
 

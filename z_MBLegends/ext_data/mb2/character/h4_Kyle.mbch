@@ -33,7 +33,7 @@ ClassInfo
 	CSmultiplier		1.0
 	saberThrowDamage 40
 	modelscale          1.0
-	MBClass				MB_CLASS_JEDI
+	MBClass				MB_CLASS_SITH
 	classNumberLimit  	1
 	
 	WP_DetPackFlags		HELD_HIGHDAMAGE
@@ -88,7 +88,7 @@ c_att_ranks_1       8,8,4
 c_att_skill_2       MB_ATT_PISTOL
 c_att_names_2       "Bryar (Blaster) Pistol"
 c_att_ranks_2       2,2,15
-c_att_descs_2 "20% more charged FP DMG, 20% slower velocity"
+c_att_descs_2 "20% more charged FP DMG, 20% less velocity"
 c_att_skill_3       MB_ATT_BLASTER
 c_att_names_3       "E-11 Blaster Rifle"
 c_att_ranks_3       6,6
@@ -110,11 +110,11 @@ c_att_names_7       "Force Sense"
 c_att_ranks_7       4,4
 
 c_att_skill_8       MB_ATT_FP_LIGHTNING
-c_att_names_8       "Force Lightning"
+c_att_names_8       "Force Lightning ^3[CS4]"
 c_att_ranks_8       4,6
 
 c_att_skill_9       MB_ATT_FP_GRIP
-c_att_names_9       "Force Grip"
+c_att_names_9       "Force Grip ^3[CS3]"
 c_att_ranks_9       4,6
 
 c_att_skill_10      MB_ATT_FP_ABSORB
@@ -157,6 +157,12 @@ WeaponInfo0
 	//OverchargeEffect	"Blaster/MuzzleFlash01Y"
 	velocityMod 0.8
 	FPChargeMult	1.20
+	hasAnimOverrides 1
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2
 }
 
 description	"Kyle Katarn [Jedi]
@@ -172,7 +178,7 @@ A Force-sensitive mercenary with the ability to choose his own path.
 --- 33% more DMG
 -- Slap ^3[CS2]
 - Thermal Grenades (2)
-- Stun Baton
+- Stun Baton (3)
 
 ^5Force Powers:
 - Jump (2)

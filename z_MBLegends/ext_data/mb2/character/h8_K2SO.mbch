@@ -11,8 +11,8 @@ ClassInfo
 	armourRegenCap 80
 	armourRegenAmount	1
 	armourRegenRate		1500
-	maxhealth   		250
-	maxarmor   	 	250
+	maxhealth   		200
+	maxarmor   	 	275
 	basespeed 		185
 	resource 		RESOURCE_RAGE
 	forcepool		60
@@ -53,7 +53,7 @@ ClassInfo
 	//respawncustomtime 	75000
 
 	flourishAnim BOTH_STEADYSELF1
-	deathAnim SBD_DEATH
+	deathAnim BOTH_SBD_DEATH1
 	gloatAnim BOTH_STAND5TOAIM
 	tauntAnim BOTH_STAND1_TALK1
 	RunForward 	BOTH_WALK1
@@ -79,18 +79,13 @@ WeaponInfo0
 	altFlashSound0	"sound/weapons/se-14c/fire.mp3"
 	FlashSound0	"sound/weapons/se-14c/fire.mp3"
 	hasAnimOverrides 1
-		animReady BOTH_STAND4TOATTACK2
-	animReadyWalk BOTH_STAND4TOATTACK2
-	animReadyNoAmmo BOTH_STAND4TOATTACK2 
-	animAttack BOTH_PISTOL_ATTACK 
-	animAttackWalk BOTH_PISTOL_ATTACK 
 	animStand BOTH_STAND1
-	//animReady BOTH_MAND_PISTOL_READY
-	//animReadyWalk BOTH_MAND_PISTOL_READY
-	//animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
-	//animAttack BOTH_MAND_PISTOL_ATTACK
-	//animAttackWalk BOTH_MAND_PISTOL_ATTACK
-	//animStand BOTH_MAND_PISTOL_READY
+	animReady BOTH_MAND_PISTOL_READY
+	animReadyWalk BOTH_MAND_PISTOL_READY
+	animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttack BOTH_MAND_PISTOL_ATTACK
+	animAttackWalk BOTH_MAND_PISTOL_ATTACK
+	animStand BOTH_MAND_PISTOL_READY
 	clipsize 20
 	rateMod 1.45
 	FPmult 1.1
@@ -121,7 +116,7 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers/knocks down on hit
--- 65% more KB given
+-- 165% more KB given
 -- 5% faster movement
 -- 100% more special DMG
 -- 12% less DMG

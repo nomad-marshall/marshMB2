@@ -8,14 +8,14 @@ Classinfo
 	classNumberLimit  	1
 	weapons		WP_MELEE|WP_SABER|WP_SHOTGUN
 	
-	attributes	MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FORCEBLOCK,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_DEFLECT,1|MB_ATT_JETPACK,1|MB_ATT_CORTOSIS,1|MB_ATT_WATER_BREATHING|MB_ATT_FLOAT_HOP|MB_ATT_BUNNY_HOP,1|MB_ATT_FORCEFOCUS,1|MB_ATT_SHOTGUN,1|MB_ATT_WHISTLINGBIRD,1
+	attributes	MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FORCEBLOCK,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_DEFLECT,1|MB_ATT_JETPACK,1|MB_ATT_CORTOSIS,1|MB_ATT_WATER_BREATHING|MB_ATT_FLOAT_HOP|MB_ATT_BUNNY_HOP,1|MB_ATT_FORCEFOCUS,1|MB_ATT_SHOTGUN,1|MB_ATT_WHISTLINGBIRD,1|MB_ATT_WOOKIEE_FURY,1
 	
 	forcepowers		FP_LIGHTNING,3|FP_PUSH,3|FP_PULL,3|FP_GRIP,3|FP_DRAIN,3|FP_SEE,2|FP_SABER_OFFENSE,3|FP_RAGE,3|FP_ABSORB,2|FP_LEVITATION,2
 
-	special1 EAS_FP_DRAIN
-	special2 EAS_MELEE
-	special3 EAS_FP_ABSORB
-	special4 EAS_HI_WHISTLING_BIRDS
+	special1 EAS_HI_WHISTLING_BIRDS
+	special2 EAS_FP_DRAIN
+	special3 EAS_FP_GRIP
+	special4 EAS_FP_LIGHTNING
 
 	saber1 		force_deflection
 	saber2 		force_deflection
@@ -58,8 +58,7 @@ Classinfo
 	jetpackStartSound 	"sound/effects/woosh22"
 	jetpackIdleSound	"sound/ambience/artus/artus_shaft"
 	
-	saberStanceAnim 	MELEE_BLOCK_BLASTER_R
-	//saberStanceAnim BOTH_MELEE_BLOCK_BLASTER_R
+	saberStanceAnim BOTH_MAND_DUAL_PISTOLS_READY
 	WalkForward 	BOTH_SWIM_IDLE1
 	WalkBackward 	BOTH_SWIM_IDLE1
 	RunForward 	BOTH_SWIM_IDLE1
@@ -116,7 +115,7 @@ A flying hybrid class that combines Melee brawling abilities and dark side power
 -- 43% less special DMG
 -- 45% less reach
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Force Incinerate (Shotgun 1)
 -- Ignites on hit
 -- Fires focused blasts while hovering
@@ -127,11 +126,11 @@ A flying hybrid class that combines Melee brawling abilities and dark side power
 - Push (3) 
 - Pull (3)
 - Sense (2) 
-- Lightning (3)
-- Drain (3) ^3[CS1]
+- Lightning (3) ^3[CS4]
+- Drain (3) ^3[CS2]
 - Dark Rage (3)
-- Grip (3)
-- Absorb (2) ^3[CS3]
+- Grip (3) ^3[CS3]
+- Absorb (2)
 
 ^8Attributes:
 - Strength (2)
@@ -139,7 +138,8 @@ A flying hybrid class that combines Melee brawling abilities and dark side power
 - Physical Resist
 - Underwater Breathing
 - Force Block/Focus (1)
+- Fury (1)
 
 ^3Abilities:
 - Force Flight (Jetpack)
-- Force Swarm (Whistling Birds) (12) ^3[CS4]"
+- Force Swarm (Whistling Birds) (12) ^3[CS1]"

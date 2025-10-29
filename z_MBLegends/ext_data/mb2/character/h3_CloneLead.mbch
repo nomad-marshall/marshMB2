@@ -4,8 +4,8 @@ ClassInfo
 {
 	name				"h3_CloneLead"
 	weapons				WP_SABER|WP_MELEE|WP_CLONE_PISTOL
-	attributes			MB_ATT_RALLY|MB_ATT_FP_MIRALUKA,1|MB_ATT_CLONE_PISTOL,1|MB_ATT_AMMO,3
-	forcepowers			FP_SEE,1
+	attributes			MB_ATT_RALLY|MB_ATT_CLONE_PISTOL,1|MB_ATT_AMMO,3
+//	forcepowers			FP_SEE,1
 	resource RESOURCE_STAMINA
 	forcepool 150
 	forceregen 1.15
@@ -16,7 +16,7 @@ ClassInfo
 	rankArmor			100,125
 	BPmultiplier	0
 		
-	saber1				Legends_Knife_Jagged
+	saber1				Clone_Knife_Jagged
 	saberstyle			SS_TAVION
 	saberDamage 90
 	
@@ -44,60 +44,57 @@ ClassInfo
 	uishader		"models/players/clonetrooper_p2/mb2_icon_212_cody"
 	
 	model_1			"clonetrooper_p2"
-	skin_1			"501_rex"
-	uishader_1		"models/players/clonetrooper_p2/mb2_icon_501_rex"
+	skin_1			"fives"
+	uishader_1		"models/players/clonetrooper_p2/mb2_icon_fives"
 	
 	model_2			"clonetrooper_p2"
-	skin_2			"fives"
-	uishader_2		"models/players/clonetrooper_p2/mb2_icon_fives"
+	skin_2			"gree"
+	uishader_2		"models/players/clonetrooper_p2/mb2_icon_gree"
 	
 	model_3			"clonetrooper_p2"
-	skin_3			"gree"
-	uishader_3		"models/players/clonetrooper_p2/mb2_icon_gree"
+	skin_3			"nemec"
+	uishader_3		"models/players/clonetrooper_p2/mb2_icon_nemec"
 	
 	model_4			"clonetrooper_p2"
-	skin_4			"nemec"
-	uishader_4		"models/players/clonetrooper_p2/mb2_icon_nemec"
-	
-	model_5			"clonetrooper_p2"
-	skin_5			"21_bacara"
-	uishader_5		"models/players/clonetrooper_p2/mb2_icon_21_bacara"
+	skin_4			"21_bacara"
+	uishader_4		"models/players/clonetrooper_p2/mb2_icon_21_bacara"
 
+	model_5			"clonetrooper_p2"
+	skin_5			"91_neyo"
+	uishader_5		"models/players/clonetrooper_p2/mb2_icon_91_neyo"
+	
 	model_6			"clonetrooper_p2"
-	skin_6			"91_neyo"
-	uishader_6		"models/players/clonetrooper_p2/mb2_icon_91_neyo"
+	skin_6			"104_wolffe"
+	uishader_6		"models/players/clonetrooper_p2/mb2_icon_104_wolffe"
 	
 	model_7			"clonetrooper_p2"
-	skin_7			"104_wolffe"
-	uishader_7		"models/players/clonetrooper_p2/mb2_icon_104_wolffe"
+	skin_7			"327_bly"
+	uishader_7		"models/players/clonetrooper_p2/mb2_icon_327_bly"
 	
 	model_8			"clonetrooper_p2"
-	skin_8			"327_bly"
-	uishader_8		"models/players/clonetrooper_p2/mb2_icon_327_bly"
+	skin_8			"327_deviss"
+	uishader_8		"models/players/clonetrooper_p2/mb2_icon_327_deviss"
 	
 	model_9			"clonetrooper_p2"
-	skin_9			"327_deviss"
-	uishader_9		"models/players/clonetrooper_p2/mb2_icon_327_deviss"
+	skin_9			"doom"
+	uishader_9		"models/players/clonetrooper_p2/mb2_icon_doom"
 	
 	model_10		"clonetrooper_p2"
-	skin_10			"doom"
-	uishader_10		"models/players/clonetrooper_p2/mb2_icon_doom"
+	skin_10			"fordo"
+	uishader_10		"models/players/clonetrooper_p2/mb2_icon_fordo"
 	
 	model_11		"clonetrooper_p2"
-	skin_11			"fordo"
-	uishader_11		"models/players/clonetrooper_p2/mb2_icon_fordo"
+	skin_11			"thorn"
+	uishader_11		"models/players/clonetrooper_p2/mb2_icon_thorn"
 	
 	model_12		"clonetrooper_p2"
-	skin_12			"thorn"
-	uishader_12		"models/players/clonetrooper_p2/mb2_icon_thorn"
+	skin_12			"fox"
+	uishader_12		"models/players/clonetrooper_p2/mb2_icon_fox"
 	
-	model_13		"clonetrooper_p2"
-	skin_13			"fox"
-	uishader_13		"models/players/clonetrooper_p2/mb2_icon_fox"
-	
-	model_14		"clonerc2"
-	skin_14			"hunter"
-	uishader_14		"models/players/clonerc2/mb2_icon_hunter"
+	model_13		"clonerc2"
+	skin_13			"hunter"
+	uishader_13		"models/players/clonerc2/mb2_icon_hunter"
+
 
 	
 	isCustomBuild	1
@@ -125,14 +122,14 @@ ClassInfo
 	
 	c_att_skill_5		MB_ATT_FRAGS
 	c_att_names_5		"Frag Grenades"
-	c_att_ranks_5		10,10,10
+	c_att_ranks_5		8,8,8
 	
 	c_att_skill_6		MB_ATT_PULSE_GRENADES
 	c_att_names_6		"Pulse Grenades"
 	c_att_ranks_6		8,8,8
 	
 	c_att_skill_7		MB_ATT_FP_SEE
-	c_att_names_7		"Radar Scanner (P. Sense)"
+	c_att_names_7		"Radar Scanner (Sense)"
 	c_att_ranks_7		15
 
 	c_att_skill_8		MB_ATT_HEALING
@@ -183,16 +180,37 @@ WeaponInfo1
 	FlashSound0			"sound/weapons/repeater/fire.mp3"
 	Icon				"gfx/hud/w_icon_clonerifle"
 	WeaponName			"DC-15A Clone Rifle"
-	altMissileMissEffect "blobs/concussion"
-	altMissileHitHumanEffect "blobs/concussion"
-	altMissileHitDroidEffect "blobs/concussion"
+	altfireenabled		1
+hasAnimOverrides 1
+animReady BOTH_DC15_IDLE
 }
+
+//WeaponInfo2
+//{
+//	WeaponToReplace		WP_DC_CARBINE
+//	WeaponBasedOff		WP_BLASTER
+//	NewWorldModel		"models/weapons2/dc-15s/dc-15s_w.glm"
+//	NewViewModel		"models/weapons2/dc-15s/dc-15s.md3"
+//	NewHandsModel "models/weapons2/dc-15s/dc-15s_hand.md3"
+//	MuzzleEffect		"Blaster/MuzzleFlash01B"
+//	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+//	MissileEffect		"Blaster/Shot02B"
+//	AltMissileEffect	"Blaster/Shot02B"
+//	FlashSound0			"sound/weapons/repeater/fire.mp3"
+//	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
+//	Icon				"gfx/hud/w_icon_dc-15s"
+//	WeaponName			"DC-15S Clone Carbine"
+//	altfireenabled		0
+//	ReloadTimeModifier 0.90
+//}
 
 ForceInfo0
 {
-	ForceToReplace		FP_SEE
-	Icon				"gfx/forcepowers/radar"
-	ForcePowerName		"Passive Radar Scanner"
+	ForceToReplace FP_SEE
+	Icon	"gfx/forcepowers/radar"
+	ForcePowerName "Radar Scanner"
+	StartSound 	"sound/ambience/kotor/consolebeep03.mp3"
+	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
 description	"Clone Leader [Clone Trooper]

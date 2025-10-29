@@ -8,7 +8,7 @@ ClassInfo
 	
 	weapons		WP_MELEE|WP_SABER|WP_T21|WP_REPEATER
 	
-	attributes 	MB_ATT_ASSEMBLE,3|MB_ATT_RESPAWNS,2|MB_ATT_HEALING,1|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_T21,1|MB_ATT_REPEATER
+	attributes 	MB_ATT_ASSEMBLE,2|MB_ATT_RESPAWNS,2|MB_ATT_HEALING,1|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_T21,1|MB_ATT_REPEATER|MB_ATT_GETUPS,2|MB_ATT_DEXTERITY,1
 	
 	maxhealth		100
 	maxarmor  		20
@@ -39,12 +39,9 @@ ClassInfo
 	gloatanim	 	BOTH_VICTORY_FAST
 	tauntAnim		BOTH_ENGAGETAUNT
 	flourishAnim		BOTH_FORCE_RAGE
-	WalkBackward BOTH_WALKBACK_DUAL
-	WalkForward BOTH_WALK_DUAL
-	saberStanceAnim BOTH_TAVION_STANCE
-	//WalkBackward 		BOTH_WALKBACK_DUAL
-	//WalkForward 		BOTH_WALK_DUAL
-	//saberStanceAnim 	BOTH_SPEAR_STANCE 
+	WalkBackward 		BOTH_WALKBACK_DUAL
+	WalkForward 		BOTH_WALK_DUAL
+	saberStanceAnim 	BOTH_SPEAR_STANCE 
 
 	uioverlay_r "gfx/icons/infantry"
 	uioverlay_l "gfx/icons/tactician"
@@ -151,18 +148,12 @@ WeaponInfo2
 	customAmmo 125
 	reloadTimeModifier 1.8
 	hasAnimOverrides 1
-	animReady BOTH_SABERDUAL_STANCE
-	animReadyWalk BOTH_SABERDUAL_STANCE
-	animReadyNoAmmo BOTH_SABERDUAL_STANCE
-	animAttack NADE_SECONDARY
-	animAttackWalk NADE_SECONDARY
-	animStand BOTH_SABERDUAL_STANCE
-	//animReady BOTH_TRIPLE3_DUALSTANCE
-	//animReadyWalk BOTH_TRIPLE3_DUALSTANCE
-	//animReadyNoAmmo BOTH_TRIPLE3_DUALSTANCE
-	//animAttack BOTH_THERMAL_THROW2
-	//animAttackWalk BOTH_THERMAL_THROW2
-	//animStand BOTH_TRIPLE3_DUALSTANCE
+	animReady BOTH_TRIPLE3_DUALSTANCE
+	animReadyWalk BOTH_TRIPLE3_DUALSTANCE
+	animReadyNoAmmo BOTH_TRIPLE3_DUALSTANCE
+	animAttack BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
+	animStand BOTH_TRIPLE3_DUALSTANCE
 }
 WeaponInfo3
 {
@@ -204,8 +195,10 @@ description "Ewok [Hero]
 
 ^8Attributes:
 - Reinforcements (2)
+- Dexterity (1)
+- Getup (2)
 - Healing (1)
-- Assemble (3) 
+- Assemble (2)
 
 ^3Abilities:
 - Dodge (3) ^3[CS1]

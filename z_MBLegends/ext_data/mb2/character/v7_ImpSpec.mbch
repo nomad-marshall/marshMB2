@@ -81,6 +81,15 @@ WeaponInfo1
 	WeaponName			"E-11 Blaster Carbine"
 	Customammo			450
 	clipsize			50
+ hasAnimOverrides 1
+ animReady TORSO_WEAPONREADY3
+	animReadyWalk  TORSO_WEAPONREADY3
+	animReadyNoAmmo BOTH_ATTACK3
+	animAttack BOTH_ATTACK3 
+	animAttackWalk BOTH_ATTACK3
+	altMissileMissEffect "blobs/concussion"
+	altMissileHitHumanEffect "blobs/concussion"
+	altMissileHitDroidEffect "blobs/concussion"
 }
 
 description	"Imperial Specialist [Clone Trooper]

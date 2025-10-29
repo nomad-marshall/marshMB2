@@ -3,6 +3,8 @@ bomabeast
 	playerModel 	bomabeast
 	weapon		WP_MELEE
 	health		800
+	FL_NO_KNOCKBACK 1
+	forceImmunity     1
 	headPitchRangeDown 30
 	reactions		5
 	aim			2
@@ -37,4 +39,5 @@ bomabeast
 	vfov	135 //vertical field of view
 	vigilance	0.1 //default is 0.1
 	visrange	600 //how far npc can see
+
 }

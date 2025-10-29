@@ -6,7 +6,7 @@ ClassInfo
 	name					"h1_SecurET"
 	MBClass				MB_CLASS_CLONETROOPER
 	weapons				WP_MELEE|WP_SABER
-	attributes			MB_ATT_ASSEMBLE,3|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_STAMINA,2|MB_ATT_AMMO,3|MB_ATT_SABER_COMBO_NONE
+	attributes			MB_ATT_ASSEMBLE,2|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_STAMINA,2|MB_ATT_AMMO,3|MB_ATT_SABER_COMBO_NONE
 	WP_CloneRifleFlags 	HELD_ALTRELOAD
 	WP_SaberFlags HELD_STUN
 	resource 		RESOURCE_STAMINA
@@ -82,7 +82,7 @@ ClassInfo
 	
 	c_att_skill_1	MB_ATT_PISTOL
 	c_att_names_1	"Naboo S-5 Blaster Pistol"
-	c_att_ranks_1	0,1,5
+	c_att_ranks_1	0,1,4
 	c_att_descs_1 "10% faster RoF, 15% less DMG, 10% less FP DMG"
 	c_att_skill_2	MB_ATT_CR2
 	c_att_names_2	"CR-2 Heavy Blaster Pistol"
@@ -91,8 +91,8 @@ ClassInfo
 	c_att_skill_3	MB_ATT_CLONERIFLE
 	c_att_names_3	"Sec. Force Repeater (C. Rifle)"
 	c_att_ranks_3	2,4,6
-	c_att_descs_3 "10% faster RoF, 45% faster velocity, 15% less DMG,
-25% less FP DMG, 50% slower mag reload"	
+	c_att_descs_3 "10% faster RoF, 45% more velocity, 15% less DMG, 25% less FP DMG,
+50% slower mag reload"
 	c_att_skill_4	MB_ATT_CLONEBLOBS
 	c_att_names_4	"> Repeater Concussion Blobs"
 	c_att_ranks_4	1,1,1
@@ -119,7 +119,7 @@ ClassInfo
 	
 	c_att_skill_10	MB_ATT_ARMOUR
 	c_att_names_10	"Armor (10/20/30)"
-	c_att_ranks_10	1,2,4
+	c_att_ranks_10	2,2,2
 	
 	c_att_skill_11	MB_ATT_ARMOUR_REGEN_AMOUNT
 	c_att_names_11	"> Armor Regen (4/s)"
@@ -177,6 +177,12 @@ WeaponInfo1
 	reloadtimemodifier 1.5
 	clipsize 18
 	customAmmo 360 
+	hasAnimOverrides 1
+	animReadyWalk  BOTH_WESTARM5_READY
+	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animStand BOTH_STAND1
 }
 
 WeaponInfo2
@@ -211,7 +217,7 @@ Quick, versatile guards. Adept at disabling enemies.
 ^8Attributes:
 - Reinforcement (1)
 - Stamina (2)
-- Assemble (3)
+- Assemble (2)
 
 ^3Abilities:
 - Sprint ^3[CS1]

@@ -4,19 +4,19 @@ name	"v3_Trando"
 MBClass MB_CLASS_WOOKIE
 extralives 1
 classNumberLimit 4
-weapons WP_MELEE|WP_SABER|WP_FLECHETTE
+weapons WP_SABER|WP_FLECHETTE
 attributes MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_TRACKING_BEACON|MB_ATT_FLECHETTE,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_DART,2|MB_ATT_FRAGS,1|MB_ATT_SONIC_DETONATOR,1
 saber1 tb
 saberstyle SS_DESANN
 saberDamage 120
-rankAS 1.22
+rankAS 1.3
 BPMultiplier 0
 maxhealth 200
 maxarmor	25
-damageTaken 0.9
-rateOfFire_Melee 0.9
-rankROFMelee 0.65
-forceregen 0.1
+damageTaken .9
+rateOfFire_Melee .9
+rankROFMelee .65
+forceregen .1
 forcepool 85
 rankForcePool 165
 forcepowers FP_SEE,1|FP_HEAL,2
@@ -25,6 +25,7 @@ rankBaseSpeed 213,225
 classflags CFL_BLOODYMELEE
 flourishAnim BOTH_SPINATTACK6
 gloatAnim BOTH_WOOKIEE_ENRAGE
+RunForward BOTH_WOOKIEE_RAGE_RUN
 special1 EAS_FP_SEE
 special2 EAS_MELEE
 special3 EAS_HI_TRACKER
@@ -44,7 +45,7 @@ WP_DCCarbineFlags HELD_SLOW|HELD_ALTRELOAD
 WP_ConcussionFlags HELD_SLOW|HELD_ALTRELOAD
 WP_ShotgunFlags HELD_PULSE|HELD_KNOCKBACK|HELD_STUN|HELD_FREEZE|HELD_LOWDAMAGE
 WP_AmbanFlags HELD_SPEED
-meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+meleeMoves M_UPPERCUT|M_KATA|M_KICK|M_PUNCH
 uioverlay_r "gfx/icons/infantry"
 isCustomBuild	1
 mbPoints	0
@@ -60,33 +61,36 @@ customSpecName_3 "Slaver"
 customSpecIcon_3 "gfx/menus/classes/wook"
 customSpecDesc_3 ""
 c_att_skill_0	MB_ATT_AS_MULTIPLIER
-c_att_names_0	"Saber AS (122%)"
+c_att_names_0	"Saber AS (130%)"
 c_att_ranks_0	0
 c_att_skill_1	MB_ATT_REPEATER
 c_att_names_1	"ACP Repeater"
 c_att_ranks_1	0
-c_att_descs_1 "100% faster velocity, 50% less DMG/FP DMG, 10% slower RoF,
+c_att_descs_1 "100% faster velocity, 45% less DMG/FP DMG, 10% slower RoF,
 Mag reload, Prim. only"
-c_att_skill_2	MB_ATT_PROJECTILE_RIFLE
-c_att_names_2	"Hunting Rifle (Proj)"
+c_att_skill_2	MB_ATT_TRIP_MINES
+c_att_names_2	"Trip Mine"
 c_att_ranks_2	0
-c_att_descs_2 "30% less DMG"
-c_att_skill_3	MB_ATT_BASESPEED
-c_att_names_3	"Speed (213)"
+c_att_skill_3	MB_ATT_PROJECTILE_RIFLE
+c_att_names_3	"Hunting Rifle (Proj)"
 c_att_ranks_3	0
-c_att_skill_4	MB_ATT_DEXTERITY
-c_att_names_4	"Dexterity"
-c_att_ranks_4	0,0
+c_att_descs_3 "30% less DMG"
+c_att_skill_4	MB_ATT_BASESPEED
+c_att_names_4	"Speed (213)"
+c_att_ranks_4	0
+c_att_skill_5 MB_ATT_DEXTERITY
+c_att_names_5	"Dexterity"
+c_att_ranks_5	0,0
 c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
-c_att_names_15 "Trando Strength"
+c_att_names_15 "Strength"
 c_att_ranks_15 0,0
 c_att_skill_16 MB_ATT_DC_CARBINE
 c_att_names_16 "Heavy Repeater (C. Carbine)"
 c_att_ranks_16 0
-c_att_descs_16 "55% faster RoF, 40% less DMG/FP DMG, 170% slower mag reload, 
+c_att_descs_16 "55% faster RoF, 40% less DMG/FP DMG, 170% slower mag reload,
 15% slower movement"
 c_att_skill_17 MB_ATT_CONCUSSION
-c_att_names_17 "LJ-50 Concussion Rifle"
+c_att_names_17 "LJ-50 Conc. Rifle"
 c_att_ranks_17 0,0,0
 c_att_descs_17 "80% slower velocity/RoF/mag reload, 15% slower movement,
 Prim. only"
@@ -102,8 +106,8 @@ c_att_ranks_30 0
 c_att_skill_31 MB_ATT_SHOTGUN
 c_att_names_31 "Electronet Launcher (Shotgun)"
 c_att_ranks_31 0
-c_att_descs_31 "Electrifies/freezes/staggers/knocks back on hit, 
-80% faster shot swap, 50% less DMG, 14900% slower reload"
+c_att_descs_31 "Electrifies/freezes/staggers/knocks back on hit, 80% faster shot swap,
+50% less DMG, 14900% slower reload"
 c_att_skill_32 MB_ATT_AMBAN
 c_att_names_32 "Slave Prod (Amban)"
 c_att_ranks_32 0,0,0
@@ -149,7 +153,7 @@ Icon	"gfx/hud/w_icon_sherruck"
 WeaponName "ACP Repeater"
 flashSound0 "sound/weapons/ArrayACP/fire.wav"
 MissileModel null
-MissileEffect "effects/blaster/shot02Y"
+MissileEffect "blaster/shot02Y"
 MuzzleEffect	"halo_pistol/Muzzle_Flash"
 MissileHitHumanEffect "blaster/impact_flesh"
 MissileHitDroidEffect "blaster/impact_droid"
@@ -157,9 +161,9 @@ altfireenabled 0
 customammo 700
 clipsize 50
 velocityMod 2
-damagemod .5
+damagemod .55
 ratemod 1.1
-fpmult .5
+fpmult .55
 }
 WeaponInfo3
 {
@@ -190,7 +194,7 @@ MissileEffect	"halo_shotgun/shot"
 MissileMissEffect "flechette/wall_impact"
 MissileHitHumanEffect "flechette/flesh_impact"
 MissileHitDroidEffect "flechette/wall_impact"
-rateMod	.45
+rateMod .45
 damageMod .6
 fpmult .6
 reloadTimeModifier 2.7
@@ -201,6 +205,7 @@ animReady BOTH_MINIGUN_READY
 animReadyWalk BOTH_MINIGUN_READY
 animAttack BOTH_MINIGUN_ATTACK
 animAttackWalk BOTH_MINIGUN_ATTACK
+animStand BOTH_STAND2
 }
 WeaponInfo5
 {
@@ -249,7 +254,7 @@ WeaponName "Slave Prod"
 clipsize -1
 CustomAmmo -1
 }
-description "Trandoshan Hunter [Wookiee]
+description "Trandoshan Fiend [Wookiee]
 
 Hiss
 

@@ -8,8 +8,8 @@ attributes		MB_ATT_CLONE_PISTOL,2|MB_ATT_CLONERIFLE,2|MB_ATT_ARMOUR,3|MB_ATT_AMM
 maxhealth		100
 maxarmor		80
 model			"clonetrooper_p2"
-skin			"bly_rgb"
-uishader		"gfx/hud/fa_icons/mb2_icon_arcp2_bly_red"
+skin			"bacara_rgb"
+uishader		"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_red"
 customred		0.630
 customgreen	0.198
 customblue	0.198

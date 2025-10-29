@@ -26,7 +26,7 @@ ClassInfo
 	
 	basespeed 203
 	
-	saberDamage 90
+	saberDamage 100
 	saberSpecialDamage 2
 	saberMaxChain 1
 
@@ -80,7 +80,7 @@ c_att_ranks_1	1,1
 c_att_skill_2	MB_ATT_MICRO_GRENADES
 c_att_names_2	"Concussion Grenades (4)"
 c_att_ranks_2	4
-c_att_descs_2 "40% less DMG"
+c_att_descs_2 "50% less DMG"
 }
 
 WeaponInfo0
@@ -168,12 +168,6 @@ WeaponInfo3
 	ReloadTimeModifier 	2
 	customammo 			435
 	rateMod 0.6
-//	hasAnimOverrides 1
-//	animReady		BOTH_PISTOL_IDLE2
-//	animReadyWalk		BOTH_PISTOL_IDLE2
-//	animReadyNoAmmo	BOTH_PISTOL_ATTACK
-//	animAttack     	BOTH_PISTOL_ATTACK
-//	animAttackWalk 	BOTH_PISTOL_ATTACK
 }
 
 WeaponInfo4
@@ -182,10 +176,8 @@ WeaponToReplace WP_UGL
 WeaponBasedOff WP_UGL
 NewWorldModel	"models/weapons2/DC-17m/launcher.glm"
 NewViewModel	"models/weapons2/DC-17m/launcher.md3"
-altflashsound0 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound1 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound2 "sound/weapons/dc-17m/alt_fire.wav"
-altflashsound3 "sound/weapons/dc-17m/alt_fire.wav"
+FlashSound0 "sound/weapons/upl/fire_mortar.wav"
+altFlashSound0 "sound/weapons/dc17m/alt_fire.wav"
 Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
@@ -193,16 +185,16 @@ selectSound "sound/weapons/dc17m/select.mp3"
 
 WeaponInfo5
 {
-	WeaponToReplace WP_CONC_NADE
-	WeaponBasedOff WP_CONC_NADE
-	NewWorldModel	"models/weapons2/v-59_concussion/v-59_conc_w.glm"
-	NewViewModel	"models/weapons2/v-59_concussion/v-59_conc.md3"
-	MissileModel 	"models/weapons2/v-59_concussion/v-59_conc_proj.md3"
-	NewHandsModel	"models/weapons2/v-59_concussion/v-59_conc_hand.md3"
-	Icon	"gfx/hud/w_icon_V-59_conc"
-	WeaponName	"Concussion Grenades"
-	customAmmo 4
-	damageMod .6
+WeaponToReplace WP_CONC_NADE
+WeaponBasedOff WP_CONC_NADE
+NewWorldModel	"models/weapons2/v-59_concussion/v-59_conc_w.glm"
+NewViewModel	"models/weapons2/v-59_concussion/v-59_conc.md3"
+MissileModel 	"models/weapons2/v-59_concussion/v-59_conc_proj.md3"
+NewHandsModel	"models/weapons2/v-59_concussion/v-59_conc_hand.md3"
+Icon	"gfx/hud/w_icon_V-59_conc"
+WeaponName	"Concussion Grenades"
+customAmmo 4
+damageMod .5
 }
 
 WeaponInfo6
@@ -219,7 +211,7 @@ WeaponInfo6
 	missileHitHumanEffect	"Grenades/EXP_Explosion"
 	altMissileHitDroidEffect"Grenades/EXP_Explosion"
 	missileHitDroidEffect	"Grenades/EXP_Explosion"
-	damagemod 4
+	damagemod 2.5
 }
 
 description	"Delta Squad Clone Commando [Clone Trooper]
@@ -231,13 +223,13 @@ A highly adaptable special ops unit.
 - Knuckle Plate Vibroblade (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
--- 5% more KB given
--- 25% less DMG
--- 50% more special DMG
+-- 105% more KB given
+-- 20% less DMG
+-- 66% more special DMG
 -- 57% less reach
 -- 33% more radius
 -- Prim. only
--- Slap ^3[Gunbash]
+-- Slap ^3[GB]
 - DC-15s Blaster Pistol (1)
 -- 40% faster RoF
 -- 100% slower reload
@@ -249,7 +241,7 @@ A highly adaptable special ops unit.
 -- 10% slower RoF
 -- 75% slower mag reload
 - Hand Thermal Grenades (2)
--- 300% more DMG
+-- 150% more DMG
 - DC-17m ICWS Anti-Armor Attachment (UGL 2)
 
 ^8Attributes:

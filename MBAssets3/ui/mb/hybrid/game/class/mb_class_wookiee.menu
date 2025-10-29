@@ -254,7 +254,63 @@
 				setitemcolor	setfp_see forecolor1 0.1 0.7 1 0.7
 			}
 		}
+		
+		// Traditional Bowcaster
+		itemDef
+		{
+			name				setfp_drain
+			group				"playersettingforcegroup"
+			style				WINDOW_STYLE_TEXT_RGB1
+			text				"Traditional Bowcaster"
+			rect				230 140 110 15
+			textalign			ITEM_ALIGN_RIGHT
+			textalignx			105
+			textaligny			0
+			font				4
+			textscale			1
+			forecolor			0.1 0.7 1 0.7
+			outlinecolor		1 1 1 1
+			backcolor			0 0 0 0
+			border				0
+			bordercolor			0 0 0 0
+			visible				1
+			decoration
+		}
 
+		// Traditional Bowcaster assign
+		itemDef
+		{
+			name				setfp_drain
+			group				"playersettingforcegroup"
+			style				WINDOW_STYLE_TEXT_RGB3
+			ownerdraw			UI_FORCE_RANK_DRAIN
+			rect				230 140 175 15
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			115
+			textaligny			-6
+			textscale			.25
+			outlinecolor		1 1 1 1
+			backcolor			0 0 0 0
+			forecolor			0.1 0.7 1 0.7
+			border				0
+			bordercolor			0 0 0 0
+			descText			"An archaic wookiee weapon, higher levels unlock a scope, charged multishot mode"
+			visible				1
+			action
+			{
+				play			"sound/interface/button1.wav"
+			}
+			mouseenter
+			{
+				setitemcolor	setfp_see forecolor2 1 1 1 1
+			}
+			mouseExit
+			{
+				setitemcolor	setfp_see forecolor1 0.1 0.7 1 0.7
+			}
+		}
+		
+		
 		// Thermal Detonator title
 		itemDef
 		{
@@ -263,7 +319,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Frag Grenade"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 140 110 15
+			rect				230 160 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -285,7 +341,7 @@
 			group				"playersettingforcegroup"
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SPEED
-			rect				230 140 175 15
+			rect				230 160 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -318,7 +374,7 @@
 			group				lightpowers
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Health"
-			rect				230 170 110 15
+			rect				230 190 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -340,7 +396,7 @@
 			group				lightpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_ABSORB
-			rect				230 170 175 15
+			rect				230 190 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -373,7 +429,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Strength"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 190 110 15
+			rect				230 210 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -395,7 +451,7 @@
 			group				lightpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_HEAL
-			rect				230 190 175 15
+			rect				230 210 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -429,7 +485,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Fury"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 210 110 15
+			rect				230 230 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -451,7 +507,7 @@
 			group				lightpowers
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_GRIP
-			rect				230 210 175 15
+			rect				230 230 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6
@@ -485,7 +541,7 @@
 			style				WINDOW_STYLE_TEXT_RGB1
 			text				"Ammo"
 			//descText			@MENUS_DESCRIPTION_OF_A_FORCE
-			rect				230 270 110 15
+			rect				230 290 110 15
 			textalign			ITEM_ALIGN_RIGHT
 			textalignx			105
 			textaligny			0
@@ -507,7 +563,7 @@
 			group				"playersettingforcegroup"
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SABERDEFEND
-			rect				230 270 175 15
+			rect				230 290 175 15
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			115
 			textaligny			-6

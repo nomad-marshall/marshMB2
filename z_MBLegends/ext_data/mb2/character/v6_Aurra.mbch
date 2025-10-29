@@ -31,9 +31,9 @@ ClassInfo
 	
 	special1 EAS_HI_POISON
 	special2	EAS_MELEE
-	special3 EAS_FP_PROTECT
-	special4 EAS_FP_SPEED
-	//bowAnim BOTH_HAN_TAUNT
+	special4 EAS_FP_PROTECT
+	special3 EAS_FP_SPEED
+	bowAnim BOTH_HAN_TAUNT
 	flourishAnim BOTH_STAND10_TALK2
 	
 	WP_ProjFlags	HELD_ALTRELOAD
@@ -58,7 +58,6 @@ WeaponInfo0
 	ChargeEffect		"gfx/effects/bryarfrontflash"
 	FlashSound0			"sound/weapons/bryar/fire.mp3"
 	AltFlashSound0		"sound/weapons/bryar/alt_fire.mp3"
-	ChargeSound 		"sound/weapons/bryar/altcharge.mp3"
 	WeaponName			"Aurra's Dual Pistols"
 }
 WeaponInfo1
@@ -97,8 +96,8 @@ A versatile Sith/gunner hybrid.
 - Push (1) 
 - Pull (1) 
 - Sense (1)
-- Protect (1) ^3[CS3]
-- Speed (2) ^3[CS4]
+- Protect (1) ^3[CS4]
+- Speed (2) ^3[CS3]
 
 ^8Attributes:
 - Healing (1)

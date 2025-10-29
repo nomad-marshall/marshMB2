@@ -3,24 +3,58 @@
 ClassInfo
 {
 	name				"h9_JBrute"
-	weapons				WP_MELEE|WP_SABER
-	attributes			MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_FP_REPULSE,3|MB_ATT_HEALING,1|MB_ATT_WOOKIE_STRENGTH,2
-	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_SABERTHROW,2|FP_PROTECT,1|FP_PUSH,1
-	saberstyle			SS_STAFF
+
 	MBClass				MB_CLASS_JEDI
 	classNumberLimit	1
-	modelScale      	1.18
+
+	weapons				WP_MELEE|WP_SABER
+
+	attributes			MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_FP_REPULSE,3|MB_ATT_HEALING,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_GETUPS,3
+
+	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_SABERTHROW,2|FP_PROTECT,1|FP_PUSH,1
+
 	speed				0.97
+
+	saber1				dual_2_legends
+	sabercolor			4	
+	
+	saber1_1		dual_4_legends
+	sabercolor_1			3
+	
+	saber1_2		dual_5_legends
+	sabercolor_2			5
+	
+	saber1_3		dual_1_legends
+	sabercolor_3			2
+	
+	saber1_4		dual_3_legends
+	sabercolor_4			1
+	saberstyle			SS_STAFF
+	ASmultiplier		.95
+	CSmultiplier	1.05
+	saberThrowDamage	70
+
+	forceregen			0.90
+ resource RESOURCE_FORCE
+
 	classflags			CFL_BLOODYMELEE|CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
+
 	skillTimerMod		1.25
+	
+	//special1		EAS_FP_SABERTHROW
+	special2			EAS_MELEE
+	special3			EAS_FP_REPULSE		
+	special4			EAS_HI_BARGE
+
+ saberStanceAnim BOTH_SPEAR_STANCE
+	//runForward BOTH_SABERSTAFF_RUN
 
 	bargeSoundOverride 	"sound/chars/jedibrute/misc/pushed1.mp3"
-	
+	modelScale  1.18
 	uioverlay_r "gfx/icons/frontline"
 	uioverlay_l "gfx/icons/brawler"
-	
 	model		"jedibrute"				
- 	skin			"default"					
+ skin			"default"					
 	uishader		"models/players/jedibrute/mb2_icon_default"		
 	
 	model_1		"jedi_chewy"
@@ -35,58 +69,28 @@ ClassInfo
 	skin_3 		"default"
 	uishader_3	"models/players/jedi_ith/mb2_icon_default"
 	
-	//special1		EAS_FP_SABERTHROW
-	special2			EAS_MELEE
-	special3			EAS_FP_REPULSE		
-	special4			EAS_HI_BARGE
-	
-	saber1				dual_2_legends
-	sabercolor			4	
-	
-	saber1_1				dual_4_legends
-	sabercolor_1			3
-	
-	saber1_2				dual_5_legends
-	sabercolor_2			5
-	
-	saber1_3				dual_1_legends
-	sabercolor_3			2
-	
-	saber1_4				dual_3_legends
-	sabercolor_4			1
-	
-	saberThrowDamage	70
-	ASmultiplier		.95
-	CSmultiplier	1.05
-	
-	//respawncustomtime 50000
-	
 	isCustomBuild		1
 	mbPoints			36
 	
 	saberMaxChain		5
 	
-	//WP_MeleeFlags HELD_SPEED
-	
 	damageGiven	1
 	rankDmgGiven  1.5
 	
 	maxhealth	150	
-	rankHealth  	200,250,300
+	rankHealth 200,250,300
 	
 	forcepool 	90
 	rankForcePool	110,130,150
-	
-	forceregen			0.90
 	
 	APMultiplier	1
 	rankAP     1.5
 	
 	BPMultiplier	1
-	rankBPMultiplier	1.4
+	rankBP	1.4
 	
 	knockbackTaken		1
-	rankKbTaken			0.10
+	rankKbTaken			.10
 	
 	c_att_skill_0		MB_ATT_FP_SABER_DEFENSE
 	c_att_names_0		"Saber Defense"
@@ -134,7 +138,7 @@ ClassInfo
 	
 	c_att_skill_11		MB_ATT_KB_TAKEN_MULTIPLIER
 	c_att_names_11		"KB Taken (10%)"
-	c_att_ranks_11		3
+	c_att_ranks_11		2
 }
 
 description "Jedi Brute [Jedi]
@@ -147,7 +151,7 @@ A large melee bruiser that wields a high-powered, long-reaching staff lightsaber
 -- Saber Deflect (2)
 -- Chain Limit: 5
 -- 50% more reach
--- 15% more KB given
+-- 150% more KB
 -- EX Saber Throw (2) ^3[CS1]
 --- 133% more DMG
 -- Slap ^3[CS2]
@@ -160,6 +164,7 @@ A large melee bruiser that wields a high-powered, long-reaching staff lightsaber
 
 ^8Attributes:
 - 25% slower skill CD
+- Getup (3)
 - Strength (2)
 - Physical Resist
 - Healing (1)

@@ -29,11 +29,9 @@ ClassInfo
 	flourishAnim 		BOTH_PAIN10
 	gloatAnim		BOTH_STAND5TOAIM
 	tauntAnim		BOTH_ENGAGETAUNT
-		WalkForward 		SBD_WALK_NOGUN
-	WalkBackward		SBD_WALKBACK_NOGUN
+		WalkForward 		BOTH_SBD_WALK1
+	WalkBackward		BOTH_SBD_WALKBACK1
 	//bowAnim 		BOTH_DEFLECTSLASH__R__L_FIN
-	//WalkForward 	BOTH_SBD_WALK1
-	//WalkBackward	BOTH_SBD_WALKBACK1
 	//drawAnim 		BOTH_A6_FB
 	//altFireAnim BOTH_PISTOL_ATTACK
 	uioverlay "gfx/icons/heavy"
@@ -86,10 +84,10 @@ WeaponInfo1
 	rateMod 1.35
 	damageMod 0.9
 	hasAnimOverrides 1
-	animReady 	DUAL_PISTOLS_READY
-	animReadyWalk DUAL_PISTOLS_READY
+	animReady 	BOTH_DUAL_PISTOLS_UP
+	animReadyWalk BOTH_DUAL_PISTOLS_UP
 	animStand 	BOTH_STAND8
-		typeCharge 	DUAL_PISTOLS_READY
+		typeCharge 	BOTH_DUAL_PISTOLS_UP
 	animRunAttackR DUAL_RUNNING_FIRE_RIGHT
 	animRunAttackL DUAL_RUNNING_FIRE_LEFT
 		animWalkAttackR BOTH_ALORA_SPIN
@@ -147,13 +145,13 @@ A sturdy and heavily armored gunner.
 - Droid Slappers (Red Saber)
 -- No Saber/Blaster Block
 -- No Saber Training
--- 15% more KB given
+-- 150% more KB
 -- 75% less DMG
 -- 50% less special DMG
 -- 35% less reach
 -- 300% more radius
 -- Slap ^3[CS2]
-- Dual Blaster Rifles (WESTAR 4)
+- Dual Blaster Rifles (WESTARs 4)
 -- 35% slower RoF
 -- 10% less DMG
 -- 15% less FP DMG
@@ -161,7 +159,7 @@ A sturdy and heavily armored gunner.
 - Sonic Detonators (2)
 - Pulse Cannon (Amban Rifle 1)
 -- Ignites/stuns on hit
--- 20% faster velocity
+-- 20% more velocity
 -- 50% more FP DMG
 
 ^5Powers:

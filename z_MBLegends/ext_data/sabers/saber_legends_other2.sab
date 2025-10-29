@@ -895,7 +895,7 @@ energyshield_leg_paz
 	damageScale   1
 	knockbackScale  1
 	blasterblocking 1
-	drawAnim	DUAL_DRAW
+	drawAnim	BOTH_DUAL_PISTOLS_DRAW
 	putawayAnim 	BOTH_A2_TL_BR
 	readyAnim	BOTH_MELEE_BLOCK_C	//THIS LOOKS REALLY GOOD
 	lungeAtkMove 	LS_HILT_BASH
@@ -967,8 +967,8 @@ echani_legends_r
 	knockbackScale		1
 	transitionDamage	1
 	noManualDeactivate	0
-	readyAnim 		MELEE_STAND
-	drawAnim  		MELEE_STAND
+	readyAnim 		BOTH_MELEE_STAND1
+	drawAnim  		BOTH_MELEE_STAND1
 	flourishAnim	BOTH_STAND1_TALK3
 	tauntAnim		BOTH_COME_ON1
 	//tauntAnim		BOTH_VICTORY_FAST
@@ -1034,10 +1034,10 @@ echani_legends_l
 	knockbackScale		1
 	transitionDamage	1
 	noManualDeactivate	0
-	readyAnim 		MELEE_STAND
-	drawAnim  		MELEE_STAND
+	readyAnim 		BOTH_MELEE_STAND1
+	drawAnim  		BOTH_MELEE_STAND1
 	flourishAnim	BOTH_COME_ON1
-	tauntAnim		MELEE_BLOCK_C
+	tauntAnim		BOTH_MELEE_BLOCK_C
 	gloatAnim		TORSO_SURRENDER_START
 	noRollStab 0
 	noStabDown 1
@@ -1115,6 +1115,7 @@ saberModel	"models/weapons2/arc_shiv_short/shiv_short_w.glm"
 soundOn	"sound/weapons/arc_shiv/wep_GEN_bladeShing_01.mp3"
 soundLoop	"s/w/shwartz/saberhum1.wav"
 soundOff	"sound/weapons/arc_shiv/wep_GEN_bladeShing_02.mp3"
+knockbackScale 0.5
 numblades	1
 saberLength	17
 saberLength2	17

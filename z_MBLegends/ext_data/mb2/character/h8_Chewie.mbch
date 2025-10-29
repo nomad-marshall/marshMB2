@@ -10,7 +10,7 @@ ClassInfo
 	modelscale			1.18
 	MBClass				MB_CLASS_WOOKIE
 	classNumberLimit	1
-	speed               	1.05
+	speed               	1.053
 	rateOfFire          	0.95
 	rateoffire_melee		0.95
 	damagegiven			1.1
@@ -55,12 +55,16 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_WookieeSlug"
 	FlashSound0	        "sound/weapons/acp_scattergun/fire.mp3"
 	WeaponName			"Wookiee Slugthrower"
-	//firingAnim          BOTH_DC15_ATTACK
-	//IdleAnim	        BOTH_DC15_IDLE
 	AltFireEnabled      0
 	clipsize            24
 	MuzzleEffect 		"flechette/muzzle_flash"
 	MissileEffect 		"flechette/shot"
+hasAnimOverrides 1
+animReady BOTH_WESTARM5_IDLE
+animReadyWalk BOTH_WESTARM5_READY
+animReadyNoAmmo BOTH_WESTARM5_ATTACK
+animAttack BOTH_WESTARM5_ATTACK
+animAttackWalk BOTH_WESTARM5_ATTACK
 }
 
 WeaponInfo1
