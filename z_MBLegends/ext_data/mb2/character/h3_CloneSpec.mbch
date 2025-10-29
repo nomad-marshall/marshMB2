@@ -111,7 +111,7 @@ c_att_names_23 "Grappling Hook ^3[CS4 M]"
 c_att_ranks_23 0,3
 c_att_skill_30 MB_ATT_STUN_BATON
 c_att_names_30 "F-187 Fusioncutter (Stun Baton)"
-c_att_ranks_30 5
+c_att_ranks_30 2
 c_att_descs_30 "Ignites on hit, 80% faster RoF, 80% less DMG"
 c_att_skill_31 MB_ATT_DC_CARBINE
 c_att_names_31 "DC-15S Clone Carbine"
@@ -122,8 +122,8 @@ c_att_ranks_32 3,7
 c_att_descs_32 "6 Conc/Ion Blobs"
 c_att_skill_33 MB_ATT_SHOTGUN
 c_att_names_33 "DP-23 Shotgun"
-c_att_ranks_33 10,8
-c_att_descs_33 "25% faster RoF, 45% less DMG, 20% slower mag reload"
+c_att_ranks_33 10,8,4
+c_att_descs_33 "25% faster RoF, 35% less DMG, 20% slower mag reload"
 c_att_skill_34 MB_ATT_DET_PACK
 c_att_names_34 "Det Packs"
 c_att_ranks_34 1,1,1
@@ -227,7 +227,7 @@ altFireEnabled 0
 Customammo 600
 ReloadTimeModifier 1.2
 ratemod 0.8
-damagemod 0.55
+damagemod 0.65
 MissileEffect	"Blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileMissEffect "blaster/impact_wall01b"
