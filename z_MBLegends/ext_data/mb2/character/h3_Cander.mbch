@@ -133,6 +133,7 @@ WeaponInfo0
 	FlashSound0			"sound/weapons/kotor/fire_hvy.wav"
 	//FPMult     			0.9
 	clipsize			60
+customAmmo 800
 	ReloadTimeModifier  2	
 hasAnimOverrides 1
 animReady BOTH_DC15_IDLE
