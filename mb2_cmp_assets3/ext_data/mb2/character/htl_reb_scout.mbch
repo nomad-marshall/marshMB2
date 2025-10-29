@@ -11,9 +11,9 @@ ClassInfo
 	maxhealth 70
 	maxarmor 20
 
-	model "human_merc"
-	skin "key_carrier"
-	uishader "gfx/hotel/FA_Icons/mb2_icon_sniper_hotel"
+	model "rebel_honor"
+	skin "default"
+	uishader "models/players/rebel_honor/mb2_icon_default"
 
 	MBClass MB_CLASS_HERO
 	classNumberLimit 2

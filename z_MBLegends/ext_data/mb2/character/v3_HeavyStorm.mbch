@@ -166,6 +166,13 @@ WeaponInfo1
 	NewViewModel		"models/weapons2/MiniMag_launcher/launcher.md3"
 	Icon				"gfx/hud/w_icon_MiniMag"
 	WeaponName			"MiniMag PTL Launcher"
+	customammo	900
+	clipSize	300
+	isMinigun	1
+	altFireEnabled	1
+	FPMult     1.1
+	damageMod 1.05
+	rateMod 0.55
 }
 
 WeaponInfo2

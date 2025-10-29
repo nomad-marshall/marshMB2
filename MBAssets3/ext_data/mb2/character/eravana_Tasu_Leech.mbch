@@ -7,7 +7,7 @@ ClassInfo
 	maxarmor  60
 	model				"human_merc"
 	skin				"key_carrier"
-	uishader			"models/players/human_merc/mb2_icon_key_carrier2"
+	uishader			"models/players/human_merc/mb2_icon_key_carrier"
 	MBClass				MB_CLASS_HERO
 	classNumberLimit	1
 }
