@@ -40,7 +40,8 @@ ClassInfo
 	
 	baseSpeed 168
 
-	flourishanim	BOTH_STAND5TOAIM
+	bowAnim BOTH_DEATH17
+ meditateAnim BOTH_DEATH8
 
 	uioverlay_r 	"gfx/icons/infantry"
 	uioverlay_l 	"gfx/icons/brawler"
