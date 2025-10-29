@@ -168,7 +168,7 @@ WeaponInfo0
     NewViewModel		"models/weapons2/bowcaster/bowcaster.md3"
     Icon				"gfx/hud/w_icon_bowcaster" 
     WeaponName			"Bowcaster"
-	customAmmo 			480
+	customAmmo 			600
 	clipsize 60
 	AltFireEnabled 0
 }
@@ -181,7 +181,7 @@ WeaponInfo1
     NewViewModel		"models/weapons2/wsidearm/wsidearm.md3"
     Icon				"gfx/hud/w_icon_wsidearm" 
     WeaponName			"Kashyyyk Side-Arm Blaster Pistol"
-	customAmmo 			480
+	customAmmo 			600
 	clipsize 24
 	AltFireEnabled 0
 }
@@ -239,7 +239,7 @@ WeaponInfo4
     NewViewModel		"models/weapons2/wbowcaster/wbowcaster3.md3"
     Icon		"gfx/hud/w_icon_wbowcaster3" 
     WeaponName	"Traditional Bowcaster"
-	customAmmo 	480
+	customAmmo 	600
 	clipsize 60
 }
 description	"Wookiee Warrior [Wookiee]
