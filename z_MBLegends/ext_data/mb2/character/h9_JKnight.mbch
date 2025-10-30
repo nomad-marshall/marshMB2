@@ -150,14 +150,6 @@ ClassInfo
 	model_19		"jedipack_hb"
 	skin_19 		"twilek"
 	uishader_19 	"models/players/jedipack_hb/mb2_icon_twilek"
-
-	model_20 	"jedi_tor"
-	skin_20 		"default"
-	uishader_20 	"models/players/jedi_tor/mb2_icon_default"
-	
-	model_21 	"jedi_tor"
-	skin_21 		"ven"
-	uishader_21 	"models/players/jedi_tor/mb2_icon_ven"
 		
 	saber1			single_1
 	sabercolor		4
@@ -198,10 +190,6 @@ ClassInfo
 	saber1_9 		single_106
 	sabercolor_9 		1
 	saberstyle_9		SS_MEDIUM
-	
-	saber1_10 		saber_ven
-	sabercolor_10 		3
-	saberstyle_10		SS_MEDIUM
 	
 	classNumberLimit	2
 	
