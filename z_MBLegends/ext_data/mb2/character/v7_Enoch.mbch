@@ -44,7 +44,7 @@ ClassInfo
 
 	uioverlay_r "gfx/icons/tactician"
 	uioverlay_l "gfx/icons/spec_infantry"
-	special1		EAS_HI_TURRET
+	special1		EAS_HI_SENTRY_GUN
 	special2		EAS_HI_SPAWNER
 	special3		EAS_FP_TEAM_FORCE
  special4  EAS_FP_PROTECT
