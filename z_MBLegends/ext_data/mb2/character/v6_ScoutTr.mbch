@@ -75,7 +75,7 @@ ClassInfo
 	special3	EAS_HI_DEX
 	special4	EAS_HI_DASH
 	isCustomBuild	1
-	mbPoints	12
+	mbPoints	13
 	hasCustomSpec 3
 	isOnlyOneSpec 1
 	customSpecName_1 "Shield Trooper"
@@ -118,7 +118,7 @@ ClassInfo
 	
 	c_att_skill_7	MB_ATT_RESPAWNS
 	c_att_names_7	"Reinforcement"
-	c_att_ranks_7	8
+	c_att_ranks_7	9
 	c_att_descs_7 "1 default"
 
 	c_att_skill_8	MB_ATT_FORCEBLOCK
@@ -166,7 +166,7 @@ ClassInfo
 
 	c_att_skill_21	MB_ATT_ARMOUR_REGEN_AMOUNT
 	c_att_names_21	"Armor Regen (2/s)"
-	c_att_ranks_21	4
+	c_att_ranks_21	5
 
 	c_att_skill_22	MB_ATT_ROF_MULTIPLIER
 	c_att_names_22	"RoF (100%)"
@@ -204,7 +204,7 @@ ClassInfo
 	
 	c_att_skill_34	MB_ATT_RESPAWNS
 	c_att_names_34	"Reinforcement"
-	c_att_ranks_34	8
+	c_att_ranks_34	9
 	c_att_descs_34 "1 default"
 
 	c_att_skill_35	MB_ATT_DMG_GIVEN_MULTIPLIER
@@ -275,6 +275,16 @@ customAmmo 800
 damagemod 1.1
 ratemod 1.1
 fpmult 1.1
+}
+WeaponInfo4
+{
+WeaponToReplace	WP_BLASTER
+WeaponBasedOff	WP_BLASTER
+NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"  	
+NewViewModel	"models/weapons2/blaster_r/blaster.md3"
+Icon	"gfx/hud/w_icon_E11"
+WeaponName	"E-11 Blaster Rifle" 
+customAmmo	620
 }
 description	"Imperial Scout Trooper [Hero]
 
