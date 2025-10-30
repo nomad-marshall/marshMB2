@@ -9,8 +9,8 @@ ClassInfo
 	forceregen  0.8
 	speed 1.2
 	model "gungan"
-	skin  "jarjar_jclz"
-	uishader  "models/players/gungan/mb2_icon_jarjar_jclz"
+	skin  "jarjar_clz"
+	uishader  "models/players/gungan/mb2_icon_jarjar_clz"
 	MBClass MB_CLASS_MANDALORIAN
 	classNumberLimit  1
 	classflags  CFL_HEAVYMELEE|CFL_STRONGAGAINSTPHYSICAL
