@@ -8,7 +8,7 @@ weapons WP_MELEE
 WP_EE4Flags HELD_ALTRELOAD
 WP_ShotgunFlags HELD_ALTRELOAD
 WP_StunBatonFlags HELD_FLAME
-attributes MB_ATT_ASSEMBLE,3|MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_STRONGBLOBS,3|MB_ATT_CLONEBLOBS,3|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_QUICKTHROW,1
+attributes MB_ATT_ASSEMBLE,3|MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_STRONGBLOBS,3|MB_ATT_CLONEBLOBS,3|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_FIRE_GRENADES,1
 Forcepool 110
 knockbacktaken .88
 maxhealth 110
@@ -268,6 +268,7 @@ Clones with niche expertise.
 ^2Weaponry:
 - Melee
 - DC-17 Clone Pistol (2)
+- Fire Grenade (1)
 
 ^6Inventory:
 - Bacta (Instant 50 HP)
@@ -282,5 +283,4 @@ Clones with niche expertise.
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Quick-Throw (1) ^3[CS3]
 - Grappling Hook (1) ^3[CS4 Melee]"
