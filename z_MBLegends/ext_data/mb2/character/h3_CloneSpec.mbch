@@ -112,7 +112,7 @@ c_att_ranks_23 0,3
 c_att_skill_30 MB_ATT_STUN_BATON
 c_att_names_30 "F-187 Fusioncutter (Stun Baton)"
 c_att_ranks_30 2
-c_att_descs_30 "Ignites on hit, 80% faster RoF, 80% less DMG"
+c_att_descs_30 "Ignites on hit, 80% faster RoF, 70% less DMG"
 c_att_skill_31 MB_ATT_DC_CARBINE
 c_att_names_31 "DC-15S Clone Carbine"
 c_att_ranks_31 2,1,1
@@ -259,7 +259,7 @@ MissileMissEffect "effects/sparks/spark_exp_nosnd"
 MissileHitHumanEffect "effects/sparks/spark_exp_nosnd"
 MissileHitDroidEffect "effects/sparks/spark_exp_nosnd"
 rateMod .2
-damageMod .2
+damageMod .3
 }
 description "Clone Specialist [Clone Trooper]
 
