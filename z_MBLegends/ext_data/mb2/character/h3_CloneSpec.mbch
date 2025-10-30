@@ -184,7 +184,7 @@ NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
 NewViewModel 	"models/weapons2/dummy/dummy.md3"
 Icon "gfx/hud/w_icon_dlt-18"
 WeaponName "DC-15x Sniper Rifle"
-CustomAmmo 112
+CustomAmmo 128
 Clipsize 16
 ratemod 2.5
 fpmult 2.1
