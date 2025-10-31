@@ -70,7 +70,7 @@ WeaponInfo0
 	PowerupShotEffect "Blaster/Shot03B"
 	WeaponName	"Dual DC-17 Clone Pistols"
 	clipSize 72
-	customAmmo 1080
+	customAmmo 1368
 	reloadTimeModifier 1.1
 }
 
