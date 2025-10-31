@@ -131,7 +131,7 @@ c_att_names_30 "Reinforcement"
 c_att_ranks_30 6
 c_att_descs_30 "1 default"
 c_att_skill_31 MB_ATT_SABER_DAMAGE
-c_att_names_31 "Saber Damage (144)"
+c_att_names_31 "Saber DMG (144)"
 c_att_ranks_31 1
 c_att_descs_31 "120 default"
 c_att_skill_32 MB_ATT_FP_SABER_DEFENSE

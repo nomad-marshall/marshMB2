@@ -105,7 +105,7 @@ ClassInfo
 	c_att_ranks_3	1,1,1
 
 	c_att_skill_4 MB_ATT_SABER_DAMAGE
-	c_att_names_4 "Saber Damage (100)"
+	c_att_names_4 "Saber DMG (100)"
 	c_att_ranks_4 1
 
 	c_att_skill_5	MB_ATT_PISTOL
@@ -208,7 +208,7 @@ ClassInfo
 	c_att_descs_34 "1 default"
 
 	c_att_skill_35	MB_ATT_DMG_GIVEN_MULTIPLIER
-	c_att_names_35	"Damage Given (120%)"
+	c_att_names_35	"DMG Given (120%)"
 	c_att_ranks_35	2
 
 	c_att_skill_36	MB_ATT_STM_MULTIPLIER
