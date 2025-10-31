@@ -40,7 +40,7 @@ ClassInfo
 	skin  	"default"
 	uishader  	"models/players/enoch/mb2_icon_default"
 
-	//respawncustomtime 50000
+ classflags CFL_STATVIEWER
 
 	uioverlay_r "gfx/icons/tactician"
 	uioverlay_l "gfx/icons/spec_infantry"
@@ -131,4 +131,5 @@ A tanky commander that can bolster allies.
 - Armor Regen: 1/2s to 5
 - Beskar (3)
 - Blast Armor
-- Rally"
+- Rally
+- Ally Stat Viewer"
