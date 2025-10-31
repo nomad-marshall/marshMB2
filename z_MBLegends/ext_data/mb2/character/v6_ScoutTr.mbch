@@ -21,8 +21,8 @@ ClassInfo
 	rateOfFire	1.1
 	rankROF 1
 	CSmultiplier	1.05
-	ASmultiplier	0.95
-	rankAS	1,1.05,1.1
+	ASmultiplier	0.94
+	rankAS	1,1.06,1.12
 	APmultiplier 0.75
 	BPmultiplier 0
 	rankBP	1.15
@@ -101,7 +101,7 @@ ClassInfo
 	c_att_ranks_2 0
 
 	c_att_skill_3	MB_ATT_AS_MULTIPLIER
-	c_att_names_3	"Saber AS (100/105/110%)"
+	c_att_names_3	"Saber AS (100/106/112%)"
 	c_att_ranks_3	1,1,1
 
 	c_att_skill_4 MB_ATT_SABER_DAMAGE
