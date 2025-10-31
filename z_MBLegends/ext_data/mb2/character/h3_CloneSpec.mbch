@@ -66,7 +66,7 @@ c_att_descs_2 "80% more DMG"
 c_att_skill_3	MB_ATT_MINIGUN
 c_att_names_3	"Chaingun (Minigun)"
 c_att_ranks_3	15
-c_att_descs_3 "200% more velocity, 25% faster RoF, 25% less DMG/FP DMG"
+c_att_descs_3 "200% more velocity, 25% faster RoF, 20% less DMG/FP DMG"
 c_att_skill_4	MB_ATT_PULSE_GRENADES
 c_att_names_4	"Pulse Grenades"
 c_att_ranks_4	3,3
@@ -146,10 +146,10 @@ MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileEffect	"halo_shotgun/shot"
 MissileMissEffect "halo_smg/wall_impact"
 rateMod .75
-damageMod .75
-fpmult .75
+damageMod .8
+fpmult .8
 velocitymod 3
-customAmmo 800
+customAmmo 900
 hasAnimOverrides 1
 animReady BOTH_PLX1_READY
 animReadyWalk BOTH_PLX1_READY
