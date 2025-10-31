@@ -12,7 +12,8 @@ ClassInfo
 	
 	maxhealth	120
 	maxarmor		100
-	forcepool 	100
+	forcepool 	115
+ forceRegen 1.15
 	resource		RESOURCE_STAMINA
 	
 	BPmultiplier	0
@@ -21,9 +22,11 @@ ClassInfo
 	saberdamage 	90
 	
 	holdables	HI_BINOCULARS
+
 	WP_EE4Flags HELD_ALTRELOAD
 	WP_ClonePistolFlags HELD_ALTRELOAD
 	WP_ProjFlags 	HELD_ALTRELOAD|HELD_PULSE
+
 	speed   1.09
 	
 	modelscale  1.02
@@ -97,13 +100,13 @@ WeaponInfo2
 	Missile3Effect "Blaster/Shot10B"
 	MissileMissEffect "Blaster/impact_wall01b"
 	AltMissileMissEffect "Blaster/impact_wall01b"
-	rateMod 2
+	rateMod 1.85
 	clipSize 40
 	customAmmo 960
 	velocityMod 1.827
-	damageMod 1.15
-	fpMult 1.15
-		reloadTimeModifier 1.75
+	damageMod 1.3
+	fpMult 1.3
+	reloadTimeModifier 1.75
 	hasAnimOverrides 1
 	animReady BOTH_AMBAN_READY
 	animReadyWalk BOTH_AMBAN_READY
@@ -130,7 +133,7 @@ WeaponInfo3
 	velocityMod 1.827
 	damageMod 3
 	fpmult 3
-		reloadTimeModifier 1.75
+	reloadTimeModifier 1.75
 	hasAnimOverrides 1
 	animReady BOTH_DC15_IDLE
 	animReadyWalk BOTH_DC15_IDLE 
@@ -140,6 +143,37 @@ WeaponInfo3
 	animCharge BOTH_AMBAN_READY
 	selectSound "sound/weapons/silencedpistol/select.wav"
 }
+
+/* WeaponInfo4
+{
+	WeaponToReplace	WP_BRYAR_OLD
+	WeaponBasedOff	WP_BRYAR_OLD
+	NewWorldModel    "models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel     "models/weapons2/dc-17/dc-17.md3"
+	NewHandsModel   "models/weapons2/dc-17/dc-17_hand.md3"
+	Icon            "gfx/hud/w_icon_dc-17"
+	FlashSound0 "sound/weapons/demp2/fire.wav"
+	altFlashSound0  "sound/weapons/demp2/altfire.wav"
+	ChargeSound   "sound/weapons/demp2/altCharge.wav"
+	WeaponName		"Crosshair's DC-17 Hand Blaster" 
+	MuzzleEffect "Blaster/MuzzleFlash01B"
+	altMuzzleEffect "Blaster/MuzzleFlash01B"
+
+	ChargeEffect		"gfx/effects/cloneFrontFlash"
+	OverchargeEffect	"gfx/effects/cloneFrontFlash"
+
+	PowerupShotEffect		"Blaster/Shot04B" 
+	missileEffect "Blaster/Shot02B"
+	altMissileEffect "Blaster/Shot02B"
+	Missle3Effect "Blaster/Shot06B"
+	hasAnimOverrides 1
+	animReady TORSO_WEAPONIDLE2
+	animReadyWalk TORSO_WEAPONIDLE2
+	animReadyNoAmmo BOTH_ATTACK2 
+	animAttack BOTH_ATTACK2 
+	animAttackWalk BOTH_ATTACK2 
+} */
+
 description	"CT-9904 aka 'Crosshair' [ARC Trooper]
 
 A dexterous class with an all-in-one rifle.
@@ -157,9 +191,9 @@ A dexterous class with an all-in-one rifle.
 -- 75% slower mag reload
 -- Sec. only
 - 773 Firepuncher Rifle Standard Config (EE-4 2)
--- 15% more DMG/FP DMG
+-- 30% more DMG/FP DMG
 -- 82% more velocity
--- 100% slower RoF
+-- 85% slower RoF
 -- 75% slower mag reload
 - 773 Firepuncher Rifle Pulse Config (Proj)
 -- Electrifies targets
