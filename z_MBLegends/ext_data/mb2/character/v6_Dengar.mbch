@@ -66,7 +66,7 @@ ClassInfo
 	c_att_names_1	"Modded Riot Gun (C. Carbine)"
 	c_att_ranks_1	1,0
 	c_att_descs_1 "Electrifies/pushes/staggers on hit, 400% more DMG/FP DMG,
-100% slower RoF, 25% less velocity, 30% slower mag reload, Sec. only"
+100% slower RoF, 20% less velocity, 30% slower mag reload, Sec. only"
 
 	c_att_skill_2	MB_ATT_CLONERIFLE
 	c_att_names_2	"DLT-19 Blaster Rifle (CR)"
@@ -211,7 +211,7 @@ WeaponInfo5
 	damagemod 5
 	fpmult 5
 	ratemod 2
-	Velocitymod 0.75
+	Velocitymod 0.8
 	primfireenabled 0
 	Clipsize 80
 	ReloadTimeModifier 1.3
