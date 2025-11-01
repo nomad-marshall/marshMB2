@@ -166,7 +166,7 @@ NewViewModel "models/weapons2/mgun/heavy_repeater_1.md3"
 NewHandsModel "models/weapons2/mgun/heavy_repeater_hand.md3"
 Icon	"gfx/hud/w_icon_mgun"
 WeaponName "BT X-42 Flamethrower"
-customAmmo 800
+customAmmo 900
 clipsize 150
 Damagemod 1.8
 hasAnimOverrides 1
