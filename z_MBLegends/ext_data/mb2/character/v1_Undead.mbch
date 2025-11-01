@@ -38,7 +38,7 @@ ClassInfo
 	baseSpeed 168
 	skilltimermod 1.2
 	
-	classflags CFL_DISMEMBERFRAGILE|CFL_BLOODYMELEE|CFL_ACIDBLOOD|CFL_NOPICKUPS	
+	classflags CFL_DISMEMBERFRAGILE|CFL_BLOODYMELEE|CFL_NOPICKUPS	
 	
 	special1 EAS_FP_RAGE
 	special2 EAS_HI_BARGE
@@ -160,7 +160,6 @@ Brains........................
 - Assemble (1)
 - Getup (0)
 - Fury (3)
-- Infected Blood
 
 ^3Abilities:
 - Lunge (Shoulder Barge) ^3[CS2]"
