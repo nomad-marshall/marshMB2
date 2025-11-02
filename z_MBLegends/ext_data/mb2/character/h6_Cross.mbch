@@ -104,8 +104,8 @@ WeaponInfo2
 	clipSize 40
 	customAmmo 960
 	velocityMod 1.827
-	damageMod 1.3
-	fpMult 1.3
+	damageMod 1.4
+	fpMult 1.4
 	reloadTimeModifier 1.75
 	hasAnimOverrides 1
 	animReady BOTH_AMBAN_READY
@@ -131,8 +131,8 @@ WeaponInfo3
 	ChargeSound null
 	primFireEnabled 0
 	velocityMod 1.827
-	damageMod 3
-	fpmult 3
+	damageMod 3.5
+	fpmult 3.5
 	reloadTimeModifier 1.75
 	hasAnimOverrides 1
 	animReady BOTH_DC15_IDLE
@@ -142,6 +142,8 @@ WeaponInfo3
 	animAttackWalk BOTH_AMBAN_AIM_ATTACK
 	animCharge BOTH_AMBAN_READY
 	selectSound "sound/weapons/silencedpistol/select.wav"
+ //FPChargeMult 1.5
+//FPBlockMinMult
 }
 
 /* WeaponInfo4
@@ -186,12 +188,12 @@ A dexterous class with an all-in-one rifle.
 -- 60% less reach
 -- Slap ^3[Gunbash]
 - 773 Firepuncher Rifle Ricochet Config (Clone Pistol 2)
--- 200% more DMG/FP DMG
+-- 250% more DMG/FP DMG
 -- 82% more velocity
 -- 75% slower mag reload
 -- Sec. only
 - 773 Firepuncher Rifle Standard Config (EE-4 2)
--- 30% more DMG/FP DMG
+-- 40% more DMG/FP DMG
 -- 82% more velocity
 -- 85% slower RoF
 -- 75% slower mag reload
