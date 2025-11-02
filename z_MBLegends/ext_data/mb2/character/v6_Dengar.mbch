@@ -17,8 +17,8 @@ ClassInfo
 	forcepool 80
 	forceregen 1
 
-	maxhealth 135
-	maxarmor  125
+	maxhealth 120
+	maxarmor  120
 	
 	knockbackTaken  0.9
 	
