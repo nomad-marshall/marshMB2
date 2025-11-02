@@ -13,9 +13,9 @@ Forcepool 110
 knockbacktaken .88
 maxhealth 110
 maxarmor 80
-RankArmor 120
-RankDmgGiven 1.2
-speed 1.015
+RankArmor 110
+RankDmgGiven 1.1
+speed 1.01
 classflags CFL_STRONGAGAINSTPHYSICAL
 holdables HI_MEDPAC_BIG
 special4 EAS_HI_GRAPPLEHOOK
@@ -74,10 +74,10 @@ c_att_skill_5	MB_ATT_SONIC_DETONATOR
 c_att_names_5	"Sonic Detonators"
 c_att_ranks_5	4,4
 c_att_skill_6	MB_ATT_DMG_GIVEN_MULTIPLIER
-c_att_names_6	"Damage Given (120%)"
+c_att_names_6	"Damage Given (110%)"
 c_att_ranks_6	2
 c_att_skill_7	MB_ATT_ARMOUR
-c_att_names_7	"Armor (120)"
+c_att_names_7	"Armor (110)"
 c_att_ranks_7	2
 c_att_skill_15 MB_ATT_CLONE_PISTOL
 c_att_names_15 "DC-17 Clone Pistol"
