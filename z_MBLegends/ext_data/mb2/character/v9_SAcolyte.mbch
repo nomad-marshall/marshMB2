@@ -167,6 +167,10 @@ ClassInfo
 	c_att_skill_12	MB_ATT_DEFLECT
 	c_att_names_12	"Saber Deflect"
 	c_att_ranks_12	4,4
+
+	c_att_skill_13	MB_ATT_FP_SABERTHROW
+	c_att_names_13	"Saber Throw ^3[CS1]"
+	c_att_ranks_13	2,2,2
 }
 
 description	"Dark Acolyte [Sith]
