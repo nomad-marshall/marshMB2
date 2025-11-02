@@ -14,7 +14,7 @@ ClassInfo
 	forceregen 1.15
 
 	maxHealth	135
-	maxArmor		110
+	maxArmor		115
 	
 	rateOfFire_Melee 0.9
 	
@@ -33,7 +33,7 @@ ClassInfo
 	
 	holdables HI_MEDPAC_BIG
 	
-	basespeed 191.3
+	basespeed 195
 	skilltimermod 		0.9
 	damageGiven 1
 	
@@ -72,6 +72,7 @@ WeaponInfo0
 	clipSize 72
 	customAmmo 1368
 	reloadTimeModifier 1.1
+ velocityMod 1.1
 }
 
 description	"CT-7567 aka Captain 'Rex' [Hero]
@@ -82,6 +83,7 @@ A hard-boiled leader with high mobility and powerful Dual Pistols.
 - Melee
 -- 10% faster RoF
 - Dual DC-17 Clone Pistols (4)
+-- 10% more velocity
 -- 10% slower mag reload
 - Pulse Grenades (2)
 
