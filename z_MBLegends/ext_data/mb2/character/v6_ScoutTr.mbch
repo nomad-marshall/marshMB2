@@ -13,6 +13,7 @@ ClassInfo
 	RankHealth 100
 	maxarmor	75
 	ArmourRegenRate	1000
+	ArmourRegenCap	50
 	rankArmourRegenAmount 2
 	basespeed 187
 	RankBaseSpeed 190
@@ -160,29 +161,29 @@ ClassInfo
 	c_att_names_20	"Health (100)"
 	c_att_ranks_20	0
 	
-	c_att_skill_20 MB_ATT_BASESPEED
-	c_att_names_20 "Speed (190)"
-	c_att_ranks_20 0
+	c_att_skill_21 MB_ATT_BASESPEED
+	c_att_names_21 "Speed (190)"
+	c_att_ranks_21 0
 
-	c_att_skill_21	MB_ATT_ARMOUR_REGEN_AMOUNT
-	c_att_names_21	"Armor Regen (2/s)"
-	c_att_ranks_21	5
+	c_att_skill_22	MB_ATT_ARMOUR_REGEN_AMOUNT
+	c_att_names_22	"Armor Regen (2/s up to 50)"
+	c_att_ranks_22	5
 
-	c_att_skill_22	MB_ATT_ROF_MULTIPLIER
-	c_att_names_22	"RoF (100%)"
-	c_att_ranks_22 1
+	c_att_skill_23	MB_ATT_ROF_MULTIPLIER
+	c_att_names_23	"RoF (100%)"
+	c_att_ranks_23 1
 
-	c_att_skill_23	MB_ATT_STM_MULTIPLIER
-	c_att_names_23	"Skill CD (200/100%)"
-	c_att_ranks_23	1,1
+	c_att_skill_24	MB_ATT_STM_MULTIPLIER
+	c_att_names_24	"Skill CD (200/100%)"
+	c_att_ranks_24	1,1
 
-	c_att_skill_24	MB_ATT_POWER
-	c_att_names_24	"Stamina Pool (100)"
-	c_att_ranks_24	0
+	c_att_skill_25	MB_ATT_POWER
+	c_att_names_25	"Stamina Pool (100)"
+	c_att_ranks_25	0
 
-	c_att_skill_25	MB_ATT_STAMINA
-	c_att_names_25	"Stamina ^3[CS1]"
-	c_att_ranks_25	0,0,1
+	c_att_skill_26	MB_ATT_STAMINA
+	c_att_names_26	"Stamina ^3[CS1]"
+	c_att_ranks_26	0,0,1
 
 	c_att_skill_30	MB_ATT_PISTOL
 	c_att_names_30	"EC-17 Hold-Out Pistol"
@@ -222,7 +223,6 @@ ClassInfo
 	c_att_skill_38	MB_ATT_STAMINA
 	c_att_names_38	"Stamina ^3[CS1]"
 	c_att_ranks_38	0,0,1
-
 }
 WeaponInfo0
 {
@@ -261,7 +261,7 @@ ratemod 1.5
 fpmult 1.5
 damagemod 1.5
 Velocitymod 2
-ReloadTimeModifier 41
+ReloadTimeModifier 51
 }
 WeaponInfo3
 {
