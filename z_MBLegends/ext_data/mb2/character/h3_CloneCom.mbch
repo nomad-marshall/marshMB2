@@ -25,12 +25,12 @@ healthRegenrate 1000
 healthRegenCap 25
 basespeed 180
 rankbasespeed 200,220
-rankHack 0.84
-knockbackTaken 0.85
-rankROFMelee 0.7
-rankForcePool 140
+rankHack .84
+knockbackTaken .85
+rankROFMelee .7
+rankForcePool 145
 special2 EAS_MELEE
-modelscale   1.02
+modelscale 1.02
 uioverlay_l "gfx/icons/spec_infantry"
 uioverlay_r "gfx/icons/infantry"
 model "clonerc2"
@@ -95,7 +95,7 @@ c_att_descs_17 "25% slower RoF"
 c_att_skill_18 MB_ATT_MICRO_GRENADES
 c_att_names_18 "> DC-17m Rounds (6)"
 c_att_ranks_18 0
-c_att_descs_18 "Cannot be hand-thrown, 50% less DMG"
+c_att_descs_18 "No hand-throwing, 50% less DMG"
 c_att_skill_19 MB_ATT_DET_PACK
 c_att_names_19 "Det Packs"
 c_att_ranks_19 0,0,0
@@ -105,7 +105,7 @@ c_att_ranks_30 0
 c_att_skill_31 MB_ATT_FLECHETTE
 c_att_names_31 "ACP Scatter Gun (Flechette)"
 c_att_ranks_31 0,0
-c_att_descs_31 "40% slower RoF, 60% slower mag reload"
+c_att_descs_31 "15% more DMG, 40% slower RoF, 60% slower mag reload"
 c_att_skill_32 MB_ATT_FP_PUSH
 c_att_names_32 "Repulsor Gauntlet (Push)"
 c_att_ranks_32 0
@@ -116,7 +116,7 @@ c_att_skill_34 MB_ATT_HACK_MULTIPLIER
 c_att_names_34 "Hack Speed (118%)"
 c_att_ranks_34 0
 c_att_skill_35 MB_ATT_POWER
-c_att_names_35 "Extra Stamina Pool (140)"
+c_att_names_35 "Stam. Pool (140)"
 c_att_ranks_35 0
 }
 WeaponInfo0
@@ -180,10 +180,11 @@ NewViewModel	"models/weapons2/cp-50_repeater/cp-50_repeater.md3"
 FlashSound0 "sound/weapons/acparray/fire.wav"
 Icon	"gfx/hud/w_icon_cp-50_repeater"
 WeaponName "ACP Scatter Gun"
+damageMod 1.15
 clipSize 40
-customAmmo 360
+customAmmo 480
 rateMod 1.4
-ReloadTimeModifier  1.6
+ReloadTimeModifier 1.6
 altFireEnabled 0
 }
 WeaponInfo3
