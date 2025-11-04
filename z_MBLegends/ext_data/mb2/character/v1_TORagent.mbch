@@ -12,8 +12,8 @@ BPmultiplier	0
 rankBP	0.75
 APmultiplier	1.3
 CSmultiplier	1.1
-saberMaxChain 3
-rankSaberMaxChain 4
+saberMaxChain 2
+rankSaberMaxChain 3,4
 resource RESOURCE_STAMINA
 forcepool 0
 rankForcepool 50
@@ -141,8 +141,8 @@ c_att_skill_33 MB_ATT_BP_MULTIPLIER
 c_att_names_33 "Saber BP (75%)"
 c_att_ranks_33 2
 c_att_skill_34 MB_ATT_SABER_MAXCHAIN
-c_att_names_34 "Saber Chain Limit (4)"
-c_att_ranks_34 2
+c_att_names_34 "Saber Chain Limit (3/4)"
+c_att_ranks_34 1,1
 c_att_skill_35 MB_ATT_ARMOUR_REGEN_CAP
 c_att_names_35 "Armor Regen Cap (25)"
 c_att_ranks_35 1
@@ -252,6 +252,7 @@ Multi-life elite troopers.
 -- 9% faster RoF
 - Acidic Vibroknife (Cyan Saber)
 -- No Blaster Block
+-- Chain Limit: 2
 -- Electrifies/poisons on hit
 - Sith Blaster Pistol (2)
 -- 25% more charged FP DMG
