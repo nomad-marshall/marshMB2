@@ -23,7 +23,7 @@ ClassInfo
 	
 	speed   1.07
 	damageGiven 1
- saberDamage 130
+ saberDamage 200
 	rateOfFire_Melee 0.88
 	
 	classflags		CFL_SEEING_STEALTH|CFL_NOPICKUPS
@@ -84,7 +84,7 @@ A fast Sith with Force Sense immunity, meant to surprise unsuspecting enemies. L
 - Lightsaber (Dual/Blue)
 -- Saber Defense/Deflect (3)
 -- Blaster Defense (1)
--- Saber Damage: 130
+-- Saber Damage: 200
 -- EX Saber Throw (3) ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[GB]
