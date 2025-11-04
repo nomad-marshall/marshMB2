@@ -8,7 +8,7 @@ weapons	WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL
 WP_DCCarbineFlags HELD_ALTRELOAD
 WP_DisruptorFlags HELD_ALTRELOAD
 WP_FlechetteFlags HELD_ALTRELOAD
-attributes MB_ATT_STAMINA,2|MB_ATT_PISTOL,1|MB_ATT_BASE_TD,2|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR
+attributes MB_ATT_STAMINA,2|MB_ATT_PISTOL,1|MB_ATT_BASE_TD,2|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR|MB_ATT_AMMO,3
 BPmultiplier 0
 saber1 cc
 saberstyle SS_TAVION
@@ -116,11 +116,10 @@ c_att_skill_34 MB_ATT_HACK_MULTIPLIER
 c_att_names_34 "Hack Speed (118%)"
 c_att_ranks_34 0
 c_att_skill_35 MB_ATT_POWER
-c_att_names_35 "Stam. Pool (140)"
+c_att_names_35 "Stamina Pool (145)"
 c_att_ranks_35 0
 }
-WeaponInfo0
-{
+WeaponInfo0{
 WeaponToReplace WP_DC_CARBINE
 WeaponBasedOff WP_DC_CARBINE
 NewWorldModel "models/weapons2/DC-17m/blaster.glm"
@@ -147,8 +146,7 @@ animStand BOTH_STAND1
 rateMod .65
 selectSound "sound/weapons/dc17m/select.mp3"
 }
-WeaponInfo1
-{
+WeaponInfo1{
 WeaponToReplace WP_DISRUPTOR
 WeaponBasedOff WP_DISRUPTOR
 NewWorldModel	"models/weapons2/DC-17m/sniper.glm"
@@ -171,8 +169,7 @@ disruptorBeam1 "gfx/effects/disrupt_beam_blue"
 disruptorBeam2 "gfx/effects/disrupt_beam_blue"
 selectSound "sound/weapons/dc17m/select.mp3"
 }
-WeaponInfo2
-{
+WeaponInfo2{
 WeaponToReplace WP_FLECHETTE
 WeaponBasedOff WP_FLECHETTE
 NewWorldModel	"models/weapons2/cp-50_repeater/cp-50_repeater_w.glm"
@@ -187,8 +184,7 @@ rateMod 1.4
 ReloadTimeModifier 1.6
 altFireEnabled 0
 }
-WeaponInfo3
-{
+WeaponInfo3{
 WeaponToReplace WP_UGL
 WeaponBasedOff WP_UGL
 NewWorldModel	"models/weapons2/DC-17m/launcher.glm"
@@ -202,8 +198,7 @@ rateMod 1.25
 hasAnimOverrides 1
 animAttackWalk BOTH_ATTACK3
 }
-WeaponInfo4
-{
+WeaponInfo4{
 WeaponToReplace WP_CONC_NADE
 WeaponBasedOff WP_M5
 NewWorldModel "models/weapons2/dummyblaster/model.glm"
@@ -220,8 +215,7 @@ customAmmo 6
 damageMod .5
 selectSound "sound/chars/clone_rc/misc/gasp.mp3"
 }
-WeaponInfo5
-{
+WeaponInfo5{
 WeaponToReplace	WP_BLASTER_PISTOL
 WeaponBasedOff WP_BLASTER_PISTOL
 NewWorldModel	"models/weapons2/DC-15/dc-15_w.glm"
@@ -239,8 +233,7 @@ ReloadTimeModifier 2
 customammo 435
 rateMod 0.6
 }
-WeaponInfo6
-{           
+WeaponInfo6{           
 WeaponToReplace WP_SABER
 WeaponBasedOff WP_SABER
 NewWorldModel "models/weapons2/arc_shiv_short/shiv_short_w.glm"
@@ -249,8 +242,7 @@ Icon "gfx/hud/w_icon_arc_shiv_short"
 WeaponName "Knuckle Plate Vibroblade"
 altFireEnabled 0
 }
-WeaponInfo7
-{
+WeaponInfo7{
 WeaponToReplace WP_THERMAL
 WeaponBasedOff WP_THERMAL
 NewWorldModel	"models/weapons2/thermal/thermal_w.glm"
