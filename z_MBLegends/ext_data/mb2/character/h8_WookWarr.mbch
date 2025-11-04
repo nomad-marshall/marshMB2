@@ -7,7 +7,7 @@ ClassInfo
 	extralives 1
 	MBClass	MB_CLASS_WOOKIE
 	weapons 	WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_DET_PACK
-	attributes MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_AMMO,1|MB_ATT_PISTOL,2|MB_ATT_GUN_DEFENSE,3|MB_ATT_DET_PACK,3|MB_ATT_DEFLECT,0
+	attributes MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_GUN_DEFENSE,3|MB_ATT_DET_PACK,3|MB_ATT_DEFLECT,0
 
 	saber1	wookiee_shield_leg
 	saberDamage 90
@@ -168,7 +168,6 @@ WeaponInfo0
     NewViewModel		"models/weapons2/bowcaster/bowcaster.md3"
     Icon				"gfx/hud/w_icon_bowcaster" 
     WeaponName			"Bowcaster"
-	customAmmo 			600
 	clipsize 60
 	AltFireEnabled 0
 }
@@ -181,7 +180,6 @@ WeaponInfo1
     NewViewModel		"models/weapons2/wsidearm/wsidearm.md3"
     Icon				"gfx/hud/w_icon_wsidearm" 
     WeaponName			"Kashyyyk Side-Arm Blaster Pistol"
-	customAmmo 			600
 	clipsize 24
 	AltFireEnabled 0
 }
@@ -239,7 +237,6 @@ WeaponInfo4
     NewViewModel		"models/weapons2/wbowcaster/wbowcaster3.md3"
     Icon		"gfx/hud/w_icon_wbowcaster3" 
     WeaponName	"Traditional Bowcaster"
-	customAmmo 	600
 	clipsize 60
 }
 description	"Wookiee Warrior [Wookiee]
