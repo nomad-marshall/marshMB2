@@ -16,7 +16,8 @@ ClassInfo
 	forceregen 1.04
 	
 	maxhealth	100
-	maxarmor		80
+	maxarmor		25
+ rankArmor 80
 	speed		1.02
 	saberdamage	130
  rankSaberDamage 240
@@ -41,32 +42,37 @@ ClassInfo
 	saberstanceAnim BOTH_SPEAR_STANCE
 
 isCustomBuild	1
-mbPoints	5
+mbPoints	6
 
-	c_att_skill_0	MB_ATT_SABER_DAMAGE
-	c_att_names_0	"Saber DMG (240)"
-	c_att_ranks_0	1
- c_att_descs_0 "130 default"
+	c_att_skill_0	MB_ATT_RESPAWNS
+	c_att_names_0	"Reinforcement"
+	c_att_ranks_0	6
 
-	c_att_skill_1	MB_ATT_FP_LEVITATION
-	c_att_names_1	"Force Jump"
-	c_att_ranks_1	0,0,1
+	c_att_skill_1	MB_ATT_SABER_DAMAGE
+	c_att_names_1	"Saber DMG (240)"
+	c_att_ranks_1	1
+ c_att_descs_1 "130 default"
 
-	c_att_skill_2	MB_ATT_FP_LIGHTNING
-	c_att_names_2	"Force Lightning ^3[CS4]"
-	c_att_ranks_2	1,0
+	c_att_skill_2	MB_ATT_FP_LEVITATION
+	c_att_names_2	"Force Jump"
+	c_att_ranks_2	0,0,1
 
-	c_att_skill_3	MB_ATT_FP_GRIP
-	c_att_names_3	"Force Grip ^3[CS3]"
+	c_att_skill_3	MB_ATT_FP_LIGHTNING
+	c_att_names_3	"Force Lightning ^3[CS4]"
 	c_att_ranks_3	1,0
+
+	c_att_skill_4	MB_ATT_FP_GRIP
+	c_att_names_4	"Force Grip ^3[CS3]"
+	c_att_ranks_4	1,0
 	
-	c_att_skill_4	MB_ATT_FP_SPEED
-	c_att_names_4	"Force Speed"
-	c_att_ranks_4	0,1
+	c_att_skill_5	MB_ATT_FP_SPEED
+	c_att_names_5	"Force Speed"
+	c_att_ranks_5	0,1
 	
-	c_att_skill_5	MB_ATT_RESPAWNS
-	c_att_names_5	"Reinforcement"
-	c_att_ranks_5	5
+	c_att_skill_6	MB_ATT_ARMOUR
+	c_att_names_6	"Armor (80)"
+	c_att_ranks_6	1
+ c_att_descs_6 "25 default"
 }
 
 WeaponInfo0
