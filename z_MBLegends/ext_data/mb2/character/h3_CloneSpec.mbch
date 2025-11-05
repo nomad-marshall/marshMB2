@@ -96,7 +96,7 @@ c_att_skill_19 MB_ATT_EE4
 c_att_names_19 "DC-15x Sniper Rifle (EE-4)"
 c_att_ranks_19 8,7
 c_att_descs_19 "110% more DMG/FP DMG, 120% more velocity, 150% slower RoF,
-125% slower mag reload"
+120% slower mag reload"
 c_att_skill_20 MB_ATT_MICRO_GRENADES
 c_att_names_20 "Concussion Grenades"
 c_att_ranks_20 2,2
@@ -190,7 +190,7 @@ ratemod 2.5
 fpmult 2.1
 damagemod 2.1
 Velocitymod 2.2
-ReloadTimeModifier 2.25
+ReloadTimeModifier 2.2
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 FlashSound0 "sound/weapons/e_22/fire.mp3"
 MissileEffect	"Blaster/Shot10B"
