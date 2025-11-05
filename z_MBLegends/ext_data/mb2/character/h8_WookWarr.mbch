@@ -180,7 +180,6 @@ WeaponInfo1
     NewViewModel		"models/weapons2/wsidearm/wsidearm.md3"
     Icon				"gfx/hud/w_icon_wsidearm" 
     WeaponName			"Kashyyyk Side-Arm Blaster Pistol"
-	clipsize 24
 	AltFireEnabled 0
 }
 
