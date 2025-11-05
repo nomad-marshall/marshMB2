@@ -50,7 +50,7 @@ ClassInfo
 	flourishAnim 		BOTH_VICTORY_FAST
 	
 	isCustomBuild 1
-	mbPoints 7
+	mbPoints 8
 
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	uioverlay_l "gfx/icons/brawler"
