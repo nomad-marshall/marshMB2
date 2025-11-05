@@ -20,7 +20,7 @@ Classinfo
 	special1	EAS_HI_DODGE
 	special2 EAS_HI_WRIST
 	special3	EAS_HI_SENTRY_GUN
-	special4 EAS_HI_BACTA
+	special4 EAS_HI_MEDPAC
 
 	holdables HI_MEDPAC|HI_SENTRY_GUN
 
