@@ -156,7 +156,6 @@ WeaponInfo2
 	Altflashsound0	"sound/weapons/kotor/fire_heavy.wav"
  WeaponName		"Old Republic Blaster Pistol"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
-	clipSize       	24
 }
 
 WeaponInfo3
