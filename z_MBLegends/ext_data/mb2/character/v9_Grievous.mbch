@@ -42,15 +42,13 @@ Classinfo
 	maxhealth	80
 	maxarmor     80
 
-	basespeed	257
+	basespeed	255
 	resource	    RESOURCE_STAMINA
 	forcepool	120
 	forceregen	1.15
 	runForward BOTH_WOOKIEE_RAGE_RUN
-	//runForward BOTH_WOOKIEE_RAGE_RUN
 	bowAnim  BOTH_REACHFORSABER1
 	saberStanceAnim BOTH_WOOKIEE_RAGE_STAND_IDLE
-	//saberStanceAnim BOTH_WOOKIEE_RAGE_STAND_IDLE
 
 	Classflags CFL_BLOODYMELEE|CFL_STRONGAGAINSTPHYSICAL
 

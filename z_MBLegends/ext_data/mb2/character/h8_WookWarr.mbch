@@ -7,7 +7,7 @@ ClassInfo
 	extralives 1
 	MBClass	MB_CLASS_WOOKIE
 	weapons 	WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_DET_PACK
-	attributes MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_AMMO,1|MB_ATT_PISTOL,2|MB_ATT_GUN_DEFENSE,3|MB_ATT_DET_PACK,3|MB_ATT_DEFLECT,0
+	attributes MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_GUN_DEFENSE,3|MB_ATT_DET_PACK,3|MB_ATT_DEFLECT,0
 
 	saber1	wookiee_shield_leg
 	saberDamage 90
@@ -50,7 +50,7 @@ ClassInfo
 	flourishAnim 		BOTH_VICTORY_FAST
 	
 	isCustomBuild 1
-	mbPoints 7
+	mbPoints 8
 
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	uioverlay_l "gfx/icons/brawler"
@@ -134,7 +134,7 @@ ClassInfo
 100% slower mag reload"
 
 	c_att_skill_8	MB_ATT_DMG_GIVEN_MULTIPLIER
-	c_att_names_8	"Damage Given (115%)"
+	c_att_names_8	"DMG Given (115%)"
 	c_att_ranks_8	1
 
 	c_att_skill_9	MB_ATT_BLAST_ARMOUR
@@ -168,7 +168,6 @@ WeaponInfo0
     NewViewModel		"models/weapons2/bowcaster/bowcaster.md3"
     Icon				"gfx/hud/w_icon_bowcaster" 
     WeaponName			"Bowcaster"
-	customAmmo 			480
 	clipsize 60
 	AltFireEnabled 0
 }
@@ -181,8 +180,6 @@ WeaponInfo1
     NewViewModel		"models/weapons2/wsidearm/wsidearm.md3"
     Icon				"gfx/hud/w_icon_wsidearm" 
     WeaponName			"Kashyyyk Side-Arm Blaster Pistol"
-	customAmmo 			480
-	clipsize 24
 	AltFireEnabled 0
 }
 
@@ -201,8 +198,7 @@ WeaponInfo3
     WeaponToReplace WP_ROCKET_LAUNCHER
     WeaponBasedOff WP_ROCKET_LAUNCHER
     NewWorldModel	"models/weapons2/wgrl/wgrl.glm"
-    NewViewModel	"models/weapons2/dummy/dummy.md3"
-	customSkin "models/weapons2/wgrl/wgrl.skin"
+    NewViewModel	"models/weapons2/wgrl/wgrl.md3"
     Icon	 "gfx/hud/w_icon_wgrl" 
     WeaponName	"Wookiee Guided Rocket Launcher"
 	flashSound0 "sound/weapons/upl/fire_mortar.wav"
@@ -239,7 +235,6 @@ WeaponInfo4
     NewViewModel		"models/weapons2/wbowcaster/wbowcaster3.md3"
     Icon		"gfx/hud/w_icon_wbowcaster3" 
     WeaponName	"Traditional Bowcaster"
-	customAmmo 	480
 	clipsize 60
 }
 description	"Wookiee Warrior [Wookiee]

@@ -9,8 +9,8 @@ ClassInfo
 	forcepool 150
 	resource RESOURCE_RAGE
 	forceregen	0.5
-	maxhealth		80
-	maxarmor        	80
+	maxhealth		90
+	maxarmor        	75
 	MBClass			MB_CLASS_WOOKIE
 	basespeed		232
 	WP_ProjFlags 		HELD_ALTRELOAD|HELD_STUN
