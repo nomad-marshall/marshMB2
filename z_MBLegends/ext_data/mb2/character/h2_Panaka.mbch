@@ -90,11 +90,11 @@ WeaponInfo0
 	ChargeEffect		"gfx/effects/greenFrontFlash"
 	OverchargeEffect	"Blaster/MuzzleCharge01G"
 		hasAnimOverrides 1
-	animReady TORSO_WEAPONIDLE2
-	animReadyWalk TORSO_WEAPONIDLE2
-	animReadyNoAmmo BOTH_ATTACK2 
-	animAttack BOTH_ATTACK2 
-	animAttackWalk BOTH_ATTACK2 
+	animReady BOTH_PISTOL_IDLE
+	animReadyWalk BOTH_PISTOL_IDLE2
+	animReadyNoAmmo BOTH_PISTOL_ATTACK
+	animAttack BOTH_PISTOL_ATTACK
+	animAttackWalk BOTH_PISTOL_ATTACK
 }
 
 WeaponInfo1
@@ -123,7 +123,6 @@ WeaponInfo2
 hasAnimOverrides 1
 animReadyWalk BOTH_WESTARM5_READY
 animReadyNoAmmo BOTH_ATTACK2 
-animAttack BOTH_ATTACK2
 animAttackWalk BOTH_ATTACK2
 animStand BOTH_MAND_PISTOL_READY
 }
@@ -154,7 +153,7 @@ A commander who builds resource through damage to bolster his allies and himself
 - 50% slower skill CD
 - 99% slower Resource Decay
 - Resource Regen: 1/.1s to 15
-^7- ^3*^7Security's Beacon (Shares Force Powers with a targeted/nearby ally)
+^7- ^3*^7Security's Beacon (Shares Force Powers ^7with a targeted/nearby ally)
 - Dexterity (1)
 - Healing (3)
 - Rally
