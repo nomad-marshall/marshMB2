@@ -19,7 +19,7 @@ ClassInfo
 	//HealthRegenRate	2000
 	//HealthRegenAmount -1
 		
-	damageTaken 	0.35
+	damageTaken 	0.4
 	damageGiven  5
 	
 	knockbackTaken 	0.01
