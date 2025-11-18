@@ -166,7 +166,7 @@ ClassInfo
 	c_att_ranks_21 0
 
 	c_att_skill_22	MB_ATT_ARMOUR_REGEN_AMOUNT
-	c_att_names_22	"Armor Regen (2/s up to 50)"
+	c_att_names_22	"Armor Regen (2/s to 50)"
 	c_att_ranks_22	5
 
 	c_att_skill_23	MB_ATT_ROF_MULTIPLIER

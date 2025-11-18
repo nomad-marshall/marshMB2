@@ -150,14 +150,14 @@ A commander who builds resource through damage to bolster his allies and himself
 - Bacta (Instant 50 HP)
 
 ^8Attributes:
-- 50% slower skill CD
-- 99% slower Resource Decay
-- Resource Regen: 1/.1s to 15
 ^7- ^3*^7Security's Beacon (Shares Force Powers ^7with a targeted/nearby ally)
+- 50% slower skill CD
+- Fury (2)
+-- Resource Regen: 1/.1s to 15
+-- 99% slower Resource Decay
 - Dexterity (1)
 - Healing (3)
 - Rally
-- Fury (2)
 
 ^3Abilities:
 - Dodge (3) ^3[CS1]
