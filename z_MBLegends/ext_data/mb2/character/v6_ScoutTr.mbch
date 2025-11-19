@@ -33,6 +33,7 @@ ClassInfo
 	holdables	HI_MEDPAC
 	skilltimermod 3
 	rankSTM   2,1
+	rateOfFire_Melee	0.95
 	//tauntAnim 	BOTH_SCEPTER_HOLD
 	gloatAnim 		TORSO_HANDSIGNAL4
 	flourishAnim 	BOTH_STAND5STARTLEDLOOKLEFT
@@ -301,6 +302,7 @@ A customizable scout class.
 
 ^2Weaponry:
 - Melee
+-- 5% faster RoF
 - Electrobaton/Riot Shield (Cyan Saber)
 -- Saber/Blaster Defense (0)
 -- Saber Deflect (0)
