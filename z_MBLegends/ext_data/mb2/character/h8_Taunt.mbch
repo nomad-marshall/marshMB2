@@ -1,0 +1,197 @@
+//Legends Mode character file - Created by Frenzy & Leos
+
+ClassInfo
+{
+	name				"h8_Taunt"
+	classNumberLimit 2
+ extraLives 1
+	MBClass 			MB_CLASS_WOOKIE
+
+	weapons 		WP_MELEE|WP_SHOTGUN
+	attributes MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,2|MB_ATT_STAMINA,2|MB_ATT_DASH,1|MB_ATT_DASH_JUMP|MB_ATT_FORCEFOCUS,1|MB_ATT_HEALING,3
+
+// WP_MeleeFlags HELD_FREEZE
+ WP_ShotgunFlags HELD_SPEED|HELD_FREEZE
+
+	maxhealth		80
+	maxarmor			80
+
+	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE|CFL_NODISMEMBER|CFL_ACIDBLOOD
+	humanoidSkeleton	1
+	disableGunBash 1
+
+ forcepowers FP_PUSH,1
+
+ forcepool 100
+ resource RESOURCE_STAMINA
+
+	DamageGiven		5 //barge
+	DamageTaken		0.8
+ KnockbackGiven 1
+ KnockbackTaken 0.8
+
+ skillTimerMod 0.8
+ baseSpeed 225
+	ASmultiplier  0
+	APmultiplier  0
+	CSmultiplier  0
+ BPmultiplier 0
+	special1	EAS_HI_SPRINT
+	special2	EAS_HI_BARGE
+ special3 EAS_HI_DASH
+// special4 EAS_FP_REPULSE
+
+	WP_BlasterPistolFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_BlasterFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_ClonePistolFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_MandoPistolFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_StunBatonFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_EE3Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_EE4Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_AmbanFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_BowcasterFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_RepeaterFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_CloneRifleFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_MinigunFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_DEMP2Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_ThrowerFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_T21Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_ProjFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_DisruptorFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_FlechetteFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_M5Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_A280Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_DLT20AFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_PLX1Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_RocketLauncherFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_RealTDFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_FragNadeFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_PulseNadeFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_TripMineFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_FireNadeFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_SonicNadeFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_ConcNadeFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_CryoNadeFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_DetPackFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_ConcussionFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_BryarOldFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_SBDFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_CR2Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_E22Flags HELD_SLOW|HELD_LOWDAMAGE
+	WP_DCCarbineFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_ThermalFlags HELD_SLOW|HELD_LOWDAMAGE
+	WP_TradBowcasterFlags HELD_SLOW|HELD_LOWDAMAGE
+ WP_SaberFlags HELD_SLOW|HELD_LOWDAMAGE
+
+	hackRate 4
+	meleeMoves M_BLOCK
+
+ bargeSoundOverride		"sound/chars/tauntaun/misc/buck1.mp3"
+ rageSoundOverride	"sound/chars/tauntaun/misc/pant1.mp3"
+
+	modelscale	1.15
+	uioverlay "gfx/icons/brawler"
+	model	   "tauntaun"
+	skin		   "wild"
+	uishader	"models/players/tauntaun/mb2_icon_wild"
+
+ tauntAnim BOTH_VT_MOUNT_B
+ gloatAnim BOTH_LAND1
+ flourishAnim BOTH_VT_BUCK
+ bowAnim BOTH_VT_MOUNT_L
+ meditateAnim BOTH_VT_MOUNT_R
+
+ WalkForward BOTH_WALK1
+ WalkBackward BOTH_WALKBACK1
+ RunForward BOTH_RUN1
+ RunBackward BOTH_RUNBACK1
+
+ deathAnim BOTH_DEATH1
+}
+
+WeaponInfo0
+{
+	WeaponToReplace WP_MELEE
+	WeaponBasedOff WP_MELEE  
+	NewWorldModel	"models/weapons2/dummy/dummy.glm"
+	NewViewModel	"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/menus/classes/wook"
+	WeaponName	"Wild Beast"
+altFireEnabled 0
+primFireEnabled 0
+selectSound "sound/chars/tauntaun/misc/chatter3.mp3"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_SHOTGUN
+	WeaponBasedOff		WP_SHOTGUN
+	NewWorldModel		"models/weapons2/dummyblaster/model.glm"  
+	NewViewModel			"models/weapons2/dummy/dummy.md3"
+	NewHandsModel 	"models/weapons2/dummy/dummy.md3"
+	NewBarrelModel "models/weapons2/dummy/dummy.md3"
+	MissileEffect  "effects/Grenades/GlowCryoB"
+	MuzzleEffect "effects/Flamethrower/ice"
+	Icon				"gfx/forcepowers/repulsiveBelch"
+	FlashSound0 "sound/weapons/hutt_spit/fire.mp3"
+	FlashSound1 "sound/weapons/hutt_spit/fire.mp3"
+	FlashSound2 "sound/weapons/hutt_spit/fire.mp3"
+	FlashSound3 "sound/weapons/hutt_spit/fire.mp3"
+	MissileMissEffect "effects/Flamethrower/ice_wall"
+	MissileHitHumanEffect "effects/Flamethrower/ice_wall"
+	MissileHitDroidEffect "effects/Flamethrower/ice_wall"
+	WeaponName		"Freezing Spit"
+	ReloadTimeModifier 	1.50
+	customAmmo 240
+	clipSize 36
+	damageMod 0.15
+velocityMod 0.8
+ altFireEnabled 0
+ selectSound "sound/chars/tauntaun/misc/chatter1.mp3"
+}
+
+ForceInfo0
+{
+	ForceToReplace	FP_PUSH
+	Icon		"textures/arctic/ice"
+	ForcePowerName	"Smelly Hide"
+	ConeEffect "effects/materials/snow"	//"effects/Flamethrower/ice"
+ HandShader "effects/Flamethrower/ice"
+	StartSound 		"sound/chars/tauntaun/misc/pant1.mp3"
+	LoopSound 		"null"
+}
+description	"Wild Tauntaun [Wookiee]
+
+Frisky critters with fast feet. Melee deals increased damage.
+
+^2Weaponry:
+- Wild Beast (Limited Melee)
+-- Barge only
+- Freezing Spit (Shotgun 3)
+-- Freezes/staggers on hit
+-- 15% faster movement
+-- 85% less DMG
+-- 20% less velocity
+
+^5Powers:
+- Smelly Hide (Push 1)
+
+^8Attributes:
+- Reinforcement (1)
+- Dash Jump
+- 20% faster skill CD
+- 20% less KB taken
+- 300% slower Hacking
+- Stamina (2)
+- Strength (2)
+- Fury (2)
+- Healing (3)
+- Physical Resist
+- Flat Damage Taken
+- Smelly Guts (Acid Blood)
+- Force Focus (1)
+
+^3Abilities:
+- Sprint ^3[CS1]
+- Headbutt (Barge) ^3[CS2 Melee]
+- Dash (1) ^3[CS3]"

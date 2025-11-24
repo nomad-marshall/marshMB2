@@ -70,7 +70,7 @@ SubclassesForClass3
 SubclassesForClass4
 {
 	Subclass1	"h7_Spy"
-	Subclass2 	"h7_RebSapper"
+ Subclass2 "h7_RebSapper"
 	Subclass3	"h7_CloneAss"
 	Subclass4	"h7_Hera"
 	Subclass5	"h7_Leia"
@@ -78,12 +78,13 @@ SubclassesForClass4
 	Subclass7	"h7_HK47"
 	Subclass8	"h7_T3M4"
 	Subclass9 	"h8_WookWarr"
-	Subclass10	"h8_NRSecDroid" 
-	Subclass11	"h8_Wreck"
-	Subclass12	"h8_Chewie"
-	Subclass13 	"h8_Tarfful"
-	Subclass14	"h8_Zaal"
-	Subclass15	"h8_K2SO"
+ Subclass10 "h8_Taunt"
+	Subclass11	"h8_NRSecDroid" 
+	Subclass12	"h8_Wreck"
+	Subclass13	"h8_Chewie"
+	Subclass14 "h8_Tarfful"
+	Subclass15	"h8_Zaal"
+	Subclass16	"h8_K2SO"
 }
 
 SubclassesForClass5
