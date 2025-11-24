@@ -18,8 +18,8 @@ ClassInfo
  maxarmor 35
  rankArmor 90
 	basespeed 192
-	saberDamage 140
- rankSaberDamage 250
+	saberDamage 150
+ rankSaberDamage 270
 
  special1 EAS_FP_REPULSE
  special2 EAS_MELEE
@@ -52,9 +52,9 @@ mbPoints	6
 	c_att_ranks_0	6
 
 	c_att_skill_1	MB_ATT_SABER_DAMAGE
-	c_att_names_1	"Saber DMG (250)"
+	c_att_names_1	"Saber DMG (270)"
 	c_att_ranks_1	1
- c_att_descs_1 "140 default"
+ c_att_descs_1 "150 default"
  
  c_att_skill_2	MB_ATT_FP_LEVITATION
 	c_att_names_2	"Force Jump"
@@ -75,6 +75,7 @@ mbPoints	6
 	c_att_skill_6	MB_ATT_ARMOUR
 	c_att_names_6	"Armor (90)"
 	c_att_ranks_6	1
+ c_att_descs_6 "35 default"
 }
 
 WeaponInfo0
@@ -98,7 +99,7 @@ Slow, defensively-oriented Jedi with self-buffing abilities.
 -- Saber Defense (3)
 -- Blaster Defense (2)
 -- Saber Deflect (2)
--- Saber Damage: 140
+-- Saber Damage: 150
 -- 25% less reach
 -- Slap ^3[CS2]
 
