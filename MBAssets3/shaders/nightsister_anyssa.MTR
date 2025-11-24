@@ -1,0 +1,51 @@
+models/players/nightsister_anyssa/body
+	{
+	{
+	map models/players/nightsister_anyssa/rend2/body_d
+       	rgbGen lightingDiffuse
+
+	normalMap models/players/nightsister_anyssa/rend2/body_n
+	
+	rmoMap models/players/nightsister_anyssa/rend2/body_rmo
+	
+	}
+	}	
+
+models/players/nightsister_anyssa/jewelry
+	{
+	{
+	map models/players/nightsister_anyssa/rend2/jewelry_d
+       	rgbGen lightingDiffuse
+
+	normalMap models/players/nightsister_anyssa/rend2/jewelry_n
+	
+	rmoMap models/players/nightsister_anyssa/rend2/jewelry_rmo
+	
+	}
+	}	
+
+models/players/nightsister_anyssa/long_skirt
+	{
+	{
+	map models/players/nightsister_anyssa/rend2/long_skirt_d
+       	rgbGen lightingDiffuse
+
+	normalMap models/players/nightsister_anyssa/rend2/long_skirt_n
+	
+	rmoMap models/players/nightsister_anyssa/rend2/long_skirt_rmo
+	
+	}
+	}	
+
+models/players/nightsister_anyssa/skirt
+	{
+	{
+	map models/players/nightsister_anyssa/rend2/skirt_d
+       	rgbGen lightingDiffuse
+
+	normalMap models/players/nightsister_anyssa/rend2/skirt_n
+	
+	rmoMap models/players/nightsister_anyssa/rend2/skirt_rmo
+	
+	}
+	}	

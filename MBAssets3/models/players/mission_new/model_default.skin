@@ -1,17 +1,7 @@
-head,models/players/mission_new/head_face.tga
-head_face,models/players/mission_new/head_face.tga
-head_cap_torso_off,models/players/stormtrooper/caps.tga
-head_eye_lashes,*off
-head_eyebrows,models/players/mission_new/eyebrow.png
-head_eyes,models/players/mission_new/eye.png
-
-head_mouth,models/players/mission_new/head_face.tga
-head_mouth_teeth,models/players/mission_new/head_face.tga
-head_mouth_tongue,models/players/mission_new/head_face.tga
-
-head_lekkus_curl,models/players/mission_new/head_face.tga
-
-head_dress,models/players/mission_new/dress.tga
+head,models/players/mission_new/face.tga
+lekku,models/players/mission_new/face.tga
+eyes_teeth,models/players/mission_new/mouth_eyes.tga
+hat,models/players/mission_new/hat.tga
 
 torso,models/players/mission_new/torso.tga
 l_hand,models/players/mission_new/hands.tga
@@ -25,6 +15,9 @@ r_leg,models/players/mission_new/hips.tga
 l_leg,models/players/mission_new/hips.tga
 hips_skin,models/players/mission_new/hips.tga
 
+
+
+head_cap_torso_off,models/players/stormtrooper/caps.tga
 hips_cap_r_leg_off,models/players/stormtrooper/caps.tga
 hips_cap_l_leg_off,models/players/stormtrooper/caps.tga
 hips_cap_torso_off,models/players/stormtrooper/caps.tga

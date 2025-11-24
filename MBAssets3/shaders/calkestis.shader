@@ -49,7 +49,7 @@ models/players/calkestis/male_arms3
 	{
 		map models/players/calkestis/male_arms3
 		alphaFunc GE128
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_ONE GL_ZERO
 		depthWrite
 		rgbGen lightingDiffuse
 	}
@@ -83,7 +83,7 @@ models/players/calkestis/male_torso2
 	{
 		map models/players/calkestis/male_torso2
 		alphaFunc GE128
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_ONE GL_ZERO
 		depthWrite
 		rgbGen lightingDiffuse
 	}
@@ -101,7 +101,7 @@ models/players/calkestis/vest03_arms2
 	{
 		map models/players/calkestis/vest03_arms2
 		alphaFunc GE128
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_ONE GL_ZERO
 		depthWrite
 		rgbGen lightingDiffuse
 	}
@@ -113,7 +113,7 @@ models/players/calkestis/poncho
 	{
 		map models/players/calkestis/poncho
 		alphaFunc GE128
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_ONE GL_ZERO
 		depthWrite
 		rgbGen lightingDiffuse
 	}
@@ -125,7 +125,7 @@ models/players/calkestis/head_hair2
 	{
 		map models/players/calkestis/head_hair2
 		alphaFunc GE128
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_ONE GL_ZERO
 		depthWrite
 		rgbGen lightingDiffuse
 	}
