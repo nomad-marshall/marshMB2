@@ -6,6 +6,9 @@ headb_hat,*off
 headb_teeth,*off
 headb_bangs,*off
 
+head_carth,*off
+head_carth_cap_torso_off,*off
+
 head_czerkahat,*off
 
 head_officer,models/players/sith_officer/faceSaul.tga

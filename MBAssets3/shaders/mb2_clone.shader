@@ -1504,6 +1504,36 @@ models/players/mb2_clones/helmet_fireball
     }
 }
 
+models/players/MB2_Clones/helmet_41g
+{
+    {
+        map models/players/MB2_Clones/helmet_41g
+        blendFunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/MB2_Clones/helmet_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen lightingSpecular
+		detail
+    }
+}
+
+models/players/MB2_Clones/helmet_41g_arc
+{
+    {
+        map models/players/MB2_Clones/helmet_41g_arc
+        blendFunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/MB2_Clones/helmet_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen lightingSpecular
+		detail
+    }
+}
+
 models/players/MB2_Clones/head_face
 {
     {
@@ -4522,7 +4552,6 @@ models/players/MB2_clones/body_echo_p1
 
 models/players/MB2_clones/body_dogma
 {
-	cull	disable
     {
         map models/players/MB2_clones/body_dogma
         blendFunc GL_ONE GL_ZERO
@@ -4538,7 +4567,6 @@ models/players/MB2_clones/body_dogma
 
 models/players/MB2_clones/body_grey
 {
-	cull	disable
     {
         map models/players/MB2_clones/body_grey
         blendFunc GL_ONE GL_ZERO
@@ -4554,7 +4582,6 @@ models/players/MB2_clones/body_grey
 
 models/players/MB2_clones/body_hardcase
 {
-	cull	disable
     {
         map models/players/MB2_clones/body_hardcase
         blendFunc GL_ONE GL_ZERO
@@ -4622,6 +4649,36 @@ models/players/mb2_clones/body_fireball
         blendFunc GL_SRC_ALPHA GL_ONE
         detail
         alphaGen lightingSpecular
+    }
+}
+
+models/players/MB2_clones/body_41g
+{
+    {
+        map models/players/MB2_clones/body_41g
+        blendFunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/MB2_Clones/body_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen lightingSpecular
+		detail
+    }
+}
+
+models/players/MB2_clones/body_41g_arc
+{
+    {
+        map models/players/MB2_clones/body_41g_arc
+        blendFunc GL_ONE GL_ZERO
+        rgbGen lightingDiffuse
+    }
+    {
+        map models/players/MB2_Clones/body_spec
+        blendFunc GL_SRC_ALPHA GL_ONE
+        alphaGen lightingSpecular
+		detail
     }
 }
 

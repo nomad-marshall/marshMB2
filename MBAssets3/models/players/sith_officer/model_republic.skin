@@ -6,6 +6,9 @@ headb_hat,*off
 headb_teeth,*off
 headb_bangs,*off
 
+head_carth,*off
+head_carth_cap_torso_off,*off
+
 head_czerkahat,models/players/sith_officer/hat_republic.tga
 
 head_officer,*off

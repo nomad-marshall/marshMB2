@@ -18,6 +18,7 @@ mouth_sull,models/players/alien_heads/sullustan.tga
 torso_neck,models/players/rebel_commando/forest_boots_d.tga
 
 torso,*off
+torso_ammobelt,*off
 torso_zipper,models/players/rebel_magma/torso.tga
 torso_rank,models/players/rebel_magma/belts.tga
 torso_belts,models/players/rebel_magma/belts.tga
