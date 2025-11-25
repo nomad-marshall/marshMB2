@@ -1,24 +1,23 @@
 //Legends Mode character file - Created by MARSHALL
 ClassInfo
 {
-	name			"h1_RebelSabo"
+	name			"h2_RebelSabo"
 	weapons			WP_MELEE|WP_BLASTER
 	forcepowers     FP_BLIND,3
-	saberstyle		SS_TAVION
 	attributes		MB_ATT_TRACKING_BEACON|MB_ATT_POISON_DART,3|MB_ATT_TRACKING_DART,3|MB_ATT_BLASTER,1|MB_ATT_DEXTERITY,2
 
 	maxhealth		80
 
-	MaxArmor		10
-	rankArmor		25,50,80
+	MaxArmor		20
+	rankArmor		30,60,80
 
-	resource		RESOURCE_STAMINA
+	resource		RESOURCE_STAMINA //need someone to take a look at this bc i dont remember why i made force regen 0.7 lol. prob to stop infinite grapple? idk
 	forceregen		0.7
 	forcepool 		100
 
 	MBClass				MB_CLASS_HERO
 	classNumberLimit	3
-	classflags			CFL_HEAVYMELEE|CFL_SEEING_STEALTH
+	classflags			CFL_SEEING_STEALTH
 	holdables			HI_SEEKER|HI_EWEB
 	forceregen			2.65
 	
@@ -57,10 +56,6 @@ ClassInfo
 	skin_5 			"elite"
 	uishader_5		"models/players/rebel_partisan/mb2_icon_elite"
 
-	model_6			"reb_infiltrator"
-	skin_6			"default"
-	uishader_6		"models/players/reb_infiltrator/mb2_icon_default"
-
 	isCustomBuild	1
 	mbPoints		50
 
@@ -98,7 +93,7 @@ ClassInfo
 	
 	c_att_skill_8	MB_ATT_ARMOUR
 	c_att_names_8	"Armor:"
-	c_att_ranks_8	2,2,11
+	c_att_ranks_8	2,4,9
 
 	c_att_skill_9	MB_ATT_GRAPPLE_HOOK
 	c_att_names_9	"Grappling Hook ^3[CS3]:"
