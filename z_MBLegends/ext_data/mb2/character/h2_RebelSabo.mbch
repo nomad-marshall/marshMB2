@@ -236,7 +236,6 @@ An elite saboteur with access to damage over time weapons and quick getaway tool
 ^9Point Buy Info:
 - Armor
 -- 25,50,80
--Disguise [In melee, swap saber styles]
 -Poison Rifle
 --Based on DLT20A
 --Poisons enemies on hit
@@ -252,7 +251,7 @@ An elite saboteur with access to damage over time weapons and quick getaway tool
 -Tranq Pistol
 --Based on Clone Pistol
 --Does 80% less damage (HP & FP), 65% slower projectiles
---One shot
+--One shot mag
 --Knocks down & stuns targets on hit
 --Level 2 unlocks a bounce shot
 
