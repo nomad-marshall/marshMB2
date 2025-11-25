@@ -233,7 +233,6 @@ MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileMissEffect "blaster/impact_wall01b"
 AltMissileMissEffect "blaster/impact_wall01b"
 hasAnimOverrides 1
-animReady BOTH_WESTARM5_IDLE
 animReadyWalk BOTH_WESTARM5_READY
 animReadyNoAmmo BOTH_WESTARM5_ATTACK
 animAttack BOTH_WESTARM5_ATTACK
