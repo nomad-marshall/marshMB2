@@ -23,7 +23,7 @@ ClassInfo
 	modelscale    		1.01
 
 	classflags			CFL_STRONGAGAINSTPHYSICAL|
-	skilltimermod 		2
+	skilltimermod 		1.5
 	//special1
 	special2 EAS_HI_DASH
 	special3 EAS_HI_QUICKTHROW
