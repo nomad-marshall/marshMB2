@@ -7,7 +7,7 @@ ClassInfo
 	attributes			MB_ATT_BLASTER,2|MB_ATT_PISTOL,3|MB_ATT_HEALING,2|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_THERMALS,2|MB_ATT_FORCEBLOCK,3|MB_ATT_DODGE,2|MB_ATT_FLIPKICK,1|MB_ATT_MICRO_GRENADES,3|MB_ATT_DISP_ARMOR,3|MB_ATT_DISP_HEALTH,3|MB_ATT_USE_DISTANCE,1
 	maxhealth			150
 	maxarmor			80
-	forcepowers			FP_SEE,2
+	forcepowers			FP_SEE,3
 	damageTaken 0.9
 	modelscale          0.93
 	speed			    0.95
@@ -93,7 +93,7 @@ An agile commander/medic with slight Force sensitivity, grenades, and multiple h
 - Concussion Grenades (3)
 
 ^5Force Powers:
-- Sense (2)
+- Sense (3)
 
 ^6Inventory:
 - Kolto (Gradual 50 HP) ^3[CS3]
