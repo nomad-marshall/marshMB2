@@ -3,7 +3,7 @@ ClassInfo
 {
 	name			"h6_Nien"
 	classNumberLimit	1
-	MBClass		MB_CLASS_HERO
+	MBClass		MB_CLASS_JEDI
 	
 	weapons		WP_BLASTER|WP_MELEE|WP_CONC_NADE|WP_FRAG_NADE|WP_DISRUPTOR|WP_SABER|WP_TRIP_MINE|WP_PULSE_NADE
 
@@ -20,7 +20,7 @@ ClassInfo
 	speed		1.06
 	rateOfFire	0.8
 	damageGiven 0.8
-	damageTaken	0.9
+	damageTaken	0.99
 	knockbackTaken 1.2
 	
 	ASmultiplier 1.15
@@ -113,7 +113,7 @@ animAttackWalk BOTH_ATTACK2
 	customammo 600
 }
 
-description	"Nien Nunb [Hero]
+description	"Nien Nunb [Jedi]
 
 A scrappy, evasive class with many explosives, a melee weapon with high knockback, and gadgets.
 
