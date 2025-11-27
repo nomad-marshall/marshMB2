@@ -17,15 +17,13 @@ ClassInfo
 	maxhealth		100
 	maxarmor			100
 
-rateOfFire 101
-
 	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE|CFL_NODISMEMBER
 //	humanoidSkeleton	1
 	disableGunBash 1
  forcepowers FP_ABSORB,1|FP_RAGE,1
  forcepool 100
  resource RESOURCE_STAMINA
-	DamageGiven		5 //barge
+
 	DamageTaken		0.8
  knockbackTaken 0.7
  skillTimerMod 0.85
@@ -47,48 +45,6 @@ rateOfFire 101
 	model	   "wampa"
 	skin		   "default"
 	uishader	"models/players/wampa_pl/icon_default"
-
-	WP_BlasterPistolFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_BlasterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ClonePistolFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_MandoPistolFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_EE3Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_EE4Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_AmbanFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_BowcasterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_RepeaterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_CloneRifleFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_MinigunFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DEMP2Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_T21Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ProjFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DisruptorFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_FlechetteFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_M5Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_A280Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DLT20AFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_PLX1Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_RocketLauncherFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_RealTDFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_FragNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_PulseNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_TripMineFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_FireNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_SonicNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ConcNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_CryoNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DetPackFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ConcussionFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_BryarOldFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_SBDFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_CR2Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_E22Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DCCarbineFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ThermalFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_TradBowcasterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
- WP_SaberFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
- WP_UGLFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
- WP_MGLFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
 
  tauntAnim BOTH_GESTURE1
  gloatAnim BOTH_GESTURE2
@@ -113,6 +69,7 @@ WeaponInfo0
 altFireEnabled 0
 primFireEnabled 0
 selectSound "sound/weapons/knife/knifeoff.mp3"
+damageMod 6
 }
 WeaponInfo1
 {
@@ -138,8 +95,8 @@ WeaponInfo1
 	AltMissileHitHumanEffect 	null
 	MissileHitDroidEffect 		null
 	AltMissileHitDroidEffect 	null
-	rateMod 0.03
- damageMod 0.85
+	rateMod 3.03
+ damageMod 4
 selectSound "sound/weapons/exec_hack/slash3.mp3"
 }
 WeaponInfo2
@@ -155,22 +112,23 @@ WeaponInfo2
  selectSound "sound/chars/wampa/misc/choke3.mp3"
 customAmmo 200
 clipSize 50
-	rateMod 0.02
+	rateMod 2.02
 }
 
 description	"Wild Wampa [Wookiee]
 
-A wild beast looking for its next meal. Melee deals increased damage.
+A wild beast looking for its next meal. Not a particularly picky eater.
 
 ^2Weaponry:
 - Wild Beast (Limited Melee)
--- Barge/Fury only
+-- 500% more DMG
+-- Barge only
 - Claws (Stun Baton 1)
--- 97% faster RoF
+-- 300% more DMG
 -- 15% faster movement
--- 15% less DMG
+-- 203% slower RoF
 - Ice Breath (Icethrower)
--- 98% faster freeze time
+-- 102% slower freeze time
 -- 15% faster movement
 
 ^5Powers:
