@@ -33,6 +33,7 @@ ClassInfo
 	holdables	HI_MEDPAC
 	skilltimermod 3
 	rankSTM   2,1
+	rateOfFire_Melee	0.95
 	//tauntAnim 	BOTH_SCEPTER_HOLD
 	gloatAnim 		TORSO_HANDSIGNAL4
 	flourishAnim 	BOTH_STAND5STARTLEDLOOKLEFT
@@ -166,8 +167,8 @@ ClassInfo
 	c_att_ranks_21 0
 
 	c_att_skill_22	MB_ATT_ARMOUR_REGEN_AMOUNT
-	c_att_names_22	"Armor Regen (2/s up to 50)"
-	c_att_ranks_22	5
+	c_att_names_22	"Armor Regen (2/s to 50)"
+	c_att_ranks_22	4
 
 	c_att_skill_23	MB_ATT_ROF_MULTIPLIER
 	c_att_names_23	"RoF (100%)"
@@ -251,6 +252,7 @@ Icon	"gfx/hud/w_icon_scout_pistol"
 WeaponName	"EC-17 Hold-out Blaster Pistol"
 ChargeSound	"sound/weapons/leia_pistol/altcharge.mp3"
 clipSize 24
+customAmmo 480
 }
 WeaponInfo2
 {
@@ -300,6 +302,7 @@ A customizable scout class.
 
 ^2Weaponry:
 - Melee
+-- 5% faster RoF
 - Electrobaton/Riot Shield (Cyan Saber)
 -- Saber/Blaster Defense (0)
 -- Saber Deflect (0)

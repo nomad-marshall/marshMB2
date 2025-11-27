@@ -97,10 +97,11 @@ WeaponInfo0
 	rateMod 0.9
 	hasAnimOverrides 1
 	animReady 	BOTH_AMBAN_IDLE
-	animReadyWalk BOTH_AMBAN_IDLE
-	animReadyNoAmmo BOTH_DC15_ATTACK
-	animAttack 	  BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+	animReadyWalk TORSO_WEAPONREADY3
+	animReadyNoAmmo BOTH_ATTACK3
+	animAttack 	 BOTH_ATTACK3
+	animAttackWalk BOTH_ATTACK3
+ animStand BOTH_STAND1
 }
 
 WeaponInfo1
@@ -160,7 +161,7 @@ WeaponInfo2
 	customAmmo 500
 		hasAnimOverrides 1
 	animReady 	BOTH_AMBAN_IDLE
-	animReadyWalk BOTH_AMBAN_IDLE
+	animReadyWalk BOTH_WESTARM5_READY
 	animReadyNoAmmo BOTH_WESTARM5_ATTACK
 	animAttack 	 BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
@@ -217,10 +218,10 @@ WeaponInfo5
 	ReloadTimeModifier 1.3
 	hasAnimOverrides 1
 	animReady 	BOTH_AMBAN_IDLE
-	animReadyWalk BOTH_AMBAN_IDLE
-	animReadyNoAmmo BOTH_DC15_ATTACK
-	animAttack 	  BOTH_DC15_ATTACK
-	animAttackWalk BOTH_DC15_ATTACK
+	animReadyWalk TORSO_WEAPONREADY3
+	animReadyNoAmmo BOTH_ATTACK3
+	animAttack 	 BOTH_ATTACK3
+	animAttackWalk BOTH_ATTACK3
 }
 WeaponInfo6
 {

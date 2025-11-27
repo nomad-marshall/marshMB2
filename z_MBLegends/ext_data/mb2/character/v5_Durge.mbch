@@ -1,6 +1,5 @@
 //Legends Mode character file - Created by Frenzy & Leos
 //would be nice to give him those energy shield fists UPDATE: WE DID IT
-//anim fix
 
 ClassInfo
 {
@@ -13,7 +12,7 @@ ClassInfo
 	
 	maxhealth		120
 	maxarmor			60
-		blockResourceRegen 0
+	blockRegenRate 999999
 	classflags		CFL_DISMEMBERFRAGILE|CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE|CFL_NOLOCATIONALDAMAGE
 	
 	WP_MeleeFlags	HELD_SLOW
