@@ -112,9 +112,9 @@ customSpecDesc_3 "Possessed"
 	c_att_names_19	"Rally"
 	c_att_ranks_19	0
 
-	c_att_skill_20	MB_ATT_DISRUPTOR
+	c_att_skill_20	MB_ATT_MINIGUN
 	c_att_names_20	"Scepter of Ragnos"
-	c_att_ranks_20	0
+	c_att_ranks_20	0,0
 
 	c_att_skill_30	MB_ATT_FP_LEVITATION
 	c_att_names_30	"Force Jump"
