@@ -9,15 +9,15 @@ ClassInfo
 	
 	attributes	MB_ATT_FORCEBLOCK,3|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_FORCEFOCUS,1|MB_ATT_DEFLECT,2
 
-	forcepowers	FP_SABER_OFFENSE,3|FP_LEVITATION,1|FP_PUSH,1|FP_ABSORB,1|FP_PROTECT,1|FP_SEE,2
+	forcepowers	FP_SABER_OFFENSE,3|FP_LEVITATION,1|FP_ABSORB,1|FP_PROTECT,1|FP_SEE,2 //put force drain here if it doesnt work in pointbuy 
 	resource RESOURCE_FORCE
 	forcepool	120
 	forceregen 	1
-	
+	extralives 1
 	maxhealth	125
  maxarmor 35
  rankArmor 90
-	basespeed 192
+	basespeed 210
 	saberDamage 150
  rankSaberDamage 270
 
@@ -26,13 +26,13 @@ ClassInfo
  special3 EAS_FP_REPULSE
  special4 EAS_FP_PROTECT
 
-	saberstyle	SS_DESANN|SS_STAFF|SS_TAVION
+	saberstyle	SS_STAFF
 	saber1		saber_temple_guard_legends
 	sabercolor 2
-	BPmultiplier  1.15
-	CSmultiplier 	0.98
-	APmultiplier 	1
-	ASmultiplier	 0.98
+	BPmultiplier  1.18
+	CSmultiplier 	1
+	APmultiplier 	1.08
+	ASmultiplier	 1
 	modelscale        1.04
 	uioverlay_r 		"gfx/icons/frontline"
 	model			"jtguard"
@@ -45,37 +45,37 @@ ClassInfo
 	walkForward 		BOTH_WALK2
 
 isCustomBuild	1
-mbPoints	6
+mbPoints	7
 
-	c_att_skill_0	MB_ATT_RESPAWNS
-	c_att_names_0	"Reinforcement"
-	c_att_ranks_0	6
+	c_att_skill_0	MB_ATT_SABER_DAMAGE
+	c_att_names_0	"Saber DMG (270)"
+	c_att_ranks_0	1
+	c_att_descs_0	"150 default"
 
-	c_att_skill_1	MB_ATT_SABER_DAMAGE
-	c_att_names_1	"Saber DMG (270)"
-	c_att_ranks_1	1
- c_att_descs_1 "150 default"
+	c_att_skill_1	MB_ATT_FP_LEVITATION
+	c_att_names_1	"Force Jump"
+	c_att_ranks_1	0,1,1
  
- c_att_skill_2	MB_ATT_FP_LEVITATION
-	c_att_names_2	"Force Jump"
-	c_att_ranks_2	0,1
+	c_att_skill_2	MB_ATT_FP_PUSH
+	c_att_names_2	"Force Push"
+	c_att_ranks_2	1,2
 
-	c_att_skill_3	MB_ATT_FP_PUSH
-	c_att_names_3	"Force Push"
-	c_att_ranks_3	0,1
+	c_att_skill_3	MB_ATT_FP_ABSORB
+	c_att_names_3	"Force Absorb"
+	c_att_ranks_3	0,2
 
-	c_att_skill_4	MB_ATT_FP_ABSORB
-	c_att_names_4	"Force Absorb"
-	c_att_ranks_4	0,1
+	c_att_skill_4	MB_ATT_FP_PROTECT
+	c_att_names_4	"Force Protect ^3[CS4]"
+	c_att_ranks_4	0,2
 	
-	c_att_skill_5	MB_ATT_FP_PROTECT
-	c_att_names_5	"Force Protect ^3[CS4]"
-	c_att_ranks_5	0,1
-	
+	c_att_skill_5	MB_ATT_FP_DRAIN
+	c_att_names_5	"Force Drain"
+	c_att_ranks_5	0,2,3
+
 	c_att_skill_6	MB_ATT_ARMOUR
 	c_att_names_6	"Armor (90)"
 	c_att_ranks_6	1
- c_att_descs_6 "35 default"
+	c_att_descs_6	"35 default"
 }
 
 WeaponInfo0
