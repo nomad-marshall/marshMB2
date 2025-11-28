@@ -8,7 +8,7 @@ ClassInfo
 	MBClass 			MB_CLASS_WOOKIE
 
 	weapons 		WP_MELEE|WP_SHOTGUN
-	attributes MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,3|MB_ATT_STAMINA,2|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,2|MB_ATT_BUNNY_HOP,1
+	attributes MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,3|MB_ATT_STAMINA,2|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,2|MB_ATT_BUNNY_HOP,1|MB_ATT_SHOTGUN,1
 
 // WP_MeleeFlags HELD_FREEZE
  WP_ShotgunFlags HELD_SPEED|HELD_FREEZE //HELD_STUN
@@ -118,7 +118,7 @@ Frisky critters with fast feet. And I thought they smelled bad on the outside...
 - Wild Beast (Limited Melee)
 -- Barge only
 -- 500% more DMG
-- Freezing Spit (Shotgun 3)
+- Freezing Spit (Shotgun 1)
 -- Freezes on hit
 -- 15% faster movement
 -- 30% less DMG
