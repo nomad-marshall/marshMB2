@@ -26,6 +26,10 @@ ClassInfo
 	ASmultiplier 1.05
 	saberDamage 		60
 	WP_SaberFlags HELD_STUN
+
+	resource		resource_energy
+	forcepool 25
+	forceregen 0.75
 	
 	extralives		4
 	
