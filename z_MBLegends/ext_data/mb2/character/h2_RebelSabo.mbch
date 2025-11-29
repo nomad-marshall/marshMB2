@@ -48,6 +48,10 @@ ClassInfo
 	skin_4 			"elite"
 	uishader_4		"models/players/rebel_partisan/mb2_icon_elite"
 
+	model_5 			"rebel_vanguard"
+	skin_5		"default"
+	uishader_5		"models/players/rebel_vanguard/mb2_icon_default"
+
 	isCustomBuild	1
 	mbPoints		50
 
