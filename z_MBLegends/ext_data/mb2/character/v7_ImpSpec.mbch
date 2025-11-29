@@ -39,6 +39,7 @@ ClassInfo
 	WP_MeleeFlags HELD_SPEED
 	WP_PulseNadeFlags HELD_SPEED
 	WP_BlasterFlags HELD_KNOCKBACK
+ WP_StunBatonFlags HELD_SPEED|HELD_FLAME
 	
 	isCustomBuild		1
 	mbPoints			4
@@ -126,7 +127,37 @@ WeaponInfo1
 	altMissileHitHumanEffect "blobs/concussion"
 	altMissileHitDroidEffect "blobs/concussion"
 }
-
+WeaponInfo2
+{
+WeaponToReplace WP_STUN_BATON
+WeaponBasedOff WP_STUN_BATON
+NewWorldModel "models/weapons2/fc_f187/f187.glm"
+NewViewModel "models/weapons2/fc_f187/f187.md3"
+NewHandsModel "models/weapons2/fc_f187/f187_hand.md3"
+Icon "gfx/hud/w_icon_fc_f187_all"
+WeaponName "F-187 Fusioncutter"
+hasAnimOverrides 1
+animReady TORSO_WEAPONREADY0
+animReadyWalk TORSO_WEAPONREADY0
+animReadyNoAmmo BOTH_ATTACK2
+animAttack BOTH_ATTACK2
+animAttackWalk BOTH_ATTACK2
+FlashSound0 "sound/weapons/fusioncutter/cutter_hit.mp3"
+MissileMissEffect "effects/sparks/spark_exp_nosnd"
+MissileHitHumanEffect "effects/sparks/spark_exp_nosnd"
+MissileHitDroidEffect "effects/sparks/spark_exp_nosnd"
+rateMod .2
+damageMod .3
+}
+WeaponInfo3
+{
+	WeaponToReplace	WP_SABER
+	WeaponBasedOff	WP_SABER
+	NewWorldModel		"models/weapons2/mwrench/mwrench.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/hud/w_icon_mwrench"
+	WeaponName		"Wrench"
+}
 description	"Imperial Specialist [Clone Trooper]
 
 2-life units with many Blobs, explosives, and turrets.
