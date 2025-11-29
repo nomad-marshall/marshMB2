@@ -66,10 +66,14 @@ c_att_descs_3 "15% faster movement, DMG increases with rank"
 	
 	uioverlay_l "gfx/icons/tactician"
 	uioverlay_r "gfx/icons/infantry"
-		
+
 	model		"rebel_gag"
-	skin			"grenadier"
-	uishader		"models/players/rebel_gag/mb2_icon_grenadier"
+	skin			"default"
+	uishader		"models/players/rebel_gag/mb2_icon_default"
+		
+	model_1		"rebel_gag"
+	skin_1			"grenadier"
+	uishader_1		"models/players/rebel_gag/mb2_icon_grenadier"
 
 tauntAnim BOTH_VICTORY_FAST
 gloatAnim BOTH_MAND_PISTOL_MELEE
