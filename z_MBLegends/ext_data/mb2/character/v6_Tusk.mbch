@@ -121,7 +121,7 @@ WeaponInfo2
 	FlashSound0			"sound/weapons/tusken_cycler/fire.wav"  			
 	Icon				"gfx/hud/w_icon_tuskenSniper"
 	WeaponName			"Tusken Cycler Projectile Rifle"  
-	CustomAmmo 	25
+	CustomAmmo 	15
 	clipsize    1
 	ReloadTimeModifier 1.35
 	damageMod .75
