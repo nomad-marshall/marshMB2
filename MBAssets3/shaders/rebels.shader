@@ -1209,40 +1209,10 @@ models/players/rebel_commando/forest_backpack_d
 	}
 }
 
-models/players/rebel_commando/forest_backpack_d2
-{
-	{
-		map models/players/rebel_commando/forest_backpack_d2
-		depthWrite
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_commando/backpack_s
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
 models/players/rebel_commando/forest_body_d
 {
 	{
 		map models/players/rebel_commando/forest_body_d
-		depthWrite
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_commando/body_s
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
-models/players/rebel_commando/forest_body_d2
-{
-	{
-		map models/players/rebel_commando/forest_body_d2
 		depthWrite
 		rgbGen lightingDiffuse
 	}
@@ -1259,26 +1229,6 @@ models/players/rebel_commando/forest_extras_d
 	cull	twosided
 	{
 		map models/players/rebel_commando/forest_extras_d
-		depthWrite
-		rgbGen lightingDiffuse
-	}
-}
-
-models/players/rebel_commando/forest_extras_d2
-{
-	cull	twosided
-	{
-		map models/players/rebel_commando/forest_extras_d2
-		depthWrite
-		rgbGen lightingDiffuse
-	}
-}
-
-models/players/rebel_commando/forest_extras_d3
-{
-	cull	twosided
-	{
-		map models/players/rebel_commando/forest_extras_d3
 		depthWrite
 		rgbGen lightingDiffuse
 	}
@@ -1363,21 +1313,6 @@ models/players/rebel_commando/body_d
 	}
 }
 
-models/players/rebel_commando/body_d2
-{
-	{
-		map models/players/rebel_commando/body_d2
-		depthWrite
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_commando/body_s
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
 models/players/rebel_commando/extras_d
 {
 	cull	twosided
@@ -1442,21 +1377,6 @@ models/players/rebel_commando/desert_body_d
 {
 	{
 		map models/players/rebel_commando/desert_body_d
-		depthWrite
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_commando/body_s
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
-models/players/rebel_commando/desert_body_d2
-{
-	{
-		map models/players/rebel_commando/desert_body_d2
 		depthWrite
 		rgbGen lightingDiffuse
 	}
