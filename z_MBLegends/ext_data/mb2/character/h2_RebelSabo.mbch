@@ -39,22 +39,14 @@ ClassInfo
 	model_1			"rebel_heavy"
 	skin_1			"default"
 	uishader_1		"models/players/rebel_heavy/mb2_icon_default"
-	
-	model_2			"rebel_gag"
-	skin_2			"model_default"
-	uishader_2		"models/players/rebel_gag/mb2_icon_default"
 
-	model_3			"rebel_gag"
-	skin_3			"grenadier"
-	uishader_3		"models/players/rebel_gag/mb2_icon_grenadier"
-
-	model_4			"rebel_partisan"
-	skin_4 			"default"
-	uishader_4 		"models/players/rebel_partisan/mb2_icon_default"
+	model_3			"rebel_partisan"
+	skin_3 			"default"
+	uishader_3 		"models/players/rebel_partisan/mb2_icon_default"
 	
-	model_5			"rebel_partisan"
-	skin_5 			"elite"
-	uishader_5		"models/players/rebel_partisan/mb2_icon_elite"
+	model_4		"rebel_partisan"
+	skin_4 			"elite"
+	uishader_4		"models/players/rebel_partisan/mb2_icon_elite"
 
 	isCustomBuild	1
 	mbPoints		50
