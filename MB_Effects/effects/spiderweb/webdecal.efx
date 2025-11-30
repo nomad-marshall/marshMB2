@@ -1,0 +1,20 @@
+repeatDelay				300
+
+Decal
+{
+	life				2000
+
+	cullrange			16384
+
+	rotation			0 360
+
+	size
+	{
+		start			50 125
+	}
+
+	shaders
+	[
+		gfx/effects/spiderweb
+	]
+}
