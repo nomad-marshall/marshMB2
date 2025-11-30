@@ -224,7 +224,7 @@ WeaponInfo5
 	WeaponBasedOff	WP_THROWER
 	NewWorldModel	"models/weapons2/dummyblaster/model.glm"
 	NewViewModel	"models/weapons2/dummy/dummy.md3"
-	Icon	"models/weapons2/halo_melee/icon"
+	Icon	"gfx/marvel/maghand"
 	WeaponName	"Kelborn Arc Caster"
 	clipsize 50
 	customammo 600
