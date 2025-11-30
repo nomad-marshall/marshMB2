@@ -29,6 +29,11 @@ head_haird_short,*off
 head_hairg,*off
 head_hood,models/players/gwethenea/hood_sariss.tga
 
+headt,*off
+headt_tentacles,*off
+headt_face,*off
+headt_teeth,*off
+
 torso_collar,models/players/gwethenea/torso_sariss.tga
 torso_hood,*off
 torso_hood2,*off
