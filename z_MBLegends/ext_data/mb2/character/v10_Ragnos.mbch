@@ -12,10 +12,10 @@ Classinfo
 	
 	forcepowers		FP_LIGHTNING,3|FP_PUSH,3|FP_PULL,3|FP_GRIP,3|FP_DRAIN,3|FP_SEE,2|FP_SABER_OFFENSE,3|FP_RAGE,3|FP_ABSORB,2|FP_LEVITATION,2
 
-	special1 EAS_HI_WHISTLING_BIRDS
+	special1 EAS_FP_LIGHTNING
 	special2 EAS_FP_DRAIN
 	special3 EAS_FP_GRIP
-	special4 EAS_FP_LIGHTNING
+	special4 EAS_HI_WHISTLING_BIRDS
 
 	saber1 		force_deflection
 	saber2 		force_deflection
