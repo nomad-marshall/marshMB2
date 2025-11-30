@@ -146,7 +146,7 @@ ClassInfo
 	c_att_ranks_10	1
 
 	c_att_skill_11	MB_ATT_WOOKIEE_FURY
-	c_att_names_11	"Fury/Barge ^3[CS1/2 M]"
+	c_att_names_11	"Fury/Barge ^3[CS1/2 Melee]"
 	c_att_ranks_11	1,1
 	c_att_descs_11 "Both included"
 	
