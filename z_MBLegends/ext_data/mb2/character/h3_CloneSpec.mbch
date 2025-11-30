@@ -123,7 +123,7 @@ c_att_descs_32 "6 Conc/Ion Blobs"
 c_att_skill_33 MB_ATT_SHOTGUN
 c_att_names_33 "DP-23 Shotgun"
 c_att_ranks_33 10,8,4
-c_att_descs_33 "25% faster RoF, 35% less DMG, 20% slower mag reload"
+c_att_descs_33 "25% faster RoF, 35% less DMG, 20% slower mag reload, Prim. only"
 c_att_skill_34 MB_ATT_DET_PACK
 c_att_names_34 "Det Packs"
 c_att_ranks_34 1,1,1
@@ -228,7 +228,6 @@ damagemod 0.65
 MissileEffect	"Blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileMissEffect "blaster/impact_wall01b"
-AltMissileMissEffect "blaster/impact_wall01b"
 hasAnimOverrides 1
 animReadyWalk BOTH_WESTARM5_READY
 animReadyNoAmmo BOTH_WESTARM5_ATTACK

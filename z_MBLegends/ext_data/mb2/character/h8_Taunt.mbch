@@ -8,84 +8,39 @@ ClassInfo
 	MBClass 			MB_CLASS_WOOKIE
 
 	weapons 		WP_MELEE|WP_SHOTGUN
-	attributes MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,3|MB_ATT_STAMINA,2|MB_ATT_DASH,1|MB_ATT_DASH_JUMP|MB_ATT_FORCEFOCUS,1|MB_ATT_HEALING,3
+	attributes MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_WOOKIEE_FURY,3|MB_ATT_STAMINA,2|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,2|MB_ATT_BUNNY_HOP,1|MB_ATT_SHOTGUN,1
 
 // WP_MeleeFlags HELD_FREEZE
- WP_ShotgunFlags HELD_SPEED|HELD_FREEZE
+ WP_ShotgunFlags HELD_SPEED|HELD_FREEZE //HELD_STUN
 
 	maxhealth		80
 	maxarmor			80
 
 	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE|CFL_NODISMEMBER|CFL_ACIDBLOOD
-	humanoidSkeleton	1
+	//humanoidSkeleton	1 //needs to be on for dash, but if hitboxes are too fucked, disable
 	disableGunBash 1
 
- rateOfFire 101
-
- forcepowers FP_PUSH,1
+ forcepowers FP_PROTECT,1
 
  forcepool 100
  resource RESOURCE_STAMINA
 
-	DamageGiven		5 //barge
 	DamageTaken		0.8
  KnockbackGiven 1
  KnockbackTaken 0.8
 
  skillTimerMod 0.8
  baseSpeed 225
+
 	ASmultiplier  0
 	APmultiplier  0
 	CSmultiplier  0
  BPmultiplier 0
+
 	special1	EAS_HI_SPRINT
 	special2	EAS_HI_BARGE
- special3 EAS_HI_DASH
+ //special3 EAS_HI_DASH
  special4 EAS_FP_PROTECT
-
-	WP_BlasterPistolFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_BlasterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ClonePistolFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_MandoPistolFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_StunBatonFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_EE3Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_EE4Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_AmbanFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_BowcasterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_RepeaterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_CloneRifleFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_MinigunFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DEMP2Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ThrowerFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_T21Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ProjFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DisruptorFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_FlechetteFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_M5Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_A280Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DLT20AFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_PLX1Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_RocketLauncherFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_RealTDFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_FragNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_PulseNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_TripMineFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_FireNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_SonicNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ConcNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_CryoNadeFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DetPackFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ConcussionFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_BryarOldFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_SBDFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_CR2Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_E22Flags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_DCCarbineFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_ThermalFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
-	WP_TradBowcasterFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
- WP_SaberFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
- WP_UGLFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
- WP_MGLFlags HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
 
 	hackRate 4
 	meleeMoves M_BLOCK
@@ -124,6 +79,7 @@ WeaponInfo0
 altFireEnabled 0
 primFireEnabled 0
 selectSound "sound/chars/tauntaun/misc/chatter3.mp3"
+damageMod 6
 }
 
 WeaponInfo1
@@ -148,25 +104,24 @@ WeaponInfo1
 	ReloadTimeModifier 	1.50
 	customAmmo 240
 	clipSize 36
-	damageMod 0.15
+damageMod 0.7
 velocityMod 0.8
  altFireEnabled 0
-rateMod 0.009901
  selectSound "sound/chars/tauntaun/misc/chatter1.mp3"
 }
 
 description	"Wild Tauntaun [Wookiee]
 
-Frisky critters with fast feet. Melee deals increased damage.
+Frisky critters with fast feet. And I thought they smelled bad on the outside...
 
 ^2Weaponry:
 - Wild Beast (Limited Melee)
 -- Barge only
-- Freezing Spit (Shotgun 3)
--- Freezes/staggers on hit
--- 99% faster RoF
+-- 500% more DMG
+- Freezing Spit (Shotgun 1)
+-- Freezes on hit
 -- 15% faster movement
--- 85% less DMG
+-- 30% less DMG
 -- 20% less velocity
 
 ^5Powers:
@@ -174,10 +129,11 @@ Frisky critters with fast feet. Melee deals increased damage.
 
 ^8Attributes:
 - Reinforcement (1)
-- Dash Jump
+- Bunny Hop (1)
 - 20% faster skill CD
 - 20% less KB taken
 - 300% slower Hacking
+- Dexterity (2)
 - Stamina (2)
 - Strength (2)
 - Fury (3)
@@ -185,9 +141,7 @@ Frisky critters with fast feet. Melee deals increased damage.
 - Physical Resist
 - Flat Damage Taken
 - Smelly Guts (Acid Blood)
-- Force Focus (1)
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Headbutt (Barge) ^3[CS2 Melee]
-- Dash (1) ^3[CS3]"
+- Headbutt (Barge) ^3[CS2 Melee]"

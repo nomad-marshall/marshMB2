@@ -90,7 +90,7 @@ c_att_ranks_16 0
 c_att_descs_16 "55% faster RoF, 40% less DMG/FP DMG, 170% slower mag reload,
 15% slower movement"
 c_att_skill_17 MB_ATT_CONCUSSION
-c_att_names_17 "LJ-50 Conc. Rifle"
+c_att_names_17 "LJ-50 Conc Rifle"
 c_att_ranks_17 0,0,0
 c_att_descs_17 "80% slower velocity/RoF/mag reload, 15% slower movement,
 Prim. only"
