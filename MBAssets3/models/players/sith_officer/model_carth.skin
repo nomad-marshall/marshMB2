@@ -8,6 +8,8 @@ headb_bangs,*off
 
 head_carth,models/players/sith_officer/faceCarth.tga
 head_carth_cap_torso_off,models/players/stormtrooper/caps.tga
+headb_carth,*off
+headb_carth_hat,*off
 
 head_czerkahat,*off
 
