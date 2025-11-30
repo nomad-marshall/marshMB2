@@ -144,12 +144,12 @@ WeaponInfo3
 	customAmmo 30
 	reloadTimeModifier 2
 	hasAnimOverrides 1
-	animReady BOTH_WALK6
-	animReadyWalk BOTH_WALK6
-	animReadyNoAmmo BOTH_A6_LR
-	animAttack BOTH_A6_LR
-	animAttackWalk BOTH_A6_LR
-	animStand BOTH_STAND1
+	animReady BOTH_THERMAL_READY2
+	animReadyWalk BOTH_THERMAL_READY2
+	animReadyNoAmmo BOTH_TUSKENTAUNT1
+	animAttack BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
+	animStand BOTH_THERMAL_READY2
 }
 ForceInfo0
 {
