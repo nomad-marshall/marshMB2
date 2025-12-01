@@ -48,7 +48,7 @@ c_att_descs_0 "10% less HP DMG, 30% faster ROF. Based off E-22 1."
 c_att_skill_1 MB_ATT_TRAD_BOWCASTER
 c_att_names_1 "EL-16HFE Toxin Rifle:"
 c_att_ranks_1 15,3,2
-c_att_descs_1 "30% less DMG, 20% slower velocity. Poisons on hit. Based off trad bowcaster"
+c_att_descs_1 "40% less DMG, 20% slower velocity. Poisons on hit. Based off trad bowcaster"
 c_att_skill_2 MB_ATT_CLONE_PISTOL
 c_att_names_2 "Tranq Pistol:"
 c_att_ranks_2 10,5
@@ -60,7 +60,7 @@ c_att_descs_3 "40% less DMG, 20% faster velocity. Ignites on hit. Based off amba
 c_att_skill_4 MB_ATT_THROWER
 c_att_names_4 "Requisitioned Arc Caster"
 c_att_ranks_4 5
-c_att_descs_4 "Shocks on hit. 10% more DMG. Based off thrower."
+c_att_descs_4 "Shocks on hit. 20% more DMG. Based off thrower."
 c_att_skill_5 MB_ATT_DEMP2
 c_att_names_5 "Disruptifying Blaster"
 c_att_ranks_5 5
@@ -106,7 +106,7 @@ FlashSound0 "sound/weapons/kotor/fire_power2"
 AltFlashSound0 "sound/weapons/EL-16/alt_fire.wav"
 CustomAmmo 600
 rateMod 0.9
-damageMod 0.7
+damageMod 0.6
 velocityMod 0.8
 }
 WeaponInfo1
@@ -197,7 +197,7 @@ WeaponName "Requisitioned Arc Caster"
 clipsize 40
 customammo 300
 hasAnimOverrides 1
-damageMod 1.5
+damageMod 1.2
 animReady BOTH_FORCE_2HANDEDLIGHTNING_START
 animReadyWalk BOTH_FORCE_2HANDEDLIGHTNING_START
 animReadyNoAmmo BOTH_FORCE_2HANDEDLIGHTNING
