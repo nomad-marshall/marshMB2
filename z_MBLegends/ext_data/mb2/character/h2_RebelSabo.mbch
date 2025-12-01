@@ -218,8 +218,6 @@ Icon "gfx/hud/w_icon_mortar"
 AltMissileModel "models/weapons2/blackegg/thermal_proj.md3"
 altMissileEffect "hutt/toxic_breath"
 altMuzzleEffect null
-altFlashSound "sound/weapons/stone/fire.mp3"
-FlashSound "sound/weapons/stone/fire.mp3"
 MissileModel "models/weapons2/blackegg/thermal_proj.md3"
 MissileEffect "hutt/toxic_breath"
 MuzzleEffect null
@@ -234,11 +232,11 @@ WeaponInfo7
 {
 WeaponToReplace WP_DEMP2
 WeaponBasedOff WP_DEMP2
-NewWorldModel "models/weapons2/kotor_sonicrifle_w.glm"
-NewViewModel "models/weapons2/kotor_sonicrifle.md3"
+NewWorldModel "models\weapons2\kotor_sonicrifle\kotor_sonicrifle_w.glm"
+NewViewModel "models\weapons2\kotor_sonicrifle\kotor_sonicrifle.md3"
 Icon "gfx/hud/w_icon_kotor_sonicrifle"
 WeaponName "Disruption Blaster"
-velocityMod 0.1
+velocityMod 0.3
 damageMod 0.5
 rateMod 0.5
 customAmmo 220
