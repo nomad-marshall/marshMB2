@@ -9,7 +9,7 @@ maxhealth 80
 MaxArmor 20
 rankArmor 30,60,80
 resource resource_stamina
-forcepool 60
+forcepool 80
 MBClass MB_CLASS_HERO
 classNumberLimit 3
 holdables HI_SEEKER
@@ -23,7 +23,7 @@ WP_TradBowcasterFlags HELD_POISON|HELD_ALTRELOAD
 WP_ClonePistolFlags HELD_KNOCKBACK|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_STUN
 WP_E22Flags HELD_ALTRELOAD
 WP_DEMP2Flags HELD_PULSE|HELD_ALTRELOAD
-WP_FlechetteFlags HELD_ALTRELOAD|HELD_POISON|HELD_EXPLOSIVE|HELD_LOWDAMAGE
+WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_POISON
 model "nrmarine"
 skin "default"
 uishader "models/players/nrmarine/mb2_icon_default"
@@ -43,11 +43,11 @@ isCustomBuild 1
 mbPoints 50
 c_att_skill_0 MB_ATT_E_22
 c_att_names_0 "Requisitioned Repeater"
-c_att_ranks_0 5
+c_att_ranks_0 10
 c_att_descs_0 "10% less HP DMG, 30% faster ROF. Based off E-22 1."
 c_att_skill_1 MB_ATT_TRAD_BOWCASTER
 c_att_names_1 "EL-16HFE Toxin Rifle:"
-c_att_ranks_1 20,3,2
+c_att_ranks_1 15,3,2
 c_att_descs_1 "30% less DMG, 20% slower velocity. Poisons on hit. Based off trad bowcaster"
 c_att_skill_2 MB_ATT_CLONE_PISTOL
 c_att_names_2 "Tranq Pistol:"
@@ -60,15 +60,15 @@ c_att_descs_3 "40% less DMG, 20% faster velocity. Ignites on hit. Based off amba
 c_att_skill_4 MB_ATT_THROWER
 c_att_names_4 "Requisitioned Arc Caster"
 c_att_ranks_4 5
-c_att_descs_4 "Shocks on hit. Based off thrower."
+c_att_descs_4 "Shocks on hit. 10% more DMG. Based off thrower."
 c_att_skill_5 MB_ATT_DEMP2
 c_att_names_5 "Disruptifying Blaster"
 c_att_ranks_5 5
-c_att_descs_5 "Electrifies on hit. 60% faster ROF, 70% slower velocity, 60% less DMG. Based off DEMP2."
-c_att_skill_6 MB_ATT_FLECHETTE
-c_att_names_6 "Ammonia Bombs"
+c_att_descs_5 "Electrifies on hit. 50% faster ROF, 70% slower velocity, 50% less DMG. Based off DEMP2."
+c_att_skill_6 MB_ATT_ROCKET_LAUNCHER
+c_att_names_6 "Heatseekers (Sec. Fire)"
 c_att_ranks_6 5
-c_att_descs_6 "Poisons on hit. Based off flechette."
+c_att_descs_6 "Poisons on hit. Based off RL."
 c_att_skill_7 MB_ATT_PULSE_GRENADES
 c_att_names_7 "Pulse Grenades:"
 c_att_ranks_7 2,2,2
@@ -197,6 +197,7 @@ WeaponName "Requisitioned Arc Caster"
 clipsize 40
 customammo 300
 hasAnimOverrides 1
+damageMod 1.5
 animReady BOTH_FORCE_2HANDEDLIGHTNING_START
 animReadyWalk BOTH_FORCE_2HANDEDLIGHTNING_START
 animReadyNoAmmo BOTH_FORCE_2HANDEDLIGHTNING
@@ -206,12 +207,12 @@ animAttackWalk BOTH_MAND_FLAME_READY
 }
 WeaponInfo6
 {
-WeaponToReplace WP_FLECHETTE
-WeaponBasedOff WP_FLECHETTE
-WeaponName "Ammonia Bombs"
-NewWorldModel "models/weapons2/blackegg/thermal_w.glm"
-NewViewModel "models/weapons2/blackegg/thermal_hand.md3"
-Icon "gfx/hud/w_icon_blackegg"
+WeaponToReplace WP_ROCKET_LAUNCHER
+WeaponBasedOff WP_MGL
+WeaponName "Ammonia Heatseekers"
+NewWorldModel "models/weapons2/mortar_launcher/mortar_launcher_w.glm"
+NewViewModel "models/weapons2/mortar_launcher/mortar_launcher.md3"
+Icon "gfx/hud/w_icon_mortar"
 AltMissileModel "models/weapons2/blackegg/thermal_proj.md3"
 altMissileEffect "hutt/toxic_breath"
 altMuzzleEffect null
@@ -221,28 +222,23 @@ MissileModel "models/weapons2/blackegg/thermal_proj.md3"
 MissileEffect "hutt/toxic_breath"
 MuzzleEffect null
 primFireEnabled 0
-clipSize 15
-customAmmo 30
-reloadTimeModifier 2
-hasAnimOverrides 1
-animReady BOTH_THERMAL_READY2
-animReadyWalk BOTH_THERMAL_READY2
-animReadyNoAmmo BOTH_TUSKENTAUNT1
-animAttack BOTH_THERMAL_THROW2
-animAttackWalk BOTH_THERMAL_THROW2
-animStand BOTH_THERMAL_READY2
+clipSize 2
+customAmmo 14
+damageMod 0.6
+reloadTimeModifier 4
+velocityMod 0.4
 }
 WeaponInfo7
 {
 WeaponToReplace WP_DEMP2
-WeaponBasedOff WP_BLASTER
+WeaponBasedOff WP_DEMP2
 NewWorldModel "models/weapons2/kotor_sonicrifle_w.glm"
 NewViewModel "models/weapons2/kotor_sonicrifle.md3"
 Icon "gfx/hud/w_icon_kotor_sonicrifle"
 WeaponName "Disruption Blaster"
 velocityMod 0.1
-damageMod 0.4
-rateMod 0.4
+damageMod 0.5
+rateMod 0.5
 customAmmo 220
 clipsize 20
 altfireenabled 0
