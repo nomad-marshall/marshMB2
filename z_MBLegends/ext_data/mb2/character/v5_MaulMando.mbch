@@ -24,6 +24,8 @@ ClassInfo
 	speed  1.03
 	gloatAnim BOTH_VICTORY_FAST
 	flourishAnim BOTH_VICTORY_FAST
+	WalkBackward BOTH_WALK_DUAL
+	WalkForward BOTH_WALKBACK_DUAL
 	model	"deathwatch"
 	skin		"mauldalorian"
 	uishader "models/players/deathwatch/mb2_icon_mauldalorian"
