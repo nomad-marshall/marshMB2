@@ -43,7 +43,7 @@ ClassInfo
 	
 	modelscale		1.17
 	//rankModelScale 	1.26,1.36,0.86
-	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_KNOCKBACK
+	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_KNOCKBACK|HELD_SLOW
 	WP_BowcasterFlags HELD_ALTRELOAD
 
 	gloatAnim 		BOTH_TUSKENTAUNT1
@@ -131,7 +131,7 @@ ClassInfo
 	c_att_names_7	"Guided Rocket Launcher (10)"
 	c_att_ranks_7	1
 	c_att_descs_7 "Pushes on direct hit, 75% more DMG, 50% slower RoF,
-100% slower mag reload"
+100% slower mag reload, 15% slower movement"
 
 	c_att_skill_8	MB_ATT_DMG_GIVEN_MULTIPLIER
 	c_att_names_8	"DMG Given (115%)"
