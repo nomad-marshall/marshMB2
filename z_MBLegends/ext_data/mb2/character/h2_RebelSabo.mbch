@@ -87,6 +87,9 @@ c_att_ranks_11 2,2,2
 c_att_skill_12 MB_ATT_FLIPKICK
 c_att_names_12 "Flipkick"
 c_att_ranks_12 5
+c_att_skill_13 MB_ATT_POWER
+c_att_names_13 "Force Pool (100/120)"
+c_att_ranks_13 2,3
 }
 WeaponInfo0
 {
