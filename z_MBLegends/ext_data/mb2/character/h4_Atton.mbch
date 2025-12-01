@@ -217,7 +217,7 @@ Icon	"gfx/hud/w_icon_kotor_drifle"
 WeaponName	"Charric"
 MissileEffect	"Blaster/Shot02Y"
 AltMissileEffect	"Blaster/Shot04Y"
-FlashSound0	"sound/weapons/kotor/fire_power1.mp3"
+FlashSound0	"sound/weapons/kotor/fire_power2.mp3"
 AltFlashSound0 "sound/weapons/amban_phase_rifle/fire.wav"
 FPMult	1.4
 rateMod	1.8
