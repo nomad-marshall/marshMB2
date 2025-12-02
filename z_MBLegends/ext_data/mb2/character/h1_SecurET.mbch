@@ -72,6 +72,10 @@ ClassInfo
 	model_6 			"nrmarine"
 	skin_6			"default"
 	uishader_6		"models/players/nrmarine/mb2_icon_default"
+
+	model_7 			"bespin_cop"
+	skin_7			"default"
+	uishader_7		"models/players/bespin_cop/mb2_icon_default"
 	
 	isCustomBuild		1
 	mbPoints			53

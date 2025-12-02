@@ -30,11 +30,16 @@ ClassInfo
 	uioverlay_l "gfx/icons/tactician"
 	uioverlay_r "gfx/icons/heavy"
 	uioverlay_c "gfx/icons/scout"
+
 	model 		"reelo"
 	skin  		"default"
 	uishader  	"models/players/reelo/mb2_icon_default"
+
+	model_1 		"reelo"
+	skin_1  		"xmas"
+	uishader_1  	"models/players/reelo/mb2_icon_xmas"
 	modelscale      	1.03
-	//respawncustomtime 		50000
+
 }
 
 WeaponInfo0

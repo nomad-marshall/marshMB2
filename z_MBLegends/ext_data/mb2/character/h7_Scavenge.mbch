@@ -90,6 +90,10 @@ ClassInfo
 	model_8		"uglynaught"
 	skin_8 		"base"
 	uishader_8 	"models/players/uglynaught/mb2_icon_base"
+	
+	model_9		"jawa"
+	skin_9	  "xmas"
+	uishader_9	"models/players/jawa/mb2_icon_xmas"
 }
 
 WeaponInfo0
