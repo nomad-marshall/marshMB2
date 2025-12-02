@@ -72,7 +72,7 @@ ClassInfo
 	uishader_3	"models/players/jawa/mb2_icon_tfu_r5"
 	
 	model_4		"jawa"
-	skin	_4		"tfu"
+	skin_4		"tfu"
 	uishader_4	"gfx/hud/fa_icons/mb2_icon_jawa_legends"
 	
 	model_5		"ugnaught"
@@ -90,8 +90,6 @@ ClassInfo
 	model_8		"uglynaught"
 	skin_8 		"base"
 	uishader_8 	"models/players/uglynaught/mb2_icon_base"
-	
-	//respawncustomtime 10000
 }
 
 WeaponInfo0
