@@ -170,6 +170,7 @@ WeaponInfo2
 	rateMod 8
 	damageMod 4
 	ReloadTimeModifier 2
+	velocityMod 1.2
 	clipsize	10
 	customAmmo	600
 }
