@@ -110,6 +110,14 @@ ClassInfo
 	model_13		"human_merc"
 	skin_13 		"default"
 	uishader_13 	"models/players/human_merc/mb2_icon_default"
+
+	model_14		"rodian"
+	skin_14 		"xmas"
+	uishader_14 	"models/players/rodian/mb2_icon_xmas"
+
+	model_15		"chiss"
+	skin_15 		"elf"
+	uishader_15 	"models/players/chiss/mb2_icon_elf"
 	
 	isCustomBuild		1
 	mbPoints			50

@@ -960,7 +960,7 @@ mission_legends
 	saberLength	18
 	saberRadius 6
 	animspeedscale	1.15
-	damageScale 	0.267
+	damageScale 	0.305
 	blasterblocking		0
 	noWallMarks	1
 	noDlight	1
@@ -1046,7 +1046,7 @@ vibroblade_mission_legends
 	disarmable	1
 	throwable	0	
 	saberLength	24
-	damageScale   0.455
+	damageScale   0.5
 	animspeedscale	1.05
 	blasterblocking		0
 	flourishAnim	BOTH_STAND1_TALK3

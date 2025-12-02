@@ -20,16 +20,17 @@ SubclassesForClass1
 	Subclass2	"h1_RebelET"
 	Subclass3	"h1_SecurET"
 	Subclass4	"h1_OldRepET"
-	Subclass5	"h1_TORtroop"
-	Subclass6	"h2_RebelSabo"
-	Subclass7	"h2_Padme"
-	Subclass8	"h2_JarJar"
-	Subclass9	"h2_Panaka"
-	Subclass10	"h2_JynE"
-	Subclass11	"h2_Han"
-	Subclass12	"h2_Lando"
-	Subclass13	"h2_Carth"
-
+	Subclass5 "h1_TORtroop"
+  Subclass6 "h1_Talz"
+  Subclass7 "h2_RebelSabo"
+	Subclass8	"h2_Padme" 
+	Subclass9	"h2_JarJar" 
+	Subclass10 "h2_Panaka"
+	Subclass11 "h2_JynE"
+	Subclass12	"h2_Han"
+	Subclass13	"h2_Lando"
+	Subclass14	"h2_JanO"
+	Subclass15	"h2_Carth"
 }
 
 SubclassesForClass2

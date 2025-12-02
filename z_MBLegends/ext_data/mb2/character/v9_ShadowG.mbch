@@ -10,7 +10,7 @@ ClassInfo
 	
 	attributes	MB_ATT_FORCEBLOCK,2|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_FP_REPULSE|MB_ATT_DEXTERITY,3
 
-	forcepowers	FP_SABER_OFFENSE,3|FP_SPEED,2|FP_LEVITATION,3
+	forcepowers	FP_SABER_OFFENSE,3|FP_SPEED,2|FP_LEVITATION,3|FP_PUSH,1
 	resource RESOURCE_FORCE
 	forcepool	100
 	forceregen 1.02
@@ -56,7 +56,7 @@ mbPoints	5
 
 	c_att_skill_2	MB_ATT_FP_PUSH
 	c_att_names_2	"Force Push"
-	c_att_ranks_2	1,0
+	c_att_ranks_2	0,1
 
 	c_att_skill_3	MB_ATT_FP_LIGHTNING
 	c_att_names_3	"Force Lightning ^3[CS4]"
@@ -99,6 +99,7 @@ Force users with high flexibility.
 
 ^5Force Powers:
 - Jump (3)
+- Push (1)
 - Speed (2)
 - Repulse ^3[CS3 Melee]
 

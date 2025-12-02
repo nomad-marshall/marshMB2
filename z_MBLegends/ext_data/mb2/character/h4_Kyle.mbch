@@ -64,18 +64,24 @@ ClassInfo
 	model_4		"ib-merc_kyle"
 	skin_4		"default"
 	uishader_4	"models/players/ib-merc_kyle/mb2_icon_default"
+
+	model_5		"santakyle"
+	skin_5			"default"
+	uishader_5		"models/players/santakyle/mb2_icon_default"
+
+	saber1			Katarn
+	sabercolor		4	
 	
 	saber1_1			saber_qu_rahn
 	sabercolor_1		3
 	
 	saber1_2			saber_yun
 	sabercolor_2		2
-	
-	saber1			Katarn
-	sabercolor		4	
+
+	saber1_3			cc_leg
+	sabercolor_3		4	
 	
 	mbPoints			100
-	//respawncustomtime  50000
 	
 c_att_skill_0       MB_ATT_FP_SABER_DEFENSE
 c_att_names_0       "Saber Defense"

@@ -1015,7 +1015,7 @@ talz_spear
 	soundLoop	null
 	soundOff		"sound/weapons/wood/sheath.mp3"
 	saberLength	40
-	saberRadius	3
+	saberRadius	4
 	twohanded	1
 	throwable	1
 	noWallMarks	1

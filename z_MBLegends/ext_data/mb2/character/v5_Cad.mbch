@@ -57,7 +57,7 @@ WeaponInfo0
 	FlashSound0		"sound/chars/cadbane/misc/cadblast" 			
 	AltFlashSound0	"sound/chars/cadbane/misc/cadblast"
 	//ChargeSound		"sound/weapons/bryar/altcharge.mp3"
-	MuzzleEffect		"Blaster/MuzzleCharge01R"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
 	AltMuzzleEffect	"Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot02r"
 	Missile3Effect	"Blaster/Shot04r"
