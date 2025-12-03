@@ -13,7 +13,7 @@ ice_spider
 	rank		crewman
 	playerTeam	TEAM_FREE
 	enemyTeam	TEAM_FREE
-	class		CLASS_ICE_SPIDER
+	class		CLASS_RANCOR
 	height	70
 	crouchheight 	40
 	width		25
