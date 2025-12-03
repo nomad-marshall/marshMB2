@@ -66,21 +66,21 @@ ClassInfo
 	skin_6		"rebel_jacket"					 
 	uishader_6	"models/players/gwethenea/mb2_icon_rebel_jacket"	
 
-	model_7		"rebel_partisan"
-	skin_7 		"elite_legends"
-	uishader_7 	"models/players/rebel_partisan/mb2_icon_elite"	
+	model_7		"jedi_hm"
+	skin_7 		"hothelite2"
+	uishader_7 	"models/players/jedi_hm/mb2_icon_hothelite2"	
 	
 	model_8		"jedi_hm" 				 
-	skin_8		"hothelite2"					 
-	uishader_8	"models/players/jedi_hm/mb2_icon_hothelite2"
+	skin_8		"hothelite4"					 
+	uishader_8	"models/players/jedi_hm/mb2_icon_hothelite4"
 	
 	model_9		"jedi_hf" 				 
 	skin_9		"hoth"					 
 	uishader_9	"models/players/jedi_hf/mb2_icon_hoth"
-
-	model_10	"jedi_tf"
-	skin_10	"hoth_rgb"
-	uishader_10"models/players/jedi_tf/mb2_icon_hoth_rgb"
+	
+	model_10	                "jedi_tf" 				 
+	skin_10		"hoth_rgb"					 
+	uishader_10	"models/players/jedi_tf/mb2_icon_hoth_rgb"
 	userRGB_10	1
 	customred_10 0
 	customgreen_10 0.59
