@@ -3,7 +3,6 @@
 ClassInfo
 {
 	name				"v8_Wampa"
-	classNumberLimit	2
  extralives 1
 	MBClass 			MB_CLASS_WOOKIE
 
@@ -140,7 +139,7 @@ A wild beast looking for its next meal. Not a particularly picky eater.
 - Fury (1)
 - Healing (3)
 - Physical Resist
-- Flat Damage Taken
+- Flat DMG Taken
 
 ^3Abilities:
 - Lunge (Barge) ^3[CS2 Melee]"
