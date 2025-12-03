@@ -93,7 +93,7 @@ WeaponInfo1
 	animAttack BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
 	animStand BOTH_STAND5
-	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+	MuzzleEffect			"blaster/MuzzleFlash01B"
 	MissileEffect		"arc_caster/ArcCasterShock"
  	MissileHitHumanEffect	"SBD/Cortosis_blue"
 	MissileHitDroidEffect	"SBD/Cortosis_blue"
