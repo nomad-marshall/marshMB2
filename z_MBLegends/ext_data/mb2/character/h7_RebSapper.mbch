@@ -124,7 +124,7 @@ ForceToReplace FP_LIGHTNING
 Icon "gfx/forcepowers/lightning"
 ForcePowerName "Wrist Shocker"
 StartSound "sound/ambience/kotor/console03.mp3"
-LoopSound "null"
+LoopSound null
 }
 
 ForceInfo1

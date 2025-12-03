@@ -82,9 +82,6 @@ WeaponInfo1
 	DisruptorBeam2 "gfx/beam/superlaserpulse"
 	muzzleEffect "gfx/effects/greenfrontflash"
 	altMuzzleEffect "gfx/effects/greenfrontflash"
-	MissileMissEffect "gfx/effects/greenfrontflash"
-	MissileHitHumanEffect "gfx/effects/greenfrontflash"
-	MissileHitDroidEffect "gfx/effects/greenfrontflash"
 	ReloadTimeModifier  0.9
 	damageMod 1.2
 	rateMod 0.95

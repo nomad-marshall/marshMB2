@@ -87,7 +87,7 @@ WeaponInfo1
 	FlashSound0 		"sound/300/wpn_bow_fire_01.wav"
 	FlashSound1 		"sound/300/wpn_bow_fire_02.wav"
 	FlashSound2 		"sound/300/wpn_bow_fire_03.wav"
-	MuzzleEffect  	"null"
+	MuzzleEffect  	null
 	MissileModel  	"models/weapons2/dc_gabow/greenarrow_arrow.md3"
 	MissileEffect 	"bow/whoosh"
 	MissileMissEffect	"dc/explosion"
