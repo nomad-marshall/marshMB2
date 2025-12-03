@@ -104,7 +104,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/jawa_blaster/model.md3" 
 	Icon				"gfx/hud/w_icon_jawablaster" 				 
 	WeaponName			"Ion Blaster"    				 
-	MuzzleEffect		"arc_caster/ArcCasterMuzzle"
+	MuzzleEffect		"blaster/MuzzleFlash01B"
 	MissileEffect		"arc_caster/ArcCasterShock"
    	MissileHitHumanEffect	"SBD/Cortosis_blue"
 	MissileHitDroidEffect	"SBD/Cortosis_blue"

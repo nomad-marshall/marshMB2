@@ -61,7 +61,7 @@ WeaponInfo1
 	WeaponBasedOff		WP_T21
 	NewWorldModel		"models/weapons/W-90_Concussion/w-90_w.glm"
 	NewViewModel		"models/weapons/W-90_Concussion/w-90.md3"
-	MuzzleEffect		"mini_concussion/muzzle_flash"
+	MuzzleEffect		"concussion/muzzle_flash"
 	FlashSound0			"sound/weapons/base_conc/fire.wav"
 	MissileEffect		"concussion/shot"
 	ALTMissileEffect	"concussion/shot"
