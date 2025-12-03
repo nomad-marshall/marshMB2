@@ -32,7 +32,7 @@ resourceRegenCap 50
 resourceRegenAmount 1
 resourceRegenRate 5000
 WP_E22Flags HELD_ALTRELOAD
-WP_BlasterFlags HELD_ALTRELOAD
+WP_BlasterFlags HELD_ALTRELOAD|HELD_IGNOREBLOCK
 WP_DLT20AFlags HELD_ALTRELOAD
 WP_BlasterPistolFlags HELD_ALTRELOAD
 WP_ProjFlags HELD_ALTRELOAD|HELD_DISRUPTIFY
@@ -64,7 +64,7 @@ c_att_descs_2 "15% less dmg,10% more velocity""
 c_att_skill_3 MB_ATT_BLASTER
 c_att_names_3 "Throwing Knives"
 c_att_ranks_3 1
-c_att_descs_3 "10% more dmg,50% less ROF"
+c_att_descs_3 "Ignores block"
 c_att_skill_4 MB_ATT_THROWER
 c_att_names_4 "Kelborn Arc Caster"
 c_att_ranks_4 1
@@ -235,7 +235,7 @@ animAttackWalk BOTH_THERMAL_THROW2
 animStand BOTH_THERMAL_READY2
 clipSize 6
 customAmmo 48
-rateMod 1.6
+rateMod 2
 damageMod 1.1
 primGore 1
 }
