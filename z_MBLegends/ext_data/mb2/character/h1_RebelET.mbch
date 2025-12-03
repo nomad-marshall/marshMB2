@@ -74,8 +74,8 @@ ClassInfo
 	uishader_11 "models/players/rebel_commando/mb2_icon_duros_hoth"
 	
 	model_12	"rebel_commando"
-	skin_12  	"bith"
-	uishader_12 "models/players/rebel_commando/mb2_icon_bith"
+	skin_12  	"bith_scarif"
+	uishader_12 "models/players/rebel_commando/mb2_icon_bith_scarif"
 	
 	model_13	"rebel_commando"
 	skin_13  	"bith_hoth"
@@ -86,12 +86,12 @@ ClassInfo
 	uishader_14 "models/players/rebel_commando/mb2_icon_aqualish"
 	
 	model_15	"rebel_commando"
-	skin_15   	"aqualish_hoth"
-	uishader_15 "models/players/rebel_commando/mb2_icon_aqualish_hoth"
+	skin_15   	"quarren"
+	uishader_15 "models/players/rebel_commando/mb2_icon_quarren"
 	
 	model_16	"rebel_commando"
-	skin_16		"gotal"
-	uishader_16 "models/players/rebel_commando/mb2_icon_gotal"
+	skin_16		"nikto_desert"
+	uishader_16 "models/players/rebel_commando/mb2_icon_nikto_desert"
 	
 	model_17	"rebel_commando"
 	skin_17		"gotal_hoth"
@@ -104,14 +104,14 @@ ClassInfo
 	model_19	"rebel_commando"
 	skin_19 	"snivvian_hoth"
 	uishader_19 "models/players/rebel_commando/mb2_icon_snivvian_hoth"
-
-	model_20	"jedi_tf"
-	skin_20 	"hoth_rgb"
-	uishader_20 "models/players/jedi_tf/mb2_icon_hoth_rgb"
-	userRGB_20 	1
-	customred_20 0
-	customgreen_20 0.59
-	customblue_20 0.69
+	
+	model_20	"rebel_partisan"
+	skin_20 	"default"
+	uishader_20 "models/players/rebel_partisan/mb2_icon_default"
+	
+	model_21	"rebel_heavy"
+	skin_21 	"default"
+	uishader_21 "models/players/rebel_heavy/mb2_icon_default"
 
 	
 	isCustomBuild	1
