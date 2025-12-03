@@ -11,8 +11,12 @@ ClassInfo
 
 	model			"player_hutt"
 	skin				"default"
-	uishader			"models/players/jabba/mb2_icon_jabba"
-	
+	uishader			"models/players/player_hutt/mb2_icon_jabba"
+
+		model_1		"player_hutt"
+	skin_1				"santa"
+	uishader_1		"models/players/player_hutt/mb2_icon_santa"
+
 	MBClass				MB_CLASS_WOOKIE
 	forcepool           100
 	resource				RESOURCE_RAGE
@@ -41,7 +45,9 @@ ClassInfo
 	saber1 bardiche_jabba_legends
 	saberstyle SS_STRONG
 	sabercolor 1
-	
+	saber1_1 cc_legj
+	saberstyle_1 SS_STRONG
+	sabercolor_1 1
 	uioverlay "gfx/icons/brawler"
 	
 	SaberStanceAnim BOTH_TAVION_STANCE
