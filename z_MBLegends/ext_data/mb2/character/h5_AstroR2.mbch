@@ -128,8 +128,8 @@ ForceInfo1
 	Icon		"gfx/hud/Alpha/HUD_RadarCone"
 	ForcePowerName	"Steam Projector"
 	ConeEffect	"effects/volumetric/smoke_white_leg.efx"
-	StartSound 		"null"
-	LoopSound 		"null"
+	StartSound 		null
+	LoopSound 	null
 }
 
 ForceInfo2

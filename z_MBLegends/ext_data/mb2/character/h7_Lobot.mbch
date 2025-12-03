@@ -97,7 +97,7 @@ ForceInfo0
 	MissileMissEffect		"effects/tripmine/explosion"
 	MissileHitHumanEffect "effects/tripmine/explosion"
 	MissileHitDroidEffect	"effects/tripmine/explosion"
-	MuzzleEffect				"stone/muzzle1"
+	MuzzleEffect			null
 	velocityMod 0.001
 	rateMod 2
 	ClipSize 8

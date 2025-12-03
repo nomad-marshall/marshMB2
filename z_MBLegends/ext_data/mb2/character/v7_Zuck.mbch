@@ -99,7 +99,7 @@ WeaponInfo2
 	WeaponName			"GRS-1 Snare Rifle"
 	MissileMissEffect	"SBD/cortosis_blue"
 	MissileEffect		"SBD/cortosis_blue"				
-	MuzzleEffect		"null" 	
+	MuzzleEffect		null
 	FlashSound0		"sound/underground/steamPushfast.mp3"
 	CustomAmmo           22
 	clipsize				2

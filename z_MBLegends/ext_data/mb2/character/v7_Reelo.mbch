@@ -57,11 +57,11 @@ WeaponInfo0
 	ReloadTimeModifier 		2
 	altfireenabled			1
 	rateMod 0.3
-	MuzzleEffect "null"
+	MuzzleEffect null
 	MissileMissEffect        "Grenades/EXP_Alt"
     MissileHitHumanEffect    "Grenades/EXP_Alt"
     MissileHitDroidEffect    "Grenades/EXP_Alt"
-	altMuzzleEffect "null"
+	altMuzzleEffect null
 	altMissileMissEffect        "Grenades/EXP_Alt"
     altMissileHitHumanEffect    "Grenades/EXP_Alt"
 	altMissileHitDroidEffect    "Grenades/EXP_Alt"

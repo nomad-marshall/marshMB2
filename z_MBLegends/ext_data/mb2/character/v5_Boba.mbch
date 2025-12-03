@@ -102,7 +102,7 @@ WeaponInfo1
 	animAttack BOTH_ATTACK2
 	animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1 //lower
-	MuzzleEffect "null"
+	MuzzleEffect null
 	ReloadTimeModifier  1.4
 }
 
