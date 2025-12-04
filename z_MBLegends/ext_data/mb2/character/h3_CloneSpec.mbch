@@ -57,7 +57,7 @@ c_att_names_0	"DC-15S Clone Carbine"
 c_att_ranks_0	2,1,1
 c_att_skill_1	MB_ATT_CLONERIFLE
 c_att_names_1	"DC-15A Clone Rifle"
-c_att_ranks_1	4,6,15
+c_att_ranks_1	4,6,18
 c_att_descs_1 "6 Conc/Ion Blobs"
 c_att_skill_2	MB_ATT_THROWER
 c_att_names_2	"BT X-42 Flamethrower"

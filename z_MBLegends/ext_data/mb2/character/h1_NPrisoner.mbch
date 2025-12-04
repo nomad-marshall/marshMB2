@@ -92,7 +92,6 @@ WeaponInfo0
 	WeaponName		"Melee"
 	primFireEnabled		1
 	AltFireEnabled 		1
-	damageMod .9
 	rateMod 0.95
 }
 
@@ -102,7 +101,6 @@ description "Narkina 5 Prisoner [Clone Trooper]
 
 ^2Weaponry:
 - Melee
--- 10% less DMG
 -- 5% faster RoF
 
 ^8Attributes:
