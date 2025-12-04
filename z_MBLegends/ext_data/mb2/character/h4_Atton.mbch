@@ -34,7 +34,7 @@ rankBP	1,1.2
 rankAS	1.12
 CSmultiplier	1.05
 rankCS	1.12
-rankROFMelee 0.8
+rankROFMelee .8
 uioverlay_r "gfx/icons/hybrid"
 uioverlay_l "gfx/icons/heavy"
 model "atton"
