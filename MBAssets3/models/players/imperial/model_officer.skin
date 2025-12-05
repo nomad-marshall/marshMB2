@@ -17,32 +17,32 @@ head_hat,models/players/hs_imperial/head-black.tga
 helmet_lower,*off
 helmet_lower_a,*off
 
-cylinder_1x1,models/players/imperial/torso_veers.tga
+cylinder_1x1,models/players/imperial/torso_black.tga
 cylinder_1x3,*off
 cylinder_2x1,*off
 cylinder_2x2,*off
 
-torso,models/players/imperial/torso_veers.tga
+torso,models/players/imperial/torso_black.tga
 torso_chest_heavy,*off
 torso_chest_heavy_augment,*off
 torso_rank_2x6,*off
 torso_extras,*off
-l_arm,models/players/imperial/torso_veers.tga
+l_arm,models/players/imperial/torso_black.tga
 l_arm_key,*off
 l_arm_pocket,*off
-l_hand,models/players/imperial/torso_veers.tga
-r_arm,models/players/imperial/torso_veers.tga
-r_hand,models/players/imperial/torso_veers.tga
+l_hand,models/players/imperial/torso_black.tga
+r_arm,models/players/imperial/torso_black.tga
+r_hand,models/players/imperial/torso_black.tga
 
-hips,models/players/imperial/torso_veers.tga
+hips,models/players/imperial/torso_black.tga
 hips_armor,*off
-hips_belt,models/players/imperial/torso_veers.tga
-hips_holster,models/players/imperial/hips_legs_veers_cull.tga
+hips_belt,models/players/imperial/torso_black.tga
+hips_holster,models/players/imperial/hips_legs_black_cull.tga
 hips_grenades,*off
-hips_legs,models/players/imperial/hips_legs_veers.tga
+hips_legs,models/players/imperial/hips_legs_black.tga
 hips_legs2,*off
-l_leg,models/players/imperial/hips_legs_veers.tga
-r_leg,models/players/imperial/hips_legs_veers.tga
+l_leg,models/players/imperial/hips_legs_black.tga
+r_leg,models/players/imperial/hips_legs_black.tga
 
 rank_1x4,*off
 rank_1x6,*off
