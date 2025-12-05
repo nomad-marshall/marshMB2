@@ -181,7 +181,7 @@ description	"Imperial Specialist [Clone Trooper]
 -- Concussion/Ion Blobs (6)
 
 ^6Inventory:
-- Kolto (Gradual 50 HP) ^3[CS3]
+- Medpac ^3[CS3]
 - Portable E-Web Cannon
 -- Pushes on hit
 - Assault Sentry
