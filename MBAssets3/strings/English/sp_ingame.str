@@ -348,7 +348,7 @@ REFERENCE           WEAPON_BRYAR_PISTOL
 LANG_ENGLISH        "Bryar Blaster Pistol"
 
 REFERENCE           WEAPON_BLASTER
-LANG_ENGLISH        "E11-Blaster Rifle"
+LANG_ENGLISH        "E-11 Blaster Rifle"
 
 REFERENCE           WEAPON_DISRUPTOR
 LANG_ENGLISH        "Tenloss DXR-6 Disruptor rifle"
@@ -363,7 +363,7 @@ REFERENCE           WEAPON_DEMP2
 LANG_ENGLISH        "Destructive Electro-Magnetic Pulse 2 Gun"
 
 REFERENCE           WEAPON_FLECHETTE
-LANG_ENGLISH        "Golan Arms FC1 Flechette Weapon"
+LANG_ENGLISH        "Golan Arms FC-1 Flechette Weapon"
 
 REFERENCE           WEAPON_ROCKET_LAUNCHER
 LANG_ENGLISH        "Merr-Sonn PLX-2M Portable Missile System"
@@ -381,22 +381,22 @@ REFERENCE           ITEM_BINOCULARS
 LANG_ENGLISH        "Neuro-Saav Model TD2.3 Electrobinoculars"
 
 REFERENCE           ITEM_BACTA
-LANG_ENGLISH        "BioTech Bacta Canister"
+LANG_ENGLISH        "Medpac"
 
 REFERENCE           ITEM_SEEKER
 LANG_ENGLISH        "Seeker Drone"
 
 REFERENCE           ITEM_SPAWNER
-LANG_ENGLISH        "Sentry Droid"
+LANG_ENGLISH        "Support Beacon"
 
 REFERENCE           ITEM_STIMPACK
-LANG_ENGLISH        "Stimpack"
+LANG_ENGLISH        "Stimpak"
 
 REFERENCE           ITEM_LA_GOGGLES
 LANG_ENGLISH        "Light Amplification Goggles"
 
 REFERENCE           ITEM_SENTRY_GUN
-LANG_ENGLISH        "Portable Assault Sentry"
+LANG_ENGLISH        "Assault Sentry"
 
 REFERENCE           WEAPON_ATST_MAIN
 LANG_ENGLISH        "ATST Main Cannon"
@@ -724,10 +724,10 @@ REFERENCE           AMMO_ALL
 LANG_ENGLISH        "Ammo Dispenser"
 
 REFERENCE           ITEM_MEDPAC_BIG
-LANG_ENGLISH        "Big Bacta"
+LANG_ENGLISH        "Advanced Medpac"
 
 REFERENCE           ITEM_EWEB_HOLDABLE
-LANG_ENGLISH        "E-Web"
+LANG_ENGLISH        "Portable E-Web Cannon"
 
 REFERENCE           ITEM_CLOAK
 LANG_ENGLISH        "Cloak"
