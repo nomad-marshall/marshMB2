@@ -18,7 +18,7 @@ ClassInfo
 	classflags		CFL_HASQ3|CFL_MORESABERDMG
 	classNumberLimit	1
 	forcepool		120
-	forceregen		2.5
+	forceregen		1.7
 }
 
 description	"Qui-Gon Jinn

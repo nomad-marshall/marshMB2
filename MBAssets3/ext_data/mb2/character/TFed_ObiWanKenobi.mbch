@@ -17,7 +17,7 @@ ClassInfo
 	uishader		"models/players/obiwan_ep1/mb2_icon_robed"
 	MBClass			MB_CLASS_JEDI
 	speed			1.1
-	forceregen		2.5
+	forceregen		1.7
 	classflags		CFL_HASQ3|CFL_MORESABERDMG
 	classNumberLimit	1
 }
@@ -38,7 +38,7 @@ Saber Defense (3)
 Saber Deflect (3)
 
 Abilities:
+Heal (1)
 Can heal Qui-Gon - Hold use on Qui-Gon to heal him
-Self Healing (3)
 
 A dedicated and legendary Jedi Knight, Obi-Wan Kenobi has had a long and tumultuous career that has helped shape the fate of an entire galaxy. When he was 25 standard years old, he was caught up in the important events of the Battle of Naboo. At the time he was a Padawan learner, apprenticed to Jedi Master Qui-Gon Jinn."
