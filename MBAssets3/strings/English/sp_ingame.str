@@ -381,7 +381,7 @@ REFERENCE           ITEM_BINOCULARS
 LANG_ENGLISH        "Neuro-Saav Model TD2.3 Electrobinoculars"
 
 REFERENCE           ITEM_BACTA
-LANG_ENGLISH        "Medpac"
+LANG_ENGLISH        "BioTech Bacta Canister"
 
 REFERENCE           ITEM_SEEKER
 LANG_ENGLISH        "Seeker Drone"
@@ -644,7 +644,7 @@ LANG_ENGLISH        "Lightsaber Combat Style: Tavion"
 
 REFERENCE           ITEM_MEDPAC
 NOTES               "MP version of ITEM_BACTA"
-LANG_ENGLISH        "BioTech Bacta Canister"
+LANG_ENGLISH        "Medpac"
 
 REFERENCE           ITEM_SHIELD
 NOTES               "MP force field item"
