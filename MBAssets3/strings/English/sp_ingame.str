@@ -730,7 +730,7 @@ REFERENCE           ITEM_EWEB_HOLDABLE
 LANG_ENGLISH        "Portable E-Web Cannon"
 
 REFERENCE           ITEM_CLOAK
-LANG_ENGLISH        "Cloak"
+LANG_ENGLISH        "Cloaking Device"
 
 REFERENCE           FAST_STYLE
 LANG_ENGLISH        "Fast Style\n\nFast and efficient, but with limited range.  Short, quick motions allow for multiple attacks but with minimum damage.  This style can be chained indefinitely.  It utilizes a defensive stance in which the Jedi holds his saber across his front in a ready position to fend off attacks or make quick jabs.   Represented by a blue bar on the right side of the HUD."
