@@ -64,7 +64,7 @@ WeaponInfo1
 	MuzzleEffect		"concussion/muzzle_flash"
 	FlashSound0			"sound/weapons/base_conc/fire.wav"
 	MissileEffect		"concussion/shot"
-	ALTMissileEffect	"concussion/shot"
+	AltMissileEffect	"concussion/shot"
 	Missile3Effect		"concussion/shot"
 	PowerupShotEffect	"concussion/shot"
 	MissileMissEffect "concussion/alt_hit"
@@ -99,7 +99,7 @@ WeaponInfo2
 	WeaponName			"GRS-1 Snare Rifle"
 	MissileMissEffect	"SBD/cortosis_blue"
 	MissileEffect		"SBD/cortosis_blue"				
-	MuzzleEffect		null
+	MuzzleEffect	 null
 	FlashSound0		"sound/underground/steamPushfast.mp3"
 	CustomAmmo           22
 	clipsize				2
@@ -144,8 +144,8 @@ WeaponInfo3
 	customAmmo 30
 	reloadTimeModifier 2
 	hasAnimOverrides 1
-	animReady BOTH_WALK6
-	animReadyWalk BOTH_WALK6
+	animReady BOTH_STAND10
+	animReadyWalk BOTH_STAND10
 	animReadyNoAmmo BOTH_A6_LR
 	animAttack BOTH_A6_LR
 	animAttackWalk BOTH_A6_LR

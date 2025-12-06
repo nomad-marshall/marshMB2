@@ -1089,6 +1089,7 @@ slight_leg
 	blasterblocking 0
 	tauntanim BOTH_ENGAGETAUNT
 	gloatAnim BOTH_VICTORY_FAST
+hitOtherEffect "beskar/beskar_sparks_projectile"
 }
 
 vibroaxe_snoova

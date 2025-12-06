@@ -963,6 +963,7 @@ r2_saw_leg
 
 	blockEffect	"melee_weap/block"
  	hitPersonEffect "melee_weap/attack"
+ hitOtherEffect "beskar/beskar_sparks_saber"
 	useGoreConfig 1
 	useGoreConfig2 1
 
