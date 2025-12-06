@@ -1026,7 +1026,7 @@ wookiee_shield_leg
 	swingSound3		"sound/weapons/tusken_staff/swing3.mp3"
 	swingSound4		"sound/weapons/tusken_staff/swing4.mp3"
 	soundOn			"sound/weapons/tusken_staff/swing1.mp3"
-	soundLoop		"sound/weapons/tusken_staff/null.wav"
+	soundLoop		null
 	soundOff		"sound/weapons/tusken_staff/catch.mp3"
 }
 

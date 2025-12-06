@@ -95,7 +95,7 @@ WeaponInfo1
 	AltFlashSound0			"sound/weapons/rocket/alt_fire.mp3" 	
 	Icon  				"gfx/hud/w_icon_a180_ion"
 	WeaponName  		"A180 Ion Attachment"
-	ChargeEffect		"gfx/effects/cmuzzle"	
+	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	clipSize 			4
 	CustomAmmo 			38
 	ReloadTimeModifier 	1.75

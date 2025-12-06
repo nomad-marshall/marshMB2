@@ -167,7 +167,6 @@ WeaponInfo3
 	PowerupShotEffect		"Blaster/Shot04B" 
 	missileEffect "Blaster/Shot02B"
 	altMissileEffect "Blaster/Shot02B"
-	Missle3Effect "Blaster/Shot06B"
 	hasAnimOverrides 1
 	animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2

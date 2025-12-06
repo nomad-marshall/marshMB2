@@ -209,7 +209,7 @@ MissileMissEffect	"noghri_stick/gas_cloud"
 MissileHitHumanEffect	"noghri_stick/gas_cloud"
 MissileHitDroidEffect	"noghri_stick/gas_cloud"
 MissileEffect	"noghri_stick/shot"
-MuzzleEffect	"noghri_stick/muzzle_flash"
+MuzzleEffect	"Blaster/MuzzleFlash01G"
 FPMult 1.25
 clipSize 10
 damageMod 1.25

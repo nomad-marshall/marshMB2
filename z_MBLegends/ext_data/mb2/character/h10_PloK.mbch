@@ -95,9 +95,9 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
 	MuzzleEffect  	"effects/concussion/muzzle_flash"
 	MissileEffect 		"effects/demp2/projectile"
-	MissileMissEffect "effects/impacts/impactmediumblue3"
-	MissileHitHumanEffect "effects/impacts/impactmediumblue3"
-	MissileHitDroidEffect "effects/impacts/impactmediumblue3"
+	MissileMissEffect "repeater/concussion"
+	MissileHitHumanEffect "repeater/concussion"
+	MissileHitDroidEffect "repeater/concussion"
 	FlashSound0		"sound/weapons/impacts/hit15.wav"
 	altFlashSound0 "sound/weapons/impacts/hit15.wav"
 	isMinigun			0

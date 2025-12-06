@@ -54,7 +54,7 @@ WeaponInfo0
 	NewViewModel	"models/weapons2/doombgalak/c_rifle.md3"
 	Icon		"gfx/doom_wpicons/w_icon_arm"
 	WeaponName	"Repeater Arm Blaster"
-	MuzzleEffect	"repeater/muzzle_flash"
+	MuzzleEffect	"Blaster/MuzzleFlash01Y"
 	MissileEffect	"repeater/projectile"
 	altMissileMissEffect	"SBD/impact_cannon"
 	hasAnimOverrides 1
