@@ -26,12 +26,12 @@ WeaponInfo0
 	WeaponName		"DE-10 Blaster Pistol"
 	FlashSound0		"sound/weapons/de10/fire.wav"
 	AltFlashSound0 		"sound/weapons/de10/alt_fire.wav"
-	MuzzleEffect		"DE-10/muzzle_flash"
-	AltMuzzleEffect		"DE-10/altmuzzle_flash"
-	MissileEffect		"DE-10/shot"
-	Missile3Effect		"DE-10/shot"
-	AltMissileEffect	"DE-10/shot"
-	PowerupShotEffect	"DE-10/shot"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/shot03b"
+	Missile3Effect		"blaster/shot03b"
+	AltMissileEffect	"blaster/shot03b"
+	PowerupShotEffect	"blaster/shot03b"
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	customAmmo 		600
 }
