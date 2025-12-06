@@ -43,8 +43,6 @@ WeaponInfo0
 	WeaponName		"GX-102"
 	FlashSound0		"sound/weapons/base_conc/fire.wav"
 //	AltFlashSound0	    	"sound/weapons/MWC-35c/alt_fire.mp3"
-	MissileEffect    	"Blaster/Shot12R"
-  	AltMissleEffect 	"Blaster/Shot12R"
 //	clipSize 100
 //	CustomAmmo 200
 	AltFireEnabled 		0

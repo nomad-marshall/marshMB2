@@ -58,8 +58,8 @@ WeaponInfo1
 	WeaponBasedOff		WP_DISRUPTOR
 	NewWorldModel		"models/weapons2/halo_beamrifle/beam_rifle.glm"
 	NewViewModel		"models/weapons2/halo_beamrifle/beam_rifle.md3"
-	MuzzleEffect		"halo_beamrifle/muzzle_flash"
-	AltMuzzleEffect		"halo_beamrifle/altmuzzle_flash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"halo_beamrifle/projectile"
 	AltMissileEffect	"halo_beamrifle/projectile"
 	PowerupShotEffect	"halo_beamrifle/projectile"

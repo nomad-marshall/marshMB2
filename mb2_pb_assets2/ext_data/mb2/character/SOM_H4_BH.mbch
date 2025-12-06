@@ -39,12 +39,12 @@ WeaponInfo0
 	WeaponName		"Glie-44 Blaster Pistol"    					//Required: Weapon change display name
 	FlashSound0		"sound/weapons/Glie-44/fire.wav"
 	AltFlashSound0 		"sound/weapons/Glie-44/alt_fire.wav"
-	MuzzleEffect		"DE-10/muzzle_flash"	   				//Optional: New muzzle effect
-	AltMuzzleEffect		"DE-10/altmuzzle_flash" 					//Optional: New alt muzzle effect
-	MissileEffect		"DE-10/shot"  					//Optional: New effect to be displayed on the projectile
-	Missile3Effect		"DE-10/shot"  					//Optional: New effect to be displayed on the projectile
-	AltMissileEffect	"DE-10/shot"  					//Optional: Ditto for the alt fire
-	PowerupShotEffect	"DE-10/shot"  					//Optional: Ditto for the alt fire
+	MuzzleEffect		"Blaster/MuzzleFlash01B"	   				//Optional: New muzzle effect
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B" 					//Optional: New alt muzzle effect
+	MissileEffect		"blaster/shot03b" 					//Optional: New effect to be displayed on the projectile
+	Missile3Effect		"blaster/shot03b" 					//Optional: New effect to be displayed on the projectile
+	AltMissileEffect	"blaster/shot03b" 					//Optional: Ditto for the alt fire
+	PowerupShotEffect	"blaster/shot03b" 					//Optional: Ditto for the alt fire
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 }
 

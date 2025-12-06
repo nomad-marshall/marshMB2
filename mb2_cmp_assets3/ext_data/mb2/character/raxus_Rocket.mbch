@@ -28,8 +28,6 @@ WeaponInfo0
 	WeaponName		"Modified Concussion Rifle"
 	FlashSound0		"sound/weapons/base_conc/fire.wav"
 	AltFlashSound0		"sound/weapons/base_conc/fire.wav"
-	MissileEffect    	"Blaster/Shot12R"
-  	AltMissleEffect 	"Blaster/Shot12R"
 }
 
 description	"Enhanced Rocketrooper
