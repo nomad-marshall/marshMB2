@@ -318,20 +318,6 @@ models/players/rebel_guerilla/backpack
     }
 }
 
-models/players/rebel_guerilla/backpackb
-{
-    {
-        map models/players/rebel_guerilla/backpackb
-        rgbGen lightingDiffuse
-    }
-    {
-        map models/players/rebel_guerilla/backpack_s
-        blendFunc GL_SRC_ALPHA GL_ONE
-        alphaGen lightingSpecular
-	detail
-    }
-}
-
 models/players/rebel_guerilla/head
 {
     {
@@ -388,38 +374,10 @@ models/players/rebel_guerilla/legs_boots
     }
 }
 
-models/players/rebel_guerilla/legs_bootsb
-{
-    {
-        map models/players/rebel_guerilla/legs_bootsb
-        rgbGen lightingDiffuse
-    }
-    {
-        map models/players/rebel_guerilla/legs_boots_s
-        blendFunc GL_SRC_ALPHA GL_ONE
-        alphaGen lightingSpecular
-	detail
-    }
-}
-
 models/players/rebel_guerilla/torso
 {
     {
         map models/players/rebel_guerilla/torso
-        rgbGen lightingDiffuse
-    }
-    {
-        map models/players/rebel_guerilla/torso_s
-        blendFunc GL_SRC_ALPHA GL_ONE
-        alphaGen lightingSpecular
-	detail
-    }
-}
-
-models/players/rebel_guerilla/torsob
-{
-    {
-        map models/players/rebel_guerilla/torsob
         rgbGen lightingDiffuse
     }
     {
@@ -459,21 +417,6 @@ models/players/rebel_guerilla/helmet
     }
 }
 
-models/players/rebel_guerilla/helmetb
-{
-	cull	twosided
-    {
-        map models/players/rebel_guerilla/helmetb
-        rgbGen lightingDiffuse
-    }
-    {
-        map models/players/rebel_guerilla/helmet_s
-        blendFunc GL_SRC_ALPHA GL_ONE
-        alphaGen lightingSpecular
-	detail
-    }
-}
-
 models/players/rebel_guerilla/poncho
 {
 	cull	twosided
@@ -502,21 +445,6 @@ models/players/rebel_honor/boots_hips_rhg
 	}
 }
 
-models/players/rebel_honor/boots_hips_rhg2
-{	  
-	{
-		map models/players/rebel_honor/boots_hips_rhg2
-		blendFunc GL_ONE GL_ZERO
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_honor/boots_hips_rhg_spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
 models/players/rebel_honor/hips_rhg
 {	  
 	{
@@ -532,40 +460,10 @@ models/players/rebel_honor/hips_rhg
 	}
 }
 
-models/players/rebel_honor/hips_rhg2
-{	  
-	{
-		map models/players/rebel_honor/hips_rhg2
-		blendFunc GL_ONE GL_ZERO
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_honor/hips_rhg_spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
 models/players/rebel_honor/torso_rhg
 {	  
 	{
 		map models/players/rebel_honor/torso_rhg
-		blendFunc GL_ONE GL_ZERO
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_honor/torso_rhg_spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
-models/players/rebel_honor/torso_rhg2
-{	  
-	{
-		map models/players/rebel_honor/torso_rhg2
 		blendFunc GL_ONE GL_ZERO
 		rgbGen lightingDiffuse
 	}
@@ -1609,30 +1507,42 @@ models/players/rebel_vanguard/helmet
 	}
 	{
 		map models/players/common/spec1
-		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		blendFunc GL_ONE GL_ONE
+		rgbGen lightingDiffuse
+		alphaGen const 1
 		tcGen environment
-		blendFunc GL_SRC_ALPHA GL_ONE
 		detail
-		alphaGen lightingSpecular
+	}
+	{
+		map models/players/rebel_vanguard/helmet
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen lightingDiffuse
+		detail
 	}
 }
 
-models/players/rebel_vanguard/helmet2
+models/players/rebel_vanguard/helmet_tech
 {	  
 	q3map_nolightmap
 	q3map_onlyvertexlighting
 	{
-		map models/players/rebel_vanguard/helmet2
+		map models/players/rebel_vanguard/helmet_tech
 		blendFunc GL_ONE GL_ZERO
 		rgbGen lightingDiffuse
 	}
 	{
 		map models/players/common/spec1
-		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		blendFunc GL_ONE GL_ONE
+		rgbGen lightingDiffuse
+		alphaGen const 1
 		tcGen environment
-		blendFunc GL_SRC_ALPHA GL_ONE
 		detail
-		alphaGen lightingSpecular
+	}
+	{
+		map models/players/rebel_vanguard/helmet_tech
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen lightingDiffuse
+		detail
 	}
 }
 
