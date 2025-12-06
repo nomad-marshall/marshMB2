@@ -15,6 +15,11 @@ ClassInfo
 	model				"luke_pilot"
 	skin				"default"
 	uishader			"models/players/luke_pilot/mb2_icon_default"
+
+	model_1				"luke_hoth"
+	skin_1				"default"
+	uishader_1			"models/players/luke_hoth/mb2_icon_default"
+
 	MBClass				MB_CLASS_JEDI
 	classNumberLimit	1
 	resource			resource_force
