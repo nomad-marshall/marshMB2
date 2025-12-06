@@ -35,13 +35,11 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/geonosian/sonicrifle.md3"
 	Icon				"gfx/hud/w_icon_sonicrifle" 			
 	WeaponName			"Geonosian Sonic Blaster"    				
-	MissileHitHumanEffect "effects/geonosian/altdetonate"
-	MissileHitDroid 	"effects/geonosian/altdetonate"
-	MissileMissEffect 	"effects/geonosian/wall_impact"
-	MissileEffect		"effects/geonosian/projectile"  					
-	AltMissileEffect 	"effects/geonosian/projectile" 
-	MuzzleEffect		"effects/geonosian/muzzle_flash"   			
-	AltMuzzleEffect		"effects/geonosian/altmuzzle_flash"
+	MissileHitHumanEffect "effects/sonic_pistol/hit"
+	MissileHitDroidEffect "effects/sonic_pistol/hit"
+	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
+	MissileEffect		"effects/sonic_pistol/projectile"  					
+	MuzzleEffect		"effects/sonic_pistol/muzzle_flash"   	
 	CustomAmmo 	300
 	ClipSize 		8
 	ReloadTimeModifier 	.85
@@ -50,8 +48,8 @@ WeaponInfo0
 	PrimHitscanTracer 	9
 	FlashSound0		"sound/weapons/geonosian/fire.mp3"
 	FlashSound1		"sound/weapons/geonosian/fire.mp3"
+	FlashSound2		"sound/weapons/geonosian/fire.mp3"
 	FlashSound3		"sound/weapons/geonosian/fire.mp3"
-	ChargeSound		"sound/weapons/geonosian/altfire.mp3"
 	AltFireEnabled 0
 }
 
