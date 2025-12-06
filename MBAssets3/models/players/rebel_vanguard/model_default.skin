@@ -1,8 +1,8 @@
-heada,models/players/rebel_vanguard/heada2.tga
-heada_teeth,models/players/common/teeth.tga
+heada,*off
+heada_teeth,*off
 
-headb,*off
-headb_teeth,*off
+headb,models/players/rebel_vanguard/headd1.tga
+headb_teeth,models/players/common/teeth.tga
 headb_bangs,*off
 
 head_helmet,models/players/rebel_vanguard/helmet.tga

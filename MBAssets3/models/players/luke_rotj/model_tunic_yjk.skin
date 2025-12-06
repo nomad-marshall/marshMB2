@@ -1,17 +1,18 @@
 head,models/players/luke_rotj/head.tga
 head_eyes_mouth,models/players/common/mouth_eyes8.jpg
 head_hair,models/players/luke_rotj/head.tga
-hips,models/players/luke_rotj/body.tga
-hips_belt,models/players/luke_rotj/belt.tga
+hips2,models/players/luke_rotj/body.tga
 l_arm,models/players/luke_rotj/body.tga
 l_hand,models/players/luke_rotj/basic_hand2.jpg
 l_hand_cuff,models/players/luke_rotj/body.tga
 l_leg,models/players/luke_rotj/body.tga
 r_arm,models/players/luke_rotj/body.tga
-r_hand,models/players/luke_rotj/basic_hand.jpg
+r_hand,models/players/luke_rotj/basic_hand2.jpg
 r_hand_cuff,models/players/luke_rotj/body.tga
 r_leg,models/players/luke_rotj/body.tga
-torso,models/players/luke_rotj/body2.tga
+torso2,models/players/luke_rotj/body.tga
+torso_tunic,models/players/luke_rotj/tunic_yjk.tga
+hips_tunic,models/players/luke_rotj/tunic_yjk.tga
 
 robe_hood_up,*off
 robe_hood_down,*off
@@ -19,14 +20,13 @@ torso_poncho,*off
 hips_poncho,*off
 torso_robe,*off
 hips_robe,*off
-torso_tunic,*off
-hips_tunic,*off
 head_helmet,*off
 head_hair_alt2,*off
 head_hair_alt1,*off
 head_hair_rotj,*off
-hips2,*off
-torso2,*off
+hips,*off
+torso,*off
+hips_belt,*off
 torso_tunic2,*off
 hips_belt2,*off
 
