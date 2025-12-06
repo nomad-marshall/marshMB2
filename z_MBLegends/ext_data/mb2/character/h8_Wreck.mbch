@@ -27,8 +27,8 @@ ClassInfo
 	damageGiven 1.15
 	damageTaken	0.9
 	knockbackGiven 1.15
-	knockbackTaken 0.65
-	
+	knockbackTaken 0.5
+	meleeknockback_flat 90
 	saberStanceAnim	BOTH_STAND9
 	flourishAnim BOTH_STABDOWN_DUAL
 	
@@ -107,10 +107,11 @@ WeaponInfo2
 
 description	"CT-9903 aka 'Wrecker' [Wookiee]
 
-A tanky Wookiee/gunner hybrid who specializes in mass destruction.
+A tanky Wookiee/gunner hybrid who specializes in mass destruction and area denial. Deploys explosives quickly.
 
 ^2Weaponry:
 - Melee
+-- Flat KB: 90
 -- 10% slower RoF
 - DC-17m Repeating Blaster Rifle (C. Carbine 3)
 -- 50% slower mag reload
@@ -125,7 +126,7 @@ A tanky Wookiee/gunner hybrid who specializes in mass destruction.
 ^8Attributes:
 - 10% faster skill CD
 - 15% more KB given
-- 35% less KB taken
+- 50% less KB taken
 - Strength (2)
 - Fury (1)
 - Healing (2)
