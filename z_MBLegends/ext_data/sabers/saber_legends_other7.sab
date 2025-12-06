@@ -136,8 +136,8 @@ cc_leg
 	saberModel	"models/weapons2/candy_sword/saber_w.glm"
 
 	soundOn		"sound/weapons/knife/knifeon.mp3"
-	soundLoop	"sound/effects/null.wav"
-	soundOff	"sound/effects/null.wav"
+	soundLoop	null
+	soundOff	null
 
 	throwable	1
 	spinsound	"sound/weapons/tai_weap/swing3.wav"
@@ -191,8 +191,8 @@ cc_leg2
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/candy_cane/candy_cane.glm"
 	soundOn		"sound/weapons/knife/knifeon.mp3"
-	soundLoop	"sound/effects/null.wav"
-	soundOff	"sound/effects/null.wav"
+	soundLoop	null
+	soundOff	null
  saberLength 40
  saberRadius 3
 	throwable	1

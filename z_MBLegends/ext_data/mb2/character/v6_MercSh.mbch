@@ -113,7 +113,6 @@ WeaponInfo0
 	FlashSound0	"sound/weapons/DLT19/fire.wav"
 	MuzzleEffect  "Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
-	MissileMissEffect "Blaster/impact_wall01"
 	customAmmo         750
 	damageMod 1.10
 	clipsize 85

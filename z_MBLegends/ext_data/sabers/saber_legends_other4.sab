@@ -1063,7 +1063,7 @@ slight_leg
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/saber_plasma/saber_stranger_split_bottom.glm"
 	soundOn		"sound/weapons/flashlight/click.wav"
-	soundLoop	"sound/null.wav"
+	soundLoop	null
 	soundOff	"sound/weapons/flashlight/click.wav"
 	saberLength	0.01
 	saberRadius 0.01
@@ -1089,6 +1089,7 @@ slight_leg
 	blasterblocking 0
 	tauntanim BOTH_ENGAGETAUNT
 	gloatAnim BOTH_VICTORY_FAST
+hitOtherEffect "beskar/beskar_sparks_projectile"
 }
 
 vibroaxe_snoova
