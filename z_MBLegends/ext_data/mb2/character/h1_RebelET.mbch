@@ -82,8 +82,8 @@ ClassInfo
 	uishader_13 "models/players/rebel_commando/mb2_icon_bith_hoth"
 	
 	model_14	"rebel_commando"
-	skin_14   	"aqualish"
-	uishader_14 "models/players/rebel_commando/mb2_icon_aqualish"
+	skin_14   	"aqualish_scarif"
+	uishader_14 "models/players/rebel_commando/mb2_icon_aqualish_scarif"
 	
 	model_15	"rebel_commando"
 	skin_15   	"quarren"
