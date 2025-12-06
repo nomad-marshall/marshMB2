@@ -68,11 +68,11 @@ WeaponInfo1
 	idleAnim		BOTH_MAND_PISTOL_READY 
 	firingAnim		BOTH_MAND_PISTOL_ATTACK  			
 	
-	MissileHitHumanEffect "effects/geonosian/altdetonate"
-	MissileHitDroid 	"effects/geonosian/altdetonate"
-	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
-	MissileEffect		"effects/sonic_pistol/projectile"  					
-	MuzzleEffect		"effects/geonosian/muzzle_flash"   	
+	MissileHitHumanEffect "effects/sonic_pistol/k_wall_impact"
+	MissileHitDroid 	"effects/sonic_pistol/k_wall_impact"
+	MissileMissEffect 	"effects/sonic_pistol/k_wall_impact"
+	MissileEffect		"effects/sonic_pistol/k_projectile"  					
+	MuzzleEffect		"effects/sonic_pistol/k_muzzle_flash"  	
 	FlashSound0		"sound/weapons/E-5s/alt_fire.mp3"
 
 	CustomAmmo 	300
