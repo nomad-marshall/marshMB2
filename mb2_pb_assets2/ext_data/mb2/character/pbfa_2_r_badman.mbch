@@ -42,8 +42,8 @@
 	missileModel  "models/weapons2/dc_batarang/batarang_proj.md3"
 	MissileMissEffect "melee_weap/block"
 	altMissileMissEffect  "melee_weap/block"
-	MuzzleEffect  	"null/null"
-	AltMuzzleEffect  "null/null"
+	MuzzleEffect  	null
+	AltMuzzleEffect  null
 	MissileHitHumanEffect	"melee_weap/block"
   	MissileHitDroid		"melee_weap/block"
 	WeaponName  		"Batarang"

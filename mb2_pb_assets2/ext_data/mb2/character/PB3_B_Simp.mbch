@@ -27,8 +27,8 @@ ClassInfo
 	jetpackFinishSound "sound/chars/simp/yas"
 	jetpackJetTag "*l_leg_foot"
 	jetpackJet2Tag  "*r_leg_foot"
-	jetpackThrustEffect "null/null"
-	jetpackIdleEffect "null/null"
+	jetpackThrustEffect null
+	jetpackIdleEffect null
 	respawnCustomTime	40000
 }
 
