@@ -28,8 +28,8 @@ ClassInfo
 	attributes		MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,3|MB_ATT_JETPACK|MB_ATT_FUEL,3|MB_ATT_FUELREGEN,3|MB_ATT_FORCEFOCUS,3|MB_ATT_DASH,3|MB_ATT_HEALING,3
     forcepool            250
     forceregen            1
-	jetpackThrustEffect "null/null"
-	jetpackIdleEffect "null/null"
+	jetpackThrustEffect null
+	jetpackIdleEffect null
 	jetpackJetTag "*torso_cap_hips"
 	jetpackJet2Tag  "*torso_cap_hips"
 	jetpackIdleSound  "sound/mb2/Silence"

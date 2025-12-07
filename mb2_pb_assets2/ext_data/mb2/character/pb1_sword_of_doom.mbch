@@ -19,8 +19,8 @@ ClassInfo
 	uishader		"models/players/xenius/icon_invis"
 	extralives		1
 	MBClass			MB_CLASS_MANDALORIAN
-			jetpackThrustEffect "null/null"
-		jetpackIdleEffect "null/null"
+			jetpackThrustEffect null
+		jetpackIdleEffect null
 		jetpackJetTag "*torso_cap_hips"
 		jetpackJet2Tag  "*torso_cap_hips"
 		jetpackIdleSound  "sound/mb2/Silence"

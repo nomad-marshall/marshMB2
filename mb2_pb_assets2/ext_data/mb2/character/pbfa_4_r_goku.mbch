@@ -22,14 +22,14 @@ ClassInfo
 	WP_BlasterPistolFlags	HELD_LOWDAMAGE|HELD_EXPLOSIVE|HELD_STUN
 
 	
-	jetpackThrustEffect "null/null"
-	jetpackIdleEffect "null/null"
+	jetpackThrustEffect null
+	jetpackIdleEffect null
 	//jetpackJetTag "*torso_cap_hips"
 	//jetpackJet2Tag  "*torso_cap_hips"
 	jetpackIdleSound  "s/w/goku/flight"
 	jetpackThrustSound  "s/w/goku/flight"
 	jetpackStartSound "s/w/goku/Lift_off"
-	jetpackFinishSound	"null/null"
+	jetpackFinishSound	null
 	respawnCustomTime	50000
 	extralives			1
 	classNumberLimit	1
