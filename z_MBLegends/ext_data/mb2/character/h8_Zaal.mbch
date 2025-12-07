@@ -83,8 +83,8 @@ WeaponInfo2
     	WeaponBasedOff		WP_BOWCASTER
     	NewWorldModel		"models/weapons2/kotor_bowcaster2/kotor_bowcaster2_w.glm"
     	NewViewModel		"models/weapons2/kotor_bowcaster2/kotor_bowcaster2.md3"  
-    	MuzzleEffect		"Chewiecaster/muzzle_flash"     
-		AltMuzzleEffect		"Chewiecaster/muzzle_flash"    		 
+    	MuzzleEffect		"Blaster/MuzzleFlash01G" 		   
+		AltMuzzleEffect		"Blaster/MuzzleFlash01G" 		  		 
     	MissileEffect		"Chewiecaster/shot" 
     	AltMissileEffect	"Chewiecaster/shot"
         FlashSound0		"sound/weapons/Chewiecaster/fire.mp3"
