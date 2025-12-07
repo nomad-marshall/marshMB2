@@ -90,7 +90,6 @@ WeaponInfo0
 	FlashSound0	"sound/weapons/DLT19/fire.wav"
 	MuzzleEffect  "Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
-	MissileMissEffect "Blaster/impact_wall01"
 	customAmmo         800
 	damageMod 1.10
 	clipsize 100
@@ -145,15 +144,11 @@ WeaponInfo2
 	altFlashSound0 "sound/weapons/dc-17/fire_scope.wav"
 	WeaponName	"Valken-38x Blaster Rifle"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	MissileEffect		"Blaster/Shot10R"
+	MissileEffect		"blaster/Shot03R"
 	MissileMissEffect "Blaster/Impact_Wall01R"
-	MissileHitHumanEffect "Blaster/Impact_flesh"
-	MissileHitDroidEffect "Blaster/Impact_droid"
 	altMuzzleEffect		"Blaster/MuzzleFlash01R"
-	altMissileEffect		"Blaster/Shot09R"
+	altMissileEffect		"blaster/Shot03R"
 	altMissileMissEffect 	"Blaster/Impact_Wall01R"
-	altMissileHitHumanEffect "Blaster/Impact_flesh"
-	altMissileHitDroidEffect "Blaster/Impact_droid"
 	damageMod 1.5
 	fpmult	1.5
 	rateMod 2

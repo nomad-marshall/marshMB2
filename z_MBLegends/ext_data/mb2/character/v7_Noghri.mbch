@@ -4,7 +4,7 @@ ClassInfo
 	name	"v7_Noghri"
 	MBClass	MB_CLASS_MANDALORIAN
 	weapons	WP_MELEE|WP_SABER
-	attributes	MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_DEXTERITY,1|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BUNNY_HOP,1
+	attributes	MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_DEXTERITY,1|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_BUNNY_HOP,1
 
 	maxhealth	100
 	rankhealth 120,140
@@ -148,8 +148,10 @@ WeaponInfo1
 	Icon	"gfx/hud/w_icon_noghri_stick"
 	WeaponName	"Stokhli Spray Stick"
 	MissileMissEffect	"noghri_stick/gas_cloud"
+ MissileHitHumanEffect "noghri_stick/gas_cloud"
+ MissileHitDroidEffect "noghri_stick/gas_cloud"
 	MissileEffect	"noghri_stick/shot"				
-	MuzzleEffect	"noghri_stick/muzzle_flash" 	
+	MuzzleEffect	"Blaster/MuzzleFlash01G"
 	FlashSound0	"sound/weapons/cp-50_repeater/fire.wav"
 	CustomAmmo  100
 	clipsize	20
@@ -218,7 +220,7 @@ Fast Saber/gunner hybrids with Cloak. Start with reduced resource which can be '
 
 ^8Attributes:
 - Bunny Hop (1)
-- Fury (2)
+- Fury (3)
 -- Resource Regen: 2/.5s to 50
 -- 90% slower Resource Decay
 - Dexterity (1)

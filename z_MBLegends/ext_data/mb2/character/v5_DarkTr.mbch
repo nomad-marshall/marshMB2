@@ -66,12 +66,12 @@ animAttack BOTH_WESTARM5_ATTACK
 animAttackWalk BOTH_WESTARM5_ATTACK
 animCharge BOTH_WESTARM5_ATTACK
 	CustomAmmo 				800
-	MuzzleEffect			"assault_cannon/muzzle_flash"
-	AltMuzzleEffect			"assault_cannon/muzzle_flash"
+	MuzzleEffect			"blaster/MuzzleFlash01B"
+	AltMuzzleEffect			"blaster/MuzzleFlash01B"
 	MissileEffect			"demp2/projectile"
 	AltMissileEffect			"demp2/projectile"
     MissileMissEffect 		"effects/blaster/Impact_Wall01B"
-	ChargeEffect		"gfx/effects/cmuzzle"	
+	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	damageMod 1.1
 	rateMod 0.95
 }

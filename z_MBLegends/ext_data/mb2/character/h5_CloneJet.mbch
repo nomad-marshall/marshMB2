@@ -77,7 +77,6 @@ WeaponInfo0
     WeaponToReplace   WP_ROCKET_LAUNCHER
     WeaponBasedOff  WP_ROCKET_LAUNCHER
     MuzzleEffect     "upl/muzzle_flash"
-    AltMuzzleEffect   "upl/altmuzzle_flash"
     MissileEffect   "upl/shot" 
     AltMissileEffect    "upl/shot"
     MissileMissEffect  "upl/explosion"
@@ -151,7 +150,7 @@ description	"Clone Jet Trooper [Clone Trooper]
 - Pulse Grenades (2)
 
 ^6Inventory:
-- Kolto (Gradual 50 HP) ^3[CS4]
+- Medpac ^3[CS4]
 
 ^8Attributes:
 - Reinforcement (1)

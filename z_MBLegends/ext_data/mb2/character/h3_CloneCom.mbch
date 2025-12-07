@@ -156,8 +156,6 @@ FlashSound0	"sound/weapons/RC_Sniper/fire.mp3"
 altFlashSound0 "sound/weapons/RC_Sniper/fire.mp3"
 MuzzleEffect	"Blaster/MuzzleFlash01C"
 altMuzzleEffect "Blaster/MuzzleFlash01C"
-MissileEffect	"Blaster/Shot03C"
-AltMissileEffect "Blaster/Shot02C"
 WeaponName "DC-17m ICWS Sniper Attachment"
 clipSize	25
 customAmmo 75
@@ -226,7 +224,7 @@ FlashSound0	"sound/weapons/delta_pistol/wep_GEN_pistolFire_MP.wav"
 AltFlashSound0 "sound/weapons/delta_pistol/wep_GEN_pistolFire_MP.wav"
 MuzzleEffect	"Blaster/MuzzleFlash01C"
 MissileEffect	"Blaster/Shot01C"
-MissileMissEffect "blaster/impact_wall01c"
+MissileMissEffect "blaster/impact_wall01b"
 ChargeEffect	"gfx/effects/cloneFrontFlash"
 clipSize 15
 ReloadTimeModifier 2

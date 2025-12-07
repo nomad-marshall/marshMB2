@@ -34,7 +34,7 @@ rankBP	1,1.2
 rankAS	1.12
 CSmultiplier	1.05
 rankCS	1.12
-rankROFMelee 0.8
+rankROFMelee .8
 uioverlay_r "gfx/icons/hybrid"
 uioverlay_l "gfx/icons/heavy"
 model "atton"
@@ -200,10 +200,8 @@ reloadtimeModifier 1.75
 customammo 800
 altfireenabled 0
 MuzzleEffect	"Blaster/MuzzleFlash01Y"
-Missile3Effect "Blaster/Shot02Y"
 MissileEffect "blaster/Shot03Y"
 altMissileEffect "Blaster/Shot04Y"
-PowerUpShotEffect "Blaster/Shot09Y"
 ChargeEffect	"gfx/effects/yellow_bryarFrontFlash"
 FlashSound0 "sound/weapons/kotor/fire_power1.mp3"
 }

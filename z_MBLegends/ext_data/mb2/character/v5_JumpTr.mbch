@@ -17,6 +17,7 @@ ClassInfo
     modelscale			1.13
 	classNumberLimit		2
 	speed              	1.0
+	damageTaken 0.9
 	
 	knockbackTaken 0.85
 	
@@ -69,8 +70,7 @@ WeaponInfo0
 	NewBarrelModel		"models/weapons2/heavy_repeater/heavy_repeater_barrel.md3"
 	Icon  				"gfx/doom_wpicons/w_icon_repeater"
 	WeaponName			"Imperial Heavy Repeater"
-	MuzzleEffect		"repeater/muzzle_flash"
-	MissileEffect		"repeater/projectile"
+ MuzzleEffect		"Blaster/MuzzleFlash01Y"
 	AltFlashSound0		"sound/weapons/repeater/alt_fire_old"
 	FlashSound0			"sound/weapons/repeater/fire_old.wav"  
 	altMissileMissEffect	"repeater/concussion"

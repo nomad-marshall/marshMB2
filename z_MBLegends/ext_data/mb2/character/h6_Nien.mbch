@@ -80,11 +80,8 @@ WeaponInfo1
 	WeaponName			"Pulse Cannon"   
 	DisruptorBeam1 "gfx/beam/superlaserpulse"
 	DisruptorBeam2 "gfx/beam/superlaserpulse"
-	muzzleEffect "gfx/effects/greenfrontflash"
-	altMuzzleEffect "gfx/effects/greenfrontflash"
-	MissileMissEffect "gfx/effects/greenfrontflash"
-	MissileHitHumanEffect "gfx/effects/greenfrontflash"
-	MissileHitDroidEffect "gfx/effects/greenfrontflash"
+	muzzleEffect "Blaster/MuzzleFlash01G" 		
+	altMuzzleEffect "Blaster/MuzzleFlash01G" 		
 	ReloadTimeModifier  0.9
 	damageMod 1.2
 	rateMod 0.95

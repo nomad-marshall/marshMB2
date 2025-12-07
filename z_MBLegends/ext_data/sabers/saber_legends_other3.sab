@@ -166,7 +166,6 @@ JawaBaton_legends
 	bounceSound3	"s/w/h/bounce3.mp3"
 
 	blockEffect	"melee_weap/block.efx"
-	hitPersonEffect "stunBaton/flesh_impact.efx"
 	hitOtherEffect	"melee_weap/other.efx"
 }
 
@@ -963,6 +962,7 @@ r2_saw_leg
 
 	blockEffect	"melee_weap/block"
  	hitPersonEffect "melee_weap/attack"
+ hitOtherEffect "beskar/beskar_sparks_saber"
 	useGoreConfig 1
 	useGoreConfig2 1
 

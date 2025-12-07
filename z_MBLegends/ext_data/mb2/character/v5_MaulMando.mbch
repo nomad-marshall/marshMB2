@@ -114,26 +114,26 @@ WeaponInfo0
 }
 WeaponInfo1
 {
-    WeaponToReplace	WP_MANDO_PISTOL   			
-    WeaponBasedOff	WP_MANDO_PISTOL  		
-	NewWorldModel		"models/weapons2/dx13_pistol/model_w.glm"
+    WeaponToReplace	WP_MANDO_PISTOL
+    WeaponBasedOff	WP_MANDO_PISTOL
+	NewWorldModel "models/weapons2/dx13_pistol/model_w.glm"
 	CorrectedWorldModel "models/weapons2/dx13_pistol/model_w.glm"
-	NewViewModel		"models/weapons2/dx13_pistol/model.md3"
-	Icon				"gfx/hud/w_icon_dx_13_dual"
-    WeaponName		"DX-13 Korda Six Shooters"   
-	MuzzleEffect		"Blaster/MuzzleFlash01Y"
+	NewViewModel "models/weapons2/dx13_pistol/model.md3"
+	Icon "gfx/hud/w_icon_dx_13_dual"
+    WeaponName "DX-13 Korda Six Shooters"   
+	MuzzleEffect "Blaster/MuzzleFlash01Y"
 	AltMuzzleEffect	"Blaster/MuzzleFlash01Y"
-	MissileEffect		"Blaster/Shot02Y"
-	Missile3Effect	"Blaster/Shot03Y"
-	PowerupShotEffect	"Blaster/Shot04Y"
-	AltMissileEffect	"Blaster/Shot04Y"
-	FlashSound0		"sound/weapons/LPA_NN-14/fire.wav"
-	altFlashSound0	"sound/weapons/LPA_NN-14/alt_fire.wav"	
-	ChargeSound		"sound/weapons/leia_pistol/altcharge.mp3"
-	ChargeEffect		"gfx/effects/yellow_bryarFrontFlash" 
-	hasAnimOverrides 	1
-	animReady 		BOTH_PAIN16   
-	animReadyWalk 	BOTH_PAIN16    
+	MissileEffect "Blaster/Shot02Y"
+	Missile3Effect "Blaster/Shot03Y"
+	PowerupShotEffect "Blaster/Shot04Y"
+	AltMissileEffect "Blaster/Shot04Y"
+	FlashSound0	 "sound/weapons/LPA_NN-14/fire.wav"
+	altFlashSound0 "sound/weapons/LPA_NN-14/alt_fire.wav"	
+	ChargeSound	 "sound/weapons/leia_pistol/altcharge.mp3"
+	ChargeEffect "gfx/effects/yellow_bryarFrontFlash" 
+	hasAnimOverrides 1
+	animReady BOTH_PAIN16   
+	animReadyWalk BOTH_PAIN16    
 	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
 	animRunAttackR	BOTH_DUAL_PISTOLS_ATTACK_R
 	animRunAttackL	BOTH_DUAL_PISTOLS_ATTACK_L

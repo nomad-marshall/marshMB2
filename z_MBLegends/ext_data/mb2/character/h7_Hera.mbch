@@ -46,8 +46,8 @@ WeaponInfo0
 	FlashSound0			"sound/weapons/amban/fire.mp3"
 	AltFlashSound0	 	"sound/weapons/amban_phase_rifle/fire.wav"
 	ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
-	MuzzleEffect		"gfx/effects/bryarfrontflash"
-	AltMuzzleEffect	"gfx/effects/bryarfrontflash"
+	MuzzleEffect		null
+	AltMuzzleEffect	 null
 	MissileEffect		"Blaster/Shot02r"
 	AltMissileEffect	"Blaster/Shot04r"
 	PowerupShotEffect	"Blaster/Shot04r"

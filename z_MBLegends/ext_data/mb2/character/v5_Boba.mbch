@@ -76,7 +76,7 @@ WeaponInfo0
 	AltFireEnabled 		0
 	ReloadTimeModifier  	1.4
 	FPMult				0.9
-	MuzzleEffect 		"flechette/muzzle_flash"
+	MuzzleEffect 		"Blaster/MuzzleFlash01Y"
 	MissileEffect 		"flechette/shot"
 }
 
@@ -102,7 +102,7 @@ WeaponInfo1
 	animAttack BOTH_ATTACK2
 	animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1 //lower
-	MuzzleEffect "null"
+	MuzzleEffect null
 	ReloadTimeModifier  1.4
 }
 

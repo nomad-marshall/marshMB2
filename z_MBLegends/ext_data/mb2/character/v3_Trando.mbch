@@ -155,8 +155,6 @@ flashSound0 "sound/weapons/ArrayACP/fire.wav"
 MissileModel null
 MissileEffect "blaster/shot02Y"
 MuzzleEffect	"halo_pistol/Muzzle_Flash"
-MissileHitHumanEffect "blaster/impact_flesh"
-MissileHitDroidEffect "blaster/impact_droid"
 altfireenabled 0
 customammo 700
 clipsize 50
