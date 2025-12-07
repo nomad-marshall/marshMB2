@@ -57,7 +57,7 @@ WeaponInfo0
 	WeaponName			"Wookiee Slugthrower"
 	AltFireEnabled      0
 	clipsize            24
-	MuzzleEffect 		"flechette/muzzle_flash"
+	MuzzleEffect 		"Blaster/MuzzleFlash01Y"
 	MissileEffect 		"flechette/shot"
 hasAnimOverrides 1
 animReady BOTH_WESTARM5_IDLE

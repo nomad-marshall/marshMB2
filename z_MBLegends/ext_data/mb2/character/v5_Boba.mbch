@@ -76,7 +76,7 @@ WeaponInfo0
 	AltFireEnabled 		0
 	ReloadTimeModifier  	1.4
 	FPMult				0.9
-	MuzzleEffect 		"flechette/muzzle_flash"
+	MuzzleEffect 		"Blaster/MuzzleFlash01Y"
 	MissileEffect 		"flechette/shot"
 }
 
