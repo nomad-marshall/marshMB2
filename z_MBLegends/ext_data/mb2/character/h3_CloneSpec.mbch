@@ -14,7 +14,7 @@ knockbacktaken .88
 maxhealth 110
 maxarmor 80
 RankArmor 110
-RankDmgGiven 1.1
+RankDmgGiven 1.2
 speed 1.01
 classflags CFL_STRONGAGAINSTPHYSICAL
 holdables HI_MEDPAC_BIG
@@ -57,7 +57,7 @@ c_att_names_0	"DC-15S Clone Carbine"
 c_att_ranks_0	2,1,1
 c_att_skill_1	MB_ATT_CLONERIFLE
 c_att_names_1	"DC-15A Clone Rifle"
-c_att_ranks_1	4,6,15
+c_att_ranks_1	4,6,18
 c_att_descs_1 "6 Conc/Ion Blobs"
 c_att_skill_2	MB_ATT_THROWER
 c_att_names_2	"BT X-42 Flamethrower"
@@ -74,8 +74,8 @@ c_att_skill_5	MB_ATT_SONIC_DETONATOR
 c_att_names_5	"Sonic Detonators"
 c_att_ranks_5	4,4
 c_att_skill_6	MB_ATT_DMG_GIVEN_MULTIPLIER
-c_att_names_6	"Damage Given (110%)"
-c_att_ranks_6	2
+c_att_names_6	"Damage Given (120%)"
+c_att_ranks_6	3
 c_att_skill_7	MB_ATT_ARMOUR
 c_att_names_7	"Armor (110)"
 c_att_ranks_7	2
@@ -107,7 +107,7 @@ c_att_skill_22 MB_ATT_FLOAT_HOP
 c_att_names_22 "Slow Faller"
 c_att_ranks_22 0
 c_att_skill_23 MB_ATT_GRAPPLE_HOOK
-c_att_names_23 "Grappling Hook ^3[CS4 M]"
+c_att_names_23 "Grappling Hook ^3[CS4 Melee]"
 c_att_ranks_23 0,3
 c_att_skill_30 MB_ATT_STUN_BATON
 c_att_names_30 "F-187 Fusioncutter (Stun Baton)"
@@ -203,7 +203,7 @@ NewViewModel	"models/weapons2/t-21/t-21.md3"
 Icon	"gfx/hud/w_icon_t-21"
 WeaponName	"T-21 Heavy Blaster"
 MissileEffect	"blaster/Shot04B"
-AltMissileEffect	"blaster/Shot06B"
+AltMissileEffect	"blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 AltMuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileMissEffect "blaster/impact_wall01b"
@@ -265,7 +265,7 @@ Clones with niche expertise.
 - Fire Grenade (1)
 
 ^6Inventory:
-- Bacta (Instant 50 HP)
+- Advanced Medpac
 
 ^8Attributes:
 - Reinforcement (1)

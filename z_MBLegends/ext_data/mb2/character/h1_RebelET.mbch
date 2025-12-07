@@ -57,9 +57,9 @@ ClassInfo
 	skin_7  	"sullustan"
 	uishader_7  "models/players/rebel_guerilla/mb2_icon_sullustan"
 	
-	model_8		"rebel_commando"
+	model_8		"rebel_magma"
 	skin_8  	"sullustan"
-	uishader_8  "models/players/rebel_commando/mb2_icon_sullustan"
+	uishader_8  "models/players/rebel_magma/mb2_icon_sullustan"
 	
 	model_9		"rebel_commando"
 	skin_9  	"sullustan_hoth"
@@ -74,24 +74,24 @@ ClassInfo
 	uishader_11 "models/players/rebel_commando/mb2_icon_duros_hoth"
 	
 	model_12	"rebel_commando"
-	skin_12  	"bith"
-	uishader_12 "models/players/rebel_commando/mb2_icon_bith"
+	skin_12  	"bith_scarif"
+	uishader_12 "models/players/rebel_commando/mb2_icon_bith_scarif"
 	
 	model_13	"rebel_commando"
 	skin_13  	"bith_hoth"
 	uishader_13 "models/players/rebel_commando/mb2_icon_bith_hoth"
 	
 	model_14	"rebel_commando"
-	skin_14   	"aqualish"
-	uishader_14 "models/players/rebel_commando/mb2_icon_aqualish"
+	skin_14   	"aqualish_scarif"
+	uishader_14 "models/players/rebel_commando/mb2_icon_aqualish_scarif"
 	
 	model_15	"rebel_commando"
-	skin_15   	"aqualish_hoth"
-	uishader_15 "models/players/rebel_commando/mb2_icon_aqualish_hoth"
+	skin_15   	"quarren"
+	uishader_15 "models/players/rebel_commando/mb2_icon_quarren"
 	
 	model_16	"rebel_commando"
-	skin_16		"gotal"
-	uishader_16 "models/players/rebel_commando/mb2_icon_gotal"
+	skin_16		"nikto_desert"
+	uishader_16 "models/players/rebel_commando/mb2_icon_nikto_desert"
 	
 	model_17	"rebel_commando"
 	skin_17		"gotal_hoth"
@@ -101,17 +101,13 @@ ClassInfo
 	skin_18 	"snivvian"
 	uishader_18 "models/players/rebel_commando/mb2_icon_snivvian"
 	
-	model_19	"rebel_commando"
-	skin_19 	"snivvian_hoth"
-	uishader_19 "models/players/rebel_commando/mb2_icon_snivvian_hoth"
-
-	model_20	"jedi_tf"
-	skin_20 	"hoth_rgb"
-	uishader_20 "models/players/jedi_tf/mb2_icon_hoth_rgb"
-	userRGB_20 	1
-	customred_20 0
-	customgreen_20 0.59
-	customblue_20 0.69
+	model_19	"rebel_partisan"
+	skin_19 	"elite"
+	uishader_19 "models/players/rebel_partisan/mb2_icon_elite"
+	
+	model_20	"rebel_partisan"
+	skin_20 	"default"
+	uishader_20 "models/players/rebel_partisan/mb2_icon_default"
 
 	
 	isCustomBuild	1

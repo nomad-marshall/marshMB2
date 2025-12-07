@@ -148,8 +148,10 @@ WeaponInfo1
 	Icon	"gfx/hud/w_icon_noghri_stick"
 	WeaponName	"Stokhli Spray Stick"
 	MissileMissEffect	"noghri_stick/gas_cloud"
+ MissileHitHumanEffect "noghri_stick/gas_cloud"
+ MissileHitDroidEffect "noghri_stick/gas_cloud"
 	MissileEffect	"noghri_stick/shot"				
-	MuzzleEffect	"noghri_stick/muzzle_flash" 	
+	MuzzleEffect	"Blaster/MuzzleFlash01G"
 	FlashSound0	"sound/weapons/cp-50_repeater/fire.wav"
 	CustomAmmo  100
 	clipsize	20

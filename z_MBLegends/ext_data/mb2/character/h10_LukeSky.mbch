@@ -83,8 +83,8 @@ skin_10      "default"
 uishader_10  "models/players/luke_ceremonial/mb2_icon_default"
 
 model_11     "luke_hoth"
-skin_11      "jedi"
-uishader_11  "models/players/luke_hoth/mb2_icon_jedi"
+skin_11      "default"
+uishader_11  "models/players/luke_hoth/mb2_icon_default"
 
 model_12     "luke_esb"
 skin_12      "default"

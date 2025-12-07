@@ -42,6 +42,14 @@ ClassInfo
 	uioverlay_l "gfx/icons/medic"
 }
 
+ForceInfo0
+{
+ ForceToReplace    FP_GRIP
+ Icon            "gfx/mp/new_f_icon_dk_grip"
+ ForcePowerName "Grogu's Grip"
+ gripDamage 4
+}
+
 description	"Grogu [Jedi]
 
 A small and vulnerable supportive Force user with the ability to share his strong healing and protective abilities with allies.
@@ -54,7 +62,8 @@ A small and vulnerable supportive Force user with the ability to share his stron
 - Push (3)
 - Pull (3)
 - Sense (3)
-- Grip (3)
+- Grogu's Grip (3)
+-- 50% less DMG
 - Team Energize (2)
 - Heal (1)^3* ^3[CS4]
 - Absorb (3)^3* ^3[CS2]

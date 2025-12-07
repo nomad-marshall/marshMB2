@@ -63,7 +63,7 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_golancr1"
     FlashSound0			"sound/weapons/flechette/fire.mp3"  			
 	WeaponName 			"FC-1 Flechette Launcher"
-	MuzzleEffect 		"flechette/muzzle_flash"
+	MuzzleEffect 		"Blaster/MuzzleFlash01Y"
 	customAmmo           870
 	clipsize             30
 	AltFireEnabled 		 1
@@ -128,7 +128,7 @@ A nimble gunner with a unique projectile shotgun.
 - Frag Grenades (2)
 
 ^6Inventory: 
-- Bacta (Instant 50 HP)
+- Advanced Medpac
 - Assault Sentry ^3[CS4]
 
 ^8Attributes:

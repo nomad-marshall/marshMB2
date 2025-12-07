@@ -276,7 +276,6 @@ soldierbaton_legends
 	blockSound2	"s/w/h/block2.mp3"
 	blockSound3	"s/w/h/block3.mp3"
 	blockEffect	"melee_weap/block.efx"
-	hitPersonEffect "stunBaton/flesh_impact.efx"
 	hitOtherEffect	"melee_weap/other.efx"
 }
 

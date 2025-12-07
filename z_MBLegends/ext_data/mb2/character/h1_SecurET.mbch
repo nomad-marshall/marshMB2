@@ -57,9 +57,9 @@ ClassInfo
 	skin_2			"default"
 	uishader_2		"models/players/bespin_cop/mb2_icon_default"
 
-	model_3 			"nrguard"
+	model_3 			"lanupaguard"
 	skin_3			"default"
-	uishader_3		"models/players/nrguard/mb2_icon_default"
+	uishader_3		"models/players/lanupaguard/mb2_icon_default"
 	
 	model_4 			"rebel_vanguard"
 	skin_4			"default"
@@ -68,14 +68,14 @@ ClassInfo
 	model_5			"rebel_honor"
 	skin_5			"default"
 	uishader_5		"models/players/rebel_honor/mb2_icon_default"
-	
-	model_6 			"nrmarine"
-	skin_6			"default"
-	uishader_6		"models/players/nrmarine/mb2_icon_default"
 
-	model_7 			"bespin_cop"
+	model_6 			"nrguard"
+	skin_6			"default"
+	uishader_6		"models/players/nrguard/mb2_icon_default"
+	
+	model_7 			"nrmarine"
 	skin_7			"default"
-	uishader_7		"models/players/bespin_cop/mb2_icon_default"
+	uishader_7		"models/players/nrmarine/mb2_icon_default"
 	
 	isCustomBuild		1
 	mbPoints			53

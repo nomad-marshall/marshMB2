@@ -97,7 +97,7 @@ ForceInfo0
 	MissileMissEffect		"effects/tripmine/explosion"
 	MissileHitHumanEffect "effects/tripmine/explosion"
 	MissileHitDroidEffect	"effects/tripmine/explosion"
-	MuzzleEffect				"stone/muzzle1"
+	MuzzleEffect			null
 	velocityMod 0.001
 	rateMod 2
 	ClipSize 8
@@ -136,7 +136,7 @@ A speedy, damage-boosted Pistoleer with Grenades.
 - Concussion Grenades (2)
 
 ^6Inventory:
-- Kolto (Gradual 50 HP)
+- Medpac
 - Forcefield ^3[CS4]
 - Assault Sentry
 
