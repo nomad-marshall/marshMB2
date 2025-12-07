@@ -18,7 +18,7 @@ ClassInfo
 	skin			"hk50"
 	uishader		"models/players/hk47/mb2_icon_hk50"
 
-	WP_BowcasterFlags	HELD_ALTRELOAD|HELD_LOWDMG|HELD_SLOW|HELD_PULSE
+	WP_BowcasterFlags	HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_SLOW|HELD_PULSE
 }
 
 WeaponInfo0

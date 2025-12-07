@@ -12,7 +12,7 @@ ClassInfo
  	skin 			"blue"
  	uishader 		"gfx/reactor/FA_Icons/mb2_icon_rct_mercsold"
 	WP_BlasterPistolFlags   HELD_SONIC|HELD_ALTRELOAD
-	WP_ClonePistolFlags       	HELD_PULSE|HELD_LOWDMG|HELD_SLOW
+	WP_ClonePistolFlags       	HELD_PULSE|HELD_LOWDAMAGE|HELD_SLOW
 	holdables		HI_SENTRY_GUN|HI_SHIELD
  	MBClass			MB_CLASS_ELITETROOPER
 	classflags		CFL_NOPICKUPS|CFL_STATVIEWER

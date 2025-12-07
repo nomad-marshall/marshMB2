@@ -10,7 +10,7 @@ ClassInfo
  	model 			"onderonian"
  	skin 			"riiken"
  	uishader 		"models/players/onderonian/mb2_icon_riiken"
-	WP_BlasterPistolFlags       	HELD_PULSE|HELD_LOWDMG|HELD_SLOW|HELD_STUN
+	WP_BlasterPistolFlags       	HELD_PULSE|HELD_LOWDAMAGE|HELD_SLOW|HELD_STUN
  	MBClass			MB_CLASS_ELITETROOPER
 	classflags		CFL_NOPICKUPS|CFL_STATVIEWER|CFL_FASTHACKING
 	special1	EAS_HI_POISON
