@@ -191,7 +191,7 @@ WeaponInfo0
     NewViewModel		"models/weapons2/bowcaster/bowcaster.md3"
     FlashSound0		"sound/weapons/kotor/fire_hvy.wav"	 
     MissileEffect   	"effects/Chewiecaster/shot.efx" 
-    MuzzleEffect    	"effects/Chewiecaster/muzzle_flash.efx" 	
+    MuzzleEffect    	"Blaster/MuzzleFlash01G" 		
    	Icon				"gfx/hud/w_icon_bowcaster" 
     WeaponName	"Two-shot Bowcaster"
     clipSize		4

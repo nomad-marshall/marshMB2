@@ -164,7 +164,6 @@ WeaponInfo3
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	OverchargeEffect	"gfx/effects/cloneFrontFlash"
 
-	PowerupShotEffect		"Blaster/Shot04B" 
 	missileEffect "Blaster/Shot02B"
 	altMissileEffect "Blaster/Shot02B"
 	hasAnimOverrides 1
