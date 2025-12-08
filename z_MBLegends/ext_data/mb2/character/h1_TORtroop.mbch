@@ -106,7 +106,7 @@ c_att_skill_15	MB_ATT_RESPAWNS
 c_att_names_15	"Reinforcement"
 c_att_ranks_15	6
 c_att_skill_16	MB_ATT_DC_CARBINE
-c_att_names_16	"Repeat. Blaster (C. Carbine)"
+c_att_names_16	"Repeat. Blaster (DC Carbine)"
 c_att_ranks_16	3,0
 c_att_descs_16 "20% more velocity, 10% faster RoF, 10% less DMG/FP DMG"
 c_att_skill_17	MB_ATT_WESTARM5
