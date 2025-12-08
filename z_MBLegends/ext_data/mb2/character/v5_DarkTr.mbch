@@ -19,7 +19,7 @@ ClassInfo
 	
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE|CFL_NOLOCATIONALDAMAGE
 	
-	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_DISRUPTIFY
+	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_KNOCKBACK
 
 	resource	RESOURCE_FUEL
 	forcepool 110
@@ -105,6 +105,7 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 -- 5% faster RoF
 -- 10% more DMG
 - Assault Cannon Rocket Attachment (12) (RL)
+-- Pushes on hit
 -- 25% more velocity
 -- 25% slower RoF
 -- 60% slower mag reload

@@ -21,7 +21,7 @@ ClassInfo
 	classNumberLimit  	1
 	holdables 			HI_SHIELD|HI_MEDPAC_BIG|HI_SPAWNER
 	
-	WP_PLX1Flags HELD_DISRUPTIFY|HELD_SLOW
+	WP_PLX1Flags HELD_SLOW|HELD_KNOCKBACK|HELD_STUN|HELD_FLAME
 	WP_BlasterPistolFlags	HELD_KNOCKBACK	
 	modelscale          1.015
 	model		"tarkin"
@@ -98,9 +98,8 @@ WeaponInfo1
 	animAttack BOTH_COWER1_STOP
 	animAttackWalk BOTH_COWER1_STOP
 	animStand BOTH_STAND1
-	velocityMod 2
-	damagemod 2.15
 	reloadTimeModifier 6
+ damageMod 1.75
 	SelectSound "sound/chars/Tarkin/misc/gloat1.mp3"
 }
 
@@ -116,8 +115,8 @@ A support gunner who builds resource through damage to bolster his allies and hi
 -- 15% more DMG/FP DMG
 -- 15% slower RoF
 - Test Fire (1) (PLX-1)
--- 115% more DMG
--- 100% more velocity
+-- Ignites/pushes/staggers on hit
+-- 75% more DMG
 -- 500% slower reload
 -- 15% slower movement
 - Fire Grenades (2)
@@ -128,7 +127,7 @@ A support gunner who builds resource through damage to bolster his allies and hi
 - Protect (2)^3*
 
 ^6Inventory:
-- Seeker Drone ^3[CS2]
+- Seeker Drone (Support Beacon) ^3[CS2]
 - Forcefield ^3[CS3]
 - Advanced Medpac ^3[CS4]
 

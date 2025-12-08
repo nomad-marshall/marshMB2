@@ -106,7 +106,7 @@ c_att_ranks_30 0
 c_att_skill_31 MB_ATT_SHOTGUN
 c_att_names_31 "Electronet Launcher (Shotgun)"
 c_att_ranks_31 0
-c_att_descs_31 "Electrifies/freezes/staggers/knocks back on hit, 80% faster shot swap,
+c_att_descs_31 "Electrifies/freezes/staggers/pushes on hit, 80% faster shot swap,
 50% less DMG, 14900% slower reload"
 c_att_skill_32 MB_ATT_AMBAN
 c_att_names_32 "Slave Prod (Amban)"

@@ -10,7 +10,7 @@ ClassInfo
 	
 	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_QUICKTHROW,1|MB_ATT_JETPACK,1|MB_ATT_AMMO,3|MB_ATT_RESPAWNS,1|MB_ATT_STRONGBLOBS,3|MB_ATT_ASSEMBLE,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_CLONEBLOBS,2|MB_ATT_MANDO_PISTOL,3|MB_ATT_DASH,1
 	
-	maxhealth 	75
+	maxhealth 	80
 	maxarmor	90
 	forcepool 	100
 	resource	resource_fuel
@@ -92,10 +92,9 @@ WeaponInfo0
     WeaponName   "EMP Launcher"
     Icon      "gfx/hud/w_icon_upl"
     clipSize        1
-    CustomAmmo      9
+    CustomAmmo      7
     ReloadTimeModifier 1.4    
     altfireenabled  0
-	damageMod 1.25
 	velocityMod 1.15
 	hasAnimOverrides 1
 	animReady		BOTH_WESTARM5_READY
@@ -141,10 +140,9 @@ description	"Clone Jet Trooper [Clone Trooper]
 - DC-15A Clone Rifle (1)
 -- Concussion Blobs (4)
 -- Ion Blobs (6)
-- EMP Launcher (10) (Rocket Launcher)
--- Electrifies on direct hit
+- EMP Launcher (8) (Rocket Launcher)
+-- Electrifies on hit
 -- 15% more velocity
--- 25% more DMG
 -- 40% slower mag reload
 -- Prim. only
 - Pulse Grenades (2)

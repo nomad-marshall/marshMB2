@@ -7,7 +7,7 @@ ClassInfo
 	MBClass		MB_CLASS_JEDI
 	weapons		WP_SABER|WP_MELEE|WP_CONCUSSION|WP_PULSE_NADE|WP_PLX1
 	
-	attributes	MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_RALLY|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DASH,1|MB_ATT_PLX1,3|MB_ATT_AMMO,3|MB_ATT_CONCUSSION,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_WATER_BREATHING|MB_ATT_BUNNY_HOP,1|MB_ATT_DEFLECT,1
+	attributes	MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_RALLY|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DASH,1|MB_ATT_PLX1,3|MB_ATT_AMMO,3|MB_ATT_CONCUSSION,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_WATER_BREATHING|MB_ATT_BUNNY_HOP,1|MB_ATT_DEFLECT,1|MB_ATT_INAIR_FORCE_REGEN
 	
 	saberMaxChain 	1
 	saber1		   bossnass_shield_legends_2
@@ -27,6 +27,7 @@ ClassInfo
 	WP_MeleeFlags HELD_SLOW
 	WP_PulseNadeFlags HELD_HIGHDAMAGE
 	WP_ConcussionFlags HELD_ALTRELOAD
+ WP_PLX1Flags HELD_STUN|HELD_KNOCKBACK
 
 	saberStanceAnim  	BOTH_SABERSTAFF_STANCE
 	RunForward   	BOTH_RUN_DUAL
@@ -41,17 +42,7 @@ ClassInfo
 	uioverlay "gfx/icons/heavy"
 	model	"bossnass"
 	skin		"default"
-	uishader	"models/players/bossnass/mb2_icon_default"	
-	
-	KnockbackTaken	1
-	rankKbTaken 2
-	
-	isCustomBuild	1
-
-	c_att_skill_0	MB_ATT_KB_TAKEN_MULTIPLIER
-	c_att_names_0	"KB Taken (200%)"
-	c_att_ranks_0 0	
- c_att_descs_0 "100% default"
+	uishader	"models/players/bossnass/mb2_icon_default"
 }
 
 WeaponInfo0
@@ -146,6 +137,7 @@ A tanky rocketeer with a large protective Energy Shield and inherent aquatic res
 -- 43% less reach
 -- 1100% more radius
 - Salvaged E-60R Missile Launcher (8) (PLX)
+-- Staggers/pushes on hit
 -- 2 rockets per clip
 -- 30% faster reload
 - Boss's Big Bombad Boomas (2) (Pulse Nades)
@@ -163,6 +155,7 @@ A tanky rocketeer with a large protective Energy Shield and inherent aquatic res
 - Healing (2)
 - Rally
 - Underwater Breathing
+- Aerial Resource Regen
 
 ^3Abilities:
 - Dash (1) ^3[CS3]"
