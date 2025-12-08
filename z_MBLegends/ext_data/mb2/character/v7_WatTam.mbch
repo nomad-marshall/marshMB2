@@ -100,7 +100,7 @@ WeaponInfo2
 	NewViewModel 	"models/weapons2/dummy/dummy.md3"
 	Icon			"models/weapons2/halo_melee/icon"
 	WeaponName	"RA-EV Glove Blaster"
-	MissileEffect		"wat_leg/glove/shot"
+	MissileEffect		"acp_array/shot"
 	MissileMissEffect	"grenades/EXP_alt"	
 	MissileHitHumanEffect "grenades/EXP_alt"	
     MissileHitDroidEffect	"grenades/EXP_alt"	
