@@ -119,7 +119,7 @@ WeaponInfo2
 	NewViewModel		"models/weapons2/scout_pistol/blaster_pistol.md3"   
 	Icon				"gfx/hud/w_icon_scout_pistol" 
 	WeaponName  "Guardsmen Blaster Pistol"
-	customAmmo          420
+	customAmmo          525
 	clipsize            21
 	hasAnimOverrides 1
 	animStand 		BOTH_STAND5
@@ -134,7 +134,7 @@ WeaponInfo3
 	NewWorldModel		"models/weapons2/t-21/t-21_w.glm" 
 	NewViewModel		"models/weapons2/t-21/t-21.md3" 
 	NewHandsModel		"models/weapons2/t-21/t-21_hand.md3"
-	customAmmo    594
+	customAmmo    660
 	clipsize           66
 	hasAnimOverrides 1
 	animStand 		BOTH_STAND5
