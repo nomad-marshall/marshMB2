@@ -169,7 +169,7 @@ WeaponInfo1
 	WeaponName		"Security Force Repeater"
 	FlashSound0		"sound/weapons/kotor_carbine/fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01G"   						
-	MissileEffect		"Blaster/Shot02G"
+	MissileEffect		"Blaster/Shot11G"
 	altMissileMissEffect "blobs/concussion"
 	altMissileHitHumanEffect "blobs/concussion"
 	altMissileHitDroidEffect "blobs/concussion"

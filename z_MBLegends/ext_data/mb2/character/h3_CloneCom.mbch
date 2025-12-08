@@ -224,7 +224,7 @@ FlashSound0	"sound/weapons/delta_pistol/wep_GEN_pistolFire_MP.wav"
 AltFlashSound0 "sound/weapons/delta_pistol/wep_GEN_pistolFire_MP.wav"
 MuzzleEffect	"Blaster/MuzzleFlash01C"
 MissileEffect	"Blaster/Shot01C"
-MissileMissEffect "blaster/impact_wall01b"
+
 ChargeEffect	"gfx/effects/cloneFrontFlash"
 clipSize 15
 ReloadTimeModifier 2

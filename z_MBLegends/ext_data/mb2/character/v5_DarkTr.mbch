@@ -70,7 +70,6 @@ animCharge BOTH_WESTARM5_ATTACK
 	AltMuzzleEffect			"blaster/MuzzleFlash01B"
 	MissileEffect			"demp2/projectile"
 	AltMissileEffect			"demp2/projectile"
-    MissileMissEffect 		"effects/blaster/Impact_Wall01B"
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	damageMod 1.1
 	rateMod 0.95
