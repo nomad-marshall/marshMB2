@@ -12,7 +12,7 @@ ClassInfo
 	//skilltimermod 1.5
 	holdables				HI_SENTRY_GUN|HI_MEDPAC_BIG
 	WP_FlechetteFlags 		HELD_ALTRELOAD
-	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_HIGHDAMAGE
+	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_KNOCKBACK|HELD_STUN
 	WP_MeleeFlags 			HELD_SPEED
 	hackRate 0.9
 	model			"jan"
@@ -121,7 +121,7 @@ A nimble gunner with a unique projectile shotgun.
 - FC-1 Flechette Launcher (2)
 -- 15% more DMG/FP DMG
 - PLX-2M Rocket Launcher (5)
--- 100% more DMG
+-- Staggers/pushes on hit
 -- 15% more velocity
 -- Mag reload
 -- Homing Rockets ^3[Hold Sec. ^3fire]

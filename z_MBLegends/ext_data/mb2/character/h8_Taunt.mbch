@@ -97,9 +97,9 @@ WeaponInfo1
 	FlashSound1 "sound/weapons/hutt_spit/fire.mp3"
 	FlashSound2 "sound/weapons/hutt_spit/fire.mp3"
 	FlashSound3 "sound/weapons/hutt_spit/fire.mp3"
-	MissileMissEffect "effects/Flamethrower/ice_wall"
-	MissileHitHumanEffect "effects/Flamethrower/ice_wall"
-	MissileHitDroidEffect "effects/Flamethrower/ice_wall"
+	MissileMissEffect "wat_leg/beaker_det/impact"
+	MissileHitHumanEffect "wat_leg/beaker_det/impact"
+	MissileHitDroidEffect "wat_leg/beaker_det/impact"
 	WeaponName		"Freezing Spit"
 	ReloadTimeModifier 	1.50
 	customAmmo 240

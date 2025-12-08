@@ -130,8 +130,8 @@ ClassInfo
 	c_att_skill_7	MB_ATT_ROCKET_LAUNCHER
 	c_att_names_7	"Guided Rocket Launcher (10)"
 	c_att_ranks_7	1
-	c_att_descs_7 "Pushes on direct hit, 75% more DMG, 50% slower RoF,
-100% slower mag reload, 15% slower movement"
+	c_att_descs_7 "Pushes on hit, 50% slower RoF, 50% slower mag reload,
+15% slower movement"
 
 	c_att_skill_8	MB_ATT_DMG_GIVEN_MULTIPLIER
 	c_att_names_8	"DMG Given (115%)"
@@ -218,8 +218,7 @@ WeaponInfo3
 	customAmmo 	5
 	clipsize 5
 	rateMod 1.5
-	reloadTimeModifier 2
-	damageMod 1.75
+	reloadTimeModifier 1.5
 	hasAnimOverrides 1
 	animReady BOTH_PLX1_READY //upper
 	animReadyWalk BOTH_PLX1_READY

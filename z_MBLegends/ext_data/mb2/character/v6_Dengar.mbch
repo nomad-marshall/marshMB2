@@ -63,7 +63,7 @@ ClassInfo
 	c_att_ranks_0	1
 	
 	c_att_skill_1	MB_ATT_DC_CARBINE
-	c_att_names_1	"Modded Riot Gun (C. Carbine)"
+	c_att_names_1	"Modded Riot Gun (DC Carbine)"
 	c_att_ranks_1	1,0
 	c_att_descs_1 "Electrifies/pushes/staggers on hit, 400% more DMG/FP DMG,
 100% slower RoF, 20% less velocity, 30% slower mag reload, Sec. only"

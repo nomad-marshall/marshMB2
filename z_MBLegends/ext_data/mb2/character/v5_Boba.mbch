@@ -15,7 +15,7 @@ ClassInfo
 	rateoffire			0.79
 	modelscale          1.02
 	WP_ShotgunFlags     HELD_ALTRELOAD|HELD_DISRUPTIFY
-	WP_ConcussionFlags HELD_SLOWPROJ|HELD_KNOCKBACK|HELD_ALTRELOAD
+	WP_ConcussionFlags HELD_SLOWPROJ|HELD_KNOCKBACK|HELD_ALTRELOAD|HELD_STUN
 	
 	damageTaken		0.9
 	damageGiven 		1.1
@@ -129,7 +129,7 @@ A versatile Jetpack gunner with an arsenal of Mandalorian abilities.
 -- 10% less FP DMG
 -- 40% slower mag reload
 - Wrist Rockets (5) (Conc Rifle 3)
--- Pushes on direct hit
+-- Staggers/pushes on hit
 -- 75% less velocity
 -- 40% slower mag reload
 - Sonic Detonator (1)

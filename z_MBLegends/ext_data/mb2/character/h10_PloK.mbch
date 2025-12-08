@@ -125,9 +125,9 @@ WeaponInfo1
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
 	MuzzleEffect  		"effects/Flamethrower/ice"
 	MissileEffect 		"effects/materials/snow"
-	MissileMissEffect "effects/Flamethrower/ice_wall"
-	MissileHitHumanEffect "effects/Flamethrower/ice_wall"
-	MissileHitDroidEffect "effects/Flamethrower/ice_wall"
+	MissileMissEffect "wat_leg/beaker_det/impact"
+	MissileHitHumanEffect "wat_leg/beaker_det/impact"
+	MissileHitDroidEffect "wat_leg/beaker_det/impact"
 	FlashSound0 "sound/effects/air_burst.mp3"
 	FlashSound1 "sound/effects/air_burst.mp3"
 	FlashSound2 "sound/effects/air_burst.mp3"
@@ -166,7 +166,7 @@ A hearty Jedi with the ability to manipulate the elements.
 -- Freezes on hit
 -- 75% slower RoF
 - Force Blast (Minigun 2)
--- Staggers/knocks back on hit
+-- Staggers/pushes on hit
 -- 300% more DMG
 -- 700% slower RoF
 

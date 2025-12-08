@@ -21,7 +21,7 @@ ClassInfo
 	
 	knockbackTaken 0.85
 	
-	WP_RocketLauncherflags HELD_ALTRELOAD|HELD_HIGHDAMAGE
+	WP_RocketLauncherflags HELD_ALTRELOAD|HELD_STUN|HELD_KNOCKBACK
 	WP_Repeaterflags		HELD_ALTRELOAD
 	
 	jetpackJetTag			*jet1		
@@ -114,7 +114,7 @@ A 2-life Jetpack user with a unique suppression Repeater and a micro-Rocket Laun
 -- 25% less FP DMG
 -- 15% slower mag reload
 - PLX-2M Rocket Launcher (6)
--- 100% more DMG
+-- Staggers/pushes on hit
 -- 15% more velocity
 -- 50% slower mag reload
 -- Homing Rockets ^3[Hold Sec. ^3fire]

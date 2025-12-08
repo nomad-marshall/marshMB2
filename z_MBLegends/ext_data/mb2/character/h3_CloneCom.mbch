@@ -72,7 +72,7 @@ customSpecName_3 "Wild Card"
 customSpecIcon_3 "gfx/menus/alpha/icon_weap_stun"
 customSpecDesc_3 ""
 c_att_skill_0 MB_ATT_DC_CARBINE
-c_att_names_0 "DC-17m Blaster (C. Carbine)"
+c_att_names_0 "DC-17m Blaster (DC Carbine)"
 c_att_ranks_0 0
 c_att_descs_0 "35% faster RoF, 10% less FP DMG, 25% slower mag reload"
 c_att_skill_1 MB_ATT_DISRUPTOR

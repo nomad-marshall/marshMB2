@@ -85,7 +85,7 @@ c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
 c_att_names_15 "Strength"
 c_att_ranks_15 0,0
 c_att_skill_16 MB_ATT_DC_CARBINE
-c_att_names_16 "Heavy Repeater (C. Carbine)"
+c_att_names_16 "Heavy Repeater (DC Carbine)"
 c_att_ranks_16 0
 c_att_descs_16 "55% faster RoF, 40% less DMG/FP DMG, 170% slower mag reload,
 15% slower movement"
@@ -106,7 +106,7 @@ c_att_ranks_30 0
 c_att_skill_31 MB_ATT_SHOTGUN
 c_att_names_31 "Electronet Launcher (Shotgun)"
 c_att_ranks_31 0
-c_att_descs_31 "Electrifies/freezes/staggers/knocks back on hit, 80% faster shot swap,
+c_att_descs_31 "Electrifies/freezes/staggers/pushes on hit, 80% faster shot swap,
 50% less DMG, 14900% slower reload"
 c_att_skill_32 MB_ATT_AMBAN
 c_att_names_32 "Slave Prod (Amban)"
