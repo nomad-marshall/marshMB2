@@ -33,7 +33,7 @@ ClassInfo
 	
 	WP_T21Flags   HELD_KNOCKBACK
 	WP_SaberFlags HELD_PULSE|HELD_STUN
-	WP_Demp2Flags HELD_LOWDAMAGE|HELD_FREEZE|HELD_STUN|HELD_PULSE
+	WP_Demp2Flags HELD_FREEZE|HELD_STUN|HELD_PULSE
 	WP_FlechetteFlags HELD_EXPLOSIVE|HELD_POISON|HELD_ALTRELOAD
 	
 	special1 EAS_HI_SPRINT
@@ -180,7 +180,6 @@ A hunter focused on disruption.
 -- Electrifies/freezes/staggers on hit
 -- 65% faster shot swap
 -- 350% more FP DMG
--- 50% less DMG
 -- 4400% slower reload
 -- Prim. only
 - Ammonia Bombs (5) (Flechette 1)
