@@ -205,10 +205,10 @@ NewViewModel "models/weapons2/CR-1_cannon/rifle.md3"
 Icon "gfx/hud/w_icon_CR1_blastCannon"
 WeaponName	"Poison Launcher"
 FlashSound0	"sound/weapons/cp-50_repeater/fire.wav"
-MissileMissEffect	"noghri_stick/gas_cloud"
-MissileHitHumanEffect	"noghri_stick/gas_cloud"
-MissileHitDroidEffect	"noghri_stick/gas_cloud"
-MissileEffect	"noghri_stick/shot"
+MissileMissEffect		"noghri_stick/flesh_impact"
+MissileHitHumanEffect		"noghri_stick/flesh_impact"
+MissileHitDroidEffect		"noghri_stick/flesh_impact"
+MissileEffect	"sonic_pistol/projectile"
 MuzzleEffect	"Blaster/MuzzleFlash01G"
 FPMult 1.25
 clipSize 10
@@ -227,7 +227,9 @@ NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
 Icon	"gfx/hud/w_icon_stungrenade"
 WeaponName	"Corrosive Stun Grenade"
 MissileModel "models/weapons/Grenade_Concussion/proj.md3"
-altMissileMissEffect	"noghri_stick/gas_cloud"
+altMissileMissEffect		"noghri_stick/flesh_impact"
+altMissileEffect "sonic_pistol/projectile"
+
 ratemod 1.5
 }
 WeaponInfo5{

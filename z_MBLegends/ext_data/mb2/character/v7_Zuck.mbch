@@ -2,8 +2,8 @@
 ClassInfo
 {
 	name  			"v7_Zuck"
-	weapons 		WP_SABER|WP_MELEE|WP_T21|WP_DEMP2|WP_FLECHETTE
-	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_FP_MIRALUKA|MB_ATT_STAMINA,3|MB_ATT_T21,1|MB_ATT_FORCEBLOCK,3|MB_ATT_ANTI_MT,2|MB_ATT_DEMP2,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_BEACON|MB_ATT_FLECHETTE,1
+	weapons 		WP_SABER|WP_MELEE|WP_T21|WP_DEMP2|WP_FLECHETTE|WP_TRIP_MINE
+	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_FP_MIRALUKA|MB_ATT_STAMINA,3|MB_ATT_T21,1|MB_ATT_FORCEBLOCK,3|MB_ATT_ANTI_MT,2|MB_ATT_DEMP2,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_BEACON|MB_ATT_FLECHETTE,1|MB_ATT_TRIP_MINES,3
 	saber1  		qstaff_legends
 	saberstyle  	SS_DESANN|SS_STAFF|SS_MEDIUM
 	forcepowers		FP_SEE,1|FP_SABER_OFFENSE,3
@@ -34,7 +34,7 @@ ClassInfo
 	WP_T21Flags   HELD_KNOCKBACK
 	WP_SaberFlags HELD_PULSE|HELD_STUN
 	WP_Demp2Flags HELD_LOWDAMAGE|HELD_FREEZE|HELD_STUN|HELD_PULSE
-	WP_FlechetteFlags HELD_EXPLOSIVE|HELD_POISON|HELD_ALTRELOAD|HELD_LOWDAMAGE
+	WP_FlechetteFlags HELD_EXPLOSIVE|HELD_POISON|HELD_ALTRELOAD
 	
 	special1 EAS_HI_SPRINT
 	special2 EAS_MELEE
@@ -131,7 +131,10 @@ WeaponInfo3
 	altMissileHitHumanEffect	"noghri_stick/flesh_impact"
 	altMissileEffect		"hutt/toxic_breath"
 	altMuzzleEffect null
-	altFlashSound "sound/weapons/stone/fire.mp3"
+	altFlashSound0 "sound/weapons/stone/fire.mp3"
+	altFlashSound1 "sound/weapons/stone/fire.mp3"
+	altFlashSound2 "sound/weapons/stone/fire.mp3"
+	altFlashSound3 "sound/weapons/stone/fire.mp3"
 	FlashSound "sound/weapons/stone/fire.mp3"
 	MissileModel	"models/weapons2/thermal/thermal_proj.md3"
 	MissileMissEffect	"noghri_stick/flesh_impact"
@@ -141,8 +144,7 @@ WeaponInfo3
 	MuzzleEffect null
 	primFireEnabled  0
 	clipSize 15
-	customAmmo 30
-	reloadTimeModifier 2
+	customAmmo 60
 	hasAnimOverrides 1
 	animReady BOTH_STAND10
 	animReadyWalk BOTH_STAND10
@@ -150,6 +152,7 @@ WeaponInfo3
 	animAttack BOTH_A6_LR
 	animAttackWalk BOTH_A6_LR
 	animStand BOTH_STAND1
+ damageMod .7
 }
 ForceInfo0
 {
@@ -180,16 +183,16 @@ A hunter focused on disruption.
 -- 50% less DMG
 -- 4400% slower reload
 -- Prim. only
-- Ammonia Bombs (3) (Flechette 1)
+- Ammonia Bombs (5) (Flechette 1)
 -- Deals AoE DMG while traveling
 -- Poisons on hit
--- 50% less DMG
--- 100% slower mag reload
+-- 30% less DMG
 -- Sec. only
 - W-90 Concussion Rifle (T-21 1)
 -- Pushes on hit
 -- 25% faster RoF
 -- 85% more FP DMG
+- Trip Mines (3)
 
 ^8Attributes:
 - Stamina (3)

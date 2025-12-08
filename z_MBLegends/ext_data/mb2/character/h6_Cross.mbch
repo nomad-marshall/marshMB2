@@ -67,8 +67,8 @@ WeaponInfo1
 	WeaponName			"773 Firepuncher Rifle Pulse Config"  
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot10B"	
-	MissileMissEffect "Blaster/impact_wall01b"
-	AltMissileMissEffect "Blaster/impact_wall01b"
+	
+	
 	CustomAmmo 	24
 	fpmult	1.1
 	velocityMod 1.1
@@ -98,8 +98,8 @@ WeaponInfo2
 	MissileEffect	"Blaster/Shot10B"
 	altMissileEffect	"Blaster/Shot10B"
 	Missile3Effect "Blaster/Shot10B"
-	MissileMissEffect "Blaster/impact_wall01b"
-	AltMissileMissEffect "Blaster/impact_wall01b"
+	
+	
 	rateMod 1.85
 	clipSize 40
 	customAmmo 960

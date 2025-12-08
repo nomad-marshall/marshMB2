@@ -26,7 +26,6 @@ ClassInfo
 	damageGiven 			1.2
 	speed 				0.98
 	rateoffire_melee         1.12
-	rateoffire 			1.12
 	modelscale			1.35
 	knockbackTaken 0.5
 	bargeSoundOverride 	"sound/chars/hutt/misc/barge.mp3"
@@ -51,7 +50,8 @@ ClassInfo
 	uioverlay "gfx/icons/brawler"
 	
 	SaberStanceAnim BOTH_TAVION_STANCE
-	gloatAnim       BOTH_VICTORY_FAST
+flourishAnim BOTH_PAIN1
+gloatAnim BOTH_VICTORY_MEDIUM
 	//meditateAnim BOTH_STAND5TOSIT3
     //respawncustomtime 75000	
 

@@ -192,8 +192,8 @@ MuzzleEffect	"Blaster/MuzzleFlash01B"
 FlashSound0 "sound/weapons/e_22/fire.mp3"
 MissileEffect	"Blaster/Shot10B"
 Missile3Effect "Blaster/Shot10B"
-MissileMissEffect "blaster/impact_wall01b"
-AltMissileMissEffect "blaster/impact_wall01b"
+
+
 }
 WeaponInfo3{
 WeaponToReplace WP_T21
@@ -206,8 +206,8 @@ MissileEffect	"blaster/Shot04B"
 AltMissileEffect	"blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 AltMuzzleEffect	"Blaster/MuzzleFlash01B"
-MissileMissEffect "blaster/impact_wall01b"
-AltMissileMissEffect "blaster/impact_wall01b"
+
+
 customAmmo 800
 hasAnimOverrides 1
 animReady BOTH_AMBAN_IDLE
@@ -227,7 +227,7 @@ ratemod 0.8
 damagemod 0.65
 MissileEffect	"Blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
-MissileMissEffect "blaster/impact_wall01b"
+
 hasAnimOverrides 1
 animReadyWalk BOTH_WESTARM5_READY
 animReadyNoAmmo BOTH_WESTARM5_ATTACK
