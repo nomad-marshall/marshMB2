@@ -19,7 +19,7 @@ rankROFMelee .65
 forceregen .01
 forcepool 100
 rankHealth	230
-forcepowers FP_SEE,1|FP_HEAL,2
+forcepowers FP_SEE,2|FP_HEAL,2
 baseSpeed 190
 rankBaseSpeed 213,225
 classflags CFL_BLOODYMELEE
@@ -66,7 +66,7 @@ c_att_ranks_0	0
 c_att_skill_1	MB_ATT_REPEATER
 c_att_names_1	"ACP Repeater"
 c_att_ranks_1	0
-c_att_descs_1 "100% faster velocity, 45% less DMG/FP DMG, 10% slower RoF,
+c_att_descs_1 "100% more velocity, 45% less DMG/FP DMG, 10% slower RoF,
 Mag reload, Prim. only"
 c_att_skill_2	MB_ATT_TRIP_MINES
 c_att_names_2	"Trip Mine"
@@ -92,8 +92,8 @@ c_att_descs_16 "55% faster RoF, 40% less DMG/FP DMG, 170% slower mag reload,
 c_att_skill_17 MB_ATT_CONCUSSION
 c_att_names_17 "LJ-50 Conc Rifle"
 c_att_ranks_17 0,0,0
-c_att_descs_17 "80% slower velocity/RoF/mag reload, 15% slower movement,
-Prim. only"
+c_att_descs_17 "80% less velocity, 80% slower RoF, 80% slower mag reload, 
+15% slower movement, Prim. only"
 c_att_skill_18 MB_ATT_HEALTH
 c_att_names_18 "Health (230)"
 c_att_ranks_18 0
@@ -132,6 +132,7 @@ clipSize 40
 customAmmo 360
 rateMod 1.4
 ReloadTimeModifier 1.6
+damageMod 1.15
 altFireEnabled 0
 }
 WeaponInfo1
@@ -267,13 +268,14 @@ Hiss
 -- 25% less reach
 -- Slap ^3[CS2]
 - ACP Scatter Gun (Flechette 2)
+-- 15% more DMG
 -- 40% slower RoF
 -- 60% slower mag reload
 - Frag Grenade (1)
 - Sonic Detonator (1)
 
 ^5Powers:
-- Hunter Vision (Sense 1) ^3[CS1]
+- Hunter Vision (Sense 2) ^3[CS1]
 - Regenerate (Heal 2) ^3[CS4]
 
 ^8Attributes:
