@@ -202,7 +202,7 @@ ClassInfo
 	c_att_names_32	"DLT-20A Sniper Config (EE-4)"
 	c_att_ranks_32	2,2
 	c_att_descs_32 "50% more DMG, 50% more FP DMG, 100% more velocity,
-50% slower RoF, 100% slower reload"
+50% slower RoF, 7000% slower reload"
 
 	c_att_skill_33	MB_ATT_SONIC_DETONATOR
 	c_att_names_33	"Sonic Detonators"
