@@ -271,7 +271,7 @@ ratemod 1.5
 fpmult 1.5
 damagemod 1.5
 Velocitymod 2
-ReloadTimeModifier 51
+ReloadTimeModifier 71
 }
 WeaponInfo3
 {
