@@ -80,6 +80,9 @@ ClassInfo
 
 	saber1_3			cc_leg2
 	sabercolor_3		4	
+
+	saber1_4			saber_yun
+	sabercolor_4		1	
 	
 	mbPoints			100
 	
