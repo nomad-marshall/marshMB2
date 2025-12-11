@@ -65,7 +65,7 @@ customSpecName_1 "Stealth"
 customSpecIcon_1 "gfx/menus/alpha/icon_playermodel"
 customSpecDesc_1 "Potential 2-life"
 customSpecName_2 "Duelist"
-customSpecIcon_2 "gfx/menus/alpha/icon_weap_saber"
+customSpecIcon_2 "gfx/menus/alpha/icon_saberdual"
 customSpecDesc_2 "1-life"
 	
 	c_att_skill_0		MB_ATT_CLONE_PISTOL
