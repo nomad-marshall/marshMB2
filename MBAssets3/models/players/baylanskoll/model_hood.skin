@@ -1,6 +1,6 @@
-head,models/players/baylanskoll/head.tga
+head,models/players/baylanskoll/head_hood.tga
 head_hair,*off
-head_hair_hood,models/players/baylanskoll/head.tga
+head_hair_hood,models/players/baylanskoll/head_hood.tga
 head_hood,models/players/baylanskoll/cape.tga
 head_eyes,models/players/baylanskoll/mouth_eyes.tga
 
