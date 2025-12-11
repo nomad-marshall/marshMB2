@@ -25,3 +25,17 @@ models/players/baylanskoll/armor_belt_cull
 		alphaGen lightingSpecular
 	}
 }
+
+models/players/baylanskoll/torso
+{
+	{
+		map models/players/baylanskoll/torso
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/baylanskoll/torso_spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+	detail
+	}
+}
