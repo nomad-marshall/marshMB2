@@ -175,8 +175,7 @@ Icon	"gfx/hud/w_icon_tuskenrifle"
 WeaponName "Hunting Rifle"
 damageMod .7
 }
-WeaponInfo4
-{
+WeaponInfo4{
 WeaponToReplace WP_DC_CARBINE
 WeaponBasedOff WP_M5
 WeaponName "LS-150 Heavy ACP Repeater"
@@ -200,14 +199,15 @@ reloadTimeModifier 2.7
 customAmmo 720
 clipsize	180
 hasAnimOverrides 1
+animReadyRun BOTH_MINIGUN_READY
 animReady BOTH_MINIGUN_READY
 animReadyWalk BOTH_MINIGUN_READY
+animAttackRun BOTH_MINIGUN_ATTACK
 animAttack BOTH_MINIGUN_ATTACK
 animAttackWalk BOTH_MINIGUN_ATTACK
 animStand BOTH_STAND2
 }
-WeaponInfo5
-{
+WeaponInfo5{
 WeaponToReplace WP_CONCUSSION
 WeaponBasedOff WP_CONCUSSION
 NewWorldModel	"models/weapons2/lj-50_concussion/lj-50_concussion_w.glm"
@@ -221,8 +221,7 @@ rateMod 1.8
 reloadTimeModifier 1.8
 velocityMod .2
 }
-WeaponInfo6
-{
+WeaponInfo6{
 WeaponToReplace	WP_SHOTGUN
 WeaponBasedOff	WP_SHOTGUN
 NewWorldModel	"models/weapons2/junglerifle/jungeRifle.glm"
@@ -242,8 +241,7 @@ rateMod .2
 ReloadTimeModifier 150
 altfireenabled 0
 }
-WeaponInfo7
-{
+WeaponInfo7{
 WeaponToReplace WP_AMBAN
 WeaponBasedOff WP_AMBAN
 NewWorldModel	"models/weapons2/mando_rifle/mando_rifle.glm"

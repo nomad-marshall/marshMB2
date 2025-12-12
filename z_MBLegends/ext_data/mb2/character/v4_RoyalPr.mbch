@@ -92,9 +92,11 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_arc_caster" 
 	WeaponName			"ARC Caster"
 	hasAnimOverrides 1
+	animReadyRun BOTH_WESTARM5_IDLE
 	animReady BOTH_WESTARM5_IDLE
 	animReadyWalk BOTH_WESTARM5_READY
 	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
 	animAttack BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
 	animStand BOTH_STAND5

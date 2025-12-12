@@ -161,9 +161,11 @@ WeaponInfo1
 	velocitymod 0.5
 	ratemod 1.5
 	hasAnimOverrides 1
+animReadyRun BOTH_DC15_READY
 animReady BOTH_DC15_READY
 animReadyWalk BOTH_DC15_IDLE
 AnimReadyNoAmmo BOTH_DC15_ATTACK_ALT
+animAttackRun BOTH_DC15_ATTACK_ALT
 animAttack BOTH_DC15_ATTACK_ALT
 animAttackWalk BOTH_DC15_ATTACK_ALT
 	animStand BOTH_MELEE_BLOCK_B

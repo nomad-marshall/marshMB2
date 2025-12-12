@@ -182,6 +182,7 @@ WeaponInfo1
 	WeaponName			"DC-15A Clone Rifle"
 	altfireenabled		1
 hasAnimOverrides 1
+animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
 }
 

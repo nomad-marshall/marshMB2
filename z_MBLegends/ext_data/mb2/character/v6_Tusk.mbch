@@ -103,6 +103,7 @@ WeaponInfo1
 		damageMod .85
 		ratemod 0.94
 	hasAnimOverrides 1
+	animReadyRun BOTH_SABERDUAL_STANCE
 	animReady BOTH_SABERDUAL_STANCE
 	animReadyWalk BOTH_SABERDUAL_STANCE
 animReadyNoAmmo BOTH_MAND_DUAL_PISTOLS_IDLE

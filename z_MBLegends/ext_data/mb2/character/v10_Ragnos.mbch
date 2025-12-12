@@ -87,9 +87,11 @@ WeaponInfo1
     FlashSound0			"sound/weapons/impacts/hit23.wav"  			
 	WeaponName 			"Incinerate"
 	hasAnimOverrides 1
+	animReadyRun BOTH_FORCE_2HANDEDLIGHTNING_START
 	animReady BOTH_FORCE_2HANDEDLIGHTNING_START
 	animReadyWalk BOTH_FORCE_2HANDEDLIGHTNING_START
 	animReadyNoAmmo BOTH_FORCE_2HANDEDLIGHTNING
+	animAttackRun BOTH_FORCE_2HANDEDLIGHTNING
 	animAttack BOTH_FORCE_2HANDEDLIGHTNING
 	animAttackWalk BOTH_FORCE_2HANDEDLIGHTNING
 	clipsize      96

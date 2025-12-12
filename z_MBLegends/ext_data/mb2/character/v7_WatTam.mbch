@@ -85,9 +85,11 @@ WeaponInfo1
 	AltFlashSound2 "sound/chars/probe/misc/probetalk3.mp3"
 	primFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_GESTURE1
 	animReady BOTH_GESTURE1
 	animReadyWalk BOTH_STAND8
 	animReadyNoAmmo BOTH_STAND5TURNLEFTSTART
+	animAttackRun BOTH_FORCEGRIP3
 	animAttack BOTH_FORCEGRIP3
 	animAttackWalk BOTH_FORCEGRIP3
 	animCharge BOTH_GESTURE1
@@ -117,9 +119,11 @@ WeaponInfo2
 	velocityMod 0.75
 	reloadTimeModifier 1.25
 	hasAnimOverrides 1
+	animReadyRun BOTH_REACHFORSABER1 //upper
 	animReady BOTH_REACHFORSABER1 //upper
 	animReadyWalk BOTH_REACHFORSABER1
 	animReadyNoAmmo BOTH_STAND5TURNLEFTSTART
+	animAttackRun   BOTH_FORCEGRIP3 
 	animAttack   BOTH_FORCEGRIP3 
 	animAttackWalk BOTH_FORCEGRIP3 
 	animCharge BOTH_REACHFORSABER1

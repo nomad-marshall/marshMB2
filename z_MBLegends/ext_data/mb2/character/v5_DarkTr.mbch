@@ -60,8 +60,10 @@ WeaponInfo0
 	AltFlashSound0 			"sound/weapons/assault_cannon/fire.mp3"
 	ChargeSound 			"sound/weapons/leia_pistol/altcharge.mp3"
 hasAnimOverrides 1
+animReadyRun BOTH_WESTARM5_READY
 animReady BOTH_WESTARM5_READY
 animReadyWalk BOTH_WESTARM5_READY
+animAttackRun BOTH_WESTARM5_ATTACK
 animAttack BOTH_WESTARM5_ATTACK
 animAttackWalk BOTH_WESTARM5_ATTACK
 animCharge BOTH_WESTARM5_ATTACK
@@ -84,8 +86,10 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_DTAC_rocket"
 	WeaponName			"Assault Cannon Rocket Attachment"
 hasAnimOverrides 1
+animReadyRun BOTH_PLX1_READY
 animReady BOTH_PLX1_READY
 animReadyWalk BOTH_PLX1_READY
+animAttackRun BOTH_PLX1_ATTACK
 animAttack BOTH_PLX1_ATTACK
 animAttackWalk BOTH_PLX1_ATTACK
 	CustomAmmo 			8

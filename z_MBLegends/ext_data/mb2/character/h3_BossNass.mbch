@@ -113,6 +113,7 @@ WeaponInfo3
 	customAmmo 				2
 	SelectSound	"sound/weapons/ballz/bounce1.mp3"
 	hasAnimOverrides 1
+	animAttackRun BOTH_T5_BL__R
 	animAttack BOTH_T5_BL__R
 	animAttackWalk BOTH_T5_BL__R
 }

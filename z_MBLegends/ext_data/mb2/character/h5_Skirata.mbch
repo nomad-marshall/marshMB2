@@ -90,9 +90,11 @@ WeaponInfo1
 	damageMod 1.2
 	ratemod	1.15
 	hasAnimOverrides 1
+	animReadyRun BOTH_MAND_PISTOL_READY
 	animReady BOTH_MAND_PISTOL_READY
 	animReadyWalk BOTH_MAND_PISTOL_READY
 	animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttackRun BOTH_MAND_PISTOL_ATTACK
 	animAttack BOTH_MAND_PISTOL_ATTACK
 	animAttackWalk BOTH_MAND_PISTOL_ATTACK
 }

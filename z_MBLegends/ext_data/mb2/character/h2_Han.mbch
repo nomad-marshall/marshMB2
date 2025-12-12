@@ -141,9 +141,11 @@ WeaponInfo0
 	PowerupShotEffect		"blaster/Shot04R"
 	MissileEffect			"blaster/Shot03R"
 	hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONIDLE2
 	animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2 
 }

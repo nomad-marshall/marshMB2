@@ -183,6 +183,7 @@ WeaponInfo1
 	hasAnimOverrides 1
 	animReadyWalk  BOTH_WESTARM5_READY
 	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
 	animAttack BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
 	animStand BOTH_STAND1

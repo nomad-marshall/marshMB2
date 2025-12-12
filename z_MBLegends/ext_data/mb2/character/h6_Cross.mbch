@@ -75,9 +75,11 @@ WeaponInfo1
 	damageMod 1.1
 	selectSound "sound/weapons/silencedpistol/select.wav"
 	hasAnimOverrides 1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 	animReadyWalk BOTH_DC15_IDLE 
 	animReadyNoAmmo BOTH_AMBAN_AIM_ATTACK
+	animAttackRun BOTH_AMBAN_AIM_ATTACK
 	animAttack BOTH_AMBAN_AIM_ATTACK
 	animAttackWalk BOTH_AMBAN_AIM_ATTACK
 	reloadTimeModifier 1.75
@@ -108,9 +110,11 @@ WeaponInfo2
 	fpMult 1.4
 	reloadTimeModifier 1.75
 	hasAnimOverrides 1
+	animReadyRun BOTH_AMBAN_READY
 	animReady BOTH_AMBAN_READY
 	animReadyWalk BOTH_AMBAN_READY
 	animReadyNoAmmo BOTH_AMBAN_ATTACK
+	animAttackRun BOTH_AMBAN_ATTACK
 	animAttack BOTH_AMBAN_ATTACK
 	animAttackWalk BOTH_AMBAN_ATTACK
 	selectSound "sound/weapons/silencedpistol/select.wav"
@@ -135,9 +139,11 @@ WeaponInfo3
 	fpmult 3.5
 	reloadTimeModifier 1.75
 	hasAnimOverrides 1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 	animReadyWalk BOTH_DC15_IDLE 
 	animReadyNoAmmo BOTH_AMBAN_AIM_ATTACK
+	animAttackRun BOTH_AMBAN_AIM_ATTACK
 	animAttack BOTH_AMBAN_AIM_ATTACK
 	animAttackWalk BOTH_AMBAN_AIM_ATTACK
 	animCharge BOTH_AMBAN_READY
@@ -167,9 +173,11 @@ WeaponInfo3
 	missileEffect "Blaster/Shot02B"
 	altMissileEffect "Blaster/Shot02B"
 	hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONIDLE2
 	animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2 
 } */

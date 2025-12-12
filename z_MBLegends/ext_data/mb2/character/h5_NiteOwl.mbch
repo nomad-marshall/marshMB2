@@ -126,8 +126,10 @@ WeaponInfo1
 	altFlashSound0	"sound/weapons/LPA_NN-14/alt_fire.wav"
 	hasAnimOverrides 	1
 	animStand 			BOTH_STAND9
+	animReadyRun 		BOTH_MAND_PISTOL_READY
 	animReady 		BOTH_MAND_PISTOL_READY
 	animReadyWalk 	BOTH_MAND_PISTOL_READY
+	animAttackRun 		BOTH_MAND_PISTOL_ATTACK
 	animAttack 		BOTH_MAND_PISTOL_ATTACK
 	animAttackWalk 	BOTH_MAND_PISTOL_ATTACK
 	customAmmo 	800

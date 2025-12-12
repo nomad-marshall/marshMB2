@@ -108,9 +108,11 @@ WeaponInfo0
 	customAmmo -1
 	rateMod 8
 	hasAnimOverrides 1
+	animReadyRun BOTH_MELEE_STAND1
 	animReady BOTH_MELEE_STAND1
 	animReadyWalk BOTH_MELEE_STAND1
 	animReadyNoAmmo BOTH_SUPERPUSH
+	animAttackRun BOTH_SUPERPUSH
 	animAttack BOTH_SUPERPUSH
 	animAttackWalk BOTH_SUPERPUSH
 	AnimStand BOTH_STAND1
@@ -139,9 +141,11 @@ WeaponInfo1
 	rateMod 1.75
 	AltFireEnabled 		0
 	hasAnimOverrides 1
+	animReadyRun BOTH_MELEE_BLOCK_BLASTER_L
 	animReady BOTH_MELEE_BLOCK_BLASTER_L
 	animReadyWalk BOTH_MELEE_BLOCK_BLASTER_L
 	animReadyNoAmmo BOTH_FORCE_2HANDEDLIGHTNING_RELEASE
+	animAttackRun BOTH_FORCE_2HANDEDLIGHTNING_HOLD
 	animAttack BOTH_FORCE_2HANDEDLIGHTNING_HOLD
 	animAttackWalk BOTH_FORCE_2HANDEDLIGHTNING_HOLD
 	animCharge BOTH_FORCE_2HANDEDLIGHTNING_START

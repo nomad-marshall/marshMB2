@@ -90,9 +90,11 @@ WeaponInfo0
 	ChargeEffect		"gfx/effects/greenFrontFlash"
 	OverchargeEffect	"Blaster/MuzzleCharge01G"
 		hasAnimOverrides 1
+	animReadyRun BOTH_PISTOL_IDLE
 	animReady BOTH_PISTOL_IDLE
 	animReadyWalk BOTH_PISTOL_IDLE2
 	animReadyNoAmmo BOTH_PISTOL_ATTACK
+	animAttackRun BOTH_PISTOL_ATTACK
 	animAttack BOTH_PISTOL_ATTACK
 	animAttackWalk BOTH_PISTOL_ATTACK
 }

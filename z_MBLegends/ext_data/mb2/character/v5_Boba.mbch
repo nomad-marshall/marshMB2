@@ -65,9 +65,11 @@ WeaponInfo0
  FlashSound0			"sound/weapons/flechette/fire.mp3"  			
 	WeaponName 			"FWG-5 Flechette Pistol"
 	hasAnimOverrides 1
+	animReadyRun BOTH_MAND_PISTOL_READY
 	animReady BOTH_MAND_PISTOL_READY
 	animReadyWalk BOTH_MAND_PISTOL_READY
 	animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttackRun BOTH_MAND_PISTOL_ATTACK
 	animAttack BOTH_MAND_PISTOL_ATTACK
 	animAttackWalk BOTH_MAND_PISTOL_ATTACK
 	animStand BOTH_MAND_PISTOL_READY
@@ -96,9 +98,11 @@ WeaponInfo1
 	clipSize 10
 	CustomAmmo 40
  hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONREADY2
 	animReady TORSO_WEAPONREADY2
 	animReadyWalk TORSO_WEAPONREADY2
 	animReadyNoAmmo BOTH_ATTACK2
+	animAttackRun BOTH_ATTACK2
 	animAttack BOTH_ATTACK2
 	animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1 //lower

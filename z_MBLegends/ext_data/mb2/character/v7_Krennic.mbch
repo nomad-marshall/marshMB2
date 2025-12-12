@@ -58,9 +58,11 @@ WeaponInfo0
 	rateMod 1.15
 	//ReloadTimeModifier 1.25
 		hasAnimOverrides 1
+animReadyRun BOTH_MAND_PISTOL_READY
 animReady BOTH_MAND_PISTOL_READY
 animReadyWalk BOTH_MAND_PISTOL_READY
 animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+animAttackRun BOTH_MAND_PISTOL_ATTACK
 animAttack BOTH_MAND_PISTOL_ATTACK
 animAttackWalk BOTH_MAND_PISTOL_ATTACK
 animCharge BOTH_MAND_PISTOL_ATTACK

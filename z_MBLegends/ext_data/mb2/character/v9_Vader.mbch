@@ -99,6 +99,7 @@ WeaponInfo0
 	hasAnimOverrides 1
 	clipsize -1
 	customammo 0
+	animReadyRun  BOTH_STAND10
 	animReady  BOTH_STAND10
 	animReadyWalk  BOTH_STAND10
 	animReadyNoAmmo  BOTH_STAND10

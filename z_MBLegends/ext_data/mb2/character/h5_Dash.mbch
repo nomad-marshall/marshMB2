@@ -60,9 +60,11 @@ WeaponInfo0
 	MissileMissEffect "blaster/dash_impact"
 	altFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_MAND_PISTOL_READY
 	animReady BOTH_MAND_PISTOL_READY
 	animReadyWalk BOTH_MAND_PISTOL_READY
 animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttackRun BOTH_ATTACK2
 	animAttack BOTH_ATTACK2
 	animAttackWalk  BOTH_MAND_PISTOL_ATTACK 
  animStand BOTH_STAND9

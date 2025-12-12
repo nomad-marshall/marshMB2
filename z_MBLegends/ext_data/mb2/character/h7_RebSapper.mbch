@@ -100,6 +100,7 @@ customAmmo 3
 
 //put these on alt attack if that ever becomes a thing
 hasAnimOverrides 1
+animAttackRun BOTH_MAND_FLAME_READY
 animAttack BOTH_MAND_FLAME_READY
 animAttackWalk BOTH_MAND_FLAME_READY
 rateMod 0.75
@@ -117,6 +118,7 @@ WeaponInfo3
     clipSize -1
     primFireEnabled  0
     hasAnimOverrides 1
+    animAttackRun     BOTH_ATTACK3
     animAttack     BOTH_ATTACK3
     animAttackWalk  BOTH_ATTACK3
 	ratemod 0.75

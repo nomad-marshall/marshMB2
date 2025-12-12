@@ -118,9 +118,11 @@ WeaponInfo0
 	clipsize 85
 	rateMod 0.92
 hasAnimOverrides 1
+animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
 animReadyWalk BOTH_DC15_READY
 animReadyNoAmmo BOTH_DC15_ATTACK
+animAttackRun BOTH_DC15_ATTACK
 animAttack BOTH_DC15_ATTACK
 animAttackWalk BOTH_DC15_ATTACK
 animStand BOTH_STAND1
@@ -147,8 +149,10 @@ WeaponInfo1
 	AltFlashSound0 	"sound/weapons/smokenade/select.mp3"
 	WeaponName  				"Smoke Grenades"
 	hasAnimOverrides 1
+	animAttackRun BOTH_THERMAL_THROW2
 	animAttack BOTH_THERMAL_THROW2
 	animAttackWalk BOTH_THERMAL_THROW2
+	animReadyRun BOTH_THERMAL_READY2
 	animReady BOTH_THERMAL_READY2
 	animReadyWalk BOTH_THERMAL_READY2
 	damageMod 0.001
