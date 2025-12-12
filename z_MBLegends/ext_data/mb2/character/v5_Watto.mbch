@@ -74,9 +74,11 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_blaster_pistol_2"
 	WeaponName		"DL-44 Blaster Pistol" 
 	hasAnimOverrides 1
+	animReadyRun BOTH_STAND4TOATTACK2
 	animReady BOTH_STAND4TOATTACK2
 	animReadyWalk BOTH_STAND4TOATTACK2
 	animReadyNoAmmo BOTH_VS_ATF_G 
+	animAttackRun BOTH_VS_ATF_G 
 	animAttack BOTH_VS_ATF_G 
 	animAttackWalk BOTH_VS_ATF_G  
 	animStand BOTH_STAND1
@@ -111,9 +113,11 @@ WeaponInfo2
 	FlashSound2 "sound/weapons/whistlingbird/flyby1.mp3"
 	FlashSound3 "sound/weapons/whistlingbird/flyby2.mp3"
 	hasAnimOverrides 1
+	animReadyRun  BOTH_VT_TURBO
 	animReady  BOTH_VT_TURBO
 	animReadyWalk  BOTH_VT_TURBO
 	animReadyNoAmmo BOTH_ATTACK11
+	animAttackRun BOTH_ATTACK11
 	animAttack BOTH_ATTACK11
 	animAttackWalk BOTH_ATTACK11
 	animStand BOTH_STAND1

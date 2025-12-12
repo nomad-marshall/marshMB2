@@ -91,6 +91,7 @@ WeaponInfo0
 	Icon						"gfx/hud/w_icon_atlatl"
 	customAmmo 				4
 	SelectSound	"sound/weapons/wood/spin.mp3"
+	animAttackRun BOTH_S6_S6_BL
 	animAttack BOTH_S6_S6_BL
 	animAttackWalk BOTH_S6_S6_BL
 	hasAnimOverrides 1
@@ -115,9 +116,11 @@ WeaponInfo1
 	customAmmo 				4
 	SelectSound	"sound/weapons/blunt/spin.mp3"	
 	hasAnimOverrides 1
+	animReadyRun BOTH_THERMAL_READY2
 	animReady BOTH_THERMAL_READY2
 	animReadyWalk BOTH_THERMAL_READY2
 	animReadyNoAmmo BOTH_THERMAL_READY2
+	animAttackRun BOTH_THERMAL_THROW2
 	animAttack BOTH_THERMAL_THROW2
 	animAttackWalk BOTH_THERMAL_THROW2
 }
@@ -143,6 +146,7 @@ WeaponInfo2
 	clipsize 		144
 	hasAnimOverrides 1
 	animReadyNoAmmo BOTH_ARC_FORWARD_DIVE
+	animAttackRun BOTH_ARC_FORWARD_DIVE
 	animAttack BOTH_ARC_FORWARD_DIVE
 	animAttackWalk BOTH_ARC_FORWARD_DIVE
 }

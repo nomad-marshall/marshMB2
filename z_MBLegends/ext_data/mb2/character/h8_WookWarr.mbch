@@ -220,9 +220,11 @@ WeaponInfo3
 	rateMod 1.5
 	reloadTimeModifier 1.5
 	hasAnimOverrides 1
+	animReadyRun BOTH_PLX1_READY //upper
 	animReady BOTH_PLX1_READY //upper
 	animReadyWalk BOTH_PLX1_READY
 	animReadyNoAmmo BOTH_PLX1_IDLE
+	animAttackRun BOTH_PLX1_ATTACK
 	animAttack BOTH_PLX1_ATTACK
 	animAttackWalk BOTH_PLX1_ATTACK
 }

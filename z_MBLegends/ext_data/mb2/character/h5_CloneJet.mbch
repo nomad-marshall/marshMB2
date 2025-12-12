@@ -97,9 +97,11 @@ WeaponInfo0
     altfireenabled  0
 	velocityMod 1.15
 	hasAnimOverrides 1
+	animReadyRun		BOTH_WESTARM5_READY
 	animReady		BOTH_WESTARM5_READY
 	animReadyWalk		BOTH_WESTARM5_READY
 	animReadyNoAmmo	BOTH_WESTARM5_ATTACK
+	animAttackRun      BOTH_WESTARM5_ATTACK
 	animAttack      BOTH_WESTARM5_ATTACK
 	animAttackWalk   BOTH_WESTARM5_ATTACK
 animStand BOTH_DC15_READY

@@ -111,6 +111,7 @@ WeaponInfo1
 	ChargeSound		"sound/weapons/leia_pistol/altcharge.mp3"
 	ChargeEffect		"gfx/effects/yellow_bryarFrontFlash" 
 	hasAnimOverrides 	1
+	animReadyRun 		BOTH_PAIN16   
 	animReady 		BOTH_PAIN16   
 	animReadyWalk 	BOTH_PAIN16    
 	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW

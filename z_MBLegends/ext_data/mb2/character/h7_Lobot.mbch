@@ -104,9 +104,11 @@ ForceInfo0
 	CustomAmmo -1
 	AltFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_SHOWOFF_STRONG
 	animReady BOTH_SHOWOFF_STRONG
 	animReadyWalk BOTH_GESTURE1
 	animReadyNoAmmo BOTH_STAND5TURNRIGHTSTART
+	animAttackRun BOTH_HUGGERSTOP1
 	animAttack BOTH_HUGGERSTOP1
 	animAttackWalk BOTH_HUGGERSTOP1
 	animStand BOTH_STAND1

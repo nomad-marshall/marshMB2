@@ -86,8 +86,10 @@ WeaponInfo1
 	damageMod 1.2
 	rateMod 0.95
 	hasAnimOverrides 1
+	animReadyRun BOTH_WESTARM5_IDLE
 	animReady BOTH_WESTARM5_IDLE
 	animReadyWalk BOTH_WESTARM5_READY
+	animAttackRun BOTH_WESTARM5_ATTACK
 	animAttack BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
 }
@@ -101,9 +103,11 @@ WeaponInfo2
 	Icon				"gfx/hud/w_icon_dh-17"
 	WeaponName			"DH-17 Blaster Pistol"
 	hasAnimOverrides 1
+animReadyRun TORSO_WEAPONREADY2
 animReady TORSO_WEAPONREADY2
 animReadyWalk TORSO_WEAPONREADY2
 animReadyNoAmmo BOTH_ATTACK2 
+animAttackRun BOTH_ATTACK2
 animAttack BOTH_ATTACK2
 animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1

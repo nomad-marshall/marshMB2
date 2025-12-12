@@ -96,9 +96,11 @@ WeaponInfo1
  rateMod 0.70
 	altFireEnabled	0
 	hasAnimOverrides 	1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 	animReadyWalk TORSO_WEAPONREADY4
 	animReadyNoAmmo TORSO_WEAPONREADY4
+	animAttackRun BOTH_ATTACK4
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
 	animStand TORSO_DROPWEAP4
@@ -126,9 +128,11 @@ WeaponInfo2
 	clipSize 750
 	customAmmo 1
 	hasAnimOverrides 1
+	animReadyRun BOTH_TRIPLE3_DUALSTANCE
 	animReady BOTH_TRIPLE3_DUALSTANCE
 	animReadyWalk BOTH_TRIPLE3_DUALSTANCE
 	animReadyNoAmmo BOTH_TRIPLE3_DUALSTANCE
+	animAttackRun BOTH_THERMAL_THROW2
 	animAttack BOTH_THERMAL_THROW2
 	animAttackWalk BOTH_THERMAL_THROW2
 	animStand BOTH_TRIPLE3_DUALSTANCE

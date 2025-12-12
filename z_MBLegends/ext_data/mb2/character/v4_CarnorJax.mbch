@@ -78,9 +78,11 @@ WeaponInfo0
 	customAmmo          792
 	clipsize            24
 	hasAnimOverrides 1
+animReadyRun TORSO_WEAPONIDLE2
 animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2 
 	animStand 	BOTH_STAND5

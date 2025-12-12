@@ -84,6 +84,7 @@ WeaponInfo1
 	rateMod 1.35
 	damageMod 0.9
 	hasAnimOverrides 1
+animReadyRun 	BOTH_DUAL_PISTOLS_IDLE
 animReady 	BOTH_DUAL_PISTOLS_IDLE
 animReadyWalk BOTH_DUAL_PISTOLS_READY
 animStand 	BOTH_STAND8

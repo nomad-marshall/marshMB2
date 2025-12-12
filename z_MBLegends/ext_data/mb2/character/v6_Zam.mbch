@@ -51,6 +51,7 @@ WeaponInfo0
 	clipSize        2
 	ReloadTimeModifier 	0.7
 	hasAnimOverrides 1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 	animReadyWalk BOTH_WESTARM5_IDLE
 	animReadyNoAmmo BOTH_DC15_ATTACK
@@ -68,9 +69,11 @@ WeaponInfo1
 	Icon  				"gfx/hud/w_icon_kyd-21"
 	WeaponName			"KYD-21 Blaster Pistol"
 hasAnimOverrides 1
+animReadyRun TORSO_WEAPONIDLE2
 animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2 
 	CustomAmmo      	500

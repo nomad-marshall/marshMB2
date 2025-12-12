@@ -136,9 +136,11 @@ WeaponInfo0
 customAmmo 800
 	ReloadTimeModifier  2	
 hasAnimOverrides 1
+animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
 animReadyWalk TORSO_WEAPONREADY3
 animReadyNoAmmo BOTH_ATTACK3
+animAttackRun BOTH_ATTACK3
 animAttack BOTH_ATTACK3
 animAttackWalk BOTH_ATTACK3
 animStand BOTH_STAND1

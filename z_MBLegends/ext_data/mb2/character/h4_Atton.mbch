@@ -3,7 +3,7 @@ ClassInfo
 name	"h4_Atton"
 classNumberLimit	1
 MBClass	MB_CLASS_HERO
-weapons	WP_MELEE|WP_SABER
+weapons	WP_SABER
 WP_MandoPistolFlags	HELD_DISRUPTIFY|HELD_ALTRELOAD
 WP_ClonePistolFlags	HELD_PULSE|HELD_ALTRELOAD
 WP_EE4Flags	HELD_FLAME|HELD_POISON|HELD_KNOCKBACK|HELD_ALTRELOAD|HELD_DISRUPTIFY
@@ -164,8 +164,7 @@ c_att_skill_39	MB_ATT_DEXTERITY
 c_att_names_39	"Dexterity ^3[CS3]"
 c_att_ranks_39	0,0,2
 }
-WeaponInfo0
-{
+WeaponInfo0{
 WeaponToReplace WP_CLONE_PISTOL
 WeaponBasedOff WP_CLONE_PISTOL
 NewWorldModel	"models/weapons2/kotor_ionpistol/kotor_ionpistol_w.glm"
@@ -182,12 +181,11 @@ Clipsize	36
 customAmmo 380
 FPChargeMult	1.5
 reloadTimeModifier 1.6
-rateMod 1.20
+rateMod 1.2
 damageMod .5
 primFireEnabled 0
 }
-WeaponInfo1
-{
+WeaponInfo1{
 WeaponToReplace WP_MANDO_PISTOL
 WeaponBasedOff WP_MANDO_PISTOL
 NewWorldModel	"models/weapons2/kotor_pistol1/pistol_w.GLM"
@@ -205,8 +203,7 @@ altMissileEffect "Blaster/Shot04Y"
 ChargeEffect	"gfx/effects/yellow_bryarFrontFlash"
 FlashSound0 "sound/weapons/kotor/fire_power1.mp3"
 }
-WeaponInfo2
-{
+WeaponInfo2{
 WeaponToReplace WP_EE4
 WeaponBasedOff WP_DISRUPTOR
 NewWorldModel	"models/weapons2/kotor_drifle/kotor_drifle_w.glm"
@@ -223,8 +220,7 @@ damageMod 1.2
 ClipSize	26
 reloadtimeModifier 1.7
 }
-WeaponInfo3
-{
+WeaponInfo3{
 WeaponToReplace	WP_BLASTER_PISTOL
 WeaponBasedOff WP_BLASTER_PISTOL
 NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
@@ -236,9 +232,11 @@ WeaponName "Atton's Blaster Pistol"
 ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
 customammo 460
 hasAnimOverrides 1
+animReadyRun TORSO_WEAPONIDLE2
 animReady TORSO_WEAPONIDLE2
 animReadyWalk TORSO_WEAPONIDLE2
 animReadyNoAmmo BOTH_ATTACK2 
+animAttackRun BOTH_ATTACK2 
 animAttack BOTH_ATTACK2 
 animAttackWalk BOTH_ATTACK2 
 }

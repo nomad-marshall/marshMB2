@@ -70,9 +70,11 @@ WeaponInfo0
 	WeaponName				"DT-57 'Annihilator' Blaster"
 		ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 	hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONIDLE2
 	animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2
 animCharge  BOTH_ATTACK2
@@ -98,8 +100,10 @@ animCharge  BOTH_ATTACK2
 	altflashSound2 "sound/HK/hkstep1.mp3"
 	altflashSound3 "sound/HK/hkstep1.mp3"
 	hasAnimOverrides 1
+	animReadyRun BOTH_COLLAPSED_IDLE
 	animReady BOTH_COLLAPSED_IDLE
 	animReadyWalk BOTH_COLLAPSED_IDLE
+	animAttackRun BOTH_MELEE_SWIMFORWARD
 	animAttack BOTH_MELEE_SWIMFORWARD
 	animAttackWalk BOTH_MELEE_SWIMFORWARD
 	animStand BOTH_COLLAPSED_IDLE

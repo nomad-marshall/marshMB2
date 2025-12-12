@@ -92,6 +92,7 @@ WeaponInfo1
 	primgore 	1
 	hasAnimOverrides 1
 	animReadyNoAmmo BOTH_BLASTER_ATTACK
+	animAttackRun BOTH_BLASTER_ATTACK
 	animAttack BOTH_BLASTER_ATTACK
 	animAttackWalk BOTH_BLASTER_ATTACK
 	animStand BOTH_STAND1

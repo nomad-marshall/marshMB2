@@ -150,8 +150,10 @@ fpmult .8
 velocitymod 3
 customAmmo 900
 hasAnimOverrides 1
+animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
 animReadyWalk BOTH_DC15_READY
+animAttackRun BOTH_DC15_ATTACK_ALT
 animAttack BOTH_DC15_ATTACK_ALT
 animAttackWalk BOTH_DC15_ATTACK_ALT
 animStand BOTH_STAND2
@@ -168,8 +170,10 @@ customAmmo 900
 clipsize 150
 Damagemod 1.8
 hasAnimOverrides 1
+animReadyRun BOTH_MINIGUN_READY
 animReady BOTH_MINIGUN_READY
 animReadyWalk BOTH_MINIGUN_READY
+animAttackRun BOTH_MINIGUN_ATTACK
 animAttack BOTH_MINIGUN_ATTACK
 animAttackWalk BOTH_MINIGUN_ATTACK
 animStand BOTH_STAND2
@@ -206,10 +210,9 @@ MissileEffect	"blaster/Shot04B"
 AltMissileEffect	"blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 AltMuzzleEffect	"Blaster/MuzzleFlash01B"
-
-
 customAmmo 800
 hasAnimOverrides 1
+animReadyRun BOTH_AMBAN_IDLE
 animReady BOTH_AMBAN_IDLE
 }
 WeaponInfo4{
@@ -227,10 +230,10 @@ ratemod 0.8
 damagemod 0.65
 MissileEffect	"Blaster/Shot01B"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
-
 hasAnimOverrides 1
 animReadyWalk BOTH_WESTARM5_READY
 animReadyNoAmmo BOTH_WESTARM5_ATTACK
+animAttackRun BOTH_WESTARM5_ATTACK
 animAttack BOTH_WESTARM5_ATTACK
 animAttackWalk BOTH_WESTARM5_ATTACK
 }
@@ -243,9 +246,11 @@ NewHandsModel "models/weapons2/fc_f187/f187_hand.md3"
 Icon "gfx/hud/w_icon_fc_f187_all"
 WeaponName "F-187 Fusioncutter"
 hasAnimOverrides 1
+animReadyRun TORSO_WEAPONREADY0
 animReady TORSO_WEAPONREADY0
 animReadyWalk TORSO_WEAPONREADY0
 animReadyNoAmmo BOTH_ATTACK2
+animAttackRun BOTH_ATTACK2
 animAttack BOTH_ATTACK2
 animAttackWalk BOTH_ATTACK2
 FlashSound0 "sound/weapons/fusioncutter/cutter_hit.mp3"

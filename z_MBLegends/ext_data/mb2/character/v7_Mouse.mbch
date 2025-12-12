@@ -256,8 +256,10 @@ ForceInfo0
  customAmmo -1
  damageMod 2.95
 	hasAnimOverrides 1
+ animReadyRun BOTH_CONSOLE1  
  animReady BOTH_CONSOLE1  
  animReadyWalk BOTH_CONSOLE1  
+	animAttackRun BOTH_CONSOLE1  
 	animAttack BOTH_CONSOLE1  
 	animAttackWalk BOTH_CONSOLE1  
 animStand BOTH_CONSOLE1  
