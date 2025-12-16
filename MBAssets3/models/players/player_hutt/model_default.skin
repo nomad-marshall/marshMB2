@@ -1,4 +1,6 @@
 head,models/players/player_hutt/hutt_head.tga
+hat,*off
+beard,*off
 torso,models/players/player_hutt/hutt_torso.tga
 hips,models/players/player_hutt/hutt_hip.tga
 l_arm,models/players/player_hutt/hutt_torso.tga

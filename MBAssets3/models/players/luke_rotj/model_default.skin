@@ -1,11 +1,6 @@
-head,models/players/luke_esb/LukeHead_rotj.tga
-head_eyes_mouth,models/players/common/mouth_eyes8.tga
-head_hair,*off
-head_hair_anh,*off
-head_hair_rotj,models/players/luke_rotj/hair_rotj.tga
-head_hair_alt2,*off
-head_hair_hood,*off
-head_fringe,*off
+head,models/players/luke_rotj/head.tga
+head_eyes_mouth,models/players/common/mouth_eyes8.jpg
+head_hair,models/players/luke_rotj/head.tga
 hips,models/players/luke_rotj/body.tga
 hips_belt,models/players/luke_rotj/belt.tga
 l_arm,models/players/luke_rotj/body.tga
@@ -27,6 +22,9 @@ hips_robe,*off
 torso_tunic,*off
 hips_tunic,*off
 head_helmet,*off
+head_hair_alt2,*off
+head_hair_alt1,*off
+head_hair_rotj,*off
 hips2,*off
 torso2,*off
 torso_tunic2,*off

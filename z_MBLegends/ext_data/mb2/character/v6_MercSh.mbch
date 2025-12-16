@@ -113,15 +113,16 @@ WeaponInfo0
 	FlashSound0	"sound/weapons/DLT19/fire.wav"
 	MuzzleEffect  "Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
-	MissileMissEffect "Blaster/impact_wall01"
 	customAmmo         750
 	damageMod 1.10
 	clipsize 85
 	rateMod 0.92
 hasAnimOverrides 1
+animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
 animReadyWalk BOTH_DC15_READY
 animReadyNoAmmo BOTH_DC15_ATTACK
+animAttackRun BOTH_DC15_ATTACK
 animAttack BOTH_DC15_ATTACK
 animAttackWalk BOTH_DC15_ATTACK
 animStand BOTH_STAND1
@@ -148,16 +149,12 @@ WeaponInfo1
 	AltFlashSound0 	"sound/weapons/smokenade/select.mp3"
 	WeaponName  				"Smoke Grenades"
 	hasAnimOverrides 1
-	animReady  BOTH_SABERDUAL_STANCE //upper
-	animReadyWalk  BOTH_SABERDUAL_STANCE
-	animReadyNoAmmo  BOTH_SABERDUAL_STANCE
+	animAttackRun BOTH_THERMAL_THROW2
 	animAttack BOTH_THERMAL_THROW2
 	animAttackWalk BOTH_THERMAL_THROW2
-	animStand BOTH_STAND1 //lower
-	//animAttack BOTH_THERMAL_THROW2
-	//animAttackWalk BOTH_THERMAL_THROW2
-	//animReady BOTH_THERMAL_READY2
-	//animReadyWalk BOTH_THERMAL_READY2
+	animReadyRun BOTH_THERMAL_READY2
+	animReady BOTH_THERMAL_READY2
+	animReadyWalk BOTH_THERMAL_READY2
 	damageMod 0.001
 	ratemod 0.6
 }

@@ -2,8 +2,8 @@
 ClassInfo
 {
 	name  			"v7_Zuck"
-	weapons 		WP_SABER|WP_MELEE|WP_T21|WP_DEMP2|WP_FLECHETTE
-	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_FP_MIRALUKA|MB_ATT_STAMINA,3|MB_ATT_T21,1|MB_ATT_FORCEBLOCK,3|MB_ATT_ANTI_MT,2|MB_ATT_DEMP2,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_BEACON|MB_ATT_FLECHETTE,1
+	weapons 		WP_SABER|WP_MELEE|WP_T21|WP_DEMP2|WP_FLECHETTE|WP_TRIP_MINE
+	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_FP_MIRALUKA|MB_ATT_STAMINA,3|MB_ATT_T21,1|MB_ATT_FORCEBLOCK,3|MB_ATT_ANTI_MT,2|MB_ATT_DEMP2,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_BEACON|MB_ATT_FLECHETTE,1|MB_ATT_TRIP_MINES,3
 	saber1  		qstaff_legends
 	saberstyle  	SS_DESANN|SS_STAFF|SS_MEDIUM
 	forcepowers		FP_SEE,1|FP_SABER_OFFENSE,3
@@ -33,7 +33,7 @@ ClassInfo
 	
 	WP_T21Flags   HELD_KNOCKBACK
 	WP_SaberFlags HELD_PULSE|HELD_STUN
-	WP_Demp2Flags HELD_LOWDAMAGE|HELD_FREEZE|HELD_STUN|HELD_PULSE
+	WP_Demp2Flags HELD_FREEZE|HELD_STUN|HELD_PULSE
 	WP_FlechetteFlags HELD_EXPLOSIVE|HELD_POISON|HELD_ALTRELOAD
 	
 	special1 EAS_HI_SPRINT
@@ -61,10 +61,10 @@ WeaponInfo1
 	WeaponBasedOff		WP_T21
 	NewWorldModel		"models/weapons/W-90_Concussion/w-90_w.glm"
 	NewViewModel		"models/weapons/W-90_Concussion/w-90.md3"
-	MuzzleEffect		"mini_concussion/muzzle_flash"
+	MuzzleEffect		"concussion/muzzle_flash"
 	FlashSound0			"sound/weapons/base_conc/fire.wav"
 	MissileEffect		"concussion/shot"
-	ALTMissileEffect	"concussion/shot"
+	AltMissileEffect	"concussion/shot"
 	Missile3Effect		"concussion/shot"
 	PowerupShotEffect	"concussion/shot"
 	MissileMissEffect "concussion/alt_hit"
@@ -72,20 +72,23 @@ WeaponInfo1
 	MissileHitDroidEffect	"concussion/alt_hit"
 	Icon				"gfx/hud/w_icon_w90conc"
 	WeaponName			"W-90 Concussion Rifle"
-	customAmmo          384
-	clipsize            64
-	rateMod 0.7
- 	hasAnimOverrides 1
+	customAmmo   384
+	clipsize     64
+	rateMod 0.75
+	FPmult   1.85
+	altfireenabled 0
+ hasAnimOverrides 1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 	animReadyWalk TORSO_WEAPONREADY4
 	animReadyNoAmmo TORSO_WEAPONREADY4
 	//animReadyWalk BOTH_TORSO_WEAPONREADY4
 	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
+	animAttackRun BOTH_ATTACK4
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
 	animStand TORSO_DROPWEAP4
-	FPmult              2
-	altfireenabled 0
+
 }
 
 WeaponInfo2
@@ -98,7 +101,7 @@ WeaponInfo2
 	WeaponName			"GRS-1 Snare Rifle"
 	MissileMissEffect	"SBD/cortosis_blue"
 	MissileEffect		"SBD/cortosis_blue"				
-	MuzzleEffect		"null" 	
+	MuzzleEffect	 null
 	FlashSound0		"sound/underground/steamPushfast.mp3"
 	CustomAmmo           22
 	clipsize				2
@@ -106,11 +109,13 @@ WeaponInfo2
 	FPMult 3.5
 	rateMod 0.5
 	hasAnimOverrides 1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 	animReadyWalk TORSO_WEAPONREADY4
 	animReadyNoAmmo TORSO_WEAPONREADY4
 	//animReadyWalk BOTH_TORSO_WEAPONREADY4
 	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
+	animAttackRun BOTH_ATTACK4
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
 	animStand TORSO_DROPWEAP4
@@ -130,7 +135,10 @@ WeaponInfo3
 	altMissileHitHumanEffect	"noghri_stick/flesh_impact"
 	altMissileEffect		"hutt/toxic_breath"
 	altMuzzleEffect null
-	altFlashSound "sound/weapons/stone/fire.mp3"
+	altFlashSound0 "sound/weapons/stone/fire.mp3"
+	altFlashSound1 "sound/weapons/stone/fire.mp3"
+	altFlashSound2 "sound/weapons/stone/fire.mp3"
+	altFlashSound3 "sound/weapons/stone/fire.mp3"
 	FlashSound "sound/weapons/stone/fire.mp3"
 	MissileModel	"models/weapons2/thermal/thermal_proj.md3"
 	MissileMissEffect	"noghri_stick/flesh_impact"
@@ -140,15 +148,17 @@ WeaponInfo3
 	MuzzleEffect null
 	primFireEnabled  0
 	clipSize 15
-	customAmmo 30
-	reloadTimeModifier 2
+	customAmmo 60
 	hasAnimOverrides 1
-	animReady BOTH_WALK6
-	animReadyWalk BOTH_WALK6
+	animReadyRun BOTH_STAND10
+	animReady BOTH_STAND10
+	animReadyWalk BOTH_STAND10
 	animReadyNoAmmo BOTH_A6_LR
+	animAttackRun BOTH_A6_LR
 	animAttack BOTH_A6_LR
 	animAttackWalk BOTH_A6_LR
 	animStand BOTH_STAND1
+ damageMod .7
 }
 ForceInfo0
 {
@@ -176,18 +186,18 @@ A hunter focused on disruption.
 -- Electrifies/freezes/staggers on hit
 -- 65% faster shot swap
 -- 350% more FP DMG
--- 50% less DMG
 -- 4400% slower reload
 -- Prim. only
-- Ammonia Bombs (3) (Flechette 1)
+- Ammonia Bombs (5) (Flechette 1)
 -- Deals AoE DMG while traveling
 -- Poisons on hit
--- 100% slower mag reload
+-- 30% less DMG
 -- Sec. only
 - W-90 Concussion Rifle (T-21 1)
 -- Pushes on hit
--- 35% faster RoF
--- 100% more FP DMG
+-- 25% faster RoF
+-- 85% more FP DMG
+- Trip Mines (3)
 
 ^8Attributes:
 - Stamina (3)

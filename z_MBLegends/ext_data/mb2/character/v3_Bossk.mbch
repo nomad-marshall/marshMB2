@@ -35,7 +35,7 @@ ClassInfo
 	
 	//saberStanceAnim	BOTH_MELEE_STAND1
 	flourishAnim 	BOTH_SPINATTACK6
-	gloatAnim BOTH_WOOKIEE_ENRAGE
+	gloatAnim BOTH_TUSKENTAUNT1
 	tauntAnim BOTH_ENGAGETAUNT
 	
 	SPECIAL1	EAS_HI_SPRINT
@@ -61,9 +61,11 @@ WeaponInfo0
 	damageMod 0.8
 	FPChargeMult	1.1
 hasAnimOverrides 1
+animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
 animReadyWalk BOTH_WESTARM5_READY
 animReadyNoAmmo BOTH_WESTARM5_ATTACK
+animAttackRun BOTH_WESTARM5_ATTACK
 animAttack BOTH_WESTARM5_ATTACK
 animAttackWalk BOTH_WESTARM5_ATTACK
 }

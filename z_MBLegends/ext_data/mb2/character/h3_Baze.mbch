@@ -18,12 +18,12 @@ ClassInfo
 	damagegiven			1.05
 	speed       			0.92
 	WP_EE4Flags			HELD_SLOW|HELD_AMMOREGEN
-	WP_PLX1Flags 			HELD_HIGHDAMAGE|HELD_SLOW
+	WP_PLX1Flags 			HELD_SLOW|HELD_STUN|HELD_KNOCKBACK
 		
 	modelscale    		1.01
 
 	classflags			CFL_STRONGAGAINSTPHYSICAL|
-	skilltimermod 		2
+	skilltimermod 		1.5
 	//special1
 	special2 EAS_HI_DASH
 	special3 EAS_HI_QUICKTHROW
@@ -63,6 +63,7 @@ WeaponInfo1
 	WeaponName			"HH-12 Rocket Launcher"
 	FlashSound0 		 	"sound/weapons/halo_rocket/fire.wav"
 	ReloadTimeModifier 	1
+damageMod 1.5
 }
 
 description	"Baze Malbus [Hero]
@@ -71,8 +72,9 @@ A heavy gunner equipped with a massively powerful Repeating Cannon that regenera
 
 ^2Weaponry:
 - Melee
-- HH-12 Rocket Launcher (1) (PLX-1)
--- 100% more DMG on direct hit
+- HH-12 Rocket Launcher (1) (PLX)
+-- Staggers/pushes on hit
+-- 50% more DMG
 -- 15% slower movement
 - Frag Grenade (1)
 - Sonic Detonators (2)
@@ -83,7 +85,7 @@ A heavy gunner equipped with a massively powerful Repeating Cannon that regenera
 -- 15% slower movement
 
 ^8Attributes:
-- 100% slower skill CD
+- 50% slower skill CD
 - Armor Regen (1)
 - Magnetic Plating
 - Physical Resist

@@ -3,7 +3,7 @@ ClassInfo
 name	"h4_Atton"
 classNumberLimit	1
 MBClass	MB_CLASS_HERO
-weapons	WP_MELEE|WP_SABER
+weapons	WP_SABER
 WP_MandoPistolFlags	HELD_DISRUPTIFY|HELD_ALTRELOAD
 WP_ClonePistolFlags	HELD_PULSE|HELD_ALTRELOAD
 WP_EE4Flags	HELD_FLAME|HELD_POISON|HELD_KNOCKBACK|HELD_ALTRELOAD|HELD_DISRUPTIFY
@@ -34,7 +34,7 @@ rankBP	1,1.2
 rankAS	1.12
 CSmultiplier	1.05
 rankCS	1.12
-rankROFMelee 0.8
+rankROFMelee .8
 uioverlay_r "gfx/icons/hybrid"
 uioverlay_l "gfx/icons/heavy"
 model "atton"
@@ -64,11 +64,11 @@ c_att_skill_0	MB_ATT_CLONE_PISTOL
 c_att_names_0	"Verpine Ion (Clone) Pistols"
 c_att_ranks_0	3,0,0
 c_att_descs_0 "Electrifies on hit, 50% more charged FP DMG, 50% less DMG,
-20% slower RoF, 60% slower mag reload"
+20% slower RoF, 60% slower mag reload, Sec. only"
 c_att_skill_1	MB_ATT_MANDO_PISTOL
 c_att_names_1	"Disintegrators (WESTARs)"
 c_att_ranks_1	3,0,0
-c_att_descs_1 "25% more velocity, 75% slower mag reload"
+c_att_descs_1 "25% more velocity, 75% slower mag reload, Prim. only"
 c_att_skill_2	MB_ATT_SONIC_DETONATOR
 c_att_names_2	"Sonic Detonators"
 c_att_ranks_2	1,1
@@ -90,8 +90,9 @@ c_att_skill_7	MB_ATT_DEXTERITY
 c_att_names_7	"Dexterity ^3[CS3]"
 c_att_ranks_7	0,0
 c_att_skill_15 MB_ATT_SABER_DAMAGE
-c_att_names_15 "Saber Damage (240)"
+c_att_names_15 "Saber DMG (240)"
 c_att_ranks_15 1
+c_att_descs_15 "120/130/60 default"
 c_att_skill_16 MB_ATT_BP_MULTIPLIER
 c_att_names_16 "Saber BP (100/120%)"
 c_att_ranks_16 0,1
@@ -132,7 +133,7 @@ c_att_skill_28 MB_ATT_REGEN
 c_att_names_28 "Energy Regen (134%)"
 c_att_ranks_28 1
 c_att_skill_30	MB_ATT_DMG_GIVEN_MULTIPLIER
-c_att_names_30	"Damage Given (125%)"
+c_att_names_30	"DMG Given (125%)"
 c_att_ranks_30	2
 c_att_skill_31	MB_ATT_ROF_MELEE_MULTIPLIER
 c_att_names_31	"Melee RoF (120%)"
@@ -163,8 +164,7 @@ c_att_skill_39	MB_ATT_DEXTERITY
 c_att_names_39	"Dexterity ^3[CS3]"
 c_att_ranks_39	0,0,2
 }
-WeaponInfo0
-{
+WeaponInfo0{
 WeaponToReplace WP_CLONE_PISTOL
 WeaponBasedOff WP_CLONE_PISTOL
 NewWorldModel	"models/weapons2/kotor_ionpistol/kotor_ionpistol_w.glm"
@@ -181,12 +181,11 @@ Clipsize	36
 customAmmo 380
 FPChargeMult	1.5
 reloadTimeModifier 1.6
-rateMod 1.20
-damageMod 0.5
+rateMod 1.2
+damageMod .5
 primFireEnabled 0
 }
-WeaponInfo1
-{
+WeaponInfo1{
 WeaponToReplace WP_MANDO_PISTOL
 WeaponBasedOff WP_MANDO_PISTOL
 NewWorldModel	"models/weapons2/kotor_pistol1/pistol_w.GLM"
@@ -199,15 +198,12 @@ reloadtimeModifier 1.75
 customammo 800
 altfireenabled 0
 MuzzleEffect	"Blaster/MuzzleFlash01Y"
-Missile3Effect "Blaster/Shot02Y"
 MissileEffect "blaster/Shot03Y"
 altMissileEffect "Blaster/Shot04Y"
-PowerUpShotEffect "Blaster/Shot09Y"
 ChargeEffect	"gfx/effects/yellow_bryarFrontFlash"
 FlashSound0 "sound/weapons/kotor/fire_power1.mp3"
 }
-WeaponInfo2
-{
+WeaponInfo2{
 WeaponToReplace WP_EE4
 WeaponBasedOff WP_DISRUPTOR
 NewWorldModel	"models/weapons2/kotor_drifle/kotor_drifle_w.glm"
@@ -216,7 +212,7 @@ Icon	"gfx/hud/w_icon_kotor_drifle"
 WeaponName	"Charric"
 MissileEffect	"Blaster/Shot02Y"
 AltMissileEffect	"Blaster/Shot04Y"
-FlashSound0	"sound/weapons/kotor/fire_power1.mp3"
+FlashSound0	"sound/weapons/kotor/fire_power2.mp3"
 AltFlashSound0 "sound/weapons/amban_phase_rifle/fire.wav"
 FPMult	1.4
 rateMod	1.8
@@ -224,8 +220,7 @@ damageMod 1.2
 ClipSize	26
 reloadtimeModifier 1.7
 }
-WeaponInfo3
-{
+WeaponInfo3{
 WeaponToReplace	WP_BLASTER_PISTOL
 WeaponBasedOff WP_BLASTER_PISTOL
 NewWorldModel	"models/weapons2/kotor_bpistol2/kotor_bpistol2_w.glm"
@@ -237,9 +232,11 @@ WeaponName "Atton's Blaster Pistol"
 ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
 customammo 460
 hasAnimOverrides 1
+animReadyRun TORSO_WEAPONIDLE2
 animReady TORSO_WEAPONIDLE2
 animReadyWalk TORSO_WEAPONIDLE2
 animReadyNoAmmo BOTH_ATTACK2 
+animAttackRun BOTH_ATTACK2 
 animAttack BOTH_ATTACK2 
 animAttackWalk BOTH_ATTACK2 
 }

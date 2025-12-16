@@ -17,10 +17,11 @@ ClassInfo
     modelscale			1.13
 	classNumberLimit		2
 	speed              	1.0
+	damageTaken 0.9
 	
 	knockbackTaken 0.85
 	
-	WP_RocketLauncherflags HELD_ALTRELOAD|HELD_HIGHDAMAGE
+	WP_RocketLauncherflags HELD_ALTRELOAD|HELD_STUN|HELD_KNOCKBACK
 	WP_Repeaterflags		HELD_ALTRELOAD
 	
 	jetpackJetTag			*jet1		
@@ -69,8 +70,7 @@ WeaponInfo0
 	NewBarrelModel		"models/weapons2/heavy_repeater/heavy_repeater_barrel.md3"
 	Icon  				"gfx/doom_wpicons/w_icon_repeater"
 	WeaponName			"Imperial Heavy Repeater"
-	MuzzleEffect		"repeater/muzzle_flash"
-	MissileEffect		"repeater/projectile"
+ MuzzleEffect		"Blaster/MuzzleFlash01Y"
 	AltFlashSound0		"sound/weapons/repeater/alt_fire_old"
 	FlashSound0			"sound/weapons/repeater/fire_old.wav"  
 	altMissileMissEffect	"repeater/concussion"
@@ -81,6 +81,7 @@ WeaponInfo0
 	damageMod 0.95
 	Ratemod 1.2
 hasAnimOverrides 1
+animReadyRun BOTH_WESTARM5_IDLE
 animReady BOTH_WESTARM5_IDLE
 animStand BOTH_STAND1
 }
@@ -114,7 +115,7 @@ A 2-life Jetpack user with a unique suppression Repeater and a micro-Rocket Laun
 -- 25% less FP DMG
 -- 15% slower mag reload
 - PLX-2M Rocket Launcher (6)
--- 100% more DMG
+-- Staggers/pushes on hit
 -- 15% more velocity
 -- 50% slower mag reload
 -- Homing Rockets ^3[Hold Sec. ^3fire]

@@ -12,7 +12,7 @@ ClassInfo
 	//skilltimermod 1.5
 	holdables				HI_SENTRY_GUN|HI_MEDPAC_BIG
 	WP_FlechetteFlags 		HELD_ALTRELOAD
-	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_HIGHDAMAGE
+	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_KNOCKBACK|HELD_STUN
 	WP_MeleeFlags 			HELD_SPEED
 	hackRate 0.9
 	model			"jan"
@@ -63,12 +63,12 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_golancr1"
     FlashSound0			"sound/weapons/flechette/fire.mp3"  			
 	WeaponName 			"FC-1 Flechette Launcher"
-	MuzzleEffect 		"flechette/muzzle_flash"
+	MuzzleEffect 		"Blaster/MuzzleFlash01Y"
 	customAmmo           870
 	clipsize             30
 	AltFireEnabled 		 1
-	damageMod 1.1
-	fpmult 1.1
+	damageMod 1.15
+	fpmult 1.15
 }
 
 WeaponInfo1
@@ -95,9 +95,11 @@ WeaponInfo2
 	Icon				"gfx/hud/w_icon_dh-17"
 	WeaponName		"DH-17 Blaster Pistol"
 	hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONIDLE2
 	animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_PISTOL_ATTACK
+	animAttackRun BOTH_PISTOL_ATTACK
 	animAttack BOTH_PISTOL_ATTACK
 	animAttackWalk BOTH_PISTOL_ATTACK
 	FlashSound0		"sound/weapons/blasterMB/fire.mp3"
@@ -119,16 +121,16 @@ A nimble gunner with a unique projectile shotgun.
 -- 10% faster RoF
 -- 10% faster reload
 - FC-1 Flechette Launcher (2)
--- 10% more DMG/FP DMG
+-- 15% more DMG/FP DMG
 - PLX-2M Rocket Launcher (5)
--- 100% more DMG
+-- Staggers/pushes on hit
 -- 15% more velocity
 -- Mag reload
 -- Homing Rockets ^3[Hold Sec. ^3fire]
 - Frag Grenades (2)
 
 ^6Inventory: 
-- Bacta (Instant 50 HP)
+- Advanced Medpac
 - Assault Sentry ^3[CS4]
 
 ^8Attributes:

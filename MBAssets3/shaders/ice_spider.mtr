@@ -1,0 +1,39 @@
+models/players/ice_spider/spider
+{
+	{
+		map models/players/ice_spider/spider
+rgbGen lightingdiffuse
+		normalMap models/players/ice_spider/spider_norm
+		rmoMap models/players/ice_spider/spider_rmo
+	}
+}
+
+models/players/ice_spider/mouth
+{
+	{
+		map models/players/ice_spider/mouth
+rgbGen lightingdiffuse
+		normalMap models/players/ice_spider/mouth_norm
+		rmoMap models/players/ice_spider/mouth_mixed
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

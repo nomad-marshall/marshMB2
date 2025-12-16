@@ -57,7 +57,7 @@ vibroblade_zaalbar_legends
 
 vibrosword_zaalbar_legends
 {
-	name		"Dual Vibroswords"
+	name		"Double Vibroswords"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/vibrosword/sword_w.glm"
 	soundOn	"sound/weapons/swordraiden/draw1.mp3"
@@ -960,7 +960,7 @@ mission_legends
 	saberLength	18
 	saberRadius 6
 	animspeedscale	1.15
-	damageScale 	0.267
+	damageScale 	0.305
 	blasterblocking		0
 	noWallMarks	1
 	noDlight	1
@@ -1046,7 +1046,7 @@ vibroblade_mission_legends
 	disarmable	1
 	throwable	0	
 	saberLength	24
-	damageScale   0.455
+	damageScale   0.5
 	animspeedscale	1.05
 	blasterblocking		0
 	flourishAnim	BOTH_STAND1_TALK3
@@ -1063,7 +1063,7 @@ slight_leg
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/saber_plasma/saber_stranger_split_bottom.glm"
 	soundOn		"sound/weapons/flashlight/click.wav"
-	soundLoop	"sound/null.wav"
+	soundLoop	null
 	soundOff	"sound/weapons/flashlight/click.wav"
 	saberLength	0.01
 	saberRadius 0.01
@@ -1089,6 +1089,7 @@ slight_leg
 	blasterblocking 0
 	tauntanim BOTH_ENGAGETAUNT
 	gloatAnim BOTH_VICTORY_FAST
+hitOtherEffect "beskar/beskar_sparks_projectile"
 }
 
 vibroaxe_snoova

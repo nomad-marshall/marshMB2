@@ -17,6 +17,7 @@ ClassInfo
 	holdables 			HI_SENTRY_GUN|HI_SHIELD
 	WP_BlasterPistolFlags	HELD_ALTRELOAD|HELD_STUN
 	modelscale          1.01
+	knockbackGiven 1.10
 	
 	model 		"krennic"
 	skin  		"default"
@@ -57,9 +58,11 @@ WeaponInfo0
 	rateMod 1.15
 	//ReloadTimeModifier 1.25
 		hasAnimOverrides 1
+animReadyRun BOTH_MAND_PISTOL_READY
 animReady BOTH_MAND_PISTOL_READY
 animReadyWalk BOTH_MAND_PISTOL_READY
 animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+animAttackRun BOTH_MAND_PISTOL_ATTACK
 animAttack BOTH_MAND_PISTOL_ATTACK
 animAttackWalk BOTH_MAND_PISTOL_ATTACK
 animCharge BOTH_MAND_PISTOL_ATTACK
@@ -99,6 +102,7 @@ A speedy, damage-boosted commander with a staggering Pistol, multiple Grenades, 
 - Forcefield
 
 ^8Attributes:
+- 10% more KB given
 - Healing (3)
 - Rally 
 

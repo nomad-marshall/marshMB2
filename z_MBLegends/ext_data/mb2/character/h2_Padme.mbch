@@ -4,8 +4,8 @@ ClassInfo
 {
 	name					"h2_Padme"
 	weapons					WP_A280|WP_MELEE|WP_PULSE_NADE|WP_CONC_NADE|WP_BLASTER_PISTOL
-	attributes				MB_ATT_HEALING,3|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_QUICKTHROW,1|MB_ATT_DEXTERITY,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,3|MB_ATT_DISP_BLOCK,3
-	maxhealth				170
+	attributes				MB_ATT_HEALING,3|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_QUICKTHROW,1|MB_ATT_DEXTERITY,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,3|MB_ATT_DISP_BLOCK,3|MB_ATT_DISP_FORCE,2
+	maxhealth				175
 	maxarmor				65
 	
 	resource RESOURCE_ENERGY
@@ -17,6 +17,7 @@ ClassInfo
 	rateOfFire_Melee	0.9
 	classNumberLimit 		1
 	holdables       		HI_MEDPAC_BIG|HI_MEDPAC
+ classflags CFL_STATVIEWER
 	
 	forceregen			1.5
 	skilltimermod 0.9
@@ -69,9 +70,11 @@ WeaponInfo0
 	damageMod 1.1
 	altFireEnabled		0
 	hasAnimOverrides 1
+	animReadyRun TORSO_WEAPONREADY2
 	animReady TORSO_WEAPONREADY2
  animReadyWalk TORSO_WEAPONREADY2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2
 	animAttack BOTH_ATTACK2
 	animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1
@@ -101,9 +104,11 @@ WeaponInfo1
 	damageMod 1.1
 	fpmult 1.1
 	hasAnimOverrides 1
+animReadyRun TORSO_WEAPONIDLE2
 animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
+	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2 
 }
@@ -123,8 +128,8 @@ A quick in-and-out gunner with powerful rapid-fire Blasters and self-healing ite
 - Concussion Grenades (3)
 
 ^6Inventory:
-- Kolto (Gradual 50 HP)
-- Bacta (Instant 50 HP) ^3[CS4]
+- Medpac
+- Advanced Medpac ^3[CS4]
 
 ^8Attributes:
 - 5% more KB given
@@ -133,9 +138,10 @@ A quick in-and-out gunner with powerful rapid-fire Blasters and self-healing ite
 - Healing (3)
 - Rally
 - Anti-Mind Trick (2)
+- Ally Stat Viewer
 
 ^3Abilities:
-- BP Dispenser (3) ^3['Use' on ^3allies]
+- BP/Resource Dispenser (3)/(2) ^3['Use' on ^3allies]
 -- +3 range
 - Dodge (3) ^3[CS1]
 - Dash (2) ^3[CS2]

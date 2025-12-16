@@ -1,14 +1,14 @@
-head,models/players/hera/head_face.tga
-head_face,models/players/hera/head_face.tga
-head_eye_lashes,*off
-head_eyebrows,models/players/hera/eyebrow.tga
-head_eyes,models/players/hera/eye.tga
-head_mouth,models/players/hera/head_face.tga
-head_lekkus,models/players/hera/head_face.tga
+head,models/players/hera/head.tga
+lekku,models/players/hera/head.tga
+
+
+
+head_eyes_mouth,models/players/hera/mouth_eyes.tga
+
 head_dress,models/players/hera/head_extras.tga
-head_mechanic_goggles,models/players/hera/head_extras2.tga
-head_mechanic_hat,models/players/hera/head_extras2.tga
-head_goggles_strap,models/players/hera/head_extras2.tga
+head_mechanic_goggles,models/players/hera/head_extras.tga
+head_mechanic_hat,models/players/hera/head_extras.tga
+head_goggles_strap,models/players/hera/head_extras.tga
 
 torso,models/players/hera/torso_collar.tga
 torso_jacket,models/players/hera/jacket.tga

@@ -102,7 +102,7 @@ WeaponInfo1
 	FlashSound0 		"sound/300/wpn_bow_fire_01.wav"
 	FlashSound1 		"sound/300/wpn_bow_fire_02.wav"
 	FlashSound2 		"sound/300/wpn_bow_fire_03.wav"
-	MuzzleEffect  	"null"
+	MuzzleEffect  	null
 	MissileModel  	"models/weapons2/dc_gabow/greenarrow_arrow.md3"
 	MissileEffect 	"bow/whoosh"
 	MissileMissEffect	"dc/explosion"
@@ -113,11 +113,13 @@ WeaponInfo1
 	customAmmo		184
 	altFireEnabled	0
 	hasAnimOverrides 	1
+	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
 		animReadyWalk TORSO_WEAPONREADY4
 	animReadyNoAmmo TORSO_WEAPONREADY4
 	//animReadyWalk BOTH_TORSO_WEAPONREADY4
 	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
+	animAttackRun BOTH_ATTACK4
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
 	animStand TORSO_DROPWEAP4
@@ -148,9 +150,11 @@ WeaponInfo2
 	customAmmo 125
 	reloadTimeModifier 1.8
 	hasAnimOverrides 1
+	animReadyRun BOTH_TRIPLE3_DUALSTANCE
 	animReady BOTH_TRIPLE3_DUALSTANCE
 	animReadyWalk BOTH_TRIPLE3_DUALSTANCE
 	animReadyNoAmmo BOTH_TRIPLE3_DUALSTANCE
+	animAttackRun BOTH_THERMAL_THROW2
 	animAttack BOTH_THERMAL_THROW2
 	animAttackWalk BOTH_THERMAL_THROW2
 	animStand BOTH_TRIPLE3_DUALSTANCE

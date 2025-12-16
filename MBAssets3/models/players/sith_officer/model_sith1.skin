@@ -6,6 +6,11 @@ headb_hat,*off
 headb_teeth,*off
 headb_bangs,*off
 
+head_carth,*off
+head_carth_cap_torso_off,*off
+headb_carth,*off
+headb_carth_hat,*off
+
 head_czerkahat,*off
 
 head_officer,*off

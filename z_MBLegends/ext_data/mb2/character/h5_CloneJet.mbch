@@ -10,11 +10,12 @@ ClassInfo
 	
 	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_QUICKTHROW,1|MB_ATT_JETPACK,1|MB_ATT_AMMO,3|MB_ATT_RESPAWNS,1|MB_ATT_STRONGBLOBS,3|MB_ATT_ASSEMBLE,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_CLONEBLOBS,2|MB_ATT_MANDO_PISTOL,3|MB_ATT_DASH,1
 	
-	maxhealth 	75
+	maxhealth 	80
 	maxarmor	90
 	forcepool 	100
 	resource	resource_fuel
-	basespeed	225
+	basespeed	227
+	holdables 	HI_MEDPAC
 	
 	jetpackJetTag		*jet1
 	jetpackJet2Tag		*jet2
@@ -27,6 +28,7 @@ ClassInfo
 	special1 	EAS_NONE
 	special2	EAS_HI_DASH
 	special3	EAS_HI_QUICKTHROW
+	special4	EAS_HI_MEDPAC
 	
 	modelscale   1.02
 	model		"clonetrooper_p2"
@@ -75,7 +77,6 @@ WeaponInfo0
     WeaponToReplace   WP_ROCKET_LAUNCHER
     WeaponBasedOff  WP_ROCKET_LAUNCHER
     MuzzleEffect     "upl/muzzle_flash"
-    AltMuzzleEffect   "upl/altmuzzle_flash"
     MissileEffect   "upl/shot" 
     AltMissileEffect    "upl/shot"
     MissileMissEffect  "upl/explosion"
@@ -91,15 +92,16 @@ WeaponInfo0
     WeaponName   "EMP Launcher"
     Icon      "gfx/hud/w_icon_upl"
     clipSize        1
-    CustomAmmo      9
+    CustomAmmo      7
     ReloadTimeModifier 1.4    
     altfireenabled  0
-	damageMod 1.25
 	velocityMod 1.15
 	hasAnimOverrides 1
+	animReadyRun		BOTH_WESTARM5_READY
 	animReady		BOTH_WESTARM5_READY
 	animReadyWalk		BOTH_WESTARM5_READY
 	animReadyNoAmmo	BOTH_WESTARM5_ATTACK
+	animAttackRun      BOTH_WESTARM5_ATTACK
 	animAttack      BOTH_WESTARM5_ATTACK
 	animAttackWalk   BOTH_WESTARM5_ATTACK
 animStand BOTH_DC15_READY
@@ -140,13 +142,15 @@ description	"Clone Jet Trooper [Clone Trooper]
 - DC-15A Clone Rifle (1)
 -- Concussion Blobs (4)
 -- Ion Blobs (6)
-- EMP Launcher (10) (Rocket Launcher)
--- Electrifies on direct hit
+- EMP Launcher (8) (Rocket Launcher)
+-- Electrifies on hit
 -- 15% more velocity
--- 25% more DMG
 -- 40% slower mag reload
 -- Prim. only
 - Pulse Grenades (2)
+
+^6Inventory:
+- Medpac ^3[CS4]
 
 ^8Attributes:
 - Reinforcement (1)

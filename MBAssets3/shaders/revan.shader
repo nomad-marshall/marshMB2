@@ -35,7 +35,7 @@ models/players/revan/revan_cull
 	{
 		map models/players/revan/revan_diffuse
 		alphaFunc GE128
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_ONE GL_ZERO
 		depthWrite
 		rgbGen lightingDiffuse
 	}

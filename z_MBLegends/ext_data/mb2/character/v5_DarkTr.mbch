@@ -19,7 +19,7 @@ ClassInfo
 	
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE|CFL_NOLOCATIONALDAMAGE
 	
-	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_DISRUPTIFY
+	WP_RocketLauncherFlags 	HELD_ALTRELOAD|HELD_KNOCKBACK
 
 	resource	RESOURCE_FUEL
 	forcepool 110
@@ -60,18 +60,19 @@ WeaponInfo0
 	AltFlashSound0 			"sound/weapons/assault_cannon/fire.mp3"
 	ChargeSound 			"sound/weapons/leia_pistol/altcharge.mp3"
 hasAnimOverrides 1
+animReadyRun BOTH_WESTARM5_READY
 animReady BOTH_WESTARM5_READY
 animReadyWalk BOTH_WESTARM5_READY
+animAttackRun BOTH_WESTARM5_ATTACK
 animAttack BOTH_WESTARM5_ATTACK
 animAttackWalk BOTH_WESTARM5_ATTACK
 animCharge BOTH_WESTARM5_ATTACK
 	CustomAmmo 				800
-	MuzzleEffect			"assault_cannon/muzzle_flash"
-	AltMuzzleEffect			"assault_cannon/muzzle_flash"
+	MuzzleEffect			"blaster/MuzzleFlash01B"
+	AltMuzzleEffect			"blaster/MuzzleFlash01B"
 	MissileEffect			"demp2/projectile"
 	AltMissileEffect			"demp2/projectile"
-    MissileMissEffect 		"effects/blaster/Impact_Wall01B"
-	ChargeEffect		"gfx/effects/cmuzzle"	
+	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	damageMod 1.1
 	rateMod 0.95
 }
@@ -85,8 +86,10 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_DTAC_rocket"
 	WeaponName			"Assault Cannon Rocket Attachment"
 hasAnimOverrides 1
+animReadyRun BOTH_PLX1_READY
 animReady BOTH_PLX1_READY
 animReadyWalk BOTH_PLX1_READY
+animAttackRun BOTH_PLX1_ATTACK
 animAttack BOTH_PLX1_ATTACK
 animAttackWalk BOTH_PLX1_ATTACK
 	CustomAmmo 			8
@@ -106,6 +109,7 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 -- 5% faster RoF
 -- 10% more DMG
 - Assault Cannon Rocket Attachment (12) (RL)
+-- Pushes on hit
 -- 25% more velocity
 -- 25% slower RoF
 -- 60% slower mag reload
@@ -117,7 +121,7 @@ A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 - Beskar (3)
 - Blast Armor
 - Physical Resist
-- Flat Damage Taken
+- Flat DMG Taken
 
 ^3Abilities:
 - Jetpack"

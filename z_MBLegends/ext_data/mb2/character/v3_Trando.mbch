@@ -16,10 +16,10 @@ maxarmor	25
 damageTaken .9
 rateOfFire_Melee .9
 rankROFMelee .65
-forceregen .1
-forcepool 85
-rankForcePool 165
-forcepowers FP_SEE,1|FP_HEAL,2
+forceregen .01
+forcepool 100
+rankHealth	230
+forcepowers FP_SEE,2|FP_HEAL,2
 baseSpeed 190
 rankBaseSpeed 213,225
 classflags CFL_BLOODYMELEE
@@ -66,7 +66,7 @@ c_att_ranks_0	0
 c_att_skill_1	MB_ATT_REPEATER
 c_att_names_1	"ACP Repeater"
 c_att_ranks_1	0
-c_att_descs_1 "100% faster velocity, 45% less DMG/FP DMG, 10% slower RoF,
+c_att_descs_1 "100% more velocity, 45% less DMG/FP DMG, 10% slower RoF,
 Mag reload, Prim. only"
 c_att_skill_2	MB_ATT_TRIP_MINES
 c_att_names_2	"Trip Mine"
@@ -85,17 +85,17 @@ c_att_skill_15 MB_ATT_WOOKIE_STRENGTH
 c_att_names_15 "Strength"
 c_att_ranks_15 0,0
 c_att_skill_16 MB_ATT_DC_CARBINE
-c_att_names_16 "Heavy Repeater (C. Carbine)"
+c_att_names_16 "Heavy Repeater (DC Carbine)"
 c_att_ranks_16 0
 c_att_descs_16 "55% faster RoF, 40% less DMG/FP DMG, 170% slower mag reload,
 15% slower movement"
 c_att_skill_17 MB_ATT_CONCUSSION
-c_att_names_17 "LJ-50 Conc. Rifle"
+c_att_names_17 "LJ-50 Conc Rifle"
 c_att_ranks_17 0,0,0
-c_att_descs_17 "80% slower velocity/RoF/mag reload, 15% slower movement,
-Prim. only"
-c_att_skill_18 MB_ATT_POWER
-c_att_names_18 "Resource (165)"
+c_att_descs_17 "80% less velocity, 80% slower RoF, 80% slower mag reload, 
+15% slower movement, Prim. only"
+c_att_skill_18 MB_ATT_HEALTH
+c_att_names_18 "Health (230)"
 c_att_ranks_18 0
 c_att_skill_19 MB_ATT_BLAST_ARMOR
 c_att_names_19 "Blast Armor"
@@ -106,7 +106,7 @@ c_att_ranks_30 0
 c_att_skill_31 MB_ATT_SHOTGUN
 c_att_names_31 "Electronet Launcher (Shotgun)"
 c_att_ranks_31 0
-c_att_descs_31 "Electrifies/freezes/staggers/knocks back on hit, 80% faster shot swap,
+c_att_descs_31 "Electrifies/freezes/staggers/pushes on hit, 80% faster shot swap,
 50% less DMG, 14900% slower reload"
 c_att_skill_32 MB_ATT_AMBAN
 c_att_names_32 "Slave Prod (Amban)"
@@ -132,6 +132,7 @@ clipSize 40
 customAmmo 360
 rateMod 1.4
 ReloadTimeModifier 1.6
+damageMod 1.15
 altFireEnabled 0
 }
 WeaponInfo1
@@ -155,8 +156,6 @@ flashSound0 "sound/weapons/ArrayACP/fire.wav"
 MissileModel null
 MissileEffect "blaster/shot02Y"
 MuzzleEffect	"halo_pistol/Muzzle_Flash"
-MissileHitHumanEffect "blaster/impact_flesh"
-MissileHitDroidEffect "blaster/impact_droid"
 altfireenabled 0
 customammo 700
 clipsize 50
@@ -176,8 +175,7 @@ Icon	"gfx/hud/w_icon_tuskenrifle"
 WeaponName "Hunting Rifle"
 damageMod .7
 }
-WeaponInfo4
-{
+WeaponInfo4{
 WeaponToReplace WP_DC_CARBINE
 WeaponBasedOff WP_M5
 WeaponName "LS-150 Heavy ACP Repeater"
@@ -201,14 +199,15 @@ reloadTimeModifier 2.7
 customAmmo 720
 clipsize	180
 hasAnimOverrides 1
+animReadyRun BOTH_MINIGUN_READY
 animReady BOTH_MINIGUN_READY
 animReadyWalk BOTH_MINIGUN_READY
+animAttackRun BOTH_MINIGUN_ATTACK
 animAttack BOTH_MINIGUN_ATTACK
 animAttackWalk BOTH_MINIGUN_ATTACK
 animStand BOTH_STAND2
 }
-WeaponInfo5
-{
+WeaponInfo5{
 WeaponToReplace WP_CONCUSSION
 WeaponBasedOff WP_CONCUSSION
 NewWorldModel	"models/weapons2/lj-50_concussion/lj-50_concussion_w.glm"
@@ -222,8 +221,7 @@ rateMod 1.8
 reloadTimeModifier 1.8
 velocityMod .2
 }
-WeaponInfo6
-{
+WeaponInfo6{
 WeaponToReplace	WP_SHOTGUN
 WeaponBasedOff	WP_SHOTGUN
 NewWorldModel	"models/weapons2/junglerifle/jungeRifle.glm"
@@ -243,8 +241,7 @@ rateMod .2
 ReloadTimeModifier 150
 altfireenabled 0
 }
-WeaponInfo7
-{
+WeaponInfo7{
 WeaponToReplace WP_AMBAN
 WeaponBasedOff WP_AMBAN
 NewWorldModel	"models/weapons2/mando_rifle/mando_rifle.glm"
@@ -269,21 +266,22 @@ Hiss
 -- 25% less reach
 -- Slap ^3[CS2]
 - ACP Scatter Gun (Flechette 2)
+-- 15% more DMG
 -- 40% slower RoF
 -- 60% slower mag reload
 - Frag Grenade (1)
 - Sonic Detonator (1)
 
 ^5Powers:
-- Hunter Vision (Sense 1) ^3[CS1]
+- Hunter Vision (Sense 2) ^3[CS1]
 - Regenerate (Heal 2) ^3[CS4]
 
 ^8Attributes:
 - Reinforcement (1)
-- 90% slower Resource Decay
+- Fury (2)
+-- 99% slower Resource Decay
 - Strength (1)
 - Tracking Beacon
-- Fury (2)
 
 ^3Abilities:
 - Tracking Darts (4) ^3[CS3 Melee]"

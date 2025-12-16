@@ -32,9 +32,9 @@ WeaponInfo0
 	Icon			"gfx/hud/w_icon_scout_pistol"
 	WeaponName		"Sonic Pistol"
 	CustomAmmo           	400
-	MissileMissEffect 	"effects/sonic_pistol/wall_impact"
-	MissileEffect		"effects/sonic_pistol/projectile"  					
-	MuzzleEffect		"effects/sonic_pistol/muzzle_flash"   	
+	MissileMissEffect 	"effects/sonic_pistol/k_wall_impact"
+	MissileEffect		"effects/sonic_pistol/k_projectile"  					
+	MuzzleEffect		"effects/sonic_pistol/k_muzzle_flash"   	
 	FlashSound0		"sound/weapons/geonosian/fire.mp3"
 	ClipSize 		4
 	idleAnim 		BOTH_MAND_PISTOL_READY 

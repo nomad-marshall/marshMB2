@@ -14,6 +14,11 @@ ClassInfo
 	model				"luke_rotj"
 	skin				"robeup"
 	uishader			"models/players/luke_rotj/mb2_icon_robeup"
+
+	model_1				"luke_rotj"
+	skin_1				"tunic"
+	uishader_1			"models/players/luke_rotj/mb2_icon_tunic"
+
 	MBClass				MB_CLASS_JEDI
 	classNumberLimit	1
 }

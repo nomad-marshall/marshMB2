@@ -41,7 +41,7 @@ eyes_sull,*off
 hat_sull,*off
 mouth_sull,*off
 
-head,models/players/rebel_commando/desert_head_d.tga
+head,models/players/rebel_commando/desert2_head_d.tga
 head_mouth,models/players/common/mouth_eyes.tga
 extras,models/players/rebel_commando/desert_extras_d.tga
 goggles_glass,models/players/rebel_commando/desert_glass_d.tga

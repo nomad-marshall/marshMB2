@@ -37,8 +37,8 @@ ClassInfo
 	jetpackThrustSound "sound/mb2/Silence"
 	jetpackStartSound  "sound/mb2/Silence"
 	jetpackFinishSound "sound/mb2/Silence"
-	jetpackThrustEffect "null/null"
-	jetpackIdleEffect "null/null"
+	jetpackThrustEffect null
+	jetpackIdleEffect null
 	
 	respawnCustomTime  50000	
 }

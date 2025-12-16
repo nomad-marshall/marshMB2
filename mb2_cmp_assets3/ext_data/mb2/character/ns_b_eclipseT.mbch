@@ -22,7 +22,7 @@ ClassInfo
 	classNumberLimit 	2
 	extralives		1
 
-	WP_BOWCASTERFlags   	HELD_SONIC|HELD_ALTRELOAD|HELD_SLOW|HELD_LOWDMG|HELD_SLOWPROJ
+	WP_BOWCASTERFlags   	HELD_SONIC|HELD_ALTRELOAD|HELD_SLOW|HELD_LOWDAMAGE|HELD_SLOWPROJ
 	WP_meleeFlags		HELD_SPEED
 
 	saber1			soldierbaton_legends
@@ -37,13 +37,13 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/kotor_sonicrifle/kotor_sonicrifle.md3"
 	Icon			"gfx/hud/w_icon_kotor_sonicrifle"
 	WeaponName		"Sonic Rifle"
-	MissileHitHumanEffect 	"effects/sonic/altdetonate"
-	MissileHitDroid 	"effects/sonic/altdetonate"
-	MissileMissEffect 	"effects/sonic/wall_impact"
-	MissileEffect		"effects/sonic/projectile"  					
-	AltMissileEffect 	"effects/sonic/projectile" 
-	MuzzleEffect		"effects/sonic/muzzle_flash"   			
-	AltMuzzleEffect		"effects/sonic/altmuzzle_flash"
+	MissileHitHumanEffect 	"effects/sonic_pistol/k_wall_impact"
+	MissileHitDroid 	"effects/sonic_pistol/k_wall_impact"
+	MissileMissEffect 	"effects/sonic_pistol/k_wall_impact"
+	MissileEffect		"effects/sonic_pistol/k_projectile"  					
+	AltMissileEffect 	"effects/sonic_pistol/k_projectile" 
+	MuzzleEffect		"effects/sonic_pistol/k_muzzle_flash"   			
+	AltMuzzleEffect		"effects/sonic_pistol/k_muzzle_flash" 
 	FlashSound0		"sound/weapons/kotor/fire_sonic.wav"	
 	ClipSize 		10
 	CustomAmmo           	400

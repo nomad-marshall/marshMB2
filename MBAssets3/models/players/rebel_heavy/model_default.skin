@@ -19,7 +19,7 @@ helmet_gogb,models/players/deathwatch/visor.tga
 
 holster,models/players/rebel_commando/desert_holster_d.tga
 packs,models/players/rebel_commando/desert_extras2_d.tga
-chest_piece,models/players/rebel_commando/forest_extras_d3.tga
+chest_piece,models/players/rebel_commando/forest_extras_d.tga
 rank,models/players/rebel_commando/rank_d.tga
 arm_comm,models/players/rebel_commando/arm_comm_d.tga
 torso_neck,models/players/rebel_commando/desert_boots_d.tga

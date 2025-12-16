@@ -55,8 +55,7 @@ ClassInfo
 	c_att_skill_0	MB_ATT_PISTOL
 	c_att_names_0	"DT-29 Six Shooter (Pistol)"
 	c_att_ranks_0	2
-	c_att_descs_0 "60% more DMG, 60% more FP DMG, 30% more velocity, 
-30% slower RoF"
+	c_att_descs_0 "60% more DMG/FP DMG, 30% more velocity, 30% slower RoF"
 
 	c_att_skill_1	MB_ATT_CLONERIFLE
 	c_att_names_1	"Concord. Repeater (C. Rifle)"
@@ -94,8 +93,8 @@ WeaponInfo0
 	NewWorldModel		"models/weapons2/kotor_brifle1/kotor_brifle1_w.glm"
 	NewViewModel		"models/weapons2/kotor_brifle1/kotor_brifle1.md3"
 	Icon				"gfx/hud/w_icon_kotor_brifle1"
-	MuzzleEffect		"Blaster/MuzzleFlash03B"
-	AltMuzzleEffect	"Blaster/MuzzleFlash03B"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect	"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot03B"
 	AltMissileEffect 	"blaster/Shot03B"
 	FlashSound0		"sound/weapons/dc17m/fire.wav"
@@ -115,20 +114,22 @@ WeaponInfo1
 	NewWorldModel		"models/weapons2/bp_dt29/dt29.glm"
 	NewViewModel		"models/weapons2/bp_dt29/dt29.md3"
 	Icon				"gfx/hud/w_icon_dt29"
-	MuzzleEffect		"halo_beamrifle/muzzle_flash"
-	AltMuzzleEffect	"halo_beamrifle/altmuzzle_flash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect	"Blaster/MuzzleFlash01B"
 	WeaponName		"DT-29 Six Shooter"
-	MissileEffect       "DE-10/shot"
-    Missile3Effect      "DE-10/shot"
-    AltMissileEffect    "DE-10/shot"
-    PowerupShotEffect   "DE-10/shot"
+	MissileEffect    "blaster/shot03b"
+ Missile3Effect   	 "blaster/shot10b"
+ AltMissileEffect   "blaster/shot10b"
+ PowerupShotEffect  "blaster/shot10b"
     ChargeEffect       "gfx/effects/cloneFrontFlash"
 	FlashSound0		"sound/weapons/LPA_NN-14/fire.wav"
 	altFlashSound0	"sound/weapons/LPA_NN-14/alt_fire.wav"
 	hasAnimOverrides 	1
 	animStand 			BOTH_STAND9
+	animReadyRun 		BOTH_MAND_PISTOL_READY
 	animReady 		BOTH_MAND_PISTOL_READY
 	animReadyWalk 	BOTH_MAND_PISTOL_READY
+	animAttackRun 		BOTH_MAND_PISTOL_ATTACK
 	animAttack 		BOTH_MAND_PISTOL_ATTACK
 	animAttackWalk 	BOTH_MAND_PISTOL_ATTACK
 	customAmmo 	800
@@ -147,8 +148,8 @@ WeaponInfo2
     NewViewModel		"models/weapons2/mandoAR/mandoAR.md3"
     Icon				"gfx/hud/w_icon_mandoAr"
     WeaponName		"Concordian Repeater"   
-	MuzzleEffect		"Blaster/MuzzleFlash02Y"
-	AltMuzzleEffect	"Blaster/MuzzleFlash03Y"
+	MuzzleEffect		"Blaster/MuzzleFlash01Y"
+	AltMuzzleEffect	"Blaster/MuzzleFlash01Y"
 	customAmmo 		800
 	clipsize			8
 	FPMult 			1.1

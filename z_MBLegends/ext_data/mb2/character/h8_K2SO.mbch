@@ -8,11 +8,11 @@ ClassInfo
 	weapons 	WP_A280|WP_MELEE|WP_SABER
 	
 	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2
-	armourRegenCap 80
+	armourRegenCap 100
 	armourRegenAmount	1
 	armourRegenRate		1500
 	maxhealth   		200
-	maxarmor   	 	275
+	maxarmor   	 	300
 	basespeed 		185
 	resource 		RESOURCE_RAGE
 	forcepool		60
@@ -80,9 +80,11 @@ WeaponInfo0
 	FlashSound0	"sound/weapons/se-14c/fire.mp3"
 	hasAnimOverrides 1
 	animStand BOTH_STAND1
+	animReadyRun BOTH_MAND_PISTOL_READY
 	animReady BOTH_MAND_PISTOL_READY
 	animReadyWalk BOTH_MAND_PISTOL_READY
 	animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttackRun BOTH_MAND_PISTOL_ATTACK
 	animAttack BOTH_MAND_PISTOL_ATTACK
 	animAttackWalk BOTH_MAND_PISTOL_ATTACK
 	animStand BOTH_MAND_PISTOL_READY
@@ -116,7 +118,7 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers/knocks down on hit
--- 165% more KB given
+-- 165% more KB
 -- 5% faster movement
 -- 100% more special DMG
 -- 12% less DMG
@@ -132,7 +134,7 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 - Droid Rage (3) ^3[CS1]
 
 ^8Attributes:
-- Armor Regen: 1/1.5s to 80
+- Armor Regen: 1/1.5s to 100
 - 10% more KB given
 - 50% less KB taken
 - Fury (2)

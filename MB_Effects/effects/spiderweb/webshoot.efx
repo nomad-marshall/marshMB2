@@ -1,0 +1,50 @@
+repeatDelay				300
+
+OrientedParticle
+{
+	flags				usePhysics impactFx useAlpha
+
+	life				680
+
+	velocity			500 0 0
+
+	size
+	{
+		end				100
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/spiderweb2
+	]
+
+	impactfx
+	[
+		spiderweb/webdecal
+	]
+}
+
+Cylinder
+{
+	flags				useAlpha
+
+	life				700
+
+	size
+	{
+		end				100
+		flags			linear
+	}
+
+	length
+	{
+		end				250
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/spiderweb2
+	]
+}

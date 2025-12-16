@@ -19,8 +19,8 @@ ClassInfo
 	extralives 1
 	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_SEEING_STEALTH
 	jetpackFuelCap 	7
-	jetpackThrustEffect "null/null"
-	jetpackIdleEffect "null/null"
+	jetpackThrustEffect null
+	jetpackIdleEffect null
 	jetpackJetTag "*torso_cap_hips"
 	jetpackJet2Tag  "*torso_cap_hips"
 	jetpackIdleSound  "sound/mb2/Silence"

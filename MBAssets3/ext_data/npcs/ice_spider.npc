@@ -1,0 +1,33 @@
+ice_spider
+{
+	playerModel 	ice_spider
+	weapon		WP_MELEE
+	health		2000
+	headPitchRangeDown 0
+	reactions		5
+	aim			5
+	move			5
+	aggression		5
+	evasion		4
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_RANCOR
+	height	70
+	crouchheight 	40
+	width		25
+	snd		rancor
+	sndcombat	rancor
+	sndextra	rancor
+	yawspeed	40
+//	walkSpeed	173
+//	runSpeed	250
+	walkSpeed	150
+	runSpeed	300
+	dismemberProbHead		0
+	dismemberProbArms		0
+	dismemberProbLegs		0
+	dismemberProbHands	0
+	dismemberProbWaist	0
+}

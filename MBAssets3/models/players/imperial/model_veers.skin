@@ -22,27 +22,27 @@ cylinder_1x3,*off
 cylinder_2x1,*off
 cylinder_2x2,*off
 
-torso,models/players/imperial/torso_veers.tga
+torso,models/players/imperial/torso_olive.tga
 torso_chest_heavy,models/players/imperial_army/armor_heavy.tga
 torso_chest_heavy_augment,models/players/imperial_army/armor_heavy_augment.tga
 torso_rank_2x6,models/players/hs_imperial/rank-2x6.tga
 torso_extras,*off
-l_arm,models/players/imperial/torso_veers.tga
+l_arm,models/players/imperial/torso_olive.tga
 l_arm_key,*off
 l_arm_pocket,*off
-l_hand,models/players/imperial/torso_veers.tga
-r_arm,models/players/imperial/torso_veers.tga
-r_hand,models/players/imperial/torso_veers.tga
+l_hand,models/players/imperial/torso_olive.tga
+r_arm,models/players/imperial/torso_olive.tga
+r_hand,models/players/imperial/torso_olive.tga
 
-hips,models/players/imperial/torso_veers.tga
+hips,models/players/imperial/torso_olive.tga
 hips_armor,models/players/imperial_army/armor_hips.tga
-hips_belt,models/players/imperial/torso_veers.tga
-hips_holster,models/players/imperial/hips_legs_veers_cull.tga
+hips_belt,models/players/imperial/torso_olive.tga
+hips_holster,models/players/imperial/hips_legs_olive_cull.tga
 hips_grenades,*off
-hips_legs,models/players/imperial/hips_legs_veers.tga
+hips_legs,models/players/imperial/hips_legs_olive.tga
 hips_legs2,*off
-l_leg,models/players/imperial/hips_legs_veers.tga
-r_leg,models/players/imperial/hips_legs_veers.tga
+l_leg,models/players/imperial/hips_legs_olive.tga
+r_leg,models/players/imperial/hips_legs_olive.tga
 
 rank_1x4,*off
 rank_1x6,*off

@@ -7,7 +7,7 @@ classNumberLimit 2
 extralives 1
 
 weapons WP_MELEE|WP_BLASTER_PISTOL|WP_CR2|WP_M5|WP_DET_PACK|WP_PULSE_NADE
-attributes MB_ATT_PISTOL,2|MB_ATT_CR2,2|MB_ATT_DET_PACK,3|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_TRACKING_BEACON|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DEXTERITY,1
+attributes MB_ATT_PISTOL,2|MB_ATT_CR2,2|MB_ATT_DET_PACK,3|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,1
 
 forcepowers FP_SEE,1|FP_LIGHTNING,1
 holdables HI_SEEKER|HI_STIMPACK
@@ -21,6 +21,10 @@ resourceRegenCap 65
 
 maxhealth 85
 MaxArmor 80
+
+armourRegenAmount 2
+armourRegenRate 1000
+armourRegenCap  20
 
 basespeed 218
 damageTaken 0.95
@@ -37,6 +41,7 @@ model "jedi_zf"
 skin "merc_et"
 uishader "models/players/jedi_zf/mb2_icon_merc_et"
 uioverlay_l "gfx/icons/tactician"
+uioverlay_r "gfx/icons/infantry"
 
 special1 EAS_FP_SEE
 special2 EAS_FP_LIGHTNING
@@ -95,6 +100,7 @@ customAmmo 3
 
 //put these on alt attack if that ever becomes a thing
 hasAnimOverrides 1
+animAttackRun BOTH_MAND_FLAME_READY
 animAttack BOTH_MAND_FLAME_READY
 animAttackWalk BOTH_MAND_FLAME_READY
 rateMod 0.75
@@ -112,6 +118,7 @@ WeaponInfo3
     clipSize -1
     primFireEnabled  0
     hasAnimOverrides 1
+    animAttackRun     BOTH_ATTACK3
     animAttack     BOTH_ATTACK3
     animAttackWalk  BOTH_ATTACK3
 	ratemod 0.75
@@ -123,7 +130,7 @@ ForceToReplace FP_LIGHTNING
 Icon "gfx/forcepowers/lightning"
 ForcePowerName "Wrist Shocker"
 StartSound "sound/ambience/kotor/console03.mp3"
-LoopSound "null"
+LoopSound null
 }
 
 ForceInfo1
@@ -171,6 +178,6 @@ description "Rebel Sapper [Elite Trooper]
 - 10% more KB taken
 - Resource Regen: 5/s to 65
 - Dexterity (1)
-- Armor Regen (1)
+- Armor Regen: 2/s to 20
 - Tracking Beacon
 - Assemble (2)"

@@ -29,6 +29,11 @@ head_haird_short,*off
 head_hairg,*off
 head_hood,*off
 
+headt,*off
+headt_tentacles,*off
+headt_face,*off
+headt_teeth,*off
+
 torso_collar,models/players/olga/torso_b2.tga
 torso_hood,*off
 torso_hood2,*off

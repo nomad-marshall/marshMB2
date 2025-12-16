@@ -94,9 +94,9 @@ WeaponInfo0
 	FlashSound2			"sound/weapons/dc17m/fire.wav"
 	FlashSound3			"sound/weapons/dc17m/fire.wav"
 	AltFlashSound0 		"sound/weapons/dc17m/fire.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01C"
-	MissileEffect		"blaster/Shot01C"
-	MissileMissEffect "blaster/impact_wall01c"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"blaster/Shot01B"
+	
 	Icon				"gfx/hud/w_icon_dc-17mB"
 	WeaponName			"DC-17m ICWS Blaster Attachment"
 	customAmmo 			1260
@@ -105,9 +105,11 @@ WeaponInfo0
 	altFireEnabled			0
 	hasAnimOverrides 1
 	animReady		TORSO_WEAPONIDLE3
+	animReadyRun		TORSO_WEAPONIDLE3
 	animReadyWalk		TORSO_WEAPONREADY3
 	animReadyNoAmmo	BOTH_ATTACK3
 	animAttack     BOTH_ATTACK3
+	animAttackRun     BOTH_ATTACK3
 	animAttackWalk  BOTH_ATTACK3
 	animStand 		BOTH_STAND1
 	rateMod 0.6
@@ -134,10 +136,8 @@ WeaponInfo2
 	Icon				"gfx/hud/w_icon_dc-17mS"
 	FlashSound0			"sound/weapons/RC_Sniper/fire.mp3"
 	altFlashSound0			"sound/weapons/RC_Sniper/fire.mp3"
-	MuzzleEffect		"Blaster/MuzzleFlash01C"
-	altMuzzleEffect "Blaster/MuzzleFlash01C"
-	MissileMissEffect "blaster/impact_wall01c"
-	altMissileMissEffect "blaster/impact_wall01c"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	altMuzzleEffect "Blaster/MuzzleFlash01B"
 	WeaponName			"DC-17m ICWS Sniper Attachment"
 	clipSize			25
 	customAmmo 		100
@@ -157,12 +157,11 @@ WeaponInfo3
 	NewWorldModel		"models/weapons2/DC-15/dc-15_w.glm"
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
 	Icon				"gfx/hud/w_icon_clonepistol"
-	WeaponName			"DC-15s Blaster Pistol"
+	WeaponName			"DC-15s Side Arm Blaster"
 	FlashSound0			"sound/weapons/delta_pistol/wep_GEN_pistolFire_MP.wav"
 	AltFlashSound0 		"sound/weapons/delta_pistol/wep_GEN_pistolFire_MP.wav"
-	MuzzleEffect		"Blaster/MuzzleFlash01C"
-	MissileEffect		"Blaster/Shot01C"
-	MissileMissEffect "blaster/impact_wall01c"
+	MuzzleEffect		"Blaster/MuzzleFlash01b"
+	MissileEffect		"blaster/Shot01B"
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	clipSize			15
 	ReloadTimeModifier 	2
@@ -223,17 +222,17 @@ A highly adaptable special ops unit.
 - Knuckle Plate Vibroblade (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
--- 105% more KB given
+-- 105% more KB
 -- 20% less DMG
 -- 66% more special DMG
 -- 57% less reach
 -- 33% more radius
 -- Prim. only
 -- Slap ^3[GB]
-- DC-15s Blaster Pistol (1)
+- DC-15s Side Arm Blaster (Pistol 1)
 -- 40% faster RoF
 -- 100% slower reload
-- DC-17m ICWS Blaster Attachment (C. Carbine 1)
+- DC-17m ICWS Blaster Attachment (DC Carbine 1)
 -- 40% faster RoF
 -- 25% slower mag reload
 - DC-17m ICWS Sniper Attachment (Disruptor 1)

@@ -7,7 +7,7 @@ ClassInfo
 	
 	weapons	WP_FRAG_NADE|WP_BLASTER|WP_MELEE|WP_PULSE_NADE|WP_DISRUPTOR|WP_THROWER|WP_TRIP_MINE|WP_ROCKET_LAUNCHER
 	
-	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_LOWDAMAGE
+	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_KNOCKBACK
 	WP_ThrowerFlags 		HELD_ALTRELOAD
 	
 	attributes	MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_BLASTER,2|MB_ATT_ROCKET_LAUNCHER|MB_ATT_BLAST_ARMOUR,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_DISRUPTOR,2|MB_ATT_THROWER_ICE,3|MB_ATT_TRIP_MINES,2|MB_ATT_AMMO,3|MB_ATT_HEALING,2|MB_ATT_RALLY
@@ -15,8 +15,8 @@ ClassInfo
 	resource RESOURCE_ENERGY
 	forcepool 0
 
-	maxhealth	250
-	maxarmor		130
+	maxhealth	260
+	maxarmor		125
 	holdables     HI_EWEB
 
 	special1	EAS_HI_EWEB
@@ -30,11 +30,16 @@ ClassInfo
 	uioverlay_l "gfx/icons/tactician"
 	uioverlay_r "gfx/icons/heavy"
 	uioverlay_c "gfx/icons/scout"
+
 	model 		"reelo"
 	skin  		"default"
 	uishader  	"models/players/reelo/mb2_icon_default"
+
+	model_1 		"reelo"
+	skin_1  		"xmas"
+	uishader_1  	"models/players/reelo/mb2_icon_xmas"
 	modelscale      	1.03
-	//respawncustomtime 		50000
+
 }
 
 WeaponInfo0
@@ -48,15 +53,16 @@ WeaponInfo0
 	Icon					"gfx/hud/w_icon_merrsonn"
 	WeaponName				"Overcharged PLX-2M Rocket Launcher"
 	clipSize 				5
-	CustomAmmo 				10
+	CustomAmmo 				5
 	ReloadTimeModifier 		2
 	altfireenabled			1
 	rateMod 0.3
-	MuzzleEffect "null"
+damageMod 0.6
+	MuzzleEffect null
 	MissileMissEffect        "Grenades/EXP_Alt"
     MissileHitHumanEffect    "Grenades/EXP_Alt"
     MissileHitDroidEffect    "Grenades/EXP_Alt"
-	altMuzzleEffect "null"
+	altMuzzleEffect null
 	altMissileMissEffect        "Grenades/EXP_Alt"
     altMissileHitHumanEffect    "Grenades/EXP_Alt"
 	altMissileHitDroidEffect    "Grenades/EXP_Alt"
@@ -104,9 +110,10 @@ A criminal kingpin armed to the teeth with various weapons. Cannot be knocked do
 -- Slows/freezes on hit
 -- No DMG
 -- 100% slower mag reload
-- Overcharged PLX-2M Rocket Launcher (15)
+- Overcharged PLX-2M Rocket Launcher (10)
+-- Pushes on hit
 -- 70% faster RoF
--- 50% less DMG
+-- 40% less DMG
 -- 100% slower mag reload
 -- Homing Rockets ^3[Hold Sec. ^3fire]
 - Frag Grenade (1)

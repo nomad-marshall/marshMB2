@@ -22,8 +22,8 @@ ClassInfo
 	classNumberLimit	2
 	MBClass			MB_CLASS_MANDALORIAN
 		respawnCustomTime	30000
-	jetpackThrustEffect "null/null"
-	jetpackIdleEffect "null/null"
+	jetpackThrustEffect null
+	jetpackIdleEffect null
 	jetpackJetTag "*torso_cap_hips"
 	jetpackJet2Tag  "*torso_cap_hips"
 	jetpackIdleSound  "sound/mb2/Silence"

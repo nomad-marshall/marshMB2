@@ -65,12 +65,13 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_sonic_pistol.tga"
 	WeaponName			"Sonic Pistol"
 	MissileMissEffect 	"effects/sonic_pistol/k_wall_impact"
+MissileHitHumanEffect "effects/sonic_pistol/k_wall_impact"
+MissileHitDroidEffect 	"effects/sonic_pistol/k_wall_impact"
 	MissileEffect		"effects/sonic_pistol/k_projectile"  					
 	MuzzleEffect		"effects/sonic_pistol/k_muzzle_flash"   	
 	FlashSound0			"sound/weapons/kotor/fire_sonic.wav"
 	CustomAmmo           28
 	clipsize             2
-	idleAnim			TORSO_WEAPONIDLE2
 	ReloadTimeModifier 	1.25
 	FPMult     			1.5
 	rateMod 1.25
@@ -82,8 +83,8 @@ WeaponInfo2
     	WeaponBasedOff		WP_BOWCASTER
     	NewWorldModel		"models/weapons2/kotor_bowcaster2/kotor_bowcaster2_w.glm"
     	NewViewModel		"models/weapons2/kotor_bowcaster2/kotor_bowcaster2.md3"  
-    	MuzzleEffect		"Chewiecaster/muzzle_flash"     
-		AltMuzzleEffect		"Chewiecaster/muzzle_flash"    		 
+    	MuzzleEffect		"Blaster/MuzzleFlash01G" 		   
+		AltMuzzleEffect		"Blaster/MuzzleFlash01G" 		  		 
     	MissileEffect		"Chewiecaster/shot" 
     	AltMissileEffect	"Chewiecaster/shot"
         FlashSound0		"sound/weapons/Chewiecaster/fire.mp3"
@@ -111,7 +112,7 @@ A jack-of-all-trades with a massive health pool, max Strength, choice of Vibrosa
 -- Slap ^3[CS2]
 > Vibroblade (Yellow)
 -- 48% more reach
-> Dual Vibroswords (Dual)
+> Double Vibroswords (Dual)
 -- 5% more reach
 -- 5% faster AS
 - Sonic Pistol (1)

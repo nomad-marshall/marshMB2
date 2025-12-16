@@ -18,6 +18,7 @@ mouth_sull,*off
 torso_neck,models/players/rebel_commando/forest_boots_d.tga
 
 torso,*off
+torso_ammobelt,*off
 torso_zipper,models/players/rebel_magma/torso.tga
 torso_rank,models/players/rebel_magma/belts.tga
 torso_belts,models/players/rebel_magma/belts.tga
@@ -28,10 +29,10 @@ r_hand,*off
 l_handb,models/players/alien_merc/dur_hands.tga
 r_handb,models/players/alien_merc/dur_hands.tga
 
-backpack,*off
-backpack_bits,*off
-backpack_frame,*off
-antenna,*off
+backpack,models/players/rebel_commando/geo_backpack_d.tga
+backpack_bits,models/players/rebel_commando/geo_backpack_d.tga
+backpack_frame,models/players/rebel_commando/forest_extras2_d.tga
+antenna,models/players/rebel_commando/forest_extras2_d.tga
 
 hips,models/players/rebel_magma/torso.tga
 hips_canteen_belts,models/players/rebel_magma/belts.tga

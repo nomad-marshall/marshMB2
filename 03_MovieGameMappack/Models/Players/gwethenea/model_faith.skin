@@ -29,6 +29,11 @@ head_haird_short,models/players/gwethenea/hair_black
 head_hairg,*off
 head_hood,*off
 
+headt,*off
+headt_tentacles,*off
+headt_face,*off
+headt_teeth,*off
+
 head_cap_torso_off,models/players/stormtrooper/caps
 
 torso_collar,*off

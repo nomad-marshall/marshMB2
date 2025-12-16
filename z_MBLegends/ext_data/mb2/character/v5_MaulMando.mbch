@@ -48,8 +48,8 @@ ClassInfo
 	special3 EAS_HI_DEX
 	special4 EAS_FP_RAGE
 	
-	WalkBackward 	BOTH_WALK_DUAL
-	WalkForward 	BOTH_WALKBACK_DUAL
+	WalkBackward 		BOTH_WALKBACK_DUAL
+	WalkForward BOTH_WALK_DUAL
 	isCustomBuild	1
 	mbPoints		6
 	
@@ -62,7 +62,7 @@ ClassInfo
 	c_att_names_1	"Vornax Cannon (Minigun)"
 	c_att_ranks_1	5,0
 	c_att_descs_1 "Ignites/staggers/pushes on direct hit, 300% more DMG/FP DMG,
-700% slower RoF, 50% less velocity, 100% slower mag reload" 
+700% slower RoF, 100% slower mag reload" 
 	700/50/200% slower RoF"
 	c_att_skill_2	MB_ATT_A280
 	c_att_names_2	"Concordian Rifle (A280)"
@@ -111,14 +111,15 @@ WeaponInfo1
 	ChargeSound		"sound/weapons/leia_pistol/altcharge.mp3"
 	ChargeEffect		"gfx/effects/yellow_bryarFrontFlash" 
 	hasAnimOverrides 	1
+	animReadyRun 		BOTH_PAIN16   
 	animReady 		BOTH_PAIN16   
 	animReadyWalk 	BOTH_PAIN16    
 	animReadyNoAmmo BOTH_DUAL_PISTOLS_DRAW
 	animRunAttackR	BOTH_DUAL_PISTOLS_ATTACK_R
 	animRunAttackL	BOTH_DUAL_PISTOLS_ATTACK_L
-	animWalkAttackR	DUAL_RUNNING_FIRE_RIGHT
-	animWalkAttackL	DUAL_RUNNING_FIRE_LEFT
-	animCharge	BOTH_DUAL_PISTOLS_UP
+	animWalkAttackR	BOTH_DUAL_PISTOLS_ATTACK_R
+	animWalkAttackL	BOTH_DUAL_PISTOLS_ATTACK_L
+	animCharge	BOTH_DUAL_PISTOLS_READY
 	animStand 	BOTH_STAND9
 	customAmmo 800
 	clipsize	30
@@ -135,8 +136,8 @@ WeaponInfo2
 	NewViewModel		"models/weapons2/z6_rotary/rotary_cannon.md3"
 	NewHandsModel		"models/weapons2/z6_rotary/rotary_cannon_hand.md3"
 	NewBarrelModel		"models/weapons2/z6_rotary/rotary_cannon_barrel.md3"
-	MuzzleEffect  		"DW_Cannon/muzzleflash"
-	altMuzzleEffect  		"DW_Cannon/muzzleflash"
+	MuzzleEffect  	"Blaster/MuzzleFlash01R"
+	altMuzzleEffect  "Blaster/MuzzleFlash01R"
 	MissileEffect 		"Blaster/Shot04R"
 	missileMissEffect 	"effects/Grenades/EXP_BaseThermal"
 	MissileHitHumanEffect	"effects/Grenades/EXP_BaseThermal"
@@ -148,7 +149,7 @@ WeaponInfo2
 	FPMult	4
 	rateMod 8
 	damageMod 4
-	velocityMod	0.5
+	velocityMod	1
 	ReloadTimeModifier 2
 	clipsize	10
 	customAmmo	350
@@ -163,7 +164,7 @@ WeaponInfo3
 	WeaponName		"Concordian Battle Rifle"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
 	AltMuzzleEffect	"Blaster/MuzzleFlash01R"
-	MissileEffect		"blaster/Shot10R"
+	MissileEffect		"blaster/Shot03R"
 	AltMissileEffect 	"blaster/Shot03R"
 	FlashSound0 		"sound/weapons/EL-16/fire.wav"
 	FlashSound1 		"sound/weapons/EL-16/fire.wav"
@@ -221,11 +222,12 @@ Enforcers with brutal burst fire/area control.
 - Dark Rage (3) ^3[CS4]
 
 ^8Attributes:
-- Resource Regen: 2/.75s to 50
+- Fury (2)
+-- Resource Regen: 2/.75s to 50
 - Strength (1)
 - Dexterity (3)
 - Beskar (2)
-- Fury (2)
+- Tracking Beacon
 
 ^3Abilities:
 - Jetpack

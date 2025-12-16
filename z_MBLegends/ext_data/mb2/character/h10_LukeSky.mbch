@@ -83,8 +83,8 @@ skin_10      "default"
 uishader_10  "models/players/luke_ceremonial/mb2_icon_default"
 
 model_11     "luke_hoth"
-skin_11      "jedi"
-uishader_11  "models/players/luke_hoth/mb2_icon_jedi"
+skin_11      "default"
+uishader_11  "models/players/luke_hoth/mb2_icon_default"
 
 model_12     "luke_esb"
 skin_12      "default"
@@ -146,14 +146,17 @@ uishader_20  "models/players/luke_gm/mb2_icon_default"
 	c_att_skill_0		MB_ATT_FP_TELEPATHY
 	c_att_names_0		"Force Mind Trick^3*"
 	c_att_ranks_0		1
+ c_att_descs_0 "Effect is shared with a targeted/nearby ally"
 	
 	c_att_skill_1		MB_ATT_FP_ABSORB
 	c_att_names_1		"Force Absorb^3*"
 	c_att_ranks_1		1
-	
+	c_att_descs_1 "Effect is shared with a targeted/nearby ally"
+
 	c_att_skill_2		MB_ATT_FP_PROTECT
 	c_att_names_2		"Force Protect^3*"
 	c_att_ranks_2		1
+ c_att_descs_2 "Effect is shared with a targeted/nearby ally"
 }
 
 ForceInfo0

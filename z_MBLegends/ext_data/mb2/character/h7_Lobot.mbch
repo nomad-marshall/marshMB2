@@ -97,16 +97,18 @@ ForceInfo0
 	MissileMissEffect		"effects/tripmine/explosion"
 	MissileHitHumanEffect "effects/tripmine/explosion"
 	MissileHitDroidEffect	"effects/tripmine/explosion"
-	MuzzleEffect				"stone/muzzle1"
+	MuzzleEffect			null
 	velocityMod 0.001
 	rateMod 2
 	ClipSize 8
 	CustomAmmo -1
 	AltFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_SHOWOFF_STRONG
 	animReady BOTH_SHOWOFF_STRONG
 	animReadyWalk BOTH_GESTURE1
 	animReadyNoAmmo BOTH_STAND5TURNRIGHTSTART
+	animAttackRun BOTH_HUGGERSTOP1
 	animAttack BOTH_HUGGERSTOP1
 	animAttackWalk BOTH_HUGGERSTOP1
 	animStand BOTH_STAND1
@@ -122,7 +124,7 @@ A speedy, damage-boosted Pistoleer with Grenades.
 -- No Saber/Blaster Block
 -- Blocking resists Force Powers
 -- Chain Limit: 2
--- 250% more KB
+-- 125% more KB
 -- 56/79% less DMG
 -- 59% less Red special DMG
 -- 40% less reach
@@ -136,7 +138,7 @@ A speedy, damage-boosted Pistoleer with Grenades.
 - Concussion Grenades (2)
 
 ^6Inventory:
-- Kolto (Gradual 50 HP)
+- Medpac
 - Forcefield ^3[CS4]
 - Assault Sentry
 

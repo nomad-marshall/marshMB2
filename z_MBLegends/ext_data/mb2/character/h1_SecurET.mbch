@@ -57,9 +57,9 @@ ClassInfo
 	skin_2			"default"
 	uishader_2		"models/players/bespin_cop/mb2_icon_default"
 
-	model_3 			"nrguard"
+	model_3 			"lanupaguard"
 	skin_3			"default"
-	uishader_3		"models/players/nrguard/mb2_icon_default"
+	uishader_3		"models/players/lanupaguard/mb2_icon_default"
 	
 	model_4 			"rebel_vanguard"
 	skin_4			"default"
@@ -68,10 +68,14 @@ ClassInfo
 	model_5			"rebel_honor"
 	skin_5			"default"
 	uishader_5		"models/players/rebel_honor/mb2_icon_default"
-	
-	model_6 			"nrmarine"
+
+	model_6 			"nrguard"
 	skin_6			"default"
-	uishader_6		"models/players/nrmarine/mb2_icon_default"
+	uishader_6		"models/players/nrguard/mb2_icon_default"
+	
+	model_7 			"nrmarine"
+	skin_7			"default"
+	uishader_7		"models/players/nrmarine/mb2_icon_default"
 	
 	isCustomBuild		1
 	mbPoints			53
@@ -147,7 +151,6 @@ WeaponInfo0
 	Missile3Effect	"Blaster/Shot03G"  							
 	AltMissileEffect	"Blaster/Shot11G"  							
 	PowerupShotEffect	"Blaster/Shot04G"  		
-	clipsize 		24
 	ChargeEffect		"gfx/effects/greenFrontFlash"
 	OverchargeEffect	"Blaster/MuzzleCharge01G"
 	FPMult     		0.9
@@ -166,7 +169,7 @@ WeaponInfo1
 	WeaponName		"Security Force Repeater"
 	FlashSound0		"sound/weapons/kotor_carbine/fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01G"   						
-	MissileEffect		"Blaster/Shot02G"
+	MissileEffect		"Blaster/Shot11G"
 	altMissileMissEffect "blobs/concussion"
 	altMissileHitHumanEffect "blobs/concussion"
 	altMissileHitDroidEffect "blobs/concussion"
@@ -180,6 +183,7 @@ WeaponInfo1
 	hasAnimOverrides 1
 	animReadyWalk  BOTH_WESTARM5_READY
 	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
 	animAttack BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
 	animStand BOTH_STAND1

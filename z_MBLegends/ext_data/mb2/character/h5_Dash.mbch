@@ -19,7 +19,7 @@ ClassInfo
 	customblue		1
 	modelscale    1.01
 	basespeed    230
-	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_HIGHDAMAGE
+	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_KNOCKBACK|HELD_STUN
 	jetpackJetTag		*jet1		
 	jetpackJet2Tag		*jet2
 	jetpackJetOffset		"0, 0, 0" 
@@ -51,8 +51,8 @@ WeaponInfo0
 	customAmmo 702
 	MissileEffect		"blaster/dash_bolt"
 	AltMissileEffect		"blaster/dash_bolt"
-	MuzzleEffect "null"
-	AltMuzzleEffect "null"
+	MuzzleEffect null
+	AltMuzzleEffect null
 	FlashSound0 "sound/weapons/ee4/fire.mp3"
 	AltFlashSound "sound/weapons/ee4/sniperfire.mp3"
 	MissileHitHumanEffect "blaster/dash_impact"
@@ -60,9 +60,11 @@ WeaponInfo0
 	MissileMissEffect "blaster/dash_impact"
 	altFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_MAND_PISTOL_READY
 	animReady BOTH_MAND_PISTOL_READY
 	animReadyWalk BOTH_MAND_PISTOL_READY
 animReadyNoAmmo BOTH_MAND_PISTOL_ATTACK
+	animAttackRun BOTH_ATTACK2
 	animAttack BOTH_ATTACK2
 	animAttackWalk  BOTH_MAND_PISTOL_ATTACK 
  animStand BOTH_STAND9
@@ -97,7 +99,7 @@ A highly mobile Jetpacker with regenerating Fuel and a rapid-fire, low damage Pi
 -- 57% faster RoF
 -- 15% less DMG
 - PLX-2M Rocket Launcher (8)
--- 100% more DMG
+-- Staggers/pushes on hit
 -- 15% more velocity
 -- 50% slower mag reload
 -- Homing Rockets ^3[Hold Sec. ^3fire]

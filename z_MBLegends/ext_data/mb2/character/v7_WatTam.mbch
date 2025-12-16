@@ -7,9 +7,9 @@ ClassInfo
 	weapons	WP_MELEE|WP_CONCUSSION|WP_FRAG_NADE|WP_ROCKET_LAUNCHER|WP_DEMP2|WP_BLASTER_PISTOL
 	WP_DEMP2Flags HELD_KNOCKBACK|HELD_DISRUPTIFY
 	WP_FragNadeFlags HELD_KNOCKDOWN|HELD_POISON|HELD_SONIC|HELD_DISRUPTIFY
-	WP_RocketLauncherFlags HELD_HIGHDAMAGE|HELD_SLOWPROJ|HELD_EXPLOSIVE|HELD_DISRUPTIFY|HELD_PULSE|HELD_FLAME|HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_POISON|HELD_SONIC|HELD_STUN|HELD_ALTRELOAD
+	WP_RocketLauncherFlags HELD_SLOWPROJ|HELD_PULSE|HELD_FLAME|HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_POISON|HELD_SONIC|HELD_STUN|HELD_ALTRELOAD
 	WP_BlasterPistolFlags HELD_DISRUPTIFY|HELD_FLAME|HELD_ALTRELOAD
-	WP_ConcussionFlags HELD_ALTRELOAD|HELD_DISRUPTIFY
+	WP_ConcussionFlags HELD_ALTRELOAD
 	
 	attributes	MB_ATT_HEALING,1|MB_ATT_TRACKING_DART,3|MB_ATT_RALLY|MB_ATT_FRAGS,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_ROCKET_LAUNCHER,3|MB_ATT_DEMP2,3|MB_ATT_PISTOL,1|MB_ATT_CONCUSSION,1|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_DISP_BLOCK,2|MB_ATT_USE_DISTANCE,1|MB_ATT_SPAWNER,1
 	maxhealth 140
@@ -75,18 +75,21 @@ WeaponInfo1
 	altMissileHitHumanEffect "wat_leg/decimator/hit"
     altMissileHitDroidEffect "wat_leg/decimator/hit"
 	Icon		"gfx/hud/w_thermal_grenade"
-	WeaponName	"S/D Organic Decimator Droids"
+	WeaponName	"Prototype S/D Organic Decimator Droids"
 	CustomAmmo 1
 	clipsize 1
 	reloadTimeModifier 2
+ damageMod 1.5
 	AltFlashSound0 "sound/chars/probe/misc/probetalk1.mp3"
 	AltFlashSound1 "sound/chars/probe/misc/probetalk2.mp3"
 	AltFlashSound2 "sound/chars/probe/misc/probetalk3.mp3"
 	primFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_GESTURE1
 	animReady BOTH_GESTURE1
 	animReadyWalk BOTH_STAND8
 	animReadyNoAmmo BOTH_STAND5TURNLEFTSTART
+	animAttackRun BOTH_FORCEGRIP3
 	animAttack BOTH_FORCEGRIP3
 	animAttackWalk BOTH_FORCEGRIP3
 	animCharge BOTH_GESTURE1
@@ -100,7 +103,7 @@ WeaponInfo2
 	NewViewModel 	"models/weapons2/dummy/dummy.md3"
 	Icon			"models/weapons2/halo_melee/icon"
 	WeaponName	"RA-EV Glove Blaster"
-	MissileEffect		"wat_leg/glove/shot"
+	MissileEffect		"acp_array/shot"
 	MissileMissEffect	"grenades/EXP_alt"	
 	MissileHitHumanEffect "grenades/EXP_alt"	
     MissileHitDroidEffect	"grenades/EXP_alt"	
@@ -116,9 +119,11 @@ WeaponInfo2
 	velocityMod 0.75
 	reloadTimeModifier 1.25
 	hasAnimOverrides 1
+	animReadyRun BOTH_REACHFORSABER1 //upper
 	animReady BOTH_REACHFORSABER1 //upper
 	animReadyWalk BOTH_REACHFORSABER1
 	animReadyNoAmmo BOTH_STAND5TURNLEFTSTART
+	animAttackRun   BOTH_FORCEGRIP3 
 	animAttack   BOTH_FORCEGRIP3 
 	animAttackWalk BOTH_FORCEGRIP3 
 	animCharge BOTH_REACHFORSABER1
@@ -133,11 +138,8 @@ WeaponInfo3
 	NewViewModel		"models/weapons2/demp2/demp2.md3"
 	NewHandsModel		"models/weapons2/demp2/demp2_hand.md3"
 	Icon				"gfx/hud/w_icon_basedemp2"
-	MissileHitHumanEffect "demp2/flesh_impact"
-	MissileHitDroid 	"demp2/flesh_impact"
-	MissileMissEffect "demp2/wall_impact"
 	MissileEffect		"demp2/projectile"  					
-	MuzzleEffect		"demp2/muzzle_flash"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	FlashSound0		"sound/weapons/demp2/fire.mp3"
 	AltFlashSound0	"sound/weapons/demp2/altfire.mp3"
 	ChargeSound		"sound/weapons/demp2/altcharge.mp3"
@@ -188,10 +190,9 @@ Utilizes experimental tech.
 - DEMP2 (3)
 -- Pushes on hit
 -- Prim. only
-- S/D Organic Decimator Droids (2) (RL)
--- Decimates on direct hit
--- Bonus explosive DMG
--- 100% more DMG
+- Prototype S/D Organic Decimator Droids (2) (RL)
+-- Decimates on hit
+-- 50% more DMG
 -- 75% less velocity
 -- 100% slower mag reload
 -- Sec. only
@@ -207,9 +208,10 @@ Utilizes experimental tech.
 
 ^6Inventory:
 - Assault Sentry
-- Seeker Drone (2)
+- Seeker Drone (Support Beacon)
+- Seeker Drone
 - Forcefield ^3[CS3]
-- Big Bacta ^3[CS4]
+- Advanced Medpac ^3[CS4]
 
 ^8Attributes:
 - Armor Regen (1)
