@@ -25,7 +25,7 @@ ClassInfo
 	uioverlay_r "gfx/icons/frontline"
 	uioverlay_l "gfx/icons/hybrid"
 	
-	//noGunbash		1
+ disableGunbash 1
 	
 	APmultiplier	    1.0
 	BPmultiplier     	1.0
@@ -33,7 +33,7 @@ ClassInfo
 	CSmultiplier		1.0
 	saberThrowDamage 40
 	modelscale          1.0
-	MBClass				MB_CLASS_SITH
+	MBClass				MB_CLASS_SITH //fp
 	classNumberLimit  	1
 	
 	WP_DetPackFlags		HELD_HIGHDAMAGE
@@ -78,7 +78,7 @@ ClassInfo
 	saber1_2			saber_yun
 	sabercolor_2		2
 
-	saber1_3			cc_leg
+	saber1_3			cc_leg2
 	sabercolor_3		4	
 
 	saber1_4			saber_yun
@@ -95,7 +95,7 @@ c_att_names_1       "Blaster Defense"
 c_att_ranks_1       8,8,4
 	
 c_att_skill_2       MB_ATT_PISTOL
-c_att_names_2       "Bryar (Blaster) Pistol"
+c_att_names_2       "Kyle's Bryar (Blaster) Pistol"
 c_att_ranks_2       2,2,15
 c_att_descs_2 "20% more charged FP DMG, 20% less velocity"
 c_att_skill_3       MB_ATT_BLASTER
@@ -154,7 +154,7 @@ WeaponInfo0
 	NewWorldModel		"models/weapons2/briar_pistol/briar_pistol_w.glm"
 	NewViewModel		"models/weapons2/briar_pistol/briar_pistol.md3"
 	Icon				"gfx/hud/w_icon_briar"
-	WeaponName			"Bryar Pistol"
+	WeaponName			"Kyle's Bryar Pistol"
 	MuzzleEffect		"Blaster/MuzzleFlash01Y"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01Y"
 	MissileEffect		"Blaster/Shot02Y"
@@ -176,7 +176,7 @@ WeaponInfo0
 	animAttackWalk BOTH_ATTACK2
 }
 
-description	"Kyle Katarn [Jedi]
+description	"Kyle Katarn [Sith]
 
 A Force-sensitive mercenary with the ability to choose his own path.
 
