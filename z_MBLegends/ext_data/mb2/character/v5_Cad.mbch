@@ -64,6 +64,12 @@ WeaponInfo0
 	AltMissileEffect	"Blaster/Shot04r"
 	PowerupShotEffect	"Blaster/Shot04r"
 	ChargeEffect		"gfx/effects/bryarfrontflash"
+ MissileMissEffect "Blaster/Impact_Wall01R.efx"
+ MissileHitHumanEffect "Blaster/Impact_Wall01R.efx"
+ MissileHitDroidEffect "Blaster/Impact_Wall01R.efx"
+ altMissileMissEffect "Blaster/Impact_Wall01R.efx"
+ altMissileHitHumanEffect "Blaster/Impact_Wall01R.efx"
+ altMissileHitDroidEffect "Blaster/Impact_Wall01R.efx"
 	WeaponName	"Dual LL-30 Blaster Pistols"
 	customAmmo	825
 	//clipsize	100
