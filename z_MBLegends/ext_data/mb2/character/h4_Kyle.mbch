@@ -25,7 +25,7 @@ ClassInfo
 	uioverlay_r "gfx/icons/frontline"
 	uioverlay_l "gfx/icons/hybrid"
 	
- disableGunbash 1
+ //disableGunbash 1
 	
 	APmultiplier	    1.0
 	BPmultiplier     	1.0
@@ -65,10 +65,6 @@ ClassInfo
 	skin_4		"default"
 	uishader_4	"models/players/ib-merc_kyle/mb2_icon_default"
 
-	model_5		"santakyle"
-	skin_5			"default"
-	uishader_5		"models/players/santakyle/mb2_icon_default"
-
 	saber1			Katarn
 	sabercolor		4	
 	
@@ -78,11 +74,8 @@ ClassInfo
 	saber1_2			saber_yun
 	sabercolor_2		2
 
-	saber1_3			cc_leg2
-	sabercolor_3		4	
-
-	saber1_4			saber_yun
-	sabercolor_4		1	
+	saber1_3			saber_yun
+	sabercolor_3		1	
 	
 	mbPoints			100
 	
