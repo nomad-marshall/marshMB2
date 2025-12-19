@@ -78,7 +78,7 @@ c_att_names_6	"Damage Given (120%)"
 c_att_ranks_6	3
 c_att_skill_7	MB_ATT_ARMOUR
 c_att_names_7	"Armor (110)"
-c_att_ranks_7	2
+c_att_ranks_7	3
 c_att_skill_15 MB_ATT_CLONE_PISTOL
 c_att_names_15 "DC-17 Clone Pistol"
 c_att_ranks_15 0,0,6
