@@ -3,45 +3,47 @@
 ClassInfo
 {
 	name				"v9_Vader"
+	MBClass				MB_CLASS_SITH
+	classNumberLimit  	1
+
 	weapons				WP_SABER|WP_MELEE|WP_SBD
-	attributes			MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_HEALING,1|MB_ATT_FORCEFOCUS,3|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DEXTERITY,2|MB_ATT_FLOAT_HOP,1|MB_ATT_GETUPS,3
-	saberMaxChain 4
-	saberstyle			SS_DESANN|SS_STRONG
-	forcepowers			FP_SABER_OFFENSE,3|FP_PUSH,2|FP_PULL,2|FP_GRIP,3|FP_SEE,2|FP_SABERTHROW,3
-	APmultiplier		1.35
-	BPmultiplier		1.2
-	ASMultiplier		1.1
-	CSMultiplier		1
-	maxhealth		80
+
+	attributes			MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_HEALING,1|MB_ATT_FORCEFOCUS,3|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_FLOAT_HOP,1|MB_ATT_GETUPS,3
+
+	forcepowers			FP_SABER_OFFENSE,3|FP_PUSH,3|FP_PULL,2|FP_GRIP,3|FP_SEE,2|FP_SABERTHROW,3
+
+	maxhealth		75
 	maxarmor			50
+
+	speed    0.91
+
 	forcepool			150
-	modelscale			1.09
-	speed               0.92
-	forceregen          0.95
+	forceregen  0.95
  resource RESOURCE_FORCE
 	special2 EAS_MELEE
 	special3 EAS_FP_GRIP
-	special4 EAS_FP_PUSH
+	special4 EAS_FP_PULL
 	
 	rateoffire_melee	1.1
-	knockbacktaken 0.5
+	knockbacktaken 0.05
 	damageGiven 1.1
-		saberThrowDamage 40
-	uioverlay "gfx/icons/frontline"
-	
-	WalkForward BOTH_WALK1
-	//WalkBackward BOTH_WALK1
-	//RunForward BOTH_WALK1
-	//RunBackward BOTH_WALK1
+ damageTaken 0.95
+
 	gloatAnim BOTH_FORCEGRIP1
 	flourishAnim BOTH_STAND5TOSTAND8
 	bowAnim BOTH_CROUCH3
 	
 	classflags			CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
-	MBClass				MB_CLASS_SITH
-	classNumberLimit  	1
+
+	saberThrowDamage 40 //44
+	APmultiplier		1.35
+	BPmultiplier		1.2
+	ASMultiplier		1.1
+	CSMultiplier		1
+	saberMaxChain 4
+	saberstyle			SS_DESANN|SS_STRONG
 	
-	saber1				Vader_legends1
+	saber1				  Vader_legends1
 	sabercolor			0
 	
 	saber1_1				Vader_legends2
@@ -52,28 +54,28 @@ ClassInfo
 	
 	saber1_3				Vader_legends4
 	sabercolor_3			0
-		
+
+	uioverlay "gfx/icons/frontline"
+	modelscale			1.09
 	model			"darthvader"
 	skin				"legends"
 	uishader			"models/players/darthvader/mb2_icon_default"
 	
-	model_1			"darthvader"
+	model_1		"darthvader"
 	skin_1			"breather"
 	uishader_1		"models/players/darthvader/mb2_icon_breather"
 	
-	model_2			"darthvader"
+	model_2		"darthvader"
 	skin_2			"tv"
 	uishader_2		"models/players/darthvader/mb2_icon_tv"
 	
-	model_3			"darthvader"
+	model_3		"darthvader"
 	skin_3			"damaged"
 	uishader_3		"models/players/darthvader/mb2_icon_damaged"
 	
 	//model_4 		"darthvader"
 	//skin_4 		"infinities"
 	//uishader_4 		"models/players/darthvader/mb2_icon_infinities"
-		
-	//respawncustomtime 	50000
 }
 
 ForceInfo0
@@ -118,17 +120,16 @@ A tanky saberist with strong defense and offense, at the cost of mobility. Regai
 -- Slap ^3[CS2]
 
 ^5Force Powers:
-- Push (2) ^3[CS4]
-- Pull (2)
+- Push (3)
+- Pull (2) ^3[CS4]
 - Sense (2) 
 - Vader's Grip (3) ^3[CS3]
 -- 12% more DMG
 
 ^8Attributes:
-- 50% less KB taken
+- 95% less KB taken
 - Getup (3)
 - Slow Faller
-- Dexterity (2)
 - Strength (1)
 - Blast Armor
 - Magnetic Plating 
