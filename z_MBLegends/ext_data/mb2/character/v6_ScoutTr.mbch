@@ -20,7 +20,7 @@ ClassInfo
 	DamageGiven 1
 	RankDmgGiven 1.1
 	rateOfFire	1.1
-	rankROF 1
+	rankROF 1,0.9
 	CSmultiplier	1.05
 	ASmultiplier	0.94
 	rankAS	1,1.06,1.12
@@ -32,20 +32,19 @@ ClassInfo
 	extralives	1
 	holdables	HI_MEDPAC
 	skilltimermod 3
-	rankSTM   2,1
+	rankSTM 2,1
 	rateOfFire_Melee	0.95
-	//tauntAnim 	BOTH_SCEPTER_HOLD
-	gloatAnim 		TORSO_HANDSIGNAL4
-	flourishAnim 	BOTH_STAND5STARTLEDLOOKLEFT
+	//tauntAnim BOTH_SCEPTER_HOLD
+	gloatAnim	TORSO_HANDSIGNAL4
+	flourishAnim	BOTH_STAND5STARTLEDLOOKLEFT
 	saberStanceAnim	BOTH_ROSH_HEAL
-	saberstyle 		SS_TAVION
-	saber1			riot_baton_p_legends
-	saber2			riot_shield_legends
-	saber1_1		riot_baton_b_legends
-	saber2_1		riot_shield_legends
-	saber1_2		riot_baton_o_legends
-	saber2_2		riot_shield_legends
-
+	saberstyle 	SS_TAVION
+	saber1	riot_baton_p_legends
+	saber2	riot_shield_legends
+	saber1_1	riot_baton_b_legends
+	saber2_1	riot_shield_legends
+	saber1_2	riot_baton_o_legends
+	saber2_2	riot_shield_legends
 	uioverlay_c "gfx/icons/scout"
 	uioverlay_r "gfx/icons/infantry"
 	uioverlay_l "gfx/icons/spec_infantry"
@@ -58,7 +57,7 @@ ClassInfo
 	userRGB_1 1
 	customred_1 1
 	customgreen_1	1
-	customblue_1 1 //def w
+	customblue_1 1
 	model_2	"scouttrooper"
 	skin_2	"swamp"
 	uishader_2	"models/players/scouttrooper/mb2_icon_swamp"
@@ -71,7 +70,6 @@ ClassInfo
 	model_5	"scouttrooper"
 	skin_5	"commando"
 	uishader_5	"models/players/scouttrooper/mb2_icon_commando"
-
 	special1	EAS_HI_SPRINT
 	special2	EAS_MELEE
 	special3	EAS_HI_DEX
@@ -136,7 +134,6 @@ ClassInfo
 	c_att_names_10	"Dexterity ^3[CS3]"
 	c_att_ranks_10	0,0,1
 
-
 	c_att_skill_15	MB_ATT_PISTOL
 	c_att_names_15	"EC-17 Hold-Out Pistol"
 	c_att_ranks_15	0,0,2
@@ -168,11 +165,11 @@ ClassInfo
 
 	c_att_skill_22	MB_ATT_ARMOUR_REGEN_AMOUNT
 	c_att_names_22	"Armor Regen (2/s to 50)"
-	c_att_ranks_22	4
+	c_att_ranks_22	3
 
 	c_att_skill_23	MB_ATT_ROF_MULTIPLIER
-	c_att_names_23	"RoF (100%)"
-	c_att_ranks_23 1
+	c_att_names_23	"RoF (100/110%)"
+	c_att_ranks_23 1,1
 
 	c_att_skill_24	MB_ATT_STM_MULTIPLIER
 	c_att_names_24	"Skill CD (200/100%)"
@@ -202,7 +199,7 @@ ClassInfo
 	c_att_names_32	"DLT-20A Sniper Config (EE-4)"
 	c_att_ranks_32	2,2
 	c_att_descs_32 "50% more DMG, 50% more FP DMG, 100% more velocity,
-50% slower RoF, 7000% slower reload"
+50% slower RoF, 10000% slower reload"
 
 	c_att_skill_33	MB_ATT_SONIC_DETONATOR
 	c_att_names_33	"Sonic Detonators"
@@ -271,7 +268,7 @@ ratemod 1.5
 fpmult 1.5
 damagemod 1.5
 Velocitymod 2
-ReloadTimeModifier 71
+ReloadTimeModifier 101
 }
 WeaponInfo3
 {
@@ -281,7 +278,7 @@ NewWorldModel	"models/weapons2/t-21/t-21_w.glm"
 NewViewModel	"models/weapons2/t-21/t-21.md3"
 Icon	"gfx/hud/w_icon_t-21"
 WeaponName	"T-21 Heavy Blaster"
-customAmmo 800
+customAmmo 850
 damagemod 1.1
 ratemod 1.1
 fpmult 1.1
@@ -294,7 +291,7 @@ NewWorldModel	"models/weapons2/blaster_r/blaster_w.glm"
 NewViewModel	"models/weapons2/blaster_r/blaster.md3"
 Icon	"gfx/hud/w_icon_E11"
 WeaponName	"E-11 Blaster Rifle"
-customAmmo	620
+customAmmo	660
 }
 description	"Imperial Scout Trooper [Hero]
 
