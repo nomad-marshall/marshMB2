@@ -28,9 +28,9 @@ ClassInfo
 	skin_1		"default"
 	uishader_1 	"models/players/adigallia/mb2_icon_default"
 	
-	model_3		"jedi_kotor"
+	model_3		"jedipack_hb"
 	skin_3		"zhar"
-	uishader_3	"models/players/jedi_kotor/mb2_icon_zhar"
+	uishader_3	"models/players/jedipack_hb/mb2_icon_zhar"
 	
 	model_4		"rey"
 	skin_4		"default"
