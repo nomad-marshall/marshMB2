@@ -4,9 +4,9 @@ ClassInfo
 	name			"htk_rep_revan"
 	MBClass			MB_CLASS_JEDI
 	classnumberlimit	1
-	model			"jedi_kotor"
+	model			"jedi_revan"
 	skin			"default"
-	uishader		"models/players/jedi_kotor/mb2_icon_default"	
+	uishader		"models/players/jedi_revan/mb2_icon_default"	
 	maxhealth		140
 	forcepool		120
 	forceregen		1
