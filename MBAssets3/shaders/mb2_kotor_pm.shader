@@ -289,28 +289,28 @@ models/players/hk47/hk51
 }
 
 //// Jedi Kotor ////
-models/players/jedi_kotor/head_twilek
+models/players/jedipack_hb/head_twilek
 {
 	{
-		map models/players/jedi_kotor/head_twilek
+		map models/players/jedipack_hb/head_twilek
 		rgbGen lightingDiffuse
 	}
 	{
-		map models/players/jedi_kotor/head_zhar-spec
+		map models/players/jedipack_hb/head_zhar-spec
 		blendFunc GL_SRC_ALPHA GL_ONE
 		alphaGen lightingSpecular
 		detail
 	}
 }
 
-models/players/jedi_kotor/head_zhar
+models/players/jedipack_hb/head_zhar
 {
 	{
-		map models/players/jedi_kotor/head_zhar
+		map models/players/jedipack_hb/head_zhar
 		rgbGen lightingDiffuse
 	}
 	{
-		map models/players/jedi_kotor/head_zhar-spec
+		map models/players/jedipack_hb/head_zhar-spec
 		blendFunc GL_SRC_ALPHA GL_ONE
 		alphaGen lightingSpecular
 		detail
