@@ -575,7 +575,7 @@
 		{
 			name				class1amount // tracker dart
 			rect				-615 -7 4 9
-			forecolor			0.88 0.81 0.02 1
+			forecolor			0.8 0.8 0.8 0.8
 			font				5
 			textscale			0.125
 			textalignx			70
@@ -588,7 +588,7 @@
 		{
 			name				class2amount // poison dart
 			rect				-592 -7 4 9
-			forecolor			0.06 0.83 0.32 1
+			forecolor			0.8 0.8 0.8 0.8
 			font				5
 			textscale			0.125
 			textalignx			70
@@ -607,26 +607,54 @@
 			align				4
 		}
 		
+				itemDef
+		{
+			name				nades1
+			background 	"gfx/menus/Alpha/Icon_Stats_Frag"
+			background2 "gfx/menus/Alpha/Icon_Stats_Conc"
+			background3 "gfx/menus/Alpha/Icon_Stats_Sonic"
+		}
+		itemDef{
+						name				nades2
+			background 	"gfx/menus/Alpha/Icon_Stats_Fire"
+			background3 "gfx/menus/Alpha/Icon_Stats_EMP"
+			background2 "gfx/menus/Alpha/Icon_Stats_PLX"
+		}
+		itemDef{
+			name blobs
+			background 	"gfx/menus/Alpha/Icon_Stats_ConcBlob"
+			background2 "gfx/menus/Alpha/Icon_Stats_IonBlob"
+		}
+		itemDef{
+			name darts
+			background 	"gfx/hud/Alpha/HUD_Icon_PoisonDart"
+			background2 "gfx/hud/Alpha/HUD_Icon_TrackerDart"
+		}
+		itemDef{
+			name mando
+			background 	"gfx/menus/Alpha/Icon_Stats_Rocket"
+			background2 "gfx/hud/alpha/HUD_Icon_WhistlingBird" // whistling birds
+			background3 "gfx/menus/Alpha/Icon_Stats_Wlaser" // wrist laser
+		}
+		
 		// Tracker Dart Icon
 		itemDef
 		{
-			name				icon_trackerdart
-			background			"gfx/hud/Alpha/HUD_Icon_TrackerDart"
-			forecolor			0.88 0.81 0.02 1
-			rect				-610 0 9 9
-			align				5
-			textalignx			80
+			name				class1icon
+			forecolor			1 1 1 1//0.88 0.81 0.02 1
+			rect -615 0 9 9 
+			align				4
+			textalignx			60
 		}
 		
 		// Poison Dart Icon
 		itemDef
 		{
-			name				icon_poisondart
-			background			"gfx/hud/Alpha/HUD_Icon_PoisonDart"
-			forecolor			0.06 0.83 0.32 1
-			rect				-588 0 9 9 
-			align				5
-			textalignx			80
+			name				class2icon
+			forecolor			1 1 1 1//0.88 0.81 0.02 1
+			rect -592 0 9 9 
+			align				4
+			textalignx			60
 		}
 
 		// When ammo is infinite (used in MP)
