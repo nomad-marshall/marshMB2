@@ -49,9 +49,8 @@ WeaponInfo1
 	CustomAmmo		3
 }
 
-description	"Dynasty
+description	"Dynasty [Hero.]
 
-Class: Hero.
 Class Summary: 
 A quick-throwing stun-grenadier and pistoleer. 
 

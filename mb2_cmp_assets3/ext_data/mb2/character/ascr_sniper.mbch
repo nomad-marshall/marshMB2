@@ -35,8 +35,7 @@ WeaponInfo0
 }
 
 
-description	"Sniper
-Class: ARC Trooper
+description	"Sniper [ARC Trooper]
 
 Weapons:
 - Pistol (2)

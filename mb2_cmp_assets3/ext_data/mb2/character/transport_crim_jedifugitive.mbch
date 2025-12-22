@@ -29,9 +29,8 @@ classinfo
 	special4	EAS_FP_PROTECT
 }
 
-description  "Jedi Fugitive (Healer)
+description  "Jedi Fugitive (Healer) [Jedi]
 
-Class: Jedi
 
 Weapons:
 Lightsaber

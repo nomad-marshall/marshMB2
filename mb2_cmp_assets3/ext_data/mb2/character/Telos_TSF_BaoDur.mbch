@@ -39,9 +39,8 @@ WeaponInfo0
 	FlashSound0		"sound/weapons/kotor/fire_med.wav"
 }
 
-description	"Bao-Dur - The Technician
+description	"Bao-Dur - The Technician [Tech Specialist / Jedi Guardian]
 
-Class: Tech Specialist / Jedi Guardian
 
 Weaponry:
 Lightsaber Staff
