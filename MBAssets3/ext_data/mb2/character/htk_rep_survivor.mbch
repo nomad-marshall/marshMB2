@@ -46,8 +46,8 @@ WeaponInfo1
 }
 
 
-description	"Republic Survivor
-Class: Soldier
+description	"Republic Survivor [Soldier]
+
 
 ^3Weaponry:
 - Blaster Rifle	(2)

@@ -21,9 +21,9 @@ resource resource_energy
 special1 EAS_HI_DODGE
 }
 
-description	"Black Ranger
+description	"Black Ranger [Hero]
 
-Class: Hero
+
 
 Weaponry:
 Melee

@@ -55,9 +55,9 @@ WeaponInfo1
 	WeaponName	    "Repulsor Shockwave Melee"
 }
 
-description	"Purge Trooper (Droid)
+description	"Purge Trooper (Droid) [Wookiee]
 
-Class: Wookiee
+
 
 Weaponry:
 - Heavy Melee

@@ -47,9 +47,9 @@ Icon			"gfx/hud/w_icon_mwrench"
 WeaponName		"Hydrospanner"
 }
 
-description	"Imperial Worker
+description	"Imperial Worker [Clone Trooper]
 
-Class: Clone Trooper
+
 
 Weaponry:
 - Pistol (2)

@@ -16,7 +16,7 @@ ClassInfo
 
 }
 
-description	"Imperial ESPO Walker Pilot
+description	"Imperial ESPO Walker Pilot [Clone Trooper]
 
 *Note: This class spawns next to a walker-type vehicle. To enter and exit the vehicle, stand close to it and input the [USE] key.
 
@@ -39,7 +39,7 @@ Attributes:
 - Direct hits from rockets will deal massive damage
 
 ***Walker Pilot***
-Class: Clone Trooper
+
 Weaponry:
 - Pistol (2)
 - E-11 (2)
