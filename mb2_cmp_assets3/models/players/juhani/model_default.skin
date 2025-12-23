@@ -1,0 +1,14 @@
+hips,models/players/juhani/body.tga
+r_leg,models/players/juhani/body.tga
+l_leg,models/players/juhani/body.tga
+
+torso,models/players/juhani/body.tga
+l_arm,models/players/juhani/body.tga
+r_arm,models/players/juhani/body.tga
+l_hand,models/players/juhani/hands.tga
+r_hand,models/players/juhani/hands.tga
+
+head,models/players/juhani/head.tga
+eyelid_juhani,models/players/juhani/head.tga
+hair_juhani,models/players/juhani/hair.tga
+mouth_eyes_juhani,models/players/juhani/mouth_eyes.tga

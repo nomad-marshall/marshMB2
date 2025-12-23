@@ -273,35 +273,6 @@ models/players/hk47/hk51
 	}
 }
 
-//// Jedi Kotor ////
-models/players/jedipack_hb/head_twilek
-{
-	{
-		map models/players/jedipack_hb/head_twilek
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/jedipack_hb/head_zhar-spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
-
-models/players/jedipack_hb/head_zhar
-{
-	{
-		map models/players/jedipack_hb/head_zhar
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/jedipack_hb/head_zhar-spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
-
 //// Kreia ////
 models/players/kreia/belt
 {
