@@ -1,7 +1,7 @@
-head_hood,models/players/jedi_revan/body.tga
-head_mask,models/players/jedi_revan/mask.tga
-head,*off
-head_hair,*off
+head_hood,*off
+head_mask,*off
+head,models/players/jedi_revan/head.tga
+head_hair,models/players/jedi_revan/head.tga
 head_neck,models/players/jedi_revan/neck.tga
 
 hips_belt,models/players/jedi_revan/body.tga
