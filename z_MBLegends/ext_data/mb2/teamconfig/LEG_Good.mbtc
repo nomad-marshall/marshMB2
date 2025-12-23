@@ -35,7 +35,7 @@ SubclassesForClass1
 SubclassesForClass2
 {
 	Subclass1	"h3_Arc"
-	Subclass2	"h3_CloneSpec"
+	Subclass2	"h3_CloneSpe"
 	Subclass3	"h3_CloneCom"
 	Subclass4	"h3_CloneLead"
 	Subclass5 	"h3_Rex"
