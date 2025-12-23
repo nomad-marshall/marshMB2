@@ -21,9 +21,8 @@ ClassInfo
 	classflags		CFL_NOPICKUPS|CFL_BPFREEJUMPS
 }
 
-description	"Meetra Surik - The Jedi Exile
+description	"Meetra Surik - The Jedi Exile [Jedi Sentinel]
 
-Class: Jedi Sentinel
 
 Weaponry:
 Meetra Surik's Lightsaber

@@ -33,9 +33,8 @@ WeaponInfo0
 	ReloadTimeModifier 	1.4
 }
 
-description "Imperial Incinerator Trooper
+description "Imperial Incinerator Trooper [Clone Trooper]
 
-Class: Clone Trooper
 
 Weapons:
 E-11 Blaster Rifle (1)

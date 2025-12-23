@@ -34,8 +34,7 @@ WeaponInfo0
 	ReloadTimeModifier 	.8
 }
 
-description	"Sniper
-Class: ARC Trooper
+description	"Sniper [ARC Trooper]
 
 Weapons:
 - Pistol (2)

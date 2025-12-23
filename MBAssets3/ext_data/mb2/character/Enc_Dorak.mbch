@@ -14,9 +14,9 @@ ClassInfo
 	forceregen			1.2
 	bpmultiplier		0.9
 	apmultiplier		0.9
-	model				"jedi_kotor" 	
+	model				"jedipack_hb" 	
 	skin				"dorak"	
-	uishader			"models/players/jedi_kotor/mb2_icon_dorak"
+	uishader			"models/players/jedipack_hb/mb2_icon_dorak"
 	MBClass				MB_CLASS_JEDI
 	classNumberLimit	1
 	special3		EAS_FP_REPULSE

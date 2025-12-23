@@ -46,8 +46,7 @@ WeaponInfo1
     firingAnim          BOTH_DC15_ATTACK
 }
 
-description	"Heavy
-Class: Wookiee
+description	"Heavy [Wookiee]
 
 Weapons:
 - Minigun (3)

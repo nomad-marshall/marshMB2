@@ -29,9 +29,8 @@ WeaponInfo0
 	WeaponName			"SE-14c Blaster Pistol"
 }
 
-description "Imperial Mortar Trooper
+description "Imperial Mortar Trooper [Elite Trooper]
 
-Class: Elite Trooper
 
 Weapons:
 Blaster Pistol (2)

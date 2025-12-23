@@ -30,9 +30,9 @@ WeaponInfo0
 	altFireEnabled		0
 }
 
-description	"Wookiee Soldier
+description	"Wookiee Soldier [Wookiee]
 
-Class: Wookiee
+
 
 Weaponry:
 - CR-1 Shotgun Cannon (Shotgun level 2)

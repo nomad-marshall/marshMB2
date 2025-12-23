@@ -41,8 +41,8 @@ WeaponInfo0
 	idleAnim		BOTH_MINIGUN_READY
 }
 
-description	"Canderous Ordo
-Class: Soldier
+description	"Canderous Ordo [Soldier]
+
 
 ^3Weaponry:
 - Mandalore's Repeating Blaster (3)

@@ -36,8 +36,7 @@ WeaponInfo0
 	WeaponName		"Baseball Bat"
 }
 
-description	"Scout
-Class: Jedi
+description	"Scout [Jedi]
 
 Weapons:
 - Baseball Bat *

@@ -61,8 +61,7 @@ WeaponInfo1
   firingAnim  BOTH_MAND_PISTOL_ATTACK
 }
 
-description	"Spy
-Class: Clone Trooper
+description	"Spy [Clone Trooper]
 
 Weapons:
 - Hitscan Revolver (3)

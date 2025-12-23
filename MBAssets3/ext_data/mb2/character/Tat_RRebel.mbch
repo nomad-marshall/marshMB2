@@ -27,9 +27,9 @@ WeaponInfo0
 	WeaponName			"DH-17"    					//Required: Weapon change display name
 }
 
-description	"Rebel Soldier
+description	"Rebel Soldier [Clone Trooper]
 
-Class: Clone Trooper
+
 
 Weaponry:
 - Pistol (2)

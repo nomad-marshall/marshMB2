@@ -25,9 +25,8 @@ ClassInfo
 	skin				"robed"
 	uishader			"models/players/jerec/mb2_icon_robed"
 }
-description	"Deku
+description	"Deku [Sith.]
 
-Class: Sith.
 Class Summary: 
 A support Sith that can hurl explosive force projectiles from a distance. 
 

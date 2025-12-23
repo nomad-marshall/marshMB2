@@ -24,8 +24,7 @@ WeaponInfo0
 	WeaponName			"Clone Pistol"
 }
 
-description	"Soldier
-Class: Clone Trooper
+description	"Soldier [Clone Trooper]
 
 Weapons:
 - Clone Pistol (3)

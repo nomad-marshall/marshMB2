@@ -73,9 +73,9 @@ WeaponInfo2
 	WeaponName		"Vibro-Knuckler"    					//Required: Weapon change display name
 }
 
-description	"Rebel Sniper Jaelee Kalse
+description	"Rebel Sniper Jaelee Kalse [Arc Trooper]
 
-Class: Arc Trooper
+
 
 Weaponry:
 - DE-10 (Based on Pistol level 3)

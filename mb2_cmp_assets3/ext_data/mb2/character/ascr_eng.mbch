@@ -52,8 +52,7 @@ WeaponInfo1
 	WeaponName		"Wrench"
 }
 
-description	"Engineer
-Class: Clone Trooper
+description	"Engineer [Clone Trooper]
 
 Weapon:
 - Wrench *

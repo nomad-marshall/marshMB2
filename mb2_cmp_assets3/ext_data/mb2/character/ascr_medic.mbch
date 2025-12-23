@@ -45,8 +45,7 @@ WeaponInfo1
 	WeaponName		"DC-15S Carbine"    					//Required: Weapon change display name
 }
 
-description	"Medic
-Class: Jedi
+description	"Medic [Jedi]
 
 Weapons:
 - Clone Pistol (2)

@@ -54,9 +54,9 @@ WeaponInfo1
 	CustomAmmo		1
 }
 
-description	"Jawa
+description	"Jawa [Bounty Hunter]
 
-Class: Bounty Hunter
+
 
 Weapons:
 - Stun Baton *

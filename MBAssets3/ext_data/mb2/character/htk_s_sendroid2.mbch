@@ -34,8 +34,8 @@ WeaponInfo0
 	MissileEffect		"Blaster/Shot01R"	
 }
 
-description	"Sentinel Droid (Type 2)
-Class: Super Battle Droid
+description	"Sentinel Droid (Type 2) [Super Battle Droid]
+
 
 ^3Weaponry:
 - Repeating Blaster Rifle (1)

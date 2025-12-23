@@ -29,9 +29,8 @@ classinfo
 	saberthrowdamage	60
 }
 
-description "Second Sister
+description "Second Sister [Jedi]
 
-Class: Jedi
 
 Weapons:
 Double Bladed Lightsaber
