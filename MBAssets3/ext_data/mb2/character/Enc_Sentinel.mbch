@@ -14,9 +14,9 @@ ClassInfo
 	maxhealth			100
 	forcepool			115
 	forceregen			1.15
-	model				"jedi_kotor_fem"
-	skin				"default"
-	uishader			"models/players/jedi_kotor_fem/mb2_icon_default"
+	model				"jedi_female"
+	skin				"tash"
+	uishader			"models/players/iHotfoTash/MB2_Icon_Tash"
 	MBClass				MB_CLASS_JEDI
 	classNumberLimit		2
 	holdables			HI_MEDPAC
