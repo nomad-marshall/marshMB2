@@ -575,7 +575,7 @@ Scerendo:
 * Death Trooper - https://jkhub.org/files/file/3417-deathtrooper/
 * Director Krennic
 * Grand Moff Tarkin
-* Nien Nunb, Sullustan (head)
+* Nien Nunb
 * Quinlan Vos - https://jkhub.org/files/file/3247-movie-battles-ii-aayla-secura-quinlan-vos/
 * Shoretrooper, Tanktrooper - https://jkhub.org/files/file/3516-shoretrooper-tanktrooper-e-22-rifle/
 * Tiplee & Tiplar Twins - https://jkhub.org/files/file/3252-tiplee-tiplar-twins/
@@ -667,6 +667,9 @@ Al MacDonald, Circa, DT85, Swegmaster, Unguided:
 
 Toshi, DT85, Circa, Jolly, Swegmaster:
 * Luke Skywalker - Pilot - http://jkhub.org/files/file/2175-improved-luke-skywalker-pilot-outfit/
+
+Toshi, DT85:
+* Luke Skywalker - ESB - https://jkhub.org/files/file/1682-dt-luke-esb/
 
 HapSlash, Kualan, LucasArts, lervish
 * Mace Windu - https://jkhub.org/files/file/3154-mace-windu/
@@ -800,7 +803,7 @@ EXE Noob, DT85, Swegmaster:
 DT85, Mat Gaunt:
 * Stormtrooper (OT)
 
-Aurel Wedding, Scerendo, OCD2, GP, Unguided:
+Aurel Wedding, GP, Unguided:
 * Grand Admiral Thrawn - https://www.artstation.com/artwork/nYbWYe
 
 ====================================================
@@ -990,7 +993,6 @@ Mat Gaunt:
 * Juggernaut Driver
 * Klatoonian Pirate
 * Lando Calrissian (Skiff Guard)
-* Luke Skywalker (Bespin) - https://jkhub.org/files/file/4228-mat-gaunts-luke-skywalker-esb/
 * Maul's Shadow Collective
 * Migs Mayfeld
 * Moff Gideon
@@ -1141,7 +1143,6 @@ EXE Noob, Unguided:
 * Fit Fisto - https://jkhub.org/files/file/4183-the-six-swole-pack/
 * ISB Trooper
 * Marka Ragnos
-* Mission Vao
 * Narkina Guard
 * Narkina Garrison Trooper
 * Narkina Prisoner
@@ -1153,7 +1154,6 @@ GP, Unguided:
 * Darth Maladi - https://jkhub.org/files/file/3949-the-one-sith-pack-darth-krayt-darth-wyyrlok-darth-maladi/
 * Freedon Nadd - https://jkhub.org/files/file/3944-tales-of-the-sith-pack/
 * Gallius Rax
-* KotOR Jedi (Jolee Bindo, Juhani, Sith Bastila etc.)
 * Republic Officer
 * Sith Officer
 * Jorak Uln
@@ -1184,7 +1184,6 @@ OCD2, EXE Noob:
 * Tenth Brother
 
 OCD2, EXE Noob, Unguided:
-* Hera Syndulla
 * Imperial Trenchcoat
 * Luke Skywalker w/ "Yoda in basket"
 * Luke Skywalker w/ "Grogu in basket"
@@ -1195,6 +1194,7 @@ OCD2, Mat Gaunt, EXE Noob:
 * Clone Force 99 aka Bad Batch 
 
 OCD2, GP, Unguided:
+* Baylan Skoll
 * Czerka Corporation
 * Count Dooku (Dark Ritual)
 * Count Dooku (Pyjama)
@@ -1203,10 +1203,15 @@ OCD2, GP, Unguided:
 * Luthen Rael
 * Rebel Magma Trooper
 * Resistance Trooper
+* Shin Hati
 * Tobias Beckett
 
 OCD2, Kitsu-Nesh'Kaa, Unguided:
 * Rebel Partisans
+
+OCD2, Kitsu-Nesh'Kaa, EXE Noob, Unguided:
+* Mission Vao
+* Hera Syndulla
 
 OCD2, EXE Noob, GP, Unguided:
 * Guavian Death Gang
