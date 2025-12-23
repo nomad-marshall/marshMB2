@@ -904,7 +904,7 @@ r2_saw_leg
 	soundLoop	"sound/weapons/chainsaw/saberhum1.mp3"
 	soundOff	none
 
-	spinsound	"sound/weapons/chainsaw/saberhup9.mp3"
+	spinsound	null
 	swingSound1	"sound/weapons/chainsaw/saberhup8.mp3"
 	swingSound2	"sound/weapons/chainsaw/saberhup7.mp3"
 	swingSound3	"sound/weapons/chainsaw/saberhup6.mp3"
@@ -924,7 +924,7 @@ r2_saw_leg
 
 	numBlades	1
 	saberLength	20
-	saberRadius	3
+	saberRadius	5
 	animSpeedScale 1
 	blasterblocking		0
 	throwable	0
