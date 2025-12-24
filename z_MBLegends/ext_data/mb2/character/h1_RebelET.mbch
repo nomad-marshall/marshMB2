@@ -45,13 +45,13 @@ ClassInfo
 	skin_4		"guerilla"					
 	uishader_4	"models/players/gwethenea/mb2_icon_guerilla"
 	
-	model_5		"rebel_pathfinder" 				 
-	skin_5		"default"					 
-	uishader_5	"models/players/rebel_pathfinder/mb2_icon_default"
+	model_5		"gwethenea" 				 
+	skin_5		"guerilla_twilek"					 
+	uishader_5	"models/players/gwethenea/mb2_icon_guerilla_twilek"
 	
 	model_6		"rebel_pathfinder" 				 
-	skin_6		"urban"					 
-	uishader_6	"models/players/rebel_pathfinder/mb2_icon_urban"
+	skin_6		"desert"					 
+	uishader_6	"models/players/rebel_pathfinder/mb2_icon_desert"
 	
 	model_7		"rebel_guerilla"
 	skin_7  	"sullustan"
