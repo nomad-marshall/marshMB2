@@ -959,7 +959,7 @@ saber_temple_guard_legends
 	saberModel  "models/weapons2/saber_plasma/saber_temple_guard.glm"
 	saberColor	yellow
 	numBlades	2
-	saberLength	24
+	saberLength	25
 	throwable	0
  disarmable 1
 	singleBladeThrowable		0
