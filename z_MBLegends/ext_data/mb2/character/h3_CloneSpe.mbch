@@ -56,7 +56,7 @@ c_att_names_1	"DC-15A Clone Rifle"
 c_att_ranks_1	4,6,18
 c_att_skill_2	MB_ATT_STRONGBLOBS
 c_att_names_2	"> DC-15A Ion Blobs"
-c_att_ranks_2	1,2,2
+c_att_ranks_2	1,1,1
 c_att_skill_3	MB_ATT_THROWER
 c_att_names_3	"BT X-42 Flamethrower"
 c_att_ranks_3	6
@@ -88,7 +88,7 @@ c_att_names_17 "DC-15A Clone Rifle"
 c_att_ranks_17 3,6
 c_att_skill_18	MB_ATT_CLONEBLOBS
 c_att_names_18	"> DC-15A Conc Blobs"
-c_att_ranks_18	1,2,2
+c_att_ranks_18	1,1,1
 c_att_skill_19 MB_ATT_T21
 c_att_names_19 "T-21 Heavy Blaster"
 c_att_ranks_19 2,4,1
@@ -118,10 +118,10 @@ c_att_names_32 "DC-15A Clone Rifle"
 c_att_ranks_32 3,7
 c_att_skill_33	MB_ATT_CLONEBLOBS
 c_att_names_33	"> DC-15A Conc Blobs"
-c_att_ranks_33 1,2,2
+c_att_ranks_33 1,1,1
 c_att_skill_34	MB_ATT_STRONGBLOBS
 c_att_names_34	"> DC-15A Ion Blobs"
-c_att_ranks_34	1,2,2
+c_att_ranks_34	1,1,1
 c_att_skill_35 MB_ATT_SHOTGUN
 c_att_names_35 "DP-23 Shotgun"
 c_att_ranks_35 10,8,4
