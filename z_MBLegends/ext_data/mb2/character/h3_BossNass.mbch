@@ -64,7 +64,7 @@ WeaponInfo1
 	NewViewModel		"models/weapons2/e60r_launcher/e60r_launcher.md3"
 	Icon				"gfx/hud/w_icon_e60r_launcher"
 	WeaponName			"Salvaged E-60R Missile Launcher"
-	customAmmo       	8
+	customAmmo       	6
 	clipsize 2
 	reloadtimemodifier 0.7
 }
@@ -137,7 +137,7 @@ A tanky rocketeer with a large protective Energy Shield and inherent aquatic res
 > Tower Shield
 -- 43% less reach
 -- 1100% more radius
-- Salvaged E-60R Missile Launcher (8) (PLX)
+- Salvaged E-60R Missile Launcher (6) (PLX)
 -- Staggers/pushes on hit
 -- Reloads 2 rockets per clip
 -- 30% faster reload
