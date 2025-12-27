@@ -192,7 +192,7 @@ ClassInfo
 
 	c_att_skill_12	MB_ATT_ASSEMBLE
 	c_att_names_12	"Assemble"
-	c_att_ranks_12 2,2,3
+	c_att_ranks_12 1,2,3
 }
 
 WeaponInfo0
