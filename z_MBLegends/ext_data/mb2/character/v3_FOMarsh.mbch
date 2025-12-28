@@ -89,7 +89,6 @@ WeaponInfo1
 	AltFlashSound0	"sound/weapons/f-11d/fire.mp3"
 	customAmmo 800
 	clipSize	120
- altFireEnabled	0
 	ReloadTimeModifier 1.4
 	rateMod 0.6
 	damageMod 0.65
@@ -127,7 +126,6 @@ A hybrid melee/gunner commander with Beskar armor resistance, a spear, and rapid
 -- 40% faster RoF
 -- 35% less DMG/FP DMG
 -- 40% slower mag reload
--- Prim. only
 - Frag Grenades (2)
 - Fire Grenade (1)
 
