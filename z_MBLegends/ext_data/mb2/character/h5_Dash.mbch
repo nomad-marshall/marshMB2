@@ -48,7 +48,7 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_blaster_pistol_2"
 	WeaponName			"Dash's DL-44 Blaster Pistol"    					
 	clipSize 			18
-	customAmmo 702
+	customAmmo 720
 	MissileEffect		"blaster/dash_bolt"
 	AltMissileEffect		"blaster/dash_bolt"
 	MuzzleEffect null
