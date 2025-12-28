@@ -1,4 +1,3 @@
-
 ClassInfo
 {
 name "h7_RebSapper"
@@ -7,14 +6,16 @@ classNumberLimit 2
 extralives 1
 
 weapons WP_MELEE|WP_BLASTER_PISTOL|WP_CR2|WP_M5|WP_DET_PACK|WP_PULSE_NADE
-attributes MB_ATT_PISTOL,2|MB_ATT_CR2,2|MB_ATT_DET_PACK,3|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,1
+attributes MB_ATT_PISTOL,2|MB_ATT_CR2,2|MB_ATT_DET_PACK,3|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,3|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,1
 
-forcepowers FP_SEE,1|FP_LIGHTNING,1
+forcepowers FP_LIGHTNING,1|FP_PULL,1
 holdables HI_SEEKER|HI_STIMPACK
 
 resource RESOURCE_FUEL
 forcepool 65
 forceregen 1
+skilltimermod 3
+
 resourceRegenRate 1000
 resourceRegenAmount 5
 resourceRegenCap 65
@@ -26,15 +27,15 @@ armourRegenAmount 2
 armourRegenRate 1000
 armourRegenCap  20
 
-basespeed 218
+basespeed 215
 damageTaken 0.95
 
 hackRate 0.86
 knockbackTaken 1.1
 
 damageGiven 1.3 //IMPORTANT: This is to increase lightning and detpack damage by 30%. Set all other weapons' damageMod to the inverse, 1/damageGiven. (1/1.3 = 0.77)
-WP_MeleeFlags HELD_LOWDAMAGE
-rateOfFire_Melee	.8
+WP_MeleeFlags HELD_LOWDAMAGE|HELD_TRACKING
+rateOfFire_Melee    .8
 
 modelscale 1.02
 model "jedi_zf"
@@ -43,10 +44,10 @@ uishader "models/players/jedi_zf/mb2_icon_merc_et"
 uioverlay_l "gfx/icons/tactician"
 uioverlay_r "gfx/icons/infantry"
 
-special1 EAS_FP_SEE
-special2 EAS_FP_LIGHTNING
-special3 EAS_HI_SEEKER
-special4 EAS_HI_STIMPACK
+special1 EAS_HI_SEEKER
+special2 EAS_HI_KICK
+special3 EAS_HI_STIMPACK
+special4 EAS_FP_LIGHTNING
 
 flourishAnim BOTH_ENGAGETAUNT
 //flourishAnim BOTH_MINDTRICK1
@@ -62,8 +63,6 @@ Icon "gfx/hud/w_icon_blaster_pistol_2"
 WeaponName "DL-44 Blaster Pistol"
 ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
 damageMod 0.8
-ratemod 0.95
-FPChargeMult	1.1
 }
 
 WeaponInfo1
@@ -103,7 +102,7 @@ hasAnimOverrides 1
 animAttackRun BOTH_MAND_FLAME_READY
 animAttack BOTH_MAND_FLAME_READY
 animAttackWalk BOTH_MAND_FLAME_READY
-rateMod 0.75
+rateMod 0.60
 }
 
 WeaponInfo3
@@ -114,14 +113,15 @@ WeaponInfo3
     NewViewModel   "models/weapons2/cw-w5/dc-15_ext.md3"
     Icon  "gfx/hud/w_icon_cw-w5g"
     WeaponName  "Pulse Grenade Launcher"
-    customAmmo  2
+    customAmmo 0
     clipSize -1
     primFireEnabled  0
     hasAnimOverrides 1
+    animReadyNoAmmo TORSO_WEAPONREADY3
     animAttackRun     BOTH_ATTACK3
     animAttack     BOTH_ATTACK3
     animAttackWalk  BOTH_ATTACK3
-	ratemod 0.75
+    ratemod 0.35
 }
 
 ForceInfo0
@@ -135,11 +135,11 @@ LoopSound null
 
 ForceInfo1
 {
-ForceToReplace FP_SEE
-Icon "gfx/forcepowers/radar"
-ForcePowerName "Radar Scanner"
-StartSound "sound/ambience/kotor/console08.mp3"
-LoopSound "sound/ambience/cp_02_lp.wav"
+ForceToReplace FP_PULL
+Icon "gfx/forcepowers/push"
+ForcePowerName "Magna-Glove"
+HandShader "gfx/effects/dekashield2"
+StartSound "sound/effects/woosh7.mp3"
 }
 
 description "Rebel Sapper [Elite Trooper]
@@ -147,37 +147,39 @@ description "Rebel Sapper [Elite Trooper]
 2-life electronic saboteurs with damage-boosted gadgets.
 
 ^2Weaponry:
-- Melee
+- Light Melee
+-- Tracks on hit
 -- 20% faster RoF
--- 50% less DMG
 - DL-44 Blaster Pistol (2)
--- 5% faster RoF
 -- 20% less DMG
--- 10% more charged FP DMG
 - E-11 Blaster Carbine (CR-2 2)
 -- 10% more velocity
 -- 15% less DMG
 - Pulse Grenade Launcher (M5)
--- 25% faster RoF
+-- 65% faster RoF
 -- Sec. only
-- Pulse Grenades (2)
+- Pulse Grenades (3)
 - Det Packs (3)
--- 25% faster RoF
+-- 40% faster RoF
 
 ^5Powers:
-- Radar Scanner (Sense 1) ^3[CS1]
-- Wrist Shocker (Lightning 1) ^3[CS2]
+- Magna-Glove (Pull 1)
+- Wrist Shocker (Lightning 1) ^3[CS4]
 
 ^6Inventory:
-- Seeker Drone ^3[CS3]
-- Stimpak ^3[CS4]
+- Seeker Drone ^3[CS1]
+- Stimpak ^3[CS3]
 
 ^8Attributes:
 - Reinforcement (1)
 - 15% faster Hacking
 - 10% more KB taken
-- Resource Regen: 5/s to 65
+- 200% slower skill CD
+- Resource Regen: 5/s
 - Dexterity (1)
 - Armor Regen: 2/s to 20
 - Tracking Beacon
-- Assemble (2)"
+- Assemble (2)
+
+^3Abilities:
+- Gun Kick ^3[CS2]"
