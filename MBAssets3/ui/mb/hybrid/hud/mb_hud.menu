@@ -26,6 +26,45 @@ assetGlobalDef
 		descColor				.96 .933 .40 1			// Focus color for text and items
 	}
 
+			menuDef
+	{
+		name					"uipopupmenu"
+		fullScreen				0						// MENU_FALSE
+		rect					560 200 0 0				// Size and position of the menu
+		visible					1						// Visible on open
+		focusColor				0.1 0.7 1 0.7			// Focus color for text and items
+
+		itemDef
+		{
+			name "frame"
+			rect 16 -20 140 150
+			forecolor 0 0 0 0.9
+			align 1
+			textalignx -20
+		}
+		itemDef
+		{
+			name "title"
+			rect 8 -20 0 0
+			forecolor 1 1 0 1
+			textscale			0.14
+			textalignx			2
+			align 5
+			textaligny			0
+			font 6
+		}
+
+		itemDef
+		{
+			name "text"
+			rect -26 0 0 0
+			forecolor 1 1 1 1
+			textscale			0.12
+			textalignx			40
+			align 5
+			font 6
+		}
+	}
 	menuDef
 	{
 		name					"weaponselecthud"
@@ -760,6 +799,39 @@ assetGlobalDef
 			textaligny			-40
 			font				8
 		}
+/*
+		itemDef
+		{
+			name "killMessage"
+			rect 0 192 20 20
+			forecolor 1 1 1 1
+			textscale			0.2
+			textalignx			280
+			align 7
+			font 6
+			text "You killed" // No more than 32 characters, use text "" if you want a killIcon instead.
+			textstyle 0 // -1 for slow fade away
+			style 30000 // ms before text disappears
+		}
+
+		itemDef
+		{
+			name "killIcon"
+			rect 0 393.75 12 14
+			forecolor 1 0 0 1
+			background "gfx/menus/Alpha/icon_Weap_Accuracy"
+			align 5
+		}
+
+		itemDef
+		{
+			name "victimClass"
+			rect 0 392.5 0 0
+			forecolor 1 1 1 1
+			background ""
+			align 5
+		}
+		*/
 
 		// Large center text, such as CONNECTION INTERRUPTED, and SERVER CHANGING MAPS
 		itemDef

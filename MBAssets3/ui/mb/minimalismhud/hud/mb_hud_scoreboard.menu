@@ -359,6 +359,7 @@
 			name				"HeaderLives"
 			rect				190 6 10 10 // Use X only as offset from the left side of the team frame.
 			background			"gfx/hud/alpha/HUD_Icon_Lives"
+			textalignx 35
 		}
 
 		itemDef
@@ -371,18 +372,32 @@
 		{
 			name				"HeaderRounds"
 			rect				210 0 0 0 // Use X only as offset from the left side of the team frame.
+			textalignx 35
 		}
 
 		itemDef
 		{
 			name				"HeaderKDA"
 			rect				248 0 0 0 // Use X only as offset from the left side of the team frame.
+			textalignx 42
+		}
+		itemDef
+		{
+			name				"HeaderDuelKD"
+			rect				235 0 0 0 // Use X only as offset from the left side of the team frame.
 		}
 
 		itemDef
 		{
 			name				"HeaderKills"
 			rect				235 0 0 0 // Use X only as offset from the left side of the team frame.
+			textalignx 37 // How much to offset if duel mode
+		}
+
+		itemDef
+		{
+			name				"HeaderDuelKills"
+			rect				245 0 0 0 // Use X only as offset from the left side of the team frame.
 		}
 		
 		itemDef
@@ -394,18 +409,32 @@
 			text				"/"
 			textscale			0.09
 			textstyle			4
+			textalignx 35
 		}
 
 		itemDef
 		{
 			name				"HeaderDeaths"
 			rect				255 0 0 0 // Use X only as offset from the left side of the team frame.
+			textalignx 33
+		}
+
+		itemDef
+		{
+			name				"HeaderDuelDeaths"
+			rect				265 0 0 0 // Use X only as offset from the left side of the team frame.
 		}
 
 		itemDef
 		{
 			name				"HeaderSeparator2"
 			rect				265 0 0 0 // Use X only as offset from the left side of the team frame.
+		}
+
+		itemDef
+		{
+			name				"HeaderSeparator3"
+			rect				254 0 0 0 // Use X only as offset from the left side of the team frame.
 		}
 
 		itemDef
@@ -520,6 +549,7 @@
 			textalignx			0
 			textaligny			0
 			align				3
+			textalignx 1000
 		}
 
 		itemDef
@@ -529,6 +559,7 @@
 			textalignx			0
 			textaligny			0
 			align				4
+			textalignx 29
 		}
 
 		itemDef
@@ -538,12 +569,13 @@
 			textalignx			0
 			textaligny			0
 			align				4
+			textalignx 23
 		}
 
 		itemDef
 		{
 			name				"TotalAssistsText"
-			rect				275 381 0 0
+			rect				5 381 0 0
 			textalignx			0
 			textaligny			0
 			align				4
