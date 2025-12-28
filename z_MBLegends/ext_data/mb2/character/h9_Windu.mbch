@@ -50,7 +50,6 @@ ClassInfo
 	uishader_2	"models/players/macewindu_cw/mb2_icon_default"
 	
 	gloatAnim BOTH_HEADSHAKE
-	flourishAnim BOTH_SABERTHROW1START
 	
 	//respawncustomtime  50000	
 }

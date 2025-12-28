@@ -96,7 +96,7 @@ WalkBackward	BOTH_SBD_WALKBACK1
 	c_att_names_11	"Magnetic Plating"
 	c_att_ranks_11	6
 
-	c_att_skill_12	MB_ATT_CORTOSIS
+ c_att_skill_12	MB_ATT_CORTOSIS
 	c_att_names_12	"Cortosis"
 	c_att_ranks_12	4
 }
@@ -117,7 +117,8 @@ ForceInfo0
 	ForceToReplace	FP_PULL
 	Icon			"gfx/forcepowers/push"
 	ForcePowerName	"Magnetic Pull"
-	HandShader "gfx/effects/dekashield2"
+	StartSound "sound/effects/woosh7.mp3"
+ HandShader "gfx/effects/dekashield2"
 }
 
 description	"New Republic Security Droid [Wookiee]
