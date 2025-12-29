@@ -527,6 +527,37 @@
 			align				5
 			textalignx			-5
 		}
+
+
+		itemDef{
+			name exability1
+			background "gfx/hud/Alpha/conc_blast"
+			background2 "gfx/hud/Alpha/ion_blast"
+			background3 "gfx/hud/Alpha/HUD_StatusCircle"
+			forecolor 0 0 0 1
+		}
+
+		itemDef{
+			name exability2
+			background "gfx/hud/Alpha/wlaser"
+			background2 "gfx/hud/Alpha/fthrower"
+		}
+
+		itemDef
+		{
+			name				extraability
+			rect				-4 1 22 22
+			align				4
+			textalignx			-55
+		}
+
+				itemDef
+		{
+			name				extraweaponability
+			rect				-4 25 22 22
+			align				4
+			textalignx			-55
+		}
 		
 		// Right HUD tics
 		itemDef
@@ -690,9 +721,9 @@
 		{
 			name				class1icon
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
+			background		    "gfx/hud/empty"
 			rect				0 -135 9 9
 			align				5
-			background		"gfx/hud/nothing"
 			textalignx			-13
 		}
 		
@@ -701,8 +732,8 @@
 		{
 			name				class2icon
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
+			background		    "gfx/hud/empty"
 			rect				-1 -135 9 9
-			background		"gfx/hud/nothing"
 			align				5
 			textalignx			-27
 		}

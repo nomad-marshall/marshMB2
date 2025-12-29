@@ -305,7 +305,7 @@
 		{
 			name				emplacedHealthAmount
 			forecolor			.835 .015 .015 0.8
-			rect				0 44 4 9
+			rect				-3 44 4 9
 			font				6
 			textscale			0.09
 			textalignx			70
@@ -526,6 +526,36 @@
 			align				5
 			textalignx			-5
 		}
+
+						itemDef{
+			name exability1
+			background "gfx/hud/Alpha/conc_blast"
+			background2 "gfx/hud/Alpha/ion_blast"
+			background3 "gfx/hud/Alpha/HUD_StatusCircle"
+			forecolor 0 0 0 1
+		}
+
+		itemDef{
+			name exability2
+			background "gfx/hud/Alpha/wlaser"
+			background2 "gfx/hud/Alpha/fthrower"
+		}
+
+		itemDef
+		{
+			name				extraability
+			rect				6 -18 20 20
+			align				4
+			textalignx			-84
+		}
+
+				itemDef
+		{
+			name				extraweaponability
+			rect				6 -18 20 20
+			align				4
+			textalignx			-60
+		}
 		
 		// Right HUD tics
 		itemDef
@@ -689,7 +719,7 @@
 			name				class1icon
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect				-2 12.5 9 9
-			background		"gfx/hud/nothing"
+			background		    "gfx/hud/empty"
 			align				5
 			textalignx			-175
 		}
@@ -700,7 +730,7 @@
 			name				class2icon
 			forecolor			1 1 1 1//0.06 0.83 0.32 1
 			rect				-2 28.5 9 9
-			background		"gfx/hud/nothing"
+			background		    "gfx/hud/empty"
 			align				5
 			textalignx			-175
 		}
