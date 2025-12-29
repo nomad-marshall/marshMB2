@@ -6,7 +6,7 @@ classNumberLimit 2
 extralives 1
 
 weapons WP_MELEE|WP_BLASTER_PISTOL|WP_CR2|WP_M5|WP_DET_PACK|WP_PULSE_NADE
-attributes MB_ATT_PISTOL,2|MB_ATT_CR2,2|MB_ATT_DET_PACK,3|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,3|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,1
+attributes MB_ATT_PISTOL,2|MB_ATT_CR2,2|MB_ATT_DET_PACK,3|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEXTERITY,1
 
 forcepowers FP_LIGHTNING,1|FP_PULL,1
 holdables HI_SEEKER|HI_STIMPACK
@@ -81,7 +81,7 @@ MuzzleEffect "Blaster/MuzzleFlash01R"
 MissileEffect "Blaster/Shot02R"
 damageMod 0.85
 velocityMod 1.10
-customAmmo 620
+customAmmo 360
 clipSize 60
 }
 
@@ -113,7 +113,7 @@ WeaponInfo3
     NewViewModel   "models/weapons2/cw-w5/dc-15_ext.md3"
     Icon  "gfx/hud/w_icon_cw-w5g"
     WeaponName  "Pulse Grenade Launcher"
-    customAmmo 0
+    customAmmo -1
     clipSize -1
     primFireEnabled  0
     hasAnimOverrides 1
@@ -158,7 +158,7 @@ description "Rebel Sapper [Elite Trooper]
 - Pulse Grenade Launcher (M5)
 -- 65% faster RoF
 -- Sec. only
-- Pulse Grenades (3)
+- Pulse Grenades (2)
 - Det Packs (3)
 -- 40% faster RoF
 
