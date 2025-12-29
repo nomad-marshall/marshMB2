@@ -702,6 +702,7 @@
 			rect -480 0 9 9 
 			align				4
 			textalignx			60
+			background		"gfx/hud/nothing"
 		}
 		
 		// Poison Dart Icon
@@ -712,6 +713,7 @@
 			rect -456 0 9 9 
 			align				4
 			textalignx			60
+			background		"gfx/hud/nothing"
 		}
 
 		// When ammo is infinite (used in MP)

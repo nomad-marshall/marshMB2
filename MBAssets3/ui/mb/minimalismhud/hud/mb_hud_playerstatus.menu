@@ -644,6 +644,7 @@
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect -615 0 9 9 
 			align				4
+			background		"gfx/hud/nothing"
 			textalignx			60
 		}
 		
@@ -654,6 +655,7 @@
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect -592 0 9 9 
 			align				4
+			background		"gfx/hud/nothing"
 			textalignx			60
 		}
 

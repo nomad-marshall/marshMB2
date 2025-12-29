@@ -720,6 +720,7 @@
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect				0 -135 9 9
 			align				5
+			background		"gfx/hud/nothing"
 			textalignx			-13
 		}
 		
@@ -730,6 +731,7 @@
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect				-1 -135 9 9
 			align				5
+			background		"gfx/hud/nothing"
 			textalignx			-27
 		}
 

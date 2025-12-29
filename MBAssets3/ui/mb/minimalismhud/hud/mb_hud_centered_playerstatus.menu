@@ -670,6 +670,7 @@
 			name				class1icon
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect -480 0 9 9 
+			background		"gfx/hud/nothing"
 			align				4
 			textalignx			60
 		}
@@ -680,6 +681,7 @@
 			name				class2icon
 			forecolor			1 1 1 1//0.88 0.81 0.02 1
 			rect -456 0 9 9 
+			background		"gfx/hud/nothing"
 			align				4
 			textalignx			60
 		}
