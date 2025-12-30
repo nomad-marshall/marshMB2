@@ -5,7 +5,7 @@
 // Numbers are 1-7 for all the saber styles
 // Level + Number = NPC, for example Sword1 is a basic blue grunt while a Master7 is dangerous staff dualist
 
-// Sword has 1 for all base stats, pbchance 20, mbchance 2, and sbchance 45, Saber Defense 3, and no force powers. Note they will sometimes use force jump even though they don't have it.
+// Sword has 1 for all base stats, pbchance 20, mbchance 2, and sbchance 45, Saber Defense 3, and no force powers.
 // Saber has 3 for all base stats, pbchance 30, mbchance 3, and sbchance 50, Saber Defense 3, 100 fp, and Jump 3.
 // Master has 5 for all base stats, pbchance 40, mbchance 4, and sbchance 70, Saber Defense 3, 200 fp, and Jump 3.
 
@@ -85,7 +85,7 @@ Sword2
 	dismemberProbWaist	0
 }
 
-Sword3 //Jumps a lot even though no FP_Lev
+Sword3
 {
 	playerModel	sithtrooper
 	customSkin	red

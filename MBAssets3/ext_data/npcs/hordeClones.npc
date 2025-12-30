@@ -1,12 +1,13 @@
 //Clones for Order 66. Need to figure out models, skins, and snds.
-//TO DO: Royal/Senate Guards? Ani/Vader? Palpy? 
-//Future Expansion: Jettroopers? Hulk droids? UC Police? Blaze Troopers?
+//TO DO: Royal Guards, Senate Guards/Commandos, Ani/Vader, Palpy. 
+//Future Ideas: Jettroopers, SD-6 Droids, UC Police, Blaze Troopers?
 CT_Baton //leaving this here for now but the AI type doesn't feel right for Clones
 {
 	playerModel	clonetrooper_p2
 	customSkin	cody_rgb
 	weapon		WP_THERMAL
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -507,7 +508,7 @@ CT_Assassin //like hows this works, the small jumps work well for his animations
 	playerModel	clonetrooper_p2
 	customSkin  assassin
 	weapon		WP_SABER
-	MB_ATT_FP_SABER_DEFENSE 3
+	MB_ATT_FP_SABER_DEFENSE 2
 	PBchance 20
 	MBchance 2
 	SBchance 45
@@ -550,6 +551,43 @@ Wook_Bowcaster //WIP: shoots slow, even at at high weapon level, need to be resi
 	weapon		WP_BOWCASTER
 	MB_ATT_BOWCASTER 3
 	MB_ATT_WOOKIE_STRENGTH 3
+	size 		117
+	health		450
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		70
+	crouchheight 56
+	walkSpeed	51
+	runSpeed	200
+	snd			chewbacca
+	sndcombat	chewbacca
+	sndextra	chewbacca
+	yawspeed	70
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Wook_Trad //
+{
+	playerModel chewbacca
+	customSkin  default
+	weapon		WP_TRAD_BOWCASTER
+	MB_ATT_TRAD_BOWCASTER 3
+	MB_ATT_WOOKIE_STRENGTH 3
+	size 		117
 	health		450
 	headPitchRangeDown 30
 	reactions	3

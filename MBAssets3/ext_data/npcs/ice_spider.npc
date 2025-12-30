@@ -31,3 +31,28 @@ ice_spider
 	dismemberProbHands	0
 	dismemberProbWaist	0
 }
+
+ice_spiderling
+{
+	playerModel ice_spider
+	weapon		WP_MELEE
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_MINEMONSTER
+	snd			mine
+	yawSpeed	160
+	runSpeed	210
+	walkSpeed	50
+	hFOV		120
+	vfov		45
+	height	30
+	width	9
+	health		40
+	scale		30
+}
