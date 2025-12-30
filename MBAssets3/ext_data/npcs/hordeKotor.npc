@@ -1,7 +1,6 @@
 //Kotor Sith Troopers, note weapon overrides don't work for blasters on NPCs
-//To Do: Sentry Droid with something to repersent light repeater (shockfield?), Utility Droid (wp_thrower?), Kotor Probe Droid
-//Once CW Dark Acolytes stuff is tested and working, need to make Dark Jedi, Sith Apprentice, Sith Lord/Marauder/Assassin, Revan, Malak, Brandon, Sion, Nilus, Traya, etc for Kotor era
-//Future Expansions: Assault Droid, Floating Mine, all the Kotor 1/2 thugs?
+//To Do: Trayas Gunner, Sith Apprentice/Marauder/Assassin, Revan, Malak, Brandon, Sion, Nilus, Traya, etc for Kotor era
+//Future Ideas: Kotor era: Probe Droid, Assault Droids, Floating Mine, Mining Droids, Monsters, Thugs/BHs/Mercs?
 ST_1
 {
 	playerModel	sithtrooper
@@ -75,7 +74,7 @@ ST_2
 	dismemberProbWaist	0
 }
 
-ST_3 //Jumps a lot even though no FP_Lev
+ST_3
 {
 	playerModel	sithtrooper
 	customSkin	default
@@ -334,7 +333,7 @@ ST_Shotgun
 	playerModel sithtrooper
 	customSkin  default
 	weapon		WP_SHOTGUN
-	MB_ATT_SHOTGUN 3
+	MB_ATT_SHOTGUN 1
 	//altFire 1
 	health		50
 	armor 		15
@@ -371,80 +370,6 @@ ST_Flame
 	customSkin red
 	weapon		WP_THROWER
 	MB_ATT_THROWER_FLAME 1
-	health		50
-	armor 15
-	headPitchRangeDown 30
-	reactions	3
-	aim			1
-	move		3
-	aggression	3
-	evasion		1
-	intelligence	5
-	rank		crewman
-	playerTeam	TEAM_PLAYER
-	enemyTeam	TEAM_ENEMY
-//	race		klingon
-	class		CLASS_STORMTROOPER
-	height		64
-	crouchheight 38
-	walkSpeed	51
-	runSpeed	200
-	snd			sithtrooper2
-	sndcombat	sithtrooper2
-	sndextra	sithtrooper2
-	yawspeed	70
-	walkSpeed	55
-	runSpeed	200
-	dismemberProbHead	0
-	dismemberProbArms	10
-	dismemberProbLegs	0
-	dismemberProbHands	20
-	dismemberProbWaist	0
-}
-
-ST_Ice
-{
-	playerModel sithtrooper
-	customSkin red
-	weapon		WP_THROWER
-	MB_ATT_THROWER_ICE 1
-	health		50
-	armor 15
-	headPitchRangeDown 30
-	reactions	3
-	aim			1
-	move		3
-	aggression	3
-	evasion		1
-	intelligence	5
-	rank		crewman
-	playerTeam	TEAM_PLAYER
-	enemyTeam	TEAM_ENEMY
-//	race		klingon
-	class		CLASS_STORMTROOPER
-	height		64
-	crouchheight 38
-	walkSpeed	51
-	runSpeed	200
-	snd			sithtrooper2
-	sndcombat	sithtrooper2
-	sndextra	sithtrooper2
-	yawspeed	70
-	walkSpeed	55
-	runSpeed	200
-	dismemberProbHead	0
-	dismemberProbArms	10
-	dismemberProbLegs	0
-	dismemberProbHands	20
-	dismemberProbWaist	0
-}
-
-ST_Lightning
-{
-	playerModel sithtrooper
-	customSkin  red
-	weapon		WP_THROWER
-	MB_ATT_THROWER_LIGHTNING 1
 	health		50
 	armor 15
 	headPitchRangeDown 30
@@ -579,6 +504,7 @@ ST_Baton
 	//customSkin	elite
 	weapon		WP_THERMAL
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -600,6 +526,156 @@ ST_Baton
 	dismemberProbHead	0
 	dismemberProbArms	10
 	dismemberProbLegs	1
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+//Droids
+T3_Ice
+{
+	playerModel t3m4
+	customSkin blue
+	size 72
+	weapon		WP_THROWER
+	MB_ATT_THROWER_ICE 1
+	health		80
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			t3m4
+	sndcombat	t3m4
+	sndextra	t3m4
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+T3_Lightning
+{
+	playerModel t32
+	customSkin  blue
+	weapon		WP_THROWER
+	MB_ATT_THROWER_LIGHTNING 1
+	health		80
+	size 72
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			t3m4
+	sndcombat	t3m4
+	sndextra	t3m4
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Wardroid_Repeater
+{
+	playerModel wardroid
+	//customSkin hk50
+	weapon		WP_DLT19
+	MB_ATT_DLT19 3
+	health		50
+	armor 50
+	MB_ATT_SHIELD_RECHARGE2 1
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_ASSASSIN_DROID
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			wardroid
+	sndcombat	wardroid
+	sndextra	wardroid
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
+	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+HK_Pistol
+{
+	playerModel hk47
+	customSkin hk50
+	weapon		WP_HEAVY_PISTOL
+	MB_ATT_HEAVY_PISTOL 3
+	health		100
+	armor 100
+	headPitchRangeDown 30
+	reactions	3
+	aim			1
+	move		3
+	aggression	3
+	evasion		1
+	intelligence	5
+	rank		crewman
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		klingon
+	class		CLASS_STORMTROOPER
+	height		64
+	crouchheight 38
+	walkSpeed	51
+	runSpeed	200
+	snd			hk51
+	sndcombat	hk51
+	sndextra	hk51
+	yawspeed	70
+	walkSpeed	55
+	runSpeed	200
+	dismemberProbHead	0
+	dismemberProbArms	10
+	dismemberProbLegs	0
 	dismemberProbHands	20
 	dismemberProbWaist	0
 }
@@ -678,39 +754,138 @@ HK_Shotgun
 	dismemberProbWaist	0
 }
 
-HK_Carbine
+//Sith
+Dark_Jedi //saberstyle 2 yellow
 {
-	playerModel hk47
-	customSkin hk50
-	weapon		WP_DC_CARBINE
-	MB_ATT_DC_CARBINE 3
-	health		100
-	armor 100
-	headPitchRangeDown 30
-	reactions	3
-	aim			1
-	move		3
-	aggression	3
-	evasion		1
+	playerModel	reborn
+	customSkin	darkjedi
+	saber		kotorsab
+	saberColor	yellow
+	weapon	WP_SABER
+	MB_ATT_FORCEBLOCK 1
+	MB_ATT_FP_SABER_DEFENSE 2
+	MB_ATT_GUN_DEFENSE 2
+	MB_ATT_DEFLECT 2
+	RESOURCE_FORCE 1
+	PBchance 20
+	MBchance 2
+	SBchance 45
+	saberStyle	2
+	FP_LEVITATION	2
+	FP_SABERTHROW	3
+	rank		captain
+	forcePowerMax 100
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
 	intelligence	5
-	rank		crewman
+	hfov		120
+	vfov		120
 	playerTeam	TEAM_PLAYER
 	enemyTeam	TEAM_ENEMY
-//	race		klingon
-	class		CLASS_STORMTROOPER
-	height		64
-	crouchheight 38
-	walkSpeed	51
-	runSpeed	200
-	snd			hk51
-	sndcombat	hk51
-	sndextra	hk51
-	yawspeed	70
+	class		CLASS_REBORN
+	snd			darkjedi
+	sndcombat	darkjedi
+	sndjedi		darkjedi
+	yawSpeed	60
+	walkSpeed	45
+	runSpeed	180
+	health		100
+	dismemberProbHead	0
+	dismemberProbArms	20
+	dismemberProbLegs	0
+	dismemberProbHands	30
+	dismemberProbWaist	0
+}
+
+Trayas_Assassin
+{
+	playerModel	sith_assassin
+	weapon	WP_SABER
+	saber		qstaff
+	MB_ATT_FP_SABER_DEFENSE 1
+	RESOURCE_FORCE 1
+	forcePowerMax	200
+	forceRegenAmount	2
+	PBchance 20
+	MBchance 2
+	SBchance 45
+	saberStyle	7
+	FP_LEVITATION	3
+	FP_SPEED		3
+	rank		lt
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		4
+	intelligence	5
+	hfov		160
+	vfov		160
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+//	race		human
+	class		CLASS_SHADOWTROOPER
+	snd			sith_assassin
+	sndcombat	sith_assassin
+	sndjedi		sith_assassin
+	yawSpeed	140
 	walkSpeed	55
 	runSpeed	200
+	health		80
+	armor 20
 	dismemberProbHead	0
 	dismemberProbArms	10
 	dismemberProbLegs	0
 	dismemberProbHands	20
+	dismemberProbWaist	0
+}
+
+Sith_Lord //saberstyle 5 cyan
+{
+	playerModel	sith_assassin
+	customSkin	master
+	saber		kotorsab
+	saberColor	purple
+	weapon	WP_SABER
+	MB_ATT_FORCEBLOCK 3
+	MB_ATT_FP_SABER_DEFENSE 1
+	MB_ATT_GUN_DEFENSE 2
+	MB_ATT_DEFLECT 2
+	RESOURCE_FORCE 1
+	Pbchance 30
+	MBchance 3
+	SBchance 50
+	saberStyle	5
+	FP_LEVITATION	3
+	FP_SABERTHROW	3
+	FP_LIGHTNING	3
+	FP_PUSH		3
+	//rank		captain
+	forcePowerMax 100
+	reactions	3
+	aim			3
+	move		3
+	aggression	3
+	evasion		3
+	intelligence	3
+	hfov		120
+	vfov		120
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_REBORN
+	snd			sith_master
+	sndcombat	sith_master
+	sndjedi		sith_master
+	yawSpeed	60
+	walkSpeed	45
+	runSpeed	180
+	health		150
+	dismemberProbHead	0
+	dismemberProbArms	20
+	dismemberProbLegs	0
+	dismemberProbHands	30
 	dismemberProbWaist	0
 }
