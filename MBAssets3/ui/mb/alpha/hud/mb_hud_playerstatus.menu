@@ -571,6 +571,7 @@
 			name exability2
 			background "gfx/hud/Alpha/wlaser"
 			background2 "gfx/hud/Alpha/fthrower"
+			background3 "gfx/hud/Alpha/w_icon_pulserocket"
 		}
 
 		itemDef
