@@ -46,6 +46,8 @@ ice_spiderling
 	enemyTeam	TEAM_FREE
 	class		CLASS_MINEMONSTER
 	snd			mine
+	sndcombat	mine
+	sndextra	mine
 	yawSpeed	160
 	runSpeed	210
 	walkSpeed	50
