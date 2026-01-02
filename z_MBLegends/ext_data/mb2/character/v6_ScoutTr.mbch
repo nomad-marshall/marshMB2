@@ -172,7 +172,7 @@ ClassInfo
 	c_att_ranks_23 1,1
 
 	c_att_skill_24	MB_ATT_STM_MULTIPLIER
-	c_att_names_24	"Skill CD (200/100%)"
+	c_att_names_24	"Skill CD (50/100%)"
 	c_att_ranks_24	1,1
 
 	c_att_skill_25	MB_ATT_POWER
@@ -219,7 +219,7 @@ ClassInfo
 	c_att_ranks_36	2
 
 	c_att_skill_37	MB_ATT_STM_MULTIPLIER
-	c_att_names_37	"Skill CD (200%)"
+	c_att_names_37	"Skill CD (50%)"
 	c_att_ranks_37	1
 
 	c_att_skill_38	MB_ATT_POWER
