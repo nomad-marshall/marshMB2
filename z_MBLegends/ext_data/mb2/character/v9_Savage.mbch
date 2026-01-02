@@ -29,10 +29,12 @@ ClassInfo
 
 	skillTimerMod		1.25
 
-	//special1	EAS_FP_SABERTHROW
+	special1	EAS_FP_SABERTHROW
+ meleeSpecial1 EAS_FP_REPULSE
 	special2 EAS_MELEE
-	special3	EAS_FP_REPULSE	
-	special4	EAS_HI_BARGE
+ meleeSpecial2 EAS_HI_BARGE
+	special3	EAS_FP_GRIP
+	special4	EAS_FP_RAGE
 	
  //runForward BOTH_WOOKIEE_RAGE_RUN
 	//runForward BOTH_SABERSTAFF_RUN
@@ -109,7 +111,7 @@ ClassInfo
 	c_att_ranks_6		0,3,4
 
 	c_att_skill_7		MB_ATT_FP_GRIP
-	c_att_names_7		"Force Grip"
+	c_att_names_7		"Force Grip ^3[CS3]"
 	c_att_ranks_7		1,2,3
 
 	c_att_skill_8		MB_ATT_POWER
@@ -147,8 +149,8 @@ A large melee bruiser that wields a high-powered, long-reaching staff Lightsaber
 ^5Force Powers:
 - Jump (2)
 - Push (1) 
-- Dark Rage (3)
-- Repulse ^3[CS3 Melee]
+- Dark Rage (3) ^3[CS4]
+- Repulse ^3[CS1 Melee]
 
 ^8Attributes:
 - 25% slower skill CD
@@ -160,4 +162,4 @@ A large melee bruiser that wields a high-powered, long-reaching staff Lightsaber
 - Fury (1)
 
 ^3Abilities:
-- Reek Charge (Shoulder Barge) ^3[CS4 Melee]"
+- Reek Charge (Shoulder Barge) ^3[CS2 Melee]"

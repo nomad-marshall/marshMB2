@@ -23,7 +23,7 @@ ClassInfo
  rankSaberDamage 260
  saberSpecialDamage 1.43 //200
 
-	special3 EAS_FP_REPULSE
+	meleespecial1 EAS_FP_REPULSE
 
 	saberstyle	SS_DESANN
 	saber1		lightsaber_pike_legends
@@ -63,7 +63,7 @@ mbPoints	5
 	c_att_ranks_3	1,0
 
 	c_att_skill_4	MB_ATT_FP_GRIP
-	c_att_names_4	"Force Grip"
+	c_att_names_4	"Force Grip ^3[CS3]"
 	c_att_ranks_4	1,0
 	
 	c_att_skill_5	MB_ATT_ARMOUR
@@ -101,7 +101,7 @@ Force users with high flexibility.
 - Jump (3)
 - Push (1)
 - Speed (2)
-- Repulse ^3[CS3 Melee]
+- Repulse ^3[CS1 Melee]
 
 ^8Attributes:
 - Dexterity (3)

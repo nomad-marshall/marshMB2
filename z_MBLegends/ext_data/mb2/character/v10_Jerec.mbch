@@ -18,9 +18,13 @@ ClassInfo
 	forceregen  1.04
  resource RESOURCE_FORCE
 	speed				.97
+
+ special1 EAS_FP_SABERTHROW
+ meleeSpecial1 EAS_FP_REPULSE
 	special2 EAS_FP_DRAIN
-	special3 EAS_FP_REPULSE
+	special3 EAS_FP_DESTRUCTION
 	special4 EAS_FP_LIGHTNING
+
 	classflags CFL_NOPICKUPS
 
 	MBClass				MB_CLASS_SITH
@@ -73,8 +77,8 @@ A support Sith that can hurl explosive Force projectiles and boasts strong defen
 - Push (2)
 - Pull (2)
 - Drain (1) ^3[CS2]
-- Repulse ^3[CS3 Melee]
-- Destruction (2)
+- Repulse ^3[CS1 Melee]
+- Destruction (2) ^3[CS3]
 - Lightning (1) ^3[CS4]
 
 ^8Attributes:

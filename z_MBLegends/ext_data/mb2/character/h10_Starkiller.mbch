@@ -37,9 +37,10 @@ ClassInfo
 	skin_1			"sk2_pilot"
 	uishader_1		"models/players/jedi_hm/mb2_icon_sk2_pilot"
 
-	//special1	EAS_FP_SABERTHROW
+ special1 EAS_FP_SABERTHROW
+ meleeSpecial1 EAS_FP_REPULSE
 	special2 	EAS_MELEE
-	special3 	EAS_FP_REPULSE
+	special3 	EAS_FP_GRIP
 	special4		EAS_FP_LIGHTNING
 	
 	//respawncustomtime  50000
@@ -69,9 +70,9 @@ A Jedi/Sith hybrid sporting a strong combination of Force powers.
 - Push (3)
 - Pull (2)
 - Sense (2)
-- Repulse ^3[CS3 Melee]
+- Repulse ^3[CS1 Melee]
 - Lightning (3) ^3[CS4]
-- Grip (3)
+- Grip (3) ^3[CS3]
 
 ^8Attributes:
 - Force Block/Focus (3)"
