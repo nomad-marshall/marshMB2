@@ -121,7 +121,7 @@ ClassInfo
 	customSpecDesc_2 "WESTAR-M5 Scope Addon"
 	c_att_skill_0		MB_ATT_CLONE_PISTOL
 	c_att_names_0		"DC-15s/17 Clone Pistol"
-	c_att_ranks_0		0,4,10
+	c_att_ranks_0		0,3,9
 	
 	c_att_skill_1		MB_ATT_DC_CARBINE
 	c_att_names_1		"DC-15S Clone Carbine"
@@ -173,17 +173,17 @@ ClassInfo
 	
 	c_att_skill_13	MB_ATT_DEXTERITY
 	c_att_names_13	"Dexterity ^3[CS2]"
-	c_att_ranks_13	4,4,12
+	c_att_ranks_13	3,3,8
 
 	c_att_skill_14	MB_ATT_GRAPPLE_HOOK
 	c_att_names_14	"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_14	0,3
+	c_att_ranks_14	0,3,6
 
 
 	
 	c_att_skill_15		MB_ATT_CLONE_PISTOL
 	c_att_names_15		"DC-15s/17 Clone Pistol"
-	c_att_ranks_15		0,4,10
+	c_att_ranks_15		0,3,9
 	
 	c_att_skill_16		MB_ATT_DC_CARBINE
 	c_att_names_16		"DC-15S Clone Carbine"
@@ -235,11 +235,11 @@ ClassInfo
 	
 	c_att_skill_28		MB_ATT_DEXTERITY
 	c_att_names_28		"Dexterity ^3[CS2]"
-	c_att_ranks_28		4,4,12
+	c_att_ranks_28		3,3,8
 
 	c_att_skill_29		MB_ATT_GRAPPLE_HOOK
 	c_att_names_29		"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_29		0,3
+	c_att_ranks_29		0,3,6
 
 }
 
