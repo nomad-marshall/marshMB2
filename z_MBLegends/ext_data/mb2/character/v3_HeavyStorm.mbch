@@ -98,11 +98,11 @@ ClassInfo
 	
 	c_att_skill_4		MB_ATT_FRAGS
 	c_att_names_4		"Frag Grenades"
-	c_att_ranks_4		6,6
+	c_att_ranks_4		6,7
 	
 	c_att_skill_5		MB_ATT_FIRE_GRENADES
 	c_att_names_5		"Fire Grenades"
-	c_att_ranks_5		4,4
+	c_att_ranks_5		4,5
 
 	c_att_skill_6		MB_ATT_RESPAWNS
 	c_att_names_6		"Reinforcement"

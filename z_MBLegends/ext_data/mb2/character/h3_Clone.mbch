@@ -158,7 +158,7 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 
 	c_att_skill_7		MB_ATT_PULSE_GRENADES
 	c_att_names_7		"Pulse Grenades"
-	c_att_ranks_7		4,4
+	c_att_ranks_7		4,5
 	
 	c_att_skill_8	MB_ATT_RESPAWNS
 	c_att_names_8	"Reinforcement"
