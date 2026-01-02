@@ -127,7 +127,7 @@ saber_yoda_legends
 	saberLength 28
 	saberColor  green
 	saberRadius 2.23
-	jumpAtkFwdMove	LS_JUMPATTACK_DUAL
+	jumpAtkFwdMove	LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove LS_A_BACKFLIP_ATK
 	//noCartwheels 1
 	jumpAtkRightMove LS_A_L2R
@@ -138,8 +138,8 @@ saber_yoda_legends
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -153,7 +153,7 @@ saber_vandar_legends
 	saberLength 28
 	saberColor  green
 	saberRadius 2.23
-	jumpAtkFwdMove	LS_JUMPATTACK_DUAL
+	jumpAtkFwdMove	LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove LS_A_BACKFLIP_ATK
 	//noCartwheels 1
 	jumpAtkRightMove LS_A_L2R
@@ -164,8 +164,8 @@ saber_vandar_legends
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
