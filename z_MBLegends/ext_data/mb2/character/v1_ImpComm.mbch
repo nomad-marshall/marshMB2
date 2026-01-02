@@ -15,7 +15,7 @@ ClassInfo
 	rankArmor		20,40,60
 	
 	forcepool 			66
-	extralives			2
+	extralives			1
 	customred		0.630
 	customgreen		0.198
 	customblue		0.198
