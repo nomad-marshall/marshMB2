@@ -22,7 +22,7 @@ ClassInfo
 	classNumberLimit	1
 	APmultiplier	1.1
 	BPmultiplier   1.1
-	ASmultiplier   1
+	ASmultiplier 1.1
 	CSmultiplier  1
 	SaberDamage 120
 	
@@ -32,7 +32,7 @@ ClassInfo
 	//SaberStanceAnim	BOTH_TRIPLE3_STAFFSTANCE
 	
 	WP_T21Flags   HELD_KNOCKBACK
-	WP_SaberFlags HELD_PULSE|HELD_STUN
+	WP_SaberFlags HELD_PULSE
 	WP_Demp2Flags HELD_FREEZE|HELD_STUN|HELD_PULSE
 	WP_FlechetteFlags HELD_EXPLOSIVE|HELD_POISON|HELD_ALTRELOAD
 	
@@ -177,7 +177,7 @@ A hunter focused on disruption.
 -- Saber Defense (1)
 -- No Blaster Block
 -- No Saber Training
--- Electrifies/staggers on hit
+-- Electrifies on hit
 -- 105% more KB
 -- 53/50/70% less DMG
 -- 16/33% less reach
