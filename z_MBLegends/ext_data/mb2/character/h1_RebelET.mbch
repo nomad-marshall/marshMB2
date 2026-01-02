@@ -46,36 +46,40 @@ ClassInfo
 	uishader_4	"models/players/gwethenea/mb2_icon_guerilla"
 	
 	model_5		"gwethenea" 				 
-	skin_5		"guerilla_twilek"					 
+	skin_5		"guerilla_twilek"	
+	userRGB_5 	1
+	customred_5 		1
+	customgreen_5	1
+	customblue_5 	1 //def w				 
 	uishader_5	"models/players/gwethenea/mb2_icon_guerilla_twilek"
 	
-	model_6		"rebel_pathfinder" 				 
+	model_6		"gwethenea" 				 
 	skin_6		"desert"					 
-	uishader_6	"models/players/rebel_pathfinder/mb2_icon_desert"
+	uishader_6	"models/players/gwethenea/mb2_icon_desert"
 	
-	model_7		"rebel_guerilla"
-	skin_7  	"sullustan"
-	uishader_7  "models/players/rebel_guerilla/mb2_icon_sullustan"
+	model_7		"rebel_pathfinder"
+	skin_7 	"desert"
+	uishader_7  "models/players/rebel_pathfinder/mb2_icon_desert"
 	
-	model_8		"rebel_magma"
+	model_8		"rebel_guerilla"
 	skin_8  	"sullustan"
-	uishader_8  "models/players/rebel_magma/mb2_icon_sullustan"
+	uishader_8  "models/players/rebel_guerilla/mb2_icon_sullustan"
 	
-	model_9		"rebel_commando"
-	skin_9  	"sullustan_hoth"
-	uishader_9  "models/players/rebel_commando/mb2_icon_sullustan_hoth"
+	model_9		"rebel_magma"
+	skin_9  	"sullustan"
+	uishader_9  "models/players/rebel_magma/mb2_icon_sullustan"
 	
 	model_10	"rebel_commando"
-	skin_10  	"duros"
-	uishader_10 "models/players/rebel_commando/mb2_icon_duros"
+	skin_10  	"duros_scarif"
+	uishader_10 "models/players/rebel_commando/mb2_icon_duros_scarif"
 	
 	model_11	"rebel_commando"
 	skin_11  	"duros_hoth"
 	uishader_11 "models/players/rebel_commando/mb2_icon_duros_hoth"
 	
 	model_12	"rebel_commando"
-	skin_12  	"bith_scarif"
-	uishader_12 "models/players/rebel_commando/mb2_icon_bith_scarif"
+	skin_12  	"bith_desert"
+	uishader_12 "models/players/rebel_commando/mb2_icon_bith_desert"
 	
 	model_13	"rebel_commando"
 	skin_13  	"bith_hoth"
