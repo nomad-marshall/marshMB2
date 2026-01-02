@@ -11,9 +11,9 @@ ClassInfo
 	saberstyle			SS_MEDIUM|SS_FAST|SS_STRONG
 	maxhealth			200
 	maxarmor			0
-	model				"revan"
+	model				"jedi_revan"
 	skin				"default"
-	uishader			"models/players/revan/mb2_icon_default"
+	uishader			"models/players/jedi_revan/mb2_icon_default"
 	MBClass				MB_CLASS_JEDI
 	classNumberLimit	1
 	classflags			CFL_BPFREEJUMPS

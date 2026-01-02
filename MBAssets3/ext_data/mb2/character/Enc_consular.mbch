@@ -16,7 +16,7 @@ ClassInfo
 	asmultiplier		0.95
 	speed				0.95
 	model				"jedipack_hb"
-	skin				"jedi2"
+	skin				"jedi2_rgb"
 	customred		1
 	customgreen		1
 	customblue		1
