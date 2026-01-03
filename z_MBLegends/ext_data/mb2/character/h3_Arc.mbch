@@ -16,7 +16,7 @@ ClassInfo
 	rankArmor			65,80,125
 	
 	knockbackTaken 0.88
-
+skilltimerMod 0.9
 	MBClass				MB_CLASS_ARCTROOPER
  extralives 1
 	modelscale      	1.02
@@ -177,7 +177,7 @@ ClassInfo
 
 	c_att_skill_14	MB_ATT_GRAPPLE_HOOK
 	c_att_names_14	"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_14	0,3,6
+	c_att_ranks_14	0,3
 
 
 	
@@ -239,7 +239,7 @@ ClassInfo
 
 	c_att_skill_29		MB_ATT_GRAPPLE_HOOK
 	c_att_names_29		"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_29		0,3,6
+	c_att_ranks_29		0,3
 
 }
 
@@ -256,6 +256,7 @@ A highly versatile class that excels in close-to-mid-range combat.
 
 ^8Attributes:
 - Reinforcement (1)
+- 10% faster skill CD
 - 12% less KB taken
 - Stamina (0)
 
