@@ -33,9 +33,32 @@ models/players/bastila/body
 
 models/players/bastila/head
 {
-	cull	twosided
+	cull	disable
 	{
 		map models/players/bastila/head
+		rgbGen lightingDiffuse
+	}
+}
+
+models/players/bastila/body_sith
+{
+	{
+		map models/players/bastila/body_sith
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/bastila/body_sith_spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+		detail
+	}
+}
+
+models/players/bastila/head_sith
+{
+	cull	disable
+	{
+		map models/players/bastila/head_sith
 		rgbGen lightingDiffuse
 	}
 }
