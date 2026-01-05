@@ -20,7 +20,7 @@ resourceRegenRate 1000
 resourceRegenAmount 5
 resourceRegenCap 65
 
-maxhealth 85
+maxhealth 80
 MaxArmor 80
 
 armourRegenAmount 2
@@ -28,7 +28,7 @@ armourRegenRate 1000
 armourRegenCap  20
 
 basespeed 215
-damageTaken 0.95
+damageTaken 1
 
 hackRate 0.86
 knockbackTaken 1.1
