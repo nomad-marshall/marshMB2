@@ -20,8 +20,8 @@ Classinfo
 	saber1 		force_deflection
 	saber2 		force_deflection
 	saberstyle	SS_DUAL
-	saberDamage 73 //80
-	saberSpecialDamage 2 //146 //160
+	saberDamage 80
+	saberSpecialDamage 2 //160
 	APmultiplier    0.8
 	
 	WP_SaberFlags HELD_PULSE
@@ -114,7 +114,7 @@ A flying hybrid class that combines Melee brawling abilities and dark side power
 -- Electrifies on hit
 -- 150% more KB
 -- 69% less DMG
--- 43% less special DMG
+-- 38% less special DMG
 -- 45% less reach
 -- 33% more radius
 -- Slap ^3[GB]

@@ -19,7 +19,7 @@ Classinfo
 	saberstyle	SS_TAVION
 	
 	saberMaxChain 	1
-	saberDamage		80 //40
+	saberDamage		40
 	APmultiplier 		1
 	ASmultiplier 		1
 	CSmultiplier 		1

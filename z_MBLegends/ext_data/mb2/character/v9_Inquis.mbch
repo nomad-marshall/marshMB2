@@ -20,7 +20,7 @@ ClassInfo
 	rankBP 			1.20
 	rankAS				1.20
 	rankCS				1.20
-
+ saberDamageStyle SS_STAFF,260|SS_TAVION,130
 	maxhealth		100
 	maxarmor			10
 	forcepool			100
@@ -140,7 +140,8 @@ A customizable Sith designed to hunt down Jedi. Can spec into Force Powers, impr
 -- Saber Defense (3)
 -- Blaster Defense (2)
 -- Saber Deflect (2)
--- 25% longer Staff reach
+-- 25% more reach
+-- 8% more Cyan DMG
 -- 43% less radius
 -- EX Saber Throw (3) ^3[CS1]
 -- Slap ^3[CS2]

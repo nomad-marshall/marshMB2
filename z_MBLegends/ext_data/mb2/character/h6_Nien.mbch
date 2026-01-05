@@ -26,8 +26,8 @@ ClassInfo
 	ASmultiplier 1.15
 	APmultiplier	1.2
 	BPmultiplier	0
-	saberDamage 	150 //120
-	saberThrowDamage 	100 //80
+	saberDamage 120
+	saberThrowDamage 	80
 		saberMaxChain 2
 	saber1		nien_leg_p
 	sabercolor	0
@@ -125,11 +125,11 @@ A scrappy, evasive class with many explosives, a Saber with high knockback, and 
 -- No Saber/Blaster Block
 -- Chain Limit: 2
 -- 125% more KB
--- 37% less DMG
+-- 50% less DMG
 -- 40% less reach
 -- 167% more radius
 -- Saber Throw ^3[CS1]
---- 233% more DMG
+--- 166% more DMG
 -- Slap ^3[GB]
 - DH-17 Blaster Pistol (Blaster Rifle 2)
 - Pulse Cannon (Disruptor 2)

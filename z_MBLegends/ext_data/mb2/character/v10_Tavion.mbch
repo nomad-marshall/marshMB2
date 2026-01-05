@@ -14,7 +14,7 @@ ClassInfo
 	BPMultiplier 		1.2
 	ASmultiplier 		1
 	CSmultiplier 		1.1
-	saberThrowDamage 37 //40
+	saberThrowDamage 40
 
 	forcepowers 		FP_SABER_OFFENSE,3|FP_PUSH,2|FP_PULL,2|FP_SEE,2|FP_SABERTHROW,3|FP_LIGHTNING,1|FP_TEAM_FORCE,3|FP_DRAIN,2
 
@@ -82,7 +82,7 @@ A Dark Jedi that can wield either a slow but powerful extended-reach Lightsaber-
 -- Blaster Defense (2)
 -- Saber Deflect (2)
 -- EX Saber Throw (3) ^3[CS1]
---- 23% more DMG
+--- 33% more DMG
 -- Slap ^3[GB]
 > Scepter of Ragnos
 -- 50% more reach

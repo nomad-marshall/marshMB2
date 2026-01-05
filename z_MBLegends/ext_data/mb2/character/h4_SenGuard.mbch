@@ -23,7 +23,7 @@ ClassInfo
 	special3	EAS_HI_DEX
 	special4	EAS_HI_GRAPPLEHOOK
 
-	saberDamage 111 //120
+	saberDamage 120
 	saberMaxChain 3
 	saberstyle	 SS_MEDIUM|SS_TAVION
 	saber1		Guard_pike_legends
@@ -129,7 +129,7 @@ description	"Senate Guard [Clone Trooper]
 -- Staggers on hit
 -- 7% faster AS
 -- 115% more KB
--- 53/7% less DMG
+-- 50% less Yellow DMG
 -- 30% less reach
 -- 167% more radius
 -- Slap ^3[CS2]

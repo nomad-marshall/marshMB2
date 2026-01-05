@@ -35,7 +35,7 @@ ClassInfo
 	
 	classflags			CFL_NOPICKUPS|CFL_STRONGAGAINSTPHYSICAL
 
-	saberThrowDamage 40 //44
+	saberThrowDamage 45
 	APmultiplier		1.35
 	BPmultiplier		1.2
 	ASMultiplier		1.1
@@ -116,7 +116,7 @@ A tanky saberist with strong defense and offense, at the cost of mobility. Regai
 -- Chain Limit: 4
 -- 10% more reach
 -- EX Saber Throw (3) ^3[CS1]
---- 33% more DMG
+--- 50% more DMG
 -- Slap ^3[CS2]
 
 ^5Force Powers:

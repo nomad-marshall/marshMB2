@@ -13,8 +13,8 @@ ClassInfo
 	saber1_1     Wrench_Legends_2
 	sabercolor	0
 	saberstyle_1 	SS_MEDIUM|SS_STRONG
-	saberDamage 105 //120
-	saberSpecialDamage 2 //210 //240ish
+	saberDamage 120
+	saberSpecialDamage 2 //240
 	forcepowers		FP_SEE,1
 	forcepool 			75
 	forceregen			1.25
@@ -125,8 +125,8 @@ A speedy, damage-boosted Pistoleer with Grenades.
 -- Blocking resists Force Powers
 -- Chain Limit: 2
 -- 125% more KB
--- 56/79% less DMG
--- 59% less Red special DMG
+-- 50/53% less DMG
+-- 53% less Red special DMG
 -- 40% less reach
 -- 167% more radius
 -- Slap ^3[CS2]

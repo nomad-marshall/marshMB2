@@ -25,7 +25,7 @@ ClassInfo
 	special3 EAS_HI_MEDPAC
 	special4 EAS_HI_DASH
 
- saberDamage 55 //60
+ saberDamage 60
 	saber1		reb_wrench_p
 	sabercolor	0
 	saberstyle	SS_TAVION
@@ -173,7 +173,7 @@ description	"Imperial Specialist [Clone Trooper]
 -- No Saber/Blaster Block
 -- No Saber Training
 -- 200% more KB
--- 54% less DMG
+-- 50% less DMG
 -- 40% less reach
 -- 167% more radius
 -- Slap ^3[CS2]
