@@ -151,7 +151,7 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 	c_att_skill_5		MB_ATT_MINIGUN
 	c_att_names_5		"Z-6 Rotary Cannon (Minigun)"
 	c_att_ranks_5		10
-	c_att_descs_5 	"45% faster RoF, 5% more DMG, 10% more FP DMG"
+	c_att_descs_5 	"38% faster RoF, 5% more DMG, 10% more FP DMG"
 	c_att_skill_6		MB_ATT_PLX1
 	c_att_names_6		"PLX-1 Rocket Launcher"
 	c_att_ranks_6		6,13
@@ -205,7 +205,7 @@ WeaponInfo0
 	altFireEnabled	1
 	FPMult     1.1
 	damageMod 1.05
-	rateMod 0.55
+	rateMod 0.62
 }
 
 description	"Clone Trooper [Clone Trooper]
