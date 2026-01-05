@@ -22,7 +22,7 @@ Classinfo
 	APMultiplier 		1.2 
 	BPMultiplier 		0.7
 	ASmultiplier		1.05
-	CSmultiplier		2.0
+	CSmultiplier		1.85
 	blockRegenAmount 2
 	blockRegenRate 400
 	blockRegenCap 100

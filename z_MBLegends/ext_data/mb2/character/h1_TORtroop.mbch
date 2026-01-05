@@ -124,7 +124,7 @@ c_att_skill_20	MB_ATT_FP_SEE
 c_att_names_20	"Radar Scanner (Sense)"
 c_att_ranks_20	1
 c_att_skill_21	MB_ATT_HEALTH_REGEN_CAP
-c_att_names_21	"HP Regen (5/.5s to 35)"
+c_att_names_21	"Health Regen (5/.5s to 35)"
 c_att_ranks_21	1
 c_att_skill_22	MB_ATT_BASESPEED
 c_att_names_22	"Speed (232)"

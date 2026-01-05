@@ -14,7 +14,7 @@ ClassInfo
 
 	weapons WP_MELEE
 
-	classflags	CFL_STATVIEWER|CFL_NOPICKUPS
+	classflags	CFL_STATVIEWER|CFL_NOPICKUPS|CFL_NOLOCATIONALDAMAGE
 	runForward	BOTH_RUN4
 	runBackward	BOTH_RUNBACK4
 	walkForward	BOTH_RUN4
@@ -74,5 +74,6 @@ A small and vulnerable supportive Force user with the ability to share his stron
 ^8Attributes:
 ^7- ^3*^7Light's Beacon (Shares Force Powers with a ^7targeted/nearby ally)
 - 40% slower skill CD
+- Flat Damage Taken
 - Ally Stat Viewer
 - Force Focus (1)"

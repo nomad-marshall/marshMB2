@@ -32,10 +32,10 @@ ClassInfo
 	//CFL_NO_FUEL_USE
 	
 	BPmultiplier 		0
-	ASmultiplier   25
+	ASmultiplier   10
 	saberMaxChain 1
 	saber1 		r2_saw_leg
-	saberstyle 	SS_FAST
+	saberstyle 	SS_STAFF
 	saberdamage 11 //12
 	
 	hackRate 0.80
@@ -155,13 +155,13 @@ A plucky support with numerous gadgets.
 - Prod (Limited Melee)
 -- 15% slower movement
 -- Sec. only
-- Circular Saw (Blue Saber)
+- Circular Saw (Staff Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers on hit
--- 2400% faster RoF
 -- 90% less DMG
 -- 50% less reach
+-- 66% more radius
 - Flamethrower
 -- 150% slower ignition rate
 -- 50% slower mag reload

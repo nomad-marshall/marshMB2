@@ -11,7 +11,7 @@ ClassInfo
 	
 	speed 1
 	
-	maxhealth 	100
+	maxhealth 	105
 	hackRate 0.95
 	resource		RESOURCE_STAMINA
 	forcepool	100

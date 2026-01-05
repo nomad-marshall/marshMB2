@@ -78,13 +78,13 @@ animAttackRun BOTH_ATTACK3
 animAttack BOTH_ATTACK3
 animAttackWalk BOTH_ATTACK3
 altfireenabled 0
-velocityMod 0.77
-damageMod 1.5
+velocityMod 0.7
+damageMod 2
 }
 
 Description 	"Flame Trooper [Mandalorian]
 
-A 2-life class specializing in incendiary support.
+A 2-life class specializing in incendiary support. Launched Grenades deal bonus fire damage.
 
 ^2Weaponry:
 - Melee
@@ -93,8 +93,8 @@ A 2-life class specializing in incendiary support.
 - DLT-20A Blaster Rifle (2)
 - Fire Grenades (3)
 - Modified Grenade Launcher (UGL 3)
--- 50% more DMG
--- 23% less velocity
+-- 100% more DMG
+-- 30% less velocity
 -- Prim. only
 
 ^6Inventory:

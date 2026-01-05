@@ -134,7 +134,7 @@ Wrench_Legends_2
 
 nien_leg_p
 {
-	name		"Power Wrench/Magna-Gloves"
+	name		"Power Wrench/Magna-Glove"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/mwrench/mwrench.glm"
 	soundOn		"sound/weapons/blade/slash2.mp3"
@@ -198,7 +198,7 @@ nien_leg_p
 
 nien_leg_s
 {
-	name		"Spanner Wrench/Magna-Gloves"
+	name		"Spanner Wrench/Magna-Glove"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/spanner_w/spanner_w.glm"
 	soundOn		"sound/weapons/blade/slash2.mp3"

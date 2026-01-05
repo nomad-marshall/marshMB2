@@ -17,7 +17,7 @@ ClassInfo
 	speed 1
 	saberThrowDamage 40
 	model		"barriss_offee"
-	skin			"default"
+	skin		"default"
 	uishader		"models/players/barriss_offee/mb2_icon_default"
 	
 	model_2		"adigallia"
@@ -28,9 +28,9 @@ ClassInfo
 	skin_1		"default"
 	uishader_1 	"models/players/adigallia/mb2_icon_default"
 	
-	model_3		"jedi_kotor"
+	model_3		"jedipack_hb"
 	skin_3		"zhar"
-	uishader_3	"models/players/jedi_kotor/mb2_icon_zhar"
+	uishader_3	"models/players/jedipack_hb/mb2_icon_zhar"
 	
 	model_4		"rey"
 	skin_4		"default"
@@ -40,6 +40,14 @@ ClassInfo
 	skin_5		"jedi"
 	uishader_5	"models/players/rey/mb2_icon_jedi"
 	
+	model_6		"cade"
+	skin_6		"default"
+	uishader_6	"models/players/cade/mb2_icon_default"
+	
+	model_7		"jedipack_hb"
+	skin_7		"mical"
+	uishader_7	"models/players/jedipack_hb/mb2_icon_mical"
+	
 	saber1			saber_barriss_legends
 	sabercolor		4
 	
@@ -47,13 +55,16 @@ ClassInfo
 	sabercolor_1		3
 	
 	saber1_2			kotorsab
-	sabercolor_2		1
+	sabercolor_2		5
 
 	saber1_3			saber_rey
 	sabercolor_3		4
 	
 	saber1_4			saber_rey5
-	sabercolor_4		1
+	sabercolor_4		2
+	
+	saber1_5			saber_kol
+	sabercolor_5		3
 
 	holdables			HI_MEDPAC_BIG
 

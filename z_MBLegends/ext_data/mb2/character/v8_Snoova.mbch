@@ -20,9 +20,10 @@ ClassInfo
 	
 	resource			resource_rage
 	special1			EAS_HI_FURY
-	special2 		EAS_HI_BARGE
+	special2			EAS_MELEE
 	special3			EAS_HI_MEDPAC_BIG
-	special4			EAS_MELEE
+	meleespecial2 		EAS_HI_BARGE
+
 	forcepool  115
 	forceregen 0.95
 	
@@ -89,7 +90,7 @@ A large tank with Fury, a deadly Vibroaxe, and a heavy blaster rifle. Resists mo
 -- Chain Limit: 2
 -- 25/42% less DMG
 -- 10% less reach
--- Slap ^3[CS4]
+-- Slap ^3[CS2]
 - DLT-19 Heavy Blaster Rifle (Clone Rifle 2)
 -- 10% faster RoF
 

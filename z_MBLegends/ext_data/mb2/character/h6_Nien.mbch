@@ -66,7 +66,7 @@ WeaponInfo0
 	NewWorldModel		"models/weapons2/mwrench/mwrench.glm"
 	NewViewModel		"models/weapons2/dummy/dummy.md3"
 	Icon				"gfx/hud/w_icon_mwrench"
-	WeaponName		"Nien's Wrench/Magna-Gloves"
+	WeaponName		"Nien's Wrench/Magna-Glove"
 	SelectSound "sound/weapons/blade/slash2.mp3"
 }
 
@@ -89,6 +89,7 @@ WeaponInfo1
 	animReadyRun BOTH_WESTARM5_IDLE
 	animReady BOTH_WESTARM5_IDLE
 	animReadyWalk BOTH_WESTARM5_READY
+ animReadyNoAmmo BOTH_WESTARM5_ATTACK
 	animAttackRun BOTH_WESTARM5_ATTACK
 	animAttack BOTH_WESTARM5_ATTACK
 	animAttackWalk BOTH_WESTARM5_ATTACK
@@ -116,11 +117,11 @@ animAttackWalk BOTH_ATTACK2
 
 description	"Nien Nunb [Jedi]
 
-A scrappy, evasive class with many explosives, a melee weapon with high knockback, and gadgets.
+A scrappy, evasive class with many explosives, a Saber with high knockback, and gadgets.
 
 ^2Weaponry:
 - Melee
-- Nien's Wrench/Magna-Gloves (Yellow Saber)
+- Nien's Wrench/Magna-Glove (Yellow Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 2
 -- 125% more KB
@@ -141,7 +142,7 @@ A scrappy, evasive class with many explosives, a melee weapon with high knockbac
 - Concussion Grenades (3)
 
 ^6Inventory:
-- Stimpack
+- Stimpak
 - Assault Sentry
 - Cloaking Device
 

@@ -14,6 +14,7 @@ ClassInfo
 	maxarmor			100
 	damageTaken		0.65
 	rateoffire	1
+	rateoffire_melee 0.95
 	speed       	1
 	
 	special1		EAS_HI_ROCKET
@@ -77,6 +78,7 @@ A speedy Jetpack user who wields a Saber and Dual Pistols. Surprisingly tanky.
 
 ^2Weaponry:
 - Melee
+-- 5% faster RoF
 - The Darksaber (Yellow/Red/Purple)
 -- Saber Defense (1)
 -- No Blaster Block

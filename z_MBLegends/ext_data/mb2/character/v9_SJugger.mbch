@@ -4,8 +4,8 @@ ClassInfo
 {
 	name			"v9_SJugger"
 	weapons		WP_SABER|WP_MELEE
-	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2
-	
+	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_GETUPS,3
+
 	saberstyle	SS_DESANN|SS_STRONG
 	APmultiplier	1.15
 	BPmultiplier	1.35
@@ -27,7 +27,7 @@ saberThrowDamage 36 //40
 	
 	//special1	EAS_FP_SABERTHROW game chooses spec1 if not defined, leave as is
 	special2 EAS_MELEE
-	special3 EAS_FP_PUSH
+	special3 EAS_FP_PULL
 	special4 EAS_FP_LIGHTNING
 	
 	classflags 		CFL_NOPICKUPS
@@ -98,12 +98,13 @@ A massive, tanky Sith with high-powered and long-reaching Lightsaber attacks. Re
 
 ^5Force Powers:
 - Jump (3)
-- Push (2) ^3[CS3]
-- Pull (2)
+- Push (2)
+- Pull (2) ^3[CS3]
 - Sense (2)
 - Lightning (2) ^3[CS4]
 
 ^8Attributes:
 - Strength (2)
+- Getup (3)
 - Healing (1)
 - Force Block/Focus (1)"

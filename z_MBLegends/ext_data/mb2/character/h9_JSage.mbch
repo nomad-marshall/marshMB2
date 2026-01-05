@@ -10,7 +10,7 @@ Classinfo
 	BPmultiplier		0.7
 	CSmultiplier 		1.2
 	ASmultiplier 		1.2
-	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,2|FP_PULL,3|FP_SEE,3|FP_PROTECT,1|FP_ABSORB,2|FP_SABERTHROW,2|FP_SPEED,2
+	forcepowers			FP_SABER_OFFENSE,3|FP_PUSH,2|FP_PULL,3|FP_SEE,3|FP_PROTECT,1|FP_ABSORB,2|FP_SABERTHROW,2|FP_SPEED,2
 	saberThrowDamage 40
 	speed               1
 	maxhealth			60
@@ -32,7 +32,7 @@ Classinfo
 	WalkForward 	BOTH_WALK2
 	RunForward BOTH_RUN_STAFF
 	saberStanceAnim BOTH_B1_TR___
-	
+
 	uioverlay "gfx/icons/frontline"
 	
 	model		"t_yoda"
@@ -65,8 +65,12 @@ Classinfo
 	//sabercolor_2		4
 	
 	saberstyle		SS_STRONG
-	
-	//respawncustomtime  50000
+	isCustomBuild		1
+	mbPoints		0
+
+	c_att_skill_0		MB_ATT_FP_LEVITATION
+	c_att_names_0		"Force Jump"
+	c_att_ranks_0		0,0,0
 }
 
 Description 	"Jedi Sage [Jedi]

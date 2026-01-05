@@ -27,7 +27,7 @@ rateOfFire_Melee 0.9
 	special1		EAS_HI_DODGE
 	special2		EAS_HI_DEX
 	special3		EAS_HI_QUICKTHROW
-	special4		EAS_HI_SEEKER
+	special4		EAS_HI_SHIELD
 	
 	uioverlay_r 	"gfx/icons/tactician"
 	uioverlay_l "gfx/2d/hud/hlp_defend"
@@ -83,8 +83,8 @@ A dexterous and speedy commander with Quick-Throw grenades and portable defensiv
 - Pulse Grenades (3)
 
 ^6Inventory:
-- Seeker Drone ^3[CS4]
-- Forcefield
+- Seeker Drone
+- Forcefield ^3[CS4]
 - Portable E-Web Cannon
 
 ^8Attributes:

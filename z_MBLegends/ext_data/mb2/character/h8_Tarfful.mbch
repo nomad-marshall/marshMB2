@@ -29,9 +29,10 @@ ClassInfo
 	skilltimermod 0.9
 	
 	special1	EAS_HI_FURY
-	special2 EAS_HI_BARGE
+	special2	EAS_MELEE
+	meleespecial2 EAS_HI_BARGE
 	special3	EAS_HI_QUICKTOSS
-	special4	EAS_MELEE
+
 	
 	resource	RESOURCE_RAGE
 	
@@ -71,7 +72,7 @@ A large tank with Fury, a deadly Ryyk Blade, and a Bowcaster. Immune to most kno
 -- No Blaster Block
 -- 25/42% less DMG
 -- 33% more reach
--- Slap ^3[CS4]
+-- Slap ^3[CS2]
 - Trad Bowcaster (3)
 - Frag Grenades (2)
 -- 50% less DMG

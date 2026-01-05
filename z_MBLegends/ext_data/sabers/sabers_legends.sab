@@ -127,7 +127,7 @@ saber_yoda_legends
 	saberLength 28
 	saberColor  green
 	saberRadius 2.23
-	jumpAtkFwdMove	LS_JUMPATTACK_DUAL
+	jumpAtkFwdMove	LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove LS_A_BACKFLIP_ATK
 	//noCartwheels 1
 	jumpAtkRightMove LS_A_L2R
@@ -138,8 +138,8 @@ saber_yoda_legends
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -153,7 +153,7 @@ saber_vandar_legends
 	saberLength 28
 	saberColor  green
 	saberRadius 2.23
-	jumpAtkFwdMove	LS_JUMPATTACK_DUAL
+	jumpAtkFwdMove	LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove LS_A_BACKFLIP_ATK
 	//noCartwheels 1
 	jumpAtkRightMove LS_A_L2R
@@ -164,8 +164,8 @@ saber_vandar_legends
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -425,11 +425,12 @@ Windu_legacy
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
+	flourishAnim BOTH_SABERTHROW1START
 }
 
 anakin_legends
@@ -486,19 +487,17 @@ Bastila_Legends
 	saberModel  "models/weapons2/saber_plasma/saber_bastila.glm"
 	saberColor	yellow
 	numBlades	2
-    saberLength	40
+ saberLength	40
 	saberStyle	staff
 	throwable	1
-	//singleBladeStyle	tavion
-	//singleBladeThrowable	1
 	twoHanded		1
 	soundLoop	"s/w/s/dm_hum.wav"
 	soundOn		"s/w/s/on.wav"
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -516,6 +515,7 @@ saber_dooku_legacy
 	putawayAnim 	BOTH_A2_TL_BR
 	readyAnim	BOTH_DOOKU_STANCE
 	gloatAnim	BOTH_COME_ON1
+ tauntAnim BOTH_DOOKU_TAUNT
 	flourishAnim	BOTH_DOOKU_TAUNT
 	bowAnim BOTH_CROUCH3
 	soundOn		"s/w/s/don.wav"
@@ -523,8 +523,8 @@ saber_dooku_legacy
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -549,8 +549,8 @@ saber_dooku_totj
 	soundOff		"s/w/s/off.wav"
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-   hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
@@ -641,8 +641,8 @@ sithA_legends
 	saberColor	red
 	spinsound	"s/w/s/spin.wav"
 	hitSound1	"s/w/s/hit1.mp3"
-    hitSound2	"s/w/s/hit2.mp3"
-    hitSound3	"s/w/s/hit3.mp3"
+ hitSound2	"s/w/s/hit2.mp3"
+ hitSound3	"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"

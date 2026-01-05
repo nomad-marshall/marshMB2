@@ -49,11 +49,12 @@ ClassInfo
 	uishader_3		"models/players/reborn2/mb2_icon_default"
 	
 	//respawncustomtime  30000
-
-	special3 	EAS_FP_DRAIN
-	special4		EAS_FP_LIGHTNING
 	special1		EAS_FP_REPULSE
 	special2 	EAS_HI_DASH
+	special3 	EAS_FP_GRIP
+	special4		EAS_FP_LIGHTNING
+
+
 	isCustomBuild		1
 	mbPoints			4
 	
@@ -111,9 +112,9 @@ Dark Side masters who forego the use of a Lightsaber in favor of martial arts an
 - Pull (2)
 - Sense (3)
 - Lightning (2) ^3[CS4]
-- Drain (2) ^3[CS3]
+- Drain (2)
 - Repulse ^3[CS1 Melee]
-- Grip (3)
+- Grip (3) ^3[CS3]
 
 ^8Attributes:
 - Bunny Hop (1)
