@@ -177,7 +177,7 @@ skilltimerMod 0.9
 
 	c_att_skill_14	MB_ATT_GRAPPLE_HOOK
 	c_att_names_14	"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_14	0,3
+	c_att_ranks_14	0,2
 
 
 	
@@ -239,7 +239,7 @@ skilltimerMod 0.9
 
 	c_att_skill_29		MB_ATT_GRAPPLE_HOOK
 	c_att_names_29		"Grappling Hook ^3[CS4 Melee]"
-	c_att_ranks_29		0,3
+	c_att_ranks_29		0,2
 
 }
 
