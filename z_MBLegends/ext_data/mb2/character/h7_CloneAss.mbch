@@ -62,7 +62,7 @@ mbPoints	70
 hasCustomSpec 2
 isOnlyOneSpec 1
 customSpecName_1 "Stealth"
-customSpecIcon_1 "gfx/menus/alpha/icon_playermodel"
+customSpecIcon_1 "gfx/menus/alpha/icon_weap_crouch"
 customSpecDesc_1 "Potential 2-life"
 customSpecName_2 "Duelist"
 customSpecIcon_2 "gfx/menus/alpha/icon_saberdual"
