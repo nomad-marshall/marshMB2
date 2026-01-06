@@ -62,7 +62,7 @@ ClassInfo
 	c_att_names_1	"Vornax Cannon (Minigun)"
 	c_att_ranks_1	5,0
 	c_att_descs_1 "Ignites/staggers/pushes on direct hit, 300% more DMG/FP DMG,
-700% slower RoF, 100% slower mag reload" 
+788% slower RoF, 24% less velocity, 100% slower mag reload" 
 	700/50/200% slower RoF"
 	c_att_skill_2	MB_ATT_A280
 	c_att_names_2	"Concordian Rifle (A280)"
@@ -147,9 +147,9 @@ WeaponInfo2
 	Icon	 "gfx/hud/w_icon_rotary_cannon"
 	WeaponName	"Vornax Rotary Siege Cannon"
 	FPMult	4
-	rateMod 8
+	rateMod 8.88
 	damageMod 4
-	velocityMod	1
+	velocityMod	.76
 	ReloadTimeModifier 2
 	clipsize	10
 	customAmmo	350
