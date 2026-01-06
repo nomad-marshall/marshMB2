@@ -2,9 +2,9 @@ head,*off
 head_mouth_eyes,*off
 helmet,*off
 
-headb,*off
-headb_eyes_mouth,*off
-headb_horns,*off
+head_z,*off
+head_z_eyes_mouth,*off
+head_z_horns,*off
 
 head_duros,models/players/alien_heads/duros.tga
 mouth_duros,models/players/common/mouth_eyes.tga
@@ -15,10 +15,27 @@ eyes_sull,*off
 hat_sull,*off
 mouth_sull,*off
 
-torso_neck,models/players/rebel_commando/forest_boots_d.tga
+headd,*off
+headd_face,*off
+headd_hair,*off
+headd_pieces,*off
+headd_ponytail,*off
+headd_cap_torso_off,*off
+torso_cap_headd_off,*off
+
+heade,*off
+heade_eyes_mouth,*off
+heade_face,*off
+heade_hair,*off
+heade_hair_bun,*off
+
+torso_fem,*off
+torso_zipper_fem,*off
+torso_neck_fem,*off
 
 torso,*off
 torso_ammobelt,*off
+torso_neck,models/players/rebel_commando/forest_boots_d.tga
 torso_zipper,models/players/rebel_magma/torso.tga
 torso_rank,models/players/rebel_magma/belts.tga
 torso_belts,models/players/rebel_magma/belts.tga
