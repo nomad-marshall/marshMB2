@@ -71,6 +71,7 @@ CT_Rocket //so jedi have something they can't block
 	playerModel clonetrooper_p2
 	customSkin  501
 	weapon		WP_ROCKET_LAUNCHER
+	MB_ATT_ROCKET_LAUNCHER 3
 	health		80
 	armor 		40
 	headPitchRangeDown 30

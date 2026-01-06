@@ -833,7 +833,7 @@ BX_Rocket //so jedi have something to push
 	playerModel bxdroid
 	customSkin  default
 	weapon		WP_ROCKET_LAUNCHER
-	//MB_ATT_EE4 3
+	MB_ATT_ROCKET_LAUNCHER 3
 	altFire 1
 	health		80
 	armor 		40
