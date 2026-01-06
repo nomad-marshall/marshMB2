@@ -3,6 +3,7 @@ RocketTrooper2
 {
 	playerModel rockettrooper
 	weapon	WP_ROCKET_LAUNCHER
+	MB_ATT_ROCKET_LAUNCHER 3
 	RESOURCE_FORCE 1
 	forcePowerMax	200
 	FP_LEVITATION	3

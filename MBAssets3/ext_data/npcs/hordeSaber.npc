@@ -14,7 +14,7 @@
 Sword1
 {
 	playerModel	sithtrooper
-	customSkin	elite
+	customSkin	blue
 	saber		kotor_vibrosword
 	weapon	WP_SABER
 	saberStyle	1
@@ -124,8 +124,8 @@ Sword3
 
 Sword4
 {
-	playerModel	sithtrooper_tor
-	customSkin	default
+	playerModel	sithtrooper
+	customSkin	purple
 	saber		kotor_vibrosword
 	weapon	WP_SABER
 	saberStyle	4
@@ -161,8 +161,8 @@ Sword4
 
 Sword5
 {
-	playerModel	sithtrooper_tor
-	customSkin	korriban
+	playerModel	sithtrooper
+	customSkin	elite
 	saber		kotor_vibrosword
 	weapon	WP_SABER
 	saberStyle	5
@@ -198,8 +198,8 @@ Sword5
 
 Sword6
 {
-	playerModel	sithtrooper_tor
-	customSkin	hoth
+	playerModel		playerModel	sithtrooper
+	customSkin	green
 	saber		kotor_vibroblade
 	saber2		kotor_vibroblade
 	weapon	WP_SABER
