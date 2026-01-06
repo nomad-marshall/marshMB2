@@ -38,7 +38,7 @@ ClassInfo
 	WP_TripMineFlags HELD_SPEED
 	WP_MeleeFlags HELD_SPEED
 	WP_PulseNadeFlags HELD_SPEED
-	WP_BlasterFlags HELD_KNOCKBACK
+	//WP_BlasterFlags HELD_KNOCKBACK
  WP_StunBatonFlags HELD_SPEED|HELD_FLAME
 	
 	isCustomBuild		1
@@ -187,7 +187,6 @@ description	"Imperial Specialist [Clone Trooper]
 ^6Inventory:
 - Medpac ^3[CS3]
 - Portable E-Web Cannon
--- Pushes on hit
 - Assault Sentry
 
 ^8Attributes:
