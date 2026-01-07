@@ -27,10 +27,10 @@ l_hand,models/players/rebel_pathfinder/hands.tga
 r_arm,models/players/rebel_pathfinder/torso_urban.tga
 r_hand,models/players/rebel_pathfinder/hands.tga
 
-hips,models/players/rebel_pathfinder/legs_urban.tga
+hips,models/players/rebel_pathfinder/legs_desert.tga
 hips_kneepads,*off
-l_leg,models/players/rebel_pathfinder/legs_urban.tga
-r_leg,models/players/rebel_pathfinder/legs_urban.tga
+l_leg,models/players/rebel_pathfinder/legs_desert.tga
+r_leg,models/players/rebel_pathfinder/legs_desert.tga
 
 head_cap_torso_off,models/players/stormtrooper/caps.tga
 hips_cap_l_leg_off,models/players/stormtrooper/caps.tga
