@@ -1,6 +1,6 @@
 head,*off
 head_mouth_eyes,*off
-helmet,*off
+helmet,models/players/rebel_magma/helmet.tga
 
 head_z,*off
 head_z_eyes_mouth,*off
@@ -26,8 +26,8 @@ torso_cap_headd_off,models/players/stormtrooper/caps.tga
 heade,models/players/mechanic/headb.tga
 heade_eyes_mouth,models/players/mechanic/mouth_eyesb.tga
 heade_face,models/players/mechanic/faceb.tga
-heade_hair,models/players/mechanic/headb_hair.tga
-heade_hair_bun,models/players/mechanic/headb_hair.tga
+heade_hair,*off
+heade_hair_bun,*off
 
 torso_fem,*off
 torso_zipper_fem,models/players/rebel_magma/torso.tga
