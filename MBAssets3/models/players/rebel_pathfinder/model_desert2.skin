@@ -12,9 +12,9 @@ helmet_scarif,models/players/rebel_pathfinder/helmet.tga
 
 torso_neck,models/players/rebel_commando/forest_boots_d.tga
 
-torso,models/players/rebel_pathfinder/torso_urban.tga
-torso_vest_shirt,models/players/rebel_pathfinder/torso_urban.tga
-torso_vest_shoulders,models/players/rebel_pathfinder/torso_urban.tga
+torso,models/players/rebel_pathfinder/torso_desert.tga
+torso_vest_shirt,models/players/rebel_pathfinder/torso_desert.tga
+torso_vest_shoulders,models/players/rebel_pathfinder/torso_desert.tga
 
 torso_bag,models/players/resistance/torso_extras.tga
 torso_strap2,models/players/resistance/torso_extras.tga
@@ -22,9 +22,9 @@ torso_backpack,models/players/resistance/torso_extras.tga
 torso_BPstraps,models/players/resistance/torso_extras.tga
 torso_bottles,models/players/resistance/torso_extras.tga
 
-l_arm,models/players/rebel_pathfinder/torso_urban.tga
+l_arm,models/players/rebel_pathfinder/torso_desert.tga
 l_hand,models/players/rebel_pathfinder/hands.tga
-r_arm,models/players/rebel_pathfinder/torso_urban.tga
+r_arm,models/players/rebel_pathfinder/torso_desert.tga
 r_hand,models/players/rebel_pathfinder/hands.tga
 
 hips,models/players/rebel_pathfinder/legs_desert.tga

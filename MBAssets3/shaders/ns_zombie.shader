@@ -13,7 +13,7 @@ models/players/ns_zombie/face_v1
 
 models/players/ns_zombie/tabard
 {
-	cull	twosided
+	cull	disable
 {
 	map models/players/ns_zombie/tabard
 	alphaFunc GE192

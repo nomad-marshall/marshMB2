@@ -785,21 +785,6 @@ models/players/rebel_pathfinder/legs_desert
 	}
 }
 
-models/players/rebel_pathfinder/legs_urban
-{
-	{
-		map models/players/rebel_pathfinder/legs_urban
-		blendFunc GL_ONE GL_ZERO
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/rebel_magma/torso_spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		detail
-		alphaGen lightingSpecular
-	}
-}
-
 models/players/rebel_pathfinder/torso
 {
 	q3map_nolightmap

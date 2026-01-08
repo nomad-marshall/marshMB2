@@ -23,6 +23,7 @@ models/players/nightsister_anyssa/body
 
 models/players/nightsister_anyssa/long_skirt
 {
+	cull	disable
     {
         map models/players/nightsister_anyssa/long_skirt
         rgbGen lightingDiffuse
@@ -31,6 +32,7 @@ models/players/nightsister_anyssa/long_skirt
 
 models/players/nightsister_anyssa/skirt
 {
+	cull	disable
     {
         map models/players/nightsister_anyssa/skirt
         rgbGen lightingDiffuse
