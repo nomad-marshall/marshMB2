@@ -1,4 +1,4 @@
-//NNN: These are the base cultist force whores, they use the MB2 CLASS_MAGE so they spam force powers and keep out of saber range but in force power range.
+//NNN: These are the base cultist force whores, they use the CLASS_MAGE so they spam force powers and keep close enough for powers but try to stay away from melee
 cultist_lightning
 {
 	playerModel	cultist
@@ -119,15 +119,14 @@ cultist_grip
 }
 
 //NNN: Below are exparimental Mages for testing other force powers
-cultist_pull //NNN: Should be a combined push/pull/repulse/superpush eventually
+cultist_push //NNN: Should be a combined push/pull/repulse/superpush eventually
 {
 	playerModel	reborn_concept
 	customSkin	force
 	weapon		WP_MELEE
 	MB_ATT_FORCEBLOCK 3
 	FP_LEVITATION	3
-	//FP_PUSH		3
-	FP_PULL		3
+	FP_PUSH		3
 	RESOURCE_FORCE 1
 	forcePowerMax	200
 	//forceRegenRate	50
@@ -159,14 +158,15 @@ cultist_pull //NNN: Should be a combined push/pull/repulse/superpush eventually
 	dismemberProbWaist	0
 }
 
-cultist_push
+cultist_pull 
 {
 	playerModel	reborn_concept
 	customSkin	force
 	weapon		WP_MELEE
 	MB_ATT_FORCEBLOCK 3
 	FP_LEVITATION	3
-	FP_PUSH		3
+	//FP_PUSH		3
+	FP_PULL		3
 	RESOURCE_FORCE 1
 	forcePowerMax	200
 	//forceRegenRate	50
