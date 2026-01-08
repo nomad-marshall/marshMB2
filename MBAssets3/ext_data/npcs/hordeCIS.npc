@@ -550,6 +550,8 @@ BX_Sword2 //AI works best with style 2/yellow.
 	saberStyle	2
 	MB_ATT_FP_SABER_DEFENSE 1
 	FP_LEVITATION	1
+	RESOURCE_FORCE 1
+	forcePowerMax	100
 	PBchance 20
 	MBchance 2
 	SBchance 45
@@ -1471,7 +1473,7 @@ B1_Sniper //stands in the back and shoots, not amazing but an ok way to vary up 
 	dismemberProbWaist	0
 }
 
-B2 //WIP: need work, espcially size wise 
+B2 //WIP: needs work and variants 
 {
 	playerModel sbd
 	//customSkin  ep1
