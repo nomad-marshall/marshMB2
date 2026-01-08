@@ -36,7 +36,7 @@ ClassInfo
 	saberMaxChain 1
 	saber1 		r2_saw_leg
 	saberstyle 	SS_STAFF
-	saberdamage 11 //12
+	saberdamage 12
 	
 	hackRate 0.80
 	basespeed	215
@@ -159,7 +159,7 @@ A plucky support with numerous gadgets.
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers on hit
--- 90% less DMG
+-- 95% less DMG
 -- 50% less reach
 -- 66% more radius
 - Flamethrower

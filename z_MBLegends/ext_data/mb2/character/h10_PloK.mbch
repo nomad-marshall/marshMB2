@@ -106,7 +106,8 @@ WeaponInfo0
 	damageMod 4
 	clipsize 10
 	customAmmo -1
-	rateMod 8
+	rateMod 8.88
+ velocityMod .76
 	hasAnimOverrides 1
 	animReadyRun BOTH_MELEE_STAND1
 	animReady BOTH_MELEE_STAND1
@@ -172,7 +173,8 @@ A hearty Jedi with the ability to manipulate the elements.
 - Force Blast (Minigun 2)
 -- Staggers/pushes on hit
 -- 300% more DMG
--- 700% slower RoF
+-- 788% slower RoF
+-- 24% less velocity
 
 ^5Force Powers:
 - Jump (2)
@@ -180,7 +182,7 @@ A hearty Jedi with the ability to manipulate the elements.
 - Fog (Pull 2)
 - Sense (1)
 - Electric Judgment (Lightning 1)
-- Blinding (1) ^3[CS3]
+- Blind (1) ^3[CS3]
 - Grill (Deadly Sight 1) ^3[CS4]
 - Mind Trick (1)
 

@@ -40,7 +40,7 @@ ClassInfo
 	
 	saber1 				k2melee_legends
 	saberstyle			SS_TAVION
-	saberDamage 105 //120
+	saberDamage 120
 	saberSpecialDamage 2
 	saberMaxChain 1
 	APmultiplier		1.5
@@ -121,7 +121,6 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 -- 165% more KB
 -- 5% faster movement
 -- 100% more special DMG
--- 12% less DMG
 -- 35% less reach
 -- 300% more radius
 -- Slap ^3[CS2]

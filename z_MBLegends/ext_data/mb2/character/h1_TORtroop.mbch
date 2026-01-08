@@ -83,9 +83,9 @@ c_att_names_0	"Reinforcement"
 c_att_ranks_0	6
 c_att_skill_1	MB_ATT_MINIGUN
 c_att_names_1	"Assault Cannon (Minigun)"
-c_att_ranks_1	2,1
+c_att_ranks_1	3,0
 c_att_descs_1 "Ignites on hit, 50% more DMG, 25% more FP DMG,
-20% less velocity, 75% slower RoF"
+35% less velocity, 95% slower RoF"
 c_att_skill_2	MB_ATT_FRAGS
 c_att_names_2	"Frag Grenade"
 c_att_ranks_2	1
@@ -179,9 +179,9 @@ WeaponName	"Assault Cannon"
 customAmmo 600
 isMinigun	1
 FPMult 1.25
-velocityMod 0.8
+velocityMod 0.65
 DamageMod 1.5
-rateMod 1.75
+rateMod 1.95
 }
 WeaponInfo1
 {

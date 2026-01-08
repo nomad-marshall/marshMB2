@@ -25,7 +25,7 @@ ClassInfo
 	special3 EAS_HI_MEDPAC
 	special4 EAS_HI_DASH
 
- saberDamage 55 //60
+ saberDamage 60
 	saber1		reb_wrench_p
 	sabercolor	0
 	saberstyle	SS_TAVION
@@ -38,7 +38,7 @@ ClassInfo
 	WP_TripMineFlags HELD_SPEED
 	WP_MeleeFlags HELD_SPEED
 	WP_PulseNadeFlags HELD_SPEED
-	WP_BlasterFlags HELD_KNOCKBACK
+	//WP_BlasterFlags HELD_KNOCKBACK
  WP_StunBatonFlags HELD_SPEED|HELD_FLAME
 
 	isCustomBuild		1
@@ -47,7 +47,7 @@ ClassInfo
 c_att_skill_0 MB_ATT_STUN_BATON
 c_att_names_0 "F-187 Fusioncutter (Stun Baton)"
 c_att_ranks_0 0
-c_att_descs_0 "Ignites on hit, 15% faster movement, 80% faster RoF, 70% less DMG"
+c_att_descs_0 "Ignites on hit, 15% faster movement, 80% faster RoF, 65% less DMG"
 
 c_att_skill_1 MB_ATT_TRIP_MINES
 c_att_names_1 "Trip Mines"
@@ -146,7 +146,7 @@ MissileMissEffect "effects/sparks/spark_exp_nosnd"
 MissileHitHumanEffect "effects/sparks/spark_exp_nosnd"
 MissileHitDroidEffect "effects/sparks/spark_exp_nosnd"
 rateMod .2
-damageMod .3
+damageMod .35
 }
 WeaponInfo3
 {
@@ -168,7 +168,7 @@ description	"Rebel Engineer [Clone Trooper]
 -- No Saber/Blaster Block
 -- No Saber Training
 -- 200% more KB
--- 54% less DMG
+-- 50% less DMG
 -- 40% less reach
 -- 167% more radius
 -- Slap ^3[CS2]
@@ -182,7 +182,6 @@ description	"Rebel Engineer [Clone Trooper]
 ^6Inventory:
 - Medpac ^3[CS3]
 - Portable E-Web Cannon
--- Pushes on hit
 - Assault Sentry
 
 ^8Attributes:

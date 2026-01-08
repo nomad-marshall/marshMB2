@@ -54,8 +54,8 @@ ClassInfo
 	uishader_5	"models/players/gwethenea/mb2_icon_guerilla_twilek"
 	
 	model_6		"gwethenea" 				 
-	skin_6		"desert"					 
-	uishader_6	"models/players/gwethenea/mb2_icon_desert"
+	skin_6		"swamp"					 
+	uishader_6	"models/players/gwethenea/mb2_icon_swamp"
 	
 	model_7		"rebel_pathfinder"
 	skin_7 	"desert"

@@ -8,7 +8,7 @@ ClassInfo
 	forcepowers			FP_SABER_OFFENSE,2|FP_LEVITATION,3|FP_SEE,2|FP_PUSH,3|FP_PULL,2|FP_LIGHTNING,3|FP_SABERTHROW,3|FP_GRIP,3
 	maxhealth		100
 	maxarmor			20
-	//saberDamage 300
+
 	forcepool		140
 	forceregen       1.35
 	saberStanceAnim BOTH_SABER_STARKILLER_STANCE

@@ -64,7 +64,7 @@ c_att_descs_3 "80% more DMG"
 c_att_skill_4	MB_ATT_MINIGUN
 c_att_names_4	"Chaingun (Minigun)"
 c_att_ranks_4	12
-c_att_descs_4 "200% more velocity, 25% faster RoF, 20% less DMG/FP DMG"
+c_att_descs_4 "130% more velocity, 17% faster RoF, 20% less DMG/FP DMG"
 c_att_skill_5	MB_ATT_PULSE_GRENADES
 c_att_names_5	"Pulse Grenades"
 c_att_ranks_5	3,3
@@ -109,7 +109,7 @@ c_att_ranks_23 0
 c_att_skill_30 MB_ATT_STUN_BATON
 c_att_names_30 "F-187 Fusioncutter (Stun Baton)"
 c_att_ranks_30 2
-c_att_descs_30 "Ignites on hit, 80% faster RoF, 70% less DMG"
+c_att_descs_30 "Ignites on hit, 80% faster RoF, 65% less DMG"
 c_att_skill_31 MB_ATT_DC_CARBINE
 c_att_names_31 "DC-15S Clone Carbine"
 c_att_ranks_31 2,1,1
@@ -146,10 +146,10 @@ Icon	"gfx/hud/w_icon_rotary_cannon"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileEffect	"halo_shotgun/shot"
 MissileMissEffect "halo_smg/wall_impact"
-rateMod .75
+rateMod .83
 damageMod .8
 fpmult .8
-velocitymod 3
+velocitymod 2.3
 customAmmo 900
 hasAnimOverrides 1
 animReadyRun BOTH_DC15_IDLE
@@ -254,7 +254,7 @@ animAttack BOTH_ATTACK2
 animAttackWalk BOTH_ATTACK2
 FlashSound0 "sound/weapons/fusioncutter/cutter_hit.mp3"
 rateMod .2
-damageMod .3
+damageMod .35
 }
 description "Clone Specialist [Clone Trooper]
 

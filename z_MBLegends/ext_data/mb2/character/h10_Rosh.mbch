@@ -22,7 +22,7 @@ ClassInfo
 	MBClass			MB_CLASS_JEDI
 	classNumberLimit	1
 	damageGiven		1.2
-	saberThrowDamage 42 //50
+	saberThrowDamage 50
 	tauntAnim BOTH_ENGAGETAUNT
 	saberStanceAnim	 BOTH_P7_S7_BL
 	//meditateAnim 		BOTH_ROSH_PAIN
@@ -52,10 +52,10 @@ Rosh has bizarre abilities, such as a modified Staff saber style and a unique Fo
 -- Saber/Blaster Defense (1)
 -- Saber Deflect (3)
 -- Chain Limit: 4
--- 25% longer Staff reach
+-- 25% more reach
 -- 43% less radius
 -- EX Saber Throw (1) ^3[CS1]
---- 40% more DMG
+--- 66% more DMG
 -- Slap ^3[CS2]
 
 ^5Force Powers:
@@ -64,7 +64,7 @@ Rosh has bizarre abilities, such as a modified Staff saber style and a unique Fo
 - Pull (3)
 - Sense (2)
 - Lightning (1) ^3[CS3]
-- Blinding (1)
+- Blind (1)
 - Mind Trick (3) ^3[CS4]
 
 ^8Attributes:

@@ -40,7 +40,7 @@ ClassInfo
 	saberstyle			SS_TAVION
 	APmultiplier      	1.25
 	BPmultiplier		0
-	saberdamage 79 //90
+	saberdamage 90
 	saberStanceAnim	BOTH_STAND9
 	
 	flourishAnim BOTH_SHOWOFF_FAST
@@ -117,7 +117,7 @@ A dexterous Jetpack sniper focused on precision.
 - Knuckle Plate Vibroblade (Cyan Saber)
 -- No Saber/Blaster Block
 -- 75% more KB
--- 34% less DMG
+-- 25% less DMG
 -- 57% less reach
 -- 33% more radius
 -- Slap ^3[CS4]
