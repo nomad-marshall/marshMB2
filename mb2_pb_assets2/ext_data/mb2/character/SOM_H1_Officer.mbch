@@ -14,8 +14,8 @@ ClassInfo
 	respawnCustomTime  	10000
 
 	model			"gwethenea"
-	skin			"rebel_Tan"
-	uishader		"models/players/gwethenea/mb2_icon_rebel_Tan"
+	skin			"rebel"
+	uishader		"models/players/gwethenea/mb2_icon_rebel"
 
 	model_1			"rebel_guerilla"
 	skin_1			"sullustan"
