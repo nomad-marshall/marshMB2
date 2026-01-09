@@ -26,7 +26,7 @@ basespeed 220
 rankbasespeed	237
 WP_SaberFlags	HELD_PULSE|HELD_POISON
 WP_FragNadeFlags HELD_PULSE|HELD_POISON|HELD_KNOCKDOWN|HELD_LOWDAMAGE
-WP_DLT20AFlags HELD_ALTRELOAD|HELD_PULSE
+WP_DLT20AFlags HELD_ALTRELOAD
 WP_DEMP2Flags HELD_POISON|HELD_ALTRELOAD|HELD_STUN
 uioverlay_r "gfx/icons/infantry"
 uioverlay_l "gfx/icons/spec_infantry"
@@ -78,9 +78,9 @@ c_att_names_0	"Reinforcement"
 c_att_ranks_0	6
 c_att_descs_0 	"1 default"
 c_att_skill_1	MB_ATT_DLT20A
-c_att_names_1	"Electrified Railgun (DLT20A)"
+c_att_names_1	"Sniper Rifle (DLT20A)"
 c_att_ranks_1	3,1,0
-c_att_descs_1 	"Prim. fire: Hitscan, Alt. fire: Electrifies on hit, 10% more DMG,
+c_att_descs_1 	"Prim. fire: Hitscan, 10% more DMG,
 10% more FP DMG, 20% slower RoF, 70% slower mag reload"
 c_att_skill_2	MB_ATT_TRIP_MINES
 c_att_names_2	"Trip Mine"
@@ -170,7 +170,7 @@ WeaponBasedOff WP_DLT20A
 NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
 NewViewModel "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
 Icon "gfx/hud/w_icon_dlt-18"
-WeaponName	"Electrified Railgun"
+WeaponName	"Sniper Rifle"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileEffect	"halo_smg/projectile"
 MissileMissEffect "halo_smg/wall_impact"
