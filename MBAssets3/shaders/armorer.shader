@@ -49,6 +49,26 @@ models/players/armorer/hips_cull
 		map models/players/armorer/hips
 		rgbGen lightingDiffuse
 	}
+ 	{
+                map models/players/armorer/hips_spec
+       	blendFunc GL_SRC_ALPHA GL_ONE
+      	detail
+       	alphaGen lightingSpecular
+	}
+}
+
+models/players/armorer/hips
+{
+	{
+		map models/players/armorer/hips
+		rgbGen lightingDiffuse
+	}
+ 	{
+                map models/players/armorer/hips_spec
+       	blendFunc GL_SRC_ALPHA GL_ONE
+      	detail
+       	alphaGen lightingSpecular
+	}
 }
 
 models/players/armorer/fur
