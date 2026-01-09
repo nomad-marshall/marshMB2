@@ -496,7 +496,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"A Fury mode that makes you stronger. Get Rage points by attacking enemies.\nUse with Class Special 1 keybind"
+			bindings {"+button10"}
+			descText			"A Fury mode that makes you stronger. Get Rage points by attacking enemies.\nUse with: Class Special 1 [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
