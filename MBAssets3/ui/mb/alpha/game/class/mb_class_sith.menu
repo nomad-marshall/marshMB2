@@ -113,45 +113,11 @@
 		}
 		
 
-		// Force Attunement assign
-		itemDef
-		{
-			name				setfp_mindtrick
-			group				pointssetup
-			style				WINDOW_STYLE_TEXT_RGB3
-			ownerdraw			UI_FORCE_RANK_TELEPATHY
-			rect 8 62 150 18
-			text " "
-            noTextBlink 1
-			text2 "Attunement"
-			font 6
-			textscale 0.15
-			text2alignx			-95
-			textalign			ITEM_ALIGN_LEFT
-			textalignx			95
-			textaligny			-5
-			forecolor			1 1 1 0.8
-			descText			"Unlock higher force power levels at the cost of reduced blaster defense."
-			visible				1
-			action {
-				play			"sound/interface/button1.wav"
-			}
-			mouseenter {
-				show			button_glow
-				setitemrect 	button_glow 8 61 147 20				
-				setcolor		forecolor 1 1 1 1
-			}
-			mouseExit {
-				hide			button_glow
-				setcolor		forecolor 1 1 1 0.8
-			}
-		}
-
 		itemDef
 		{
 			name				Info_Push
 			group				pointssetup
-			rect 113 79 41 18
+			rect 113 62 41 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -172,7 +138,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_PUSH
-			rect 8 79 150 18
+			rect 8 62 150 18
 			text " "
             noTextBlink 1
 			text2 @MENUS_FORCE_PUSH
@@ -183,14 +149,15 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			@MENUS_PUSH_YOUR_FOES_AWAY_AND
+			bindings {"force_throw"}
+			descText			"Push your foes away and repel projectiles.\nUse with Force Push keybind [%b]"//@MENUS_PUSH_YOUR_FOES_AWAY_AND
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect 	button_glow 8 78 147 20
+				setitemrect 	button_glow 8 61 147 20
 				setcolor	 	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -205,7 +172,7 @@
 		{
 			name				Info_Pull
 			group				pointssetup
-			rect 113 96 41 18
+			rect 113 79 41 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -226,7 +193,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_PULL
-			rect 8 96 150 18
+			rect 8 79 150 18
 			text " "
             noTextBlink 1
 			text2 @MENUS_FORCE_PULL
@@ -237,14 +204,15 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			@MENUS_PULL_YOUR_FOES_TO_YOU
+			bindings {"force_pull"}
+			descText			"Pull your foes to you.\nUse with Force Pull keybind [%b]"//@MENUS_PULL_ENEMIES_TOWARDS_YOU
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect 	button_glow 8 95 147 20
+				setitemrect 	button_glow 8 78 147 20
 				setcolor	 	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -258,7 +226,7 @@
 		{
 			name				Info_Sense
 			group				pointssetup
-			rect 113 113 41 18
+			rect 113 96 41 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -279,7 +247,7 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SEE
-			rect 8 113 150 18
+			rect 8 96 150 18
 			text " "
             noTextBlink 1
 			text2 @MENUS_FORCE_SIGHT
@@ -290,14 +258,15 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			@MENUS_SEE_ENEMIES_AT_ALL_TIMES
+			bindings {"force_seeing"}
+			descText			"See enemies at all times, and even dodge sniper shots.\nUse with Force Seeing keybind [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect 	button_glow 8 112 147 20
+				setitemrect 	button_glow 8 95 147 20
 				setcolor		forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -381,7 +350,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Unlock Force Grip and immobilize opponents in an agonizing grip of death.\nUse with Class Special 3 or Force-related keybinds"//@MENUS_IMMOBILIZE_OPPONENTS
+			bindings {"+button12","use_electrobinoculars"}
+			descText			"Unlock Force Grip and immobilize opponents in an agonizing grip of death.\nUse with: Class Special 3 [%b] or Force Grip keybind [%b]"//@MENUS_IMMOBILIZE_OPPONENTS
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
@@ -434,7 +404,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Unlock Force Lightning, deadly electrical attacks to use against your foes.\nUse with Class Special 4 or Force-related keybinds"//@MENUS_UNLEASH_DEADLY_ELECTRICAL
+			bindings {"+button13","use_ammodisp"}
+			descText			"Unlock Force Lightning, deadly electrical attacks to use against your foes.\nUse with: Class Special 4 [%b] or Force Lightning keybind [%b]"//@MENUS_UNLEASH_DEADLY_ELECTRICAL
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
@@ -1001,7 +972,7 @@
 			rect 8 293 147 18
 			text " "
             noTextBlink 1
-			text2 "Saber Defend"
+			text2 "Saber Defense"
 			text2alignx -95
 			font 6
 			textalign			ITEM_ALIGN_LEFT
@@ -1021,8 +992,40 @@
 			}
 			mouseExit {
 				hide			button_glow
-				setcolor		forecolor 1 1 1 0.8
+				setcolor	 	forecolor 1 1 1 0.8
 			}
+		}
+
+		itemDef
+		{
+			name 				setfp_saberdefend
+			group				pointssetup
+			style				WINDOW_STYLE_FILLED
+			rect 				11 309 3 29
+			backcolor			1 1 1 0.8
+			visible				1
+		}
+
+		// SD Sub ability secondary line 1
+		itemDef
+		{
+			name 				setfp_drain
+			group				pointssetup
+			style				WINDOW_STYLE_FILLED
+			rect 				14 317.5 4 4
+			backcolor			1 1 1 0.8
+			visible				1
+		}
+
+		// SD Sub ability secondary line 2
+		itemDef
+		{
+			name 				setfp_teamheal
+			group				pointssetup
+			style				WINDOW_STYLE_FILLED
+			rect 				14 334 4 4
+			backcolor			1 1 1 0.8
+			visible				1
 		}
 
 		// Blaster Defend assign
@@ -1036,7 +1039,7 @@
 			text " "
             noTextBlink 1
 			text2 "Blaster Defense"
-			text2alignx -95
+			text2alignx -82
 			font 6
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
@@ -1050,14 +1053,15 @@
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect		button_glow 8 309 147 20
+				setitemrect 	button_glow 8 309 147 20
 				setcolor		forecolor 1 1 1 1
 			}
 			mouseExit {
 				hide			button_glow
-				setcolor		forecolor 1 1 1 0.8
+				setcolor	 	forecolor 1 1 1 0.8
 			}
 		}
+
 
 		// Saber deflect assign
 		itemDef
@@ -1069,8 +1073,8 @@
 			rect 8 327 147 18
 			text " "
             noTextBlink 1
-			text2 "Saber Deflect"
-			text2alignx -95
+			text2 "Blaster Deflect"
+			text2alignx -82
 			font 6
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
@@ -1085,11 +1089,11 @@
 			mouseenter {
 				show			button_glow
 				setitemrect 	button_glow 8 326 147 20
-				setcolor		forecolor 1 1 1 1
+				setcolor	 	forecolor 1 1 1 1
 			}
 			mouseExit {
 				hide			button_glow
-				setcolor		forecolor 1 1 1 0.8
+				setcolor	 	forecolor 1 1 1 0.8
 			}
 		}
 		
@@ -1111,7 +1115,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Throw your lightsaber at enemies and with higher level manually control it.\nUse with Class Special 1 keybind."
+			bindings {"+button10"}
+			descText			"Throw your lightsaber at enemies and with higher level manually control it.\nUse with: Class Special 1 [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"

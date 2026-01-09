@@ -580,7 +580,8 @@
 			textscale 			.15
 			textaligny			-5
 			forecolor			1 1 1 0.8
-			descText			"Darts that poison enemies draining HP, twisting vision, and negating certain abilities\nUse with Class Special 1 keybind"
+			bindings {"+button10"}
+			descText			"Darts that poison enemies draining HP, twisting vision, and negating certain abilities\nUse with: Class Special 1 [%b]"
 			visible				1 
 			action {
 				play			"sound/interface/button1.wav"
@@ -633,7 +634,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Darts that track enemies and flash a color depending on the enemy's health\nUse with Class Special 2 keybind"
+			bindings {"+button11"}
+			descText			"Darts that track enemies and flash a color depending on the enemy's health\nUse with: Class Special 2 [%b]"
 			visible				1 
 			action {
 				play			"sound/interface/button1.wav"

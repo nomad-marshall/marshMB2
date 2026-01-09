@@ -538,7 +538,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Increases your reflexes and allows you to dodge incoming sniper fire"
+			bindings {"+button10"}
+			descText			"Increases your reflexes and allows you to dodge incoming sniper fire\nUse with: Class Special 1 [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"

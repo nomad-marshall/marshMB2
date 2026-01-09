@@ -390,7 +390,8 @@
 			textscale			.15
 			textaligny			-5
 			forecolor			1 1 1 0.8
-			descText			"Perform a skilled sprinting move, and very briefly avoid all blaster fire\nUse with Class Special 2 keybind"
+			bindings {"+button11"}
+			descText			"Perform a skilled sprinting move, and very briefly avoid all blaster fire\nUse with: Class Special 2 [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
@@ -424,7 +425,8 @@
 			textscale			.15
 			textaligny			-5
 			forecolor			1 1 1 0.8
-			descText			"Increases your reflexes and allows you to dodge incoming sniper fire\nUse with Class Special 1 keybind"
+			bindings {"+button10"}
+			descText			"Increases your reflexes and allows you to dodge incoming sniper fire\nUse with: Class Special 1 [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"

@@ -183,7 +183,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Increase the recharge rate of your droids battery and stop battery drain from walking"
+			bindings {"+button10"}
+			descText			"Increase the recharge rate of your droids battery and stop battery drain from walking\nUse with: Class Special 1 [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"

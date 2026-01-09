@@ -115,45 +115,11 @@
 		}
 		
 
-		// Force Attunement assign
-		itemDef
-		{
-			name				setfp_grip
-			group				pointssetup
-			style				WINDOW_STYLE_TEXT_RGB3
-			ownerdraw			UI_FORCE_RANK_GRIP
-			rect 8 62 150 18
-			text " "
-            noTextBlink 1
-			text2 "Attunement"
-			font 6
-			textscale 0.15
-			text2alignx			-95
-			textalign			ITEM_ALIGN_LEFT
-			textalignx			95
-			textaligny			-5
-			forecolor			1 1 1 0.8
-			descText			"Unlock higher force power levels at the cost of reduced blaster defense."
-			visible				1
-			action {
-				play			"sound/interface/button1.wav"
-			}
-			mouseenter {
-				show			button_glow
-				setitemrect 	button_glow 8 61 147 20				
-				setcolor		forecolor 1 1 1 1
-			}
-			mouseExit {
-				hide			button_glow
-				setcolor		forecolor 1 1 1 0.8
-			}
-		}
-
 		itemDef
 		{
 			name				Info_Push
 			group				pointssetup
-			rect 113 79 41 18
+			rect 113 62 41 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -174,10 +140,10 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_PUSH
-			rect 8 79 150 18
+			rect 8 62 150 18
 			text " "
             noTextBlink 1
-			text2 @MENUS_FORCE_PUSH
+			text2 "Push"
 			font 6
 			text2alignx -95
 			textalign			ITEM_ALIGN_LEFT
@@ -185,14 +151,15 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			@MENUS_PUSH_YOUR_FOES_AWAY_AND
+			bindings {"force_throw"}
+			descText			"Push your foes away and repel projectiles.\nUse with Force Push keybind [%b]"//@MENUS_PUSH_YOUR_FOES_AWAY_AND
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect 	button_glow 8 78 147 20
+				setitemrect 	button_glow 8 61 147 20
 				setcolor	 	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -207,7 +174,7 @@
 		{
 			name				Info_Pull
 			group				pointssetup
-			rect 113 96 41 18
+			rect 113 79 41 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -228,10 +195,10 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_PULL
-			rect 8 96 150 18
+			rect 8 79 150 18
 			text " "
             noTextBlink 1
-			text2 @MENUS_FORCE_PULL
+			text2 "Pull"
 			text2alignx -95
 			font 6
 			textalign			ITEM_ALIGN_LEFT
@@ -239,14 +206,15 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			@MENUS_PULL_YOUR_FOES_TO_YOU
+			bindings {"force_pull"}
+			descText			"Pull your foes to you.\nUse with Force Pull keybind [%b]"//@MENUS_PULL_ENEMIES_TOWARDS_YOU
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect 	button_glow 8 95 147 20
+				setitemrect 	button_glow 8 78 147 20
 				setcolor	 	forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -260,7 +228,7 @@
 		{
 			name				Info_Sense
 			group				pointssetup
-			rect 113 113 41 18
+			rect 113 96 41 18
 			style				WINDOW_STYLE_SHADER
 			//background			"gfx/menus/alpha/Btn_Info"
 			forecolor			1 1 1 0
@@ -281,10 +249,10 @@
 			group				pointssetup
 			style				WINDOW_STYLE_TEXT_RGB3
 			ownerdraw			UI_FORCE_RANK_SEE
-			rect 8 113 150 18
+			rect 8 96 150 18
 			text " "
             noTextBlink 1
-			text2 @MENUS_FORCE_SIGHT
+			text2 "Seeing"
 			text2alignx -95
 			font 6
 			textalign			ITEM_ALIGN_LEFT
@@ -292,14 +260,15 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			@MENUS_SEE_ENEMIES_AT_ALL_TIMES
+			bindings {"force_seeing"}
+			descText			"See enemies at all times, and even dodge sniper shots.\nUse with Force Seeing keybind [%b]"
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
 			}
 			mouseenter {
 				show			button_glow
-				setitemrect 	button_glow 8 112 147 20
+				setitemrect 	button_glow 8 95 147 20
 				setcolor		forecolor 1 1 1 1
 			}
 			mouseExit {
@@ -416,9 +385,10 @@
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
 			textaligny			-5
+			bindings {"+button12","force_speed"}
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Unlock force speed, through which you can move at higher speed.\nUse with Class Special 3 or Force-related keybinds"//@MENUS_MOVE_AT_AN_ACCELERATED
+			descText			"Unlock force speed, through which you can move at higher speed.\nUse with: Class Special 3 [%b] or Force Speed keybind [%b]"//@MENUS_MOVE_AT_AN_ACCELERATED
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
@@ -470,8 +440,9 @@
 			textalignx			95
 			textaligny			-5
 			textscale			.15
+			bindings {"+button13","force_distract"}
 			forecolor			1 1 1 0.8
-			descText			"A Jedi Mindtrick, used to confuse enemies, makes you invisible to them.\nUse with Class Special 4 or Force-related keybinds"//@MENUS_RENDER_YOURSELF_INVISIBLE
+			descText			"A Jedi Mindtrick, used to confuse enemies, makes you invisible to them.\nUse with: Class Special 4 [%b] or Force Mindtrick keybind [%b]"//@MENUS_RENDER_YOURSELF_INVISIBLE
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
@@ -1002,7 +973,7 @@
 			rect 8 293 147 18
 			text " "
             noTextBlink 1
-			text2 @MENUS_SABER_DEFEND
+			text2 "Saber Defense"
 			text2alignx -95
 			font 6
 			textalign			ITEM_ALIGN_LEFT
@@ -1026,6 +997,38 @@
 			}
 		}
 
+		itemDef
+		{
+			name 				setfp_saberdefend
+			group				pointssetup
+			style				WINDOW_STYLE_FILLED
+			rect 				11 309 3 29
+			backcolor			1 1 1 0.8
+			visible				1
+		}
+
+		// SD Sub ability secondary line 1
+		itemDef
+		{
+			name 				setfp_drain
+			group				pointssetup
+			style				WINDOW_STYLE_FILLED
+			rect 				14 317.5 4 4
+			backcolor			1 1 1 0.8
+			visible				1
+		}
+
+		// SD Sub ability secondary line 2
+		itemDef
+		{
+			name 				setfp_teamheal
+			group				pointssetup
+			style				WINDOW_STYLE_FILLED
+			rect 				14 334 4 4
+			backcolor			1 1 1 0.8
+			visible				1
+		}
+
 		// Blaster Defend assign
 		itemDef
 		{
@@ -1037,7 +1040,7 @@
 			text " "
             noTextBlink 1
 			text2 "Blaster Defense"
-			text2alignx -95
+			text2alignx -82
 			font 6
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
@@ -1071,8 +1074,8 @@
 			rect 8 327 147 18
 			text " "
             noTextBlink 1
-			text2 "Saber Deflect"
-			text2alignx -95
+			text2 "Blaster Deflect"
+			text2alignx -82
 			font 6
 			textalign			ITEM_ALIGN_LEFT
 			textalignx			95
@@ -1113,7 +1116,8 @@
 			textaligny			-5
 			textscale			.15
 			forecolor			1 1 1 0.8
-			descText			"Throw your lightsaber at enemies and with higher level manually control it.\nUse with Class Special 1 keybind."
+			bindings {"+button10"}
+			descText			"Throw your lightsaber at enemies and with higher level manually control it.\nUse with: Class Special 1 [%b]."
 			visible				1
 			action {
 				play			"sound/interface/button1.wav"
