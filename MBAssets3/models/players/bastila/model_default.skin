@@ -10,6 +10,19 @@ hips,models/players/bastila/body.tga
 r_leg,models/players/bastila/body.tga
 l_leg,models/players/bastila/body.tga
 
+hipsb,*off
+torsob,*off
+l_armb,*off
+r_armb,*off
+headb,*off
+
+head_hood,*off
+hips_jedi_robe,*off
+torso_jedi_robe,*off
+torso_jedi_robe_hood,*off
+l_arm_jedi_robe,*off
+r_arm_jedi_robe,*off
+
 hips_cap_l_leg_off,models/players/stormtrooper/caps.tga
 hips_cap_torso_off,models/players/stormtrooper/caps.tga
 hips_cap_r_leg_off,models/players/stormtrooper/caps.tga
