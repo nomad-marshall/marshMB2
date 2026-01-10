@@ -1,23 +1,28 @@
 ClassInfo
 {
 	name  				"v7_Thrawn"
-	weapons				WP_BLASTER_PISTOL|WP_MELEE|WP_FRAG_NADE|WP_FIRE_NADE|WP_SONIC_NADE
-	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY|MB_ATT_FLIPKICK,1|MB_ATT_FRAGS,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_FORCEBLOCK,3|MB_ATT_DODGE,2|MB_ATT_SONIC_DETONATOR,2|MB_ATT_DISP_ARMOR,3|MB_ATT_DISP_HEALTH,3|MB_ATT_USE_DISTANCE,1|MB_ATT_TRACKING_DART,2
-	damageTaken .9
-	forcepowers			FP_SEE,2
-	classflags			CFL_STATVIEWER
-	forcepool			100
-	maxhealth			150
-	maxarmor			80
-	speed			    0.95
-	MBClass				MB_CLASS_BOUNTY_HUNTER
-	
-	resource			RESOURCE_FORCE
-	
 	classNumberLimit		1
-	modelscale          1.01
+	MBClass				MB_CLASS_SITH
+
+	weapons				WP_BLASTER_PISTOL|WP_MELEE|WP_FRAG_NADE|WP_FIRE_NADE|WP_SONIC_NADE
+
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY|MB_ATT_FLIPKICK,1|MB_ATT_FRAGS,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_FORCEBLOCK,3|MB_ATT_DODGE,2|MB_ATT_SONIC_DETONATOR,2|MB_ATT_DISP_ARMOR,3|MB_ATT_DISP_HEALTH,3|MB_ATT_USE_DISTANCE,1|MB_ATT_TRACKING_DART,2
+
+	forcepowers			FP_SEE,2
+
+	classflags			CFL_STATVIEWER
+
+	resource			RESOURCE_FORCE
+	forcepool			100
+
+	maxhealth			155
+	maxarmor			 80
+ damageTaken 0.9
+	speed			0.95
+ rateoffire_melee	0.9
+
 	holdables 			HI_MEDPAC_BIG|HI_MEDPAC|HI_SEEKER|HI_BINOCULARS
-	
+
 	special1 EAS_HI_DODGE
 	special2	EAS_HI_TRACKER
 	special3	EAS_HI_MEDPAC
@@ -28,31 +33,25 @@ ClassInfo
 	idleanim	BOTH_STAND4
 	gloatanim	BOTH_TALKCOMM1START
 	flourishanim  BOTH_STAND1_TALK1
-	//firinganim
 	
 	uioverlay_r "gfx/icons/tactician"
 	uioverlay_l "gfx/icons/medic"
+	modelscale 1.01
+	model	"thrawn2"
+	skin		"default"
+	uishader	"models/players/thrawn2/mb2_icon_default"
 	
-	rateoffire_melee	0.9
+	model_1	"thrawn2"
+	skin_1		"armor"
+	uishader_1	"models/players/thrawn2/mb2_icon_armor"
 
-	model		"thrawn"
-	skin			"default"
-	uishader		"models/players/thrawn/mb2_icon_default"
+	model_2		"thrawn"
+	skin_2			"default"
+	uishader_2		"models/players/thrawn/mb2_icon_default"
 
-	model_1		"thrawn"
-	skin_1		"ysalamiri"
-	uishader_1	"models/players/thrawn/mb2_icon_ysalamiri"
-	
-	model_2		"thrawn2"
-	skin_2		"default"
-	uishader_2	"models/players/thrawn2/mb2_icon_default"
-	
-	model_3		"thrawn2"
-	skin_3		"armor"
-	uishader_3	"models/players/thrawn2/mb2_icon_armor"
-	
-	//respawncustomtime 90000
-
+	model_3	"thrawn"
+	skin_3		"ysalamiri"
+	uishader_3	"models/players/thrawn/mb2_icon_ysalamiri"
 }
 
 ForceInfo0
@@ -69,7 +68,7 @@ WeaponInfo0
 	NewWorldModel	"models/weapons2/imp_pistol/pistol_w.glm"
 	NewViewModel	"models/weapons2/imp_pistol/pistol_fpv.md3"
 	Icon		"gfx/hud/w_icon_imp_pistol"
-	WeaponName	"Imperial Pistol"
+	WeaponName	"Thrawn's Blaster Pistol"
 	customAmmo 700
 	clipSize 21
 	FlashSound0		"sound/weapons/firegun/fire.wav"
@@ -86,14 +85,14 @@ WeaponInfo0
 	FPChargeMult	1.2
 }
 
-description	"Mitth'raw'nuruodo aka Grand Admiral Thrawn [Bounty Hunter]
+description	"Mitth'raw'nuruodo aka Grand Admiral Thrawn [Sith]
 
 An agile, pistol-wielding commander/medic hybrid with Force power resistance.
 
 ^2Weaponry:
 - Melee
 -- 10% faster RoF
-- Imperial Pistol (3)
+- Thrawn's Blaster Pistol (3)
 -- 20% more charged FP DMG
 - Frag Grenades (2)
 - Fire Grenade (1)

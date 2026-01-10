@@ -1,29 +1,34 @@
 //tongue
 
 Classinfo	
-{		  		
- 
- 	name				"h2_JarJar"		
- 	MBClass			MB_CLASS_HERO
-	weapons			WP_MELEE|WP_SABER|WP_T21|WP_FRAG_NADE|WP_PULSE_NADE
-	
-	attributes	MB_ATT_BUNNY_HOP,2|MB_ATT_FLOAT_HOP|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_ROSHTAUNT|MB_ATT_WATER_BREATHING|MB_ATT_FLIPKICK,3|MB_ATT_DASH_JUMP|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_T21,1|MB_ATT_BLAST_ARMOUR|
+{
+ name				"h2_JarJar"		
+ MBClass			MB_CLASS_JEDI
+ classNumberLimit	1
 
-	modelScale  1.07			
-	basespeed 	200
+	weapons			WP_MELEE|WP_SABER|WP_T21|WP_PULSE_NADE|WP_FLECHETTE
+	
+	attributes	MB_ATT_BUNNY_HOP,2|MB_ATT_FLOAT_HOP|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_ROSHTAUNT|MB_ATT_WATER_BREATHING|MB_ATT_FLIPKICK,3|MB_ATT_DASH_JUMP|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_T21,1|MB_ATT_BLAST_ARMOUR|MB_ATT_QUICKTHROW,3|MB_ATT_FLECHETTE,4
+	
+	WP_MeleeFlags HELD_HIGHDAMAGE
+	WP_SaberFlags HELD_KNOCKDOWN 
+ WP_FlechetteFlags HELD_SLOW|HELD_PULSE|HELD_DISRUPTIFY|HELD_KNOCKBACK|HELD_KNOCKDOWN
+	WP_PulseNadeFlags HELD_DISRUPTIFY|HELD_HIGHDAMAGE
+	WP_T21Flags HELD_LOWDAMAGE
+	
+	basespeed 	218
 	forcepowers FP_LEVITATION,1
  maxhealth	200
-	maxarmor		60
+	maxarmor		65
 	
 	saber1 		jarjar_leg
-	saberstyle	SS_TAVION
-	
+	//saber2			jarjar_leg
+	saberstyle	SS_DUAL
+	saberSpecialDamage 2
 	saberMaxChain 	1
 	saberDamage		40
-	APmultiplier 		1
-	ASmultiplier 		1
-	CSmultiplier 		1
-	BPmultiplier		0
+	ASmultiplier 1.3
+	BPmultiplier	0
 
 	forcepool	200
 	forceregen 2
@@ -32,72 +37,41 @@ Classinfo
 	resourceRegenRate 1
 	resource RESOURCE_STAMINA
 
- classNumberLimit	1
+	classflags CFL_BLOODYMELEE
 	
 	rateOfFire .15
 	rateOfFire_Melee	0.75
+
 	damageGiven 0.5
+
 	knockbackTaken 1.5
 	knockbackGiven 1.5
-	skilltimermod 3
-		
+
+	skilltimermod 2.9
+
+	hackRate 0.5
+
 	special1	EAS_HI_DODGE
 	special2	EAS_HI_DEX
 	special3	EAS_HI_DASH
-	//special4 EAS_HI_GRAPPLEHOOK
+	special4 EAS_HI_QUICKTHROW
 	
 	uioverlay_r "gfx/icons/spec_infantry"
 	uioverlay_l "gfx/icons/brawler"
-	
-	classflags CFL_BLOODYMELEE
-	
+	modelScale  1.07		
  model 			"gungan"					
  skin				 "jarjar_cl"	
-	uishader			"models/players/gungan/mb2_icon_jarjar_cl"
+	uishader	"models/players/gungan/mb2_icon_jarjar_cl"
 
 	WalkForward		  BOTH_WALK7
 	WalkBackward 		BOTH_WALKBACK_DUAL
-	tauntAnim		    BOTH_ENGAGETAUNT
 	gloatAnim      BOTH_TUSKENTAUNT1
 	flourishAnim		BOTH_FORCEWALLRUNFLIP_START
 	bowAnim 			   BOTH_GUNGAN_TAUNT
 	saberStanceAnim	TORSO_SURRENDER_START
-	
-	WP_MeleeFlags HELD_HIGHDAMAGE
-	WP_SaberFlags HELD_KNOCKDOWN
-	WP_FragNadeFlags HELD_STUN|HELD_PULSE|HELD_HIGHDAMAGE|HELD_DISRUPTIFY|HELD_KNOCKDOWN
-	WP_PulseNadeFlags HELD_DISRUPTIFY|HELD_HIGHDAMAGE
-	WP_T21Flags HELD_LOWDAMAGE
-
 }
 
 WeaponInfo0
-{
-	WeaponToReplace		WP_FRAG_NADE
-	WeaponBasedOff		WP_FRAG_NADE
-	NewWorldModel	"models/weapons2/throwables/atlatl/atlatl.glm"
-	NewViewModel	"models/weapons2/throwables/atlatl/atlatl.md3"
-	NewHandsModel	"models/weapons2/throwables/atlatl/atlatl_hand.md3"
-	NewBarrelModel "models/weapons2/throwables/atlatl/atlatl_barrel.md3"
-	altMissileModel 	"models/weapons2/throwables/booma/booma_proj.md3"
-	altFlashSound0		"sound/weapons/stone/fire.mp3"
-	altMissileMissEffect		"effects/Grenades/EXP_Pulsenade"
-	altMissileHitHumanEffect 	"effects/Grenades/EXP_Pulsenade"
-	altMissileHitDroidEffect	"effects/Grenades/EXP_Pulsenade"
-	altMuzzleEffect 		null
-	altMissileEffect 		"grenades/glowempb"
-	primFireEnabled 			0
-	WeaponName				"Atlatl Boomas"
-	Icon						"gfx/hud/w_icon_atlatl"
-	customAmmo 				4
-	SelectSound	"sound/weapons/wood/spin.mp3"
-	animAttackRun BOTH_S6_S6_BL
-	animAttack BOTH_S6_S6_BL
-	animAttackWalk BOTH_S6_S6_BL
-	hasAnimOverrides 1
-}
-
-WeaponInfo1
 {
 	WeaponToReplace		WP_PULSE_NADE
 	WeaponBasedOff		WP_PULSE_NADE
@@ -109,9 +83,14 @@ WeaponInfo1
 	MissileMissEffect		"effects/Grenades/EXP_Pulsenade"
 	MissileHitHumanEffect 	"effects/Grenades/EXP_Pulsenade"
 	MissileHitDroidEffect	"effects/Grenades/EXP_Pulsenade"
+	altMissileModel 			"models/weapons2/throwables/booma/booma_proj.md3"
+	altMissileMissEffect		"effects/Grenades/EXP_Pulsenade"
+	altMissileHitHumanEffect 	"effects/Grenades/EXP_Pulsenade"
+	altMissileHitDroidEffect	"effects/Grenades/EXP_Pulsenade"
 	MuzzleEffect		null
+ altMuzzleEffect null
 	altFireEnabled 			0
-	WeaponName				"Hand Boomas"
+	WeaponName				"Boomas"
 	Icon						"gfx/hud/w_icon_booma"
 	customAmmo 				4
 	SelectSound	"sound/weapons/blunt/spin.mp3"	
@@ -125,7 +104,7 @@ WeaponInfo1
 	animAttackWalk BOTH_THERMAL_THROW2
 }
 
-WeaponInfo2
+WeaponInfo1
 {
 	WeaponToReplace		WP_T21
 	WeaponBasedOff		WP_T21
@@ -144,6 +123,7 @@ WeaponInfo2
 	altMissileEffect		"blaster/Shot01R"
 	customAmmo 		1008
 	clipsize 		144
+ reloadTimeModifier 0.75
 	hasAnimOverrides 1
 	animReadyNoAmmo BOTH_ARC_FORWARD_DIVE
 	animAttackRun BOTH_ARC_FORWARD_DIVE
@@ -151,7 +131,7 @@ WeaponInfo2
 	animAttackWalk BOTH_ARC_FORWARD_DIVE
 }
 
-WeaponInfo3
+WeaponInfo2
 {
 	WeaponToReplace WP_SABER
 	WeaponBasedOff  WP_SABER
@@ -163,36 +143,88 @@ WeaponInfo3
 	altGore			1
 }
 
-description "Jar Jar Binks [Hero]
+WeaponInfo3
+{
+ WeaponToReplace	WP_FLECHETTE
+ WeaponBasedOff	WP_FLECHETTE
+ FlashSound0		"sound/weapons/ballz/swing2.mp3"
+	FlashSound1	"sound/weapons/ballz/swing2.mp3"
+	FlashSound2	"sound/weapons/ballz/swing2.mp3"
+	FlashSound3	"sound/weapons/ballz/swing2.mp3"
+	altFlashSound1		"sound/weapons/ballz/swing2.mp3"
+	altFlashSound2	"sound/weapons/ballz/swing2.mp3"
+	altFlashSound3	"sound/weapons/ballz/swing2.mp3"
+	altFlashSound0	"sound/weapons/ballz/swing2.mp3"
+	NewWorldModel			"models/weapons2/throwables/booma/booma.glm"
+	NewViewModel			"models/weapons2/throwables/booma/booma.md3"
+	NewHandsModel 		"models/weapons2/throwables/booma/booma_hand.md3"
+	MissileModel 			"models/weapons2/throwables/booma/booma_proj.md3"
+	MissileMissEffect		"effects/Grenades/EXP_Pulsenade"
+	MissileHitHumanEffect 	"effects/Grenades/EXP_Pulsenade"
+	MissileHitDroidEffect	"effects/Grenades/EXP_Pulsenade"
+	altMissileModel 			"models/weapons2/throwables/booma/booma_proj.md3"
+	altMissileMissEffect		"effects/Grenades/EXP_Pulsenade"
+	altMissileHitHumanEffect 	"effects/Grenades/EXP_Pulsenade"
+	altMissileHitDroidEffect	"effects/Grenades/EXP_Pulsenade"
+	MuzzleEffect		null
+ altMuzzleEffect null
+	altMissileEffect "grenades/glowempb"
+	MissileEffect "grenades/glowempb"
+	primFireEnabled 			0
+	WeaponName				"Boomaload"
+	Icon						"gfx/hud/w_icon_booma"
+	clipSize 15
+ customAmmo 5
+ velocityMod 0
+ damageMod 3
+ rateMod 12.5
+	SelectSound	"sound/weapons/ballz/fall4.mp3"
+	hasAnimOverrides 1
+	animReadyRun BOTH_HUGGER1
+	animReady BOTH_HUGGER1
+	animReadyWalk BOTH_HUGGER1
+	animReadyNoAmmo BOTH_HUGGER1
+	animAttackRun BOTH_KYLE_MISS
+	animAttack  BOTH_KYLE_MISS
+	animAttackWalk BOTH_KYLE_MISS
+}
+
+description "Jar Jar Binks [Jedi]
 
 Mesa, uh, clumsy...
 
 ^2Weaponry:
 - Heavy Melee
 -- 25% faster RoF
-- Grand Gungan Ticklers (Cyan Saber)
+- Grand Gungan Ticklers (Dual Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Knocks down on hit
--- 30% faster AS
--- 150% more KB
--- 66% less DMG
+-- 160% more KB
 -- 25% less reach
+-- 66% less DMG
+-- 33% less special DMG
+-- 400% more radius
+- Boomaload (1) (Flechette 4)
+-- Electrifies/knocks back/down on det
+-- 200% more DMG
+-- 100% less velocity
+-- 1150% slower shot swap
+-- 15% slower movement
+-- Sec only
 - Salvaged E-5 Blaster Rifle (T-21 1)
+-- 25% faster reload
 -- 50% less DMG
-- Atlatl Boomas (4) (Knockdown Frags)
--- Electrifies/staggers on hit
+- Boomas (4) (Pulse Grenades)
 -- 100% more DMG
--- Sec. only
-- Hand Boomas (4) (Pulse Grenades)
--- 100% more DMG
--- Prim. only
+-- Prim only
 
 ^5Powers:
 - Jar Jar Jump (1)
 
 ^8Attributes:
-- 200% slower skill CD
+- 190% slower skill CD
+- 50% slower Hacking
 - 50% more KB taken/given
 - Bunny Hop (2)
 - Slow Faller
@@ -200,12 +232,13 @@ Mesa, uh, clumsy...
 -- Resource Regen: 5/.001s to 35
 - Dexterity (3)
 - Blast Armor
-- Healing (3)
+- Healing (2)
 - Underwater Breathing
 
 ^3Abilities:
-- Gungan Jive (Taunts damage Sith)
+- Gungan Jive
 - Flipkick (3) ^3[Contact Jump]
 - Dodge (3) ^3[CS1]
 - Dex Roll ^3[CS2]
-- Dash/Dash Jump (2) ^3[CS3]"
+- Dash/Dash Jump (2) ^3[CS3]
+- Quick-Throw (3) ^3[CS4]"

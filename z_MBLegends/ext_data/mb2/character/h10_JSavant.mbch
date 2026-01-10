@@ -3,60 +3,52 @@
 ClassInfo
 {
 	name				"h10_JSavant"
+
+	MBClass				MB_CLASS_JEDI
+	classNumberLimit  	1
+
 	weapons			WP_SABER|WP_MELEE	
+
 	attributes		MB_ATT_SABER_FAST,2|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_RALLY,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2
+
 	forcepowers		FP_LEVITATION,3|FP_PUSH,2|FP_SEE,2|FP_PULL,2|FP_DRAIN,3|FP_ABSORB,1|FP_SPEED,1|FP_SABERTHROW,1|FP_TEAM_FORCE,3
-	
+
+	speed     	1.02
 	maxhealth		120
 	forcepool		125
-	
+	forceregen 1.1
+	damageGiven 1.10
+
+	saberstyle SS_STAFF|SS_TAVION
+	saberDamageStyle SS_TAVION,130
+	saberThrowDamage 40
 	APmultiplier		1.1
-	BPmultiplier    	1.1
+	BPmultiplier  1.1
 	ASmultiplier		1.0
 	CSmultiplier		1.1
-	speed           	1.02
-	saberThrowDamage 40
-	forceregen     1.1
+
 	classflags CFL_NOPICKUPS|CFL_STATVIEWER
-	special3 EAS_FP_TEAM_FORCE
+
 	special2 EAS_FP_ABSORB
+	special3 EAS_FP_TEAM_FORCE
 	special4 EAS_FP_DRAIN
-	
-	saberstyle SS_STAFF|SS_TAVION
-	
+
 	uioverlay "gfx/icons/support"
-	
-	modelscale     	1
-	
 	model		  "bastila"
-	skin			"default"
+	skin			  "default"
 	uishader		"models/players/bastila/mb2_icon_default"
 	
-	model_1			"jedi_female"
+	model_1		"jedi_female"
 	skin_1			"meetra"
 	uishader_1		"models/players/jedi_female/mb2_icon_meetra"
-
-	//model_2		"GI_rebels" 				
-	//skin_2			"jtguard"				
-	//uishader_2		"models/players/GI_rebels/mb2_icon_jtguard"
 	
 	saber1			bastila_legends
 	sabercolor		2
 	
-	saber1_1			Exile_legends
+	saber1_1		Exile_legends
 	sabercolor_1		4	
 
-	//saber1_2		saber_temple_guard_legends
-	//sabercolor_2	2
-
-	MBClass				MB_CLASS_JEDI
-	speed               1
-	classNumberLimit  	1
-	damageGiven         1.10
-	
 	tauntAnim	BOTH_MAUL_TAUNT
-	
-	//respawncustomtime  75000	
 }
 
 description	"Jedi Savant [Jedi]
@@ -66,9 +58,10 @@ A well-rounded Jedi with a powerful Force ability that lets them Energize their 
 ^2Weaponry:
 - Melee
 - Lightsaber (Staff/Cyan)
--- 25% more Staff reach
+-- 25% more reach
+-- 8% more Cyan DMG
 -- Saber/Blaster Defense (2)
--- Saber Deflect (3)
+-- Blaster Deflect (3)
 -- EX Saber Throw (1) ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[GB]

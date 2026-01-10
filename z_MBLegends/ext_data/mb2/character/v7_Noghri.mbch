@@ -2,7 +2,7 @@
 ClassInfo
 {
 	name	"v7_Noghri"
-	MBClass	MB_CLASS_MANDALORIAN
+	MBClass	MB_CLASS_BOUNTY_HUNTER
 	weapons	WP_MELEE|WP_SABER
 	attributes	MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_DEXTERITY,1|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_BUNNY_HOP,1
 
@@ -202,7 +202,7 @@ Icon		"gfx/marvel/spidersense"
 ForcePowerName	"Hunter Sense"
 }
 
-description	"Noghri Death Commando [Mandalorian]
+description	"Noghri Death Commando [Bounty Hunter]
 
 Fast Saber/gunner hybrids with Cloak. Start with reduced resource which can be 'overcharged' through damage dealt.
 
@@ -228,7 +228,7 @@ Fast Saber/gunner hybrids with Cloak. Start with reduced resource which can be '
 - Dexterity (1)
 - Sense Immunity
 - Tracking Beacon
-- Acid Blood (Poison enemies on death)
+- Acid Blood
 
 ^3Abilities:
 - Dex Roll ^3[CS3]"

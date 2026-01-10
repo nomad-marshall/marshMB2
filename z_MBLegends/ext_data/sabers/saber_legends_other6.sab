@@ -733,21 +733,13 @@ jarjar_leg
 	spinSound	"s/w/t/staffswing6.wav"
 	numBlades	1
 	saberLength	30
-	saberRadius	12
-	animSpeedScale 1.3
+	saberRadius	15
+	animSpeedScale 1
 	blasterblocking		0
 	throwable	0
 	disarmable	0
 	blocking		0
 	onInWater		1
-	noRollStab		0
-	noStabDown		0
-	noCartwheels		0
-	noWallFlips		0
-	noWallRuns		0
-	noRolls			0
-	noKicks			0
-	noBackAttack		0
 	singleBladeThrowable	0
 	noWallMarks		1
 	noDlight			1
@@ -755,16 +747,16 @@ jarjar_leg
 	noClashFlare 		1
 	trailStyle		1
 	noIdleEffect		1
-	damageScale		1
-	knockbackScale		1.5
+	knockbackScale		1.6
 	noManualDeactivate	1
 	noDismemberment		0
 	blockEffect	"melee_weap/block"
- 	hitPersonEffect "melee_weap/attack"
+ hitPersonEffect "melee_weap/attack"
 	useGoreConfig 1
 	useGoreConfig2 1
+ tauntAnim BOTH_KNOCKDOWN3
 	drawanim	BOTH_K6_S6_BR
-	jumpAtkFwdMove LS_CYAN_DFA
+	jumpAtkFwdMove	LS_JUMPATTACK_STAFF_RIGHT
 	lungeAtkMove LS_KICK_RL
 	jumpAtkLeftMove LS_JUMPATTACK_CART_LEFT
 	jumpAtkRightMove LS_JUMPATTACK_CART_RIGHT

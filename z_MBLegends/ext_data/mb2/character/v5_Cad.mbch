@@ -6,9 +6,9 @@ ClassInfo
 	
 	MBClass		MB_CLASS_ARCTROOPER
 	classNumberLimit	1
-	maxhealth	120
-	maxarmor		120
-	damageTaken 0.9
+	maxhealth	125
+	maxarmor		125
+
 	speed		1.05
 	modelscale   1.03
 	rateOfFire   0.90

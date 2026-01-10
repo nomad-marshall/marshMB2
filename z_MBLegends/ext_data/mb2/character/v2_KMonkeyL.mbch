@@ -1,38 +1,35 @@
-//Siege class def file.
-//stamina doesn't drain fp if you define a resource
+
 ClassInfo
 {
-	name			"v2_KMonkeyL"
+ name			"v2_KMonkeyL"
+ MBClass			MB_CLASS_SITH
+	classNumberLimit	4
+	extralives		2
 	weapons			WP_MELEE|WP_BLASTER|WP_FRAG_NADE
 
-	attributes		MB_ATT_AMMO,1|MB_ATT_BLASTER,1|MB_ATT_ASSEMBLE,2|MB_ATT_ROSHTAUNT|MB_ATT_DEXTERITY,1|MB_ATT_FRAGS,1|MB_ATT_STAMINA,2|MB_ATT_DASH_JUMP|MB_ATT_GRAPPLE_HOP|MB_ATT_WOOKIE_STRENGTH,1
+	attributes		MB_ATT_AMMO,1|MB_ATT_BLASTER,1|MB_ATT_ASSEMBLE,2|MB_ATT_ROSHTAUNT|MB_ATT_DEXTERITY,1|MB_ATT_FRAGS,1|MB_ATT_STAMINA,2|MB_ATT_GRAPPLE_HOP|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DASH,1
+
+	maxhealth		90
+
 	forcepool 		120
-	forceregen 		1.25
+	forceregen 	1.25
 	forcepowers		FP_SEE,1|FP_LEVITATION,2
 	resource			RESOURCE_STAMINA
-	rateOfFire_Melee 0.9
-	maxhealth		100
-	maxarmor			0
-	model			"salaciouscrumb"
-	skin				"default"
-	uishader			"models/players/salaciouscrumb/mb2_icon_default"
-	MBClass			MB_CLASS_HERO
-	classNumberLimit	4
-	modelscale		.63
-	extralives		2
+
+	rateOfFire_Melee .9
+
+	skilltimermod 1.5
+
+	baseSpeed 195
+
 	rageSoundOverride "sound/chars/salaciouscrumb/misc/rageactivate.mp3"
 	bargeSoundOverride "sound/chars/salaciouscrumb/misc/pain100.mp3"
-	baseSpeed 195
-	//respawncustomtime 	10000
-	uioverlay_r "gfx/icons/infantry"
-	uioverlay_l "gfx/icons/brawler"
-	
-	special1		EAS_HI_SPRINT
 
-	special3		EAS_HI_DEX
+	special1		EAS_HI_SPRINT
+ special2  EAS_HI_DEX
+	special3		EAS_HI_DASH
 	special4		EAS_HI_GRAPPLEHOOK
-	
-	skilltimermod 1.5
+
 	//gloatAnim BOTH_DEATH18
 	gloatAnim BOTH_INJURED_TO_COLLAPSED
 	flourishAnim BOTH_FORCEWALLRUNFLIP_START
@@ -42,12 +39,18 @@ ClassInfo
 	//BOTH_FORCEWALLRUNFLIP_ALT
 	//BOTH_FORCEWALLRUNFLIP_END
 
-	
+	model	"salaciouscrumb"
+	skin		"default"
+	uishader	"models/players/salaciouscrumb/mb2_icon_default"
+	modelscale		.63
+	uioverlay_r "gfx/icons/infantry"
+	uioverlay_l "gfx/icons/brawler"
+
 	isCustomBuild		1
 	mbPoints			1
 	
-	c_att_skill_0	MB_ATT_DASH
-	c_att_names_0	"Dash/Dash Jump ^3[CS2]"
+	c_att_skill_0	MB_ATT_DASH_JUMP
+	c_att_names_0	"Dash Jump"
 	c_att_ranks_0	1
 	c_att_descs_0	"Can jump during Dash"
 	c_att_skill_1	MB_ATT_GRAPPLE_HOOK
@@ -56,9 +59,9 @@ ClassInfo
 	c_att_descs_1 "Retain momentum from first Grapple"
 }
 
-description	"Kowakian Monkey-Lizard [Hero]
+description	"Kowakian Monkey-Lizard [Sith]
 
-Small and agile 3-life creatures with many mobility options. They thrive on ambushes.
+Small and agile 3-life creatures with many mobility options. Taunting within range of a Jedi will deal them minor damage.
 
 ^2Weaponry:
 - Melee
@@ -67,8 +70,8 @@ Small and agile 3-life creatures with many mobility options. They thrive on ambu
 - Frag Grenade (1)
 
 ^5Powers:
-- Crumb Sense (1)
 - Crumb Jump (2)
+- Crumb Sense (1)
 
 ^8Attributes:
 - Reinforcements (2)
@@ -79,8 +82,9 @@ Small and agile 3-life creatures with many mobility options. They thrive on ambu
 - Assemble (2)
 
 ^3Abilities:
-- Toxic Laughter (Taunts damage Jedi)
+- Toxic Laughter
 - Sprint ^3[CS1]
-- Dex Roll ^3[CS3]
+- Dex Roll ^3[CS2]
+- Dash (1) ^3[CS3]
 
 Turn over for nutritional information."

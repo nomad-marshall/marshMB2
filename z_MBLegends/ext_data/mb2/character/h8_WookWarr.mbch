@@ -116,7 +116,7 @@ ClassInfo
 	c_att_skill_4	MB_ATT_PISTOL
 	c_att_names_4	"Kashyyyk Side-Arm Pistol"
 	c_att_ranks_4	0,0,1
-	c_att_descs_4 "Prim. only"
+	c_att_descs_4 "Prim only"
 	
 	c_att_skill_5	MB_ATT_BOWCASTER
 	c_att_names_5	"Bowcaster"
@@ -130,7 +130,7 @@ ClassInfo
 	c_att_skill_7	MB_ATT_ROCKET_LAUNCHER
 	c_att_names_7	"Guided Rocket Launcher (10)"
 	c_att_ranks_7	1
-	c_att_descs_7 "Pushes on hit, 50% slower RoF, 50% slower mag reload,
+	c_att_descs_7 "Pushes on det, 50% slower RoF, 50% slower mag reload,
 15% slower movement"
 
 	c_att_skill_8	MB_ATT_DMG_GIVEN_MULTIPLIER
@@ -246,14 +246,14 @@ Tough 2-life units who can spec into Blasters, brawling, and Saber upgrades. Rag
 - Melee
 -- 25% slower RoF
 - Klorri-Clan Shield (Staff/Purple Saber)
--- Saber Defense/Deflect (0)
+-- Saber Defense (0)
 -- Blaster Defense (3)
 -- Chain Limit: 3
--- 25% more Staff reach
+-- 25% more reach
 -- 65/77% less DMG
 -- Slap ^3[CS3]
 - Kashyyyk Side-Arm Blaster Pistol (2)
--- Prim. only
+-- Prim only
 - Det Packs (3)
 
 ^8Attributes:

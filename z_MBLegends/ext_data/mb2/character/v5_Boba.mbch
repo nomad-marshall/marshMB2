@@ -3,22 +3,30 @@
 ClassInfo
 {
 	name				"v5_Boba"
+	MBClass				MB_CLASS_BOUNTY_HUNTER
+	classNumberLimit    1
 	weapons				WP_MELEE|WP_SHOTGUN|WP_SONIC_NADE|WP_CONCUSSION|WP_EE3
-	attributes			MB_ATT_BESKAR,1|MB_ATT_SHOTGUN,2|MB_ATT_EE3,3|MB_ATT_FRAGS,1|MB_ATT_FUEL,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_FLAMETHROWER,1|MB_ATT_WRISTLASER,1|MB_ATT_HEALING,2|MB_ATT_SONIC_DETONATOR,1|MB_ATT_WHISTLINGBIRD,1|MB_ATT_TRACKING_BEACON|MB_ATT_CONCUSSION,3
+
+	attributes			MB_ATT_BESKAR,2|MB_ATT_SHOTGUN,2|MB_ATT_EE3,3|MB_ATT_FRAGS,1|MB_ATT_FUEL,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_FLAMETHROWER,1|MB_ATT_WRISTLASER,1|MB_ATT_HEALING,2|MB_ATT_SONIC_DETONATOR,1|MB_ATT_WHISTLINGBIRD,1|MB_ATT_TRACKING_BEACON|MB_ATT_CONCUSSION,3
+
+ skilltimerMod 4
+
 	maxhealth		125
 	maxarmor			125
+
 	forcepool 		130
 	resource RESOURCE_FUEL
-	MBClass				MB_CLASS_BOUNTY_HUNTER
+
+	damageGiven 		1.1
+
 	basespeed	225
-	classNumberLimit    1
-	rateoffire			0.79
-	modelscale          1.02
+
+	rateoffire			0.8
+
 	WP_ShotgunFlags     HELD_ALTRELOAD|HELD_DISRUPTIFY
 	WP_ConcussionFlags HELD_SLOWPROJ|HELD_KNOCKBACK|HELD_ALTRELOAD|HELD_STUN
 	
-	damageTaken		0.9
-	damageGiven 		1.1
+	modelscale          1.02
 	model	"bobafett"
 	skin		"default"
 	uishader	"models/players/bobafett/mb2_icon_default"
@@ -140,7 +148,7 @@ A versatile Jetpack gunner with an arsenal of Mandalorian abilities.
 - Frag Grenade (1)
 
 ^8Attributes:
-- Beskar (1)
+- Beskar (2)
 - Blast Armor
 - Healing (2)
 - Tracking Beacon

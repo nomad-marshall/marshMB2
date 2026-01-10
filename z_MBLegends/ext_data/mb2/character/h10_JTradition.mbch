@@ -3,33 +3,33 @@
 ClassInfo
 {
 	name			"h10_JTradition"
+	MBClass		MB_CLASS_JEDI
+	classNumberLimit	1
+
 	weapons			WP_MELEE|WP_SABER
-	saberstyle		SS_MEDIUM|SS_STRONG|SS_TAVION
-	forcepowers		FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_PUSH,3|FP_PULL,2|FP_PROTECT,3|FP_SEE,3|FP_SABERTHROW,2
+
 	attributes		MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,3|MB_ATT_FORCEFOCUS,1|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,2
-	
+
+	forcepowers		FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_PUSH,3|FP_PULL,2|FP_PROTECT,3|FP_SEE,3|FP_SABERTHROW,2
+
 	speed		0.985
-	
+	forcepool	160
+	forceregen 1.075
+	maxhealth	115
+
+	saberstyle		SS_MEDIUM|SS_STRONG|SS_TAVION
+	saberDamageStyle SS_TAVION,130|SS_STRONG,280
 	BPmultiplier	0.9
 	APmultiplier	0.7
 	ASmultiplier 	0.97
 	saberThrowDamage 40
-	forcepool	160
-	maxhealth	115
-	modelscale	1
-	MBClass		MB_CLASS_JEDI
+
 	classflags CFL_NOPICKUPS
 
 	//special1 EAS_FP_SABERTHROW
 	special2	EAS_MELEE
 	special3 EAS_FP_PROTECT
-	//special4	EAS_FP_SPEED
-	
-	classNumberLimit	1
-	
-	uioverlay "gfx/icons/support"
-	
-	forceregen       1.075
+	special4	EAS_FP_PULL
 	
 	saber1			saber_jocasta
 	sabercolor		4
@@ -42,20 +42,19 @@ ClassInfo
 	
 	saber1_3			saber_depa_tcw
 	sabercolor_3		3
-	
-	model    	 "JocastaNu"
+
+	uioverlay "gfx/icons/support"
+	model   "JocastaNu"
 	skin		 	"default"
 	uishader  	"models/players/JocastaNu/mb2_icon_default"
 	
-	model_1		"luminara"
+	model_1	"luminara"
 	skin_1		"default"
 	uishader_1	"models/players/luminara/mb2_icon_default"
 	
-	model_2		"sabe" 					
+	model_2	"sabe" 					
 	skin_2		"depabillaba"					
 	uishader_2	"models/players/sabe/mb2_icon_depabillaba"
-	
-	//respawncustomtime  50000	
 }
 
 description	"Jedi Traditionalist [Jedi]
@@ -66,8 +65,8 @@ A High-to-Late Republic Jedi with strong Force powers and excellent defenses aga
 - Melee
 - Lightsaber (Yellow/Red/Cyan)
 -- Saber Defense (2)
--- Blaster Defense (3)
--- Saber Deflect (3)
+-- Blaster Defense/Deflect (3)
+-- 46% less Red/8% more Cyan DMG
 -- EX Saber Throw (2) ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[CS2]
@@ -75,7 +74,7 @@ A High-to-Late Republic Jedi with strong Force powers and excellent defenses aga
 ^5Force Powers:
 - Jump (2)
 - Push (3)
-- Pull (2)
+- Pull (2) ^3[CS4]
 - Sense (3) 
 - Protect (3) ^3[CS3]
 

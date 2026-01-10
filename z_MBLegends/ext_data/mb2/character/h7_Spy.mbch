@@ -19,7 +19,6 @@ ClassInfo
 	attributes	MB_ATT_AMMO,3|MB_ATT_BUNNY_HOP,1|MB_ATT_FLOAT_HOP|MB_ATT_TRACKING_BEACON|MB_ATT_GRAPPLE_HOP|MB_ATT_TRACKING_DART,1
 	forcepowers     FP_SABER_OFFENSE,3
 	maxhealth	80
-	            
 	MaxArmor		0
 	rankArmor	20,40,80
 	
@@ -54,13 +53,13 @@ ClassInfo
 	special3		EAS_HI_TRACKER
 	special4		EAS_HI_GRAPPLEHOOK
 
-   	isCustomBuild	1
+ isCustomBuild	1
 	mbPoints	60
 	
 	c_att_skill_0	MB_ATT_PISTOL
 	c_att_names_0	"Hold-out Spy Pistol"
 	c_att_ranks_0	1,1,6
-	c_att_descs_0 	"Sec. fire: Suppressed shots"
+	c_att_descs_0 	"Sec fire: Suppressed shots"
 	
 	c_att_skill_1	MB_ATT_SONIC_DETONATOR
 	c_att_names_1	"Sonic Flashbang Grenades"

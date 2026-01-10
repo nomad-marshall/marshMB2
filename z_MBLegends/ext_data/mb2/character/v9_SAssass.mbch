@@ -15,15 +15,14 @@ ClassInfo
 	forceregen	1.07
 	
 	saberstyle		SS_DUAL
-	BPmultiplier  0.60
+ saberDamageStyle SS_DUAL,200|SS_FAST,130
+	BPmultiplier  0.7
 	APmultiplier  1
 	ASmultiplier		1.18
-	CSmultiplier		1.00
+	CSmultiplier		1.05
 	saberThrowDamage 40
 	
 	speed   1.07
-	damageGiven 1
- saberDamage 200
 	rateOfFire_Melee 0.88
 	
 	classflags		CFL_SEEING_STEALTH|CFL_NOPICKUPS
@@ -82,9 +81,10 @@ A fast Sith with Force Sense immunity, meant to surprise unsuspecting enemies. L
 - Melee
 -- 12% faster RoF
 - Lightsaber (Dual/Blue)
--- Saber Defense/Deflect (3)
+-- Saber Defense (3)
 -- Blaster Defense (1)
--- Saber DMG: 200
+-- Blaster Deflect (3)
+-- 23% less Dual/8% more Blue DMG
 -- EX Saber Throw (3) ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[GB]

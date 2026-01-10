@@ -2,27 +2,28 @@
 ClassInfo
 {
 	name  			"v7_Zuck"
-	weapons 		WP_SABER|WP_MELEE|WP_T21|WP_DEMP2|WP_TRIP_MINE
-	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_FP_MIRALUKA|MB_ATT_STAMINA,3|MB_ATT_T21,1|MB_ATT_FORCEBLOCK,3|MB_ATT_ANTI_MT,2|MB_ATT_DEMP2,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_BEACON|MB_ATT_TRIP_MINES,3
+	classNumberLimit	1
+	MBClass 		MB_CLASS_SITH
+
+	weapons 		WP_SABER|WP_MELEE|WP_T21|WP_DEMP2|WP_TRIP_MINE|WP_FLECHETTE
+
+	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_FP_MIRALUKA|MB_ATT_STAMINA,3|MB_ATT_T21,1|MB_ATT_FORCEBLOCK,3|MB_ATT_ANTI_MT,2|MB_ATT_DEMP2,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_TRACKING_BEACON|MB_ATT_TRIP_MINES,3|MB_ATT_FLECHETTE,4
+
 	saber1  		qstaff_legends
 	saberstyle  	SS_DESANN|SS_STAFF|SS_MEDIUM
 	forcepowers		FP_SEE,1|FP_SABER_OFFENSE,3
+
 	maxhealth 		125
-	maxarmor  		130
-	forcepool		150
+	maxarmor  		125
+
+	forcepool		 150
 	forceregen		1.15
-	
-	model			"zuckuss" 
-	skin			"default"
-	uishader		"models/players/zuckuss/MB2_Icon_Default"
-	
-	MBClass 		MB_CLASS_ARCTROOPER
-	speed 			1.04
-	modelscale      0.93
-	classNumberLimit	1
+
+	baseSpeed 194
+
 	APmultiplier	1.1
-	BPmultiplier   1.1
-	ASmultiplier 1.1
+	BPmultiplier 1.1
+	ASmultiplier 1.15
 	CSmultiplier  1
 	SaberDamage 120
 	
@@ -32,14 +33,19 @@ ClassInfo
 	//SaberStanceAnim	BOTH_TRIPLE3_STAFFSTANCE
 	
 	WP_T21Flags   HELD_KNOCKBACK
-	WP_SaberFlags HELD_PULSE
-	WP_Demp2Flags HELD_FREEZE|HELD_STUN|HELD_PULSE
-	//WP_FlechetteFlags HELD_EXPLOSIVE|HELD_POISON|HELD_ALTRELOAD
+	WP_SaberFlags HELD_PULSE|HELD_TRACKING
+ WP_Demp2Flags HELD_FREEZE|HELD_STUN|HELD_PULSE|HELD_TRACKING
+	WP_FlechetteFlags HELD_POISON|HELD_ALTRELOAD|HELD_TRACKING
+	
 	special1 EAS_HI_SPRINT
 	special2 EAS_MELEE
 	special3 EAS_HI_DEX
 	special4 EAS_HI_DODGE
-	
+
+	modelscale  0.93	
+	model			"zuckuss" 
+	skin			"default"
+	uishader		"models/players/zuckuss/MB2_Icon_Default"
 	uioverlay "gfx/icons/tactician"
 }
 
@@ -81,13 +87,10 @@ WeaponInfo1
 	animReady BOTH_DC15_IDLE
 	animReadyWalk TORSO_WEAPONREADY4
 	animReadyNoAmmo TORSO_WEAPONREADY4
-	//animReadyWalk BOTH_TORSO_WEAPONREADY4
-	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
 	animAttackRun BOTH_ATTACK4
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
 	animStand TORSO_DROPWEAP4
-
 }
 
 WeaponInfo2
@@ -96,7 +99,7 @@ WeaponInfo2
 	WeaponBasedOff		WP_DEMP2
 	NewWorldModel		"models/weapons2/kotor_drifle/kotor_drifle_w.glm"
 	NewViewModel		"models/weapons2/kotor_drifle/kotor_drifle.md3"
-	Icon			"gfx/hud/w_icon_kotor_drifle"
+	Icon			"gfx/hud/w_icon_altdisruptor"
 	WeaponName			"GRS-1 Snare Rifle"
 	MissileMissEffect	"SBD/cortosis_blue"
 	MissileEffect		"SBD/cortosis_blue"				
@@ -112,8 +115,6 @@ WeaponInfo2
 	animReady BOTH_DC15_IDLE
 	animReadyWalk TORSO_WEAPONREADY4
 	animReadyNoAmmo TORSO_WEAPONREADY4
-	//animReadyWalk BOTH_TORSO_WEAPONREADY4
-	//animReadyNoAmmo BOTH_TORSO_WEAPONREADY4
 	animAttackRun BOTH_ATTACK4
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
@@ -132,32 +133,35 @@ WeaponInfo3
 	altMissileMissEffect	"noghri_stick/flesh_impact"
 	altMissileHitDroidEffect	"noghri_stick/flesh_impact"
 	altMissileHitHumanEffect	"noghri_stick/flesh_impact"
-	altMissileEffect		"hutt/toxic_breath"
+	altMissileEffect		"effects/flechette/alt_shot" 
+	MuzzleEffect null
 	altMuzzleEffect null
 	altFlashSound0 "sound/weapons/stone/fire.mp3"
 	altFlashSound1 "sound/weapons/stone/fire.mp3"
 	altFlashSound2 "sound/weapons/stone/fire.mp3"
 	altFlashSound3 "sound/weapons/stone/fire.mp3"
-	FlashSound "sound/weapons/stone/fire.mp3"
+	FlashSound0 "sound/weapons/stone/fire.mp3"
+	FlashSound1 "sound/weapons/stone/fire.mp3"
+	FlashSound2 "sound/weapons/stone/fire.mp3"
+	FlashSound3 "sound/weapons/stone/fire.mp3"
 	MissileModel	"models/weapons2/thermal/thermal_proj.md3"
 	MissileMissEffect	"noghri_stick/flesh_impact"
 	MissileHitDroidEffect	"noghri_stick/flesh_impact"
 	MissileHitHumanEffect	"noghri_stick/flesh_impact"
-	MissileEffect		"hutt/toxic_breath"
-	MuzzleEffect null
+	MissileEffect "effects/flechette/alt_shot" 
 	primFireEnabled  0
 	clipSize 15
-	customAmmo 60
+	customAmmo 15
+ damageMod .25
 	hasAnimOverrides 1
 	animReadyRun BOTH_STAND10
 	animReady BOTH_STAND10
 	animReadyWalk BOTH_STAND10
-	animReadyNoAmmo BOTH_A6_LR
+	animReadyNoAmmo BOTH_STAND10
 	animAttackRun BOTH_A6_LR
 	animAttack BOTH_A6_LR
 	animAttackWalk BOTH_A6_LR
 	animStand BOTH_STAND1
- damageMod .7
 }
 ForceInfo0
 {
@@ -166,7 +170,7 @@ ForceInfo0
 	ForcePowerName	"Findsman Precognition"
 }
 
-description	"Zuckuss [ARC Trooper]
+description	"Zuckuss [Sith]
 
 A hunter focused on disruption.
 
@@ -176,17 +180,20 @@ A hunter focused on disruption.
 -- Saber Defense (1)
 -- No Blaster Block
 -- No Saber Training
--- Electrifies on hit
+-- Electrifies/tracks on hit
 -- 105% more KB
 -- 53/50/70% less DMG
 -- 16/33% less reach
 -- Slap ^3[CS2]
 - GRS-1 Snare Rifle (DEMP2 1)
--- Electrifies/freezes/staggers on hit
+-- Electrifies/freezes/staggers/tracks on hit
 -- 65% faster shot swap
 -- 350% more FP DMG
 -- 4400% slower reload
--- Prim. only
+- Ammonia Bombs (8) (Flechette 4)
+-- Poisons/tracks on det
+-- 75% less DMG
+-- Sec only
 - W-90 Concussion Rifle (T-21 1)
 -- Pushes on hit
 -- 25% faster RoF
@@ -194,10 +201,10 @@ A hunter focused on disruption.
 - Trip Mines (3)
 
 ^8Attributes:
+- Getup (3)
 - Stamina (3)
 - Dexterity (3)
-- Armor Regen (1)
-- Healing (2)
+- Healing (3)
 - Findsman Precognition (Miraluka 1)
 - Anti-Mind Trick (2)
 - Tracking Beacon

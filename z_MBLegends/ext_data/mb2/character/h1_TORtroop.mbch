@@ -112,8 +112,8 @@ c_att_descs_16 "20% more velocity, 10% faster RoF, 10% less DMG/FP DMG"
 c_att_skill_17	MB_ATT_WESTARM5
 c_att_names_17	"Pulse Grenade Launcher (M5)"
 c_att_ranks_17 1,0
-c_att_descs_17 "Prim. fire: Single shot, 50% more DMG/FP DMG, 50% more velocity,
-20% slower reload, Sec. fire: 70% faster RoF"
+c_att_descs_17 "Prim fire: Single shot, 50% more DMG/FP DMG, 50% more velocity,
+20% slower reload, Sec fire: 70% faster RoF"
 c_att_skill_18	MB_ATT_ARC_RIFLE_GRENADELAUNCHER
 c_att_names_18	"> Launcher Pulse Grenades"
 c_att_ranks_18	1,0,0

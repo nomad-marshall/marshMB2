@@ -3,26 +3,36 @@
 ClassInfo
 {
 	name					"v3_IG88"
-	weapons					WP_SABER|WP_MANDO_PISTOL|WP_THERMAL|WP_AMBAN|WP_SONIC_NADE|WP_MELEE
-	attributes				MB_ATT_AMBAN,1|MB_ATT_RECHARGE,3|MB_ATT_THERMALS,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_MANDO_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_CORTOSIS,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SONIC_DETONATOR,2|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_SABER_COMBO_NONE
-	maxhealth				80
-	maxarmor					80
 	MBClass					MB_CLASS_WOOKIE
 	classNumberLimit		1
-	modelscale  			1.09
-	classflags			CFL_SEEING_STEALTH|CFL_AKIMBOPISTOL3|CFL_STRONGAGAINSTPHYSICAL
-	saber1 				droidmelee_legends
-	saberstyle			SS_STRONG
+	weapons					WP_SABER|WP_MANDO_PISTOL|WP_THERMAL|WP_AMBAN|WP_SONIC_NADE|WP_MELEE
+
 	WP_AmbanFlags			HELD_DISRUPTIFY|HELD_FLAME|HELD_SONIC
 	WP_MeleeFlags			HELD_SLOW
-	forcepool			100
-	forcepowers        	FP_SEE,1
-	saberDamage 130
-	saberSpecialDamage 2
+
+	attributes				MB_ATT_AMBAN,1|MB_ATT_RECHARGE,3|MB_ATT_THERMALS,1|MB_ATT_BESKAR,3|MB_ATT_MANDO_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SONIC_DETONATOR,2|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_SABER_COMBO_NONE
+
+	special2 EAS_MELEE
+	special3 EAS_FP_SEE	
+
+	maxhealth		80
+	maxarmor			110
 	speed 	1.16
 	knockbacktaken 0.80
-	BPmultiplier		0
 	hackRate 0.80
+
+	classflags			CFL_SEEING_STEALTH|CFL_AKIMBOPISTOL3|CFL_STRONGAGAINSTPHYSICAL
+
+	forcepool			100
+	forcepowers FP_SEE,1
+ resource RESOURCE_BATTERY
+
+	saber1 				droidmelee_legends
+	saberstyle			SS_STRONG
+	saberDamage 130
+	saberSpecialDamage 2
+	BPmultiplier		0
+
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	
 	saberStanceAnim	BOTH_SABERDUAL_STANCE
@@ -34,24 +44,21 @@ ClassInfo
 	WalkBackward	BOTH_SBD_WALKBACK1
 	//drawAnim 		BOTH_A6_FB
 	//altFireAnim BOTH_PISTOL_ATTACK
+
 	uioverlay "gfx/icons/heavy"
-	
-	special2 EAS_MELEE
-	special3 EAS_FP_SEE	
-	
-	model		"IG88"
+	modelscale  			1.09
+	model	"IG88"
 	skin		"default"
 	uishader	"models/players/IG88/mb2_icon_default"
 		
-	model_1		"IG88"
+	model_1	"IG88"
 	skin_1		"ig88b"
 	uishader_1	"models/players/IG88/mb2_icon_ig88b"
 		
-	model_2		"IG88"
+	model_2	"IG88"
 	skin_2		"ig88c"
 	uishader_2	"models/players/IG88/mb2_icon_ig88c"
 	
-	//respawncustomtime 50000
 }
 
 WeaponInfo0
@@ -143,7 +150,7 @@ A sturdy and heavily armored gunner.
 -- 50% less special DMG
 -- 35% less reach
 -- 300% more radius
--- Slap ^3[CS2]
+-- Slap ^3[CS2/GB]
 - Dual Blaster Rifles (WESTARs 4)
 -- 35% slower RoF
 -- 10% less DMG
@@ -162,9 +169,8 @@ A sturdy and heavily armored gunner.
 - 25% faster Hacking
 - 20% less KB taken
 - Strength (2)
+- Beskar (3)
 - Blast Armor
-- Magnetic Plating
-- Cortosis (1)
 - Physical Resist
 - Armor Regen (1)
 - Sense Immunity

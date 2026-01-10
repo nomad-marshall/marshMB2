@@ -1,40 +1,43 @@
 ClassInfo
 {
 	name				"v7_Tarkin"
+	MBClass 				MB_CLASS_COMMANDER
+	classNumberLimit  	1
 	weapons 			WP_BLASTER_PISTOL|WP_MELEE|WP_FIRE_NADE|WP_PLX1|WP_CONC_NADE
-	attributes 			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_DODGE,3|MB_ATT_HEALING,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_PLX1,1|MB_ATT_LIGHTS_BEACON|MB_ATT_FIRE_GRENADES,2|MB_ATT_MICRO_GRENADES,2|MB_ATT_SPAWNER,1
-	maxhealth 			160
-	maxarmor  			90
+	
+	WP_PLX1Flags HELD_SLOW|HELD_KNOCKBACK|HELD_STUN|HELD_FLAME
+	WP_BlasterPistolFlags	HELD_KNOCKBACK	
 
-	basespeed			195
+	attributes 			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_DODGE,3|MB_ATT_HEALING,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_PLX1,1|MB_ATT_LIGHTS_BEACON|MB_ATT_FIRE_GRENADES,2|MB_ATT_MICRO_GRENADES,2|MB_ATT_SPAWNER,1
+
+	forcepowers FP_PROTECT,2|FP_TEAM_FORCE,3
+
+	maxhealth 	170
+	maxarmor  	90
+
+	basespeed			197
 	rateOfFire_Melee 1.05
+
 	resource RESOURCE_RAGE
 	forcepool 250
 	forceregen 0.01
 	resourceRegenAmount 1
 	resourceRegenRate 100
 	resourceRegenCap 10
+
 	skilltimermod 1.5
-	forcepowers FP_PROTECT,2|FP_TEAM_FORCE,3
-	
-	MBClass 				MB_CLASS_COMMANDER
-	classNumberLimit  	1
-	holdables 			HI_SHIELD|HI_MEDPAC_BIG|HI_SPAWNER
-	
-	WP_PLX1Flags HELD_SLOW|HELD_KNOCKBACK|HELD_STUN|HELD_FLAME
-	WP_BlasterPistolFlags	HELD_KNOCKBACK	
-	modelscale          1.015
+
+	holdables 			HI_SHIELD|HI_MEDPAC_BIG|HI_SPAWNER|HI_BASESEEKER
+
+	modelscale  1.015
 	model		"tarkin"
-	skin  		"default"
-	uishader  	"models/players/tarkin/mb2_icon_default"
-	
-	//respawncustomtime 50000
-	
+	skin  	"default"
+	uishader "models/players/tarkin/mb2_icon_default"
 	uioverlay_r "gfx/icons/tactician"
 	uioverlay_l "gfx/icons/spec_infantry"
 	
 	special1		EAS_HI_DODGE
-	special2		EAS_HI_SPAWNER
+	special2		EAS_HI_BASESEEKER
 	special3		EAS_HI_SHIELD
 	special4 	EAS_HI_MEDPAC_BIG
 	
@@ -121,7 +124,7 @@ A support gunner who builds resource through damage to bolster his allies and hi
 -- 15% more velocity
 -- 15% slower RoF
 - Test Fire (1) (PLX)
--- Ignites/pushes/staggers on hit
+-- Ignites/pushes/staggers on det
 -- 75% more DMG
 -- 500% slower reload
 -- 15% slower movement
@@ -133,7 +136,8 @@ A support gunner who builds resource through damage to bolster his allies and hi
 - Protect (2)^3*
 
 ^6Inventory:
-- Seeker Drone (Support Beacon) ^3[CS2]
+- Defense Seeker ^3[CS2]
+- Imperial Remote (Support Beacon)
 - Forcefield ^3[CS3]
 - Advanced Medpac ^3[CS4]
 

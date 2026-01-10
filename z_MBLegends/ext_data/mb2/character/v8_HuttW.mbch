@@ -3,50 +3,54 @@
 ClassInfo
 {
 	name			"v8_HuttW"
+	classNumberLimit		1
+	MBClass				MB_CLASS_WOOKIE
 	weapons 		WP_MELEE|WP_SABER
+
 	attributes		MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_HEALING,1|MB_ATT_RALLY|MB_ATT_ANTI_MT,2|MB_ATT_ROSHTAUNT|MB_ATT_BLAST_ARMOUR
+
 	classflags		CFL_ACIDBLOOD|CFL_BLOODYMELEE|CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE
+
 	maxhealth		450
 	maxarmor			150
 
-	model			"player_hutt"
-	skin				"default"
-	uishader			"models/players/player_hutt/mb2_icon_default"
-
-	MBClass				MB_CLASS_WOOKIE
-	forcepool           100
+	forcepool   100
 	resource				RESOURCE_RAGE
 
-	humanoidSkeleton		1
-	classNumberLimit		1
 	damageGiven 			1.2
 	speed 				0.98
-	rateoffire_melee         1.12
-	modelscale			1.35
+	rateoffire_melee 1.12
+
 	knockbackTaken 0.5
-	bargeSoundOverride 	"sound/chars/hutt/misc/barge.mp3"
-	rageSoundOverride 	"sound/chars/hutt/misc/rage.mp3"
+
 	
-	APmultiplier      1.5
-	ASmultiplier      0.95
-	CSmultiplier      0.9
+	APmultiplier  1.5
+	ASmultiplier  0.95
+	CSmultiplier  0.9
 	BPmultiplier		0
-	
+	saber1 bardiche_jabba_legends
+	saberstyle SS_STRONG
+ saberDamageStyle SS_STRONG,280
+
+
 	special1	EAS_HI_FURY
 	meleespecial2 EAS_HI_BARGE
 	special2 EAS_MELEE
-	//WP_MeleeFlags HELD_POISON
-	//WP_SaberFlags HELD_POISON
-	saber1 bardiche_jabba_legends
-	saberstyle SS_STRONG
-	sabercolor 1
+
+	humanoidSkeleton		1
+
 	uioverlay "gfx/icons/brawler"
-	
+	model			"player_hutt"
+	skin				"default"
+	uishader	"models/players/player_hutt/mb2_icon_default"
+	modelscale			1.35
+
+	bargeSoundOverride 	"sound/chars/hutt/misc/barge.mp3"
+	rageSoundOverride 	"sound/chars/hutt/misc/rage.mp3"
+
 	SaberStanceAnim BOTH_TAVION_STANCE
-flourishAnim BOTH_PAIN1
-gloatAnim BOTH_VICTORY_MEDIUM
-	//meditateAnim BOTH_STAND5TOSIT3
-    //respawncustomtime 75000	
+ flourishAnim BOTH_PAIN1
+ gloatAnim BOTH_VICTORY_MEDIUM
 
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK	
 }
@@ -63,7 +67,7 @@ WeaponInfo0
 
 description	"Hutt Warrior [Wookiee]
 
-A tanky brawler class with innate Strength and resistances.
+A tanky brawler class with innate Strength and resistances. Wields a long Bardiche that can displace enemies. Taunting within range of a Jedi will deal them minor damage.
 
 ^2Weaponry:
 - Melee
@@ -74,7 +78,7 @@ A tanky brawler class with innate Strength and resistances.
 --- Splash radius: 130
 --- Splash DMG: 25
 --- Splash KB: 100
--- 20% less DMG
+-- 46% less DMG
 -- 38% more reach
 -- 67% more radius
 -- Slap ^3[CS2]
@@ -89,9 +93,9 @@ A tanky brawler class with innate Strength and resistances.
 - Healing (1)
 - Anti-Mind Trick (2)
 - Rally 
-- Acid Blood (Poison enemies on death)
+- Acid Blood
 
 ^3Abilities:
-- Toxic Laughter (Taunts damage Jedi)
+- Toxic Laughter
 - Rage ^3[CS1 Melee]
 - Shoulder Barge ^3[CS2 Melee]"

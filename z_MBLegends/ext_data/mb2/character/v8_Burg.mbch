@@ -3,37 +3,39 @@
 ClassInfo
 {
 	name				"v8_Burg"
-	weapons 			WP_MANDO_PISTOL|WP_MELEE|WP_FRAG_NADE
-	attributes  		MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_WOOKIEE_FURY,2|MB_ATT_FRAGS,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_MANDO_PISTOL,3|MB_ATT_QUICKTHROW,1|MB_ATT_TRACKING_BEACON
-	maxhealth			450
-	maxarmor			125
-	modelscale  		1.12
-	model 				"burg"
-	skin  				"default"
-	uishader  			"models/players/burg/mb2_icon_default"
 	MBClass 			MB_CLASS_WOOKIE
 	classNumberLimit	1
-	rageSoundOverride 	"sound/chr_d/humanmerc2/misc/death2.mp3"
-	bargeSoundOverride 	"sound/chr_d/humanmerc2/misc/pain100.mp3"
-	speed               1.05
-	damageTaken         1
+
+	weapons 			WP_MANDO_PISTOL|WP_MELEE|WP_FRAG_NADE
+
+	attributes  		MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_WOOKIEE_FURY,2|MB_ATT_FRAGS,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_MANDO_PISTOL,3|MB_ATT_QUICKTHROW,1|MB_ATT_TRACKING_BEACON
+
+	maxhealth		450
+	maxarmor			125
+	speed 1.05
 	rateOfFire_Melee 1.05
 	skilltimermod 0.9
 	
-	resource	resource_rage
+	resource	RESOURCE_RAGE
 	forcepool 100
 	
-	//respawncustomtime 75000
+	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	
 	special1	EAS_HI_FURY
 	special2	EAS_HI_BARGE
 	special3 EAS_HI_QUICKTOSS
 
 	flourishAnim BOTH_DUAL_PISTOLS_DRAW
+
+	rageSoundOverride 	"sound/chr_d/humanmerc2/misc/death2.mp3"
+	bargeSoundOverride 	"sound/chr_d/humanmerc2/misc/pain100.mp3"
 	
 	uioverlay "gfx/icons/brawler"
-	
-	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+	modelscale  1.12
+	model "burg"
+	skin  "default"
+	uishader "models/players/burg/mb2_icon_default"
+
 }
 
 WeaponInfo0
@@ -47,18 +49,18 @@ WeaponInfo0
 	AltFlashSound0		"sound/weapons/bryar/alt_fire.wav"
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 	Icon				"gfx/hud/w_icon_bryar_duals"
-	WeaponName			"Dual DL-44 Pistols"
+	WeaponName			"Dual DL-21 Pistols"
 	customammo 650
 }
 
 description	"Burg [Wookiee]
 
-A large brawler/grenadier hybrid with high health, dual pistols and Fury. 
+A large brawler with high health, dual pistols and Fury. 
 
 ^2Weaponry:
 - Melee
 -- 5% slower RoF
-- Dual DL-44 Pistols (WESTARs 3)
+- Dual DL-21 Pistols (WESTARs 3)
 - Frag Grenades (2)
 
 ^8Attributes:

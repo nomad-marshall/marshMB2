@@ -14,7 +14,7 @@ ClassInfo
 	forceregen 1.15
 
 	maxHealth	135
-	maxArmor		115
+	maxArmor		120
 	
 	rateOfFire_Melee 0.9
 	
@@ -23,7 +23,6 @@ ClassInfo
 	WP_ClonePistolFlags HELD_ALTRELOAD
 	
 	knockbacktaken 0.85
-	knockbackGiven 1
 	
 	special1	EAS_HI_SPRINT
 	special2	EAS_HI_DEX
@@ -36,7 +35,6 @@ ClassInfo
 	
 	basespeed 195
 	skilltimermod 		0.9
-	damageGiven 1
 	
 	uioverlay_r 	"gfx/icons/spec_infantry"
 	uioverlay_l "gfx/icons/heavy"

@@ -3,42 +3,47 @@
 ClassInfo
 {
 	name			"v6_Aurra"
-	weapons			WP_CLONE_PISTOL|WP_PROJ|WP_MELEE|WP_SABER
-	saber1			aurra_legends
-	sabercolor		0
-	saberstyle		SS_FAST|SS_MEDIUM
-	attributes		MB_ATT_CLONE_PISTOL,3|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_AMMO,3|MB_ATT_POISON_DART,3|MB_ATT_DEFLECT,2|MB_ATT_HEALING,1|MB_ATT_FORCEBLOCK,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_TRACKING_BEACON
-	forcepowers		FP_SABER_OFFENSE,2|FP_SEE,1|FP_LEVITATION,2|FP_PUSH,1|FP_SPEED,2|FP_PROTECT,1|FP_PULL,1
-	forcepool		75
-	maxhealth		100	
-	maxarmor		75
-	basespeed 245
-	modelscale      1.01 
-	model			"aurrasing"
-	skin			"default"
-	uishader		"models/FA_icons/dust2/aurra"
-	MBClass			MB_CLASS_BOUNTY_HUNTER
-	resource		resource_force
+	MBClass			MB_CLASS_SITH
 	classNumberLimit	1
-	rateoffire		0.925
+	weapons			WP_CLONE_PISTOL|WP_PROJ|WP_MELEE|WP_SABER
+	
+	WP_ProjFlags	HELD_ALTRELOAD
+
+	attributes		MB_ATT_CLONE_PISTOL,3|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_AMMO,3|MB_ATT_POISON_DART,3|MB_ATT_DEFLECT,2|MB_ATT_HEALING,1|MB_ATT_FORCEBLOCK,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_TRACKING_BEACON
+
+	forcepowers		FP_SABER_OFFENSE,2|FP_SEE,1|FP_LEVITATION,2|FP_PUSH,1|FP_SPEED,2|FP_PROTECT,1|FP_PULL,1
+
+	forcepool		75
+	resource		RESOURCE_FORCE
+	maxhealth		105	
+	maxarmor		60
+
+	basespeed 245
+
 	classflags		CFL_HEAVYMELEE
+
 	forceBlocking  1
 	BPMultiplier 	1.2
 	saberDamage 120
-	uioverlay_r "gfx/icons/frontline"
-	uioverlay_l "gfx/icons/hybrid"
-	uioverlay_c "gfx/icons/scout"
+	saber1			aurra_legends
+	sabercolor		0
+	saberstyle		SS_FAST|SS_MEDIUM
 	
 	special1 EAS_HI_POISON
 	special2	EAS_MELEE
 	special4 EAS_FP_PROTECT
 	special3 EAS_FP_SPEED
+
 	bowAnim BOTH_HAN_TAUNT
 	flourishAnim BOTH_STAND10_TALK2
-	
-	WP_ProjFlags	HELD_ALTRELOAD
 
-	//respawncustomtime 50000
+	modelscale  1.01 
+	model		"aurrasing"
+	skin			"default"
+	uishader	"models/FA_icons/dust2/aurra"
+	uioverlay_r "gfx/icons/frontline"
+	uioverlay_l "gfx/icons/hybrid"
+	uioverlay_c "gfx/icons/scout"
 }
 WeaponInfo0
 {
@@ -74,7 +79,7 @@ WeaponInfo1
 	CustomAmmo 	8
 }
 
-description	"Aurra Sing [Bounty Hunter]
+description	"Aurra Sing [Sith]
 
 A versatile Sith/gunner hybrid. 
 
@@ -82,12 +87,11 @@ A versatile Sith/gunner hybrid.
 - Heavy Melee
 - Lightsaber (Blue/Yellow)
 -- Saber/Blaster Defense (1)
--- Saber Deflect (2)
+-- Blaster Deflect (2)
 -- Blocking resists Force Powers
 -- 50% less Yellow DMG
 -- Slap ^3[CS2]
-- Aurra's Dual Pistols
--- Based on Clone Pistols (3)
+- Aurra's Dual Pistols (Clone Pistols 3)
 - Czerka Adventurer Slugthrower Rifle (Proj)
 -- Mag reload
 

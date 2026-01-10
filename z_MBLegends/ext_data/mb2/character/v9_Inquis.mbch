@@ -3,28 +3,31 @@
 ClassInfo
 {
 	name				"v9_Inquis"
-	weapons				WP_SABER|WP_MELEE|WP_FRAG_NADE
-	attributes			MB_ATT_SABER_FAST,2|MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_TRACKING_BEACON
-	forcepowers			FP_SABER_OFFENSE,2|FP_LEVITATION,3|FP_PUSH,2|FP_SEE,3|FP_SABERTHROW,3
 	MBClass				MB_CLASS_SITH
- resource RESOURCE_FORCE
-	speed	1
 	classNumberLimit  	1
+
+	weapons				WP_SABER|WP_MELEE|WP_FRAG_NADE
+
+	attributes			MB_ATT_SABER_FAST,2|MB_ATT_DEFLECT,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_TRACKING_BEACON
+
+	forcepowers			FP_SABER_OFFENSE,2|FP_LEVITATION,3|FP_PUSH,2|FP_SEE,2|FP_SABERTHROW,3
+
+ resource RESOURCE_FORCE
+	forcepool			100
+	forceregen  1.1
+
 	classflags CFL_NOPICKUPS
 
-	BPmultiplier		1
 	APmultiplier		1
-	ASmultiplier	    1
-	CSmultiplier	    1
 	rankAP				1.20
 	rankBP 			1.20
 	rankAS				1.20
 	rankCS				1.20
- saberDamageStyle SS_STAFF,260|SS_TAVION,130
+saberDamageStyle SS_STAFF,260|SS_TAVION,130
+
 	maxhealth		100
 	maxarmor			10
-	forcepool			100
-	forceregen  1.1
+
 	damageGiven 1.1
 
 	basespeed			225
@@ -33,14 +36,11 @@ ClassInfo
 	saberThrowDamage	30
 	RanksaberThrowDamage	50
 
-	uioverlay "gfx/icons/frontline"
-
-	//tauntAnim		BOTH_MAUL_TAUNT
-
 	special2 		EAS_MELEE
 	special3 		EAS_FP_GRIP
 	special4 		EAS_FP_DRAIN
 
+	uioverlay "gfx/icons/frontline"
 	model		"GI_rebels"
 	skin			"default"
 	uishader		"models/players/GI_rebels/mb2_icon_default"
@@ -56,10 +56,9 @@ ClassInfo
 	saber1				saber_inquisitor_legends
 	sabercolor			0
 
-	saber1_1				saber_trilla_legends
+	saber1_1		saber_trilla_legends
 	sabercolor_1			0
 	saberstyle SS_STAFF|SS_TAVION
-	//respawncustomtime 50000
 
 	isCustomBuild		1
 	mbPoints			60
@@ -138,8 +137,7 @@ A customizable Sith designed to hunt down Jedi. Can spec into Force Powers, impr
 - Melee
 - Lightsaber (Staff/Cyan)
 -- Saber Defense (3)
--- Blaster Defense (2)
--- Saber Deflect (2)
+-- Blaster Defense/Deflect (2)
 -- 25% more reach
 -- 8% more Cyan DMG
 -- 43% less radius
@@ -149,7 +147,7 @@ A customizable Sith designed to hunt down Jedi. Can spec into Force Powers, impr
 ^5Force Powers:
 - Jump (3)
 - Push (2)
-- Sense (3)
+- Sense (2)
 
 ^8Attributes:
 - Force Block (3)

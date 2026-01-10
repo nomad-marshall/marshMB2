@@ -6,16 +6,16 @@ ClassInfo
 	saber1				Vibro_bx_legends
 	saberstyle			SS_MEDIUM
 	attributes			MB_ATT_AMMO,3|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_FLIPKICK,1|MB_ATT_DASH,1|MB_ATT_RECHARGE,3
-	classflags			CFL_HEAVYMELEE
+	classflags			CFL_HEAVYMELEE|CFL_BPFREEJUMPS
 	classNumberLimit 	2
 	knockbackTaken		0.8
 	modelscale 	        1.035
 	basespeed	195
 	rankbasespeed	210,230,265
 	maxhealth	60
-	rankHealth	75,100,115
+	rankHealth	75,100,110
 	maxarmor	20
-	rankArmor	35,65,80
+	rankArmor	35,60,70
 	resource		RESOURCE_BATTERY
 	forcepool	100
 	forcepowers	FP_LEVITATION,1
@@ -118,11 +118,11 @@ c_att_names_6	"E-5 Blaster (EE-4)"
 c_att_ranks_6	2,5,8
 
 c_att_skill_7	MB_ATT_HEALTH
-c_att_names_7	"Health (75/100/115)"
+c_att_names_7	"Health (75/100/110)"
 c_att_ranks_7	2,4,3
 
 c_att_skill_8	MB_ATT_ARMOUR
-c_att_names_8	"Armor (35/65/80)"
+c_att_names_8	"Armor (35/60/70)"
 c_att_ranks_8	4,6,4
 
 c_att_skill_9	MB_ATT_BESKAR
@@ -295,6 +295,7 @@ A customizable, agile class with a balanced outfit of tools and abilities.
 - Heavy Melee
 - Vibrosword (Yellow Saber)
 -- Saber Defense (1)
+--- BP-Free Jumps
 -- No Blaster Block
 -- Chain Limit: 3
 -- 50% less DMG
