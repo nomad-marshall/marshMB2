@@ -3,32 +3,38 @@
 ClassInfo
 {
 	name 				"h8_NRSecDroid"
-	weapons 			WP_MELEE|WP_STUN_BATON
-	attributes  		MB_ATT_ASSEMBLE,2|MB_ATT_STUN_BATON,3|MB_ATT_AMMO,3
-		
 	classNumberLimit  	2
-		
+	MBClass 			MB_CLASS_WOOKIE
+
+	weapons 			WP_MELEE|WP_SABER|WP_THERMAL
+ WP_ThermalFlags HELD_KNOCKBACK
+	attributes  		MB_ATT_ASSEMBLE,1|MB_ATT_AMMO,3
+
+	resource			RESOURCE_BATTERY
+	forcepool		70
+
+ saber1 JawaBaton_legends
+ saberStyle SS_DESANN
+ SaberDamage 70
+ APMultiplier 1.05
+ ASMultiplier 0.9
+ CSMultiplier 0.95
+ BPMultiplier 0
+	saberMaxChain 1
+ saberStanceAnim TORSO_WEAPONREADY0
 	maxhealth			100
-	rankHealth			140,240,300
+	rankHealth		140,240,300
 	
 	maxArmor			0
-	rankArmor			30,60,100
-	forcepool			70
+	rankArmor		30,60,100
 	
-	//speed 				0.92
 	basespeed			150
-	rankbasespeed			160,175,200
-	damagetaken			1
+	rankbasespeed		160,175,200
 	
-	model 				"NRSD"
-	skin  				"default"
-	uishader  			"models/players/NRSD/mb2_icon_default"
-	MBClass 			MB_CLASS_WOOKIE
-	
-	modelscale			1.20
-	
-	special1			EAS_FP_PULL
-	special2 			EAS_HI_BARGE
+	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+
+	special4			EAS_FP_PULL
+	special2 		EAS_HI_BARGE
 		
 	rageSoundOverride  "sound/chars/NRSD/misc/death3.mp3"
 	bargeSoundOverride "sound/chars/k2so/misc/death2.mp3"
@@ -36,14 +42,15 @@ ClassInfo
 	gloatAnim		TORSO_HANDSIGNAL1
 	flourishAnim		TORSO_HANDSIGNAL4
 	tauntAnim		TORSO_HANDSIGNAL3
-WalkForward 	BOTH_SBD_WALK1
-WalkBackward	BOTH_SBD_WALKBACK1
-	
+ WalkForward 	BOTH_SBD_WALK1
+ WalkBackward	BOTH_SBD_WALKBACK1
+
+	model 	"NRSD"
+	skin  	"default"
+	uishader  "models/players/NRSD/mb2_icon_default"
 	uioverlay_l "gfx/icons/brawler"
 	uioverlay_r "gfx/icons/infantry"
-	resource			RESOURCE_BATTERY
-	
-	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+	modelscale			1.2
 	
 	isCustomBuild 1
 	mbPoints	80
@@ -54,14 +61,14 @@ WalkBackward	BOTH_SBD_WALKBACK1
 
 	c_att_skill_1	MB_ATT_A280
 	c_att_names_1	"Modified DH-17 (A280)"
-	c_att_ranks_1	2,6,2
+	c_att_ranks_1	2,5,2
 
-	c_att_skill_2	MB_ATT_MICRO_GRENADES
-	c_att_names_2	"Concussion Grenades"
+	c_att_skill_2	MB_ATT_BASE_TD
+	c_att_names_2	"Heavy Thermal Grenades"
 	c_att_ranks_2	2,2,2
 
 	c_att_skill_3	MB_ATT_FP_PULL
-	c_att_names_3	"Magnetic (Force) Pull ^3[CS1]"
+	c_att_names_3	"Magnetic (Force) Pull ^3[CS4]"
 	c_att_ranks_3	7
 
 	c_att_skill_4	MB_ATT_RESPAWNS
@@ -96,9 +103,9 @@ WalkBackward	BOTH_SBD_WALKBACK1
 	c_att_names_11	"Magnetic Plating"
 	c_att_ranks_11	6
 
- c_att_skill_12	MB_ATT_CORTOSIS
-	c_att_names_12	"Cortosis"
-	c_att_ranks_12	4
+	c_att_skill_12	MB_ATT_ASSEMBLE
+	c_att_names_12	"Assemble"
+	c_att_ranks_12	0,2,3
 }
 
 WeaponInfo0
@@ -109,9 +116,38 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dh-17/dh-17_FA.md3"
 	Icon				"gfx/hud/w_icon_dh-17"
 	WeaponName			"Modified DH-17 Blaster Pistol"
-	IdleAnim	        TORSO_WEAPONIDLE3
+	hasAnimOverrides 1
+	animReady BOTH_WESTARM5_READY
+ animReadyRun BOTH_WESTARM5_READY
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo  BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
+ animStand BOTH_WESTARM5_READY
+	animStand BOTH_STAND5
 }
 
+WeaponInfo1
+{
+	WeaponToReplace	WP_SABER
+	WeaponBasedOff	WP_SABER
+	NewWorldModel		"models/weapons2/base_baton/stun_baton.glm"
+	NewViewModel		"models/weapons2/dummy/dummy.md3"
+	Icon				"gfx/hud/w_icon_stun_baton"
+	WeaponName		"Stun Baton"
+ altFireEnabled 0
+}
+WeaponInfo2
+{
+	WeaponToReplace			WP_THERMAL
+	WeaponBasedOff			WP_THERMAL
+	NewWorldModel				"models/weapons2/thermal/thermal_w.glm"
+	NewViewModel				"models/weapons2/thermal/thermal_hand.md3"
+	Icon						"gfx/hud/w_thermal_grenade"
+	WeaponName  				"Heavy Thermal Grenades"
+	damagemod 2.5
+}
 ForceInfo0
 {
 	ForceToReplace	FP_PULL
@@ -121,16 +157,26 @@ ForceInfo0
  HandShader "gfx/effects/dekashield2"
 }
 
-description	"New Republic Security Droid [Wookiee]
+description	"N5 Sentry Droid aka New Republic Security Droid [Wookiee]
 
 Tanky gunner/brawler hybrids who can spec into an extra life, many forms of damage protection, Wookiee attributes, and more.
 
 ^2Weaponry:
 - Melee
-- Stun Baton (3)
+- Stun Baton (Purple Saber)
+-- No Saber/Blaster Block
+-- Chain Limit: 1
+-- 82% less DMG
+-- 40% less reach
+-- 166% more radius
+-- Prim only
+-- Slap ^3[GB]
+- Heavy Thermal Grenades (2)
+-- Pushes on det
+-- 150% more DMG
 
 ^8Attributes:
-- Assemble (2) 
+- Assemble (1) 
 
 ^3Abilities:
 - Shoulder Barge ^3[CS2 Melee]"

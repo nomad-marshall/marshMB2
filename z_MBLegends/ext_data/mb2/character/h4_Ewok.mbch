@@ -28,7 +28,7 @@ ClassInfo
 	saberSpecialDamage 2
 	//WP_FlechetteFlags 	HELD_FLAME|HELD_EXPLOSIVE
 	WP_T21Flags			HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_KNOCKBACK|HELD_STUN
-	WP_RepeaterFlags		HELD_KNOCKBACK|HELD_KNOCKDOWN|HELD_ALTRELOAD
+	WP_RepeaterFlags		HELD_KNOCKBACK|HELD_ALTRELOAD
 
 	classFlags 			CFL_BLOODYMELEE
 
@@ -188,7 +188,7 @@ description "Ewok [Hero]
 -- 33% more radius
 -- Slap ^3[CS2]
 - Stones (6) (Repeater)
--- Pushes/knocks down on direct hit
+-- Pushes on hit/knocks down on direct hit
 -- 80% slower mag reload
 -- Sec. only
 - Bow and Arrows (T-21 1)

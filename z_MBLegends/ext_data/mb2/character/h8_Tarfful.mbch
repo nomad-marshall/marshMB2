@@ -12,8 +12,8 @@ ClassInfo
 	attributes MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_QUICKTHROW,1|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,2|MB_ATT_FRAGS,2|MB_ATT_BLAST_ARMOUR|MB_ATT_TRAD_BOWCASTER,3	
 	
 	saber1	ryyk_A_legends
-    saberstyle	SS_STRONG|SS_DESANN
-	saberDamage 300
+ saberstyle	SS_STRONG|SS_DESANN
+ saberDamageStyle SS_STRONG,280|SS_DESANN,280
 	APmultiplier   1.5
 	BPmultiplier 	.75
 	
@@ -70,7 +70,7 @@ A large tank with Fury, a deadly Ryyk Blade, and a Bowcaster. Immune to most kno
 - Ryyk Blade (Purple/Red Saber)
 -- Saber Defense (1)
 -- No Blaster Block
--- 25/42% less DMG
+-- 30/46% less Purple/Red DMG
 -- 33% more reach
 -- Slap ^3[CS2]
 - Trad Bowcaster (3)

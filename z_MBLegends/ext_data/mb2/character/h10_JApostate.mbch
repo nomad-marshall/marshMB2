@@ -3,33 +3,35 @@
 ClassInfo
 {
 	name				"h10_JApostate"
+	MBClass			MB_CLASS_JEDI
+	classNumberLimit	1
 	weapons				WP_SABER|WP_MELEE
+
 	attributes			MB_ATT_FORCEFOCUS,3|MB_ATT_FORCEBLOCK,4|MB_ATT_FP_MIRALUKA,3|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_ANTI_MT,2|MB_ATT_DEFLECT,0
-	saberstyle			SS_TAVION|SS_FAST
+
 	forcepowers			FP_LEVITATION,1|FP_PUSH,2|FP_PULL,3|FP_SABER_OFFENSE,3|FP_SEE,3|FP_SABERTHROW,3|FP_GRIP,3|FP_DRAIN,3|FP_ABSORB,3|FP_TELEPATHY,2
+
 	maxhealth			100
-	forcepool           150
-	forceregen   		1.25
+	forcepool   150
+	forceregen  1.75
 	speed				0.95
 	//special1			EAS_FP_SABERTHROW
 	special2 EAS_FP_ABSORB
 	special3 EAS_FP_GRIP
 	special4 EAS_FP_DRAIN
+
+	saberstyle			SS_TAVION|SS_FAST
+	saberDamageStyle SS_TAVION,130|SS_FAST,130
 	saberThrowDamage 40
 	BPmultiplier		1.25
-	APmultiplier     	0.95
+	APmultiplier  0.95
 	ASmultiplier		0.95
 	CSmultiplier		0.85
-	modelscale      	0.97
-	MBClass			MB_CLASS_JEDI
-	classNumberLimit	1
-	
-	uioverlay "gfx/icons/support"
-	
+
 	classflags		CFL_SEEING_STEALTH|CFL_NOPICKUPS
 	
-	forceregen       1.75
-	
+	modelscale  0.97
+	uioverlay "gfx/icons/support"
 	model	"Visas"
 	skin		"default"
 	uishader	"models/players/visas/mb2_icon_default"
@@ -44,11 +46,9 @@ ClassInfo
 		
 	saber1			saber_visas
 	sabercolor		5	
-		
-	saber1_1			kotorsab
-	sabercolor_1		3
-
-    //respawncustomtime  50000	
+	
+	saber1_1	kotorsab
+	sabercolor_1	3
 }
 
 description	"Jedi Apostate [Jedi]
@@ -59,6 +59,7 @@ A Jedi with inferior Lightsaber skills, but strongly adept in the Force.
 - Melee
 - Lightsaber (Cyan/Blue)
 -- Saber/Blaster Defense (1)
+-- 8% more DMG
 -- EX Saber Throw (3) ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[GB]

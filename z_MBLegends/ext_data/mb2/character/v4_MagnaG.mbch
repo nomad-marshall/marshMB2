@@ -3,7 +3,7 @@ ClassInfo
 {
 	name			"v4_MagnaG"
 	MBClass	MB_CLASS_SITH
-	classNumberLimit	2
+	classNumberLimit	3
 	extralives	1
 	
 	weapons		WP_MELEE|WP_SABER|WP_MANDO_PISTOL
@@ -26,7 +26,8 @@ ClassInfo
 	ASmultiplier	1.15
 	CSmultiplier	1.20
 	APmultiplier	1.3
-	classflags CFL_STRONGAGAINSTPHYSICAL
+
+	classflags CFL_STRONGAGAINSTPHYSICAL|CFL_DISMEMBERFRAGILE
 	special1 EAS_NONE
 	special2 EAS_MELEE
 	//meditateAnim BOTH_SBD_DEAD1

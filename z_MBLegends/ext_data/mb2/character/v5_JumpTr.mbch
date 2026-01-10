@@ -3,61 +3,57 @@
 ClassInfo
 {
 	name					"v5_JumpTr"
-	weapons					WP_MELEE|WP_REPEATER|WP_ROCKET_LAUNCHER
-	attributes				MB_ATT_REPEATER,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_FUEL,3|MB_ATT_ASSEMBLE,3|MB_ATT_ROCKET_LAUNCHER
-	maxhealth			100
-	maxarmor				100
 	MBClass				MB_CLASS_WOOKIE
-	resource				resource_fuel
+ classNumberLimit		2
+	extralives      		1
+	weapons					WP_MELEE|WP_REPEATER|WP_ROCKET_LAUNCHER
+
+	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_STUN|HELD_KNOCKBACK
+	WP_RepeaterFlags		HELD_ALTRELOAD
+
+	attributes				MB_ATT_REPEATER,2|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_FUEL,3|MB_ATT_ASSEMBLE,3|MB_ATT_ROCKET_LAUNCHER
+
+	maxhealth			120
+	maxarmor				105
+
+	resource			RESOURCE_FUEL
 	forcepool 100
 	flourishAnim BOTH_WOOKIEE_RAGE_MELEE1
-
-    classNumberLimit		2
-	extralives      		1
-    modelscale			1.13
-	classNumberLimit		2
-	speed              	1.0
-	damageTaken 0.9
 	
 	knockbackTaken 0.85
-	
-	WP_RocketLauncherflags HELD_ALTRELOAD|HELD_STUN|HELD_KNOCKBACK
-	WP_Repeaterflags		HELD_ALTRELOAD
+
+	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	
 	jetpackJetTag			*jet1		
 	jetpackJet2Tag		*jet2	
-	
+	modelscale			1.13
 	uioverlay_l "gfx/icons/aerial"
 	uioverlay_c "gfx/icons/spec_infantry"
 	uioverlay_r "gfx/icons/infantry"
 	
-	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
-	
 	model		"pl_rockettrooper"
-    skin			"base"
-    uishader		"gfx/um_icons/PrisonRaidPack/Rocket"
+ skin			"base"
+ uishader		"gfx/um_icons/PrisonRaidPack/Rocket"
 	
 	model_1		"pl_rockettrooper"
 	skin_1		"default"
 	uishader_1	"gfx/hud/FA_Icons/mb2_icon_imp_rockettrooper"
 	
 	model_2		"stormie"
-    skin_2		"jet"
-    uishader_2 	"models/players/stormie/mb2_icon_jet"
+ skin_2		"jet"
+ uishader_2 	"models/players/stormie/mb2_icon_jet"
 	
 	model_3		"stormie"
-    skin_3		"jetcom"
-    uishader_3 	"models/players/stormie/mb2_icon_jetcom"
+ skin_3		"jetcom"
+ uishader_3 	"models/players/stormie/mb2_icon_jetcom"
 	
 	model_4		"stormie"
-    skin_4		"jet_legacy"
-    uishader_4 	"models/players/stormie/mb2_icon_jet_legacy"
+ skin_4		"jet_legacy"
+ uishader_4 	"models/players/stormie/mb2_icon_jet_legacy"
 	
 	model_5		"stormie"
-    skin_5		"jetcom_legacy"
-    uishader_5 	"models/players/stormie/mb2_icon_jetcom_legacy"
-	
-	//respawncustomtime 		30000		
+ skin_5		"jetcom_legacy"
+ uishader_5 	"models/players/stormie/mb2_icon_jetcom_legacy"		
 }
 
 WeaponInfo0
@@ -115,10 +111,9 @@ A 2-life Jetpack user with a unique suppression Repeater and a micro-Rocket Laun
 -- 25% less FP DMG
 -- 15% slower mag reload
 - PLX-2M Rocket Launcher (6)
--- Staggers/pushes on hit
+-- Staggers/pushes on det
 -- 15% more velocity
 -- 50% slower mag reload
--- Homing Rockets ^3[Hold Sec. ^3fire]
 
 ^8Attributes:
 - Reinforcement (1)

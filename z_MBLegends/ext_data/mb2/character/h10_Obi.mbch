@@ -9,17 +9,19 @@ ClassInfo
 	weapons	WP_MELEE|WP_SABER
 	
 	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,3|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3
-	
-	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
+
 	forcepowers	FP_LEVITATION,2|FP_PUSH,3|FP_SEE,3|FP_SABER_OFFENSE,3
-	
+
+	speed			0.94
 	maxhealth	150
-	
 	forcepool	140
 	rankForcePool 185
 	
 	forceregen  .85
 	rankforceregen 1
+	
+	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
+	saberDamageStyle SS_FAST,130|SS_TAVION,130
 	saberThrowDamage 40
 
 	blockRegenAmount 5
@@ -27,22 +29,20 @@ ClassInfo
 
 	APmultiplier	0.8
 	BPmultiplier	1.6
-	CSmultiplier  1.05
+	CSmultiplier 1.05
 	ASmultiplier	1.05
+
 	classflags CFL_NOPICKUPS
-	speed			0.94
-	
+
 	//special1 EAS_FP_SABERTHROW game chooses spec1 if not defined, leave as is
 	special2 EAS_MELEE
 	//special3 EAS_FP_TELEPATHY
 	//special4 EAS_FP_PROTECT
 	
-	//tauntAnim   BOTH_DESANN_STANCE
 	flourishAnim	BOTH_STAND5TOSTAND8
-	gloatAnim	BOTH_MINDTRICK1
-	//saberStanceAnim BOTH_SABER_OBIWAN_STANCE
+ gloatAnim	BOTH_MINDTRICK1
 	
-	saber1		saber_obi_wan_legends3
+	saber1		 saber_obi_wan_legends3
 	sabercolor	4
 	
 	saber1_1		saber_obi_wan_legends
@@ -51,6 +51,7 @@ ClassInfo
 	saber1_2		saber_obi_wan_legends4
 	sabercolor_2 	0.58
 	modelscale	1.01
+
 	uioverlay "gfx/icons/support"
 	model		"obiwan_ep3"
 	skin			"default"
@@ -158,7 +159,8 @@ A seasoned Jedi with exceptional Saber skills and high BP regen. Choice of old a
 - Lightsaber (Yellow/Cyan/Blue)
 -- Saber/Blaster Defense (3)
 --- BP Regen: 5/.4s to 100
--- Saber Deflect (3)
+-- Blaster Deflect (3)
+-- 8% more Cyan/Blue DMG
 -- Saber Throw ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[CS2]

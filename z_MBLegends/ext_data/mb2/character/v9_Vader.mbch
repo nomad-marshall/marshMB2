@@ -8,12 +8,12 @@ ClassInfo
 
 	weapons				WP_SABER|WP_MELEE|WP_SBD
 
-	attributes			MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_HEALING,1|MB_ATT_FORCEFOCUS,3|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_FLOAT_HOP,1|MB_ATT_GETUPS,3
+	attributes			MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_HEALING,1|MB_ATT_FORCEFOCUS,3|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_FLOAT_HOP,1|MB_ATT_GETUPS,3|MB_ATT_BESKAR,2
 
 	forcepowers			FP_SABER_OFFENSE,3|FP_PUSH,3|FP_PULL,2|FP_GRIP,3|FP_SEE,2|FP_SABERTHROW,3
 
 	maxhealth		75
-	maxarmor			50
+	maxarmor			70
 
 	speed    0.91
 
@@ -27,7 +27,6 @@ ClassInfo
 	rateoffire_melee	1.1
 	knockbacktaken 0.05
 	damageGiven 1.1
- damageTaken 0.95
 
 	gloatAnim BOTH_FORCEGRIP1
 	flourishAnim BOTH_STAND5TOSTAND8
@@ -42,7 +41,8 @@ ClassInfo
 	CSMultiplier		1
 	saberMaxChain 4
 	saberstyle			SS_DESANN|SS_STRONG
-	
+	saberDamageStyle SS_DESANN,280|SS_STRONG,280
+
 	saber1				  Vader_legends1
 	sabercolor			0
 	
@@ -112,9 +112,10 @@ A tanky saberist with strong defense and offense, at the cost of mobility. Regai
 -- 10% slower RoF
 - Lightsaber (Purple/Red)
 -- Saber/Blaster Defense (3)
--- Saber Deflect (3)
+-- Blaster Deflect (3)
 -- Chain Limit: 4
 -- 10% more reach
+-- 30/46% less Purple/Red DMG
 -- EX Saber Throw (3) ^3[CS1]
 --- 50% more DMG
 -- Slap ^3[CS2]
@@ -131,6 +132,7 @@ A tanky saberist with strong defense and offense, at the cost of mobility. Regai
 - Getup (3)
 - Slow Faller
 - Strength (1)
+- Beskar (2)
 - Blast Armor
 - Magnetic Plating 
 - Cortosis (1)

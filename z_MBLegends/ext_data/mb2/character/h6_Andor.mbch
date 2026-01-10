@@ -3,8 +3,8 @@ ClassInfo
 	name  "h6_Andor"
 	weapons WP_BLASTER_PISTOL|WP_PROJ|WP_FRAG_NADE
 	attributes  MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_FRAGS,2|MB_ATT_HEALING,3|MB_ATT_QUICKTHROW,2|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_TRACKING_BEACON
-	maxhealth 150
-	maxarmor  80
+	maxhealth 			170
+	maxarmor  			90
 	MBclass		MB_CLASS_HERO
 	forcepool 			100
 	rankForcepool		110
@@ -15,7 +15,7 @@ ClassInfo
 	holdables		HI_BINOCULARS
 	
 	rateOfFire    0.93
-	speed		1.04
+ baseSpeed 255
 
 	model "cassian"
 	skin  "default"
@@ -76,7 +76,7 @@ WeaponInfo0
 	WeaponName		"Projectile Rifle"
 	primGore		1
 	altGore		1
-	customAmmo	24
+	customAmmo	25
 	clipSize     2
 	ReloadTimeModifier 0.7
 }

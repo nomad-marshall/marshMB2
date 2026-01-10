@@ -3,42 +3,38 @@
 ClassInfo
 {
 	name			"h5_Skirata"
-	weapons			WP_MELEE|WP_CLONE_PISTOL|WP_M5|WP_PULSE_NADE|WP_SABER
-	attributes		MB_ATT_JETPACK|MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_WESTARM5,2|MB_ATT_DEXTERITY,3|MB_ATT_FUEL,3|MB_ATT_STAMINA,3|MB_ATT_ARC_RIFLE_SCOPE|MB_ATT_HEALING,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_BLAST_ARMOUR|MB_ATT_TRACKING_DART,3
-	
 	MBClass			MB_CLASS_BOUNTY_HUNTER
 	classNumberLimit	1
+
+	weapons			WP_MELEE|WP_CLONE_PISTOL|WP_M5|WP_PULSE_NADE|WP_SABER
+
+	attributes		MB_ATT_JETPACK|MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_WESTARM5,2|MB_ATT_DEXTERITY,3|MB_ATT_FUEL,3|MB_ATT_STAMINA,3|MB_ATT_ARC_RIFLE_SCOPE|MB_ATT_HEALING,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_BLAST_ARMOUR|MB_ATT_TRACKING_DART,3|MB_ATT_BESKAR,3
 	
 	maxhealth	125
-	maxarmor		130
+	maxarmor		115
 	
 	basespeed 193
-	model			"jangofett"
-	skin				"orange"
-	uishader 		"models/players/jangofett/mb2_icon_orange"
+
 	customred		0.8
-	customgreen		0.751
+	customgreen	0.751
 	customblue		0.6
 
 	forcepool 			100
-	resource			resource_stamina
+	resource			RESOURCE_STAMINA
 
-	rateoffire			1
-	damageGiven      	1.15
-	damageTaken			0.9
+	damageGiven 1.15
 
 	knockbacktaken 0.92
 	knockbackgiven 1.08
-	
 
 	special1 EAS_HI_SPRINT
 	special2 EAS_HI_DEX
 	special3 EAS_HI_TRACKER
-	special4 EAS_MELEE
+	//special4 EAS_MELEE
 	
 	saber1 				arc_shiv_legends
-	saberstyle			SS_TAVION
-	APmultiplier      	1.25
+	saberstyle	SS_TAVION
+	APmultiplier 1.25
 	BPmultiplier		0
 	saberdamage 90
 	saberStanceAnim	BOTH_STAND9
@@ -46,6 +42,9 @@ ClassInfo
 	flourishAnim BOTH_SHOWOFF_FAST
 	
 	uioverlay "gfx/icons/aerial"
+	model			"jangofett"
+	skin				"orange"
+	uishader 		"models/players/jangofett/mb2_icon_orange"
 }
 
 WeaponInfo0
@@ -120,7 +119,7 @@ A dexterous Jetpack sniper focused on precision.
 -- 25% less DMG
 -- 57% less reach
 -- 33% more radius
--- Slap ^3[CS4]
+-- Slap ^3[GB]
 - DE-10 Blaster Pistol (2)
 -- 20% more DMG
 -- 35% more FP DMG
@@ -132,10 +131,12 @@ A dexterous Jetpack sniper focused on precision.
 - Pulse Grenades (2)
 
 ^8Attributes:
-- 8% more/less KB given/taken
+- 8% more KB given
+- 8% less KB taken
 - Stamina (3)
 - Dexterity (3)
 - Blast Armor
+- Beskar (3)
 - Healing (2)
 
 ^3Abilities:

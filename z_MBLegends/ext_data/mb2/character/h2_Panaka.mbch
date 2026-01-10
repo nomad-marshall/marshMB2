@@ -27,7 +27,7 @@ ClassInfo
 	sabercolor_6 	6
 	
 	saberstyle 	SS_DUAL
-	maxhealth 160
+	maxhealth 170
 	maxarmor	 90
 
 	BPmultiplier		0

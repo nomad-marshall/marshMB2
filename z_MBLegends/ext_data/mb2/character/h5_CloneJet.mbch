@@ -7,23 +7,23 @@ ClassInfo
 	classNumberLimit	4
 	
 	weapons		WP_CLONE_RIFLE|WP_MELEE|WP_ROCKET_LAUNCHER|WP_PULSE_NADE|WP_MANDO_PISTOL
-	
+	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_PULSE
+
 	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_QUICKTHROW,1|MB_ATT_JETPACK,1|MB_ATT_AMMO,3|MB_ATT_RESPAWNS,1|MB_ATT_STRONGBLOBS,3|MB_ATT_ASSEMBLE,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_CLONEBLOBS,2|MB_ATT_MANDO_PISTOL,3|MB_ATT_DASH,1
 	
-	maxhealth 	80
+	maxhealth 80
 	maxarmor	90
 	forcepool 	100
-	resource	resource_fuel
+	resource	RESOURCE_FUEL
+
 	basespeed	227
+
 	holdables 	HI_MEDPAC
 	
 	jetpackJetTag		*jet1
 	jetpackJet2Tag		*jet2
 	
-	WP_RocketLauncherFlags HELD_ALTRELOAD|HELD_PULSE
-
 	knockbackTaken 0.95
-	rateOfFire   0.95
 	
 	special1 	EAS_NONE
 	special2	EAS_HI_DASH
@@ -69,7 +69,6 @@ ClassInfo
 	uioverlay_l "gfx/icons/aerial"
 	uioverlay_c "gfx/icons/spec_infantry"
 	uioverlay_r "gfx/icons/infantry"
-	//respawncustomtime 30000
 }
 
 WeaponInfo0
@@ -96,6 +95,7 @@ WeaponInfo0
     ReloadTimeModifier 1.4    
     altfireenabled  0
 	velocityMod 1.15
+rateMod .95
 	hasAnimOverrides 1
 	animReadyRun		BOTH_WESTARM5_READY
 	animReady		BOTH_WESTARM5_READY
@@ -128,7 +128,7 @@ WeaponInfo1
 	PowerupShotEffect "Blaster/Shot03B"
 	WeaponName	"Dual DC-17 Hand Blasters"
 	customAmmo 550
-	rateMod 1.05
+	rateMod 1
 }
 
 description	"Clone Jet Trooper [Clone Trooper]
@@ -138,15 +138,15 @@ description	"Clone Jet Trooper [Clone Trooper]
 ^2Weaponry:
 - Melee
 - Dual DC-17 Hand Blasters (WESTARs 3)
--- 5% slower RoF
 - DC-15A Clone Rifle (1)
 -- Concussion Blobs (4)
 -- Ion Blobs (6)
 - EMP Launcher (8) (Rocket Launcher)
--- Electrifies on hit
+-- Electrifies on det
 -- 15% more velocity
+-- 5% faster shot swap
 -- 40% slower mag reload
--- Prim. only
+-- Prim only
 - Pulse Grenades (2)
 
 ^6Inventory:

@@ -3,30 +3,39 @@
 ClassInfo
 {
 	name			"v6_Tusk"
+	MBClass			MB_CLASS_WOOKIE
+	extralives			1
+	classNumberLimit		4
+
 	weapons			WP_SABER|WP_MELEE|WP_CLONE_PISTOL|WP_PROJ|WP_CONC_NADE
+
 	attributes		MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_MICRO_GRENADES,2|MB_ATT_HEALING,1|MB_ATT_WOOKIEE_FURY,3|MB_ATT_SABER_COMBO_NONE|MB_ATT_GETUPS,2
+
 	forcepowers     FP_SABER_OFFENSE,1
 	forcepool 150
 	resource RESOURCE_RAGE
 	forceregen	0.01
+
 	maxhealth		90
-	maxarmor        	75
-	MBClass			MB_CLASS_WOOKIE
+	maxarmor  75
+
 	basespeed		232
+
 	WP_ProjFlags 		HELD_ALTRELOAD|HELD_STUN
 	WP_ClonePistolFlags    HELD_ALTRELOAD
 	WP_SaberFlags HELD_SPEED
+
 	rageSoundOverride 	"sound/chars/tusken/misc/rage.mp3"
 	bargeSoundOverride 	"sound/chars/tusken/misc/anger3.mp3"
-	APmultiplier			1.2
-	ASmultiplier 1.10
+
+	APmultiplier	1.2
+	ASmultiplier 1.1
 	BPmultiplier		0
-	classNumberLimit		4
+
 	saberDamage 	130
 	saberspecialDamage 2
-	extralives			1
-	modelscale      		1.03
-	//holdables       HI_BINOCULARS
+
+ meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	
 	saber1		Gaffi_legends
 	saber1_1		Gaffi_legends2
@@ -35,33 +44,30 @@ ClassInfo
 	
 	flourishAnim BOTH_VICTORY_FAST
 	gloatAnim BOTH_TUSKENTAUNT1
-	
+
+	modelscale  1.03
 	uioverlay_l "gfx/icons/scout"
 	uioverlay_c "gfx/icons/brawler"
 	uioverlay_r "gfx/icons/infantry"
-	
-	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
 	
 	model		"tusken_jk3"
 	skin			"default"
 	uishader		"models/players/tusken_jk3/mb2_icon_default"
 	
-	model_1		"tusken_jk3"
+	model_1	"tusken_jk3"
 	skin_1		"chief"
 	uishader_1	"models/players/tusken_jk3/mb2_icon_chief"
 	
-	model_2		"tusken_jk3" 					
+	model_2	"tusken_jk3" 					
 	skin_2		"breather"					
 	uishader_2	"models/players/tusken_jk3/mb2_icon_breather"
 	
-	model_3		"tusken_fem_jk3"
+	model_3	"tusken_fem_jk3"
 	skin_3		"default"
 	uishader_3 	"models/players/tusken_fem_jk3/mb2_icon_default"
-	//respawnCustomTime 15000
 	
 	special1 EAS_NONE
 	special2 EAS_MELEE
-	//special3 EAS_HI_BINOCULARS
 }
 
 WeaponInfo0
@@ -142,9 +148,9 @@ A 2-life class with a unique blend of Melee weapons, slug-based guns, and Wookie
 -- 8% more Yellow special DMG
 -- Slap ^3[CS2]
 > Tusken Gaffi Stick
--- 14% faster AS
+-- 14% more AS
 > Chieftain's Gaffi Stick
--- 7% slower AS
+-- 7% less AS
 -- 30% more reach
 - Dual Projectile Pistols (Clone Pistols 3)
 -- Hitscan rounds
@@ -152,7 +158,7 @@ A 2-life class with a unique blend of Melee weapons, slug-based guns, and Wookie
 -- 15% less DMG
 -- 10% less FP DMG
 -- Mag reload
--- Prim. only
+-- Prim only
 - Concussion Grenades (2)
 - Tusken Cycler Projectile Rifle
 -- Staggers on hit

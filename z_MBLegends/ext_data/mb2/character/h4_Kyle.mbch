@@ -3,48 +3,37 @@
 ClassInfo
 {
 	name			"h4_Kyle"
+	MBClass				MB_CLASS_SITH //fp
+	classNumberLimit  	1
+
 	weapons			WP_SABER|WP_MELEE|WP_STUN_BATON|WP_THERMAL
-	
-	saberstyle		SS_MEDIUM|SS_STRONG|SS_FAST
-	
+	WP_DetPackFlags		HELD_HIGHDAMAGE
+
 	attributes		MB_ATT_BASE_TD,2|MB_ATT_AMMO,1|MB_ATT_FORCEFOCUS,1|MB_ATT_DEFLECT,2|MB_ATT_STUN_BATON,3|MB_ATT_FLOAT_HOP|MB_ATT_BUNNY_HOP,1|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_DEXTERITY,1
 	
 	forcepowers		FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_SABERTHROW,2
-	
+	forcepool		100
+	resource	 RESOURCE_FORCE
+
 	maxhealth	100
 	
 	maxarmor		0
 	rankArmor	20,50,100
 	
-	forcepool		100
-	resource		resource_force
-	forceregen   	1.00
-	
 	basespeed		238
 	
-	uioverlay_r "gfx/icons/frontline"
-	uioverlay_l "gfx/icons/hybrid"
-	
- //disableGunbash 1
-	
-	APmultiplier	    1.0
-	BPmultiplier     	1.0
-	ASmultiplier	    1.0
-	CSmultiplier		1.0
+ saberDamageStyle SS_STRONG,280|SS_FAST,130
+	saberstyle		SS_MEDIUM|SS_STRONG|SS_FAST
 	saberThrowDamage 40
-	modelscale          1.0
-	MBClass				MB_CLASS_SITH //fp
-	classNumberLimit  	1
-	
-	WP_DetPackFlags		HELD_HIGHDAMAGE
-	
+
 	special1	EAS_FP_SABERTHROW
 	special2 EAS_MELEE
 	//special3 EAS_FP_ABSORB
 	//special4 EAS_FP_PROTECT
-	
-	isCustomBuild		1
-	
+
+	uioverlay_r "gfx/icons/frontline"
+	uioverlay_l "gfx/icons/hybrid"
+	modelscale  1.0
 	model		"Kyle"
 	skin			"default"
 	uishader		"models/players/kyle/mb2_icon_default"
@@ -68,76 +57,79 @@ ClassInfo
 	saber1			Katarn
 	sabercolor		4	
 	
-	saber1_1			saber_qu_rahn
+	saber1_1		saber_qu_rahn
 	sabercolor_1		3
 	
-	saber1_2			saber_yun
+	saber1_2		saber_yun
 	sabercolor_2		2
 
-	saber1_3			saber_yun
+	saber1_3		saber_yun
 	sabercolor_3		1	
-	
+		
+	isCustomBuild		1
 	mbPoints			100
 	
-c_att_skill_0       MB_ATT_FP_SABER_DEFENSE
-c_att_names_0       "Saber Defense"
-c_att_ranks_0       6,6,4
+c_att_skill_0   MB_ATT_FP_SABER_DEFENSE
+c_att_names_0   "Saber Defense"
+c_att_ranks_0   6,6,4
 
-c_att_skill_1       MB_ATT_GUN_DEFENSE
-c_att_names_1       "Blaster Defense"
-c_att_ranks_1       8,8,4
+c_att_skill_1   MB_ATT_GUN_DEFENSE
+c_att_names_1   "Blaster Defense"
+c_att_ranks_1   8,8,4
 	
-c_att_skill_2       MB_ATT_PISTOL
-c_att_names_2       "Kyle's Bryar (Blaster) Pistol"
-c_att_ranks_2       2,2,15
-c_att_descs_2 "20% more charged FP DMG, 20% less velocity"
-c_att_skill_3       MB_ATT_BLASTER
-c_att_names_3       "E-11 Blaster Rifle"
-c_att_ranks_3       6,6
+c_att_skill_2   MB_ATT_PISTOL
+c_att_names_2   "Kyle's Bryar (Blaster) Pistol"
+c_att_ranks_2   2,2,15
+c_att_descs_2   "20% more charged FP DMG, 20% less velocity"
 
-c_att_skill_4       MB_ATT_DET_PACK
-c_att_names_4       "Det Packs"
-c_att_ranks_4       2,2,2
-c_att_descs_4 "100% more DMG, DMG increases with rank"
-c_att_skill_5       MB_ATT_FP_PUSH
-c_att_names_5       "Force Push"
-c_att_ranks_5       4,4
+c_att_skill_3   MB_ATT_BLASTER
+c_att_names_3   "E-11 Blaster Rifle"
+c_att_ranks_3   6,6
 
-c_att_skill_6       MB_ATT_FP_PULL
-c_att_names_6       "Force Pull"
-c_att_ranks_6       4,4
+c_att_skill_4   MB_ATT_DET_PACK
+c_att_names_4   "Det Packs"
+c_att_ranks_4   2,2,2
+c_att_descs_4   "100% more DMG, DMG increases with rank"
 
-c_att_skill_7       MB_ATT_FP_SEE
-c_att_names_7       "Force Sense"
-c_att_ranks_7       4,4
+c_att_skill_5   MB_ATT_FP_PUSH
+c_att_names_5   "Force Push"
+c_att_ranks_5   4,4
 
-c_att_skill_8       MB_ATT_FP_LIGHTNING
-c_att_names_8       "Force Lightning ^3[CS4]"
-c_att_ranks_8       4,6
+c_att_skill_6   MB_ATT_FP_PULL
+c_att_names_6   "Force Pull"
+c_att_ranks_6   4,4
 
-c_att_skill_9       MB_ATT_FP_GRIP
-c_att_names_9       "Force Grip ^3[CS3]"
-c_att_ranks_9       4,6
+c_att_skill_7   MB_ATT_FP_SEE
+c_att_names_7   "Force Sense"
+c_att_ranks_7   4,4
 
-c_att_skill_10      MB_ATT_FP_ABSORB
-c_att_names_10      "Force Absorb"
-c_att_ranks_10      4,4
+c_att_skill_8   MB_ATT_FP_LIGHTNING
+c_att_names_8   "Force Lightning ^3[CS4]"
+c_att_ranks_8   4,6
 
-c_att_skill_11      MB_ATT_FP_PROTECT
-c_att_names_11      "Force Protect"
-c_att_ranks_11      4,4
+c_att_skill_9   MB_ATT_FP_GRIP
+c_att_names_9   "Force Grip ^3[CS3]"
+c_att_ranks_9   4,6
 
-c_att_skill_12      MB_ATT_FP_SPEED
-c_att_names_12      "Force Speed"
-c_att_ranks_12      4,2,2
+c_att_skill_10  MB_ATT_FP_ABSORB
+c_att_names_10  "Force Absorb"
+c_att_ranks_10  4,4
 
-c_att_skill_13      MB_ATT_ARMOUR
-c_att_names_13      "Armor (20/50/100)"
-c_att_ranks_13      4,6,10
+c_att_skill_11  MB_ATT_FP_PROTECT
+c_att_names_11  "Force Protect"
+c_att_ranks_11  4,4
 
-c_att_skill_14      MB_ATT_FORCEBLOCK
-c_att_names_14      "Force Block"
-c_att_ranks_14      4,6,8
+c_att_skill_12  MB_ATT_FP_SPEED
+c_att_names_12  "Force Speed"
+c_att_ranks_12  4,2,2
+
+c_att_skill_13  MB_ATT_ARMOUR
+c_att_names_13  "Armor (20/50/100)"
+c_att_ranks_13  4,6,10
+
+c_att_skill_14  MB_ATT_FORCEBLOCK
+c_att_names_14  "Force Block"
+c_att_ranks_14  4,6,8
 }
 
 WeaponInfo0
@@ -177,7 +169,8 @@ A Force-sensitive mercenary with the ability to choose his own path.
 - Melee
 - Lightsaber (Yellow/Red/Blue)
 -- Saber/Blaster Defense (0)
--- Saber Deflect (2)
+-- Blaster Deflect (2)
+-- 46% less Red/8% more Blue DMG
 -- EX Saber Throw (2) ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[CS2]

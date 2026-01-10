@@ -23,10 +23,9 @@ ClassInfo
 	rankArmor	50,80,120	
 	
 	forcepowers	FP_SABER_OFFENSE,3
-
-	//rateOfFire	1.1
 	
 	speed       1.07
+
 	saberDamage 120
 	ASmultiplier 1.05
 	BPmultiplier		1
@@ -178,9 +177,9 @@ Dexterous Melee/gunner hybrids who can spec into anti-Jedi tools, damage protect
 -- 53% less DMG
 -- Slap ^3[CS2]
 > Imperial Electrostaff (Staff)
--- 20% faster AS
+-- 20% more AS
 > Double Electrobatons (Dual)
--- 8% faster AS
+-- 8% more AS
 -- 65% less reach
 
 ^8Attributes:

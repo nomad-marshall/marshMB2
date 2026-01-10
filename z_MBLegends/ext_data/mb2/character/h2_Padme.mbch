@@ -3,24 +3,29 @@
 ClassInfo
 {
 	name					"h2_Padme"
-	weapons					WP_A280|WP_MELEE|WP_PULSE_NADE|WP_CONC_NADE|WP_BLASTER_PISTOL
-	attributes				MB_ATT_HEALING,3|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_QUICKTHROW,3|MB_ATT_DEXTERITY,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,3|MB_ATT_DISP_BLOCK,3|MB_ATT_DISP_FORCE,2
-	maxhealth				175
-	maxarmor				65
-	
-	resource RESOURCE_ENERGY
-	forcepool 125
 	MBClass					MB_CLASS_HERO
-	modelscale 				0.933
-	speed					1.02
-	rateOfFire				0.8
-	rateOfFire_Melee	0.9
 	classNumberLimit 		1
-	holdables       		HI_MEDPAC_BIG|HI_MEDPAC
+	weapons					WP_A280|WP_MELEE|WP_PULSE_NADE|WP_CONC_NADE|WP_BLASTER_PISTOL
+
+	attributes				MB_ATT_HEALING,2|MB_ATT_DASH,2|MB_ATT_A280,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_MICRO_GRENADES,2|MB_ATT_DODGE,3|MB_ATT_PISTOL,3|MB_ATT_QUICKTHROW,3|MB_ATT_DEXTERITY,1|MB_ATT_ANTI_MT,2|MB_ATT_USE_DISTANCE,3|MB_ATT_DISP_BLOCK,3|MB_ATT_DISP_FORCE,2
+
+	maxhealth				180
+	maxarmor				85
+
+	forcepowers FP_TEAM_FORCE,1
+	resource RESOURCE_ENERGY
+	forcepool 100
+	forceregen	1.25
+
+baseSpeed 255
+
+	//rateOfFire				0.8
+	rateOfFire_Melee	0.9
+
+	holdables HI_MEDPAC_BIG|HI_MEDPAC
+
  classflags CFL_STATVIEWER
-	
-	forceregen			1.5
-	skilltimermod 0.9
+
 	knockbackGiven 1.05
 		
 	model		"padme_e2" 				
@@ -42,15 +47,13 @@ ClassInfo
 	model_4 		"sabe"
 	skin_4		"default"
 	uishader_4	"models/players/sabe/mb2_icon_default"
-	
-	//respawncustomtime  50000
-	
+	modelscale 				0.933
+	uioverlay "gfx/icons/spec_infantry"
+
 	special1		EAS_HI_DODGE
 	special2 	EAS_HI_DASH
 	special3		EAS_HI_QUICKTHROW
-	special4		EAS_HI_MEDPAC
-	
-	uioverlay "gfx/icons/spec_infantry"
+	special4		EAS_HI_MEDPAC_BIG
 	
 	flourishAnim BOTH_STAND5TOAIM
 }
@@ -66,8 +69,10 @@ WeaponInfo0
 	AltFlashSound0 		"sound/weapons/ee3/sniperfire.mp3"
 	WeaponName				"Looted E-5 Blaster Rifle"
 	customAmmo			720
-	clipsize            80
+	clipsize   80
 	damageMod 1.1
+ rateMod .8
+	altFireEnabled		0
 	hasAnimOverrides 1
 	animReadyRun TORSO_WEAPONREADY2
 	animReady TORSO_WEAPONREADY2
@@ -99,12 +104,13 @@ WeaponInfo1
 	AltFlashSound0		"sound/weapons/spy_pistol/fire.wav"
 	ChargeSound "sound/weapons/leia_pistol/altcharge.mp3"
 	clipsize 			33
-	CustomAmmo 500
+	CustomAmmo 660
 	damageMod 1.1
 	fpmult 1.1
+ rateMod .8
 	hasAnimOverrides 1
-animReadyRun TORSO_WEAPONIDLE2
-animReady TORSO_WEAPONIDLE2
+ animReadyRun TORSO_WEAPONIDLE2
+ animReady TORSO_WEAPONIDLE2
 	animReadyWalk TORSO_WEAPONIDLE2
 	animReadyNoAmmo BOTH_ATTACK2 
 	animAttackRun BOTH_ATTACK2 
@@ -114,17 +120,22 @@ animReady TORSO_WEAPONIDLE2
 
 description	"Padme Naberrie Amidala Skywalker [Hero]
 
-A quick in-and-out gunner with powerful rapid-fire Blasters and self-healing items. Can regenerate allied saberists' Block Points.
+A frontline/support gunner with multiple forms of self-healing. Powerful in proximity to friendly Saberists.
 
 ^2Weaponry:
 - Melee
 -- 10% faster RoF
 - ELG-3A Diplomat's Pistol (3)
 -- 10% more DMG/FP DMG
+-- 20% faster RoF
 - Looted E-5 Blaster Rifle (A280 1)
 -- 10% more DMG
-- Pulse Grenades (3)
-- Concussion Grenades (3)
+-- 20% faster RoF
+- Pulse Grenades (2)
+- Concussion Grenades (2)
+
+^Powers:
+- Team Energize (1)
 
 ^6Inventory:
 - Medpac
@@ -132,9 +143,8 @@ A quick in-and-out gunner with powerful rapid-fire Blasters and self-healing ite
 
 ^8Attributes:
 - 5% more KB given
-- 10% faster skill CD
 - Dexterity (1)
-- Healing (3)
+- Healing (2)
 - Rally
 - Anti-Mind Trick (2)
 - Ally Stat Viewer

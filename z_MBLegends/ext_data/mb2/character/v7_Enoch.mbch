@@ -1,12 +1,20 @@
 ClassInfo
 {
 	name				"v7_Enoch"
+	MBClass 			MB_CLASS_COMMANDER
+	classNumberLimit  	1
 	weapons 			WP_MELEE|WP_FRAG_NADE||WP_BLASTER
+
 	attributes 			MB_ATT_BLASTER,3|MB_ATT_EE3,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_LIGHTS_BEACON|MB_ATT_FRAGS,3|MB_ATT_SPAWNER,1|MB_ATT_BESKAR,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_RECHARGE,1
+
+	forcepowers FP_PROTECT,1|FP_TEAM_FORCE,1|FP_SEE,1
+
 	maxhealth 			70
 	maxarmor  			35
+
 	damageGiven 1.1
 	damageTaken 0.5
+
 	basespeed			187
 	
 	knockbacktaken 			0.5
@@ -25,30 +33,26 @@ ClassInfo
 	ArmourRegenCap 5
 	ArmourRegenRate 2000	
 	ArmourRegenAmount 1
-	
-	flourishanim	BOTH_STAND5TOAIM
 
 	skilltimermod 1.75
-	forcepowers FP_PROTECT,1|FP_TEAM_FORCE,1|FP_SEE,1
 
-	MBClass 			MB_CLASS_COMMANDER
-	classNumberLimit  	1
+ classflags CFL_STATVIEWER
+
 	holdables 			HI_SPAWNER|HI_SENTRY_GUN
 
 	modelscale 0.99
 	model		"enoch"
 	skin  	"default"
 	uishader  	"models/players/enoch/mb2_icon_default"
-
- classflags CFL_STATVIEWER
-
 	uioverlay_r "gfx/icons/tactician"
 	uioverlay_l "gfx/icons/spec_infantry"
+
+	flourishanim	BOTH_STAND5TOAIM
+
 	special1		EAS_HI_SENTRY_GUN
 	special2		EAS_HI_SPAWNER
 	special3		EAS_FP_TEAM_FORCE
  special4  EAS_FP_PROTECT
-
 }
 
 WeaponInfo0
@@ -108,7 +112,7 @@ A tanky commander that can bolster allies.
 -- 10% more FP DMG
 - Frag Grenades (3)
 -- 20% faster RoF
--- Sec. only
+-- Sec only
 
 ^5Powers:
 - Sense (1)

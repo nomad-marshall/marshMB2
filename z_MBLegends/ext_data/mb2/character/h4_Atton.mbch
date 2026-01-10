@@ -23,11 +23,11 @@ HealthRegenRate 340
 HealthRegenAmount 3
 saber1	atton_legends
 saberstyle SS_MEDIUM
+saberDamageStyle SS_DESANN,280|SS_STRONG,280
 sabercolor 2
 saber1_1	echani_legends_r
 saber2_1	echani_legends_l
 saberstyle_1	SS_DUAL|SS_TAVION
-rankSaberdamage 240
 forcepowers FP_PROTECT,2|FP_ABSORB,1|FP_LEVITATION,2|FP_SEE,1
 BPMultiplier	0
 rankBP	1,1.2
@@ -53,22 +53,19 @@ hasCustomSpec 3
 isOnlyOneSpec 1
 customSpecName_1 "Scoundrel"
 customSpecIcon_1 "gfx/menus/alpha/icon_weap_firerate"
-customSpecDesc_1 "Unique weaponry, Echani techniques, limited Force Powers"
 customSpecName_2 "Sentinel"
 customSpecIcon_2 "gfx/menus/alpha/icon_weap_saber"
-customSpecDesc_2 "Balanced Saber and Force Powers"
 customSpecName_3 "Echani"
 customSpecIcon_3 "gfx/menus/alpha/icon_weap_stun"
-customSpecDesc_3 "CQC proficiency"
 c_att_skill_0	MB_ATT_CLONE_PISTOL
-c_att_names_0	"Verpine Ion (Clone) Pistols"
+c_att_names_0	"Verpine Ion (Clone) Pistol(s)"
 c_att_ranks_0	3,0,0
 c_att_descs_0 "Electrifies on hit, 50% more charged FP DMG, 50% less DMG,
-20% slower RoF, 60% slower mag reload, Sec. only"
+20% slower RoF, 60% slower mag reload, Sec only"
 c_att_skill_1	MB_ATT_MANDO_PISTOL
 c_att_names_1	"Disintegrators (WESTARs)"
 c_att_ranks_1	3,0,0
-c_att_descs_1 "25% more velocity, 75% slower mag reload, Prim. only"
+c_att_descs_1 "25% more velocity, 75% slower mag reload, Prim only"
 c_att_skill_2	MB_ATT_SONIC_DETONATOR
 c_att_names_2	"Sonic Detonators"
 c_att_ranks_2	1,1
@@ -89,22 +86,23 @@ c_att_ranks_6	2,0
 c_att_skill_7	MB_ATT_DEXTERITY
 c_att_names_7	"Dexterity ^3[CS3]"
 c_att_ranks_7	0,0
-c_att_skill_15 MB_ATT_SABER_DAMAGE
-c_att_names_15 "Saber DMG (240)"
-c_att_ranks_15 1
-c_att_descs_15 "120/130/60 default"
-c_att_skill_16 MB_ATT_BP_MULTIPLIER
-c_att_names_16 "Saber BP (100/120%)"
-c_att_ranks_16 0,1
-c_att_skill_17 MB_ATT_CS_MULTIPLIER
-c_att_names_17 "Saber CS (112%)"
+c_att_skill_15 MB_ATT_BP_MULTIPLIER
+c_att_names_15 "Saber BP (100/120%)"
+c_att_ranks_15 0,1
+c_att_skill_16 MB_ATT_CS_MULTIPLIER
+c_att_names_16 "Saber CS (112%)"
+c_att_ranks_16 1
+c_att_skill_17 MB_ATT_AS_MULTIPLIER
+c_att_names_17 "Saber AS (112%)"
 c_att_ranks_17 1
-c_att_skill_18 MB_ATT_AS_MULTIPLIER
-c_att_names_18 "Saber AS (112%)"
+c_att_skill_18 MB_ATT_SS_REDSTYLE
+c_att_names_18 "Red Saber Style"
 c_att_ranks_18 1
-c_att_skill_19 MB_ATT_SABER_STRONG
-c_att_names_19 "Strong Saber Styles"
-c_att_ranks_19 1,0
+c_att_descs_18 "46% less DMG"
+c_att_skill_19 MB_ATT_SS_PURPLESTYLE
+c_att_names_19 "Purple Saber Style"
+c_att_ranks_19 1
+c_att_descs_19 "30% less DMG"
 c_att_skill_20 MB_ATT_FP_SABER_DEFENSE
 c_att_names_20 "Saber Defense"
 c_att_ranks_20 0,2
@@ -112,7 +110,7 @@ c_att_skill_21 MB_ATT_GUN_DEFENSE
 c_att_names_21 "Blaster Defense"
 c_att_ranks_21 0,1
 c_att_skill_22 MB_ATT_DEFLECT
-c_att_names_22 "Saber Deflect"
+c_att_names_22 "Blaster Deflect"
 c_att_ranks_22 0,1
 c_att_skill_23 MB_ATT_FP_PUSH
 c_att_names_23 "Force Push"
@@ -248,14 +246,15 @@ Pure Pazaak
 - Heavy Melee
 - Atton's Armament (Saber)
 -- Saber/Blaster Defense (0)
--- Saber Deflect (1)
+-- Blaster Deflect (1)
 -- Blocking resists Force Powers
 -- Slap ^3[GB]
 > Lightsaber (Yellow)
 -- 50% less DMG
 > Echani Melee (Dual/Cyan)
 -- 100% more KB
--- 50% less/shorter DMG/reach
+-- 50% less DMG
+-- 50% less reach
 
 ^5Force Powers:
 - Jump (2)

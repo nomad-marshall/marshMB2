@@ -40,6 +40,7 @@ ClassInfo
  	ASmultiplier		1.15
  	CSmultiplier		1.18
 	 saberThrowDamage 90
+ saberDamageStyle SS_FAST,130
 	
  	basespeed    247
 	 rateOfFire_Melee 0.88
@@ -73,15 +74,15 @@ A fast Sith who can wield unique Starblades designed for massive throw damage, a
 -- 12% faster RoF
 - Asajj's Lightsabers
 -- Saber/Blaster Defense (2)
--- Saber Deflect (1)
+-- Blaster Deflect (1)
 -- Slap ^3[CS2]
-> Dual (Dual/Blue)
--- 8% less DMG
+> Double (Dual/Blue)
+-- 8% less/more Dual/Blue DMG
 > Staff (Staff/Blue)
--- 8% less DMG
+-- 8% less/more Staff/Blue DMG
 > Starblades (Dual)
 -- 25% less reach
--- 10% slower AS
+-- 10% less AS
 -- 55% less DMG
 -- EX Saber Throw (3) ^3[CS1]
 --- 200% more DMG

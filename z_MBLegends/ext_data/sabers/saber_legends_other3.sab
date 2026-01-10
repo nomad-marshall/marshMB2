@@ -125,9 +125,11 @@ JawaBaton_legends
 	soundOn		"sound/weapons/detpack/select.mp3"
 	soundLoop	"sound/weapons/baton/idle.wav"
 	soundOff	"sound/weapons/detpack/select.mp3"
-	saberLength	22
+	saberLength	24
 	saberRadius	8
 	throwable	0
+ blocking 0
+ blasterblocking 0
 	noWallMarks	1
 	noDlight	1
 	noBlade		1
@@ -140,12 +142,11 @@ JawaBaton_legends
 	noManualDeactivate	1
 	noClashFlare 		1
 	noCartwheels 1
-	disarmable 0
+	disarmable 1
 	useGoreConfig 	1
 	useGoreConfig2 	1
 	noDismemberment 1
 	noBladeEffects	1
-	jumpAtkFwdMove  LS_KICK_F_AIR
 	g2MarksShader "gfx/damage/bloodcutmark"
 	g2WeaponMarkShader "gfx/effects/bloodsplat"
 	spinsound	"s/w/t/swing3.wav"
@@ -164,9 +165,12 @@ JawaBaton_legends
 	bounceSound1	"s/w/h/bounce1.mp3"	
 	bounceSound2	"s/w/h/bounce2.mp3"
 	bounceSound3	"s/w/h/bounce3.mp3"
-
 	blockEffect	"melee_weap/block.efx"
 	hitOtherEffect	"melee_weap/other.efx"
+	jumpAtkRightMove LS_NONE
+	jumpAtkLeftMove LS_NONE
+	jumpAtkFwdMove 	 LS_NONE
+	lungeAtkMove LS_NONE
 }
 
 truncheon_legends

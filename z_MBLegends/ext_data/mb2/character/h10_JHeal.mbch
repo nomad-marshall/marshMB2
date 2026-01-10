@@ -4,52 +4,58 @@ ClassInfo
 {
 	name				"h10_JHeal"
 	MBClass				MB_CLASS_JEDI
+	classNumberLimit	1
+
 	weapons				WP_MELEE|WP_SABER
 	forcepowers			FP_LEVITATION,3|FP_SEE,3|FP_SABERTHROW,2|FP_TELEPATHY,1|FP_PUSH,1|FP_PULL,1
 	
-	attributes			MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_DISP_HEALTH,2|MB_ATT_USE_DISTANCE,7|MB_ATT_HEALING,2|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1
+	attributes			MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_DISP_HEALTH,2|MB_ATT_USE_DISTANCE,7|MB_ATT_HEALING,3|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,1
 	saberstyle			SS_FAST|SS_MEDIUM
 	
-	classNumberLimit	1
-
 	maxhealth		105
-	modelscale       0.97
-	speed 1
+	skilltimermod 		1.5
+	damageGiven   0.90
+
 	saberThrowDamage 40
-	model		"barriss_offee"
+	saberDamageStyle SS_FAST,130|SS_MEDIUM,180
+
+	uioverlay_r "gfx/icons/support"
+	uioverlay_l "gfx/icons/medic"
+	modelscale 0.97
+	model	"barriss_offee"
 	skin		"default"
 	uishader		"models/players/barriss_offee/mb2_icon_default"
 	
-	model_2		"adigallia"
+	model_2	"adigallia"
 	skin_2		"robed"
 	uishader_2	"models/players/adigallia/mb2_icon_robed"
 	
-	model_1 		"adigallia"
+	model_1 	"adigallia"
 	skin_1		"default"
 	uishader_1 	"models/players/adigallia/mb2_icon_default"
 	
-	model_3		"jedipack_hb"
+	model_3	"jedipack_hb"
 	skin_3		"zhar"
 	uishader_3	"models/players/jedipack_hb/mb2_icon_zhar"
 	
-	model_4		"rey"
+	model_4	"rey"
 	skin_4		"default"
 	uishader_4	"models/players/rey/mb2_icon_default"
 	
-	model_5		"rey"
+	model_5	"rey"
 	skin_5		"jedi"
 	uishader_5	"models/players/rey/mb2_icon_jedi"
 	
-	model_6		"cade"
+	model_6	"cade"
 	skin_6		"default"
 	uishader_6	"models/players/cade/mb2_icon_default"
 	
-	model_7		"jedipack_hb"
+	model_7	"jedipack_hb"
 	skin_7		"mical"
 	uishader_7	"models/players/jedipack_hb/mb2_icon_mical"
 	
-	saber1			saber_barriss_legends
-	sabercolor		4
+	saber1			  saber_barriss_legends
+	sabercolor		  4
 	
 	saber1_1			saber_adi
 	sabercolor_1		3
@@ -66,40 +72,32 @@ ClassInfo
 	saber1_5			saber_kol
 	sabercolor_5		3
 
-	holdables			HI_MEDPAC_BIG
+	//holdables			HI_MEDPAC_BIG
 
-	skilltimermod 		1.5
-	
 	classflags			CFL_STATVIEWER|CFL_NOPICKUPS
 
+	flourishAnim BOTH_FORCEHEAL_QUICK
+
 	//special1	EAS_FP_SABERTHROW game chooses spec1 if not defined, leave as is
-	special2 EAS_MELEE
-	//special3 EAS_FP_HEAL
-	special4 EAS_FP_TEAM_HEAL
+	special2 EAS_FP_TEAM_HEAL
 	
 	//WP_SaberFlags HELD_HEAL
 	//WP_MeleeFlags HELD_HEAL
 	
 	APmultiplier		0.9
-	ASmultiplier 		1.00
-	CSmultiplier 		1.00
+	ASmultiplier 	1.00
+	CSmultiplier 	1.00
 	BPmultiplier		0.8
-	rankBP	1,1.2
+	rankBP	       1,1.2
 
-	uioverlay_r "gfx/icons/support"
-	uioverlay_l "gfx/icons/medic"
-	
-	flourishAnim BOTH_FORCEHEAL_QUICK
-
-	damageGiven      0.90
-	forcepool 		100
+	forcepool 		   100
 	rankforcepool 	120,140
 	
-	Forceregen 			1
+	Forceregen 			 1
 	rankForceRegen	1.1,1.2
 	
 	isCustomBuild		1
-	mbPoints			30
+	mbPoints			31
 	
 	c_att_skill_0	MB_ATT_FP_SABER_DEFENSE
 	c_att_names_0	"Saber Defense"
@@ -114,7 +112,7 @@ ClassInfo
 	c_att_ranks_2	0,5
 		
 	c_att_skill_3	MB_ATT_DEFLECT
-	c_att_names_3	"Saber Deflect"
+	c_att_names_3	"Blaster Deflect"
 	c_att_ranks_3	0,3
 	
 	c_att_skill_4	MB_ATT_FP_PUSH
@@ -122,11 +120,11 @@ ClassInfo
 	c_att_ranks_4	0,4
 	
 	c_att_skill_5	MB_ATT_FP_TELEPATHY
-	c_att_names_5	"Force Mind Trick"
+	c_att_names_5	"Force Mind Trick ^3[CS4]"
 	c_att_ranks_5	0,5,9
 	
 	c_att_skill_6	MB_ATT_FP_TEAM_HEAL
-	c_att_names_6	"Force Team Heal ^3[CS4]"
+	c_att_names_6	"Force Team Heal ^3[CS2]"
 	c_att_ranks_6	0,5,5
 	
 	c_att_skill_7	MB_ATT_FP_SPEED
@@ -139,7 +137,7 @@ ClassInfo
 	
 	c_att_skill_9	MB_ATT_REGEN
 	c_att_names_9	"Force Regen (110/120%)"
-	c_att_ranks_9	5,10
+	c_att_ranks_9	5,9
 }
 
 description	"Jedi Healer [Jedi]
@@ -148,27 +146,25 @@ A Jedi with passive healing and team Force healing powers.
 
 ^2Weaponry:
 - Melee
-- Lightsaber (Blue)
+- Lightsaber (Yellow/Blue)
 -- Saber/Blaster Defense (1)
--- Saber Deflect (1)
+-- Blaster Deflect (1)
+-- 25% less Yellow/8% more Blue DMG
 -- EX Saber Throw (2) ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)
 - Push (1)
 - Pull (1)
 - Sense (3)
-- Mind Trick (1)
-- Team Heal (1) ^3[CS4]
-
-^6Inventory:
-- Advanced Medpac
+- Mind Trick (1) ^3[CS4]
+- Team Heal (1) ^3[CS2]
 
 ^8Attributes:
 - 50% slower skill CD
-- Healing (2)
+- Healing (3)
 - Ally Stat Viewer
 - Force Block/Focus (2)
 

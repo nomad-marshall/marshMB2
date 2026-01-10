@@ -104,7 +104,7 @@ saber_desann_legends
 	name  "Desann (JO)"
 	saberType SABER_SINGLE
 	saberModel  "models/weapons2/saber_desann/saber_w.glm"
-	saberLength 52
+	saberLength 50
 	saberColor  red
 	saberRadius	4
 	soundOn		"s/w/s/von.mp3"
@@ -368,7 +368,7 @@ single_asajj_leg
 
 starblades_legd
 {
-	name  		"Asajj Ventress Starblades (BFII)"
+	name  		"Asajj Ventress - Starblades (BFII)"
 	saberType	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_asajj_staff.glm"
 	soundOn		"sound/weapons/saber/enemy_saber_on.wav"
@@ -390,7 +390,7 @@ starblades_legd
 
 starblades_legl
 {
-	name  		"Asajj Ventress Starblades (BFII)"
+	name  		"Asajj Ventress - Starblades (BFII)"
 	saberType	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_asajj2_staff.glm"
 	soundOn		"sound/weapons/saber/enemy_saber_on.wav"
@@ -698,22 +698,19 @@ saber_malak_legends
 	name  		"Darth Malak (KOTOR)"
 	saberType 	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_malak.glm"
-	saberLength 52
+	saberLength 46
+ saberRadius 2.69
 	saberColor  red	
-//	soundOn		"sound/weapons/saberot/saberon.wav"
-//	soundOff	"sound/weapons/saberot/saberoff.wav"
-//	soundLoop	"sound/weapons/saber/saberhum_kotor.wav"	
 	soundOn			"s/w/s/on.wav"
 	soundLoop		"s/w/s/hum.wav"
 	soundOff		"s/w/s/off.wav"
 	spinsound		"s/w/s/spin.wav"
 	hitSound1		"s/w/s/hit1.mp3"
-    hitSound2		"s/w/s/hit2.mp3"
-    hitSound3		"s/w/s/hit3.mp3"
+ hitSound2		"s/w/s/hit2.mp3"
+ hitSound3		"s/w/s/hit3.mp3"
 	bounceSound1	"s/w/s/bounce1.mp3"	
 	bounceSound2	"s/w/s/bounce2.mp3"
 	bounceSound3	"s/w/s/bounce3.mp3"
-	saberRadius	4
 	lungeAtkMove LS_SPINATTACK
 }
 
@@ -919,7 +916,7 @@ saber_bane_leg
 	soundOn		"sound/weapons/saber/saberon_v2.mp3"
 	soundLoop	"sound/weapons/saber/saberhum2.wav"
 	soundOff	"sound/weapons/saber/saberoff_v2.mp3"
-	saberLength 52
+	saberLength 50
 	saberRadius	4
 	saberColor	red
 }
@@ -932,7 +929,7 @@ saber_bane2_leg
 	soundOn		"sound/weapons/saber/saberon_v2.mp3"
 	soundLoop	"sound/weapons/saber/saberhum2.wav"
 	soundOff	"sound/weapons/saber/saberoff_v2.mp3"
-	saberLength 52
+	saberLength 50
 	saberRadius	4
 	saberColor	red
 }
@@ -945,7 +942,7 @@ tyrant_leg
 	soundOn		"sound/weapons/saber/saberon.wav"
 	soundLoop	"sound/weapons/saber/saberhum4.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
-	saberLength 52
+	saberLength 50
 	saberRadius	4
 	saberColor	red
 }
@@ -1028,7 +1025,6 @@ saber_rosh_1_legends
 	soundLoop	"sound/weapons/saber/saberhum1.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
 	saberLength 40
-	saberRadius 1.7
 	saberColor  yellow
 	//jumpAtkFwdMove LS_A_BR2TL
 	jumpAtkFwdMove  LS_JUMPATTACK_CART_RIGHT

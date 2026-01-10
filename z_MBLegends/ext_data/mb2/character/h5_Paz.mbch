@@ -34,8 +34,7 @@ ClassInfo
 	maxhealth 		200
 	maxarmor		240
 	
-	speed              	0.82
-	damagetaken			0.90
+	speed   0.82
 	knockbackgiven		0.80
 	knockbacktaken		0.20
 

@@ -12,7 +12,7 @@ ClassInfo
 	attributes 	MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_FUEL,3|MB_ATT_ROCKET_LAUNCHER|MB_ATT_BOWCASTER,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_BESKAR,3
 	
 	maxhealth 	200
-	maxarmor			260
+	maxarmor			290
 
 	modelscale  1.17
 	speed       0.9

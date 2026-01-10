@@ -302,8 +302,9 @@ martialarts_legends
 	spinSound	"s/w/t/staffswing6.wav"
 	noManualDeactivate	1
 	numBlades	1
-	saberLength	20
+	saberLength	24
 	saberRadius	8
+ knockbackScale 0.75
 	blasterblocking		0
 	throwable	0
 	disarmable	0
@@ -322,11 +323,10 @@ martialarts_legends
  	hitPersonEffect "melee_weap/attack"
 	useGoreConfig 1
 	useGoreConfig2 1
-    jumpAtkFwdMove   LS_A_JUMP_T__B_
-	jumpAtkRightMove LS_KICK_S
+ jumpAtkFwdMove   LS_UPSIDE_DOWN_ATTACK
+	jumpAtkRightMove LS_CYAN_DFA
 	jumpAtkLeftMove 	LS_STAFF_SOULCAL
-	lungeAtkMove  LS_KICK_BF
-	//lungeAtkMove  LS_PURPLE_DFA
+	lungeAtkMove  LS_PURPLE_DFA
 }
 
 martialarts_v_legends
@@ -352,8 +352,9 @@ martialarts_v_legends
 	spinSound	"s/w/t/staffswing6.wav"
 	noManualDeactivate	1
 	numBlades	1
-	saberLength	20
+	saberLength	24
 	saberRadius	8
+ knockbackScale 0.75
 	blasterblocking	0
 	throwable	0
 	disarmable	0
@@ -372,11 +373,10 @@ martialarts_v_legends
  	hitPersonEffect "melee_weap/attack"
 	useGoreConfig 1
 	useGoreConfig2 1
-    jumpAtkFwdMove     LS_A_JUMP_T__B_
-	jumpAtkRightMove LS_KICK_S
+ jumpAtkFwdMove   LS_UPSIDE_DOWN_ATTACK
+	jumpAtkRightMove LS_CYAN_DFA
 	jumpAtkLeftMove 	LS_STAFF_SOULCAL
-	lungeAtkMove  LS_KICK_BF
-	//lungeAtkMove  LS_PURPLE_DFA
+	lungeAtkMove  LS_PURPLE_DFA
 }
 
 qstaff_legends
@@ -387,32 +387,25 @@ qstaff_legends
 	soundOn		"s/w/shwartz/saberhup1.mp3"
 	soundLoop	"sound/weapons/baton/idle.wav"
 	soundOff	"s/w/shwartz/saberhup6.mp3"
-
 	swingSound1	"s/w/t/staffswing4.wav"
 	swingSound2	"s/w/t/staffswing5.wav"
 	swingSound3	"s/w/t/staffswing6.wav"
-
 	fallSound1	"s/w/h/fall1.mp3"
 	fallSound2	"s/w/h/fall2.mp3"
 	fallSound3	"s/w/h/fall3.mp3"
-
 	hitSound1	"sound/weapons/baton/fire.mp3"
 	hitSound2	"sound/weapons/baton/fire.mp3"
 	hitSound3	"sound/weapons/baton/fire.mp3"
-
 	blockSound1	"s/w/t/staffblock1.mp3"
 	blockSound2	"s/w/t/staffblock2.mp3"
 	blockSound3	"s/w/t/staffblock3.mp3"
-
 	bounceSound1	"s/w/v/hit3.mp3"	
 	bounceSound2	"s/w/v/hit3.mp3"
 	bounceSound3	"s/w/v/hit3.mp3"
 	blockEffect	"melee_weap/block.efx"
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
-	
 	spinsound	"s/w/t/swing3.wav"
-	
 	useGoreConfig 1
 	useGoreConfig2 1
 	noDismemberment 1
@@ -426,9 +419,7 @@ qstaff_legends
 	saberLength	27
 	saberRadius	4
 	numBlades	2
-	saberColor	random
 	throwable		0
-
 	singleBladeThrowable	0
 	twoHanded		1
 	noDlight		1

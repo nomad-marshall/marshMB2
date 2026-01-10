@@ -3,27 +3,31 @@
 ClassInfo
 {
 	name				"h7_RebEngie"
-	weapons				WP_BLASTER_PISTOL|WP_CLONE_RIFLE|WP_MELEE|WP_SABER
-	attributes			MB_ATT_PISTOL,2|MB_ATT_STRONGBLOBS,4|MB_ATT_CLONEBLOBS,4|MB_ATT_CLONERIFLE,1|MB_ATT_AMMO,3|MB_ATT_DODGE,3|MB_ATT_ASSEMBLE,3|MB_ATT_DASH,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,2
-	maxhealth        	85
-	maxarmor         	70
-	modelscale       	1.01
 	MBClass				MB_CLASS_CLONETROOPER
 	extralives 			1
-	holdables       	HI_MEDPAC|HI_EWEB|HI_SENTRY_GUN
 	classNumberLimit	2
-	speed            	1.13
+
+	weapons				WP_BLASTER_PISTOL|WP_CLONE_RIFLE|WP_MELEE|WP_SABER
+
+	attributes			MB_ATT_PISTOL,2|MB_ATT_STRONGBLOBS,4|MB_ATT_CLONEBLOBS,4|MB_ATT_CLONERIFLE,1|MB_ATT_AMMO,3|MB_ATT_DODGE,3|MB_ATT_ASSEMBLE,3|MB_ATT_DASH,1|MB_ATT_SABER_COMBO_NONE|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,2
+
+	maxhealth  80
+	maxarmor   80
+
+	holdables HI_MEDPAC|HI_EWEB|HI_SENTRY_GUN //base
+
+	speed  1.13
 	
-	resource			resource_energy
+	resource		RESOURCE_ENERGY
 	forcepool 110
 	
 	DamageGiven	1.1
 	knockbackGiven 1.05
 	
 	special1	EAS_HI_DODGE
-	special2 EAS_MELEE
+	special2 EAS_HI_DASH
 	special3 EAS_HI_MEDPAC
-	special4 EAS_HI_DASH
+	special4 EAS_HI_SENTRY_GUN
 
  saberDamage 60
 	saber1		reb_wrench_p
@@ -66,7 +70,7 @@ c_att_descs_3 "15% faster movement, DMG increases with rank"
 	
 	uioverlay_l "gfx/icons/tactician"
 	uioverlay_r "gfx/icons/infantry"
-
+	modelscale  	1.01
 	model		"rebel_gag"
 	skin			"default"
 	uishader		"models/players/rebel_gag/mb2_icon_default"
@@ -75,9 +79,9 @@ c_att_descs_3 "15% faster movement, DMG increases with rank"
 	skin_1			"grenadier"
 	uishader_1		"models/players/rebel_gag/mb2_icon_grenadier"
 
-tauntAnim BOTH_VICTORY_FAST
-gloatAnim BOTH_MAND_PISTOL_MELEE
-flourishAnim BOTH_PISTOL_MELEE
+ tauntAnim BOTH_VICTORY_FAST
+ gloatAnim BOTH_MAND_PISTOL_MELEE
+ flourishAnim BOTH_PISTOL_MELEE
 }
 
 WeaponInfo0
@@ -171,7 +175,7 @@ description	"Rebel Engineer [Clone Trooper]
 -- 50% less DMG
 -- 40% less reach
 -- 167% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - DL-44 Blaster Pistol (2)
 -- 35% faster RoF
 -- 10% more charged FP DMG
@@ -182,7 +186,7 @@ description	"Rebel Engineer [Clone Trooper]
 ^6Inventory:
 - Medpac ^3[CS3]
 - Portable E-Web Cannon
-- Assault Sentry
+- Assault Sentry ^3[CS4]
 
 ^8Attributes:
 - Reinforcement (1)
@@ -193,4 +197,4 @@ description	"Rebel Engineer [Clone Trooper]
 
 ^3Abilities:
 - Dodge (3) ^3[CS1]
-- Dash (1) ^3[CS4]"
+- Dash (1) ^3[CS2]"

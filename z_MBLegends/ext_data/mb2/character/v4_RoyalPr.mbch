@@ -33,7 +33,7 @@ ClassInfo
 	saberstyle	SS_MEDIUM|SS_DESANN
 	saber1		royal_pike_legends
 	BPmultiplier 1.3
-	CSmultiplier 	1.0
+ ASmultiplier 1.07
 
 	blockRegenAmount 4
 	blockRegenCap 100
@@ -136,8 +136,8 @@ WeaponInfo3
 	NewWorldModel		"models/weapons2/t-21/t-21_w.glm" 
 	NewViewModel		"models/weapons2/t-21/t-21.md3" 
 	NewHandsModel		"models/weapons2/t-21/t-21_hand.md3"
-	customAmmo    660
-	clipsize           66
+	customAmmo   720
+	clipsize       72
 	hasAnimOverrides 1
 	animStand 		BOTH_STAND5
 	primfireenabled 	0
@@ -155,7 +155,6 @@ Mobile 2-lifes with a Saber and Force Block.
 --- BP Regen: 4/.4s
 -- Chain Limit: 3
 -- Staggers on hit
--- 7% faster AS
 -- 15% more KB
 -- 50/70% less DMG
 -- 30% less reach

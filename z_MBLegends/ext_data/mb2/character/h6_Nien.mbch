@@ -4,31 +4,33 @@ ClassInfo
 	name			"h6_Nien"
 	classNumberLimit	1
 	MBClass		MB_CLASS_JEDI
-	
+
+ //WP_FragNadeFlags HELD_KNOCKBACK
+
 	weapons		WP_BLASTER|WP_MELEE|WP_CONC_NADE|WP_FRAG_NADE|WP_DISRUPTOR|WP_SABER|WP_TRIP_MINE|WP_PULSE_NADE
 
-	attributes	MB_ATT_BLASTER,2|MB_ATT_DISRUPTOR,2|MB_ATT_MICRO_GRENADES,3|MB_ATT_FRAGS,4|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_TRIP_MINES,3|MB_ATT_QUICKTHROW,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_HEALING,3|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,3
+	attributes	MB_ATT_BLASTER,2|MB_ATT_DISRUPTOR,2|MB_ATT_MICRO_GRENADES,3|MB_ATT_FRAGS,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_TRIP_MINES,3|MB_ATT_QUICKTHROW,2|MB_ATT_PULSE_GRENADES,3|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,3|MB_ATT_RECHARGE,2
 	
 	forcepowers FP_SABERTHROW,0
 	
-	resource	RESOURCE_ENERGY
+	resource	RESOURCE_BATTERY
 	forcepool 100
+
 	skilltimermod 0.9
-	maxhealth	135
-	maxarmor	90
+
+	maxhealth	120
+	maxarmor	55
 	
-	speed		1.06
-	rateOfFire	0.8
-	damageGiven 0.8
-	damageTaken	0.99
-	knockbackTaken 1.2
+	speed		1.05
+
+	knockbackTaken 1.35
 	
 	ASmultiplier 1.15
 	APmultiplier	1.2
 	BPmultiplier	0
-	saberDamage 120
+	saberDamage 	120
 	saberThrowDamage 	80
-		saberMaxChain 2
+ saberMaxChain 2
 	saber1		nien_leg_p
 	sabercolor	0
 	saberstyle	SS_MEDIUM
@@ -38,6 +40,7 @@ ClassInfo
 	saberstyle_1 	SS_MEDIUM
 	
 	holdables		HI_CLOAK|HI_SENTRY_GUN|HI_STIMPACK
+
 	classflags       CFL_SEEING_STEALTH
 
 	saberStanceAnim	TORSO_SURRENDER_START
@@ -46,12 +49,11 @@ ClassInfo
 	gloatAnim		BOTH_COME_ON1
 	bowAnim	BOTH_STAND5STARTLEDLOOKLEFT
 	
-	modelscale       0.93
+	modelscale  0.93
 	uioverlay "gfx/icons/scout"
 	model		"niennunb"
 	skin			"default"
 	uishader		"models/players/niennunb/mb2_icon_default"
-	//respawncustomtime  50000
 	
 	special1			EAS_FP_SABERTHROW
 	special2			EAS_HI_DASH
@@ -83,8 +85,8 @@ WeaponInfo1
 	muzzleEffect "Blaster/MuzzleFlash01G" 		
 	altMuzzleEffect "Blaster/MuzzleFlash01G" 		
 	ReloadTimeModifier  0.9
-	damageMod 1.2
-	rateMod 0.95
+	damageMod 1.25
+	rateMod 0.75
 	hasAnimOverrides 1
 	animReadyRun BOTH_WESTARM5_IDLE
 	animReady BOTH_WESTARM5_IDLE
@@ -112,8 +114,27 @@ animAttackRun BOTH_ATTACK2
 animAttack BOTH_ATTACK2
 animAttackWalk BOTH_ATTACK2
 	animStand BOTH_STAND1
-	customammo 600
+	customammo 700
+rateMod 0.8
+damageMod .8
 }
+
+/* WeaponInfo3
+{
+	WeaponToReplace			WP_FRAG_NADE
+	WeaponBasedOff			WP_FRAG_NADE
+	NewWorldModel			"models/weapons2/fraggrenade/thermal_w.glm"
+	NewViewModel			"models/weapons2/fraggrenade/thermal_hand.md3"
+	MissileModel 			"models/weapons2/fraggrenade/thermal_proj.md3"
+	altMissileMissEffect		"Grenades/EXP_Explosion"
+	MissileMissEffect			"Grenades/EXP_Explosion"
+	altMissileHitHumanEffect	"Grenades/EXP_Explosion"
+	missileHitHumanEffect		"Grenades/EXP_Explosion"
+	altMissileHitDroidEffect	"Grenades/EXP_Explosion"
+	missileHitDroidEffect		"Grenades/EXP_Explosion"
+	Icon						"gfx/hud/w_icon_fraggrenade"
+	WeaponName					"Frag Grenades"
+} */
 
 description	"Nien Nunb [Jedi]
 
@@ -122,23 +143,25 @@ A scrappy, evasive class with many explosives, a Saber with high knockback, and 
 ^2Weaponry:
 - Melee
 - Nien's Wrench/Magna-Glove (Yellow Saber)
--- No Saber/Blaster Block
+-- No Saber/Blaster Defense
 -- Chain Limit: 2
 -- 125% more KB
 -- 50% less DMG
 -- 40% less reach
--- 167% more radius
+-- 166% more radius
 -- Saber Throw ^3[CS1]
 --- 166% more DMG
 -- Slap ^3[GB]
 - DH-17 Blaster Pistol (Blaster Rifle 2)
+-- 20% faster RoF
+-- 20% less DMG
 - Pulse Cannon (Disruptor 2)
--- 20% more DMG
+-- 25% more DMG
+-- 25% faster RoF
 -- 10% faster reload
--- 5% faster RoF
-- Frag Grenades (4)
+- Frag Grenades (3)
 - Trip Mines (3)
-- Pulse Grenades (2)
+- Pulse Grenades (3)
 - Concussion Grenades (3)
 
 ^6Inventory:
@@ -147,12 +170,12 @@ A scrappy, evasive class with many explosives, a Saber with high knockback, and 
 - Cloaking Device
 
 ^8Attributes:
-- 20% more KB taken
+- 35% more KB taken
 - 10% faster skill CD
 - Getup (3)
 - Dexterity (1)
 - Blast Armor
-- Healing (3)
+- Healing (2)
 - Huehuehue (Sense Immunity)
 
 ^3Abilities:
