@@ -313,20 +313,6 @@ models/players/hk47/hk51
 
 
 //// Kreia ////
-models/players/kreia/belt
-{
-	{
-		map models/players/kreia/belt
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/kreia/belt_spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
-
 models/players/kreia/belt_traya
 {
 	{
@@ -425,7 +411,7 @@ models/players/kreia/head_traya
 	}
 }
 
-models/players/kreia/robe
+models/players/kreia/robe_nocull
 {
 	cull	twosided
 	{
@@ -434,7 +420,7 @@ models/players/kreia/robe
 	}
 }
 
-models/players/kreia/robe_traya
+models/players/kreia/robe_traya_nocull
 {
 	cull	twosided
 	{
