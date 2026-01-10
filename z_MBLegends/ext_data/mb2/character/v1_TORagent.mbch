@@ -80,8 +80,8 @@ c_att_descs_0 	"1 default"
 c_att_skill_1	MB_ATT_DLT20A
 c_att_names_1	"Sniper Rifle (DLT20A)"
 c_att_ranks_1	3,1,0
-c_att_descs_1 	"Prim. fire: Hitscan, 10% more DMG,
-10% more FP DMG, 20% slower RoF, 70% slower mag reload"
+c_att_descs_1 	"Prim fire: Hitscan, 10% more DMG, 10% more FP DMG,
+20% slower RoF, 70% slower mag reload"
 c_att_skill_2	MB_ATT_TRIP_MINES
 c_att_names_2	"Trip Mine"
 c_att_ranks_2 	1
@@ -115,8 +115,7 @@ c_att_descs_17 	"Poisons/staggers on hit, 50% more velocity, 80% faster RoF,
 c_att_skill_18 MB_ATT_FRAGS
 c_att_names_18 "Corrosive Stun Grenade (Frag)"
 c_att_ranks_18 1
-c_att_descs_18 "Sec. fire electrifies/poisons/knocks down on direct hit,
-50% less DMG"
+c_att_descs_18 "Sec. fire electrifies/poisons/knocks down on det, 50% less DMG"
 c_att_skill_19 MB_ATT_HEALING
 c_att_names_19 "Healing"
 c_att_ranks_19 0,1
