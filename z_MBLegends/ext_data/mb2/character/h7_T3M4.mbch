@@ -105,7 +105,7 @@ WeaponInfo3
 	WeaponBasedOff	WP_TRIP_MINE
 	NewWorldModel		"models/weapons2/dummyblaster/model.glm"
 	NewViewModel		"models/weapons2/noweap/noweap.md3"
-	Icon			"gfx/hud/w_icon_sonic_det"
+	Icon			"gfx/hud/w_icon_tripmine"
 	WeaponName		"Sonic Mines"
 	customammo 3
 	primFireEnabled 0
