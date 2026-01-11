@@ -3,9 +3,9 @@
 ClassInfo
 {
 	name 				"h8_NRSecDroid"
-	classNumberLimit  	2
+	classNumberLimit  	3
 	MBClass 			MB_CLASS_WOOKIE
-
+ WP_SaberFlags HELD_PULSE
 	weapons 			WP_MELEE|WP_SABER|WP_THERMAL
  WP_ThermalFlags HELD_KNOCKBACK
 	attributes  		MB_ATT_ASSEMBLE,1|MB_ATT_AMMO,3
@@ -75,37 +75,38 @@ ClassInfo
 	c_att_names_4	"Reinforcement"
 	c_att_ranks_4	20
 
-	c_att_skill_5	MB_ATT_HEALTH
-	c_att_names_5	"Health (140/240/300)"
-	c_att_ranks_5	3,6,15
+	c_att_skill_5	MB_ATT_ASSEMBLE
+	c_att_names_5	"> Assemble"
+	c_att_ranks_5	0,2,3
 
-	c_att_skill_6	MB_ATT_ARMOUR
-	c_att_names_6	"Armor (30/60/100)"
-	c_att_ranks_6	1,4,6
+	c_att_skill_6	MB_ATT_HEALTH
+	c_att_names_6	"Health (140/240/300)"
+	c_att_ranks_6	3,6,15
 
-	c_att_skill_7	MB_ATT_SHIELD_RECHARGE
-	c_att_names_7	"> Armor Regen"
-	c_att_ranks_7	6
-	
-	c_att_skill_8	MB_ATT_BASESPEED
-	c_att_names_8	"Speed (160/175/200)"
-	c_att_ranks_8	4,6,10
+	c_att_skill_7	MB_ATT_ARMOUR
+	c_att_names_7	"Armor (30/60/100)"
+	c_att_ranks_7	1,4,6
 
-	c_att_skill_9	MB_ATT_RECHARGE
-	c_att_names_9	"Battery Recharge"
-	c_att_ranks_9	2,2
+	c_att_skill_8	MB_ATT_SHIELD_RECHARGE
+	c_att_names_8	"> Armor Regen"
+	c_att_ranks_8	6
 
-	c_att_skill_10	MB_ATT_BLAST_ARMOUR
-	c_att_names_10	"Blast Armor"
-	c_att_ranks_10	4
+	c_att_skill_9	MB_ATT_BLAST_ARMOUR
+	c_att_names_9	"Blast Armor"
+	c_att_ranks_9	4
 
-	c_att_skill_11	MB_ATT_MAGNETIC_PLATING
-	c_att_names_11	"Magnetic Plating"
-	c_att_ranks_11	6
+	c_att_skill_10	MB_ATT_MAGNETIC_PLATING
+	c_att_names_10	"Magnetic Plating"
+	c_att_ranks_10	6
 
-	c_att_skill_12	MB_ATT_ASSEMBLE
-	c_att_names_12	"Assemble"
-	c_att_ranks_12	0,2,3
+	c_att_skill_11	MB_ATT_RECHARGE
+	c_att_names_11	"Battery Recharge"
+	c_att_ranks_11	2,2
+
+	c_att_skill_12	MB_ATT_BASESPEED
+	c_att_names_12	"Speed (160/175/200)"
+	c_att_ranks_12	4,6,10
+
 }
 
 WeaponInfo0
@@ -166,6 +167,7 @@ Tanky gunner/brawler hybrids who can spec into an extra life, many forms of dama
 - Stun Baton (Purple Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
+-- Shocks on hit
 -- 82% less DMG
 -- 40% less reach
 -- 166% more radius

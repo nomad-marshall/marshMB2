@@ -32,7 +32,7 @@ ClassInfo
 	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_BLOODYMELEE
 
 	maxhealth 		200
-	maxarmor		240
+	maxarmor		220
 	
 	speed   0.82
 	knockbackgiven		0.80
@@ -72,12 +72,12 @@ WeaponInfo0
 	Icon			"gfx/hud/w_icon_rotary_cannon"
 	WeaponName		"M-55 Medium Repeating Blaster"
 	FlashSound0		"sound/weapons/e_22/fire.mp3"
-	customAmmo 		1200
+	customAmmo 		1000
 	isMinigun	1
-	clipSize	400
+	clipSize	200
 	ReloadTimeModifier	1.1
 	altFireEnabled	1
-	FPMult     0.9
+	FPMult     0.85
 	velocityMod 0.92
 	damageMod 0.95
 	rateMod 1.02
@@ -116,7 +116,7 @@ A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistanc
 -- 2% slower RoF
 -- 8% less velocity
 -- 5% less DMG
--- 10% less FP DMG
+-- 15% less FP DMG
 -- 10% slower reload
 
 ^5Powers:

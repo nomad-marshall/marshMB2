@@ -16,7 +16,7 @@ ClassInfo
 	saberstyle_1	SS_STAFF
 	saberDamage 70
 	maxhealth	300
-	maxarmor		100
+	maxarmor		90
 	forcepool	80
 	speed		0.97
 	skilltimermod 1.25
