@@ -201,7 +201,7 @@ skilltimerMod 0.9
 	c_att_names_19		"> DC-15A Ion Blobs"
 	c_att_ranks_19		5,5,5
 
-	c_att_skill_20		MB_ATT_ARC_RIFLE_SCOPE
+	c_att_skill_20		MB_ATT_WESTARM5
 	c_att_names_20		"WESTAR-M5 Blaster Rifle"
 	c_att_ranks_20		10,6
 	
