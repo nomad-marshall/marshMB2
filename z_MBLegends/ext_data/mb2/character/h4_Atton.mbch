@@ -23,7 +23,7 @@ HealthRegenRate 340
 HealthRegenAmount 3
 saber1	atton_legends
 saberstyle SS_MEDIUM
-saberDamageStyle SS_DESANN,280|SS_STRONG,280
+saberDamageStyle SS_DESANN,260|SS_STRONG,260|SS_MEDIUM,130|SS_TAVION,80|SS_DUAL,90
 sabercolor 2
 saber1_1	echani_legends_r
 saber2_1	echani_legends_l
@@ -98,11 +98,11 @@ c_att_ranks_17 1
 c_att_skill_18 MB_ATT_SS_REDSTYLE
 c_att_names_18 "Red Saber Style"
 c_att_ranks_18 1
-c_att_descs_18 "46% less DMG"
+c_att_descs_18 "50% less DMG"
 c_att_skill_19 MB_ATT_SS_PURPLESTYLE
 c_att_names_19 "Purple Saber Style"
 c_att_ranks_19 1
-c_att_descs_19 "30% less DMG"
+c_att_descs_19 "35% less DMG"
 c_att_skill_20 MB_ATT_FP_SABER_DEFENSE
 c_att_names_20 "Saber Defense"
 c_att_ranks_20 0,2
@@ -133,6 +133,7 @@ c_att_ranks_28 1
 c_att_skill_30	MB_ATT_DMG_GIVEN_MULTIPLIER
 c_att_names_30	"DMG Given (125%)"
 c_att_ranks_30	2
+c_att_descs_30	"Does not affect Saber"
 c_att_skill_31	MB_ATT_ROF_MELEE_MULTIPLIER
 c_att_names_31	"Melee RoF (120%)"
 c_att_ranks_31	0
@@ -250,10 +251,10 @@ Pure Pazaak
 -- Blocking resists Force Powers
 -- Slap ^3[GB]
 > Lightsaber (Yellow)
--- 50% less DMG
+-- 45% less DMG
 > Echani Melee (Dual/Cyan)
 -- 100% more KB
--- 50% less DMG
+-- 65/33% less DMG
 -- 50% less reach
 
 ^5Force Powers:
