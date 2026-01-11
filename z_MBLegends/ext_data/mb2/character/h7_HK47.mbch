@@ -20,7 +20,7 @@ ClassInfo
  
 	Resource			RESOURCE_BATTERY
 	forceregen			1.84
- forcepool 70
+ forcepool 80
  forcepowers  	FP_SEE,1
 	hackRate 0.86
 	
