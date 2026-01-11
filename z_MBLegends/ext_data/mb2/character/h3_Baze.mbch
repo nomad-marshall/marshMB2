@@ -51,7 +51,7 @@ WeaponInfo0
 	AltFlashSound0	    "sound/weapons/MWC-35c/fire.mp3"
 	customammo			960
 	ClipSize    			240
-	FPMult 				0.75
+	FPMult 				0.65
 	rateMod 0.65
 	MissileEffect			"Blaster/Shot01R"
 }
@@ -84,7 +84,7 @@ A heavy gunner equipped with a massively powerful Repeating Cannon that regenera
 - MWC-35c 'Staccato Lightning' Repeating Cannon (EE-4 2)
 -- Passive ammo regen
 -- 35% faster RoF
--- 25% less FP DMG
+-- 35% less FP DMG
 -- 15% slower movement
 
 ^8Attributes:
