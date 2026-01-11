@@ -81,7 +81,6 @@ WeaponInfo1
 	FPMult 			1.15
 	rateMod 0.75
  damageMod 1.15
- FPChargeMult 1.15
 }
 
 ForceInfo0
@@ -141,7 +140,7 @@ A speedy, damage-boosted Pistoleer with Grenades.
 - Relby-K23 'Stinger' Blaster Pistol (WESTAR 2)
 -- 25% faster RoF
 -- 15% more velocity
--- 15% more DMG/FP DMG/charged FP DMG
+-- 15% more DMG/FP DMG
 - Frag Grenades (2)
 - Concussion Grenades (2)
 
