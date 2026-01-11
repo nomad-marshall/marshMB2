@@ -20,7 +20,7 @@ ClassInfo
 	forceregen	1.1
 	resource RESOURCE_FORCE
 
- saberDamageStyle SS_STRONG,280|SS_DESANN,280
+ saberDamageStyle SS_STRONG,280|SS_DESANN,280|SS_MEDIUM,240
 	saberstyle		SS_MEDIUM|SS_STRONG|SS_DESANN
 	APmultiplier		1.2
 	BPmultiplier		1.1

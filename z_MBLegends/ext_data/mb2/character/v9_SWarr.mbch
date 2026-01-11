@@ -21,7 +21,7 @@ ClassInfo
 
 	saberThrowDamage 45
 	saberstyle		SS_MEDIUM|SS_STRONG|SS_DESANN
- saberDamageStyle SS_STRONG,280|SS_DESANN,280
+ saberDamageStyle SS_STRONG,280|SS_DESANN,280|SS_MEDIUM,240
 	APmultiplier		1.2
 	BPmultiplier		1.15
 	ASmultiplier 		1.1

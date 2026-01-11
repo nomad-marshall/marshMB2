@@ -23,7 +23,7 @@ ClassInfo
 	ASmultiplier 	1.06
 	CSmultiplier 	1.125
 	saberstyle			SS_STRONG|SS_MEDIUM
-	saberDamageStyle SS_STRONG,280
+	saberDamageStyle SS_STRONG,280|SS_MEDIUM,240
 	saberThrowDamage 40
 
 	special2 EAS_MELEE

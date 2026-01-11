@@ -26,7 +26,7 @@ ClassInfo
 	ASmultiplier 		1.05
 	CSmultiplier 		1.05
 	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
- saberDamageStyle SS_FAST,130|SS_TAVION,130
+ saberDamageStyle SS_FAST,130|SS_TAVION,130|SS_MEDIUM,240
 
 	model		"yarael"
 	skin			"default"
