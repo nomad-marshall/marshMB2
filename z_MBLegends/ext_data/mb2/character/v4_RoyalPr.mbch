@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"v4_RoyalPr"
 	MBClass		MB_CLASS_SITH
-	classNumberLimit	2
+	classNumberLimit	4
 	extralives	1
 	weapons		WP_SABER|WP_MELEE|WP_BLASTER_PISTOL
 	
