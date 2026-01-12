@@ -575,7 +575,7 @@
 		itemDef
 		{
 			name				"TotalAssistsText"
-			rect				5 381 0 0
+			rect				275 381 0 0
 			textalignx			0
 			textaligny			0
 			align				4
