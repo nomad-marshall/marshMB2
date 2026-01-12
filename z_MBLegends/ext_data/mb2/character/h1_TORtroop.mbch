@@ -27,7 +27,7 @@ rankbasespeed	232
 WP_MinigunFlags	HELD_FLAME
 WP_ThrowerFlags	HELD_ALTRELOAD
 special1	EAS_NONE
-special2	EAS_MELEE
+special2	EAS_NONE
 special3	EAS_HI_QUICKTHROW
 special4	EAS_HI_MEDPAC_BIG
 holdables	HI_MEDPAC_BIG
@@ -286,7 +286,7 @@ Durable multi-lifes with crowd control.
 -- Chain Limit: 4
 -- 65% less DMG
 -- 50% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Pulse Cannon (Lightning Thrower)
 -- 75% slower mag reload
 
@@ -304,4 +304,4 @@ Durable multi-lifes with crowd control.
 - Fury (1)
 
 ^3Abilities:
-- Quick-Throw (1) ^3[CS3]"
+- Quickthrow (1) ^3[CS3]"

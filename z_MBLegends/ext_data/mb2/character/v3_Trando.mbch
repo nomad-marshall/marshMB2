@@ -25,10 +25,9 @@ classflags CFL_BLOODYMELEE
 flourishAnim BOTH_SPINATTACK6
 gloatAnim BOTH_WOOKIEE_ENRAGE
 RunForward BOTH_WOOKIEE_RAGE_RUN
-special2 EAS_MELEE
-meleespecial2 EAS_HI_TRACKER
-special3 EAS_FP_SEE
-special4 EAS_FP_HEAL
+special2 EAS_HI_TRACKER
+special1 EAS_FP_SEE
+special3 EAS_FP_HEAL
 model "trandoshan"
 skin	"merc"
 uishader	"models/players/trandoshan/mb2_icon_merc"
@@ -102,7 +101,7 @@ c_att_ranks_30 0
 c_att_skill_31 MB_ATT_SHOTGUN
 c_att_names_31 "Electronet Launcher (Shotgun)"
 c_att_ranks_31 0
-c_att_descs_31 "Electrifies/freezes/staggers/pushes on hit, 80% faster shot swap,
+c_att_descs_31 "Shocks/freezes/staggers/pushes on hit, 80% faster shot swap,
 50% less DMG, 14900% slower reload"
 c_att_skill_32 MB_ATT_AMBAN
 c_att_names_32 "Slave Prod (Amban)"
@@ -261,7 +260,7 @@ Hiss
 -- 5% faster movement
 -- 70% less DMG
 -- 25% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - ACP Scatter Gun (Flechette 2)
 -- 15% more DMG
 -- 40% slower RoF
@@ -270,8 +269,8 @@ Hiss
 - Sonic Detonator (1)
 
 ^5Powers:
-- Hunter Vision (Sense 2) ^3[CS3]
-- Regenerate (Heal 2) ^3[CS4]
+- Hunter Vision (Sense 2) ^3[CS1]
+- Regenerate (Heal 2) ^3[CS3]
 
 ^8Attributes:
 - Reinforcement (1)

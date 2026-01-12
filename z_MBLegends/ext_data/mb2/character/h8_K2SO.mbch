@@ -21,7 +21,7 @@ ClassInfo
 	forcepowers FP_RAGE,3
 	
 	special1 EAS_FP_RAGE
-	special2 EAS_MELEE
+	special2 EAS_NONE
  //special3 EAS_HI_RECHARGE
 
 	meleeknockback_flat 150
@@ -88,7 +88,7 @@ WeaponInfo0
 	animStand BOTH_MAND_PISTOL_READY
 	clipsize 20
 	rateMod 1.45
-	FPmult 1.1
+	FPmult 1.15
 }
 
 WeaponInfo1
@@ -119,12 +119,12 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 -- Staggers/knocks down on hit
 -- 165% more KB
 -- 5% faster movement
--- 100% more special DMG
+-- 200% special DMG mult
 -- 35% less reach
 -- 300% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - SE-14r Light Repeating Blaster (A280 2)
--- 10% more FP DMG
+-- 15% more FP DMG
 -- 45% slower RoF
 -- Mag reload
 

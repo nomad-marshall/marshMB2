@@ -214,7 +214,7 @@ A highly adaptable special ops unit.
 -- Chain Limit: 1
 -- Staggers on hit
 -- 75% more KB
--- 67% more special DMG
+-- 67% special DMG mult
 -- 57% less reach
 -- 33% more radius
 -- Prim only
@@ -231,6 +231,7 @@ A highly adaptable special ops unit.
 -- 75% slower mag reload
 - Hand Thermal Grenades (2)
 -- 150% more DMG
+- Conc Grenades (4)
 
 ^8Attributes:
 - 10% faster skill CD

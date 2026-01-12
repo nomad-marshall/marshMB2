@@ -45,9 +45,7 @@ ClassInfo
 	modelscale  		1.08
 	
 	special1	EAS_HI_SPRINT
-	special2 EAS_MELEE
-	special3	EAS_HI_DEX
-	
+	special2 EAS_HI_DEX
 	WP_DCCarbineFlags	HELD_ALTRELOAD
 	
 	knockbacktaken 0.8
@@ -117,7 +115,7 @@ A hybrid melee/gunner commander with Beskar armor resistance, a spear, and rapid
 -- No Blaster Block
 -- 50% less DMG
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - SE-44C Blaster Pistol (1)
 -- 40% faster RoF
 -- 15% more DMG/FP DMG
@@ -142,4 +140,4 @@ A hybrid melee/gunner commander with Beskar armor resistance, a spear, and rapid
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Dex Roll ^3[CS3]"
+- Dex Roll ^3[CS2]"

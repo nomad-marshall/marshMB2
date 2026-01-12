@@ -45,7 +45,7 @@ ClassInfo
 	saberdamage 130
 	
 	special1	EAS_HI_SPRINT
-	special2 EAS_MELEE
+	special2 EAS_NONE
 	special3 EAS_HI_DODGE
 	
 	gloatAnim   	BOTH_VICTORY_FAST
@@ -213,7 +213,7 @@ description	"Sith Trooper [Clone Trooper]
 -- Saber Defense (0)
 -- No Blaster Block
 -- 15% faster movement
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 > Vibrosword (Yellow)
 -- 5% less reach
 -- 45% less DMG

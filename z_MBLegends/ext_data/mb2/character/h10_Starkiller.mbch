@@ -21,15 +21,15 @@ ClassInfo
 
 	APmultiplier		1
 	BPmultiplier		1.0
-	ASmultiplier 		1.1
-	CSmultiplier 		1.1
+	ASmultiplier 		1.02
+	CSmultiplier 		1.02
 
  damageGiven 1.1
 
 	saberThrowDamage 50
  saberDamageStyle SS_DESANN,280
  saberstyle SS_DESANN
-
+ saberSpecialDamage 1.25
  saber1 saber_marek_legends_s
  sabercolor 4
 	saberstyle_1		SS_DUAL
@@ -51,7 +51,7 @@ ClassInfo
 
  special1 EAS_FP_SABERTHROW
  meleeSpecial1 EAS_FP_REPULSE
-	special2 	EAS_MELEE
+	special2 	EAS_NONE
 	special3 	EAS_FP_GRIP
 	special4		EAS_FP_LIGHTNING
 }
@@ -65,6 +65,7 @@ A Jedi/Sith hybrid sporting a strong combination of Force powers.
 - Lightsaber
 -- Saber/Blaster Defense (1)
 -- Blaster Deflect (1)
+-- 125% special DMG mult
 -- 50% more KB
 -- EX Saber Throw (3) ^3[CS1]
 --- 66% more DMG

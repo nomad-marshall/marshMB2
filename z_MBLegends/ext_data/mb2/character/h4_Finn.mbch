@@ -26,8 +26,8 @@ ClassInfo
 	forcepowers		FP_SABER_OFFENSE,1|FP_SEE,1
 
 	special1 EAS_HI_SPRINT
-	//special2 EAS_MELEE
 	special2 EAS_HI_DEX
+	
 	special3 EAS_HI_DODGE
 	
 	gloatAnim BOTH_A7_KICK_RL

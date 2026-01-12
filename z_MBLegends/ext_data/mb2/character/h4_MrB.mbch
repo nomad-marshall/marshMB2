@@ -32,8 +32,7 @@ ClassInfo
 	flourishAnim BOTH_FORCELEAP2_T__B_
 	
  special1 EAS_FP_SEE
-	special2 EAS_MELEE
-	special3	EAS_HI_DASH
+	special2	EAS_HI_DASH
 
 	modelscale 	 	1.035
 	uioverlay "gfx/icons/hybrid"
@@ -95,10 +94,11 @@ An agile class with a balanced outfit of tools and abilities.
 -- Saber Defense (1)
 -- No Blaster Block
 -- Blocking resists Force Powers
--- Saber DMG: 130
+-- 67% less Purple/8% more Cyan DMG
+-- 20% more KB
 -- 50% less reach
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - E-11s Long-Range Blaster (Bowcaster 3)
 -- 10% more velocity
 -- 30% more FP DMG
@@ -117,4 +117,4 @@ An agile class with a balanced outfit of tools and abilities.
 - Force Block (1)
 
 ^3Abilities:
-- Dash (2) ^3[CS3]"
+- Dash (2) ^3[CS2]"

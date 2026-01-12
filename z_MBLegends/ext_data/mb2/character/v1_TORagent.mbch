@@ -4,7 +4,7 @@ name	"v1_TORagent"
 classNumberLimit 4
 extralives 1
 MBClass MB_CLASS_BOUNTY_HUNTER
-weapons WP_SABER|WP_MELEE|WP_BLASTER_PISTOL|WP_THERMAL
+weapons WP_SABER|WP_BLASTER_PISTOL|WP_THERMAL
 attributes MB_ATT_AMMO,3|MB_ATT_PISTOL,2|MB_ATT_HEALING,1|MB_ATT_DEXTERITY,2|MB_ATT_DODGE,3|MB_ATT_STAMINA,3|MB_ATT_FORCEBLOCK,1|MB_ATT_BASE_TD,2|MB_ATT_SABER_COMBO,1
 maxhealth 100
 maxarmor	80
@@ -17,10 +17,8 @@ rankSaberMaxChain 3,4
 resource RESOURCE_STAMINA
 forcepool 0
 rankForcepool 50
-rateOfFire 1
-rankROF 0.8
-rateOfFire_Melee 0.91
-KnockbackGiven 1
+rankROF .8
+rateOfFire_Melee .91
 rankKbGiven 1.3
 basespeed 220
 rankbasespeed	237
@@ -34,7 +32,6 @@ uioverlay_c "gfx/icons/tactician"
 holdables HI_MEDPAC|HI_SEEKER|HI_CLOAK|HI_STIMPACK
 saber1	Legends_Knife_Jagged
 saberstyle	SS_TAVION
-saberdamage	120
 rankSaberDamage	144
 ArmourRegenCap 10
 ArmourRegenRate	500
@@ -78,10 +75,10 @@ c_att_names_0	"Reinforcement"
 c_att_ranks_0	6
 c_att_descs_0 	"1 default"
 c_att_skill_1	MB_ATT_DLT20A
-c_att_names_1	"Sniper Rifle (DLT20A)"
+c_att_names_1	"Sith Sniper Rifle (DLT20A)"
 c_att_ranks_1	3,1,0
-c_att_descs_1 	"Prim. fire: Hitscan, 10% more DMG,
-10% more FP DMG, 20% slower RoF, 70% slower mag reload"
+c_att_descs_1 	"Prim fire: Hitscan, 10% more DMG, 10% more FP DMG,
+20% slower RoF, 70% slower mag reload"
 c_att_skill_2	MB_ATT_TRIP_MINES
 c_att_names_2	"Trip Mine"
 c_att_ranks_2 	1
@@ -115,8 +112,7 @@ c_att_descs_17 	"Poisons/staggers on hit, 50% more velocity, 80% faster RoF,
 c_att_skill_18 MB_ATT_FRAGS
 c_att_names_18 "Corrosive Stun Grenade (Frag)"
 c_att_ranks_18 1
-c_att_descs_18 "Sec. fire electrifies/poisons/knocks down on direct hit,
-50% less DMG"
+c_att_descs_18 "Shocks/poisons/knocks down on det, 50% less DMG"
 c_att_skill_19 MB_ATT_HEALING
 c_att_names_19 "Healing"
 c_att_ranks_19 0,1
@@ -170,7 +166,7 @@ WeaponBasedOff WP_DLT20A
 NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
 NewViewModel "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
 Icon "gfx/hud/w_icon_dlt-18"
-WeaponName	"Sniper Rifle"
+WeaponName	"Sith Sniper Rifle"
 MuzzleEffect	"Blaster/MuzzleFlash01B"
 MissileEffect	"halo_smg/projectile"
 MissileMissEffect "halo_smg/wall_impact"
@@ -227,6 +223,9 @@ NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
 Icon	"gfx/hud/w_icon_stungrenade"
 WeaponName	"Corrosive Stun Grenade"
 MissileModel "models/weapons/Grenade_Concussion/proj.md3"
+MissileMissEffect		"noghri_stick/flesh_impact"
+MissileEffect "sonic_pistol/projectile"
+altMissileModel "models/weapons/Grenade_Concussion/proj.md3"
 altMissileMissEffect		"noghri_stick/flesh_impact"
 altMissileEffect "sonic_pistol/projectile"
 
@@ -256,7 +255,7 @@ Multi-life elite troopers.
 -- No Blaster Block
 -- Chain Limit: 2
 -- EX Saber Training (1)
--- Electrifies/poisons on hit
+-- Shocks/poisons on hit
 - Sith Blaster Pistol (2)
 -- 25% more charged FP DMG
 - Thermal Grenades (2)

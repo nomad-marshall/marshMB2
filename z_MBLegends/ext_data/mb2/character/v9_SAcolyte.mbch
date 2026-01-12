@@ -11,7 +11,7 @@ ClassInfo
 	
 	forcepowers		FP_SABER_OFFENSE,3
 	classflags CFL_NOPICKUPS
-	special2 EAS_MELEE
+	special2 EAS_NONE
 
  saberDamageStyle SS_STRONG,280|SS_DESANN,280|SS_FAST,130|SS_TAVION,130
 	
@@ -183,7 +183,7 @@ description	"Dark Acolyte [Sith]
 - Melee
 - Lightsaber (Yellow)
 -- Saber Throw ^3[CS1]
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^8Attributes:
 - Reinforcement (1)

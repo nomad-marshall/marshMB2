@@ -13,8 +13,6 @@ ClassInfo
 	
 	damageGiven		1.15
 	speed    249
-
-	rateOfFire     	1.05
 	
 	resource RESOURCE_ENERGY
 	forcepool 120
@@ -63,6 +61,7 @@ ClassInfo
 	customammo 				950
 	Clipsize				60
 	FPMult          		1.1
+rateMod 1.05
 }
 
 WeaponInfo1
@@ -91,6 +90,7 @@ A class carrying Heavy Dual Pistols, multiple explosives and multiple forms of h
 ^2Weaponry:
 - Melee
 - Dual Mandalorian Heavy Pistols (WESTARs 3)
+-- 5% less RoF
 -- 10% more FP DMG
 - Calo's Flashbang Grenades (3) (Concs)
 -- Blind everyone

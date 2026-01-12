@@ -6,11 +6,11 @@ ClassInfo
 	classNumberLimit	2
 	MBClass		MB_CLASS_MANDALORIAN
 	weapons			WP_MELEE|WP_SONIC_NADE|WP_SABER|WP_SONIC_NADE
-	attributes		MB_ATT_JETPACK|MB_ATT_AMMO,3|MB_ATT_ROCKET,1|MB_ATT_WRISTLASER|MB_ATT_DEXTERITY,3|MB_ATT_FUEL,3|MB_ATT_BESKAR,2|MB_ATT_TRACKING_BEACON|MB_ATT_SONIC_DETONATOR,1
+	attributes		MB_ATT_JETPACK|MB_ATT_AMMO,3|MB_ATT_ROCKET,1|MB_ATT_WRISTLASER|MB_ATT_DEXTERITY,3|MB_ATT_FUEL,3|MB_ATT_BESKAR,2|MB_ATT_TRACKING_BEACON|MB_ATT_SONIC_DETONATOR,1|MB_ATT_BLAST_ARMOUR
 	
 	speed     1.10
 	maxhealth 80
-	maxarmor 100
+	maxarmor 80
 	
 	saber1		Legends_Knife_Spy
 	saberstyle	SS_TAVION
@@ -18,7 +18,7 @@ ClassInfo
 	saberstyle_1	SS_TAVION
 
 	BPmultiplier		0
-	saberdamage 90
+	saberdamage 100
 
 	uioverlay "gfx/icons/aerial"
 	uishader "models/players/deathwatch/mb2_icon_default"
@@ -45,7 +45,7 @@ ClassInfo
 	WP_ProjFlags			HELD_ALTRELOAD|HELD_DISRUPTIFY
 
 	special1 EAS_HI_ROCKET
-	special2 EAS_MELEE
+
 	special3 EAS_HI_DASH
 	special4 EAS_HI_WHISTLING_BIRDS
 
@@ -55,7 +55,8 @@ ClassInfo
 	c_att_skill_0	MB_ATT_PISTOL
 	c_att_names_0	"DT-29 Six Shooter (Pistol)"
 	c_att_ranks_0	2
-	c_att_descs_0 "60% more DMG/FP DMG, 30% more velocity, 30% slower RoF"
+	c_att_descs_0 "60% more DMG, 60% more FP DMG, 30% more velocity,
+30% slower RoF"
 
 	c_att_skill_1	MB_ATT_CLONERIFLE
 	c_att_names_1	"Concord. Repeater (C. Rifle)"
@@ -71,7 +72,7 @@ ClassInfo
 	c_att_skill_3	MB_ATT_PROJECTILE_RIFLE
 	c_att_names_3	"Kingpin Projectile Rifle"
 	c_att_ranks_3	5
-	c_att_descs_3 "10% more FP DMG, 30% less DMG, 100% slower mag reload"
+	c_att_descs_3 "10% more FP DMG, 20% less DMG, 100% slower mag reload"
 	
 	c_att_skill_4	MB_ATT_RESPAWNS
 	c_att_names_4	"Reinforcement"
@@ -99,7 +100,7 @@ WeaponInfo0
 	AltMissileEffect 	"blaster/Shot03B"
 	FlashSound0		"sound/weapons/dc17m/fire.wav"
 	AltFlashSound0 	"sound/weapons/dc17m/alt_fire.mp3"
-	WeaponName		"GALAAR-15 Carbine"
+	WeaponName		"GALAAR-15 Blaster Carbine"
 	SelectSound   	"sound/weapons/dc17m/select.mp3"
 	customammo 	800
 	clipsize 	60
@@ -174,7 +175,7 @@ WeaponInfo3
 	FlashSound3	"sound/weapons/halo_beamrifle/fire3.mp3"
 	CustomAmmo 	30
 	clipsize		2
-	damageMod 	0.70
+	damageMod 	0.80
 	FPMult 	1.1
 	ReloadTimeModifier 2
 }
@@ -196,7 +197,7 @@ Eagle-eyed sharpshooters with Jetpacks.
 - Melee
 - Vibroknife (Cyan Saber)
 -- No Saber/Blaster Block
--- 25% less DMG
+-- 16% less DMG
 -- 60% less reach
 -- Slap ^3[GB]
 - Sonic Detonator (1)
@@ -206,6 +207,7 @@ Eagle-eyed sharpshooters with Jetpacks.
 -- Extra Resource Regen: 1/5s
 - Dexterity (3)
 - Beskar (2)
+- Blast Armor
 - Tracking Beacon
 
 ^3Abilities:

@@ -119,7 +119,7 @@ ClassInfo
 	c_att_ranks_8	10,0
 	
 	c_att_skill_9	MB_ATT_QUICKTHROW
-	c_att_names_9	"Quick-Throw ^3[CS3]"
+	c_att_names_9	"Quickthrow ^3[CS3]"
 	c_att_ranks_9	5
 }
 
@@ -157,7 +157,7 @@ WeaponInfo0
 
 description	"Han Solo [Hero]
 
-A scrappy class with custom options like a double-damage Pistol, a massive Energy pool, and Quick-Throw Frag Grenades.
+A scrappy class with custom options like a double-damage Pistol, a massive Energy pool, and Quickthrow Frag Grenades.
 
 ^2Weaponry:
 - Melee

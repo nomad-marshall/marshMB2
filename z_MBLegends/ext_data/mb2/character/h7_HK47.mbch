@@ -6,7 +6,7 @@ ClassInfo
 
  weapons    WP_SONIC_NADE|WP_FRAG_NADE|WP_MELEE|WP_T21|WP_EE4
 
- attributes    MB_ATT_T21,3|MB_ATT_RECHARGE,3|MB_ATT_AMMO,3|MB_ATT_EE4,3|MB_ATT_FRAGS,2|MB_ATT_SONIC_DETONATOR,2|MB_ATT_POISON_DART,2|MB_ATT_FLAMETHROWER,1|MB_ATT_BESKAR,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON
+ attributes    MB_ATT_T21,3|MB_ATT_RECHARGE,3|MB_ATT_AMMO,3|MB_ATT_EE4,3|MB_ATT_FRAGS,2|MB_ATT_SONIC_DETONATOR,2|MB_ATT_POISON_DART,2|MB_ATT_FLAMETHROWER,1|MB_ATT_BESKAR,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON
 	
  classflags      	CFL_SEEING_STEALTH
 
@@ -14,18 +14,18 @@ ClassInfo
 
  holdables HI_SENTRY_GUN //BASE?
  maxhealth   80
- maxarmor  125
+ maxarmor  115
 
  speed   1.2
  
 	Resource			RESOURCE_BATTERY
 	forceregen			1.84
- forcepool 70
+ forcepool 80
  forcepowers  	FP_SEE,1
 	hackRate 0.86
 	
-	WP_T21Flags	HELD_ALTRELOAD
-	WP_EE4Flags		HELD_DISRUPTIFY|HELD_ALTRELOAD	
+	WP_T21Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD	
+	WP_EE4Flags		HELD_ALTRELOAD
 	
 	special1			EAS_HI_POISON
 	special2			EAS_HI_FLAME
@@ -59,35 +59,50 @@ ClassInfo
 WeaponInfo0
 {
 	WeaponToReplace		WP_T21  			
-	WeaponBasedOff		WP_DISRUPTOR    			
-	NewWorldModel		"models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"
-	NewViewModel		"models/weapons2/kotor_reprifle/kotor_reprifle.md3"
-	NewHandsModel		"models/weapons2/heavy_repeater/heavy_repeater_hand.md3"
-	Icon				"gfx/hud/w_icon_kotor_reprifle"
-	WeaponName			"Repeating Blaster Rifle"
-	FlashSound0			"sound/weapons/kotor/fire_power1.wav"
-	AltFlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	WeaponBasedOff		WP_T21    			
+
+	NewWorldModel		"models/weapons2/kotor_drifle/kotor_drifle_w.glm"
+	NewViewModel		"models/weapons2/kotor_drifle/kotor_drifle.md3"
+	Icon				"gfx/hud/w_icon_altdisruptor"
+	WeaponName			"Droid Assassin's Rifle"
+
+	altMissileEffect		"Blaster/Shot02Y"
+	Missile3Effect 		"Blaster/Shot04Y"
+	MissileEffect 	"Blaster/Shot04Y"
+	PowerupShotEffect	"Blaster/Shot04Y"
+	AltFlashSound0			"sound/weapons/kotor/fire_med.wav"
+ FlashSound0		"sound/weapons/kotor/fire_power1.wav"
+
 	FPMult				1.15
 	rateMod 0.95
 	customAmmo 700
+
+	hasAnimOverrides 1
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo BOTH_WESTARM5_ATTACK
+	animAttackRun 	 BOTH_WESTARM5_ATTACK
+	animAttack 	 BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
 }
 
 WeaponInfo1
 {
 	WeaponToReplace		WP_EE4
-	WeaponBasedOff		WP_DISRUPTOR
-	NewWorldModel		"models/weapons2/kotor_drifle/kotor_drifle_w.glm"
-	NewViewModel		"models/weapons2/kotor_drifle/kotor_drifle.md3"
-	Icon					"gfx/hud/w_icon_kotor_drifle"
-	WeaponName			"Droid Assassin's Rifle"
+	WeaponBasedOff		WP_EE4
+
+	NewWorldModel		"models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"
+	NewViewModel		"models/weapons2/kotor_reprifle/kotor_reprifle.md3"
+	NewHandsModel		"models/weapons2/heavy_repeater/heavy_repeater_hand.md3"
+	Icon				"gfx/hud/w_icon_kotor_reprifle"
+	WeaponName			"Repeating Blaster Rifle"
+
+ altMissileEffect "effects/Blaster/Shot12R"
+	Missile3Effect 	"effects/Blaster/Shot12R"
+	AltFlashSound0			"sound/weapons/kotor/fire_power1.wav"
+ FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+
 	FPMult				1.3
 	clipsize 78
-	MissileEffect		"Blaster/Shot02Y"
-	Missile3Effect 		"Blaster/Shot04Y"
-	AltMissileEffect 	"Blaster/Shot04Y"
-	PowerupShotEffect	"Blaster/Shot04Y"
-	FlashSound0			"sound/weapons/kotor/fire_med.wav"
-	AltFlashSound0		"sound/weapons/kotor/fire_power1.wav"
 	reloadTimeModifier 1.25
 	velocityMod 1.25
 	damageMod 1.15
@@ -109,15 +124,16 @@ A heavily armored long-range assassin, capable of sustained Wrist Flamethrower u
 
 ^2Weaponry:
 - Melee
-- Repeating Blaster Rifle (T-21 3)
--- 5% faster RoF
--- 15% more FP DMG
--- Mag reload
-- Droid Assassin's Rifle (EE-4 3)
+- Droid Assassin's Rifle (T-21 3)
 -- 15% more DMG
 -- 30% more FP DMG
 -- 25% more velocity
--- 25% slower RoF/mag reload
+-- 25% slower RoF
+-- 25% slower mag reload
+- Repeating Blaster Rifle (EE-4 3)
+-- 5% faster RoF
+-- 15% more FP DMG
+-- Mag reload
 - Frag Grenades (2)
 - Sonic Detonators (2)
 
@@ -134,7 +150,6 @@ A heavily armored long-range assassin, capable of sustained Wrist Flamethrower u
 - Battery Recharge (3)
 - Beskar (3)
 - Blast Armor
-- Cortosis (1)
 - Anti-Mind Trick (2)
 - Sense Immunity
 - Tracking Beacon

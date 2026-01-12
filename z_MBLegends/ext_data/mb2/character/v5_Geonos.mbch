@@ -25,8 +25,7 @@ ClassInfo
 	saberDamage 100
 	saberSpecialDamage 2
 	special1		EAS_HI_DODGE
-	special2 	EAS_MELEE
-	special3		EAS_HI_DEX
+	special2 	EAS_HI_DEX
 	
 	WP_BowcasterFlags    HELD_SONIC|HELD_ALTRELOAD
 	WP_SaberFlags			HELD_PULSE
@@ -107,13 +106,13 @@ A flight-capable, 2-life dexterous gunner with a Sonic stun Blaster and electric
 -- Saber Defense (1)
 -- No Blaster Block
 -- No Saber Training
--- Electrifies on hit
+-- Shocks on hit
 -- 105% more KB
 -- 61/75% less DMG
--- 23/50% less special DMG
+-- 200% special DMG mult
 -- 25/6% less reach
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Geonosian Sonic Blaster (Bowcaster 1)
 -- Stuns on hit
 -- 25% more FP DMG
@@ -134,4 +133,4 @@ A flight-capable, 2-life dexterous gunner with a Sonic stun Blaster and electric
 - Flight (Jetpack)
 -- No overheating
 - Dodge (2) ^3[CS1]
-- Dex Roll ^3[CS3]"
+- Dex Roll ^3[CS2]"

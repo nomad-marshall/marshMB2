@@ -10,7 +10,7 @@ ClassInfo
 
 	attributes 	MB_ATT_CLONERIFLE,2|MB_ATT_FRAGS,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_AMMO,3|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIEE_FURY,2|MB_ATT_BLAST_ARMOUR|MB_ATT_TRACKING_BEACON|MB_ATT_FP_SABER_DEFENSE,1
 
-	maxhealth		475
+	maxhealth		460
 	maxarmor			120
 	speed   1.09
 	
@@ -23,9 +23,8 @@ ClassInfo
 	classflags CFL_BLOODYMELEE
 	
 	special1			EAS_HI_FURY
-	special2			EAS_MELEE
+	special2			EAS_HI_BARGE
 	special3			EAS_HI_MEDPAC_BIG
-	meleespecial2 		EAS_HI_BARGE
 
 	forcepool  115
 	forceregen 0.95
@@ -91,7 +90,7 @@ A large tank with Fury, a deadly Vibroaxe, and a heavy blaster rifle. Resists mo
 -- Chain Limit: 2
 -- 30/46% less DMG
 -- 10% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - DLT-19 Heavy Blaster Rifle (Clone Rifle 2)
 -- 10% faster RoF
 

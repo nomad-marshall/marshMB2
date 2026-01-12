@@ -28,7 +28,7 @@ ClassInfo
 	//WP_MeleeFlags HELD_HEAL
 	
 	APmultiplier		0.85
-	ASmultiplier 	0.95
+	ASmultiplier 	1
 	BPmultiplier		0.8
 	rankBP	1,1.2
  saber1			trayasab

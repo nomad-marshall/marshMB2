@@ -8,7 +8,7 @@ ClassInfo
 
 	weapons		WP_SABER|WP_MELEE
 	
-	attributes	MB_ATT_FORCEBLOCK,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_FP_REPULSE|MB_ATT_DEXTERITY,3
+	attributes	MB_ATT_FORCEBLOCK,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,1|MB_ATT_FP_REPULSE|MB_ATT_DEXTERITY,3|MB_ATT_HEALING,1
 
 	forcepowers	FP_SABER_OFFENSE,3|FP_SPEED,3|FP_LEVITATION,3|FP_PUSH,1
 	resource RESOURCE_FORCE
@@ -22,6 +22,7 @@ ClassInfo
 
 
 	meleespecial1 EAS_FP_REPULSE
+ special2 EAS_FP_SPEED
 
 	saberdamage	240
 	saberstyle	SS_DESANN
@@ -88,14 +89,15 @@ Force users with high flexibility.
 -- Blaster Deflect (1)
 -- 40% less DMG
 -- 10% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)
 - Push (1)
-- Speed (3)
+- Speed (3) ^3[CS2]
 - Repulse ^3[CS1 Melee]
 
 ^8Attributes:
+- Healing (1)
 - Dexterity (3)
 - Force Block/Focus (2)"

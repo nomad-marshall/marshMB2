@@ -232,6 +232,7 @@ soldierbaton_legends
 	soundOff	 "sound/weapons/detpack/select.mp3"
 	saberLength	20
 	saberRadius	4
+knockbackScale 0.1
 	noCartwheels 1
 	blasterblocking		0	
 	throwable	0
@@ -443,7 +444,8 @@ gamo_axe_legends
 	soundOn		"s/w/b/draw1.mp3"
 	soundLoop	none
 	soundOff	"s/w/t/saberoff.wav"
-	saberLength	19
+	saberLength	20
+knockbackScale 0.2
 	saberRadius	6
 	throwable	0
 	maxChain		3
@@ -508,6 +510,7 @@ bardiche_legends
 	soundOff		none
 	numBlades	1
 	saberLength	46
+knockbackScale 0.25
 	saberRadius	5
 	throwable	0
 	noDlight		1
@@ -616,13 +619,11 @@ electrostaff_legends
 	saberLength	    14
 	twohanded		1
 	throwable		0
-//	saberStyle		staff
 	onInWater		1
-//	singleBladeStyle	staff
-//	singleBladeThrowable	0
 	trailStyle		2
  	noblade			1
 	damageScale		0.7
+knockbackScale 0.03
 	bounceonwalls 	0
 	disarmable		1
 	//blasterBlocking 0
@@ -710,6 +711,7 @@ electro_purp_legends
 	singleBladeThrowable	0
 	animSpeedScale 	1.2
 	damageScale		0.75
+knockbackScale 0.03
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
 	hitPersonEffect 	"electrostaff/hit.efx"
@@ -748,7 +750,7 @@ electro1h_purp_legends
 	name		"Double Electrobatons - Purple"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_purp.glm"
-
+knockbackScale 0.02
 	saberColor	purple
 	numBlades	2
 	saberLength	14
@@ -815,6 +817,7 @@ electro1h_orng_legends
 	name		"Double Electrobatons - Orange"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_orange.glm"
+knockbackScale 0.02
 	numBlades	2
 	saberLength	14
 	saberLength2	14
@@ -880,6 +883,7 @@ electro1h_blu_legends
 	name		"Double Electrobatons - Blue"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_blue.glm"
+knockbackScale 0.02
 	numBlades	2
 	saberLength	14
 	saberLength2	14
@@ -945,6 +949,7 @@ riot_baton_p_legends
 	name		"Electrobaton/Riot Shield - Purple"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_purp.glm"
+knockbackScale 0.02
 	saberLength	14
 	noBlade		1
 	trailStyle	1
@@ -1007,6 +1012,7 @@ riot_baton_b_legends
 	name		"Electrobaton/Riot Shield - Blue"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_blue.glm"
+knockbackScale 0.02
 	saberLength	14
 	noBlade				1
 	trailStyle			1
@@ -1075,6 +1081,7 @@ riot_baton_o_legends
 	name		"Electrobaton/Riot Shield - Orange"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_orange.glm"
+knockbackScale 0.02
 	saberLength	14
 	noBlade				1
 	trailStyle			1
@@ -1144,6 +1151,7 @@ riot_shield_legends
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/riot_shield/saber_w.glm"
 	soundOn		"s/w/c/draw1.mp3"
+knockbackScale 0.1
 	soundLoop	none
 	soundOff	none
 	saberLength	14

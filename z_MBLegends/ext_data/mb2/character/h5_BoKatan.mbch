@@ -17,18 +17,18 @@ ClassInfo
 	special1		EAS_HI_ROCKET
 	special2 	EAS_HI_WRIST
 	special3		EAS_HI_POISON
-	//special4 	EAS_MELEE
 
 	resource			resource_fuel
 	forcepool 		35
 	
 	saber1			legends_darksaber
-	saberstyle  	SS_MEDIUM|SS_DESANN|SS_STRONG
+	saberstyle  	SS_MEDIUM|SS_DESANN
+saberDamageStyle SS_MEDIUM,200|SS_DESANN,240
 
 	forcepowers		FP_SABER_OFFENSE,1
 	APmultiplier		1.20
 	BPmultiplier 	1.1
-	saberDamage 		240
+
 	
 	modelscale  1.01
 	model		"BoKatan"
@@ -75,11 +75,11 @@ A speedy Jetpack user who wields a Saber and Dual Pistols. Surprisingly tanky.
 ^2Weaponry:
 - Melee
 -- 5% faster RoF
-- The Darksaber (Yellow/Red/Purple)
+- The Darksaber (Yellow/Purple)
 -- Saber Defense (1)
 -- No Blaster Block
 -- Blocking resists Force Powers
--- 53/40% less Red/Purple DMG
+-- 16/40% less Yellow/Purple DMG
 -- Slap ^3[GB]
 - Dual WESTAR-35 Blaster Pistols (3)
 -- 10% more FP DMG

@@ -203,10 +203,10 @@ Mesa, uh, clumsy...
 -- 160% more KB
 -- 25% less reach
 -- 66% less DMG
--- 33% less special DMG
+-- 200% special DMG mult
 -- 400% more radius
 - Boomaload (1) (Flechette 4)
--- Electrifies/knocks back/down on det
+-- Shocks/pushes/knocks down on det
 -- 200% more DMG
 -- 100% less velocity
 -- 1150% slower shot swap
@@ -241,4 +241,4 @@ Mesa, uh, clumsy...
 - Dodge (3) ^3[CS1]
 - Dex Roll ^3[CS2]
 - Dash/Dash Jump (2) ^3[CS3]
-- Quick-Throw (3) ^3[CS4]"
+- Quickthrow (3) ^3[CS4]"

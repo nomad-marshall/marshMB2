@@ -25,10 +25,10 @@ ClassInfo
 	saberstyle			SS_MEDIUM
 	APmultiplier		1.25
 	BPmultiplier		1.25
-	ASmultiplier 		1.1
-	CSmultiplier 		1.2
+	ASmultiplier 		1.15
+	CSmultiplier 		1.15
 	saberDamage 160
-	saberSpecialDamage 2
+	saberSpecialDamage 2.5
 	saberThrowDamage 50	
 	rankSaberMaxChain 5
 
@@ -104,6 +104,7 @@ A master Saberist with unmatched dueling skills. Regains BP upon defeating enemi
 -- Blaster Defense (2)
 -- Blaster Deflect (3)
 -- 33% less Yellow DMG
+-- 200% special DMG mult
 -- Saber Throw ^3[CS1]
 --- 66% more DMG
 -- Slap ^3[GB]

@@ -18,7 +18,7 @@ ClassInfo
 	damageGiven		1.2
 	
 	//special1		EAS_FP_SABERTHROW
-	special2		EAS_MELEE
+	special2		EAS_NONE
 	special3		EAS_FP_SPEED
 	special4 	EAS_FP_PROTECT
 
@@ -27,8 +27,8 @@ ClassInfo
  saberThrowDamage 50
 	APmultiplier	1.25
 	BPmultiplier	1.25
-	ASmultiplier	1.1
-	CSmultiplier	1.2
+	ASmultiplier	1.15
+	CSmultiplier	1.15
 	
  classflags CFL_NOPICKUPS
 
@@ -104,7 +104,7 @@ A master saberist that sacrifices Force abilities for unmatched dueling skills.
 -- Blaster Deflect (3)
 -- Saber Throw ^3[CS1]
 --- 66% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)

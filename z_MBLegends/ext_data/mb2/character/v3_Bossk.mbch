@@ -17,7 +17,7 @@ ClassInfo
 	//saberstyle		SS_DUAL
 	healthRegenCap 300
 	healthRegenAmount 5
-	healthRegenRate 20000
+	healthRegenRate 18000
 	damageGiven 1.35
 	forcepowers	FP_SEE,1
 	
@@ -113,7 +113,7 @@ A dexterous hunter with enhanced poison shots.
 - Strength (1)
 - Physical Resist
 - Healing (3)
--- Regenerate: 5/20s
+-- Regenerate: 5/18s
 - Tracking Beacon
 - Acid Blood
 

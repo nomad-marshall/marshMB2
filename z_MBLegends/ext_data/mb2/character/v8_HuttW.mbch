@@ -32,10 +32,8 @@ ClassInfo
 	saberstyle SS_STRONG
  saberDamageStyle SS_STRONG,280
 
-
 	special1	EAS_HI_FURY
-	meleespecial2 EAS_HI_BARGE
-	special2 EAS_MELEE
+special2 EAS_HI_BARGE
 
 	humanoidSkeleton		1
 
@@ -81,7 +79,7 @@ A tanky brawler class with innate Strength and resistances. Wields a long Bardic
 -- 46% less DMG
 -- 38% more reach
 -- 67% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^8Attributes:
 - 50% less KB taken

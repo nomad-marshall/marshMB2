@@ -16,9 +16,9 @@ ClassInfo
 	forceregen  1.75
 	speed				0.95
 	//special1			EAS_FP_SABERTHROW
-	special2 EAS_FP_ABSORB
+	special2 EAS_FP_DRAIN
 	special3 EAS_FP_GRIP
-	special4 EAS_FP_DRAIN
+	special4 EAS_FP_TELEPATHY
 
 	saberstyle			SS_TAVION|SS_FAST
 	saberDamageStyle SS_TAVION,130|SS_FAST,130
@@ -26,7 +26,7 @@ ClassInfo
 	BPmultiplier		1.25
 	APmultiplier  0.95
 	ASmultiplier		0.95
-	CSmultiplier		0.85
+	CSmultiplier		0.95
 
 	classflags		CFL_SEEING_STEALTH|CFL_NOPICKUPS
 	
@@ -68,10 +68,10 @@ A Jedi with inferior Lightsaber skills, but strongly adept in the Force.
 - Jump (1)
 - Push (2)
 - Pull (3)
-- Drain (3) ^3[CS4]
+- Drain (3) ^3[CS2]
 - Grip (3) ^3[CS3]
-- Mind Trick (2)
-- Absorb (3) ^3[CS2]
+- Mind Trick (2) ^3[CS4]
+- Absorb (3)
 
 ^8Attributes:
 - Miraluka Vision (3)
