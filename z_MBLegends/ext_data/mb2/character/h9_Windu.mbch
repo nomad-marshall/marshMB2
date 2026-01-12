@@ -14,17 +14,18 @@ ClassInfo
 
 	classflags		CFL_HEAVYMELEE|CFL_NOPICKUPS
 
-	special2 EAS_MELEE
-	special3 EAS_FP_GRIP
+	special2 EAS_FP_GRIP
+	special3 EAS_FP_SPEED
 	special4 EAS_FP_ABSORB
 
 	saberstyle		SS_STRONG|SS_DESANN
 	saberDamageStyle SS_DESANN,280|SS_STRONG,280
+ saberSpecialDamage 1.25
 	saberMaxChain 4
 	APmultiplier	1.2
 	BPmultiplier	1.2
 	ASmultiplier 	1.1
-	CSmultiplier    1.2
+	CSmultiplier    1.15
 	saberThrowDamage 60
 
 	damageGiven     1.10
@@ -69,18 +70,19 @@ A powerful, versatile Jedi with an increased Lightsaber chain limit and a variet
 -- Blaster Deflect (2)
 -- Chain Limit: 4
 -- 30/46% less Purple/Red DMG
+-- 125% special DMG mult
 -- EX Saber Throw (3) ^3[CS1]
 --- 100% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)
 - Push (2)
 - Pull (2)
 - Sense (1)
-- Grip (1) ^3[CS3]
+- Grip (1) ^3[CS2]
 - Absorb (1) ^3[CS4]
-- Speed (2)
+- Speed (2) ^3[CS3]
 
 ^8Attributes:
 - 75% less KB taken

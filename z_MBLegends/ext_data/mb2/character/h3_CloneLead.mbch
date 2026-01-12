@@ -29,7 +29,7 @@ ClassInfo
 
 	special1		EAS_HI_SPRINT
 	special2		EAS_HI_DEX
-	//special3 	EAS_MELEE
+
 	special4		EAS_HI_GRAPPLEHOOK
 	
 	uioverlay_r "gfx/icons/heavy"

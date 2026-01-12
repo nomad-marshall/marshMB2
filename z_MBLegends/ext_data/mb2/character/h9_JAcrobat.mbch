@@ -31,7 +31,7 @@ ClassInfo
 	//special1	EAS_FP_SABERTHROW
 	special2 EAS_HI_DEX
 	special3 EAS_FP_SPEED
-	//special4 EAS_MELEE
+
 
 	uioverlay "gfx/icons/frontline"
 	

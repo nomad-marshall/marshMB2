@@ -213,7 +213,7 @@ Mid-ranged elite soldiers who can Disguise themselves and Cloak.
 -- No Saber/Blaster Block
 -- 25% less DMG
 -- 60% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^6Inventory:
 - Cloaking Device ^3[CS4]
@@ -225,5 +225,5 @@ Mid-ranged elite soldiers who can Disguise themselves and Cloak.
 
 ^3Abilities:
 - Tracking Darts (2) ^3[CS2 Melee]
-- Gun Kick ^3[CS2 Gun]
+- Gunkick ^3[CS2 Gun]
 - Dash (1) ^3[CS3]"

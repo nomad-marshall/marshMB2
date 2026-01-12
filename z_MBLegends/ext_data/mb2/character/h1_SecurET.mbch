@@ -17,14 +17,14 @@ ClassInfo
 	extralives			1
 
 	special1		EAS_HI_SPRINT
-	special2 	EAS_MELEE
+	special2 	EAS_NONE
 	special4		EAS_HI_GRAPPLEHOOK
 	
 	saber1			soldierbaton_legends
 	forcepowers 		FP_SABER_OFFENSE,3
 	saberstyle 		SS_MEDIUM|SS_TAVION
 
-	saberDamage 60
+	saberDamage 70
 	BPmultiplier 		0
 	APmultiplier 		0.8
 	ASmultiplier 1.05
@@ -209,10 +209,11 @@ Quick, versatile guards. Adept at disabling enemies.
 -- No Saber/Blaster Block
 -- No Saber Training
 -- Staggers on hit
--- 75/50% less DMG
+-- 10% more KB
+-- 70/41% less DMG
 -- 50% less reach
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Naboo S-5 Blaster Pistol (1)
 -- 10% faster RoF
 -- 15% less DMG

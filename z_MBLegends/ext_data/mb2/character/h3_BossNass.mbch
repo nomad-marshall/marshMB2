@@ -34,7 +34,7 @@ ClassInfo
 	flourishAnim		BOTH_TUSKENTAUNT1
 	
 	special1		EAS_NONE
-	//special2 	EAS_MELEE
+	special2 	EAS_NONE
 	special2		EAS_HI_DASH
 
 	modelScale   1.10	
@@ -129,6 +129,7 @@ A tanky rocketeer with a large protective Energy Shield and inherent aquatic res
 -- Blaster Defense (3)
 -- Blaster Deflect (1)
 -- Chain Limit: 1
+-- 10% more KB
 -- 73% less DMG
 -- Slap ^3[GB]
 > Broad Shield

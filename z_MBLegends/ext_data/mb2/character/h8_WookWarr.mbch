@@ -15,7 +15,6 @@ ClassInfo
 	
 	saberMaxChain 3
 	rankSaberMaxChain 4,5
-	special3 EAS_MELEE
 
 	maxhealth	300
 	maxArmor		30
@@ -136,6 +135,7 @@ ClassInfo
 	c_att_skill_8	MB_ATT_DMG_GIVEN_MULTIPLIER
 	c_att_names_8	"DMG Given (115%)"
 	c_att_ranks_8	1
+ c_att_descs_8 "Does not affect Saber"
 
 	c_att_skill_9	MB_ATT_BLAST_ARMOUR
 	c_att_names_9	"Blast Armor"
@@ -250,8 +250,9 @@ Tough 2-life units who can spec into Blasters, brawling, and Saber upgrades. Rag
 -- Blaster Defense (3)
 -- Chain Limit: 3
 -- 25% more reach
+-- 45% more KB
 -- 65/77% less DMG
--- Slap ^3[CS3]
+-- Slap ^3[GB]
 - Kashyyyk Side-Arm Blaster Pistol (2)
 -- Prim only
 - Det Packs (3)

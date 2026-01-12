@@ -46,7 +46,7 @@ ClassInfo
 	//WP_RocketLauncherFlag HELD_ALTRELOAD|HELD_KNOCKDOWN|HELD_HIGHDAMAGE
 
 	special1 EAS_HI_DODGE
-	//special2 EAS_MELEE
+
 	special2 EAS_HI_DASH
 	special3 EAS_HI_MEDPAC
  special4 EAS_HI_SHIELD
@@ -133,7 +133,7 @@ A speedy, damage-boosted Pistoleer with Grenades.
 -- Chain Limit: 2
 -- 125% more KB
 -- 50/76% less DMG
--- 53% less Red special DMG
+-- 200% special DMG mult
 -- 40% less reach
 -- 167% more radius
 -- Slap ^3[GB]

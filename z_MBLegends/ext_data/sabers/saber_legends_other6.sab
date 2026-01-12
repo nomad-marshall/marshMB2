@@ -773,6 +773,7 @@ bossnass_shield_legends
 	soundOff		"s/w/s/spin1.wav"
 	saberLength	18
 	saberRadius	 36
+knockbackScale 0.1
 	throwable		0
 	maxChain		1
 	disarmable	0
@@ -829,6 +830,7 @@ bossnass_shield_legends_2
 	soundOff		"s/w/s/spin1.wav"
 	saberLength	36
 	saberRadius	18
+knockbackScale 0.1
 	throwable		0
 	maxChain		1
 	disarmable	0

@@ -243,6 +243,7 @@ bones_shiv_legends
 	soundOff	"s/w/shwartz/saberhup3.mp3"
 	numblades	1
 	saberLength	20
+knockbackScale 0.2
 	noDlight	1
 	noBlade		1
 	noIdleEffect	1
@@ -494,10 +495,10 @@ ryyk_A_legends
 	soundOff	"s/w/t/saberoff.wav"
 	saberLength	53
 	saberRadius	3
-	saberColor		random
+ knockbackScale .7
 	noCartwheels 1
 	oninwater	1
-    noFlips 1
+ noFlips 1
 	throwable	0
 	maxChain	3
 	notInMP		0
@@ -515,7 +516,7 @@ ryyk_A_legends
 	splashKnockback		110
 	blasterblocking		0
 	useGoreConfig 	1
-    useGoreConfig2 	1
+ useGoreConfig2 	1
 	swingSound1	"sound/weapons/blade/swing4.mp3"
 	swingSound2	"sound/weapons/blade/swing3.mp3"
 	swingSound3	"sound/weapons/blade/swing2.mp3"
@@ -537,8 +538,8 @@ ryyk_A_legends
 	blockEffect	"melee_weap/block.efx"
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
-	jumpAtkFwdMove LS_A_JUMP_T__B_
-	lungeAtkMove LS_SPINATTACK_ALORA
+	jumpAtkFwdMove LS_SPINATTACK_ALORA
+	lungeAtkMove LS_PULL_ATTACK_SWING
 	jumpAtkRightMove LS_DUAL_LR
 	jumpAtkLeftMove	LS_SPINATTACK_DUAL
 	jumpAtkBackMove	LS_STAFF_SOULCAL

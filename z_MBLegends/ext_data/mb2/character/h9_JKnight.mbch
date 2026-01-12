@@ -12,7 +12,7 @@ ClassInfo
 	
 	forcepowers	FP_SABER_OFFENSE,3
 	classflags CFL_NOPICKUPS
-	special2 EAS_MELEE
+	special2 EAS_NONE
 		
 	forcepool	100
 	rankForcepool 120
@@ -261,7 +261,7 @@ description	"Jedi Knight [Jedi]
 - Melee
 - Lightsaber (Yellow)
 -- Saber Throw ^3[CS1]
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^8Attributes:
 - Reinforcement (1)

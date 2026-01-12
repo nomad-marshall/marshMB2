@@ -67,7 +67,7 @@ ClassInfo
 	uishader_3 	"models/players/tusken_fem_jk3/mb2_icon_default"
 	
 	special1 EAS_NONE
-	special2 EAS_MELEE
+	special2 EAS_NONE
 }
 
 WeaponInfo0
@@ -145,13 +145,15 @@ A 2-life class with a unique blend of Melee weapons, slug-based guns, and Wookie
 -- No Saber Training
 -- 15% faster movement
 -- 50/45% less DMG
--- 8% more Yellow special DMG
--- Slap ^3[CS2]
+-- 200% special DMG mult
+-- Slap ^3[GB]
 > Tusken Gaffi Stick
 -- 14% more AS
+-- 20% more KB
 > Chieftain's Gaffi Stick
--- 7% less AS
 -- 30% more reach
+-- 25% more KB
+-- 7% less AS
 - Dual Projectile Pistols (Clone Pistols 3)
 -- Hitscan rounds
 -- 6% faster RoF

@@ -33,9 +33,8 @@ ClassInfo
 
 	special1	EAS_FP_SABERTHROW
  meleeSpecial1 EAS_FP_REPULSE
-	special2 EAS_MELEE
- meleeSpecial2 EAS_HI_BARGE
-	special3	EAS_FP_GRIP
+	special2 EAS_HI_BARGE
+
 	special4	EAS_FP_RAGE
 	
  //runForward BOTH_WOOKIEE_RAGE_RUN
@@ -146,7 +145,7 @@ A large melee bruiser that wields a high-powered, long-reaching staff Lightsaber
 -- 115% more KB
 -- EX Saber Throw (2) ^3[CS1]
 --- 133% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (2)

@@ -27,10 +27,10 @@ ClassInfo
 	damageTaken		0.60
 	knockbackTaken 0.85
 	
-	special1 	EAS_FP_ABSORB
-	special2 	EAS_MELEE
-	special3 	EAS_HI_FLAME
-	special4 	EAS_FP_RAGE
+	special1 	EAS_FP_RAGE
+	special2 	EAS_HI_FLAME
+	special3 	EAS_FP_SEE
+	special4 	EAS_FP_ABSORB
 	
 	saber1 durgeshield_leg
 	saber2 durgeshield_leg
@@ -139,7 +139,7 @@ A tanky dual pistoleer/brawler class equipped with a Jetpack and tools meant for
 -- 12% less reach
 -- 66% more radius
 -- Sec only
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Durge's Blaster Pistols (WESTARs 3)
 -- 30% more FP DMG
 -- 15% slower RoF
@@ -148,9 +148,9 @@ A tanky dual pistoleer/brawler class equipped with a Jetpack and tools meant for
 -- Prim only
 
 ^5Powers:
-- Cybernetic Tracking Implant (Sense 1)
-- Dark Rage (3) ^3[CS4]
-- Anti-Force Field (Absorb 2) ^3[CS1]
+- Cybernetic Tracking Implant (Sense 1) ^3[CS3]
+- Dark Rage (3) ^3[CS1]
+- Anti-Force Field (Absorb 2) ^3[CS4]
 
 ^8Attributes:
 - 15% less KB taken
@@ -165,4 +165,4 @@ A tanky dual pistoleer/brawler class equipped with a Jetpack and tools meant for
 
 ^3Abilities:
 - Jetpack
-- Wrist Flamethrower ^3[CS3]"
+- Wrist Flamethrower ^3[CS2]"

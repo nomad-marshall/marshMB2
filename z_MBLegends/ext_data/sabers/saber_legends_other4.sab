@@ -225,6 +225,7 @@ Gaffi_legends
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/saber_gaffi/saber_w.glm"
 	saberLength	40
+knockbackScale 0.2
 	numBlades	1
 	throwable		0
 	onInWater		1
@@ -289,6 +290,7 @@ Gaffi_legends2
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/tusken_staff_sar/tusken_staff_legends.GLM"
 	saberLength	52
+knockbackScale 0.3
 	numBlades	1
 	throwable		0
 	onInWater		1
@@ -352,7 +354,7 @@ vibroaxe_new_legends
 	soundOff	"s/w/shwartz/saberhup3.mp3"
 	saberLength	    36
 	saberRadius	   3
- knockbackScale 0.15
+ knockbackScale 0.2
 	throwable	    0
 	blasterBlocking	0
 	noWallMarks	    1
@@ -415,7 +417,7 @@ short_vibroaxe_legends
 	noBlade		1
 	noClashFlare	1
 	trailStyle	1
- knockbackScale 0.10
+ knockbackScale 0.15
 	animSpeedScale 1.15
 	damageScale		0.75
 	throwable	0

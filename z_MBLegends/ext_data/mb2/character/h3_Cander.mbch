@@ -33,7 +33,7 @@ ClassInfo
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 
 	special1	EAS_HI_SPRINT
-	special2 EAS_MELEE
+	special2 EAS_NONE
 
 	knockbackTaken		.80
 	rankKbTaken			.20
@@ -167,7 +167,7 @@ A tanky hybrid who can spec into Blaster and Saber skills.
 -- No Blaster Block
 -- 48% more reach
 -- 46% less Red DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^8Attributes:
 - 20% less KB taken

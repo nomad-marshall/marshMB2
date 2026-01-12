@@ -18,11 +18,11 @@ ClassInfo
 	MaxArmor		0
 	rankArmor	20,35,45
 	
-	forcepool	40
+	forcepool	30
 	forceregen	1.5
 	resource	 RESOURCE_BATTERY
 
-	damageGiven	0.95
+	damageGiven	1
 	
 	classflags CFL_DISMEMBERFRAGILE
 	
@@ -266,7 +266,6 @@ WeaponInfo3
 	clipsize 36
 	customAmmo 360 
 }
-
 description	"B1-series Battle Droid [Soldier]
 
 Mass-produced, fragile combatants with superior reinforcement potential.

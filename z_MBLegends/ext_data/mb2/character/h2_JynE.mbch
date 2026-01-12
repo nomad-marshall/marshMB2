@@ -50,9 +50,9 @@ ClassInfo
 	tauntAnim	BOTH_ENGAGETAUNT
 	
 	special1	EAS_HI_DODGE
-	special2 EAS_HI_KICK
-	special3	EAS_HI_DASH
-	special4 EAS_HI_MEDPAC_BIG
+	special2 EAS_HI_DASH
+	special3	EAS_HI_MEDPAC_BIG
+	special4 EAS_HI_KICK
 	
 	uioverlay "gfx/icons/spec_infantry"
 }
@@ -134,9 +134,10 @@ A damage/fire rate-boosted pistoleer with advanced movement capabilities and a s
 - Jyn's Truncheon (Dual/Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 2
+-- 10/20% more KB on L/R hands
 -- 73/41% less DMG
 -- 30% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - A180 Blaster Pistol (WESTAR 2)
 -- 10% more DMG/FP DMG
 -- 10% faster reload
@@ -148,7 +149,7 @@ A damage/fire rate-boosted pistoleer with advanced movement capabilities and a s
 - Det Packs (3)
 
 ^6Inventory:
-- Advanced Medpac ^3[CS4]
+- Advanced Medpac ^3[CS3]
 - Electrobinoculars
 
 ^8Attributes:
@@ -159,5 +160,5 @@ A damage/fire rate-boosted pistoleer with advanced movement capabilities and a s
 ^3Abilities:
 - Flipkick (2) ^3[Contact Jump]
 - Dodge (3) ^3[CS1]
-- Gun Kick ^3[CS2]
-- Dash (2) ^3[CS3]"
+- Dash (2) ^3[CS2]
+- Gunkick ^3[CS4]"

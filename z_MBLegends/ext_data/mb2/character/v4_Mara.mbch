@@ -59,9 +59,10 @@ ClassInfo
 	uishader_3		"models/players/mara/mb2_icon_ponytail"
 	
 	special1 EAS_FP_SABERTHROW
-	special2 EAS_MELEE
-	special4 EAS_FP_TELEPATHY
+	special2 EAS_HI_MEDPAC_BIG
 	special3 EAS_FP_SPEED
+	special4 EAS_FP_TELEPATHY
+
 }
 
 WeaponInfo0
@@ -101,7 +102,7 @@ A Sith/pistoleer hybrid that rewards flanking, skirmishing, and swapping between
 -- 8% more Blue DMG
 -- EX Saber Throw (1) ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Hold-out Blaster Pistol (3)
 -- 20% less velocity
 - Thermal Grenades (4)
@@ -116,7 +117,7 @@ A Sith/pistoleer hybrid that rewards flanking, skirmishing, and swapping between
 - Speed (2) ^3[CS3]
 
 ^6Inventory:
-- Advanced Medpac
+- Advanced Medpac ^3[CS2]
 
 ^8Attributes:
 - Bunny Hop (1)

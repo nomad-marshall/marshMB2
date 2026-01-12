@@ -30,9 +30,10 @@ ClassInfo
 	saberstyle		SS_FAST|SS_MEDIUM
 	
 	special1 EAS_HI_POISON
-	special2	EAS_MELEE
-	special4 EAS_FP_PROTECT
+	special2	EAS_NONE
 	special3 EAS_FP_SPEED
+	special4 EAS_FP_PROTECT
+
 
 	bowAnim BOTH_HAN_TAUNT
 	flourishAnim BOTH_STAND10_TALK2
@@ -90,7 +91,7 @@ A versatile Sith/gunner hybrid.
 -- Blaster Deflect (2)
 -- Blocking resists Force Powers
 -- 50% less Yellow DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Aurra's Dual Pistols (Clone Pistols 3)
 - Czerka Adventurer Slugthrower Rifle (Proj)
 -- Mag reload
