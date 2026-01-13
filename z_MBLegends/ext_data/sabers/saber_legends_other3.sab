@@ -5,18 +5,22 @@ electrostaff_hondo_leg
 	saberType	SABER_STAFF
 	saberModel	"models/weapons2/electrostaff/electrostaff_purp.glm"
 	saberColor		purple
-	saberLength	    14
+ knockbackScale 0.03
+	saberLength	30
+ saberLength2 30
+ saberLength3 30
+ saberRadius 3
+	numBlades	3
 	twohanded		1
 	throwable		0
 	onInWater		1
 	trailStyle		2
- 	noblade			1
+ noblade			1
 	damageScale		0.4
 	bounceonwalls 	0
 	disarmable		0
 	blasterBlocking 0
 	noManualDeactivate		1
-    noCartwheels     1
 	noFlips 1
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
@@ -68,8 +72,9 @@ Cutlass_legends
 	soundLoop	"s/w/shwartz/saberhum1.wav"
 	soundOff		"s/w/shwartz/saberhup3.mp3"
 	saberModel	"models/weapons2/sabcut_if/sab1.glm"
+ knockbackScale 0.18
 	saberLength	26
-	saberRadius	2
+	saberRadius	3
 	throwable		0
 	disarmable	1
 	notInMP		0
@@ -107,9 +112,8 @@ Cutlass_legends
 	drawAnim BOTH_PULL_IMPALE_STAB
 	readyAnim BOTH_DESANN_STANCE 
 	readyAnimOnlyTorso 1
-	jumpAtkFwdMove LS_A1_SPECIAL
-	jumpAtkLeftMove LS_NONE
-	jumpAtkRightMove LS_NONE
+	jumpAtkFwdMove LS_PURPLE_DFA
+ lungeAtkMove LS_PULL_ATTACK_STAB
 	g2MarksShader "gfx/damage/bloodcutmark"
 	g2WeaponMarkShader "gfx/effects/bloodsplat"
 	blockEffect	"melee_weap/block.efx"

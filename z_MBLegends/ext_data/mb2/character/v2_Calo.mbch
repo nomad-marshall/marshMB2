@@ -12,7 +12,7 @@ ClassInfo
 	maxarmor			110
 	
 	damageGiven		1.15
-	speed    249
+	basespeed    249
 	
 	resource RESOURCE_ENERGY
 	forcepool 120
