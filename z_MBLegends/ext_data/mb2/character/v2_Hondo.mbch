@@ -17,8 +17,9 @@ ClassInfo
 
 	holdables     HI_EWEB|HI_STIMPACK
 	
-	CSmultiplier      1.1
-	ASmultiplier      1.09
+	CSmultiplier      1.05
+	ASmultiplier      1.1
+ saberDamageStyle SS_MEDIUM,200|SS_TAVION,120|SS_STAFF,110
 	maxhealth			125
 	maxarmor			125
 	model				"hondo"
@@ -156,21 +157,23 @@ WeaponInfo3
 
 description	"Hondo Ohnaka [ARC Trooper]
 
-A reckless hybrid with a Shotgun and a Grappling Hook.
+A reckless, mobile hybrid with a one-tap Shotgun and a Grappling Hook.
 
 ^2Weaponry:
 - Melee
 - Ohnaka Gang Saber
 -- Saber Defense (1)
+--- BP-Free Jumps
 -- No Blaster Block
--- BP-Free Jumps
 -- Slap ^3[GB]
 > Hondo's Vibrocutlass (Yellow/Cyan)
--- 20% less DMG
+-- 18% more KB
+-- 16% less Yellow DMG
 -- 35% less reach
--- 33% less radius
 > Hondo's Electrostaff (Staff)
--- 60% less DMG
+-- 3% more KB
+-- 57% less DMG
+-- 6% less reach
 - ACP Array Gun (Shotgun 2)
 -- 100% more DMG
 -- 5% faster mag reload

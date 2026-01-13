@@ -616,20 +616,21 @@ electrostaff_legends
 	saberModel	"models/weapons2/electrostaff/electrostaff_purp.glm"
 	//customSkin 	"models/weapons2/electrostaff/electrostaff.skin"
 	saberColor		purple
-	saberLength	    14
+	saberLength	30
+ saberLength2 30
+ saberLength3 30
+ saberRadius 3
+	numBlades	3
 	twohanded		1
 	throwable		0
 	onInWater		1
 	trailStyle		2
- 	noblade			1
+ noblade			1
 	damageScale		0.7
-knockbackScale 0.03
+ knockbackScale 0.03
 	bounceonwalls 	0
 	disarmable		1
-	//blasterBlocking 0
 	noManualDeactivate		1
-	noRollStab       0
-    noCartwheels     1
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
 	hitPersonEffect 	"electrostaff/hit.efx"
@@ -681,10 +682,11 @@ electro_purp_legends
 	soundLoop	"sound/weapons/baton/idle.wav"
 	soundOff	"sound/electrostaff/saberoff.wav"
 	saberColor	purple
+	saberLength	30
+ saberLength2 30
+ saberLength3 30
+ saberRadius 3
 	numBlades	3
-	saberLength	55
-	saberLength2	13
-	saberLength3	13
 	throwable	0
 	noDlight	0
 	noBlade				1
@@ -711,7 +713,7 @@ electro_purp_legends
 	singleBladeThrowable	0
 	animSpeedScale 	1.2
 	damageScale		0.75
-knockbackScale 0.03
+ knockbackScale 0.03
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
 	hitPersonEffect 	"electrostaff/hit.efx"
@@ -738,23 +740,22 @@ knockbackScale 0.03
 	soundOn		"s/w/e/spin.mp3"
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"
-	lungeAtkMove LS_A3_SPECIAL
+	lungeAtkMove LS_PURPLE_DFA
 	jumpAtkFwdMove LS_NONE
-	jumpAtkLeftMove LS_NONE
-	jumpAtkRightMove LS_NONE
+	jumpAtkLeftMove LS_A3_SPECIAL
+	jumpAtkRightMove LS_KICK_F
  readyAnim BOTH_SABER_STARKILLER_STANCE
 }
-
 electro1h_purp_legends
 {
 	name		"Double Electrobatons - Purple"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_purp.glm"
-knockbackScale 0.02
+ knockbackScale 0.02
 	saberColor	purple
 	numBlades	2
-	saberLength	14
-	saberLength2	14
+	saberLength	16
+	saberLength2	16
 	noBlade				1
 	trailStyle			1
 	noManualDeactivate		1
@@ -801,7 +802,7 @@ knockbackScale 0.02
 	soundOn		"s/w/e/spin.mp3"
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"
-	animSpeedScale 1.08
+	animSpeedScale 1.1
 	noDismemberment 1
 	noDismemberment2 1
 	jumpAtkFwdMove LS_NONE
@@ -817,10 +818,10 @@ electro1h_orng_legends
 	name		"Double Electrobatons - Orange"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_orange.glm"
-knockbackScale 0.02
+ knockbackScale 0.02
 	numBlades	2
-	saberLength	14
-	saberLength2	14
+	saberLength	16
+	saberLength2	16
 	noBlade				1
 	trailStyle			1
 	noManualDeactivate	1
@@ -867,7 +868,7 @@ knockbackScale 0.02
 	soundOn		"s/w/e/spin.mp3"
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"	
-	animSpeedScale 1.08
+	animSpeedScale 1.1
 	noDismemberment 1
 	noDismemberment2 1
 	jumpAtkFwdMove LS_NONE
@@ -883,10 +884,10 @@ electro1h_blu_legends
 	name		"Double Electrobatons - Blue"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_blue.glm"
-knockbackScale 0.02
+ knockbackScale 0.02
 	numBlades	2
-	saberLength	14
-	saberLength2	14
+	saberLength	16
+	saberLength2	16
 	noBlade				1
 	trailStyle			1
 	noManualDeactivate	1
@@ -933,7 +934,7 @@ knockbackScale 0.02
 	soundOn		"s/w/e/spin.mp3"
 	soundLoop	"s/w/e/hum.mp3"
 	soundOff	"s/w/e/spin.mp3"
-	animSpeedScale 1.08
+	animSpeedScale 1.1
 	noDismemberment 1
 	noDismemberment2 1
 	jumpAtkFwdMove LS_NONE
@@ -949,8 +950,8 @@ riot_baton_p_legends
 	name		"Electrobaton/Riot Shield - Purple"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_purp.glm"
-knockbackScale 0.02
-	saberLength	14
+ knockbackScale 0.02
+	saberLength	16
 	noBlade		1
 	trailStyle	1
 	noManualDeactivate	1
@@ -1012,8 +1013,8 @@ riot_baton_b_legends
 	name		"Electrobaton/Riot Shield - Blue"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_blue.glm"
-knockbackScale 0.02
-	saberLength	14
+ knockbackScale 0.02
+	saberLength	16
 	noBlade				1
 	trailStyle			1
 	noManualDeactivate	1
@@ -1081,8 +1082,8 @@ riot_baton_o_legends
 	name		"Electrobaton/Riot Shield - Orange"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/electrostaff/electroStick_orange.glm"
-knockbackScale 0.02
-	saberLength	14
+ knockbackScale 0.02
+	saberLength	16
 	noBlade				1
 	trailStyle			1
 	noManualDeactivate	1
@@ -1151,10 +1152,10 @@ riot_shield_legends
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/riot_shield/saber_w.glm"
 	soundOn		"s/w/c/draw1.mp3"
-knockbackScale 0.1
+ knockbackScale 0.1
 	soundLoop	none
 	soundOff	none
-	saberLength	14
+	saberLength	16
 	noDlight	1
 	noBlade		1
 	noIdleEffect	1
