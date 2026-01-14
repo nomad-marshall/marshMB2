@@ -34,7 +34,6 @@ ClassInfo
 	flourishAnim		BOTH_TUSKENTAUNT1
 	
 	special1		EAS_NONE
-	special2 	EAS_NONE
 	special2		EAS_HI_DASH
 
 	modelScale   1.10	
