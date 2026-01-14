@@ -50,7 +50,7 @@ WeaponInfo0
 	FlashSound0 		 	"sound/weapons/MWC-35c/alt_fire.mp3"
 	AltFlashSound0	    "sound/weapons/MWC-35c/fire.mp3"
 	customammo			960
-	ClipSize    			240
+	ClipSize    			120
 	FPMult 				0.65
 	rateMod 0.65
 	MissileEffect			"Blaster/Shot01R"

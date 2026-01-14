@@ -16,7 +16,7 @@ ClassInfo
 	
 	maxhealth		135
 	forcepool  125
- forceRegen 0.01
+ forceRegen 0.5
 
  resource RESOURCE_RAGE
  resourceRegenAmount 1
@@ -82,4 +82,5 @@ A Sith that can drain resource pools from others to heal himself, and possesses 
 - Force Block (3)
 - Force Focus (2)
 - Fury (3)
--- Resource Regen: 1/.15s"
+-- Resource Regen: 1/.15s
+-- 50% slower Resource Decay"
