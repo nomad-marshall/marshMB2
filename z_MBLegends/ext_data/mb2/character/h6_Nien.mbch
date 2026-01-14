@@ -41,7 +41,7 @@ ClassInfo
 	
 	holdables		HI_CLOAK|HI_SENTRY_GUN|HI_STIMPACK
 
-	classflags       CFL_SEEING_STEALTH
+	classflags       CFL_SEEING_STEALTH|CFL_NOPICKUPS
 
 	saberStanceAnim	TORSO_SURRENDER_START
 	//flourishAnim BOTH_COWER1

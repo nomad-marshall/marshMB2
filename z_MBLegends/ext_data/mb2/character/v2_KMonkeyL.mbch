@@ -22,6 +22,8 @@ ClassInfo
 
 	baseSpeed 195
 
+classFlags CFL_NOPICKUPS
+
 	rageSoundOverride "sound/chars/salaciouscrumb/misc/rageactivate.mp3"
 	bargeSoundOverride "sound/chars/salaciouscrumb/misc/pain100.mp3"
 

@@ -24,7 +24,7 @@ ClassInfo
 	uishader  		"models/players/kir_kanos/mb2_icon_default"
 	uioverlay 		"gfx/icons/hybrid"		
 	modelscale       1.02
-
+classFlags CFL_NOPICKUPS
 	knockbackTaken 	0.9
 	rateOfFire_Melee 	0.85
 
