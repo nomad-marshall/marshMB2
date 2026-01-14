@@ -37,7 +37,7 @@ Classinfo
 	resourceRegenRate 1
 	resource RESOURCE_STAMINA
 
-	classflags CFL_BLOODYMELEE
+	classflags CFL_BLOODYMELEE|CFL_NOPICKUPS
 	
 	rateOfFire .15
 	rateOfFire_Melee	0.75

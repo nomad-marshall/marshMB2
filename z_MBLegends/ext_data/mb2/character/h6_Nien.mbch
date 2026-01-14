@@ -9,13 +9,13 @@ ClassInfo
 
 	weapons		WP_BLASTER|WP_MELEE|WP_CONC_NADE|WP_FRAG_NADE|WP_DISRUPTOR|WP_SABER|WP_TRIP_MINE|WP_PULSE_NADE
 
-	attributes	MB_ATT_BLASTER,2|MB_ATT_DISRUPTOR,2|MB_ATT_MICRO_GRENADES,3|MB_ATT_FRAGS,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_TRIP_MINES,3|MB_ATT_QUICKTHROW,2|MB_ATT_PULSE_GRENADES,3|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,3|MB_ATT_RECHARGE,2
+	attributes	MB_ATT_BLASTER,2|MB_ATT_DISRUPTOR,2|MB_ATT_MICRO_GRENADES,3|MB_ATT_FRAGS,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_TRIP_MINES,3|MB_ATT_QUICKTHROW,2|MB_ATT_PULSE_GRENADES,3|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_HEALING,2|MB_ATT_DEXTERITY,1|MB_ATT_GETUPS,3|MB_ATT_RECHARGE,3
 	
 	forcepowers FP_SABERTHROW,0
 	
 	resource	RESOURCE_BATTERY
 	forcepool 100
-
+ forceRegen 1.5
 	skilltimermod 0.9
 
 	maxhealth	120
@@ -41,7 +41,7 @@ ClassInfo
 	
 	holdables		HI_CLOAK|HI_SENTRY_GUN|HI_STIMPACK
 
-	classflags       CFL_SEEING_STEALTH
+	classflags       CFL_SEEING_STEALTH|CFL_NOPICKUPS
 
 	saberStanceAnim	TORSO_SURRENDER_START
 	//flourishAnim BOTH_COWER1
@@ -143,7 +143,7 @@ A scrappy, evasive class with many explosives, a launching Saber, and gadgets.
 ^2Weaponry:
 - Melee
 - Nien's Wrench/Magna-Glove (Yellow Saber)
--- No Saber/Blaster Defense
+-- No Saber/Blaster Block
 -- Chain Limit: 2
 -- 125% more KB
 -- 50% less DMG
@@ -156,8 +156,8 @@ A scrappy, evasive class with many explosives, a launching Saber, and gadgets.
 -- 20% faster RoF
 -- 20% less DMG
 - Pulse Cannon (Disruptor 2)
--- 25% more DMG
 -- 25% faster RoF
+-- 25% more DMG
 -- 10% faster reload
 - Frag Grenades (3)
 - Trip Mines (3)
@@ -174,6 +174,7 @@ A scrappy, evasive class with many explosives, a launching Saber, and gadgets.
 - 10% faster skill CD
 - Getup (3)
 - Dexterity (1)
+- Battery Recharge (3)
 - Blast Armor
 - Healing (2)
 - Huehuehue (Sense Immunity)

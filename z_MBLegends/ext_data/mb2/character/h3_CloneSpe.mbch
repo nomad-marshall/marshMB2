@@ -6,14 +6,14 @@ extralives 1
 WP_EE4Flags HELD_ALTRELOAD
 WP_ShotgunFlags HELD_ALTRELOAD
 WP_StunBatonFlags HELD_FLAME
-attributes MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_ASSEMBLE,1
+attributes MB_ATT_AMMO,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_ASSEMBLE,1
 Forcepool 110
 knockbacktaken .88
 maxhealth 110
 maxarmor 80
 RankArmor 110
 RankDmgGiven 1.2
-speed 1.01
+basespeed 189
 classflags CFL_STRONGAGAINSTPHYSICAL
 holdables HI_MEDPAC
 special3 EAS_HI_MEDPAC
@@ -126,12 +126,14 @@ c_att_skill_35 MB_ATT_SHOTGUN
 c_att_names_35 "DP-23 Shotgun"
 c_att_ranks_35 10,8,4
 c_att_descs_35 "25% faster RoF, 35% less DMG, 20% slower mag reload, Prim only"
-c_att_skill_36 MB_ATT_DET_PACK
-c_att_names_36 "Det Packs"
-c_att_ranks_36 1,1,1
-c_att_skill_37 MB_ATT_HEALING
-c_att_names_37 "Healing"
-c_att_ranks_37 2,2
+c_att_names_36 MB_ATT_FIRE_GRENADES
+c_att_ranks_36 0
+c_att_skill_37 MB_ATT_DET_PACK
+c_att_names_37 "Det Packs"
+c_att_ranks_37 1,1,1
+c_att_skill_38 MB_ATT_HEALING
+c_att_names_38 "Healing"
+c_att_ranks_38 2,2
 }
 WeaponInfo0{
 WeaponToReplace WP_MINIGUN
@@ -263,7 +265,6 @@ Clones with niche expertise.
 ^2Weaponry:
 - Melee
 - DC-17 Clone Pistol (2)
-- Fire Grenade (1)
 
 ^6Inventory:
 - Medpac ^3[CS3]
@@ -278,4 +279,4 @@ Clones with niche expertise.
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Grappling Hook (2) ^3[CS4 M]"
+- Grappling Hook (2) ^3[CS4 Melee]"

@@ -24,8 +24,8 @@ ClassInfo
  forcepowers  	FP_SEE,1
 	hackRate 0.86
 	
-	WP_T21Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD	
-	WP_EE4Flags		HELD_ALTRELOAD
+	WP_T21Flags	HELD_ALTRELOAD	
+	WP_EE4Flags	HELD_DISRUPTIFY|HELD_ALTRELOAD
 	
 	special1			EAS_HI_POISON
 	special2			EAS_HI_FLAME
@@ -58,24 +58,27 @@ ClassInfo
 
 WeaponInfo0
 {
-	WeaponToReplace		WP_T21  			
-	WeaponBasedOff		WP_T21    			
+	WeaponToReplace		WP_EE4
+	WeaponBasedOff		WP_DISRUPTOR		
 
 	NewWorldModel		"models/weapons2/kotor_drifle/kotor_drifle_w.glm"
 	NewViewModel		"models/weapons2/kotor_drifle/kotor_drifle.md3"
 	Icon				"gfx/hud/w_icon_altdisruptor"
 	WeaponName			"Droid Assassin's Rifle"
 
-	altMissileEffect		"Blaster/Shot02Y"
+	MissileEffect		"Blaster/Shot02Y"
 	Missile3Effect 		"Blaster/Shot04Y"
-	MissileEffect 	"Blaster/Shot04Y"
+	AltMissileEffect 	"Blaster/Shot04Y"
 	PowerupShotEffect	"Blaster/Shot04Y"
-	AltFlashSound0			"sound/weapons/kotor/fire_med.wav"
- FlashSound0		"sound/weapons/kotor/fire_power1.wav"
-
-	FPMult				1.15
-	rateMod 0.95
-	customAmmo 700
+	FlashSound0			"sound/weapons/kotor/fire_med.wav"
+	AltFlashSound0		"sound/weapons/kotor/fire_power1.wav"
+ 
+ 	FPMult				1.3
+	clipsize 78
+	reloadTimeModifier 1.25
+	velocityMod 1.25
+	damageMod 1.15
+	rateMod 1.25
 
 	hasAnimOverrides 1
 	animReadyWalk BOTH_WESTARM5_READY
@@ -87,8 +90,8 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace		WP_EE4
-	WeaponBasedOff		WP_EE4
+	WeaponToReplace		WP_T21  			
+	WeaponBasedOff		WP_T21 
 
 	NewWorldModel		"models/weapons2/kotor_reprifle/kotor_reprifle_w.glm"
 	NewViewModel		"models/weapons2/kotor_reprifle/kotor_reprifle.md3"
@@ -96,17 +99,12 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_kotor_reprifle"
 	WeaponName			"Repeating Blaster Rifle"
 
- altMissileEffect "effects/Blaster/Shot12R"
-	Missile3Effect 	"effects/Blaster/Shot12R"
-	AltFlashSound0			"sound/weapons/kotor/fire_power1.wav"
- FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+	FPMult				1.15
+	rateMod 0.95
+	customAmmo 700
 
-	FPMult				1.3
-	clipsize 78
-	reloadTimeModifier 1.25
-	velocityMod 1.25
-	damageMod 1.15
-	rateMod 1.25
+	FlashSound0			"sound/weapons/kotor/fire_power1.wav"
+ FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
 }
 
 ForceInfo0
@@ -124,16 +122,16 @@ A heavily armored long-range assassin, capable of sustained Wrist Flamethrower u
 
 ^2Weaponry:
 - Melee
-- Droid Assassin's Rifle (T-21 3)
+- Droid Assassin's Rifle (EE-4 3)
+-- 5% faster RoF
+-- 15% more FP DMG
+-- Mag reload
+- Repeating Blaster Rifle (T-21 3)
 -- 15% more DMG
 -- 30% more FP DMG
 -- 25% more velocity
 -- 25% slower RoF
 -- 25% slower mag reload
-- Repeating Blaster Rifle (EE-4 3)
--- 5% faster RoF
--- 15% more FP DMG
--- Mag reload
 - Frag Grenades (2)
 - Sonic Detonators (2)
 

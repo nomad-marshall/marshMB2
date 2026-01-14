@@ -12,24 +12,22 @@ ClassInfo
  WP_StunBatonFlags HELD_SPEED
 // WP_MeleeFlags HELD_FREEZE
 
-	maxhealth	 200
+	maxhealth	 250
 
 	classflags		CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE|CFL_NODISMEMBER|CFL_BLOODYMELEE|CFL_NOPICKUPS
 //humanoidSkeleton	1
 	disableGunBash 1
  forcepowers FP_RAGE,3
- forcepool 40
- forceRegen .75
+ forcepool 45
+ forceRegen 0.65
  resource RESOURCE_RAGE
  resourceRegenAmount 3
  resourceRegenRate 1000
- resourceRegenCap 40
+ resourceRegenCap 45
 
 	healthRegenAmount 5
-	healthRegenRate 20000
-	healthRegenCap 200
-
-
+	healthRegenRate 18000
+	healthRegenCap 250
 
 	DamageTaken		0.4
  knockbackTaken 0.2
@@ -150,9 +148,9 @@ A feral animal looking for its next meal. Not a particularly picky eater.
 - No weapon pickups
 - Strength (3)
 - Fury (3)
--- 25% slower Resource Decay
+-- 35% slower Resource Decay
 - Healing (3)
--- Extra Health Regen: 5/20s
+-- Extra Health Regen: 5/18s
 - Flat DMG Taken
 - Blast Armor
 - Physical Resist

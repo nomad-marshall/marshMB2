@@ -10,7 +10,7 @@ ClassInfo
 
 	forcepowers			FP_SEE,2
 
-	classflags			CFL_STATVIEWER
+	classflags			CFL_STATVIEWER|CFL_NOPICKUPS
 
 	resource			RESOURCE_FORCE
 	forcepool			100

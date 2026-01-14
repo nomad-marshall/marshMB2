@@ -103,7 +103,7 @@ ClassInfo
 	
 	c_att_skill_5		MB_ATT_DMG_GIVEN_MULTIPLIER
 	c_att_names_5		"DMG Given (150%)"
-	c_att_ranks_5		4
+	c_att_ranks_5	 2
  c_att_descs_5  "Does not affect Saber"
 
 	c_att_skill_6		MB_ATT_FP_PUSH

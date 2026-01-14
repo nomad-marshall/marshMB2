@@ -24,7 +24,7 @@ ClassInfo
 	uishader  		"models/players/kir_kanos/mb2_icon_default"
 	uioverlay 		"gfx/icons/hybrid"		
 	modelscale       1.02
-
+classFlags CFL_NOPICKUPS
 	knockbackTaken 	0.9
 	rateOfFire_Melee 	0.85
 
@@ -104,8 +104,7 @@ A well-rounded gunner/Saberist who combines martial arts, stealth and explosives
 -- No Blaster Block
 -- Saber DMG: 150
 -- 120% special DMG mult
--- 21/37% less reach
--- 66% more radius
+-- 6% less reach
 -- Slap ^3[GB]
 - Modified Guardsmen Blaster Pistol (3)
 -- 15% more DMG

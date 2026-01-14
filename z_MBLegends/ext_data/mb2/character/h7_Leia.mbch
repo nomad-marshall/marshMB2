@@ -20,7 +20,7 @@ ClassInfo
 
 	holdables		HI_MEDPAC_BIG|HI_MEDPAC
 
-	classflags	CFL_STATVIEWER
+	classflags	CFL_STATVIEWER|CFL_NOPICKUPS
 	
 	special1	EAS_HI_DODGE
 	special2 EAS_HI_KICK
