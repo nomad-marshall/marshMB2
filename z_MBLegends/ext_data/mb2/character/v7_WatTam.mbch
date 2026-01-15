@@ -43,8 +43,8 @@ ClassInfo
 
 	special1 EAS_HI_SEEKER
 	special2 EAS_HI_TRACKER
-	special3 EAS_HI_SHIELD 
-	special4 EAS_HI_MEDPAC_BIG
+	special4 EAS_HI_SHIELD 
+	special3 EAS_HI_MEDPAC_BIG
 
 	model	"wat_tambor"
 	skin		"default"					
@@ -215,8 +215,8 @@ Utilizes experimental tech.
 
 ^6Inventory:
 - Seeker Drone ^3[CS1]
-- Forcefield ^3[CS3]
-- Advanced Medpac ^3[CS4]
+- Forcefield ^3[CS4]
+- Advanced Medpac ^3[CS3]
 - Sentry Drone (Support Beacon)
 - Defense Seeker
 

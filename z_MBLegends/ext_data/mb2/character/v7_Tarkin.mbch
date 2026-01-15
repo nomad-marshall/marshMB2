@@ -38,8 +38,8 @@ ClassInfo
 	
 	special1		EAS_HI_DODGE
 	special2		EAS_HI_BASESEEKER
-	special3		EAS_HI_SHIELD
-	special4 	EAS_HI_MEDPAC_BIG
+	special4		EAS_HI_SHIELD
+	special3 	EAS_HI_MEDPAC_BIG
 	
 	WalkForward BOTH_WALK6
 	WalkBackward BOTH_WALK6
@@ -138,8 +138,8 @@ A support gunner who builds resource through damage to bolster his allies and hi
 ^6Inventory:
 - Defense Seeker ^3[CS2]
 - Imperial Remote (Support Beacon)
-- Forcefield ^3[CS3]
-- Advanced Medpac ^3[CS4]
+- Forcefield ^3[CS4]
+- Advanced Medpac ^3[CS3]
 
 ^8Attributes:
 ^9- ^3*^9Dark's Beacon (Shares Force Powers with ^9a targeted/nearby ally)

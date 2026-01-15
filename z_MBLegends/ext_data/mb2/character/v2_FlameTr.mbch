@@ -26,8 +26,8 @@ Classinfo
 	
 	special1	EAS_HI_DODGE
 	special2 EAS_HI_WRIST
-	special3	EAS_HI_SENTRY_GUN
-	special4 EAS_HI_MEDPAC
+	special4	EAS_HI_SENTRY_GUN
+	special3 EAS_HI_MEDPAC
 
 	holdables HI_MEDPAC|HI_SENTRY_GUN
 
@@ -106,8 +106,8 @@ A 2-life class specializing in incendiary support. Launched Grenades deal bonus 
 -- Prim only
 
 ^6Inventory:
-- Assault Sentry ^3[CS3]
-- Medpac ^3[CS4]
+- Assault Sentry ^3[CS4]
+- Medpac ^3[CS3]
 
 ^8Attributes:
 - Reinforcement (1)
