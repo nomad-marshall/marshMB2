@@ -8,7 +8,7 @@ ClassInfo
 
 	WP_BlasterPistolFlags   HELD_ALTRELOAD
 	
-	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_HEALING,1|MB_ATT_DASH,1|MB_ATT_PISTOL,3|MB_ATT_SPY_DISGUISE,2|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,3|MB_ATT_TRACKING_DART,2|MB_ATT_TRACKING_BEACON|MB_ATT_FLIPKICK,1|MB_ATT_DET_PACK,3
+	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_HEALING,1|MB_ATT_DASH,1|MB_ATT_PISTOL,3|MB_ATT_SPY_DISGUISE,2|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,3|MB_ATT_TRACKING_DART,2|MB_ATT_TRACKING_BEACON|MB_ATT_FLIPKICK,1|MB_ATT_DET_PACK,3|MB_ATT_GUN_DEFENSE,1
 	
 	forcepowers		FP_SABER_OFFENSE,3
 
@@ -101,7 +101,7 @@ A well-rounded gunner/Saberist who combines martial arts, stealth and explosives
 -- 15% faster RoF
 - ISP Double-Vibroblade D (Staff/Purple/Cyan Saber)
 -- Saber Defense (2)
--- No Blaster Block
+-- Blaster Defense (1)
 -- Saber DMG: 150
 -- 120% special DMG mult
 -- 6% less reach
