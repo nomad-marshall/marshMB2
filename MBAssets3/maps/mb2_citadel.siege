@@ -10,18 +10,14 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Rebels have hijacked the Data Vault and are uploading to their fleet. Disable the three layers of security to the vault and then destroy/erase the data by any means.
-
-Deploy the Garrison!"
+        text "Obj: Defend the capture points, do not let the rebel infiltrators into the Vault!"
         
         rect "410 147 220 55"
         scale 0.125
     }
     desc2
     {   
-        text "Without the Project Stardust plans the Alliance is doomed. Protect the Data Vault doors from being opened and keep the data cores intact until our data upload to the fleet finishes!
-		
-For Jedha!"
+        text "Obj: Capture 2 points and then get into the vault! There is a security panel which opens up the blue doors."
         
         rect "410 258 220 55"
         scale 0.125
@@ -183,7 +179,7 @@ HelpIcons
 		end0        "unlock_side_icon"
 		end1		"midaccess_imp_lowpop"
 		end2        "zonescaptured_2"
-		origin    "52 1080 105" // Hack side doors on high pop
+		origin    "93 1242 89" // Hack side doors on high pop
 		blueicon   HLP_HACK
 		specicon   HLP_HACK
 		radius		1500
@@ -192,7 +188,7 @@ HelpIcons
 
 	HelpIcon12
     {
-		end0        "sidedoor_gen_unlock"z
+		end0        "sidedoor_gen_unlock"
 		end1		"zonescaptured_1"
 		origin    "-180 -2910 98" // Hack side doors on high pop
 		blueicon   HLP_HACK
