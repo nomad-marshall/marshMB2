@@ -17,7 +17,8 @@ ClassInfo
 	APmultiplier   1.5
 	BPmultiplier 	.75
 	
-	maxhealth 725
+ maxhealth 400
+ maxarmor 150
 	Forcepool 115
 	forceregen 0.9
 
