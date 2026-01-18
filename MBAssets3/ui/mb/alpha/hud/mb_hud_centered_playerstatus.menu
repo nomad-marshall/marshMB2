@@ -305,7 +305,7 @@
 		{
 			name				emplacedHealthAmount
 			forecolor			.835 .015 .015 0.8
-			rect				0 44 4 9
+			rect				-3 44 4 9
 			font				6
 			textscale			0.09
 			textalignx			70
@@ -360,7 +360,7 @@
 			name				"ItemCountFrame"
 			forecolor			1 1 1 1
 			background			"gfx/hud/Alpha/HUD_StatusItems"
-			rect				0 -0.5 49 51
+			rect				-2 -0.5 49 51
 			align				5
 			textalignx			-142
 		}
@@ -526,6 +526,37 @@
 			align				5
 			textalignx			-5
 		}
+
+						itemDef{
+			name exability1
+			background "gfx/hud/Alpha/conc_blast"
+			background2 "gfx/hud/Alpha/ion_blast"
+			background3 "gfx/hud/Alpha/HUD_StatusCircle"
+			forecolor 0 0 0 1
+		}
+
+		itemDef{
+			name exability2
+			background "gfx/hud/Alpha/wlaser"
+			background2 "gfx/hud/Alpha/fthrower"
+			background3 "gfx/hud/Alpha/w_icon_pulserocket"
+		}
+
+		itemDef
+		{
+			name				extraability
+			rect				6 -18 20 20
+			align				4
+			textalignx			-84
+		}
+
+				itemDef
+		{
+			name				extraweaponability
+			rect				6 -18 20 20
+			align				4
+			textalignx			-60
+		}
 		
 		// Right HUD tics
 		itemDef
@@ -621,8 +652,8 @@
 		itemDef
 		{
 			name				class1amount
-			rect				0 8 4 9
-			forecolor			0.88 0.81 0.02 1
+			rect				-2.75 8 4 9
+			forecolor			0.8 0.8 0.8 0.8//0.88 0.81 0.02 1
 			font				6
 			textscale			0.1
 			textalignx			-170
@@ -634,8 +665,8 @@
 		itemDef
 		{
 			name				class2amount
-			rect				0 24 4 9
-			forecolor			0.06 0.83 0.32 1
+			rect				-2.75 24 4 9
+			forecolor			0.8 0.8 0.8 0.8//0.06 0.83 0.32 1
 			font				6
 			textscale			0.1
 			textalignx			-170
@@ -654,13 +685,42 @@
 			align				4
 		}
 		
+		itemDef
+		{
+			name				nades1
+			background 	"gfx/menus/Alpha/Icon_Stats_Frag"
+			background2 "gfx/menus/Alpha/Icon_Stats_Conc"
+			background3 "gfx/menus/Alpha/Icon_Stats_Sonic"
+		}
+		itemDef{
+						name				nades2
+			background 	"gfx/menus/Alpha/Icon_Stats_Fire"
+			background3 "gfx/menus/Alpha/Icon_Stats_EMP"
+			background2 "gfx/menus/Alpha/Icon_Stats_PLX"
+		}
+		itemDef{
+			name blobs
+			background 	"gfx/menus/Alpha/Icon_Stats_ConcBlob"
+			background2 "gfx/menus/Alpha/Icon_Stats_IonBlob"
+		}
+		itemDef{
+			name darts
+			background 	"gfx/hud/Alpha/HUD_Icon_PoisonDart"
+			background2 "gfx/hud/Alpha/HUD_Icon_TrackerDart"
+		}
+		itemDef{
+			name mando
+			background 	"gfx/menus/Alpha/Icon_Stats_Rocket"
+			background2 "gfx/hud/alpha/HUD_Icon_WhistlingBird" // whistling birds
+			background3 "gfx/menus/Alpha/Icon_Stats_Wlaser" // wrist laser
+		}
 		// Tracker Dart Icon
 		itemDef
 		{
-			name				icon_trackerdart
-			background			"gfx/hud/Alpha/HUD_Icon_TrackerDart"
-			forecolor			0.88 0.81 0.02 1
-			rect				0 12 9 9
+			name				class1icon
+			forecolor			1 1 1 1//0.88 0.81 0.02 1
+			rect				-2 12.5 9 9
+			background		    "gfx/hud/empty"
 			align				5
 			textalignx			-175
 		}
@@ -668,10 +728,10 @@
 		// Poison Dart Icon
 		itemDef
 		{
-			name				icon_poisondart
-			background			"gfx/hud/Alpha/HUD_Icon_PoisonDart"
-			forecolor			0.06 0.83 0.32 1
-			rect				0 29 9 9
+			name				class2icon
+			forecolor			1 1 1 1//0.06 0.83 0.32 1
+			rect				-2 28.5 9 9
+			background		    "gfx/hud/empty"
 			align				5
 			textalignx			-175
 		}

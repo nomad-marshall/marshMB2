@@ -3,36 +3,39 @@
 ClassInfo
 {
 	name  				"h3_Baze"
-	weapons 			WP_MELEE|WP_EE4|WP_SONIC_NADE|WP_FRAG_NADE|WP_PLX1
-	attributes  		MB_ATT_AMMO,3|MB_ATT_SONIC_DETONATOR,2|MB_ATT_EE4,2|MB_ATT_QUICKTHROW,1|MB_ATT_FRAGS,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_PLX1,1|MB_ATT_SHIELD_RECHARGE,1
-	maxhealth 			100
-	maxarmor  			125
-	resource 			RESOURCE_ENERGY
-	forcepool 			100
-	model 				"Baze"
-	skin  				"default"
-	uishader  			"models/players/baze/mb2_icon_default"
 	MBClass 				MB_CLASS_HERO
 	classNumberLimit  	1
-	rateoffire			1
-	damagegiven			1.05
-	speed       			0.92
-	WP_EE4Flags			HELD_SLOW|HELD_AMMOREGEN
-	WP_PLX1Flags 			HELD_SLOW|HELD_STUN|HELD_KNOCKBACK
-		
-	modelscale    		1.01
+	weapons 			WP_MELEE|WP_EE4|WP_SONIC_NADE|WP_FRAG_NADE|WP_PLX1
 
-	classflags			CFL_STRONGAGAINSTPHYSICAL|
+	WP_EE4Flags			HELD_SLOW|HELD_AMMOREGEN
+	WP_PLX1Flags 	HELD_SLOW|HELD_STUN|HELD_KNOCKBACK
+
+	attributes  		MB_ATT_AMMO,3|MB_ATT_SONIC_DETONATOR,2|MB_ATT_EE4,2|MB_ATT_QUICKTHROW,1|MB_ATT_FRAGS,1|MB_ATT_BESKAR,1|MB_ATT_PLX1,1|MB_ATT_SHIELD_RECHARGE,1
+
+	maxhealth 			140
+	maxarmor  			140
+
+	resource 			RESOURCE_ENERGY
+	forcepool 			100
+
 	skilltimermod 		1.5
-	//special1
+
+ knockbackTaken 0.8
+ knockbackGiven 1.1
+
+	speed       			0.92
+
+	classflags			CFL_STRONGAGAINSTPHYSICAL
+
 	special2 EAS_HI_DASH
 	special3 EAS_HI_QUICKTHROW
-	//respawncustomtime 	50000	
 	
 	uioverlay "gfx/icons/heavy"
-	
-	damageTaken 		0.95
-	
+	model 				"Baze"
+	skin  				"default"
+	uishader  "models/players/baze/mb2_icon_default"
+	modelscale    1.01
+
 	flourishAnim BOTH_THROW1
 }
 
@@ -46,9 +49,9 @@ WeaponInfo0
 	WeaponName  			"MWC-35c 'Staccato Lightning' Repeating Cannon"
 	FlashSound0 		 	"sound/weapons/MWC-35c/alt_fire.mp3"
 	AltFlashSound0	    "sound/weapons/MWC-35c/fire.mp3"
-	customammo			900
-	ClipSize    			240
-	FPMult 				0.75
+	customammo			960
+	ClipSize    			120
+	FPMult 				0.65
 	rateMod 0.65
 	MissileEffect			"Blaster/Shot01R"
 }
@@ -73,7 +76,7 @@ A heavy gunner equipped with a massively powerful Repeating Cannon that regenera
 ^2Weaponry:
 - Melee
 - HH-12 Rocket Launcher (1) (PLX)
--- Staggers/pushes on hit
+-- Staggers/pushes on det
 -- 50% more DMG
 -- 15% slower movement
 - Frag Grenade (1)
@@ -81,15 +84,17 @@ A heavy gunner equipped with a massively powerful Repeating Cannon that regenera
 - MWC-35c 'Staccato Lightning' Repeating Cannon (EE-4 2)
 -- Passive ammo regen
 -- 35% faster RoF
--- 25% less FP DMG
+-- 35% less FP DMG
 -- 15% slower movement
 
 ^8Attributes:
+- 10% more KB given
+- 20% less KB taken
 - 50% slower skill CD
 - Armor Regen (1)
-- Magnetic Plating
+- Beskar (1)
 - Physical Resist
 
 ^3Abilities:
 - Dash (1) ^3[CS2]
-- Quick-Throw (1) ^3[CS3]"
+- Quickthrow (1) ^3[CS3]"

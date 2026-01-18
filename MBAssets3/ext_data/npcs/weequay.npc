@@ -71,8 +71,8 @@ Weequay3
 	playerModel	weequay
 	customSkin	sp
 	customRGBA	random1
-	weapon		WP_BOWCASTER
-	MB_ATT_BOWCASTER 2
+	weapon		WP_TRAD_BOWCASTER
+	MB_ATT_TRAD_BOWCASTER 1
 	surfOff		"head_l_hairback hips_l_packlarge hips_l_packwide hips_r_strap hips_r_packsmall"
 	surfOn		"head_r_hairback hips_l_packsmall hips_l_strap hips_r_packlarge hips_r_packwide"
 	reactions	3
@@ -104,8 +104,8 @@ Weequay4
 	playerModel	weequay
 	customSkin	sp
 	customRGBA	random1
-	weapon		WP_BOWCASTER
-	MB_ATT_BOWCASTER 2
+	weapon		WP_TRAD_BOWCASTER
+	MB_ATT_TRAD_BOWCASTER 1
 	surfOff		"head_l_hairback hips_l_packlarge hips_l_packwide"
 	surfOn		"head_l_hairshoulder hips_r_packlarge hips_r_packwide"
 	reactions	3

@@ -6,8 +6,9 @@ ClassInfo
 	MBClass	MB_CLASS_CLONETROOPER
 	classNumberLimit	1
 	
-	weapons	WP_SABER|WP_MELEE|WP_DC_CARBINE|WP_DISRUPTOR|WP_BLASTER_PISTOL|WP_PULSE_NADE|WP_THERMAL|WP_UGL
-	attributes MB_ATT_DC_CARBINE,1|MB_ATT_AMMO,3|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_DASH,1|MB_ATT_PISTOL,1|MB_ATT_DISRUPTOR,1|MB_ATT_UGL,2|MB_ATT_BASE_TD,2
+	weapons	WP_SABER|WP_MELEE|WP_DC_CARBINE|WP_DISRUPTOR|WP_BLASTER_PISTOL|WP_THERMAL|WP_CONC_NADE
+
+	attributes MB_ATT_DC_CARBINE,1|MB_ATT_AMMO,3|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_DASH,1|MB_ATT_PISTOL,1|MB_ATT_DISRUPTOR,1|MB_ATT_BASE_TD,2|MB_ATT_MICRO_GRENADES,4|MB_ATT_GRAPPLE_HOP
 	
 	DamageTaken	  0.9
 	knockbackTaken  0.8
@@ -21,18 +22,19 @@ ClassInfo
 	saber1 		arc_shiv_legends
 	saberstyle	SS_TAVION
 	APmultiplier	1.15
-	ASmultiplier 	1.2
+	ASmultiplier 	1.25
 	BPmultiplier	0
 	
 	basespeed 203
 	
-	saberDamage 100
-	saberSpecialDamage 2
+	saberDamage 120
+	saberSpecialDamage 1.67
 	saberMaxChain 1
 
 	WP_DCCarbineFlags	HELD_ALTRELOAD	
 	WP_DisruptorFlags HELD_ALTRELOAD
-
+ WP_SaberFlags HELD_STUN
+ skilltimerMod 0.9
 	resource		RESOURCE_STAMINA
 	forcepool	110
 	forceregen 	1.1
@@ -43,9 +45,9 @@ ClassInfo
 	special4	EAS_HI_GRAPPLEHOOK
 	
 	saberStanceAnim	BOTH_STAND9
-	tauntAnim		BOTH_ENGAGETAUNT
-	gloatAnim 		BOTH_VICTORY_FAST
-	flourishAnim 		BOTH_STAND5TOAIM
+	tauntAnim		TORSO_HANDSIGNAL3
+	gloatAnim 	TORSO_HANDSIGNAL4
+	flourishAnim 		TORSO_HANDSIGNAL2
 	meditateAnim 		BOTH_KNOCKDOWN4
 	//WalkBackward BOTH_WALK_DUAL
 	//WalkForward BOTH_WALK_DUAL
@@ -70,16 +72,18 @@ ClassInfo
 	uishader_3	"models/players/clonerc2/mb2_icon_scorch"
 	
 isCustomBuild	1
-mbPoints	4
+mbPoints	2
+
 c_att_skill_0 MB_ATT_PULSE_GRENADES
 c_att_names_0	"Pulse Grenades"
-c_att_ranks_0	1,1
+c_att_ranks_0	1,0
 c_att_skill_1	MB_ATT_SONIC_DETONATOR
 c_att_names_1	"Sonic Detonators"
-c_att_ranks_1	1,1
-c_att_skill_2	MB_ATT_MICRO_GRENADES
-c_att_names_2	"Concussion Grenades (4)"
-c_att_ranks_2	4
+c_att_ranks_1	1,0
+
+c_att_skill_2	MB_ATT_UGL
+c_att_names_2	"DC-17m Anti-Armor (UGL)"
+c_att_ranks_2	2,0
 c_att_descs_2 "50% less DMG"
 }
 
@@ -96,14 +100,7 @@ WeaponInfo0
 	AltFlashSound0 		"sound/weapons/dc17m/fire.wav"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"blaster/Shot01B"
-	
-	Icon				"gfx/hud/w_icon_dc-17mB"
-	WeaponName			"DC-17m ICWS Blaster Attachment"
-	customAmmo 			1260
-	clipSize			120
-	ReloadTimeModifier 	1.25
-	altFireEnabled			0
-	hasAnimOverrides 1
+		hasAnimOverrides 1
 	animReady		TORSO_WEAPONIDLE3
 	animReadyRun		TORSO_WEAPONIDLE3
 	animReadyWalk		TORSO_WEAPONREADY3
@@ -112,6 +109,12 @@ WeaponInfo0
 	animAttackRun     BOTH_ATTACK3
 	animAttackWalk  BOTH_ATTACK3
 	animStand 		BOTH_STAND1
+	Icon				"gfx/hud/w_icon_dc-17mB"
+	WeaponName			"DC-17m ICWS Blaster Attachment"
+	customAmmo 			1260
+	clipSize			120
+	ReloadTimeModifier 	1.25
+	altFireEnabled			0
 	rateMod 0.6
 	selectSound "sound/weapons/dc17m/select.mp3"
 }
@@ -165,7 +168,7 @@ WeaponInfo3
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	clipSize			15
 	ReloadTimeModifier 	2
-	customammo 			435
+	customammo 			500
 	rateMod 0.6
 }
 
@@ -180,23 +183,10 @@ altFlashSound0 "sound/weapons/dc17m/alt_fire.wav"
 Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
+damageMod 0.5
 }
 
 WeaponInfo5
-{
-WeaponToReplace WP_CONC_NADE
-WeaponBasedOff WP_CONC_NADE
-NewWorldModel	"models/weapons2/v-59_concussion/v-59_conc_w.glm"
-NewViewModel	"models/weapons2/v-59_concussion/v-59_conc.md3"
-MissileModel 	"models/weapons2/v-59_concussion/v-59_conc_proj.md3"
-NewHandsModel	"models/weapons2/v-59_concussion/v-59_conc_hand.md3"
-Icon	"gfx/hud/w_icon_V-59_conc"
-WeaponName	"Concussion Grenades"
-customAmmo 4
-damageMod .5
-}
-
-WeaponInfo6
 {
 	WeaponToReplace	WP_THERMAL
 	WeaponBasedOff	WP_THERMAL
@@ -222,12 +212,12 @@ A highly adaptable special ops unit.
 - Knuckle Plate Vibroblade (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
--- 105% more KB
--- 20% less DMG
--- 66% more special DMG
+-- Staggers on hit
+-- 75% more KB
+-- 67% special DMG mult
 -- 57% less reach
 -- 33% more radius
--- Prim. only
+-- Prim only
 -- Slap ^3[GB]
 - DC-15s Side Arm Blaster (Pistol 1)
 -- 40% faster RoF
@@ -241,9 +231,10 @@ A highly adaptable special ops unit.
 -- 75% slower mag reload
 - Hand Thermal Grenades (2)
 -- 150% more DMG
-- DC-17m ICWS Anti-Armor Attachment (UGL 2)
+- Conc Grenades (4)
 
 ^8Attributes:
+- 10% faster skill CD
 - 20% less KB taken
 - Health/Armor Regen: 2/s
 - Stamina (3)
@@ -254,4 +245,5 @@ A highly adaptable special ops unit.
 - Sprint ^3[CS1]
 - Dex Roll ^3[CS2]
 - Dash (1) ^3[CS3]
-- Grappling Hook (2) ^3[CS4 Melee]"
+- Grappling Hook/Hop (2) ^3[CS4 Melee]
+-- Retain momentum from first Grapple"

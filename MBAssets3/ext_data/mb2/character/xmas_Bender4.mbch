@@ -33,9 +33,9 @@ ForceInfo0
 	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
-description	"Robot #4
+description	"Robot #4 [Elite Trooper]
 
-Class: Elite Trooper
+
 
 Weaponry:
 Melee

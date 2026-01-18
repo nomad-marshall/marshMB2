@@ -155,7 +155,7 @@ ClassInfo
 
 	c_att_skill_11	MB_ATT_CORTOSIS
 	c_att_names_11	"Cortosis"
-	c_att_ranks_11	10,30
+	c_att_ranks_11	10
 
 	c_att_skill_12	MB_ATT_RADAR
 	c_att_names_12	"Adv. Radar (LPM Sense)"
@@ -194,8 +194,8 @@ A slow moving battle droid that must strike a balance between firepower, protect
 - Melee
 - Arm Blaster (0)
 -- Low Power Mode ^3[CS1]
--- Advanced Targeting ^3[Sec. fire]
--- Slap ^3[Gunbash]
+-- Advanced Targeting ^3[Sec fire]
+-- Slap ^3[GB]
 
 ^8Attributes:
 - 15% less KB taken

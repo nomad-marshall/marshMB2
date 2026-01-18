@@ -4,30 +4,30 @@ ClassInfo
 {
 	name				"h7_Hera"
 	weapons				WP_MELEE|WP_PULSE_NADE|WP_FRAG_NADE|WP_CLONE_PISTOL
-	attributes			MB_ATT_DISP_ARMOR,2|MB_ATT_PULSE_GRENADES,3|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_HEALING,3|MB_ATT_AMMO,3|MB_ATT_QUICKTHROW,1|MB_ATT_FRAGS,1|MB_ATT_RALLY,1|MB_ATT_USE_DISTANCE,1|MB_ATT_CLONE_PISTOL,2
-	maxhealth			165
-	maxarmor			85
+	attributes			MB_ATT_DISP_ARMOR,2|MB_ATT_PULSE_GRENADES,3|MB_ATT_DEXTERITY,3|MB_ATT_DODGE,3|MB_ATT_HEALING,2|MB_ATT_AMMO,3|MB_ATT_QUICKTHROW,1|MB_ATT_FRAGS,1|MB_ATT_RALLY,1|MB_ATT_USE_DISTANCE,1|MB_ATT_CLONE_PISTOL,2
+	maxhealth			170
+	maxarmor			90
 	model				"hera"
 	skin				"default"
 	uishader			"models/players/hera/MB2_Icon_Default"
 	MBClass				MB_CLASS_HERO
 	classNumberLimit	1
-	holdables 		  	HI_SHIELD|HI_EWEB|HI_SEEKER
-	speed              	1.05
+	holdables 		  	HI_SHIELD|HI_EWEB|HI_SEEKER //BASE?
+baseSpeed 260
 	modelscale         	0.99
-	rateOfFire         	0.9
-rateOfFire_Melee 0.9
+	rateOfFire         	0.9 //
+ rateOfFire_Melee 0.9
 	forceregen			1.25
 	forcepool			100
 	classflags			CFL_STATVIEWER
 	RESOURCE			RESOURCE_ENERGY
 		
-	//respawncustomtime  	50000
+//WP_BlasterFlags HELD_KNOCKBACK
 	
 	special1		EAS_HI_DODGE
 	special2		EAS_HI_DEX
 	special3		EAS_HI_QUICKTHROW
-	special4		EAS_HI_SEEKER
+	special4		EAS_HI_SHIELD
 	
 	uioverlay_r 	"gfx/icons/tactician"
 	uioverlay_l "gfx/2d/hud/hlp_defend"
@@ -70,7 +70,7 @@ WeaponInfo0
 
 description	"Hera Syndulla [Hero]
 
-A dexterous and speedy commander with Quick-Throw grenades and portable defensive utilities. Can repair her teammates' Armor.
+A dexterous and speedy commander with Quickthrow grenades and portable defensive utilities. Can repair her teammates' Armor.
 
 ^2Weaponry:
 - Melee
@@ -83,13 +83,13 @@ A dexterous and speedy commander with Quick-Throw grenades and portable defensiv
 - Pulse Grenades (3)
 
 ^6Inventory:
-- Seeker Drone ^3[CS4]
-- Forcefield
+- Seeker Drone
+- Forcefield ^3[CS4]
 - Portable E-Web Cannon
 
 ^8Attributes:
 - Dexterity (3)
-- Healing (3)
+- Healing (2)
 - Rally 
 - Ally Stat Viewer
 
@@ -98,4 +98,4 @@ A dexterous and speedy commander with Quick-Throw grenades and portable defensiv
 -- +1 range
 - Dodge (3) ^3[CS1]
 - Dex Roll ^3[CS2]
-- Quick-Throw (1) ^3[CS3]"
+- Quickthrow (1) ^3[CS3]"

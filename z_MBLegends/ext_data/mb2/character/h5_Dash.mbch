@@ -48,7 +48,7 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_blaster_pistol_2"
 	WeaponName			"Dash's DL-44 Blaster Pistol"    					
 	clipSize 			18
-	customAmmo 702
+	customAmmo 720
 	MissileEffect		"blaster/dash_bolt"
 	AltMissileEffect		"blaster/dash_bolt"
 	MuzzleEffect null
@@ -102,7 +102,6 @@ A highly mobile Jetpacker with regenerating Fuel and a rapid-fire, low damage Pi
 -- Staggers/pushes on hit
 -- 15% more velocity
 -- 50% slower mag reload
--- Homing Rockets ^3[Hold Sec. ^3fire]
 - Frag Grenades (3)
 
 ^8Attributes:

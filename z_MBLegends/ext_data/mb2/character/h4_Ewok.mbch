@@ -28,13 +28,12 @@ ClassInfo
 	saberSpecialDamage 2
 	//WP_FlechetteFlags 	HELD_FLAME|HELD_EXPLOSIVE
 	WP_T21Flags			HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_KNOCKBACK|HELD_STUN
-	WP_RepeaterFlags		HELD_KNOCKBACK|HELD_KNOCKDOWN|HELD_ALTRELOAD
+	WP_RepeaterFlags		HELD_KNOCKBACK|HELD_ALTRELOAD
 
 	classFlags 			CFL_BLOODYMELEE
 
 	special1 EAS_HI_DODGE
-	special2 EAS_MELEE
-	special3 EAS_HI_DASH
+	special2 EAS_HI_DASH
 	
 	gloatanim	 	BOTH_VICTORY_FAST
 	tauntAnim		BOTH_ENGAGETAUNT
@@ -183,14 +182,14 @@ description "Ewok [Hero]
 - Ewok Spear (Staff/Yellow Saber)
 -- No Saber/Blaster Block
 -- 61/58% less DMG
--- 23/16% less special DMG
+-- 200% special DMG mult
 -- 37/50% less reach
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Stones (6) (Repeater)
--- Pushes/knocks down on direct hit
+-- Pushes on hit/knocks down on direct hit
 -- 80% slower mag reload
--- Sec. only
+-- Sec only
 - Bow and Arrows (T-21 1)
 -- Pushes/staggers on hit
 -- 15% faster RoF
@@ -206,4 +205,4 @@ description "Ewok [Hero]
 
 ^3Abilities:
 - Dodge (3) ^3[CS1]
-- Dash (2) ^3[CS3]"
+- Dash (2) ^3[CS2]"

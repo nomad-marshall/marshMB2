@@ -7,21 +7,22 @@ ClassInfo
 	classNumberLimit		1
 	weapons 	WP_A280|WP_MELEE|WP_SABER
 	
-	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_BESKAR,2|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,2
+	attributes  MB_ATT_A280,2|MB_ATT_WOOKIE_HEALTH,3|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_BESKAR,3|MB_ATT_ANTI_MT,2|MB_ATT_WOOKIEE_FURY,3|MB_ATT_RECHARGE,2
 	armourRegenCap 100
 	armourRegenAmount	1
 	armourRegenRate		1500
-	maxhealth   		200
-	maxarmor   	 	300
+	maxhealth   		210
+	maxarmor   	 	200
 	basespeed 		185
-	resource 		RESOURCE_RAGE
-	forcepool		60
+	resource 		RESOURCE_BATTERY
+	forcepool		80
 	forceregen 		1
 	
 	forcepowers FP_RAGE,3
 	
 	special1 EAS_FP_RAGE
 	special2 EAS_NONE
+ //special3 EAS_HI_RECHARGE
 
 	meleeknockback_flat 150
 
@@ -30,23 +31,20 @@ ClassInfo
 	bargeSoundOverride 		"sound/chars/k2so/misc/death2.mp3"
 	
 	DamageGiven         	1.15
-	damageTaken			0.8
-	
-	rateOfFire          	1
-	rateoffire_melee		1.25
+	//damageTaken			0.8
 	
 	knockbackGiven 1.1
 	knockbackTaken 0.5
 	
 	saber1 				k2melee_legends
 	saberstyle			SS_TAVION
-	saberDamage 105 //120
+	saberDamage 120
 	saberSpecialDamage 2
 	saberMaxChain 1
 	APmultiplier		1.5
 	ASmultiplier 		0.8
 	BPmultiplier 0
-	WP_MeleeFlags HELD_SLOW
+	WP_MeleeFlags HELD_SLOW|HELD_HIGHDAMAGE
 	WP_SaberFlags HELD_STUN|HELD_KNOCKDOWN
 	WP_A280Flags HELD_ALTRELOAD
 	
@@ -65,7 +63,7 @@ ClassInfo
 	uishader  "models/players/k2so/mb2_icon_default"
 	uioverlay "gfx/icons/brawler"
 
-	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_RLKICK
 }
 
 WeaponInfo0
@@ -90,7 +88,7 @@ WeaponInfo0
 	animStand BOTH_MAND_PISTOL_READY
 	clipsize 20
 	rateMod 1.45
-	FPmult 1.1
+	FPmult 1.15
 }
 
 WeaponInfo1
@@ -110,23 +108,23 @@ description	"K-2SO [Wookiee]
 An exceptionally sturdy tank with protection against multiple Force powers and damage types. Deals massive knockback.
 
 ^2Weaponry:
-- Melee
+- Limited Melee
 -- Flat KB: 150
--- 25% slower RoF
+-- 100% more DMG
 -- 15% slower movement
+-- Grab/slap only
 - Droid Spankers (Cyan Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers/knocks down on hit
 -- 165% more KB
 -- 5% faster movement
--- 100% more special DMG
--- 12% less DMG
+-- 200% special DMG mult
 -- 35% less reach
 -- 300% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - SE-14r Light Repeating Blaster (A280 2)
--- 10% more FP DMG
+-- 15% more FP DMG
 -- 45% slower RoF
 -- Mag reload
 
@@ -137,10 +135,9 @@ An exceptionally sturdy tank with protection against multiple Force powers and d
 - Armor Regen: 1/1.5s to 100
 - 10% more KB given
 - 50% less KB taken
-- Fury (2)
+- Fury (3)
 - Strength (3)
-- Beskar (2)
-- Cortosis (1)
+- Beskar (3)
 - Blast Armor
 - Physical Resist
 - Sense Immunity

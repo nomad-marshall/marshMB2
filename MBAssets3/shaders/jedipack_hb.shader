@@ -1,3 +1,34 @@
+// Head
+
+models/players/jedipack_hb/head_twilek
+{
+	{
+		map models/players/jedipack_hb/head_twilek
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/jedipack_hb/head_zhar-spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+		detail
+	}
+}
+
+models/players/jedipack_hb/head_zhar
+{
+	{
+		map models/players/jedipack_hb/head_zhar
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/jedipack_hb/head_zhar-spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+		detail
+	}
+}
+
+
 // Boots
 
 models/players/jedipack_hb/boots_exile
@@ -127,9 +158,23 @@ models/players/jedipack_hb/boots_zabrak
 	}
 }
 
+models/players/jedipack_hb/boots_zhar
+{
+	{
+		map models/players/jedipack_hb/boots_zhar
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/obiwan_ep3/boots_spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+		detail
+	}
+}
+
 models/players/jedipack_hb/hips_jedi2_rgb
 {
-	cull	twosided
+	cull	disable
 	{
 		map models/players/jedipack_hb/hips_jedi2_rgb
 		blendFunc GL_ONE GL_ZERO
@@ -144,7 +189,7 @@ models/players/jedipack_hb/hips_jedi2_rgb
 
 models/players/jedipack_hb/torso_jedi2_rgb
 {
-	cull	twosided
+	cull	disable
 	{
 		map models/players/jedipack_hb/torso_jedi2_rgb
 		blendFunc GL_ONE GL_ZERO

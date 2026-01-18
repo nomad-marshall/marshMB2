@@ -33,9 +33,8 @@ WeaponInfo0
 	WeaponName			"SE-14c Blaster Pistol"
 }
 
-description "Imperial Stormtrooper Medic
+description "Imperial Stormtrooper Medic [Hero]
 
-Class: Hero
 
 Weapons:
 SE-14c Blaster Pistol (3)

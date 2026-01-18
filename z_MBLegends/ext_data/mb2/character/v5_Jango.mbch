@@ -7,18 +7,20 @@ ClassInfo
 	classNumberLimit	1
 	weapons		WP_MANDO_PISTOL|WP_PROJ|WP_FRAG_NADE
 	
-	attributes	MB_ATT_BESKAR,2|MB_ATT_POISON_DART,3|MB_ATT_QUICKTHROW,1|MB_ATT_HEALING,2|MB_ATT_FRAGS,1|MB_ATT_WRISTLASER|MB_ATT_MANDO_PISTOL,3|MB_ATT_FLAMETHROWER,1|MB_ATT_FUEL,3|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_TRACKING_BEACON
+	attributes	MB_ATT_BESKAR,3|MB_ATT_POISON_DART,3|MB_ATT_QUICKTHROW,1|MB_ATT_HEALING,2|MB_ATT_FRAGS,1|MB_ATT_WRISTLASER|MB_ATT_MANDO_PISTOL,3|MB_ATT_FLAMETHROWER,1|MB_ATT_FUEL,3|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_TRACKING_BEACON
+
 	basespeed   234
-	maxhealth	130
+	maxhealth	125
 	maxarmor		125
+
 	forcepool 	120
 	resource		RESOURCE_FUEL
 
 	rateoffire	0.90
-	damageTaken		0.9
-
+ damageGiven 1.1
 	knockbackTaken 0.9
 	knockbackGiven 1.1
+
 	special1			EAS_HI_ROCKET
 	special2			EAS_HI_FLAME
 	special3			EAS_HI_QUICKTHROW
@@ -74,8 +76,9 @@ A Jetpack user with Dual Pistols, a powerful hitscan Sniper Rifle, damage resist
 -- Hitscan rounds
 
 ^8Attributes:
-- 10% more/less KB given/taken
-- Beskar (2)
+- 10% more KB given
+- 10% less KB taken
+- Beskar (3)
 - Blast Armor
 - Healing (2)
 - Tracking Beacon
@@ -85,6 +88,6 @@ A Jetpack user with Dual Pistols, a powerful hitscan Sniper Rifle, damage resist
 - Rocket ^3[CS1]
 - Wrist Flamethrower ^3[CS2*]
 - Wrist Laser ^3[CS2*]
-- Quick-Throw (1) ^3[CS3]
+- Quickthrow (1) ^3[CS3]
 - Poison Darts (3) ^3[CS4 Melee]
 ^3*[Toggle Melee]"

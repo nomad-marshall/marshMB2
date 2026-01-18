@@ -15,7 +15,7 @@ ClassInfo
 	extralives		1
 	
 	special1	EAS_HI_SPRINT
-	special2	EAS_MELEE
+	special2	EAS_NONE
 	special3	EAS_HI_DODGE
 	special4 EAS_HI_GRAPPLEHOOK
 	
@@ -110,14 +110,6 @@ ClassInfo
 	model_13		"human_merc"
 	skin_13 		"default"
 	uishader_13 	"models/players/human_merc/mb2_icon_default"
-
-	model_14		"rodian"
-	skin_14 		"xmas"
-	uishader_14 	"models/players/rodian/mb2_icon_xmas"
-
-	model_15		"chiss"
-	skin_15 		"elf"
-	uishader_15 	"models/players/chiss/mb2_icon_elf"
 	
 	isCustomBuild		1
 	mbPoints			50
@@ -152,8 +144,8 @@ ClassInfo
 
 	c_att_skill_7	MB_ATT_FRAGS
 	c_att_names_7	"Cheap Frag Grenades"
-	c_att_ranks_7	2,2,2
-	c_att_descs_7 "50% less DMG, Prim. only"
+	c_att_ranks_7	2,2
+	c_att_descs_7 "50% less DMG, Prim only"
 	c_att_skill_8	MB_ATT_TRIP_MINES
 	c_att_names_8	"Trip Mines"
 	c_att_ranks_8	2,2,2
@@ -242,11 +234,13 @@ A multi-life hybrid brawler that can spec into Sabering upgrades, melee, explosi
 -- Poisons on hit
 -- 45% less DMG
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 > BD-1 Cutter Vibroaxe
+-- 20% more KB
 -- 10% less reach
 > BD-1 Cutter Short Vibroaxe
--- 15% faster AS
+-- 15% more KB
+-- 15% more AS
 -- 40% less reach
 - Two-shot Bowcaster (1)
 -- 100% more DMG

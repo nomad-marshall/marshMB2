@@ -3,25 +3,31 @@
 Classinfo
 {
 	name				"h9_JSage"
+	MBclass				MB_CLASS_JEDI
+	classNumberLimit	1
+
 	weapons				WP_SABER|WP_MELEE
+
 	attributes			MB_ATT_FORCEBLOCK,3|MB_ATT_DEFLECT,0|MB_ATT_FORCEFOCUS,2|MB_ATT_INAIR_FORCE_REGEN|MB_ATT_GUN_DEFENSE,1|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_FLIPKICK,1|MB_ATT_BUNNY_HOP,1|MB_ATT_DEXTERITY,3
+
+	forcepowers			FP_SABER_OFFENSE,3|FP_PUSH,2|FP_PULL,3|FP_SEE,3|FP_PROTECT,1|FP_ABSORB,2|FP_SABERTHROW,2|FP_SPEED,3
 
 	APmultiplier		1.35
 	BPmultiplier		0.7
 	CSmultiplier 		1.2
 	ASmultiplier 		1.2
-	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,2|FP_PULL,3|FP_SEE,3|FP_PROTECT,1|FP_ABSORB,2|FP_SABERTHROW,2|FP_SPEED,2
+
 	saberThrowDamage 40
-	speed               1
-	maxhealth			60
+	saberstyle		SS_STRONG
+ saberDamageStyle SS_STRONG,280
+
+	maxhealth			65
 	forcepool			75
 	forceregen			1.45			
-	modelscale 			0.58
-	MBclass				MB_CLASS_JEDI
-	classNumberLimit	1
+
 	//special1	EAS_FP_SABERTHROW game chooses spec1 if not defined, leave as is
-	special2 EAS_MELEE
-	special3 EAS_FP_ABSORB
+	special2 EAS_FP_ABSORB
+	special3 EAS_FP_SPEED
 	special4 EAS_FP_PROTECT
 	
 	classflags CFL_NOPICKUPS|CFL_BPFREEJUMPS
@@ -32,9 +38,10 @@ Classinfo
 	WalkForward 	BOTH_WALK2
 	RunForward BOTH_RUN_STAFF
 	saberStanceAnim BOTH_B1_TR___
-	
+
+	modelscale 			0.58
 	uioverlay "gfx/icons/frontline"
-	
+
 	model		"t_yoda"
 	skin			"default"
 	uishader		"gfx/hud/FA_icons/mb2_icon_yoda"
@@ -63,10 +70,13 @@ Classinfo
 	
 	//saber1_2 		Cane_Legends
 	//sabercolor_2		4
-	
-	saberstyle		SS_STRONG
-	
-	//respawncustomtime  50000
+
+	isCustomBuild		1
+	mbPoints		0
+
+	c_att_skill_0		MB_ATT_FP_LEVITATION
+	c_att_names_0		"Force Jump"
+	c_att_ranks_0		0,0,0
 }
 
 Description 	"Jedi Sage [Jedi]
@@ -79,20 +89,20 @@ A small and fragile duelist/Force user. Relies on evasive, aggressive movement a
 -- Saber Defense (3)
 --- BP-Free Jumps
 -- Blaster Defense (1)
+-- 46% less DMG
 -- 30% less reach
 -- 26% less radius
 -- EX Saber Throw (2) ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
-- Jump (3)
 - Push (2)
 - Pull (3)
 - Sense (3)
-- Absorb (2) ^3[CS3]
+- Absorb (2) ^3[CS2]
 - Protect (1) ^3[CS4]
-- Speed (2)
+- Speed (3) ^3[CS3]
 
 ^8Attributes:
 - Bunny Hop (1)

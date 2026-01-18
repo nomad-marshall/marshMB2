@@ -6,9 +6,9 @@ ClassInfo
 	
 	MBClass		MB_CLASS_ARCTROOPER
 	classNumberLimit	1
-	maxhealth	120
-	maxarmor		120
-	damageTaken 0.9
+	maxhealth	125
+	maxarmor		125
+
 	speed		1.05
 	modelscale   1.03
 	rateOfFire   0.90
@@ -64,6 +64,12 @@ WeaponInfo0
 	AltMissileEffect	"Blaster/Shot04r"
 	PowerupShotEffect	"Blaster/Shot04r"
 	ChargeEffect		"gfx/effects/bryarfrontflash"
+ MissileMissEffect "Blaster/Impact_Wall01R.efx"
+ MissileHitHumanEffect "Blaster/Impact_Wall01R.efx"
+ MissileHitDroidEffect "Blaster/Impact_Wall01R.efx"
+ altMissileMissEffect "Blaster/Impact_Wall01R.efx"
+ altMissileHitHumanEffect "Blaster/Impact_Wall01R.efx"
+ altMissileHitDroidEffect "Blaster/Impact_Wall01R.efx"
 	WeaponName	"Dual LL-30 Blaster Pistols"
 	customAmmo	825
 	//clipsize	100
@@ -86,7 +92,7 @@ WeaponInfo1
 
 description	"Cad Bane [ARC Trooper]
 
-A Jetboots-equipped, dexterous dual pistoleer with Quick-Throw Stun Grenades.
+A Jetboots-equipped, dexterous dual pistoleer with Quickthrow Stun Grenades.
 
 ^2Weaponry:
 - Melee
@@ -94,7 +100,7 @@ A Jetboots-equipped, dexterous dual pistoleer with Quick-Throw Stun Grenades.
 - Dual LL-30 Blaster Pistols (Clone Pistols 3)
 -- 5% more velocity
 - Stun Grenades (3) (Frags)
--- Sec. only
+-- Sec only
 -- Detonates upon any contact
 -- Fully cooked nades are auto-thrown
 -- Cooking does not affect det. timer
@@ -111,4 +117,4 @@ A Jetboots-equipped, dexterous dual pistoleer with Quick-Throw Stun Grenades.
 - Sprint ^3[CS1]
 - Dex Roll ^3[CS2]
 - Dodge (3) ^3[CS3]
-- Quick-Throw (3) ^3[CS4]"
+- Quickthrow (3) ^3[CS4]"

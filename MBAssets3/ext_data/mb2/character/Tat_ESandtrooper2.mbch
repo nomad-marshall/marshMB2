@@ -40,9 +40,9 @@ WeaponInfo0
 	altMuzzleEffect  "Blaster/MuzzleFlash01R"
 }
 
-description	"Imperial Sandtrooper (DLT-19)
+description	"Imperial Sandtrooper (DLT-19) [Commander]
 
-Class: Commander
+
 
 Weaponry:
 - Pistol (2)

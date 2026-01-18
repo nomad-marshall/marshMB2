@@ -4,30 +4,34 @@ ClassInfo
 {
 	name 			"h4_Finn"
 	MBClass			MB_CLASS_ARCTROOPER
+	classNumberLimit	1
 	weapons 		WP_FRAG_NADE|WP_MELEE|WP_SABER|WP_M5|WP_CLONE_PISTOL
-	attributes  	MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FRAGS,3|MB_ATT_HEALING,3|MB_ATT_AMMO,3|MB_ATT_ARC_RIFLE_SCOPE,1|MB_ATT_WESTARM5,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_DODGE,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_DEFLECT,0
-	maxhealth 		165
-	maxarmor  		70
-	Speed           1.07
-	APmultiplier	1.25
-	Bpmultiplier    1
-	forcepool       115
+
+	attributes  	MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_FRAGS,3|MB_ATT_HEALING,2|MB_ATT_AMMO,3|MB_ATT_ARC_RIFLE_SCOPE,1|MB_ATT_WESTARM5,2|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,1|MB_ATT_DODGE,3|MB_ATT_CLONE_PISTOL,2|MB_ATT_DEFLECT,0
+
+	maxhealth 		170
+	maxarmor  		90
+
+	Speed 1.07
+
+	forcepool    115
 	forceregen 		1.25
+
 	saber1			saber_finn_legends
 	sabercolor		4
 	saberstyle		SS_MEDIUM|SS_STRONG|SS_DESANN
+ saberDamageStyle SS_STRONG,280|SS_DESANN,280
+	APmultiplier	1.20
+
 	forcepowers		FP_SABER_OFFENSE,1|FP_SEE,1
-	
+
 	special1 EAS_HI_SPRINT
-	special2 EAS_MELEE
-	special3 EAS_HI_DEX
-	special4 EAS_HI_DODGE
+	special2 EAS_HI_DEX
+	
+	special3 EAS_HI_DODGE
 	
 	gloatAnim BOTH_A7_KICK_RL
 	flourishAnim BOTH_PAIN18
-	
-	classNumberLimit	1
-	rateOfFire          0.95
 	
 	model	"finn"
 	skin		"default"
@@ -36,9 +40,6 @@ ClassInfo
 	model_1		"finn"
 	skin_1		"resistance"
 	uishader_1	"models/players/finn/mb2_icon_resistance"
-
-	//respawncustomtime  50000	
-	
 	uioverlay "gfx/icons/hybrid"
 }
 
@@ -52,13 +53,13 @@ WeaponInfo0
 	AltMuzzleEffect "Blaster/MuzzleFlash01B"
 	MissileEffect "Blaster/Shot02B"
 	WeaponName  "EL-16 Blaster Rifle"
-	CustomAmmo 800
-	
 	AltMissileEffect  "Blaster/Shot02B"
 	FlashSound0 "sound/weapons/EL-16/fire.wav"
 	AltFlashSound0  "sound/weapons/EL-16/alt_fire.wav"
 	Icon  "gfx/hud/w_icon_el-16"
 	velocityMod 1.1
+ rateMod .95
+	CustomAmmo 800
 }
 
 WeaponInfo1
@@ -78,11 +79,11 @@ WeaponInfo1
 	FlashSound0 "sound/weapons/Glie-44/fire.wav"
 	AltFlashSound0  "sound/weapons/Glie-44/fire.wav"
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
-	CustomAmmo      525
+	CustomAmmo  525
 	fpmult	1.1
 	damagemod 1.1
 	velocityMod 1.1
-	ratemod 0.95
+	ratemod 0.90
 }
 
 description	"FN-2187 aka 'Finn' [ARC Trooper]
@@ -93,13 +94,15 @@ A high-mobility gunner/saberist that can engage enemies at all ranges.
 - Melee
 - Lightsaber (Yellow/Red/Purple)
 -- Saber/Blaster Defense (1)
--- Slap ^3[CS2]
+-- 46/30% less Red/Purple DMG
+-- Slap ^3[GB]
 - Glie-44 Blaster Pistol (Clone Pistol 2)
 -- 10% more DMG/FP DMG
--- 5% faster RoF
 -- 10% more velocity
+-- 10% faster RoF
 - EL-16 Blaster Rifle (M5 2 + Scope)
 -- 10% more velocity
+-- 5% faster RoF
 - Frag Grenades (3)
 
 ^5Force Powers:
@@ -108,9 +111,9 @@ A high-mobility gunner/saberist that can engage enemies at all ranges.
 ^8Attributes:
 - Stamina (3)
 - Dexterity (1)
-- Healing (3)
+- Healing (2)
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Dex Roll ^3[CS3]
-- Dodge (3) ^3[CS4]"
+- Dex Roll ^3[CS2]
+- Dodge (3) ^3[CS3]"

@@ -33,9 +33,32 @@ models/players/bastila/body
 
 models/players/bastila/head
 {
-	cull	twosided
+	cull	disable
 	{
 		map models/players/bastila/head
+		rgbGen lightingDiffuse
+	}
+}
+
+models/players/bastila/body_sith
+{
+	{
+		map models/players/bastila/body_sith
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/bastila/body_sith_spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+		detail
+	}
+}
+
+models/players/bastila/head_sith
+{
+	cull	disable
+	{
+		map models/players/bastila/head_sith
 		rgbGen lightingDiffuse
 	}
 }
@@ -288,50 +311,8 @@ models/players/hk47/hk51
 	}
 }
 
-//// Jedi Kotor ////
-models/players/jedi_kotor/head_twilek
-{
-	{
-		map models/players/jedi_kotor/head_twilek
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/jedi_kotor/head_zhar-spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
-
-models/players/jedi_kotor/head_zhar
-{
-	{
-		map models/players/jedi_kotor/head_zhar
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/jedi_kotor/head_zhar-spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
 
 //// Kreia ////
-models/players/kreia/belt
-{
-	{
-		map models/players/kreia/belt
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/kreia/belt_spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
-
 models/players/kreia/belt_traya
 {
 	{
@@ -430,7 +411,7 @@ models/players/kreia/head_traya
 	}
 }
 
-models/players/kreia/robe
+models/players/kreia/robe_nocull
 {
 	cull	twosided
 	{
@@ -439,7 +420,7 @@ models/players/kreia/robe
 	}
 }
 
-models/players/kreia/robe_traya
+models/players/kreia/robe_traya_nocull
 {
 	cull	twosided
 	{

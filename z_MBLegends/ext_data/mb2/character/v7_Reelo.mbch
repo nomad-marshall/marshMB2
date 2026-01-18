@@ -25,21 +25,16 @@ ClassInfo
 	skilltimermod 1.5
 	
 	meleeMoves M_UPPERCUT|M_BLOCK|M_FBKICK|M_JUMPKICK|M_KATA|M_KICK|M_LEGSWEEP|M_PUNCH|M_RLKICK
+
 	flourishanim	BOTH_STAND5TOAIM
 	
 	uioverlay_l "gfx/icons/tactician"
 	uioverlay_r "gfx/icons/heavy"
 	uioverlay_c "gfx/icons/scout"
-
 	model 		"reelo"
 	skin  		"default"
 	uishader  	"models/players/reelo/mb2_icon_default"
-
-	model_1 		"reelo"
-	skin_1  		"xmas"
-	uishader_1  	"models/players/reelo/mb2_icon_xmas"
-	modelscale      	1.03
-
+	modelscale 1.03
 }
 
 WeaponInfo0
@@ -53,31 +48,48 @@ WeaponInfo0
 	Icon					"gfx/hud/w_icon_merrsonn"
 	WeaponName				"Overcharged PLX-2M Rocket Launcher"
 	clipSize 				5
-	CustomAmmo 				5
-	ReloadTimeModifier 		2
-	altfireenabled			1
+	CustomAmmo 		5
+	ReloadTimeModifier	2
 	rateMod 0.3
-damageMod 0.6
+ damageMod 0.6
 	MuzzleEffect null
-	MissileMissEffect        "Grenades/EXP_Alt"
-    MissileHitHumanEffect    "Grenades/EXP_Alt"
-    MissileHitDroidEffect    "Grenades/EXP_Alt"
+	MissileMissEffect   "Grenades/EXP_Alt"
+ MissileHitHumanEffect "Grenades/EXP_Alt"
+ MissileHitDroidEffect "Grenades/EXP_Alt"
 	altMuzzleEffect null
-	altMissileMissEffect        "Grenades/EXP_Alt"
-    altMissileHitHumanEffect    "Grenades/EXP_Alt"
-	altMissileHitDroidEffect    "Grenades/EXP_Alt"
+	altMissileMissEffect "Grenades/EXP_Alt"
+ altMissileHitHumanEffect "Grenades/EXP_Alt"
+	altMissileHitDroidEffect "Grenades/EXP_Alt"
+	hasAnimOverrides 1
+	animReady BOTH_WESTARM5_READY
+ animReadyRun BOTH_WESTARM5_READY
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo  BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
+ animStand BOTH_WESTARM5_READY
 }
 
 WeaponInfo1
 {
 	WeaponToReplace		WP_THROWER
-	WeaponBasedOff		WP_CLONE_RIFLE
+	WeaponBasedOff		WP_THROWER
 	NewWorldModel		"models/weapons/CarboniteRifle/model.glm"
 	NewViewModel		"models/weapons/CarboniteRifle/model.md3"
 	Icon			"gfx/hud/w_icon_carboniterifle"
 	WeaponName		"Carbonite Rifle"
 	ReloadTimeModifier 	2
 	clipsize 100
+	hasAnimOverrides 1
+	animReady BOTH_WESTARM5_READY
+ animReadyRun BOTH_WESTARM5_READY
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo  BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
+ animStand BOTH_WESTARM5_READY
 }
 
 WeaponInfo2
@@ -88,12 +100,40 @@ WeaponInfo2
 	NewViewModel	"models/weapons2/blaster_r/blaster.md3"
 	Icon			"gfx/hud/w_icon_E11"
 	WeaponName		"Overcharged E-11 Blaster Rifle" 
-	customAmmo      720
-	clipSize        60
-	altFireEnabled	1
-    primFireEnabled	0
-	firingAnim	    BOTH_ATTACK4
+	customAmmo 720
+	clipSize 60
 	rateMod 0.85
+ primFireEnabled	0
+	hasAnimOverrides 1
+	animReady BOTH_WESTARM5_READY
+ animReadyRun BOTH_WESTARM5_READY
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo  BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
+ animStand BOTH_WESTARM5_READY
+}
+
+WeaponInfo3
+{
+	WeaponToReplace		WP_DISRUPTOR
+	WeaponBasedOff		WP_DISRUPTOR
+	NewWorldModel	"models/weapons2/disruptor/disruptor_w.glm" 	
+	NewViewModel	"models/weapons2/disruptor/disruptor.md3" 	
+ NewHandsModel "models/weapons2/disruptor/disruptor_hand.md3" 	
+ NewBarrelModel  "models/weapons2/disruptor/disruptor_barrel.md3" 	
+	Icon			"gfx/hud/w_icon_disruptor"
+	WeaponName		"Tenloss DXR-6 Disruptor Rifle"
+	hasAnimOverrides 1
+	animReady BOTH_WESTARM5_READY
+ animReadyRun BOTH_WESTARM5_READY
+	animReadyWalk BOTH_WESTARM5_READY
+	animReadyNoAmmo  BOTH_WESTARM5_ATTACK
+	animAttack BOTH_WESTARM5_ATTACK
+	animAttackWalk BOTH_WESTARM5_ATTACK
+	animAttackRun BOTH_WESTARM5_ATTACK
+ animStand BOTH_WESTARM5_READY
 }
 
 description	"Reelo Baruk [Wookiee]
@@ -104,18 +144,17 @@ A criminal kingpin armed to the teeth with various weapons. Cannot be knocked do
 - Melee
 - Overcharged E-11 Blaster Rifle (2)
 -- 15% faster RoF
--- Sec. only
-- Disruptor Rifle (2)
+-- Sec only
+- Tenloss DXR-6 Disruptor Rifle (2)
 - Carbonite Rifle (Icethrower)
 -- Slows/freezes on hit
 -- No DMG
 -- 100% slower mag reload
 - Overcharged PLX-2M Rocket Launcher (10)
--- Pushes on hit
+-- Pushes on det
 -- 70% faster RoF
 -- 40% less DMG
 -- 100% slower mag reload
--- Homing Rockets ^3[Hold Sec. ^3fire]
 - Frag Grenade (1)
 - Trip Mines (2)
 - Pulse Grenades (2)

@@ -37,9 +37,10 @@ ClassInfo
 
  	BPmultiplier  1.1
  	APmultiplier  1
- 	ASmultiplier		1.15
- 	CSmultiplier		1.18
+ 	ASmultiplier		1.10
+ 	CSmultiplier		1.15
 	 saberThrowDamage 90
+ saberDamageStyle SS_FAST,130
 	
  	basespeed    247
 	 rateOfFire_Melee 0.88
@@ -49,7 +50,7 @@ ClassInfo
  flourishAnim	BOTH_ALORA_TAUNT
  //runForward BOTH_SABERSTAFF_RUN
 	//special1 EAS_FP_SABERTHROW
-	special2 EAS_MELEE
+	special2 EAS_FP_SPEED
 	special3 EAS_FP_GRIP
 	special4 EAS_FP_TELEPATHY
 
@@ -73,15 +74,15 @@ A fast Sith who can wield unique Starblades designed for massive throw damage, a
 -- 12% faster RoF
 - Asajj's Lightsabers
 -- Saber/Blaster Defense (2)
--- Saber Deflect (1)
--- Slap ^3[CS2]
-> Dual (Dual/Blue)
--- 8% less DMG
+-- Blaster Deflect (1)
+-- Slap ^3[GB]
+> Double (Dual/Blue)
+-- 8% less/more DMG
 > Staff (Staff/Blue)
--- 8% less DMG
+-- 8% less/more DMG
 > Starblades (Dual)
 -- 25% less reach
--- 10% slower AS
+-- 10% less AS
 -- 55% less DMG
 -- EX Saber Throw (3) ^3[CS1]
 --- 200% more DMG
@@ -93,7 +94,7 @@ A fast Sith who can wield unique Starblades designed for massive throw damage, a
 - Sense (2) 
 - Grip (2) ^3[CS3]
 - Mind Trick (1) ^3[CS4]
-- Speed (3)
+- Speed (3) ^3[CS2]
 
 ^8Attributes:
 - Bunny Hop (1)

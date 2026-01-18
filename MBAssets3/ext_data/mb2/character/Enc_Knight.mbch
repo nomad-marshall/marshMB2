@@ -12,9 +12,9 @@ ClassInfo
 	forcepowers			FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,2|FP_PUSH,2|FP_LEVITATION,2|FP_SEE,1
 	maxhealth			85
 	bpmultiplier		1.1
-	model				"jedi_kotor"
+	model				"jedipack_hb"
 	skin				"jedi1"
-	uishader			"models/players/jedi_kotor/mb2_icon_jedi1"
+	uishader			"models/players/jedipack_hb/mb2_icon_jedi1"
 	MBClass				MB_CLASS_JEDI
 	classnumberlimit	2
 	extralives			2

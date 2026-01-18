@@ -9,12 +9,10 @@ ClassInfo
 	attributes	MB_ATT_THERMALS,1|MB_ATT_MANDO_PISTOL,3|MB_ATT_HEALING,2|MB_ATT_AMMO,3|MB_ATT_DASH,2|MB_ATT_DODGE,3|MB_ATT_MICRO_GRENADES,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_BLAST_ARMOUR|MB_ATT_TRACKING_BEACON|MB_ATT_TRACKING_DART,4
 
 	maxhealth		150
-	maxarmor			100
+	maxarmor			110
 	
 	damageGiven		1.15
-	speed           	1.0
-
-	rateOfFire     	1.05
+	basespeed    249
 	
 	resource RESOURCE_ENERGY
 	forcepool 120
@@ -63,6 +61,7 @@ ClassInfo
 	customammo 				950
 	Clipsize				60
 	FPMult          		1.1
+rateMod 1.05
 }
 
 WeaponInfo1
@@ -91,6 +90,7 @@ A class carrying Heavy Dual Pistols, multiple explosives and multiple forms of h
 ^2Weaponry:
 - Melee
 - Dual Mandalorian Heavy Pistols (WESTARs 3)
+-- 5% less RoF
 -- 10% more FP DMG
 - Calo's Flashbang Grenades (3) (Concs)
 -- Blind everyone

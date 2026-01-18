@@ -2,7 +2,7 @@
 ClassInfo
 {
 	name	"v7_Noghri"
-	MBClass	MB_CLASS_MANDALORIAN
+	MBClass	MB_CLASS_BOUNTY_HUNTER
 	weapons	WP_MELEE|WP_SABER
 	attributes	MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_DEXTERITY,1|MB_ATT_AMMO,3|MB_ATT_WOOKIEE_FURY,3|MB_ATT_BUNNY_HOP,1
 
@@ -55,9 +55,8 @@ ClassInfo
 	uishader_1	"models/players/noghri/mb2_icon_default"
 
 	special1	EAS_HI_WHISTLING_BIRDS
-	special2	EAS_MELEE
-	special3 EAS_HI_DEX
-	special4 EAS_HI_POISON
+	special2	EAS_HI_DEX
+	special3 EAS_HI_POISON
 	WalkBackward BOTH_WALKBACK_DUAL
 	WalkForward BOTH_WALK_DUAL
 
@@ -121,11 +120,11 @@ c_att_names_12	"Whistling Birds ^3[CS1]"
 c_att_ranks_12	4
 
 c_att_skill_13	MB_ATT_DEXTERITY
-c_att_names_13	"Dexterity ^3[CS3]"
+c_att_names_13	"Dexterity ^3[CS2]"
 c_att_ranks_13 	0,0,4
 
 c_att_skill_14 	MB_ATT_POISON_DART
-c_att_names_14 	"Poison Darts ^3[CS4 Melee]"
+c_att_names_14 	"Poison Darts ^3[CS3 Melee]"
 c_att_ranks_14 	2,2,2
 }
 
@@ -202,7 +201,7 @@ Icon		"gfx/marvel/spidersense"
 ForcePowerName	"Hunter Sense"
 }
 
-description	"Noghri Death Commando [Mandalorian]
+description	"Noghri Death Commando [Bounty Hunter]
 
 Fast Saber/gunner hybrids with Cloak. Start with reduced resource which can be 'overcharged' through damage dealt.
 
@@ -215,7 +214,7 @@ Fast Saber/gunner hybrids with Cloak. Start with reduced resource which can be '
 -- Chain Limit: 4
 -- Poisons on hit
 -- 18% less reach
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^6Inventory:
 - Cloaking Device
@@ -228,7 +227,7 @@ Fast Saber/gunner hybrids with Cloak. Start with reduced resource which can be '
 - Dexterity (1)
 - Sense Immunity
 - Tracking Beacon
-- Acid Blood (Poison enemies on death)
+- Acid Blood
 
 ^3Abilities:
-- Dex Roll ^3[CS3]"
+- Dex Roll ^3[CS2]"

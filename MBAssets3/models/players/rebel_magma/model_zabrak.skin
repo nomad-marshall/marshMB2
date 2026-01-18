@@ -1,10 +1,10 @@
 head,*off
 head_mouth_eyes,*off
-helmet,*off
+helmet,models/players/rebel_magma/helmet.tga
 
-headb,models/players/rebel_magma/face1.tga
-headb_eyes_mouth,models/players/common/mouth_eyes.tga
-headb_horns,models/players/rebel_magma/horns.tga
+head_z,models/players/nightbrother/face1.tga
+head_z_eyes_mouth,models/players/nightbrother/mouth_eyes_light.tga
+head_z_horns,*off
 
 head_duros,*off
 mouth_duros,*off
@@ -15,13 +15,30 @@ eyes_sull,*off
 hat_sull,*off
 mouth_sull,*off
 
-torso_neck,models/players/rebel_commando/forest_boots_d.tga
+headd,*off
+headd_face,*off
+headd_hair,*off
+headd_pieces,*off
+headd_ponytail,*off
+headd_cap_torso_off,*off
+torso_cap_headd_off,*off
 
-torso,*off
-torso_ammobelt,*off
-torso_zipper,models/players/rebel_magma/torso.tga
+heade,*off
+heade_eyes_mouth,*off
+heade_face,*off
+heade_hair,*off
+heade_hair_bun,*off
+
+torso_fem,*off
+torso_zipper_fem,*off
+torso_neck_fem,*off
+
+torso,models/players/rebel_magma/torso.tga
+torso_ammobelt,models/players/resistance/torso_extras.tga
+torso_neck,models/players/rebel_commando/forest_boots_d.tga
+torso_zipper,*off
 torso_rank,models/players/rebel_magma/belts.tga
-torso_belts,models/players/rebel_magma/belts.tga
+torso_belts,*off
 l_arm,models/players/rebel_magma/torso.tga
 r_arm,models/players/rebel_magma/torso.tga
 l_hand,models/players/stormpilot/hand.tga

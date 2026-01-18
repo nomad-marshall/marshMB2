@@ -2,25 +2,37 @@
 ClassInfo
 {
 	name		"v7_WatTam"
-	MBClass	MB_CLASS_ELITETROOPER
+	MBClass	MB_CLASS_BOUNTY_HUNTER
 	classNumberLimit	1
-	weapons	WP_MELEE|WP_CONCUSSION|WP_FRAG_NADE|WP_ROCKET_LAUNCHER|WP_DEMP2|WP_BLASTER_PISTOL
+
+	weapons	WP_MELEE|WP_CONCUSSION|WP_ROCKET_LAUNCHER|WP_DEMP2|WP_BLASTER_PISTOL|WP_REPEATER
+
 	WP_DEMP2Flags HELD_KNOCKBACK|HELD_DISRUPTIFY
-	WP_FragNadeFlags HELD_KNOCKDOWN|HELD_POISON|HELD_SONIC|HELD_DISRUPTIFY
-	WP_RocketLauncherFlags HELD_SLOWPROJ|HELD_PULSE|HELD_FLAME|HELD_KNOCKDOWN|HELD_KNOCKBACK|HELD_POISON|HELD_SONIC|HELD_STUN|HELD_ALTRELOAD
+	WP_RepeaterFlags HELD_POISON|HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_TRACKING
+	WP_RocketLauncherFlags HELD_SLOWPROJ|HELD_PULSE|HELD_FLAME|HELD_POISON|HELD_SONIC|HELD_STUN|HELD_ALTRELOAD|HELD_DISRUPTIFY
 	WP_BlasterPistolFlags HELD_DISRUPTIFY|HELD_FLAME|HELD_ALTRELOAD
 	WP_ConcussionFlags HELD_ALTRELOAD
 	
-	attributes	MB_ATT_HEALING,1|MB_ATT_TRACKING_DART,3|MB_ATT_RALLY|MB_ATT_FRAGS,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_ROCKET_LAUNCHER,3|MB_ATT_DEMP2,3|MB_ATT_PISTOL,1|MB_ATT_CONCUSSION,1|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_DISP_BLOCK,2|MB_ATT_USE_DISTANCE,1|MB_ATT_SPAWNER,1
-	maxhealth 140
-	maxarmor	125
-	holdables	HI_SHIELD|HI_SENTRY_GUN|HI_SPAWNER|HI_MEDPAC_BIG|HI_SEEKER
+	attributes	MB_ATT_HEALING,1|MB_ATT_TRACKING_DART,3|MB_ATT_RALLY|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_ROCKET_LAUNCHER,1|MB_ATT_DEMP2,1|MB_ATT_PISTOL,1|MB_ATT_CONCUSSION,1|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_DISP_BLOCK,2|MB_ATT_USE_DISTANCE,1|MB_ATT_GETUPS,2|MB_ATT_REPEATER
 
-	meleeMoves M_PUNCH|M_BLOCK|M_UPPERCUT|M_KATA
+	maxhealth 125
+	maxarmor	125
+	basespeed  230
+	damageGiven 1.1
+
+	holdables	HI_SHIELD|HI_SPAWNER|HI_MEDPAC_BIG|HI_SEEKER|HI_BASESEEKER
+
+ spawnerNPC "remote_imp"
+
+	classflags		CFL_STATVIEWER
+
 	resource	RESOURCE_ENERGY
 	forcepool	80
 	forceregen 0.5
 	forcepowers	FP_SEE,1
+
+	meleeMoves M_PUNCH|M_BLOCK|M_UPPERCUT|M_KATA
+
 	tauntAnim 	BOTH_CONSOLE2
 	gloatanim 	BOTH_CONSOLE1
 	flourishAnim	BOTH_TALKCOMM1START
@@ -28,28 +40,28 @@ ClassInfo
 	RunBackward 	BOTH_TALKCOMM1
 	WalkForward 	BOTH_STAND4
 	WalkBackward 	BOTH_TALKCOMM1
-	special1 EAS_FP_SEE
+
+	special1 EAS_HI_SEEKER
 	special2 EAS_HI_TRACKER
-	special3 EAS_HI_SHIELD 
-	special4 EAS_HI_MEDPAC_BIG
-	damageGiven 1.1
+	special4 EAS_HI_SHIELD 
+	special3 EAS_HI_MEDPAC_BIG
+
 	model	"wat_tambor"
 	skin		"default"					
 	uishader	"gfx/hud/FA_icons/mb2_icon_wat_tambor"
 	uioverlay_r 	"gfx/icons/tactician"
 	uioverlay_l "gfx/2d/hud/hlp_defend"
-	basespeed  230
 	modelscale  1.07
-	classflags		CFL_STATVIEWER
-	//respawncustomtime 50000
 }
 WeaponInfo0
 {
-	WeaponToReplace WP_FRAG_NADE 
-	WeaponBasedOff WP_FRAG_NADE 
+	WeaponToReplace WP_REPEATER
+	WeaponBasedOff WP_REPEATER
 	NewWorldModel "models/weapons2/beaker/beaker_w.glm"
 	NewViewModel 		"models/weapons2/beaker/beaker.md3"
 	NewHandsModel		"models/weapons2/beaker/beaker.md3"
+ muzzleEffect null
+ altMuzzleEffect null
 	AltMissileModel	"models/weapons2/beaker/beaker_proj.md3"
 	AltMissileEffect    "grenades/GlowCryoB"  
 	altMissileMissEffect	"wat_leg/beaker_det/impact"
@@ -57,10 +69,26 @@ WeaponInfo0
 	AltMissileHitDroidEffect	"wat_leg/beaker_det/impact"
 	SelectSound "sound/css_wep/smokegrenade_hit.wav"
 	altFlashSound0 "sound/weapons/stone/fire.mp3"
+	altFlashSound1 "sound/weapons/stone/fire.mp3"
+	altFlashSound2 "sound/weapons/stone/fire.mp3"
+	altFlashSound3 "sound/weapons/stone/fire.mp3"
+	FlashSound0 "sound/weapons/stone/fire.mp3"
+	FlashSound1 "sound/weapons/stone/fire.mp3"
+	FlashSound2 "sound/weapons/stone/fire.mp3"
+	FlashSound3 "sound/weapons/stone/fire.mp3"
 	Icon		"gfx/hud/w_icon_beaker"
 	WeaponName	"Liquid Detonite"
+ clipSize 25
+ customAmmo 25
 	primFireEnabled 0
 	hasAnimOverrides 1
+	animReadyRun BOTH_THERMAL_READY2
+	animReady BOTH_THERMAL_READY2
+	animReadyWalk BOTH_THERMAL_READY2
+	animReadyNoAmmo BOTH_THERMAL_READY2
+	animAttackRun BOTH_THERMAL_THROW2
+	animAttack BOTH_THERMAL_THROW2
+	animAttackWalk BOTH_THERMAL_THROW2
 	animStand BOTH_STAND5
 }
 WeaponInfo1
@@ -73,13 +101,13 @@ WeaponInfo1
 	altMissileEffect 	"wat_leg/decimator/missile_effect"
 	altMissileMissEffect	"wat_leg/decimator/hit"
 	altMissileHitHumanEffect "wat_leg/decimator/hit"
-    altMissileHitDroidEffect "wat_leg/decimator/hit"
+ altMissileHitDroidEffect "wat_leg/decimator/hit"
 	Icon		"gfx/hud/w_thermal_grenade"
 	WeaponName	"Prototype S/D Organic Decimator Droids"
 	CustomAmmo 1
 	clipsize 1
 	reloadTimeModifier 2
- damageMod 1.5
+ damageMod 1.6
 	AltFlashSound0 "sound/chars/probe/misc/probetalk1.mp3"
 	AltFlashSound1 "sound/chars/probe/misc/probetalk2.mp3"
 	AltFlashSound2 "sound/chars/probe/misc/probetalk3.mp3"
@@ -106,7 +134,7 @@ WeaponInfo2
 	MissileEffect		"acp_array/shot"
 	MissileMissEffect	"grenades/EXP_alt"	
 	MissileHitHumanEffect "grenades/EXP_alt"	
-    MissileHitDroidEffect	"grenades/EXP_alt"	
+ MissileHitDroidEffect	"grenades/EXP_alt"	
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
 	altMuzzleEffect "Blaster/MuzzleFlash01R"
 	ChargeEffect		"Blaster/MuzzleCharge01R"
@@ -130,27 +158,6 @@ WeaponInfo2
 	animStand BOTH_REACHFORSABER1 //lower
 }
 WeaponInfo3
-{
-	WeaponToReplace		WP_DEMP2
-	WeaponBasedOff		WP_DEMP2
-	WeaponName	"DEMP2"
-	NewWorldModel		"models/weapons2/demp2/demp2_w.glm"
-	NewViewModel		"models/weapons2/demp2/demp2.md3"
-	NewHandsModel		"models/weapons2/demp2/demp2_hand.md3"
-	Icon				"gfx/hud/w_icon_basedemp2"
-	MissileEffect		"demp2/projectile"  					
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	FlashSound0		"sound/weapons/demp2/fire.mp3"
-	AltFlashSound0	"sound/weapons/demp2/altfire.mp3"
-	ChargeSound		"sound/weapons/demp2/altcharge.mp3"
-	hasAnimOverrides 1
-	animStand BOTH_STAND5
-	altFireEnabled 0
-	clipsize 24
-	customAmmo 460
-	
-}
-WeaponInfo4
 {
 	WeaponToReplace	WP_CONCUSSION
 	WeaponBasedOff	WP_CONCUSSION
@@ -176,7 +183,7 @@ ForceInfo0
 	StartSound "sound/ambience/kotor/consolebeep03.mp3"
 	LoopSound "sound/ambience/cp_02_lp.wav"
 }
-description "Wat Tambor [Commander]
+description "Wat Tambor [Bounty Hunter]
 
 Utilizes experimental tech.
 
@@ -185,35 +192,36 @@ Utilizes experimental tech.
 - RA-EV Glove Blaster (Pistol 1)
 -- Ignites on hit
 -- 50% more DMG/FP DMG
--- 25% less velocity/reload
--- Mag reload
-- DEMP2 (3)
+-- 25% less velocity
+-- 25% slower mag reload
+- DEMP2 (1)
 -- Pushes on hit
--- Prim. only
 - Prototype S/D Organic Decimator Droids (2) (RL)
 -- Decimates on hit
--- 50% more DMG
+-- 60% more DMG
 -- 75% less velocity
 -- 100% slower mag reload
--- Sec. only
-- Liquid Detonite (2) (Knockdown Frags)
--- Poisons/stuns on direct hit
--- Sec. only
+-- Sec only
+- Liquid Detonite (2) (Repeater)
+-- Poisons/tracks on det/knocks down on direct hit
+-- Mag reload
+-- Sec only
 - Concussion Rifle (1)
 -- 100% slower reload
--- Sec. only
+-- Sec only
 
 ^5Powers:
-- Radar Scanner (Sense 1) ^3[CS1]
+- Radar Scanner (Sense 1)
 
 ^6Inventory:
-- Assault Sentry
-- Seeker Drone (Support Beacon)
-- Seeker Drone
-- Forcefield ^3[CS3]
-- Advanced Medpac ^3[CS4]
+- Seeker Drone ^3[CS1]
+- Forcefield ^3[CS4]
+- Advanced Medpac ^3[CS3]
+- Sentry Drone (Support Beacon)
+- Defense Seeker
 
 ^8Attributes:
+- Getup (2)
 - Armor Regen (1)
 - Healing (1)
 - Rally

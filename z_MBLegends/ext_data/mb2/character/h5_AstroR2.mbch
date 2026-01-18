@@ -12,31 +12,29 @@ ClassInfo
 	WP_SaberFlags HELD_STUN
  WP_ThrowerFlags HELD_ALTRELOAD
 
- 	attributes	MB_ATT_SHIELD_RECHARGE,1|MB_ATT_JETPACK,1|MB_ATT_WRISTLASER,1|MB_ATT_FP_MIRALUKA,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_DISP_BLOCK,2|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_THROWER_FLAME|MB_ATT_USE_DISTANCE,1|MB_ATT_HEALING,2|MB_ATT_FUELREGEN,2|MB_ATT_CORTOSIS,1|MB_ATT_FLIPKICK,1
+ attributes	MB_ATT_JETPACK,1|MB_ATT_WRISTLASER,1|MB_ATT_FP_MIRALUKA,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_DISP_BLOCK,2|MB_ATT_DISP_FORCE,2|MB_ATT_DISP_ARMOR,2|MB_ATT_THROWER_FLAME|MB_ATT_USE_DISTANCE,1|MB_ATT_FUELREGEN,2|MB_ATT_FLIPKICK,1|MB_ATT_HEALING,2|MB_ATT_CORTOSIS,1|MB_ATT_SHIELD_RECHARGE,1
 	
 	forcepowers	FP_SEE,1|FP_PUSH,1|FP_SPEED,3|FP_LIGHTNING,1
 
 	damageTaken 1
 	damageGiven 1.15
 	
-	maxhealth	150
-	maxarmor		40
+	maxhealth	100
+	maxarmor		20
 
 	special1 EAS_HI_WRIST
 	special2	EAS_HI_BARGE
 	special3	EAS_FP_SPEED
 	special4 EAS_FP_LIGHTNING
-	bargeSoundOverride	"sound/chars/r2d2/misc/death1.mp3"
-	classflags	CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE|CFL_STATVIEWER|
-	
-	//CFL_NO_FUEL_USE
+
+	classflags	CFL_NOLOCATIONALDAMAGE|CFL_STATVIEWER
 	
 	BPmultiplier 		0
-	ASmultiplier   25
+	ASmultiplier   10
 	saberMaxChain 1
 	saber1 		r2_saw_leg
-	saberstyle 	SS_FAST
-	saberdamage 11 //12
+	saberstyle 	SS_STAFF
+	saberdamage 12
 	
 	hackRate 0.80
 	basespeed	215
@@ -64,7 +62,7 @@ ClassInfo
 	skin			"default"					
 	uishader		"gfx/hud/FA_icons/mb2_icon_r2d2"
 	
-	model_1		"chopper"
+	model_1	"chopper"
 	skin_1		"default"
 	uishader_1	"gfx/hud/FA_icons/mb2_icon_chopper"
 	
@@ -72,7 +70,7 @@ ClassInfo
 	skin_2 		"bespin_r5"
 	uishader_2 	"gfx/um_icons/r5_unit"
 	
-	//respawncustomtime 40000
+	bargeSoundOverride	"sound/chars/r2d2/misc/death1.mp3"
 }
 
 WeaponInfo0
@@ -154,14 +152,14 @@ A plucky support with numerous gadgets.
 ^2Weaponry:
 - Prod (Limited Melee)
 -- 15% slower movement
--- Sec. only
-- Circular Saw (Blue Saber)
+-- Sec only
+- Circular Saw (Staff Saber)
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers on hit
--- 2400% faster RoF
--- 90% less DMG
+-- 95% less DMG
 -- 50% less reach
+-- 66% more radius
 - Flamethrower
 -- 150% slower ignition rate
 -- 50% slower mag reload
@@ -174,10 +172,9 @@ A plucky support with numerous gadgets.
 ^8Attributes:
 - 25% faster Hacking
 - Strength (2)
-- Cortosis (1)
 - Flat DMG Taken
-- Physical Resist
-- Armor Regen (1) 
+- Cortosis (1)
+- Armor Regen (1)
 - Healing (2)
 - Fuel Regen (2)
 - Passive Radar Scanner (Miraluka 1)

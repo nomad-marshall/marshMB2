@@ -11,7 +11,7 @@ ClassInfo
 	
 	speed 1
 	
-	maxhealth 	100
+	maxhealth 	105
 	hackRate 0.95
 	resource		RESOURCE_STAMINA
 	forcepool	100
@@ -114,4 +114,4 @@ description "Narkina 5 Prisoner [Clone Trooper]
 - Sprint ^3[CS1]
 - Dex Roll ^3[CS2]
 - Dodge (3) ^3[CS3]
-- Quick-Throw (3) ^3[CS4]"
+- Quickthrow (3) ^3[CS4]"

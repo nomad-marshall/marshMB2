@@ -132,9 +132,8 @@ WeaponInfo0
 	rateMod 2
 } */
 
-description "Kino Loy
+description "Kino Loy [Hero]
 
-Class: Hero
 Brief Overview:
 A true leader who rallies his team to victory. Stolen weapons deal double damage, grant a movement speed bonus, knock back targets, and passively heal you.
 

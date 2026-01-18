@@ -45,9 +45,8 @@ WeaponInfo1
 	FPMult     			0.8
 }
 
-description "Imperial Shocktrooper
+description "Imperial Shocktrooper [Clonetrooper]
 
-Class: Clonetrooper
 
 Weapons:
 SE-14c Blaster Pistol (2)

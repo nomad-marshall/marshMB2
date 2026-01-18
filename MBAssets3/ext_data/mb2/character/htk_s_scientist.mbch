@@ -42,8 +42,8 @@ WeaponInfo0
 	firingAnim  	BOTH_MAND_PISTOL_ATTACK
 }
 
-description	"Selkath Scientist
-Class: Soldier
+description	"Selkath Scientist [Soldier]
+
 
 ^3Weaponry:
 - Sonic Pistol (1)

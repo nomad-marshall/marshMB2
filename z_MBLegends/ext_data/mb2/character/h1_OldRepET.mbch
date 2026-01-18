@@ -30,7 +30,7 @@ ClassInfo
 	WP_SaberFlags			HELD_SPEED
 	
 	special1			EAS_HI_SPRINT
-	special2 		EAS_MELEE
+	special2 		EAS_NONE
 	special3			EAS_HI_DODGE
 	
 	uioverlay_r "gfx/icons/infantry"
@@ -186,8 +186,7 @@ description	"Old Republic Defender [Clone Trooper]
 -- Saber Defense (0)
 -- No Blaster Block
 -- 15% faster movement
--- 33% less radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 > Vibrosword (Yellow)
 -- 5% less reach
 -- 45% less DMG

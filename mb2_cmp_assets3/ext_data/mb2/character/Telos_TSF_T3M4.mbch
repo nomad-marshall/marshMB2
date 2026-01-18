@@ -55,9 +55,8 @@ WeaponName		"Trip Mine"
 CustomAmmo   	 	8
 }
 
-description	"T3-M4
+description	"T3-M4 [Expert Droid]
 
-Class: Expert Droid
 
 Weaponry:
 Mounted Blaster (1)

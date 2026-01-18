@@ -313,6 +313,34 @@ assetGlobalDef
 			align				5
 			textalignx			-73
 		}
+
+												itemDef{
+			name exability1
+			background "gfx/hud/conc_blast"
+			background2 "gfx/hud/ion_blast"
+		}
+
+		itemDef{
+			name exability2
+			background "gfx/hud/wlaser"
+			background2 "gfx/hud/fthrower"
+		}
+
+		itemDef
+		{
+			name				extraability
+			rect				-3 -32 38 38
+			align				4
+			textalignx			-60
+		}
+
+				itemDef
+		{
+			name				extraweaponability
+			rect				-3 36 36 36
+			align				4
+			textalignx			-60
+		}
 		
 		// Right HUD tics
 		itemDef

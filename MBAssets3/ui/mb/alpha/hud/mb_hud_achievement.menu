@@ -1,0 +1,40 @@
+// In Game HUD - defines from ui_shared.h
+
+// align parameter sets the horizontal anchor for aspect ratio scaling. 0 is Left aligned, 1 is center aligned, 2 is right aligned. Only works on items with it already specified.
+{
+	// Achievement Popup
+	menuDef
+	{
+		name					"achievement_popup"
+		rect					288 70 256 64
+
+		// Frame Background
+		itemDef
+		{
+			name				"frame"
+			rect				-110 -18 256 64
+			//align				1 // Sets the horizontal anchor for aspect ratio scaling. 0 is Left aligned, 1 is center aligned, 2 is right aligned.
+		}
+
+		// Achievement Image
+		itemDef
+		{
+			name				"ach_image"
+			rect				-94 -5 38 38
+		}
+
+		// Achievement Rank
+		itemDef
+		{
+			name				"ach_rank"
+			rect				115 20 38 38
+		}
+
+		// Achievement Description
+		itemDef
+		{
+			name				"ach_desc"
+			rect				-45 -8 0 0
+		}
+	}
+}

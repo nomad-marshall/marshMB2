@@ -3,34 +3,33 @@
 ClassInfo
 {
 	name			"v1_B1"
+	extralives	2
+	MBClass		MB_CLASS_SOLDIER
 	weapons			WP_MELEE
-	attributes		MB_ATT_ASSEMBLE,3|MB_ATT_AMMO,1|MB_ATT_RECHARGE,2
+
+	attributes		MB_ATT_AMMO,1|MB_ATT_RECHARGE,2|MB_ATT_ASSEMBLE,1
+
 	knockbackTaken	1.1 	
 	knockbackGiven 0.9
+
 	Maxhealth		20
-	rankHealth		40,60
+	rankHealth		35,50
 
 	MaxArmor		0
-	rankArmor	20,40,55
+	rankArmor	20,35,45
 	
-	forcepool	40
+	forcepool	30
 	forceregen	1.5
-	
-	MBClass		MB_CLASS_SOLDIER
-	resource		resource_battery
-	
-	extralives	2
-		
-	modelScale   1.035
-	damageGiven	0.95
-	damageTaken	1.15
-	
-	uioverlay "gfx/icons/infantry"
+	resource	 RESOURCE_BATTERY
+
+	damageGiven	1
 	
 	classflags CFL_DISMEMBERFRAGILE
 	
 	flourishAnim BOTH_PAIN17
-	
+
+	modelScale   1.035		
+	uioverlay "gfx/icons/infantry"
 	model			"battledroid" 				
 	skin				"ep1"				
 	uishader			"models/players/battledroid/mb2_icon_ep1"
@@ -134,9 +133,6 @@ ClassInfo
 	model_20		"battledroid" 				
 	skin_20		"grenadier2"				
 	uishader_20	"models/players/battledroid/mb2_icon_grenadier2"
-
-
-	//respawncustomtime  15000
 	
 	isCustomBuild	1
 	mbPoints		60
@@ -147,48 +143,51 @@ ClassInfo
 
 	c_att_skill_1	MB_ATT_BLASTER
 	c_att_names_1	"E-5 Blaster Rifle"
-	c_att_ranks_1	1,3,6
+	c_att_ranks_1	1,3,5
 	
 	c_att_skill_2	MB_ATT_AMMO
 	c_att_names_2	"> E-5 Blaster Rifle Ammo"
 	c_att_ranks_2 	0,2,3
 	c_att_descs_2 "240, 360, 480"
+
 	c_att_skill_3	MB_ATT_WESTARM5
 	c_att_names_3	"E-5s Sniper Rifle (M5)"
 	c_att_ranks_3	15
 	c_att_descs_3 "50% faster RoF, 45% more velocity, 25% less DMG,
 50% less FP DMG, 50% slower reload"
+
 	c_att_skill_4	MB_ATT_ARC_RIFLE_SCOPE
 	c_att_names_4	"> E-5s Scope Upgrade"
 	c_att_ranks_4	6
 	
 	c_att_skill_5	MB_ATT_PLX1
 	c_att_names_5	"E-60R Missile Launcher (PLX)"
-	c_att_ranks_5	18
+	c_att_ranks_5	22
 	
 	c_att_skill_6	MB_ATT_FRAGS
 	c_att_names_6	"Frag Grenades"
-	c_att_ranks_6	5,7
+	c_att_ranks_6	5,8
 	
-	c_att_skill_7	MB_ATT_FP_SEE
-	c_att_names_7	"Radar Scanner (Sense)"
-	c_att_ranks_7	5
-	
-	c_att_skill_8	MB_ATT_RESPAWNS
-	c_att_names_8	"Reinforcements"
-	c_att_ranks_8	16,20
-	c_att_descs_8 "2 default"
-	c_att_skill_9	MB_ATT_HEALTH
-	c_att_names_9	"Health (40/60)"
-	c_att_ranks_9	2,4
-				
-	c_att_skill_10	MB_ATT_ARMOUR
-	c_att_names_10	"Armor (20/40/55)"
-	c_att_ranks_10	3,4,8
+	c_att_skill_7	MB_ATT_RESPAWNS
+	c_att_names_7	"Reinforcements"
+	c_att_ranks_7	16,16
+	c_att_descs_7 "2 default"
 
-	c_att_skill_11	MB_ATT_RALLY
-	c_att_names_11	"Rally"
-	c_att_ranks_11	10
+	c_att_skill_8	MB_ATT_HEALTH
+	c_att_names_8	"Health (35/50)"
+	c_att_ranks_8	1,3
+				
+	c_att_skill_9	MB_ATT_ARMOUR
+	c_att_names_9	"Armor (20/35/45)"
+	c_att_ranks_9	2,4,8
+
+	c_att_skill_10	MB_ATT_RALLY
+	c_att_names_10	"Rally"
+	c_att_ranks_10	7
+
+	c_att_skill_11	MB_ATT_ASSEMBLE
+	c_att_names_11	"Assemble"
+	c_att_ranks_11 0,1,1
 }
 
 WeaponInfo0
@@ -267,24 +266,16 @@ WeaponInfo3
 	clipsize 36
 	customAmmo 360 
 }
-ForceInfo0
-{
-	ForceToReplace FP_SEE
-	Icon	"gfx/forcepowers/radar"
-	ForcePowerName "Radar Scanner"
-	StartSound 	"sound/ambience/kotor/consolebeep03.mp3"
-	LoopSound "sound/ambience/cp_02_lp.wav"
-}
-
 description	"B1-series Battle Droid [Soldier]
 
-Fragile combatants with superior reinforcement potential.
+Mass-produced, fragile combatants with superior reinforcement potential.
 
 ^2Weaponry:
 - Melee
 
 ^8Attributes:
 - Reinforcements (2)
-- 10% more/less KB taken/given
+- 10% less KB given
+- 10% more KB taken
 - Battery Recharge (2)
-- Assemble (3)"
+- Assemble (1)"

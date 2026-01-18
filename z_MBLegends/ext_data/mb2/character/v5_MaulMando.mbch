@@ -12,11 +12,11 @@ ClassInfo
 	WP_A280Flags		HELD_ALTRELOAD
 	WP_MinigunFlags	HELD_FLAME|HELD_DISRUPTIFY|HELD_ALTRELOAD|HELD_KNOCKBACK|HELD_STUN
 	
-	attributes	MB_ATT_JETPACK|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_WRISTLASER|MB_ATT_WOOKIEE_FURY,2|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DEXTERITY,3|MB_ATT_FUEL,3|MB_ATT_BESKAR,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEFLECT,0|MB_ATT_FIRE_GRENADES,1
+	attributes	MB_ATT_JETPACK|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_WRISTLASER|MB_ATT_WOOKIEE_FURY,3|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_DEXTERITY,3|MB_ATT_FUEL,3|MB_ATT_BESKAR,2|MB_ATT_TRACKING_BEACON|MB_ATT_DEFLECT,0|MB_ATT_FIRE_GRENADES,1
 	
 	forcepowers   FP_RAGE,3
 	
-	maxhealth	100
+	maxhealth	80
 	maxarmor		80
 	
 	saberMaxChain 1
@@ -54,16 +54,15 @@ ClassInfo
 	mbPoints		6
 	
 	c_att_skill_0	MB_ATT_MANDO_PISTOL
-	c_att_names_0	"DX-13 Pistols (WESTARs)"
+	c_att_names_0	"DX-13 Pistol(s) (WESTARs)"
 	c_att_ranks_0	2,0,1
 	c_att_descs_0 "20% faster RoF, 20% more velocity, 10% more FP DMG, 
 10% less DMG, Mag reload"
 	c_att_skill_1	MB_ATT_MINIGUN
 	c_att_names_1	"Vornax Cannon (Minigun)"
 	c_att_ranks_1	5,0
-	c_att_descs_1 "Ignites/staggers/pushes on direct hit, 300% more DMG/FP DMG,
-700% slower RoF, 100% slower mag reload" 
-	700/50/200% slower RoF"
+ c_att_descs_1 "Ignites/staggers/pushes on hit, 300% more DMG/FP DMG,
+788% slower RoF, 24% less velocity, 100% slower mag reload"
 	c_att_skill_2	MB_ATT_A280
 	c_att_names_2	"Concordian Rifle (A280)"
 	c_att_ranks_2	1,2,0
@@ -147,9 +146,9 @@ WeaponInfo2
 	Icon	 "gfx/hud/w_icon_rotary_cannon"
 	WeaponName	"Vornax Rotary Siege Cannon"
 	FPMult	4
-	rateMod 8
+	rateMod 8.88
 	damageMod 4
-	velocityMod	1
+	velocityMod	.76
 	ReloadTimeModifier 2
 	clipsize	10
 	customAmmo	350
@@ -209,7 +208,7 @@ Enforcers with brutal burst fire/area control.
 ^2Weaponry:
 - Melee
 - Mandalorian Personal Energy Shield (Cyan Saber)
--- Saber Defense/Deflect (0)
+-- Saber Defense (0)
 -- Blaster Defense (3)
 -- 150% more KB
 -- 50% less DMG
@@ -222,7 +221,7 @@ Enforcers with brutal burst fire/area control.
 - Dark Rage (3) ^3[CS4]
 
 ^8Attributes:
-- Fury (2)
+- Fury (3)
 -- Resource Regen: 2/.75s to 50
 - Strength (1)
 - Dexterity (3)
@@ -232,5 +231,5 @@ Enforcers with brutal burst fire/area control.
 ^3Abilities:
 - Jetpack
 - Rocket ^3[CS1]
-- Wrist Laser ^3[CS2 TM]
+- Wrist Laser ^3[CS2 Toggle Melee]
 - Dex Roll ^3[CS3]"

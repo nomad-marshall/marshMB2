@@ -12,9 +12,9 @@ ClassInfo
 	APmultiplier		1.25
 	BPmultiplier		0.9
 	ASmultiplier        1.1
-	model			"jedi_kotor_fem"
-	skin			"juhani"
-	uishader		"models/players/jedi_kotor_fem/mb2_icon_juhani"
+	model			"juhani"
+	skin			"default"
+	uishader		"models/players/juhani/mb2_icon_default"
 	modelscale		1
 	speed			1.05
 	MBClass			MB_CLASS_JEDI
@@ -27,9 +27,9 @@ ClassInfo
 }
 
 
-description	"Juhani
+description	"Juhani [Jedi Guardian]
 
-Class: Jedi Guardian
+
 
 ^3Weaponry:
 Lightsaber

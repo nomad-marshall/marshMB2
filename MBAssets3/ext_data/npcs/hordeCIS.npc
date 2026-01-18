@@ -498,9 +498,8 @@ lightning_mage //NNN: Sith cultist from Thule
 	dismemberProbWaist	0
 }
 //CIS Droids, note need a pass on models, skins, and snds.
-//TO DO: SBDs, Trando Mercs/Slavers (shotgun, smg/ee4, dual knives, minigun) from RC, and CW BHs?
-//Future Expansion: Dekas, Crab Droids, Walking Vulture Droid, Organic Seps, and other vehicles?
-//B1s have the basic weapons and BX have the nasty ones
+//TO DO: SBDs, Trando Mercs/Slavers (shotgun, smg/ee4, dual knives, minigun) from RC.
+//Future Ideas: Dekas, Crab Droids, Walking Vulture Droid, Organic Seps, and other vehicles?
 
 MagnaGuard //IG-100 MagnaGuards with electrostaff
 {
@@ -510,6 +509,9 @@ MagnaGuard //IG-100 MagnaGuards with electrostaff
 	weapon	WP_SABER
 	saberStyle	7
 	MB_ATT_FP_SABER_DEFENSE 2
+	FP_LEVITATION	1
+	RESOURCE_FORCE 1
+	forcePowerMax	100
 	PBchance 20
 	MBchance 2
 	SBchance 45
@@ -539,7 +541,7 @@ MagnaGuard //IG-100 MagnaGuards with electrostaff
 	dismemberProbWaist	0
 }
 
-BX_Sword2 //AI works best with style 2/yellow, the AI jumping despite no force jump actually works for these guys.
+BX_Sword2 //AI works best with style 2/yellow.
 {
 	playerModel	bxdroid
 	customSkin	default
@@ -547,6 +549,9 @@ BX_Sword2 //AI works best with style 2/yellow, the AI jumping despite no force j
 	weapon	WP_SABER
 	saberStyle	2
 	MB_ATT_FP_SABER_DEFENSE 1
+	FP_LEVITATION	1
+	RESOURCE_FORCE 1
+	forcePowerMax	100
 	PBchance 20
 	MBchance 2
 	SBchance 45
@@ -830,7 +835,7 @@ BX_Rocket //so jedi have something to push
 	playerModel bxdroid
 	customSkin  default
 	weapon		WP_ROCKET_LAUNCHER
-	//MB_ATT_EE4 3
+	MB_ATT_ROCKET_LAUNCHER 3
 	altFire 1
 	health		80
 	armor 		40
@@ -902,7 +907,7 @@ B1_Shotgun //might be annoying to fight, maybe should be on bx or trando merc, p
 	playerModel battledroid
 	customSkin  ep1
 	weapon		WP_SHOTGUN
-	MB_ATT_SHOTGUN 3
+	MB_ATT_SHOTGUN 1
 	health		50
 	armor 		15
 	headPitchRangeDown 30
@@ -1040,6 +1045,7 @@ B1_Baton //same as nader but will pull out a stun baton if you get too close wit
 	customSkin	grenadier2
 	weapon		WP_THERMAL
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1071,6 +1077,7 @@ B1_Frag //WIP: they blow themselves up
 	customSkin	grenadier2
 	weapon		WP_FRAG_NADE
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1102,6 +1109,7 @@ B1_Pulse //WIP: they blow themselves up
 	customSkin	grenadier2
 	weapon		WP_PULSE_NADE
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1133,6 +1141,7 @@ B1_Fire //WIP: they barely don't light themselves on fire
 	customSkin	grenadier2
 	weapon		WP_FIRE_NADE
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1164,6 +1173,7 @@ B1_Sonic //WIP: they sonic themselves
 	customSkin	grenadier2
 	weapon		WP_SONIC_NADE
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1195,6 +1205,7 @@ B1_Conc //WIP: they blow themselves up, barely
 	customSkin	grenadier2
 	weapon		WP_CONC_NADE
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1226,6 +1237,7 @@ B1_Cryo //WIP: they cryo themselves, however cryo doesn't work on npcs so this c
 	customSkin	grenadier2
 	weapon		WP_CRYO_NADE
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1257,6 +1269,7 @@ B1_TD //WIP: they blow themselves up, funny though, might work as an erzatz suic
 	customSkin	grenadier2
 	weapon		WP_REAL_TD
 	weapon		WP_STUN_BATON
+	MB_ATT_STUN_BATON 3
 	reactions	3
 	aim		1
 	move		3
@@ -1460,13 +1473,14 @@ B1_Sniper //stands in the back and shoots, not amazing but an ok way to vary up 
 	dismemberProbWaist	0
 }
 
-B2 //WIP: need work, espcially size wise 
+B2 //WIP: needs work and variants 
 {
 	playerModel sbd
 	//customSkin  ep1
 	weapon		WP_SBD
 	MB_ATT_FIREPOWER 3
 	health		250
+	scale 		120
 	headPitchRangeDown 30
 	reactions	3
 	aim			1

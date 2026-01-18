@@ -4,9 +4,11 @@ ClassInfo
 	MBClass 		MB_CLASS_JEDI
 	classNumberLimit	1
 	weapons 		WP_SABER|WP_MELEE|WP_T21
-	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,3|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_T21,1|MB_ATT_ANTI_MT,2|MB_ATT_FP_MIRALUKA,1|MB_ATT_FORCEBLOCK,3|MB_ATT_DEXTERITY,3
+	attributes		MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_HEALING,2|MB_ATT_DODGE,3|MB_ATT_DASH,2|MB_ATT_T21,1|MB_ATT_ANTI_MT,2|MB_ATT_FP_MIRALUKA,1|MB_ATT_FORCEBLOCK,3|MB_ATT_DEXTERITY,3|MB_ATT_GETUPS,3
 	
-	saberdamage 93 //120
+	saberdamage 120
+
+classflags CFL_NOPICKUPS
 
 	saber1  		chirrut_stick_legends
 	saberstyle  	SS_STAFF|SS_MEDIUM
@@ -17,7 +19,7 @@ ClassInfo
 	
 	forcepowers		FP_SEE,2|FP_SABER_OFFENSE,3
 
-	maxhealth 		230
+	maxhealth 		285
 	
 	resource		resource_force
 	forcepool		150
@@ -32,14 +34,12 @@ ClassInfo
 	
 	rateOfFire       1
 	rateOfFire_Melee	0.80
-	basespeed 		230
+	basespeed 		255
 
-	DamageGiven         1.30
+	DamageGiven   1.30
 	knockbackgiven 2.25
 
-	WP_T21Flags   HELD_KNOCKBACK|HELD_ALTRELOAD
-	WP_SaberFlags HELD_SPEED
-	WP_MeleeFlags HELD_SPEED
+	WP_T21Flags   HELD_KNOCKBACK|HELD_ALTRELOAD|HELD_SLOW
 	
 	tauntAnim		BOTH_ENGAGETAUNT
 	gloatAnim     	BOTH_BOW
@@ -47,9 +47,9 @@ ClassInfo
 	walkForward 		BOTH_WALK2
 		
 	special1		EAS_HI_DODGE
-	special2		EAS_MELEE
-	special3		EAS_HI_DEX
-	special4 	EAS_HI_DASH
+	special2		EAS_HI_DEX
+	special3			EAS_HI_DASH
+	//special4 
 
 	skilltimermod 0.9
 	
@@ -88,7 +88,7 @@ WeaponInfo1
 	animAttack BOTH_ATTACK4
 	animAttackWalk BOTH_ATTACK4
 	animStand TORSO_DROPWEAP4
-	FPmult  2
+	FPmult 1.75
 	altfireenabled 	0
 	missileMissEffect "effects/Grenades/EXP_BaseThermal"
 	MissileHitHumanEffect "effects/Grenades/EXP_BaseThermal"
@@ -103,25 +103,26 @@ A speedy and dexterous character with strong CQC and a hand cannon. Fast resourc
 ^2Weaponry:
 - Melee
 -- 20% faster RoF
--- 15% faster movement
 - Chirrut's Staff (Staff/Yellow Saber)
 -- Saber Defense (1)
 -- No Blaster Block
--- 25% longer Staff reach
--- 15% faster movement
+-- 25% more reach
 -- 53/50% less DMG
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - Chirrut's Lightbow (T-21 1)
 -- Pushes on hit
--- 100% more FP DMG
+-- 75% more FP DMG
 -- 50% slower mag reload
+-- 15% slower movement
 
 ^8Attributes:
 - 125% more KB given
+- 10% faster skill CD
 - Resource Regen: 5/.001s to 35
+- Getups (3)
 - Dexterity (3)
-- Healing (3)
+- Healing (2)
 - Force Block (3)
 - Miraluka Vision (2)
 - Anti-Mind Trick (2)
@@ -129,5 +130,5 @@ A speedy and dexterous character with strong CQC and a hand cannon. Fast resourc
 
 ^3Abilities:
 - Dodge (3) ^3[CS1]
-- Dex Roll ^3[CS3]
-- Dash (2) ^3[CS4]"
+- Dex Roll ^3[CS2]
+- Dash (2) ^3[CS3]"

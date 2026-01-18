@@ -5,15 +5,17 @@ ClassInfo
 	MBClass 			MB_CLASS_JEDI
 	classNumberLimit	1
 	weapons 			WP_SABER|WP_MELEE|WP_BLASTER_PISTOL|WP_TRIP_MINE|WP_SONIC_NADE|WP_DET_PACK
+
+	WP_BlasterPistolFlags   HELD_ALTRELOAD
 	
-	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_HEALING,1|MB_ATT_DASH,1|MB_ATT_PISTOL,3|MB_ATT_SPY_DISGUISE,2|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,3|MB_ATT_TRACKING_DART,2|MB_ATT_TRACKING_BEACON|MB_ATT_FLIPKICK,1|MB_ATT_GUN_DEFENSE,1|MB_ATT_DET_PACK,3|MB_ATT_DEFLECT,0
+	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_HEALING,1|MB_ATT_DASH,1|MB_ATT_PISTOL,3|MB_ATT_SPY_DISGUISE,2|MB_ATT_FORCEBLOCK,2|MB_ATT_DEXTERITY,3|MB_ATT_TRACKING_DART,2|MB_ATT_TRACKING_BEACON|MB_ATT_FLIPKICK,1|MB_ATT_DET_PACK,3|MB_ATT_GUN_DEFENSE,1
 	
 	forcepowers		FP_SABER_OFFENSE,3
 
-	maxhealth 		120
-	maxarmor  		120
-	damageTaken 1
-	resource		resource_force
+	maxhealth 		125
+	maxarmor  		125
+
+	resource		RESOURCE_FORCE
 	forcepool		135
 	forceregen		1.2
 	
@@ -22,31 +24,26 @@ ClassInfo
 	uishader  		"models/players/kir_kanos/mb2_icon_default"
 	uioverlay 		"gfx/icons/hybrid"		
 	modelscale       1.02
-
+classFlags CFL_NOPICKUPS
 	knockbackTaken 	0.9
 	rateOfFire_Melee 	0.85
-	speed 			1.00
-	saberDamage 140
+
+	saberDamage 150
+saberSpecialDamage 1.2
 	saber1		ispdvbd
 	saberstyle  	SS_STAFF|SS_DESANN|SS_TAVION
-	APmultiplier	1
-	BPmultiplier 1
 	ASmultiplier 1.07
 	CSmultiplier 1.07
-	
-	WP_BlasterPistolFlags   HELD_ALTRELOAD
 
 	tauntAnim		 BOTH_ENGAGETAUNT
 	gloatAnim      	 BOTH_STAND1_TALK1
 	flourishAnim   	 BOTH_STAFF_TAUNT
 	saberStanceAnim  BOTH_TAVION_STANCE
 	walkForward 	 BOTH_WALK2
-		
-	special1		EAS_HI_TRACKER
-	special2		EAS_MELEE
-	special3		EAS_HI_DEX
-	special4 	EAS_HI_DASH
-	//respawncustomtime  50000	
+
+ special1 	EAS_HI_TRACKER
+	special2		EAS_HI_DEX
+	special3 	EAS_HI_DASH
 	
 	isCustomBuild		1
 	mbPoints			2
@@ -105,14 +102,14 @@ A well-rounded gunner/Saberist who combines martial arts, stealth and explosives
 - ISP Double-Vibroblade D (Staff/Purple/Cyan Saber)
 -- Saber Defense (2)
 -- Blaster Defense (1)
--- Saber DMG: 140
--- 21/37% less reach
--- 66% thicker radius
--- Slap ^3[CS2]
+-- Saber DMG: 150
+-- 120% special DMG mult
+-- 6% less reach
+-- Slap ^3[GB]
 - Modified Guardsmen Blaster Pistol (3)
 -- 15% more DMG
 -- 25% more FP DMG
--- Prim. only
+-- Prim only
 -- Mag reload
 - Det Packs (3)
 
@@ -127,5 +124,5 @@ A well-rounded gunner/Saberist who combines martial arts, stealth and explosives
 - Flipkick (1) ^3[Contact Jump]
 - Disguise (2) ^3[Toggle Melee]
 - Tracking Darts (4) ^3[CS1 Melee]
-- Dex Roll ^3[CS3]
-- Dash (1) ^3[CS4]"
+- Dex Roll ^3[CS2]
+- Dash (1) ^3[CS3]"

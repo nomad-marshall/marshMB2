@@ -392,6 +392,9 @@ LANG_ENGLISH        "Support Beacon"
 REFERENCE           ITEM_STIMPACK
 LANG_ENGLISH        "Stimpak"
 
+REFERENCE           ITEM_BASESEEKER
+LANG_ENGLISH        "Defense Seeker"
+
 REFERENCE           ITEM_LA_GOGGLES
 LANG_ENGLISH        "Light Amplification Goggles"
 

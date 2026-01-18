@@ -10,7 +10,7 @@ ClassInfo
 
 	attributes  	MB_ATT_BLASTER,2|MB_ATT_AMMO,2|MB_ATT_ASSEMBLE,1|MB_ATT_GETUPS,0
 	
-	special2 EAS_MELEE
+	special2 EAS_NONE
 	
 	maxhealth 		50
 	maxarmor  		15
@@ -96,8 +96,8 @@ description	"Night Trooper [Commander]
 -- 20% slower swings
 - Feign Death (Saber)
 -- No Saber/Blaster Block
--- Sec. only
--- Slap ^3[CS2]
+-- Sec only
+-- Slap ^3[GB]
 - E-11 Blaster Rifle (2)
 
 ^8Attributes:

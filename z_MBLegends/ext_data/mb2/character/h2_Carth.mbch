@@ -10,7 +10,7 @@ ClassInfo
 	damageGiven	1.15
 	speed		1.0
 	modelscale	1.02
-	rateOfFire	1.05
+	rateOfFire	1
 	MBClass			MB_CLASS_HERO
 	classNumberLimit			1
 	
@@ -56,6 +56,7 @@ WeaponInfo0
 	customammo 		950
 	Clipsize			60
 	FPMult         	1.1
+	ratemod			1.05
 }
 
 description	"Carth Onasi [Hero]
@@ -66,6 +67,7 @@ A speedy Dual Pistol wielder and grenadier with multiple forms of healing.
 - Melee
 - Carth's Dual Blaster Pistols (WESTARs 3)
 -- 10% more FP DMG
+-- 5% slower RoF
 - Concussion Grenades (3)
 - Frag Grenades (2)
 
@@ -81,4 +83,4 @@ A speedy Dual Pistol wielder and grenadier with multiple forms of healing.
 ^3Abilities:
 - Dodge (3) ^3[CS1]
 - Dash (2) ^3[CS2]
-- Quick-Throw (1) ^3[CS3]"
+- Quickthrow (1) ^3[CS3]"

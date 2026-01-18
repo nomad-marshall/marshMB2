@@ -15,20 +15,20 @@ ClassInfo
 	classflags		CFL_BLOODYMELEE
 	rageSoundOverride 	"sound/chars/firaxa/misc/attack3.wav"
 	bargeSoundOverride 	"sound/chars/firaxa/misc/pain75.wav"
-	special1		EAS_HI_BARGE
-	special2		EAS_HI_FURY
+	special2		EAS_HI_BARGE
+	special1		EAS_HI_FURY
 	resource		RESOURCE_RAGE
 }
 
-description	"Agressive Selkath
-Class: Wookiee
+description	"Agressive Selkath [Wookiee]
+
 ^3Weaponry:
 - Selkath Claws (Very sharp...)
 
 ^5Attributes:
 - Selkath Strength (3)
-- Shoulder Barge [CS1]
-- Selkath Fury (2) [CS2]
+- Selkath Fury (2) ^3[CS1]
+- Shoulder Barge ^3[CS2]
 - Heal (3)
 - Rally
 - Underwater Breathing

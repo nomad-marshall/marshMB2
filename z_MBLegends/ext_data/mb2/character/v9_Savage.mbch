@@ -21,6 +21,8 @@ ClassInfo
 	ASmultiplier		.95
 	CSmultiplier	1.05
 	saberThrowDamage	70
+ saberDamageStyle SS_STAFF,280|SS_STRONG,320
+	rankDmgGiven 1.5 
 
 	forceregen			0.90
  resource RESOURCE_FORCE
@@ -29,10 +31,11 @@ ClassInfo
 
 	skillTimerMod		1.25
 
-	//special1	EAS_FP_SABERTHROW
-	special2 EAS_MELEE
-	special3	EAS_FP_REPULSE	
-	special4	EAS_HI_BARGE
+	special1	EAS_FP_SABERTHROW
+ meleeSpecial1 EAS_FP_REPULSE
+	special2 EAS_HI_BARGE
+
+	special4	EAS_FP_RAGE
 	
  //runForward BOTH_WOOKIEE_RAGE_RUN
 	//runForward BOTH_SABERSTAFF_RUN
@@ -53,9 +56,6 @@ ClassInfo
 	mbPoints			36
 	
 	saberMaxChain	 5
-
-	damageGiven		1
-	rankDmgGiven 1.5 
 	
 	maxhealth		150	
 	rankHealth 200,250,300
@@ -99,17 +99,19 @@ ClassInfo
 	c_att_skill_4		MB_ATT_SS_REDSTYLE
 	c_att_names_4		"Red Saber Style"
 	c_att_ranks_4		6
+ c_att_descs_4  "38% less DMG"
 	
 	c_att_skill_5		MB_ATT_DMG_GIVEN_MULTIPLIER
 	c_att_names_5		"DMG Given (150%)"
-	c_att_ranks_5		4
-	c_att_descs_5 		"Does not affect Saber Throw"
+	c_att_ranks_5	 2
+ c_att_descs_5  "Does not affect Saber"
+
 	c_att_skill_6		MB_ATT_FP_PUSH
 	c_att_names_6		"Force Push"
 	c_att_ranks_6		0,3,4
 
 	c_att_skill_7		MB_ATT_FP_GRIP
-	c_att_names_7		"Force Grip"
+	c_att_names_7		"Force Grip ^3[CS3]"
 	c_att_ranks_7		1,2,3
 
 	c_att_skill_8		MB_ATT_POWER
@@ -136,19 +138,20 @@ A large melee bruiser that wields a high-powered, long-reaching staff Lightsaber
 ^2Weaponry:
 - Melee
 - Lightsaber (Staff)
--- Saber Deflect (2)
+-- Blaster Deflect (2)
 -- Chain Limit: 5
--- 50% more reach
+-- 43% more reach
+-- 7% more DMG
 -- 115% more KB
 -- EX Saber Throw (2) ^3[CS1]
 --- 133% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (2)
 - Push (1) 
-- Dark Rage (3)
-- Repulse ^3[CS3 Melee]
+- Dark Rage (3) ^3[CS4]
+- Repulse ^3[CS1 Melee]
 
 ^8Attributes:
 - 25% slower skill CD
@@ -160,4 +163,4 @@ A large melee bruiser that wields a high-powered, long-reaching staff Lightsaber
 - Fury (1)
 
 ^3Abilities:
-- Reek Charge (Shoulder Barge) ^3[CS4 Melee]"
+- Reek Charge (Shoulder Barge) ^3[CS2 Melee]"

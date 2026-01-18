@@ -5,18 +5,22 @@ electrostaff_hondo_leg
 	saberType	SABER_STAFF
 	saberModel	"models/weapons2/electrostaff/electrostaff_purp.glm"
 	saberColor		purple
-	saberLength	    14
+ knockbackScale 0.03
+	saberLength	30
+ saberLength2 30
+ saberLength3 30
+ saberRadius 3
+	numBlades	3
 	twohanded		1
 	throwable		0
 	onInWater		1
 	trailStyle		2
- 	noblade			1
+ noblade			1
 	damageScale		0.4
 	bounceonwalls 	0
 	disarmable		0
 	blasterBlocking 0
 	noManualDeactivate		1
-    noCartwheels     1
 	noFlips 1
 	bladeEffect		"electrostaff/energyblade.efx"
 	blade2Effect		"electrostaff/energyblade.efx"
@@ -68,8 +72,9 @@ Cutlass_legends
 	soundLoop	"s/w/shwartz/saberhum1.wav"
 	soundOff		"s/w/shwartz/saberhup3.mp3"
 	saberModel	"models/weapons2/sabcut_if/sab1.glm"
+ knockbackScale 0.18
 	saberLength	26
-	saberRadius	2
+	saberRadius	3
 	throwable		0
 	disarmable	1
 	notInMP		0
@@ -107,9 +112,8 @@ Cutlass_legends
 	drawAnim BOTH_PULL_IMPALE_STAB
 	readyAnim BOTH_DESANN_STANCE 
 	readyAnimOnlyTorso 1
-	jumpAtkFwdMove LS_A1_SPECIAL
-	jumpAtkLeftMove LS_NONE
-	jumpAtkRightMove LS_NONE
+	jumpAtkFwdMove LS_PURPLE_DFA
+ lungeAtkMove LS_PULL_ATTACK_STAB
 	g2MarksShader "gfx/damage/bloodcutmark"
 	g2WeaponMarkShader "gfx/effects/bloodsplat"
 	blockEffect	"melee_weap/block.efx"
@@ -125,9 +129,11 @@ JawaBaton_legends
 	soundOn		"sound/weapons/detpack/select.mp3"
 	soundLoop	"sound/weapons/baton/idle.wav"
 	soundOff	"sound/weapons/detpack/select.mp3"
-	saberLength	22
+	saberLength	24
 	saberRadius	8
 	throwable	0
+ blocking 0
+ blasterblocking 0
 	noWallMarks	1
 	noDlight	1
 	noBlade		1
@@ -140,12 +146,11 @@ JawaBaton_legends
 	noManualDeactivate	1
 	noClashFlare 		1
 	noCartwheels 1
-	disarmable 0
+	disarmable 1
 	useGoreConfig 	1
 	useGoreConfig2 	1
 	noDismemberment 1
 	noBladeEffects	1
-	jumpAtkFwdMove  LS_KICK_F_AIR
 	g2MarksShader "gfx/damage/bloodcutmark"
 	g2WeaponMarkShader "gfx/effects/bloodsplat"
 	spinsound	"s/w/t/swing3.wav"
@@ -164,9 +169,12 @@ JawaBaton_legends
 	bounceSound1	"s/w/h/bounce1.mp3"	
 	bounceSound2	"s/w/h/bounce2.mp3"
 	bounceSound3	"s/w/h/bounce3.mp3"
-
 	blockEffect	"melee_weap/block.efx"
 	hitOtherEffect	"melee_weap/other.efx"
+	jumpAtkRightMove LS_NONE
+	jumpAtkLeftMove LS_NONE
+	jumpAtkFwdMove 	 LS_NONE
+	lungeAtkMove LS_NONE
 }
 
 truncheon_legends
@@ -201,7 +209,8 @@ truncheon_legends
 	block2Sound3	"s/w/c/block3.mp3"
 	numBlades	1
 	saberLength	    28
-	saberRadius		2
+ knockbackScale .2
+	saberRadius		3
 	noBlade			1
 	noIdleEffect	1
 	noWallMarks		1
@@ -258,6 +267,7 @@ a180_saber_legends
 	block2Sound3	"s/w/c/block3.mp3"
 	numBlades	1
 	saberLength	    28
+ knockbackScale .1
 	saberRadius		3
 	noBlade			1
 	noIdleEffect	1
@@ -904,7 +914,7 @@ r2_saw_leg
 	soundLoop	"sound/weapons/chainsaw/saberhum1.mp3"
 	soundOff	none
 
-	spinsound	"sound/weapons/chainsaw/saberhup9.mp3"
+	spinsound	null
 	swingSound1	"sound/weapons/chainsaw/saberhup8.mp3"
 	swingSound2	"sound/weapons/chainsaw/saberhup7.mp3"
 	swingSound3	"sound/weapons/chainsaw/saberhup6.mp3"
@@ -924,7 +934,7 @@ r2_saw_leg
 
 	numBlades	1
 	saberLength	20
-	saberRadius	3
+	saberRadius	5
 	animSpeedScale 1
 	blasterblocking		0
 	throwable	0

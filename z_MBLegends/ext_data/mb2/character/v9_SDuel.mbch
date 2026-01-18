@@ -3,41 +3,51 @@
 ClassInfo
 {
 	name				"v9_SDuel"
-	weapons				WP_MELEE|WP_SABER
-	attributes			MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,1|MB_ATT_DASH,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3
-	saberstyle			SS_MEDIUM
-	forcepowers 		FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_PUSH,2|FP_PULL,1|FP_LIGHTNING,1|FP_SEE,2|FP_GRIP,2
-	maxhealth			130
-	forcepool 			110
-	forceregen   		1.04
-	speed				1.04
 	MBClass				MB_CLASS_SITH
 	classNumberLimit	1
+
+	weapons				WP_MELEE|WP_SABER
+
+	attributes			MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,1|MB_ATT_DASH,2|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_HEALING,1
+
+	forcepowers 		FP_SABER_OFFENSE,3|FP_LEVITATION,2|FP_PUSH,2|FP_PULL,1|FP_LIGHTNING,1|FP_SEE,2|FP_GRIP,2
+
+	maxhealth			135
+	forcepool 		110
+	forceregen  1.04
 	resource RESOURCE_FORCE
-	uioverlay "gfx/icons/frontline"
-	
+
+	speed				1.04
+
 	blockRegenAmount 4
 	blockRegenRate 250
 	blockRegenCap 100
-	
+	saberstyle			SS_MEDIUM
 	APmultiplier		1.25
 	BPmultiplier		1.25
-	ASmultiplier 		1.1
-	CSmultiplier 		1.2
-	saberDamage 150
-	saberSpecialDamage 2
+	ASmultiplier 		1.15
+	CSmultiplier 		1.15
+	saberDamage 160
+	saberSpecialDamage 2.5
 	saberThrowDamage 50	
+	rankSaberMaxChain 5
+
 	classflags CFL_NOPICKUPS
+
 	bowAnim 		BOTH_CROUCH3
+ gloatAnim BOTH_HEADSHAKE
+
 	special2		EAS_HI_DASH
 	//special3 	
 	//special4 
+
 	modelscale		1.067
-	model		"dooku"
+	uioverlay "gfx/icons/frontline"
+	model	"dooku"
 	skin		"default"
 	uishader	"models/players/dooku/mb2_icon_default"
 	
-	model_1 		"dooku"
+	model_1 "dooku"
 	skin_1		"nocape"
 	uishader_1 	"models/players/dooku/mb2_icon_nocape"
 	
@@ -45,11 +55,11 @@ ClassInfo
 	skin_2 		"default"
 	uishader_2	"models/players/dooku_dr/mb2_icon_default"
 	
-	model_3		"dooku_pyjama"
+	model_3	"dooku_pyjama"
 	skin_3		"default"
 	uishader_3	 "models/players/dooku_pyjama/mb2_icon_default"
 	
-	model_4		"darthkrayt2"
+	model_4	"darthkrayt2"
 	skin_4		"default"
 	uishader_4	"models/players/darthkrayt2/mb2_icon_default"
 
@@ -59,30 +69,27 @@ ClassInfo
 	saber1_1		saber_asharad
 	sabercolor_1	0
 	
-	rankSaberMaxChain 5
-	
-	
 	isCustomBuild		1
 	mbPoints			2
 	
-	
 	c_att_skill_0	MB_ATT_SABER_COMBO
 	c_att_names_0	"EX Saber Training"
-	c_att_ranks_0	1,1
+	c_att_ranks_0	2,0
 	c_att_descs_0 "Combo in any direction"
 	c_att_skill_1	MB_ATT_SABER_MAXCHAIN
-	c_att_names_1	"Saber Chain Limit"
+	c_att_names_1	"Saber Chain Limit (5)"
 	c_att_ranks_1	2
-	c_att_descs_1 "Increase max Chains to 5"
 	
 	c_att_skill_2	MB_ATT_SABER_FAST
 	c_att_names_2	"Fast Saber Styles"
 	c_att_ranks_2	0,0,0
-	c_att_descs_2 "150% more special DMG"
+	c_att_descs_2 "Blue, Cyan, both
+33% more DMG, 166% more Saber special DMG"
 	c_att_skill_3	MB_ATT_SABER_STRONG
 	c_att_names_3	"Strong Saber Styles"
 	c_att_ranks_3	0,0,0
-	c_att_descs_3 "71/62% less Red/Purple DMG, 42/25% less special DMG"
+	c_att_descs_3 "Red, Purple, both 
+69/60% less DMG, 38/20% less Saber special DMG"
 }
 
 description	"Sith Duelist [Sith]
@@ -92,10 +99,12 @@ A master Saberist with unmatched dueling skills. Regains BP upon defeating enemi
 ^2Weaponry:
 - Melee
 - Lightsaber (Yellow)
--- Saber Defense/Deflect (3)
+-- Saber Defense (3)
 --- BP Regen: 4/.25s
 -- Blaster Defense (2)
--- 37% less Yellow DMG
+-- Blaster Deflect (3)
+-- 33% less Yellow DMG
+-- 200% special DMG mult
 -- Saber Throw ^3[CS1]
 --- 66% more DMG
 -- Slap ^3[GB]
@@ -109,6 +118,7 @@ A master Saberist with unmatched dueling skills. Regains BP upon defeating enemi
 - Grip (2) ^3[CS3]
 
 ^8Attributes:
+- Healing (1)
 - Force Block (3)
 - Force Focus (1)
 

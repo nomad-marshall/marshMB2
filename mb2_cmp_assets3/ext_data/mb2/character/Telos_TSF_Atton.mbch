@@ -48,9 +48,8 @@ WeaponInfo0
 	AltFlashSound0		"sound/weapons/kotor/fire_power1.mp3"
 }
 
-description	"Atton Rand - The Fool
+description	"Atton Rand - The Fool [Scoundrel / Jedi Sentinel]
 
-Class: Scoundrel / Jedi Sentinel
 
 Weaponry:
 Atton's Dual Lightsabers

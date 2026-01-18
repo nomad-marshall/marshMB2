@@ -9,40 +9,42 @@ ClassInfo
 	weapons	WP_MELEE|WP_SABER
 	
 	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,3|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3
-	
-	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
+
 	forcepowers	FP_LEVITATION,2|FP_PUSH,3|FP_SEE,3|FP_SABER_OFFENSE,3
-	
+
+	speed			0.94
 	maxhealth	150
-	
 	forcepool	140
 	rankForcePool 185
 	
 	forceregen  .85
 	rankforceregen 1
+	
+	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
+	saberDamageStyle SS_FAST,130|SS_TAVION,130
 	saberThrowDamage 40
 
 	blockRegenAmount 5
 	blockRegenRate 400
 
 	APmultiplier	0.8
-	BPmultiplier	1.6
-	CSmultiplier  1.05
+ rankAP 1
+	BPmultiplier	1.4
+ rankBP 1.6
+	CSmultiplier 1.05
 	ASmultiplier	1.05
+
 	classflags CFL_NOPICKUPS
-	speed			0.94
-	
+
 	//special1 EAS_FP_SABERTHROW game chooses spec1 if not defined, leave as is
-	special2 EAS_MELEE
+	special2	EAS_NONE
 	//special3 EAS_FP_TELEPATHY
-	//special4 EAS_FP_PROTECT
+	//special4 
 	
-	//tauntAnim   BOTH_DESANN_STANCE
 	flourishAnim	BOTH_STAND5TOSTAND8
-	gloatAnim	BOTH_MINDTRICK1
-	//saberStanceAnim BOTH_SABER_OBIWAN_STANCE
+ gloatAnim	BOTH_MINDTRICK1
 	
-	saber1		saber_obi_wan_legends3
+	saber1		 saber_obi_wan_legends3
 	sabercolor	4
 	
 	saber1_1		saber_obi_wan_legends
@@ -51,6 +53,7 @@ ClassInfo
 	saber1_2		saber_obi_wan_legends4
 	sabercolor_2 	0.58
 	modelscale	1.01
+
 	uioverlay "gfx/icons/support"
 	model		"obiwan_ep3"
 	skin			"default"
@@ -123,30 +126,41 @@ ClassInfo
 	customSpecIcon_2 "gfx/menus/alpha/icon_stats_movespeed"
 	customSpecDesc_2 "Offensive/mobility skills"
 	
-	c_att_skill_0		MB_ATT_FP_TELEPATHY
-	c_att_names_0		"Force Mind Trick ^3[CS4]"
+	c_att_skill_0		MB_ATT_BP_MULTIPLIER
+	c_att_names_0		"Saber BP (160%)"
 	c_att_ranks_0		0,0,0
+	c_att_ranks_0		"140% default"
+
+ c_att_skill_1		MB_ATT_FP_TELEPATHY
+	c_att_names_1		"Force Mind Trick ^3[CS4]"
+	c_att_ranks_1		0,0,0
 	
-	c_att_skill_1		MB_ATT_FP_PROTECT
-	c_att_names_1		"Force Protect"
-	c_att_ranks_1		0
-		
-	c_att_skill_2		MB_ATT_POWER
-	c_att_names_2		"Extra Force Pool (185)"
+	c_att_skill_2		MB_ATT_FP_PROTECT
+	c_att_names_2		"Force Protect"
 	c_att_ranks_2		0
+		
+	c_att_skill_3		MB_ATT_POWER
+	c_att_names_3		"Extra Force Pool (185)"
+	c_att_ranks_3		0
 	
+
+
+ c_att_skill_15		MB_ATT_AP_MULTIPLIER
+	c_att_names_15		"Saber AP (100%)"
+	c_att_ranks_15		0,0,0
+ c_att_descs_15	 "80% default"
+
+	c_att_skill_16	MB_ATT_FP_LEVITATION
+	c_att_names_16	"Force Jump"
+	c_att_ranks_16	0,0,0
 	
-	c_att_skill_15	MB_ATT_FP_LEVITATION
-	c_att_names_15	"Force Jump"
-	c_att_ranks_15	0,0,0
-	
-	c_att_skill_16	MB_ATT_FP_SPEED
-	c_att_names_16	"Force Speed ^3[CS3]"
-	c_att_ranks_16	0
-	
-	c_att_skill_17	MB_ATT_REGEN
-	c_att_names_17	"Force Regen (100%)"
+	c_att_skill_17	MB_ATT_FP_SPEED
+	c_att_names_17	"Force Speed ^3[CS3]"
 	c_att_ranks_17	0
+	
+	c_att_skill_18	MB_ATT_REGEN
+	c_att_names_18	"Force Regen (100%)"
+	c_att_ranks_18	0
 }
 
 description	"Obi-Wan Kenobi [Jedi]
@@ -158,10 +172,11 @@ A seasoned Jedi with exceptional Saber skills and high BP regen. Choice of old a
 - Lightsaber (Yellow/Cyan/Blue)
 -- Saber/Blaster Defense (3)
 --- BP Regen: 5/.4s to 100
--- Saber Deflect (3)
+-- Blaster Deflect (3)
+-- 8% more Cyan/Blue DMG
 -- Saber Throw ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
  
 ^5Force Powers:
 - Jump (2)

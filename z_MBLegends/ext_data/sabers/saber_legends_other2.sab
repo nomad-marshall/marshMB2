@@ -167,8 +167,6 @@ vibrostaff_legends
 	blockEffect	"melee_weap/block.efx"
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
-	
-
 }
 
 arc_shiv_legends
@@ -183,7 +181,7 @@ arc_shiv_legends
 	saberLength		17
 	saberLength2	17
 	saberRadius	4
-	knockbackScale 1.05
+	knockbackScale 0.75
 	noDlight	1
 	noBlade		1
 	noIdleEffect	1
@@ -197,14 +195,12 @@ arc_shiv_legends
 	idleInBack	1
 	boltToWrist	1
 	alwaysBlock	1
-
 	throwable	0
 	noManualDeactivate 	1
 	disarmable		0
 	damageScale		0.8
-    noCartwheels     1
+ noCartwheels     1
 	spinsound	"s/w/t/swing3.wav"
-
 	fallSound1	"s/w/v/fall1.mp3"
 	fallSound2	"s/w/v/fall1.mp3"
 	fallSound3	"s/w/v/fall1.mp3"
@@ -214,15 +210,12 @@ arc_shiv_legends
 	hitSound1	"sound/css_wep/knife_stab.wav"
 	hitSound2	"sound/css_wep/knife_stab.wav"
 	hitSound3	"sound/css_wep/knife_stab.wav"
-
 	blockSound1	"s/w/v/hit1.mp3"
 	blockSound2	"s/w/v/hit2.mp3"
 	blockSound3	"s/w/v/hit3.mp3"
-
 	bounceSound1	"s/w/v/hit3.mp3"	
 	bounceSound2	"s/w/v/hit3.mp3"
 	bounceSound3	"s/w/v/hit3.mp3"
-	
 	blockEffect	"melee_weap/block.efx"
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
@@ -231,7 +224,6 @@ arc_shiv_legends
 	hitOtherEffect2	"melee_weap/other.efx"
 	g2MarksShader		"gfx/damage/bloodcutmark"
 	g2WeaponMarkShader	"gfx/effects/bloodsplat"
-	
 	useGoreConfig	1
 	useGoreConfig2	1
 	putawayAnim			BOTH_MELEE1
@@ -251,6 +243,7 @@ bones_shiv_legends
 	soundOff	"s/w/shwartz/saberhup3.mp3"
 	numblades	1
 	saberLength	20
+knockbackScale 0.2
 	noDlight	1
 	noBlade		1
 	noIdleEffect	1
@@ -502,10 +495,10 @@ ryyk_A_legends
 	soundOff	"s/w/t/saberoff.wav"
 	saberLength	53
 	saberRadius	3
-	saberColor		random
+ knockbackScale .7
 	noCartwheels 1
 	oninwater	1
-    noFlips 1
+ noFlips 1
 	throwable	0
 	maxChain	3
 	notInMP		0
@@ -523,7 +516,7 @@ ryyk_A_legends
 	splashKnockback		110
 	blasterblocking		0
 	useGoreConfig 	1
-    useGoreConfig2 	1
+ useGoreConfig2 	1
 	swingSound1	"sound/weapons/blade/swing4.mp3"
 	swingSound2	"sound/weapons/blade/swing3.mp3"
 	swingSound3	"sound/weapons/blade/swing2.mp3"
@@ -545,8 +538,8 @@ ryyk_A_legends
 	blockEffect	"melee_weap/block.efx"
 	hitPersonEffect "melee_weap/attack.efx"
 	hitOtherEffect	"melee_weap/other.efx"
-	jumpAtkFwdMove LS_A_JUMP_T__B_
-	lungeAtkMove LS_SPINATTACK_ALORA
+	jumpAtkFwdMove LS_SPINATTACK_ALORA
+	lungeAtkMove LS_PULL_ATTACK_SWING
 	jumpAtkRightMove LS_DUAL_LR
 	jumpAtkLeftMove	LS_SPINATTACK_DUAL
 	jumpAtkBackMove	LS_STAFF_SOULCAL

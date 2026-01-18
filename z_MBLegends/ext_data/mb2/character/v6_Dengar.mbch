@@ -4,25 +4,30 @@ ClassInfo
 	name  "v6_Dengar"
 	MBClass 	MB_CLASS_BOUNTY_HUNTER
 	classNumberLimit 1
+
 	weapons   WP_MELEE|WP_CONC_NADE|WP_SABER|WP_MGL
-	attributes  	MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DEXTERITY,1|MB_ATT_MGL,1|MB_ATT_STICKY_BOMBS,6|MB_ATT_MAGNETIC_PLATING|MB_ATT_ARC_RIFLE_SCOPE|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_MICRO_GRENADES,2|MB_ATT_HEALING,1|MB_ATT_STAMINA,1|MB_ATT_TRACKING_BEACON|MB_ATT_WOOKIE_STRENGTH,1
+
+	attributes  	MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DEXTERITY,1|MB_ATT_MGL,1|MB_ATT_STICKY_BOMBS,6|MB_ATT_BESKAR,1|MB_ATT_ARC_RIFLE_SCOPE|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_MICRO_GRENADES,2|MB_ATT_HEALING,2|MB_ATT_STAMINA,1|MB_ATT_TRACKING_BEACON|MB_ATT_WOOKIE_STRENGTH,1
+
 	basespeed 210
-	special1 EAS_HI_SPRINT
-	special2	EAS_HI_KICK
+
 	resource RESOURCE_STAMINA
 	forcepool 70
 	forceregen 1
 	maxhealth 120
 	maxarmor  120
 	knockbackTaken  .9
+ rateOfFire_Melee .8
 	classFlags CFL_STRONGAGAINSTPHYSICAL
+
 	WP_CloneRifleFlags HELD_ALTRELOAD
 	WP_MeleeFlags HELD_SPEED
 	WP_SaberFlags HELD_FLAME
-	WP_MGLFlags HELD_ALTRELOAD
+ WP_StickyLauncherFlags   HELD_ALTRELOAD
+ //WP_MGLFlags 
 	WP_DCCarbineFlags	HELD_ALTRELOAD|HELD_PULSE|HELD_KNOCKBACK|HELD_STUN
 	
-	rateOfFire_Melee .8
+	
 	saberMaxChain 1
 	saber1 fblade
 	saberStyle SS_TAVION
@@ -36,12 +41,16 @@ ClassInfo
 	gloatAnim BOTH_HAN_TAUNT
 	flourishAnim BOTH_STAND5TOAIM
 	bowAnim BOTH_MAND_FLAME_ATTACK
+
+	special1 EAS_HI_SPRINT
+	special2	EAS_HI_KICK
 	modelscale	1.01
 	model	"dengar"
 	skin		"default"
 	uishader	"models/players/dengar/mb2_icon_default"
 	uioverlay_l "gfx/icons/scout"
 	uioverlay_r "gfx/icons/spec_infantry"
+
 	isCustomBuild	1
 	mbPoints		2
 	
@@ -52,8 +61,8 @@ ClassInfo
 	c_att_skill_1	MB_ATT_DC_CARBINE
 	c_att_names_1	"Modded Riot Gun (DC Carbine)"
 	c_att_ranks_1	1,0
-	c_att_descs_1 "Electrifies/pushes/staggers on hit, 400% more DMG/FP DMG,
-100% slower RoF, 20% less velocity, 30% slower mag reload, Sec. only"
+	c_att_descs_1 "Shocks/pushes/staggers on hit, 400% more DMG/FP DMG,
+100% slower RoF, 20% less velocity, 30% slower mag reload, Sec only"
 
 	c_att_skill_2	MB_ATT_CLONERIFLE
 	c_att_names_2	"DLT-19 Blaster Rifle (CR)"
@@ -63,7 +72,7 @@ ClassInfo
 	c_att_skill_3	MB_ATT_WESTARM5
 	c_att_names_3	"Valken-38x Blaster Rifle (M5)"
 	c_att_ranks_3	1,0
-	c_att_descs_3 "50% more DMG/FP DMG, 100% slower RoF, Sec. fire: Scope"
+	c_att_descs_3 "50% more DMG/FP DMG, 100% slower RoF, Sec fire: Scope"
 }
 
 WeaponInfo0{
@@ -165,15 +174,15 @@ WeaponInfo3{
 	MuzzleEffect null
 	MissileEffect "stone/missile1"
 	FlashSound0 	"sound/weapons/stone/fire.mp3"
-	rateMod 3
-	clipSize 18
-	customAmmo -1
+	rateMod 1
+	clipSize 3
+	customAmmo 15
 	altFireEnabled 0
 	hasAnimOverrides 1
 	animReadyRun 	BOTH_THERMAL_READY2
 	animReady 	BOTH_THERMAL_READY2
 	animReadyWalk BOTH_THERMAL_READY2
-	animReadyNoAmmo BOTH_THERMAL_THROW2
+	animReadyNoAmmo BOTH_THERMAL_READY2
 	animAttackRun 	  BOTH_THERMAL_THROW2
 	animAttack 	  BOTH_THERMAL_THROW2
 	animAttackWalk BOTH_THERMAL_THROW2
@@ -250,12 +259,11 @@ A ruthless assault class who likes to bring his bounties in cold.
 -- 33% more radius
 -- Slap ^3[GB]
 - Smoke Grenades (2) (Conc Grenades)
--- Obscures vision
+-- Obscures vision on det
 -- 40% faster RoF
 -- 99.9% less DMG
 - Sticky Bombs (6) (MGL 1)
--- 200% slower RoF
--- Prim. only
+-- Prim only
 -- Mag reload
 
 ^8Attributes:
@@ -263,13 +271,13 @@ A ruthless assault class who likes to bring his bounties in cold.
 - Strength (1)
 - Stamina (1)
 - Dexterity (1)
+- Beskar (1)
 - Blast Armor
-- Magnetic Plating
 - Physical Resist
-- Healing (1)
 - Armor Regen (1)
+- Healing (2)
 - Tracking Beacon
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Gun Kick ^3[CS2 Gun]"
+- Gunkick ^3[CS2]"

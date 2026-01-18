@@ -11,7 +11,7 @@ ClassInfo
 	attributes	MB_ATT_CLONE_PISTOL,2|MB_ATT_FRAGS,1|MB_ATT_PULSE_GRENADES,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_HEALING,1|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,3|MB_ATT_GRAPPLE_HOOK,2|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_FLIPKICK,1|MB_ATT_TRACKING_BEACON|MB_ATT_TRACKING_DART,4|MB_ATT_EE4,2
 	
 	maxhealth	125
-	maxarmor		120
+	maxarmor		125
 	forcepool 	115
  forceRegen 1.15
 	resource		RESOURCE_STAMINA
@@ -27,7 +27,7 @@ ClassInfo
 	WP_ClonePistolFlags HELD_ALTRELOAD
 	WP_ProjFlags 	HELD_ALTRELOAD|HELD_PULSE
 
-	speed   1.09
+	speed   1.08
 	
 	modelscale  1.02
 	model	"clonerc2"
@@ -62,14 +62,12 @@ WeaponInfo1
 	NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
 	NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
 	Icon		"gfx/hud/w_icon_som3_rifle"
-	FlashSound0 "sound/weapons/dc17m/fire.wav"
-	altFlashSound0 "sound/weapons/dc17m/fire.wav"
+	FlashSound0 "sound/weapons/ee3/sniperfire.MP3"
+	altFlashSound0 "sound/weapons/ee3/sniperfire.MP3"
 	WeaponName			"773 Firepuncher Rifle Pulse Config"  
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot10B"	
-	
-	
-	CustomAmmo 	24
+	CustomAmmo 	25
 	fpmult	1.1
 	velocityMod 1.1
 	damageMod 1.1
@@ -82,7 +80,7 @@ WeaponInfo1
 	animAttackRun BOTH_AMBAN_AIM_ATTACK
 	animAttack BOTH_AMBAN_AIM_ATTACK
 	animAttackWalk BOTH_AMBAN_AIM_ATTACK
-	reloadTimeModifier 1.75
+	reloadTimeModifier 1.7
 }
 
 WeaponInfo2
@@ -92,23 +90,21 @@ WeaponInfo2
 	NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
 	NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
 	Icon		"gfx/hud/w_icon_som3_rifle"
-	FlashSound0 "sound/weapons/dc17m/fire.wav"
-	altFlashSound0 "sound/weapons/dc17m/fire.wav"
+	FlashSound0 "sound/weapons/ee3/sniperfire.MP3"
+	altFlashSound0 "sound/weapons/ee3/sniperfire.MP3"
 	WeaponName		"773 Firepuncher Rifle Standard Config"  
 	MuzzleEffect	"Blaster/MuzzleFlash01B"
 	altMuzzleEffect "Blaster/Shot10B"
 	MissileEffect	"Blaster/Shot10B"
 	altMissileEffect	"Blaster/Shot10B"
 	Missile3Effect "Blaster/Shot10B"
-	
-	
-	rateMod 1.85
 	clipSize 40
 	customAmmo 960
+	rateMod 1.8
 	velocityMod 1.827
-	damageMod 1.4
-	fpMult 1.4
-	reloadTimeModifier 1.75
+	damageMod 1.6
+	fpMult 1.6
+	reloadTimeModifier 1.7
 	hasAnimOverrides 1
 	animReadyRun BOTH_AMBAN_READY
 	animReady BOTH_AMBAN_READY
@@ -126,8 +122,8 @@ WeaponInfo3
 	NewWorldModel	"models/weapons2/som3_rifle/som3_rifle_w.glm"
 	NewViewModel	"models/weapons2/som3_rifle/som3_rifle.md3"
 	Icon		"gfx/hud/w_icon_som3_rifle"
-	FlashSound0  "sound/weapons/dc17m/fire.wav"
-	altFlashSound0 "sound/weapons/dc17m/fire.wav"
+	FlashSound0 "sound/weapons/ee3/sniperfire.MP3"
+	altFlashSound0 "sound/weapons/ee3/sniperfire.MP3"
 	WeaponName			"773 Firepuncher Rifle Ricochet Config"  
 	altMuzzleEffect	"Blaster/MuzzleFlash01B"
 	altMissileEffect	"Blaster/Shot10B"	
@@ -137,7 +133,7 @@ WeaponInfo3
 	velocityMod 1.827
 	damageMod 3.5
 	fpmult 3.5
-	reloadTimeModifier 1.75
+	reloadTimeModifier 1.7
 	hasAnimOverrides 1
 	animReadyRun BOTH_DC15_IDLE
 	animReady BOTH_DC15_IDLE
@@ -149,7 +145,7 @@ WeaponInfo3
 	animCharge BOTH_AMBAN_READY
 	selectSound "sound/weapons/silencedpistol/select.wav"
  //FPChargeMult 1.5
-//FPBlockMinMult
+ //FPBlockMinMult
 }
 
 /* WeaponInfo4
@@ -192,21 +188,21 @@ A dexterous class with an all-in-one rifle.
 -- No Saber/Blaster Block
 -- 25% less DMG
 -- 60% less reach
--- Slap ^3[Gunbash]
+-- Slap ^3[GB]
 - 773 Firepuncher Rifle Ricochet Config (Clone Pistol 2)
 -- 250% more DMG/FP DMG
 -- 82% more velocity
--- 75% slower mag reload
--- Sec. only
+-- 70% slower mag reload
+-- Sec only
 - 773 Firepuncher Rifle Standard Config (EE-4 2)
--- 40% more DMG/FP DMG
+-- 60% more DMG/FP DMG
 -- 82% more velocity
--- 85% slower RoF
--- 75% slower mag reload
+-- 80% slower RoF
+-- 70% slower mag reload
 - 773 Firepuncher Rifle Pulse Config (Proj)
--- Electrifies targets
+-- Shocks on hit
 -- 10% more DMG/FP DMG/velocity
--- 75% slower mag reload
+-- 70% slower mag reload
 - Frag Grenade (1)
 - Pulse Grenades (2)
 

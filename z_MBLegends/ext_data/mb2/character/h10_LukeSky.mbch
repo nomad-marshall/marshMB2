@@ -3,41 +3,36 @@
 ClassInfo
 {
 	name				"h10_LukeSky"
-	weapons				WP_SABER|WP_MELEE
-	attributes			MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,3|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_LIGHTS_BEACON
-	saberstyle			SS_FAST|SS_MEDIUM|SS_STRONG
-	maxhealth		125
-	forcepool		130
-	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,2|FP_SEE,3|FP_SABERTHROW,2|FP_SPEED,1|FP_LIGHTNING,1
-	
 	MBClass			MB_CLASS_JEDI
+	classNumberLimit	1
+
+	weapons				WP_SABER|WP_MELEE
+
+	attributes			MB_ATT_DEFLECT,3|MB_ATT_FORCEBLOCK,2|MB_ATT_FORCEFOCUS,3|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_LIGHTS_BEACON
+
+	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,2|FP_SEE,3|FP_SABERTHROW,2|FP_SPEED,1|FP_LIGHTNING,1
+
+	speed      1.02
+	maxhealth		135
+	skilltimermod 	2
+	forcepool		130
+	forceregen 1.05
+
+	saberDamageStyle SS_FAST,130|SS_STRONG,280
+	saberstyle			SS_FAST|SS_MEDIUM|SS_STRONG
 	saberThrowDamage 40
 	BPmultiplier		1.3
-	APmultiplier     	1.0
+	APmultiplier  1.0
 	CSmultiplier		1.1
 	ASmultiplier		1.05
-	classflags CFL_NOPICKUPS
-	
 
-	special2	EAS_MELEE
+	special2	EAS_NONE
 	special3	EAS_FP_SPEED
 	special4 EAS_FP_LIGHTNING
 	
-	classNumberLimit	1
-	modelscale		1
-	speed          	1.02
-	forceregen      1.05
-	
-	skilltimermod 	2
-	
-	uioverlay "gfx/icons/support"
-	
-	//WalkBackward	BOTH_WALK2
-	//WalkForward BOTH_WALK2
-	//flourishAnim BOTH_LK_S_DL_S_SB_1_W
-	
-	//respawncustomtime  90000	
-		
+	classflags CFL_NOPICKUPS
+
+uioverlay "gfx/icons/support"
 model        "luke_rotj"
 skin         "default"
 uishader     "models/players/luke_rotj/mb2_icon_default"
@@ -106,13 +101,13 @@ model_16     "luke_rotj"
 skin_16      "tm_robedown"
 uishader_16  "models/players/luke_rotj/mb2_icon_tm_robedown"
 
-model_17     "luke_tfa"
-skin_17      "cloak"
-uishader_17  "models/players/luke_tfa/mb2_icon_cloak"
+model_17     "luke_bobf"
+skin_17      "grogu"
+uishader_17  "models/players/luke_bobf/mb2_icon_grogu"
 
-model_18     "luke_bobf"
-skin_18      "grogu"
-uishader_18  "models/players/luke_bobf/mb2_icon_grogu"
+model_18     "luke_tfa"
+skin_18      "cloak"
+uishader_18  "models/players/luke_tfa/mb2_icon_cloak"
 
 model_19     "luke_de"
 skin_19      "default"
@@ -174,11 +169,13 @@ A defensive Jedi supplemented with a light side variant of Force Lightning, and 
 ^2Weaponry:
 - Melee
 - Lightsaber (Yellow/Red/Blue)
--- Saber Defense/Deflect (3)
+-- Saber Defense (3)
 -- Blaster Defense (2)
+-- Blaster Deflect (3)
+-- 46% less Red/8% more Blue DMG
 -- EX Saber Throw (2) ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^5Force Powers:
 - Jump (3)

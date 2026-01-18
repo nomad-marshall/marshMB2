@@ -4,10 +4,17 @@ Classinfo
 {
 	name		"v2_FlameTr"
 	MBclass		MB_CLASS_MANDALORIAN
+
 	classNumberLimit	2
 	extralives		1
+
 	weapons	WP_MELEE|WP_THROWER|WP_FIRE_NADE|WP_UGL|WP_DLT20A
+
+ WP_GrenadeLauncherFlags HELD_EXPLOSIVE
+ //WP_ThrowerFlags HELD_FLAME
+
 	attributes	MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ASSEMBLE,2|MB_ATT_DODGE,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DEXTERITY,1|MB_ATT_UGL,3|MB_ATT_DLT20A,2|MB_ATT_WRISTLASER
+
 	maxhealth	80
 	maxarmor		80
 
@@ -19,8 +26,8 @@ Classinfo
 	
 	special1	EAS_HI_DODGE
 	special2 EAS_HI_WRIST
-	special3	EAS_HI_SENTRY_GUN
-	special4 EAS_HI_MEDPAC
+	special4	EAS_HI_SENTRY_GUN
+	special3 EAS_HI_MEDPAC
 
 	holdables HI_MEDPAC|HI_SENTRY_GUN
 
@@ -78,13 +85,13 @@ animAttackRun BOTH_ATTACK3
 animAttack BOTH_ATTACK3
 animAttackWalk BOTH_ATTACK3
 altfireenabled 0
-velocityMod 0.77
-damageMod 1.5
+velocityMod 0.7
+damageMod 2
 }
 
 Description 	"Flame Trooper [Mandalorian]
 
-A 2-life class specializing in incendiary support.
+A 2-life class specializing in incendiary support. Launched Grenades deal bonus damage.
 
 ^2Weaponry:
 - Melee
@@ -93,13 +100,14 @@ A 2-life class specializing in incendiary support.
 - DLT-20A Blaster Rifle (2)
 - Fire Grenades (3)
 - Modified Grenade Launcher (UGL 3)
--- 50% more DMG
--- 23% less velocity
--- Prim. only
+-- Bonus explosive DMG on det
+-- 100% more DMG
+-- 30% less velocity
+-- Prim only
 
 ^6Inventory:
-- Assault Sentry ^3[CS3]
-- Medpac ^3[CS4]
+- Assault Sentry ^3[CS4]
+- Medpac ^3[CS3]
 
 ^8Attributes:
 - Reinforcement (1)

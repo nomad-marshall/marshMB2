@@ -5,17 +5,15 @@ ClassInfo
 	weapons			WP_MELEE|WP_SABER
 	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FP_SABER_DEFENSE,0|MB_ATT_GUN_DEFENSE,0|MB_ATT_DEFLECT,0|MB_ATT_SABER_MEDIUM,2
 
-	speed  1
-	modelscale	1
 	extralives	1
-	BPmultiplier    1
-	APmultiplier    1
 
 	MBClass			MB_CLASS_SITH
 	
 	forcepowers		FP_SABER_OFFENSE,3
 	classflags CFL_NOPICKUPS
-	special2 EAS_MELEE
+	special2 EAS_NONE
+
+ saberDamageStyle SS_STRONG,280|SS_DESANN,280|SS_FAST,130|SS_TAVION,130
 	
 	forcepool		100
 	rankForcepool 120
@@ -151,12 +149,14 @@ ClassInfo
 	c_att_skill_8	MB_ATT_SABER_FAST
 	c_att_names_8	"Fast Saber Styles"
 	c_att_ranks_8	4,0,2
- c_att_descs_8 "Blue, Cyan, both"
+ c_att_descs_8 "Blue, Cyan, both
+8% more DMG"
 	
 	c_att_skill_9	MB_ATT_SABER_STRONG
 	c_att_names_9	"Strong Saber Styles"
 	c_att_ranks_9	4,0,2
- c_att_descs_9 "Red, Purple, both"
+ c_att_descs_9 "Red, Purple, both
+46/30% less Red/Purple DMG"
 
 	c_att_skill_10	MB_ATT_FP_SABER_DEFENSE
 	c_att_names_10	"Saber Defense"
@@ -167,7 +167,7 @@ ClassInfo
 	c_att_ranks_11	8,8	
 	
 	c_att_skill_12	MB_ATT_DEFLECT
-	c_att_names_12	"Saber Deflect"
+	c_att_names_12	"Blaster Deflect"
 	c_att_ranks_12	4,4
 
 	c_att_skill_13	MB_ATT_FP_SABERTHROW
@@ -183,7 +183,7 @@ description	"Dark Acolyte [Sith]
 - Melee
 - Lightsaber (Yellow)
 -- Saber Throw ^3[CS1]
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 
 ^8Attributes:
 - Reinforcement (1)

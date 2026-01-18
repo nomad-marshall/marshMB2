@@ -11,34 +11,31 @@ ClassInfo
 	attributes			MB_ATT_BESKAR,2|MB_ATT_FP_SABER_DEFENSE,1|MB_ATT_JETPACK|MB_ATT_AMMO,3|MB_ATT_MANDO_PISTOL,3|MB_ATT_FUEL,2|MB_ATT_WRISTLASER,1|MB_ATT_ROCKET,1|MB_ATT_POISON_DART,3|MB_ATT_FUELREGEN,1|MB_ATT_BUNNY_HOP,1|MB_ATT_FRAGS,1|MB_ATT_FORCEBLOCK,1|MB_ATT_HEALING,1
 	
 	maxhealth		85
-	maxarmor			100
-	damageTaken		0.65
-	rateoffire	1
-	speed       	1
+	maxarmor			145
+	rateoffire_melee 0.95
 	
 	special1		EAS_HI_ROCKET
 	special2 	EAS_HI_WRIST
 	special3		EAS_HI_POISON
-	special4 	EAS_MELEE
 
 	resource			resource_fuel
 	forcepool 		35
 	
 	saber1			legends_darksaber
-	saberstyle  		SS_MEDIUM|SS_DESANN|SS_STRONG
+	saberstyle  	SS_MEDIUM|SS_DESANN
+saberDamageStyle SS_MEDIUM,200|SS_DESANN,240
+
 	forcepowers		FP_SABER_OFFENSE,1
 	APmultiplier		1.20
-	BPmultiplier 		1.1
-	saberDamage 		240
+	BPmultiplier 	1.1
+
 	
-	modelscale   1.01
+	modelscale  1.01
 	model		"BoKatan"
 	skin			"default"
 	uishader  	"models/players/BoKatan/mb2_icon_default"
 	uioverlay_r 	"gfx/icons/aerial"
 	uioverlay_l 	"gfx/icons/hybrid"
-	
-	//respawncustomtime  50000	
 }
 
 WeaponInfo0
@@ -53,12 +50,12 @@ WeaponInfo0
 
 WeaponInfo1
 {
-    WeaponToReplace		WP_MANDO_PISTOL       			
-    WeaponBasedOff		WP_MANDO_PISTOL      			
-    NewWorldModel		"models/weapons2/westar35/westar35.glm"  
-    NewViewModel		"models/weapons2/westar35/model.md3"
-    Icon				"gfx/hud/w_icon_westar35_dual"
-    WeaponName		"Dual WESTAR-35 Blaster Pistols"   
+ WeaponToReplace		WP_MANDO_PISTOL       			
+ WeaponBasedOff		WP_MANDO_PISTOL      			
+ NewWorldModel		"models/weapons2/westar35/westar35.glm"  
+ NewViewModel		"models/weapons2/westar35/model.md3"
+ Icon				"gfx/hud/w_icon_westar35_dual"
+ WeaponName		"Dual WESTAR-35 Blaster Pistols"   
 	MuzzleEffect		"Blaster/MuzzleFlash01Y"
 	AltMuzzleEffect	"Blaster/MuzzleFlash01Y"
 	MissileEffect		"Blaster/Shot02Y"
@@ -77,12 +74,13 @@ A speedy Jetpack user who wields a Saber and Dual Pistols. Surprisingly tanky.
 
 ^2Weaponry:
 - Melee
-- The Darksaber (Yellow/Red/Purple)
+-- 5% faster RoF
+- The Darksaber (Yellow/Purple)
 -- Saber Defense (1)
 -- No Blaster Block
 -- Blocking resists Force Powers
--- 53/40% less Red/Purple DMG
--- Slap ^3[CS4]
+-- 16/40% less Yellow/Purple DMG
+-- Slap ^3[GB]
 - Dual WESTAR-35 Blaster Pistols (3)
 -- 10% more FP DMG
 -- 10% slower RoF

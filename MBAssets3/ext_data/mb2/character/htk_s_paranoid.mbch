@@ -46,8 +46,8 @@ WeaponInfo0
 	firingAnim  	BOTH_MAND_PISTOL_ATTACK
 }
 
-description	"Paranoid Selkath
-Class: Mandalorian
+description	"Paranoid Selkath [Mandalorian]
+
 
 ^3Weaponry:
 - Sonic Pistol (1)

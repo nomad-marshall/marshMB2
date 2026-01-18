@@ -29,7 +29,7 @@ rankHack .84
 knockbackTaken .85
 rankROFMelee .7
 rankForcePool 145
-special2 EAS_MELEE
+special2 EAS_NONE
 modelscale 1.02
 uioverlay_l "gfx/icons/spec_infantry"
 uioverlay_r "gfx/icons/infantry"
@@ -91,11 +91,11 @@ c_att_ranks_16 0,0,0
 c_att_skill_17 MB_ATT_UGL
 c_att_names_17 "DC-17m Anti-Armor (UGL)"
 c_att_ranks_17 0,0
-c_att_descs_17 "25% slower RoF"
+c_att_descs_17 "55% less DMG, 25% slower RoF"
 c_att_skill_18 MB_ATT_MICRO_GRENADES
 c_att_names_18 "> DC-17m Rounds (6)"
 c_att_ranks_18 0
-c_att_descs_18 "No hand-throwing, 50% less DMG"
+c_att_descs_18 "No hand-throwing"
 c_att_skill_19 MB_ATT_DET_PACK
 c_att_names_19 "Det Packs"
 c_att_ranks_19 0,0,0
@@ -195,6 +195,7 @@ Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
 rateMod 1.25
+damageMod .45
 hasAnimOverrides 1
 animAttackWalk BOTH_ATTACK3
 }
@@ -212,7 +213,6 @@ altMissileMissEffect "wook_rocket/wall_impact"
 primfireenabled 0
 altFireEnabled 0
 customAmmo 6
-damageMod .5
 selectSound "sound/chars/clone_rc/misc/gasp.mp3"
 }
 WeaponInfo5{
@@ -264,8 +264,8 @@ Adaptable 2-lifes with staying power.
 -- 20% less DMG
 -- 57% less reach
 -- 33% more radius
--- Prim. only
--- Slap ^3[CS2]
+-- Prim only
+-- Slap ^3[GB]
 - DC-15s Side Arm Blaster (Pistol 1)
 -- 40% faster RoF
 -- 100% slower reload

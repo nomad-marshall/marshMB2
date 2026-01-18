@@ -2,62 +2,62 @@
 ClassInfo
 {
 	name 				 "h3_Cander"
+	MBClass			MB_CLASS_CLONETROOPER
+	classNumberLimit  1
+
 	weapons 			WP_MELEE|WP_SABER
-	saber1				"vibroblade_canderous_legends"
+
+	WP_CloneRifleFlags	HELD_SLOW
+
 	attributes  		MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_DEXTERITY,1|MB_ATT_WOOKIE_STRENGTH,1
-	saberstyle  		SS_MEDIUM|SS_STRONG
+
+	forcepowers		FP_SABER_OFFENSE,3
+	forcepool 120
+
+	speed   1.01
 	
 	maxhealth 		100
 	rankHealth		110,125,150
 	
 	maxarmor			65	
-	rankArmor		75,90,115
+	rankArmor		75,90,110
+
 	ASmultiplier 1.05
 	APmultiplier		.75
 	rankAP			1.0,1.1,1.2
-	
-	classNumberLimit  1
-	
-	speed            1.01
 
-	model 			"mandalore"
-	skin  			"default"
-	uishader  		"models/players/mandalore/mb2_icon_default"
+	saber1				"vibroblade_canderous_legends"
+	saberstyle  		SS_MEDIUM|SS_STRONG
+	saberDamageStyle SS_STRONG,280
 
-	model_1			"mandalore"
-	skin_1			"young"
-	uishader_1		"models/players/mandalore/mb2_icon_young"
-
-	model_2			"mandalore"
-	skin_2			"k1"
-	uishader_2		"models/players/mandalore/mb2_icon_k1"
-
-	model_3			"mandalore"
-	skin_3			"nohelmet"
-	uishader_3		"models/players/mandalore/mb2_icon_nohelmet"
-
-	MBClass			MB_CLASS_CLONETROOPER
-	forcepowers		FP_SABER_OFFENSE,3
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 
-	modelscale	1.03
-	damageTaken	0.93
-	Rateoffire	1
-	forcepool 120
 	special1	EAS_HI_SPRINT
-	special2 EAS_MELEE
-	//special4 EAS_HI_GRAPPLEHOOK
-	
-	uioverlay_r "gfx/icons/heavy"
-	uioverlay_l "gfx/icons/hybrid"
-	gloatAnim     		BOTH_VICTORY_FAST
-	
-	WP_CloneRifleFlags	HELD_SLOW
-	
+	special2 EAS_NONE
+
 	knockbackTaken		.80
 	rankKbTaken			.20
 	
-	//respawncustomtime  50000
+	gloatAnim   BOTH_VICTORY_FAST
+
+	uioverlay_r "gfx/icons/heavy"
+	uioverlay_l "gfx/icons/hybrid"
+	modelscale	1.03
+	model 			"mandalore"
+	skin  			"default"
+	uishader "models/players/mandalore/mb2_icon_default"
+
+	model_1		"mandalore"
+	skin_1			"young"
+	uishader_1		"models/players/mandalore/mb2_icon_young"
+
+	model_2		"mandalore"
+	skin_2			"k1"
+	uishader_2		"models/players/mandalore/mb2_icon_k1"
+
+	model_3		"mandalore"
+	skin_3			"nohelmet"
+	uishader_3		"models/players/mandalore/mb2_icon_nohelmet"
 
 	isCustomBuild		1
 	mbPoints			160
@@ -71,9 +71,9 @@ ClassInfo
 	c_att_ranks_1	10,10,10
 	
 	c_att_skill_2	MB_ATT_CLONERIFLE
-	c_att_names_2	"Repeating Blaster (CR)"
+	c_att_names_2	"Repeating Blaster (C. Rifle)"
 	c_att_ranks_2	5,15,30
-	c_att_descs_2 "100% slower reload, 15% slower movement"
+	c_att_descs_2 "5% less FP DMG, 150% slower reload, 15% slower movement"
 	c_att_skill_3	MB_ATT_STRONGBLOBS
 	c_att_names_3	"> Repeat. Blaster Ion Blobs"
 	c_att_ranks_3	4,4,4
@@ -91,7 +91,7 @@ ClassInfo
 	c_att_ranks_6	5,5,5
 	
 	c_att_skill_7	MB_ATT_ARMOUR
-	c_att_names_7	"Armor (75/90/115)"
+	c_att_names_7	"Armor (75/90/110)"
 	c_att_ranks_7	5,7,9
 	
 	c_att_skill_8	MB_ATT_BESKAR
@@ -131,10 +131,10 @@ WeaponInfo0
 	altMissileHitHumanEffect "blobs/ionblast"
 	altMissileHitDroidEffect "blobs/ionblast"
 	FlashSound0			"sound/weapons/kotor/fire_hvy.wav"
-	//FPMult     			0.9
+	FPMult     			0.95
 	clipsize			60
 customAmmo 800
-	ReloadTimeModifier  2	
+	ReloadTimeModifier  2.5	
 hasAnimOverrides 1
 animReadyRun BOTH_DC15_IDLE
 animReady BOTH_DC15_IDLE
@@ -166,8 +166,8 @@ A tanky hybrid who can spec into Blaster and Saber skills.
 - Canderous' Vibroblade (Yellow/Red Saber)
 -- No Blaster Block
 -- 48% more reach
--- 25% less DMG
--- Slap ^3[CS2]
+-- 46% less Red DMG
+-- Slap ^3[GB]
 
 ^8Attributes:
 - 20% less KB taken

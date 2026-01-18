@@ -3,37 +3,33 @@
 Classinfo
 {
 	name			"v10_Palp"
+	MBclass			MB_CLASS_SITH
+ classNumberLimit  1
 	weapons			WP_MELEE|WP_SABER
+	WP_MeleeFlags HELD_SPEED
+
 	attributes		MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_FORCEBLOCK,3|MB_ATT_FORCEFOCUS,3|MB_ATT_DEFLECT,0|MB_ATT_GUN_DEFENSE,1|MB_ATT_DEXTERITY,3
 
 	forcepowers		FP_SABER_OFFENSE,2|FP_LIGHTNING,3|FP_PUSH,3|FP_PULL,3|FP_LEVITATION,3|FP_SEE,3|FP_GRIP,3
 	
-	APmultiplier	1.35
-	BPmultiplier	0.95
-	ASmultiplier 	1.015
-	CSmultiplier 	1
+	special2 EAS_NONE
+
 	classflags CFL_NOPICKUPS
+
 	maxhealth		100
 	forcepool		140
-	MBclass			MB_CLASS_SITH
+
  resource RESOURCE_FORCE
-	classNumberLimit  1
-	modelScale    0.97
-	speed        0.99
 	forceregen   1.40
-	WP_MeleeFlags HELD_SPEED
+
+	speed        0.99
+
+	APmultiplier	1.35
+	BPmultiplier	0.95
+	ASmultiplier 1.02
  saberThrowDamage 40
-	flourishAnim	BOTH_FORCE_PROTECT_FAST
-	gloatAnim	BOTH_CONSOLE1
-	//flourishAnim BOTH_DUAL_TAUNT
-	//WalkForward BOTH_FORCE_2HANDEDLIGHTNING_HOLD
-	
-	uioverlay "gfx/icons/support"
-	
-	special2 EAS_MELEE
-//	special3 EAS_FP_LIGHTNING
-//	special4 EAS_FP_GRIP
-	
+ saberDamageStyle SS_STRONG,280
+	saberSpecialDamage 1.86
 	saber1		saber_sidious_legacy
 	sabercolor	0
 	saberstyle	SS_STRONG	
@@ -43,7 +39,9 @@ Classinfo
 	saberstyle_1	SS_DUAL
 	sabercolor_1	0
 	saber2color_1	0	
-	
+
+	modelScale    0.97
+	uioverlay "gfx/icons/support"
 	model		"palpatine"
 	skin			"default"
 	uishader		"models/players/palpatine/mb2_icon_default"
@@ -80,7 +78,10 @@ Classinfo
 	skin_8		"darkempire"
 	uishader_8	"models/players/palpatine/mb2_icon_darkempire"
 	
-	//respawncustomtime 50000	
+	flourishAnim	BOTH_FORCE_PROTECT_FAST
+	gloatAnim	BOTH_CONSOLE1
+	//flourishAnim BOTH_DUAL_TAUNT
+	//WalkForward BOTH_FORCE_2HANDEDLIGHTNING_HOLD
 }
 
 Description 	"Darth Sidious [Sith]
@@ -93,13 +94,15 @@ A powerful but relatively frail Sith with fast Force regeneration and potent Dar
 - Lightsaber 
 -- Saber Defense (2)
 -- Blaster Defense (1)
+-- 186% special DMG mult
 -- Saber Throw ^3[CS1]
 --- 33% more DMG
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 > Single (Red)
--- 10% faster AS
+-- 10% more AS
+-- 46% less DMG
 > Double (Dual)
--- 10% more DMG
+-- 5% faster movement
 
 ^5Force Powers:
 - Jump (3)

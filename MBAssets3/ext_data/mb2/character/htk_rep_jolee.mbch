@@ -10,9 +10,9 @@ ClassInfo
 	maxhealth		80
 	APmultiplier		1.25
 	BPmultiplier		0.9
-	model			"jedi_kotor"
-	skin			"jolee"
-	uishader		"models/players/jedi_kotor/mb2_icon_jolee"
+	model			"jolee"
+	skin			"default"
+	uishader		"models/players/jolee/mb2_icon_default"
 	modelscale		1
 	speed			0.95
 	MBClass			MB_CLASS_JEDI
@@ -25,9 +25,9 @@ ClassInfo
 	special4	EAS_FP_TEAM_HEAL
 }
 
-description	"Jolee Bindo
+description	"Jolee Bindo [Jedi Consular]
 
-Class: Jedi Consular
+
 
 ^3Weaponry:
 - Lightsaber

@@ -11,7 +11,7 @@ ClassInfo
 	attributes  	MB_ATT_RALLY|MB_ATT_ASSEMBLE,1|MB_ATT_STUN_BATON,1|MB_ATT_GETUPS,0|MB_ATT_WOOKIEE_FURY,3|MB_ATT_HEALING,1
 	forcepowers FP_RAGE,3|FP_HEAL,3
 	
-	maxhealth 	175
+	maxhealth 	100
 	maxarmor  	25
 	starthealth 5
 		
@@ -19,7 +19,7 @@ ClassInfo
 	//HealthRegenRate	2000
 	//HealthRegenAmount -1
 		
-	damageTaken 	0.4
+	damageTaken 	0.25
 	damageGiven  5
 	
 	knockbackTaken 	0.01
@@ -202,10 +202,10 @@ Brains........................
 - 20% slower skill CD
 - 300% slower Hacking
 - Healing (1)
--- Starting HP: 5
+-- Starting Health: 5
 - Rally
 - Assemble (1)
 - Getup (0)
 
 ^3Abilities:
-- Lunge (Shoulder Barge) ^3[CS2]"
+- Lunge (Shoulder Barge) ^3[CS2 Melee]"

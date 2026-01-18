@@ -1,25 +1,24 @@
 ClassInfo
 {
 	name  				"v6_Zam"
-	weapons 			WP_BLASTER_PISTOL|WP_REAL_TD|WP_PROJ
-	attributes 	 	MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_THERMALS,1|MB_ATT_POISON_DART,4|MB_ATT_HEALING,3|MB_ATT_SPY_DISGUISE,3|MB_ATT_DODGE,3|MB_ATT_TRACKING_DART,4
-	maxhealth 		115
-	maxarmor  		100
-	
-	model 			"zam_wesell"
-	skin  			"default"
-	uishader  		"models/players/zam_wesell/mb2_icon_default"
-	
-	model_1			"zam_wesell"
-	skin_1  			"clawdite"
-	uishader_1  		"models/players/zam_wesell/mb2_icon_clawdite"
-	
 	MBclass		MB_CLASS_BOUNTY_HUNTER
-	speed			1.04
 	classNumberLimit 	1
+
+	weapons 			WP_BLASTER_PISTOL|WP_REAL_TD|WP_PROJ
+
+	attributes 	 	MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_THERMALS,1|MB_ATT_POISON_DART,4|MB_ATT_HEALING,3|MB_ATT_SPY_DISGUISE,3|MB_ATT_DODGE,3|MB_ATT_TRACKING_DART,4
+
+	maxhealth 		125
+	maxarmor  		125
+	
+	resource			RESOURCE_ENERGY
+	forcepool 		110
+	
+ baseSpeed 256
+
 	holdables		HI_BINOCULARS
-	modelScale      	0.96
-	rateOfFire     	0.93
+
+	rateOfFire     	0.93 //
 	
 	special1	EAS_HI_POISON
 	special2	EAS_HI_TRACKER
@@ -28,10 +27,15 @@ ClassInfo
 	
 	flourishAnim BOTH_STAND10_TALK1
 	
-	resource			RESOURCE_ENERGY
-	forcepool 		110
+
+	modelScale  0.96
+	model 			"zam_wesell"
+	skin  			"default"
+	uishader  "models/players/zam_wesell/mb2_icon_default"
 	
-	//respawncustomtime 50000
+	model_1			"zam_wesell"
+	skin_1  		"clawdite"
+	uishader_1 "models/players/zam_wesell/mb2_icon_clawdite"
 	
 	uioverlay_r "gfx/icons/scout"
 	uioverlay_l "gfx/icons/tactician"
@@ -76,8 +80,8 @@ animReady TORSO_WEAPONIDLE2
 	animAttackRun BOTH_ATTACK2 
 	animAttack BOTH_ATTACK2 
 	animAttackWalk BOTH_ATTACK2 
-	CustomAmmo      	500
-	clipSize 21
+	CustomAmmo   660
+	clipSize 33
 	rateMod 1.07
 	damageMod 1.1
 	fpmult 1.1
@@ -109,4 +113,4 @@ A class that can don the appearance of the enemy, who also possesses a double-sh
 - Poison Darts (4) ^3[CS1 Melee]
 - Tracking Darts (8) ^3[CS2 Melee]
 - Dodge (3) ^3[CS3]
-- Gun Kick ^3[CS4]"
+- Gunkick ^3[CS4]"

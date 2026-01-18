@@ -44,8 +44,7 @@ WeaponInfo1
     WeaponName			"Flamethrower"
 }
 
-description	"Pyro
-Class: Arc Trooper
+description	"Pyro [Arc Trooper]
 
 Weapon:
 - Pistol (2)

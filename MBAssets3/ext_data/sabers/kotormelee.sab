@@ -7,7 +7,7 @@ kotor_vibrosword
 	soundLoop	"s/w/shwartz/saberhum1.wav"
 	soundOff		"s/w/shwartz/saberhup3.mp3"
 	saberLength	38
-	saberRadius	2
+	saberRadius	3
 	throwable	0
 	disarmable	0
 	notInMP		0
@@ -282,7 +282,7 @@ kotor_vibrostaff
 	soundOff	"s/w/shwartz/saberhup3.mp3"
 	saberLength	38
 	numBlades	2
-	saberRadius	2
+	saberRadius	3
 	disarmable 0
 	saberColor	random
 	saberStyle	staff

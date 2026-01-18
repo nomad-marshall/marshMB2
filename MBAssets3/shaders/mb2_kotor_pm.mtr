@@ -33,9 +33,32 @@ models/players/bastila/body
 
 models/players/bastila/head
 {
-	cull	twosided
+	cull	disable
 	{
 		map models/players/bastila/head
+		rgbGen lightingDiffuse
+	}
+}
+
+models/players/bastila/body_sith
+{
+	{
+		map models/players/bastila/body_sith
+		rgbGen lightingDiffuse
+	}
+	{
+		map models/players/bastila/body_sith_spec
+		blendFunc GL_SRC_ALPHA GL_ONE
+		alphaGen lightingSpecular
+		detail
+	}
+}
+
+models/players/bastila/head_sith
+{
+	cull	disable
+	{
+		map models/players/bastila/head_sith
 		rgbGen lightingDiffuse
 	}
 }
@@ -270,35 +293,6 @@ models/players/hk47/hk51
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave noise 1 0.5 0 2
 		glow
-	}
-}
-
-//// Jedi Kotor ////
-models/players/jedi_kotor/head_twilek
-{
-	{
-		map models/players/jedi_kotor/head_twilek
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/jedi_kotor/head_zhar-spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
-	}
-}
-
-models/players/jedi_kotor/head_zhar
-{
-	{
-		map models/players/jedi_kotor/head_zhar
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/players/jedi_kotor/head_zhar-spec
-		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaGen lightingSpecular
-		detail
 	}
 }
 

@@ -6,9 +6,9 @@ ClassInfo
 	classNumberLimit  1
 	MBClass 	MB_CLASS_ARCTROOPER
 	
-	weapons 	WP_MELEE|WP_BLASTER_PISTOL|WP_BLASTER|WP_SABER|WP_FRAG_NADE|WP_FIRE_NADE
+	weapons 	WP_MELEE|WP_BLASTER_PISTOL|WP_DC_CARBINE|WP_SABER|WP_FRAG_NADE|WP_FIRE_NADE
 	
-	attributes	MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_BLASTER,2|MB_ATT_STAMINA,2|MB_ATT_DEXTERITY,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_HEALING,2|MB_ATT_FRAGS,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_BESKAR,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BLAST_ARMOUR
+	attributes	MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_DC_CARBINE,1|MB_ATT_STAMINA,2|MB_ATT_DEXTERITY,1|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_HEALING,2|MB_ATT_FRAGS,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_BESKAR,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_BLAST_ARMOUR
 	
 	maxhealth 100
 	maxarmor  125
@@ -45,10 +45,8 @@ ClassInfo
 	modelscale  		1.08
 	
 	special1	EAS_HI_SPRINT
-	special2 EAS_MELEE
-	special3	EAS_HI_DEX
-	
-	WP_BlasterFlags	HELD_ALTRELOAD
+	special2 EAS_HI_DEX
+	WP_DCCarbineFlags	HELD_ALTRELOAD
 	
 	knockbacktaken 0.8
 	knockbackgiven 0.8
@@ -75,8 +73,8 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace WP_BLASTER
-	WeaponBasedOff  WP_BLASTER
+	WeaponToReplace WP_DC_CARBINE
+	WeaponBasedOff  WP_DC_CARBINE
 	NewWorldModel "models/weapons2/f11d_blaster/F11D_Phasma_W.glm"
 	NewViewModel  "models/weapons2/f11d_blaster/F11D_Phasma.md3"
 	Icon  		"gfx/hud/w_icon_f11_p"
@@ -87,9 +85,8 @@ WeaponInfo1
 	AltMissileEffect	"Blaster/Shot01R"
 	FlashSound0	    "sound/weapons/f-11d/fire.mp3"
 	AltFlashSound0	"sound/weapons/f-11d/fire.mp3"
-	customAmmo 1200
-	clipSize	180
-	primFireEnabled	0
+	customAmmo 800
+	clipSize	120
 	ReloadTimeModifier 1.4
 	rateMod 0.6
 	damageMod 0.65
@@ -118,16 +115,15 @@ A hybrid melee/gunner commander with Beskar armor resistance, a spear, and rapid
 -- No Blaster Block
 -- 50% less DMG
 -- 33% more radius
--- Slap ^3[CS2]
+-- Slap ^3[GB]
 - SE-44C Blaster Pistol (1)
 -- 40% faster RoF
 -- 15% more DMG/FP DMG
 -- 100% slower reload
-- F-11D Blaster Rifle (2)
+- F-11D Blaster Rifle (DC Carbine 1)
 -- 40% faster RoF
 -- 35% less DMG/FP DMG
 -- 40% slower mag reload
--- Sec. only
 - Frag Grenades (2)
 - Fire Grenade (1)
 
@@ -144,4 +140,4 @@ A hybrid melee/gunner commander with Beskar armor resistance, a spear, and rapid
 
 ^3Abilities:
 - Sprint ^3[CS1]
-- Dex Roll ^3[CS3]"
+- Dex Roll ^3[CS2]"

@@ -3,30 +3,33 @@
 ClassInfo
 {
 	name				"v5_ImpArmCom"
-	weapons				WP_EE4|WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_FIRE_NADE
-	attributes			MB_ATT_EE4,3|MB_ATT_FLAMETHROWER,1|MB_ATT_FUEL,3|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_BESKAR,3|MB_ATT_PISTOL,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_WRISTLASER,1
-	maxhealth		80
-	maxarmor			80
-	baseSpeed 213
-	saber1			Legends_Knife_Jagged
-	saberstyle		SS_TAVION
+	MBClass			MB_CLASS_BOUNTY_HUNTER
 	extralives		1
+	classNumberLimit	4
+
+	weapons				WP_EE4|WP_MELEE|WP_SABER|WP_BLASTER_PISTOL|WP_FIRE_NADE
+
+	attributes			MB_ATT_EE4,3|MB_ATT_FLAMETHROWER,1|MB_ATT_FUEL,3|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_BESKAR,3|MB_ATT_PISTOL,2|MB_ATT_FIRE_GRENADES,1|MB_ATT_WRISTLASER,1
+
+	maxhealth		80
+	maxarmor			70
+	baseSpeed 213
 	resource RESOURCE_FUEL
 	forcepool 100
+
+	saber1			Legends_Knife_Jagged
+	saberstyle		SS_TAVION
+	saberDamage 90
+
 	BPmultiplier		0
-	MBClass			MB_CLASS_BOUNTY_HUNTER
-	classNumberLimit	4
-	rateoffire		1
-	modelscale      	1.01
+
 	special1 EAS_HI_FLAME
 	special2 EAS_HI_WRIST
-	special3 EAS_MELEE
-	//respawncustomtime 34000
-	saberDamage 90
+
 	uioverlay_l "gfx/icons/aerial"
 	uioverlay_r "gfx/icons/infantry"
 	uioverlay_c "gfx/icons/spec_infantry"
-	
+		modelscale      	1.01
 	model	"imp_acomm"
 	skin		"default"
 	uishader	"models/players/imp_acomm/mb2_icon_default"
@@ -88,7 +91,7 @@ description	"Imperial Armored Commando [Bounty Hunter]
 -- No Saber/Blaster Block
 -- 25% less DMG
 -- 60% less reach
--- Slap ^3[CS3]
+-- Slap ^3[GB]
 - EC-17 Holdout Blaster Pistol (2)
 -- 20% more FP DMG
 - Fire Grenade (1)
