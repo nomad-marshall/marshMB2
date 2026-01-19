@@ -43,8 +43,11 @@ ClassInfo
 	saber1_2		saber_fisto
 	sabercolor_2	3
 	
-	saber1_3  saber_revan
+	saber1_3  kotorsab
 	sabercolor_3   4
+	
+	saber1_4  saber_revan2
+	sabercolor_4   5
 
 	uioverlay "gfx/icons/frontline"
 	modelScale    1.06
