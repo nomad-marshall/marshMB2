@@ -178,7 +178,7 @@ WeaponInfo3
 	animAttackWalk BOTH_ATTACK2 
 } */
 
-description	"CT-9904 aka 'Crosshair' [ARC Trooper]
+description	"CT-9904 aka 'Crosshair' 
 
 A dexterous class with an all-in-one rifle.
 

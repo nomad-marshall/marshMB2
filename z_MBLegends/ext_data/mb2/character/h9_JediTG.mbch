@@ -89,7 +89,7 @@ WeaponInfo0
 	selectSound 	"s/w/t/staffswing4.mp3"
 }
 
-description	"Jedi Temple Guard [Jedi]
+description	"Jedi Temple Guard 
 
 Slow, defensively-oriented Jedi with self-buffing abilities.
 

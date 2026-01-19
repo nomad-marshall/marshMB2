@@ -251,7 +251,7 @@ Icon	"gfx/hud/w_thermal_grenade"
 WeaponName "Hand Thermal Grenades"
 damagemod 2.25
 }
-description "Clone Commando [Clone Trooper]
+description "Clone Commando 
 
 Adaptable 2-lifes with staying power.
 

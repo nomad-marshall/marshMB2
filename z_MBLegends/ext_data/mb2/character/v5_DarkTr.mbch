@@ -98,7 +98,7 @@ animAttackWalk BOTH_PLX1_ATTACK
 	rateMod 1.25
 }
 
-description	"Dark Trooper [Wookiee]
+description	"Dark Trooper 
  
 A Jetpack-equipped tank with a high-powered Assault Cannon and Rocket Launcher.
 

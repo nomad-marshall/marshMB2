@@ -128,7 +128,7 @@ altFlashSound0 "sound/weapons/upl/fire_radiation.wav"
 	altMissileHitHumanEffect	"slime_explosion_new"
 	altMissileEffect		"hutt/toxic_breath"
 }
-description 	"IG-100 MagnaGuard [Sith]
+description 	"IG-100 MagnaGuard 
 
 Mobile hybrids with high dueling stats and Armor Regen.
 

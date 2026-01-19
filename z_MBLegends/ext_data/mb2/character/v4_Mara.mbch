@@ -90,7 +90,7 @@ animReady TORSO_WEAPONIDLE2
 	animStand BOTH_STAND9
 }
 
-description	"Mara Jade [Sith]
+description	"Mara Jade 
 
 A Sith/pistoleer hybrid that rewards flanking, skirmishing, and swapping between weapons and Force powers.
 

@@ -128,7 +128,7 @@ WeaponInfo1
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"	
 }
 
-description	"Imperial Conscript [Soldier]
+description	"Imperial Conscript 
 
 5-life basic infantry units.
 

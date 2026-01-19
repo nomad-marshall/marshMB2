@@ -165,7 +165,7 @@ WeaponInfo3
 	Icon				"gfx/hud/w_icon_mwrench"
 	WeaponName		"Wrench"
 }
-description	"Imperial Specialist [Clone Trooper]
+description	"Imperial Specialist 
 
 2-life units with many Blobs, explosives, and turrets.
 

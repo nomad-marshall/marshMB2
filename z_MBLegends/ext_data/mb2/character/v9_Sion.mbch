@@ -54,7 +54,7 @@ ClassInfo
 	uioverlay "gfx/icons/frontline"
 }
 
-description	"Darth Sion [Sith]
+description	"Darth Sion
 
 A Sith that can drain resource pools from others to heal himself, and possesses high Lightsaber and Force defenses.
 

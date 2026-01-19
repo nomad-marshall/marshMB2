@@ -161,7 +161,7 @@ WeaponInfo3
 	Icon				"gfx/hud/w_icon_mwrench"
 	WeaponName		"Wrench"
 }
-description	"Rebel Engineer [Clone Trooper]
+description	"Rebel Engineer 
 
 2-life units with many Blobs, explosives, and turrets.
 

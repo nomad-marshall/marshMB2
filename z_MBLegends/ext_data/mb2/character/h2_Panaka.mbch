@@ -129,7 +129,7 @@ animAttackWalk BOTH_ATTACK2
 animStand BOTH_MAND_PISTOL_READY
 }
 
-description	"Captain Quarsh Panaka [Hero]
+description	"Captain Quarsh Panaka 
 
 A commander who builds resource through damage to bolster his allies and himself.
 

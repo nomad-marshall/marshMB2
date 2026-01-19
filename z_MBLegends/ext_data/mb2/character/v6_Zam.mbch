@@ -87,7 +87,7 @@ animReady TORSO_WEAPONIDLE2
 	fpmult 1.1
 }
 
-description	"Zam Wesell [Bounty Hunter]
+description	"Zam Wesell 
 
 A class that can don the appearance of the enemy, who also possesses a double-shot Projectile Rifle, a Thermal Detonator, and Darts.
 

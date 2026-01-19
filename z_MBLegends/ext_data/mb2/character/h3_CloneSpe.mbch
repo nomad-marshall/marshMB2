@@ -259,7 +259,7 @@ FlashSound0 "sound/weapons/fusioncutter/cutter_hit.mp3"
 rateMod .2
 damageMod .35
 }
-description "Clone Specialist [Clone Trooper]
+description "Clone Specialist 
 
 Clones with niche expertise.
 

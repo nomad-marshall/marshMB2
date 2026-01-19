@@ -239,7 +239,7 @@ animAttackRun BOTH_ATTACK2
 animAttack BOTH_ATTACK2 
 animAttackWalk BOTH_ATTACK2 
 }
-description "Atton 'Jaq' Rand [Hero]
+description "Atton 'Jaq' Rand 
 
 Pure Pazaak
 

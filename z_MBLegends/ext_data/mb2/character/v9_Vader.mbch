@@ -103,7 +103,7 @@ WeaponInfo0
 	animReadyNoAmmo  BOTH_STAND10
 	animStand BOTH_STAND5
 }
-description "Darth Vader [Sith]
+description "Darth Vader 
 
 A tanky saberist with strong defense and offense, at the cost of mobility. Regains BP upon defeating enemies.
 
