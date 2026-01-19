@@ -51,8 +51,8 @@ ClassInfo
 	
 	special1	EAS_HI_DODGE
 	special2 EAS_HI_DASH
-	special3	EAS_HI_MEDPAC_BIG
-	special4 EAS_HI_KICK
+	special3 EAS_HI_KICK
+	special4	EAS_HI_MEDPAC_BIG
 	
 	uioverlay "gfx/icons/spec_infantry"
 }
@@ -124,7 +124,7 @@ WeaponInfo2
 	WeaponName		"Jyn's Truncheon" 
 }
 
-description	"Jyn Erso [Hero]
+description	"Jyn Erso
 
 A damage/fire rate-boosted pistoleer with advanced movement capabilities and a shocking/displacing sidearm.
 
@@ -149,7 +149,7 @@ A damage/fire rate-boosted pistoleer with advanced movement capabilities and a s
 - Det Packs (3)
 
 ^6Inventory:
-- Advanced Medpac ^3[CS3]
+- Advanced Medpac ^3[CS4]
 - Electrobinoculars
 
 ^8Attributes:
@@ -161,4 +161,4 @@ A damage/fire rate-boosted pistoleer with advanced movement capabilities and a s
 - Flipkick (1) ^3[Contact Jump]
 - Dodge (3) ^3[CS1]
 - Dash (2) ^3[CS2]
-- Gunkick ^3[CS4]"
+- Gunkick ^3[CS3]"
