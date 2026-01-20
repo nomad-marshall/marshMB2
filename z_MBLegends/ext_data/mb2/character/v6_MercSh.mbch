@@ -12,9 +12,9 @@ ClassInfo
 	basespeed 245
 
 	special1 EAS_HI_POISON
-	special2 EAS_HI_TRACKER
+	special2	EAS_HI_KICK
+	meleespecial2 EAS_HI_TRACKER
 	special3 EAS_FP_SEE
-	special4	EAS_HI_KICK
 
 	flourishAnim BOTH_STAND5TOAIM
 	bowAnim BOTH_MAND_FLAME_ATTACK
@@ -190,5 +190,5 @@ A suppressive fire class with rifles and area-control tools.
 - Tracking Beacon
 
 ^3Abilities:
-- Tracking Darts (8) ^3[CS2 Melee]
-- Gunkick ^3[CS2 Gun/CS4]"
+- Gunkick ^3[CS2]
+- Tracking Darts (8) ^3[CS2 Melee]"

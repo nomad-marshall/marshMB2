@@ -44,8 +44,8 @@ ClassInfo
 	
 	special1	EAS_HI_DODGE
 	special2	EAS_HI_DASH
-	special3	EAS_HI_MEDPAC
-	special4	EAS_HI_KICK
+	special4	EAS_HI_MEDPAC
+	special3	EAS_HI_KICK
 	
 	gloatAnim	TORSO_SURRENDER_START
 	flourishAnim	BOTH_COWER1
@@ -171,7 +171,7 @@ description	"Scavenger
 - Stun Baton (3)
 
 ^6Inventory:
-- Medpac ^3[CS3]
+- Medpac ^3[CS4]
 - Assault Sentry
 - Seeker Drone
 
@@ -182,4 +182,4 @@ description	"Scavenger
 ^3Abilities:
 - Dodge (2) ^3[CS1]
 - Dash (1) ^3[CS2]
-- Gunkick ^3[CS4]"
+- Gunkick ^3[CS3]"
