@@ -20,11 +20,11 @@ ClassInfo
 	saberDamage 110
 	
 	resource		RESOURCE_RAGE
-	resourceRegenCap 25
+	resourceRegenCap 15
 	resourceRegenRate 250
 	resourceRegenAmount 1
 	forcepool 	150
-	forceregen 0.30
+	forceregen 1
 	
 	special1 	EAS_FP_RAGE
 	special2 	EAS_NONE
@@ -102,7 +102,7 @@ ForceInfo0
 
 description	"Paz Vizsla 
 
-A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistance. Can burn his Fuel for a short movement, attack speed, and defense boost.
+A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistance. Can burn his fuel for a short movement, attack speed, and defense boost.
 
 ^2Weaponry:
 - Melee
@@ -126,8 +126,7 @@ A slow, Jetpack-equipped tank with a Minigun and high damage/knockback resistanc
 - 20% less KB given
 - 80% less KB taken
 - Fury (2)
--- Resource Regen: 1/.25s to 25
--- 70% slower Resource Decay
+-- Resource Regen: 1/.25s to 15
 - Strength (2)
 - Beskar (3)
 - Blast Armor
