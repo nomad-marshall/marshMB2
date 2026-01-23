@@ -230,12 +230,12 @@ WeaponInfo3
 }
 WeaponInfo4
 {
-    WeaponToReplace	WP_TRAD_BOWCASTER
-    WeaponBasedOff	WP_TRAD_BOWCASTER
-    NewWorldModel		"models/weapons2/wbowcaster/wbowcaster3.glm"
-    NewViewModel		"models/weapons2/wbowcaster/wbowcaster3.md3"
-    Icon		"gfx/hud/w_icon_wbowcaster3" 
-    WeaponName	"Traditional Bowcaster"
+WeaponToReplace	WP_TRAD_BOWCASTER
+WeaponBasedOff	WP_BOWCASTER
+NewWorldModel		"models/weapons2/wbowcaster/wbowcaster3.glm"
+NewViewModel		"models/weapons2/wbowcaster/wbowcaster3.md3"
+Icon		"gfx/hud/w_icon_wbowcaster3" 
+WeaponName	"Traditional Bowcaster"
 	clipsize 60
 }
 description	"Wookiee Warrior 
