@@ -23,7 +23,7 @@ ClassInfo
 	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
 	saberDamageStyle SS_FAST,130|SS_TAVION,130|SS_MEDIUM,240
 	saberThrowDamage 40
-
+ saberSpecialDamage 1.25
 	blockRegenAmount 5
 	blockRegenRate 400
 
@@ -173,7 +173,8 @@ A seasoned Jedi with exceptional Saber skills and high BP regen. Choice of old a
 -- Saber/Blaster Defense (3)
 --- BP Regen: 5/.4s to 100
 -- Blaster Deflect (3)
--- 8% more Cyan/Blue DMG
+-- 8% more Fast style DMG
+-- 125% special DMG mult
 -- Saber Throw ^3[CS1]
 --- 33% more DMG
 -- Slap ^3[GB]
