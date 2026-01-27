@@ -91,29 +91,33 @@ ClassInfo
 	skin_8		"default"
 	uishader_8	"models/players/obiwan_cw/mb2_icon_default"
 	
-	model_9		"obiwan_ot"
+	model_9		"obiwan_tcw"
 	skin_9		"default"
-	uishader_9	"models/players/obiwan_ot/mb2_icon_default"
+	uishader_9	"models/players/obiwan_tcw/mb2_icon_default"
 	
-	model_10		"obiwan_ot"
-	skin_10		"robed"
-	uishader_10	"models/players/obiwan_ot/mb2_icon_robed"
+	model_10		"obiwan_owk"
+	skin_10		"default"
+	uishader_10	"models/players/obiwan_owk/mb2_icon_default"
 	
-	model_11		"obiwan_ot"
-	skin_11		"hooded"
-	uishader_11	"models/players/obiwan_ot/mb2_icon_hooded"
+	model_11		"obiwan_owk"
+	skin_11		"goggles"
+	uishader_11	"models/players/obiwan_owk/mb2_icon_goggles"
 	
 	model_12		"obiwan_ot"
-	skin_12		"ghost"
-	uishader_12	"models/players/obiwan_ot/mb2_icon_ghost"
+	skin_12		"default"
+	uishader_12	"models/players/obiwan_ot/mb2_icon_default"
 	
-	model_13		"obiwan_owk"
-	skin_13		"default"
-	uishader_13	"models/players/obiwan_owk/mb2_icon_default"
+	model_13		"obiwan_ot"
+	skin_13		"robed"
+	uishader_13	"models/players/obiwan_ot/mb2_icon_robed"
 	
-	model_14		"obiwan_owk"
-	skin_14		"goggles"
-	uishader_14	"models/players/obiwan_owk/mb2_icon_goggles"
+	model_14		"obiwan_ot"
+	skin_14		"hooded"
+	uishader_14	"models/players/obiwan_ot/mb2_icon_hooded"
+	
+	model_15		"obiwan_ot"
+	skin_15		"ghost"
+	uishader_15	"models/players/obiwan_ot/mb2_icon_ghost"
 	
 	isCustomBuild	1
 	mbPoints	0
