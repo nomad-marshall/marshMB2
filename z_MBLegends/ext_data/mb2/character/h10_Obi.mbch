@@ -8,10 +8,10 @@ ClassInfo
 	
 	weapons	WP_MELEE|WP_SABER
 	
-	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,3|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3
+	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_FORCEFOCUS,2|MB_ATT_DEFLECT,3|MB_ATT_GUN_DEFENSE,3|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_HEALING,1|MB_ATT_BLAST_ARMOUR
 
 	forcepowers	FP_LEVITATION,2|FP_PUSH,3|FP_SEE,3|FP_SABER_OFFENSE,3
-
+ damageGiven 1.1
 	speed			0.94
 	maxhealth	150
 	forcepool	140
@@ -21,7 +21,7 @@ ClassInfo
 	rankforceregen 1
 	
 	saberstyle	SS_FAST|SS_MEDIUM|SS_TAVION
-	saberDamageStyle SS_FAST,130|SS_TAVION,130
+	saberDamageStyle SS_FAST,130|SS_TAVION,130|SS_MEDIUM,240
 	saberThrowDamage 40
 
 	blockRegenAmount 5
@@ -184,5 +184,7 @@ A seasoned Jedi with exceptional Saber skills and high BP regen. Choice of old a
 - Sense (3)
 
 ^8Attributes:
+- Blast Armor
+- Healing (1)
 - Force Block (1)
 - Force Focus (2)"
