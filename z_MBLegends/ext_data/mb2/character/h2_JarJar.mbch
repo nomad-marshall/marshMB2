@@ -53,8 +53,8 @@ Classinfo
 
 	special1	EAS_HI_DODGE
 	special2	EAS_HI_DEX
-	special3	EAS_HI_DASH
-	special4 EAS_HI_QUICKTHROW
+	special3 EAS_HI_QUICKTHROW
+	special4	EAS_HI_DASH
 	
 	uioverlay_r "gfx/icons/spec_infantry"
 	uioverlay_l "gfx/icons/brawler"
@@ -201,7 +201,7 @@ Mesa, uh, clumsy...
 -- Chain Limit: 1
 -- Knocks down on hit
 -- 160% more KB
--- 25% less reach
+-- 100/25% less L/R reach
 -- 66% less DMG
 -- 200% special DMG mult
 -- 400% more radius
@@ -236,9 +236,9 @@ Mesa, uh, clumsy...
 - Underwater Breathing
 
 ^3Abilities:
-- Gungan Jive
+- Gungan Jive (Toxic Taunt)
 - Flipkick (3) ^3[Contact Jump]
 - Dodge (3) ^3[CS1]
 - Dex Roll ^3[CS2]
-- Dash/Dash Jump (2) ^3[CS3]
-- Quickthrow (3) ^3[CS4]"
+- Quickthrow (3) ^3[CS3]
+- Dash/Dash Jump (2) ^3[CS4]"

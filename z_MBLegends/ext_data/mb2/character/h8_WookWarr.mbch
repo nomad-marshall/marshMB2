@@ -229,6 +229,7 @@ WeaponInfo3
 	animAttackRun BOTH_PLX1_ATTACK
 	animAttack BOTH_PLX1_ATTACK
 	animAttackWalk BOTH_PLX1_ATTACK
+ animCharge BOTH_PLX1_ATTACK
 }
 WeaponInfo4
 {
