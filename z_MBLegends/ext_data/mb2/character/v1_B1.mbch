@@ -237,7 +237,7 @@ WeaponInfo2
 WeaponInfo3
 {
 	WeaponToReplace		WP_M5
-	WeaponBasedOff		WP_BLASTER
+	WeaponBasedOff		WP_PLX1
 	NewWorldModel		"models/weapons2/som3_rifle/som3_rifle_w.glm"
 	NewViewModel		"models/weapons2/dummy/dummy.md3" 
 	Icon				"gfx/hud/w_icon_som3_rifle"

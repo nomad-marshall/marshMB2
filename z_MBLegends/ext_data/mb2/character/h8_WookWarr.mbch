@@ -198,7 +198,7 @@ WeaponInfo2
 WeaponInfo3
 {
  WeaponToReplace WP_ROCKET_LAUNCHER
- WeaponBasedOff WP_ROCKET_LAUNCHER
+ WeaponBasedOff WP_SHOTGUN
  NewWorldModel	"models/weapons2/wgrl/wgrl.glm"
  NewViewModel	"models/weapons2/wgrl/wgrl.md3"
  Icon	 "gfx/hud/w_icon_wgrl" 
@@ -256,7 +256,6 @@ Tough 2-life units who can spec into Blasters, brawling, and Saber upgrades. Rag
 -- 25% more reach
 -- 45% more KB
 -- 65/77% less DMG
--- Slap ^3[GB]
 - Kashyyyk Side-Arm Blaster Pistol (2)
 -- Prim only
 - Det Packs (3)

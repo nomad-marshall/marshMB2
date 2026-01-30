@@ -117,11 +117,12 @@ c_att_ranks_34 0,0
 WeaponInfo0
 {
 WeaponToReplace WP_FLECHETTE
-WeaponBasedOff WP_FLECHETTE
-NewWorldModel	"models/weapons2/cp-50_repeater/cp-50_repeater_w.glm"
-NewViewModel	"models/weapons2/cp-50_repeater/cp-50_repeater.md3"
+WeaponBasedOff WP_SHOTGUN
+NewWorldModel	"models/weapons2/junglerifle/jungeRifle.glm"
+NewViewModel	"models/weapons2/junglerifle/jungeRifle.md3"
+NewHandsModel "models/weapons2/junglerifle/jungeRifle_hand.md3"
+Icon	"gfx/hud/w_icon_junglerifle"
 FlashSound0	"sound/weapons/acparray/fire.wav"
-Icon	"gfx/hud/w_icon_cp-50_repeater"
 WeaponName "ACP Scatter Gun"
 clipSize 40
 customAmmo 360
@@ -143,9 +144,9 @@ WeaponInfo2
 {
 WeaponToReplace WP_REPEATER
 WeaponBasedOff WP_REPEATER
-NewWorldModel	"models/weapons2/sherruck_blaster/sher_rifle_w.glm"
-NewViewModel	"models/weapons2/sherruck_blaster/sher_rifle.md3"
-Icon	"gfx/hud/w_icon_sherruck"
+NewWorldModel	"models/weapons2/cp-50_repeater/cp-50_repeater_w.glm"
+NewViewModel	"models/weapons2/cp-50_repeater/cp-50_repeater.md3"
+Icon	"gfx/hud/w_icon_cp-50_repeater"
 WeaponName "ACP Repeater"
 flashSound0 "sound/weapons/ArrayACP/fire.wav"
 MissileModel null
@@ -204,7 +205,7 @@ animStand BOTH_STAND2
 }
 WeaponInfo5{
 WeaponToReplace WP_CONCUSSION
-WeaponBasedOff WP_CONCUSSION
+WeaponBasedOff WP_MANDO_PISTOL
 NewWorldModel	"models/weapons2/lj-50_concussion/lj-50_concussion_w.glm"
 NewViewModel	"models/weapons2/lj-50_concussion/lj-50_concussion.md3"
 Icon	"gfx/hud/w_icon_lj-50_concussion"
@@ -220,10 +221,9 @@ velocityMod .2
 WeaponInfo6{
 WeaponToReplace	WP_SHOTGUN
 WeaponBasedOff	WP_SHOTGUN
-NewWorldModel	"models/weapons2/junglerifle/jungeRifle.glm"
-NewViewModel	"models/weapons2/junglerifle/jungeRifle.md3"
-NewHandsModel "models/weapons2/junglerifle/jungeRifle_hand.md3"
-Icon	"gfx/hud/w_icon_junglerifle"
+NewWorldModel	"models/weapons2/sherruck_blaster/sher_rifle_w.glm"
+NewViewModel	"models/weapons2/sherruck_blaster/sher_rifle.md3"
+Icon	"gfx/hud/w_icon_sherruck"
 WeaponName "Electronet Launcher"
 MuzzleEffect  "sbd/cortosis_orange"
 MissileEffect	"electronet/shot"
@@ -260,7 +260,6 @@ Hiss
 -- 5% faster movement
 -- 70% less DMG
 -- 25% less reach
--- Slap ^3[GB]
 - ACP Scatter Gun (Flechette 2)
 -- 15% more DMG
 -- 40% slower RoF

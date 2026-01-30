@@ -13,7 +13,7 @@ Classinfo
  WP_UGLFlags HELD_EXPLOSIVE
  //WP_ThrowerFlags HELD_FLAME
 
-	attributes	MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ASSEMBLE,2|MB_ATT_DODGE,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DEXTERITY,1|MB_ATT_UGL,3|MB_ATT_DLT20A,2|MB_ATT_WRISTLASER|MB_ATT_ENV_PROT,1
+	attributes	MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_ASSEMBLE,2|MB_ATT_DODGE,3|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_DEXTERITY,1|MB_ATT_UGL|MB_ATT_DLT20A,2|MB_ATT_WRISTLASER|MB_ATT_ENV_PROT,1
 
 	maxhealth	80
 	maxarmor		80
@@ -98,7 +98,7 @@ A 2-life class specializing in incendiary support. Launched Grenades deal bonus 
 -- 30% slower mag reload
 - DLT-20A Blaster Rifle (2)
 - Fire Grenades (3)
-- Modified Grenade Launcher (UGL 3)
+- Modified Grenade Launcher (UGL)
 -- Bonus explosive DMG on det
 -- 100% more DMG
 -- 30% less velocity

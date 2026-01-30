@@ -52,9 +52,9 @@ ClassInfo
 WeaponInfo0
 {
 	WeaponToReplace WP_DC_CARBINE
-	WeaponBasedOff WP_DC_CARBINE
-	NewWorldModel	"models/weapons2/DC-17m/blaster.glm"
-	NewViewModel	"models/weapons2/DC-17m/blaster.md3"
+WeaponBasedOff  WP_MANDO_PISTOL
+NewWorldModel "models/weapons2/DC-17m/blaster.glm"
+NewViewModel "models/weapons2/DC-17m/blaster.md3"
 	FlashSound0	"sound/weapons/dc17m/fire.wav"
 	FlashSound1	"sound/weapons/dc17m/fire.wav"
 	FlashSound2	"sound/weapons/dc17m/fire.wav"
@@ -99,8 +99,9 @@ WeaponInfo2
 {
 	WeaponToReplace	WP_THERMAL
 	WeaponBasedOff	WP_THERMAL
-	NewWorldModel	"models/weapons2/thermal/thermal_w.glm"
-	NewViewModel	"models/weapons2/thermal/thermal_hand.md3"
+NewWorldModel	"models/weapons2/thermal/thermal_w.glm"
+NewViewModel "models/weapons2/thermal/thermal.md3"
+NewHandsModel "models/weapons2/thermal/thermal_hand.md3"
 	Icon		"gfx/hud/w_thermal_grenade"
 	WeaponName  	"Heavy Thermal Grenades"
 	altMissileMissEffect	"Grenades/EXP_Explosion"

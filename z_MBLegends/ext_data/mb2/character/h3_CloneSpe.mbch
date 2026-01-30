@@ -184,9 +184,9 @@ animStand BOTH_STAND2
 }
 WeaponInfo2{
 WeaponToReplace WP_EE4
-WeaponBasedOff WP_EE4
-NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
-NewViewModel "models/weapons2/dummy/dummy.md3"
+	WeaponBasedOff   WP_CONCUSSION
+	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
 Icon "gfx/hud/w_icon_dlt-18"
 WeaponName "DC-15x Sniper Rifle"
 CustomAmmo 128
@@ -247,7 +247,7 @@ NewHandsModel "models/weapons2/fc_f187/f187_hand.md3"
 Icon "gfx/hud/w_icon_fc_f187_all"
 WeaponName "F-187 Fusioncutter"
 hasAnimOverrides 1
-animReadyNoAmmo BOTH_ATTACK2
+animReadyNoAmmo TORSO_WEAPONREADY0
 animReadyRun TORSO_WEAPONREADY0
 animReady TORSO_WEAPONREADY0
 animReadyWalk TORSO_WEAPONREADY0

@@ -145,7 +145,7 @@ hasAnimOverrides 1
 animReadyRun TORSO_WEAPONREADY0
 animReady TORSO_WEAPONREADY0
 animReadyWalk TORSO_WEAPONREADY0
-animReadyNoAmmo BOTH_ATTACK2
+animReadyNoAmmo TORSO_WEAPONREADY0
 animAttackRun BOTH_ATTACK2
 animAttack BOTH_ATTACK2
 animAttackWalk BOTH_ATTACK2
@@ -179,7 +179,6 @@ description	"Imperial Specialist
 -- 50% less DMG
 -- 40% less reach
 -- 167% more radius
--- Slap ^3[GB]
 - SE-14C Blaster Pistol (2)
 -- 35% faster RoF
 -- 10% more charged FP DMG
