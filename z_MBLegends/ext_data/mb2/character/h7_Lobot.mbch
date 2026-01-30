@@ -31,8 +31,8 @@ ClassInfo
 	saberMaxChain 2
 
 	forcepowers		FP_SEE,1
-	forcepool 			75
-	forceregen			1.25
+	forcepool 			80
+	forceregen			1.2
 	resource			RESOURCE_ENERGY
 
 	holdables		HI_SENTRY_GUN|HI_SHIELD|HI_MEDPAC //BASE?
