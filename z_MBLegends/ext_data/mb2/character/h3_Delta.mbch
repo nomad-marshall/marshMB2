@@ -30,7 +30,7 @@ ClassInfo
 	saberDamage 120
 	saberSpecialDamage 1.67
 	saberMaxChain 1
-
+ WP_UGLFlags HELD_KNOCKBACK
 	WP_DCCarbineFlags	HELD_ALTRELOAD	
 	WP_DisruptorFlags HELD_ALTRELOAD
  WP_SaberFlags HELD_STUN
@@ -84,7 +84,7 @@ c_att_ranks_1	1,0
 c_att_skill_2	MB_ATT_UGL
 c_att_names_2	"DC-17m Anti-Armor (UGL)"
 c_att_ranks_2	2
-c_att_descs_2 "50% less DMG"
+c_att_descs_2 "Pushes on det"
 }
 
 WeaponInfo0
@@ -184,7 +184,6 @@ altFlashSound0 "sound/weapons/dc17m/alt_fire.wav"
 Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
-damageMod 0.5
 }
 
 WeaponInfo5

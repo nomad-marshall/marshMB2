@@ -5,6 +5,7 @@ MBClass	MB_CLASS_CLONETROOPER
 classNumberLimit 4
 extralives 1
 weapons	WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL
+WP_UGLFlags HELD_KNOCKBACK
 WP_DCCarbineFlags HELD_ALTRELOAD
 WP_DisruptorFlags HELD_ALTRELOAD
 WP_FlechetteFlags HELD_ALTRELOAD
@@ -88,7 +89,7 @@ c_att_ranks_16 0,0,0
 c_att_skill_17 MB_ATT_UGL
 c_att_names_17 "DC-17m Anti-Armor (UGL)"
 c_att_ranks_17 0
-c_att_descs_17 "55% less DMG, 25% slower RoF"
+c_att_descs_17 "Pushes on det"
 c_att_skill_18 MB_ATT_MICRO_GRENADES
 c_att_names_18 "> DC-17m Rounds (6)"
 c_att_ranks_18 0
@@ -191,8 +192,6 @@ altFlashSound0 "sound/weapons/dc17m/alt_fire.wav"
 Icon	"gfx/hud/w_icon_dc-17ml"
 WeaponName "DC-17m ICWS Anti-Armor Attachment"
 selectSound "sound/weapons/dc17m/select.mp3"
-rateMod 1.25
-damageMod .45
 hasAnimOverrides 1
 animAttackWalk BOTH_ATTACK3
 }
