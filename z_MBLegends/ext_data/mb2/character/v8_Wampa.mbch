@@ -29,7 +29,7 @@ ClassInfo
 	healthRegenRate 20000
 	healthRegenCap 250
 
-	DamageTaken		0.4
+	DamageTaken		0.5
  knockbackTaken 0.2
 
  skillTimerMod 0.6
