@@ -104,14 +104,6 @@ ClassInfo
 	model_18	"rebel_commando"
 	skin_18 	"snivvian"
 	uishader_18 "models/players/rebel_commando/mb2_icon_snivvian"
-	
-	model_19	"rebel_partisan"
-	skin_19 	"elite"
-	uishader_19 "models/players/rebel_partisan/mb2_icon_elite"
-	
-	model_20	"rebel_partisan"
-	skin_20 	"default"
-	uishader_20 "models/players/rebel_partisan/mb2_icon_default"
 
 	
 	isCustomBuild	1
