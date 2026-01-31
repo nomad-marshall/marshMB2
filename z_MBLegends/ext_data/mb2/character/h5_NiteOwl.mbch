@@ -65,7 +65,7 @@ c_att_descs_2 "-15% dmg,+10% velocity"
 c_att_skill_3 MB_ATT_BLASTER
 c_att_names_3 "Poison-Tipped Throwing Knives"
 c_att_ranks_3 1
-c_att_descs_3 "Ignores block,poisons on hit.+50% damage"
+c_att_descs_3 "Ignores block,poisons on hit"
 c_att_skill_4 MB_ATT_THROWER
 c_att_names_4 "Kelborn Arc Caster"
 c_att_ranks_4 1
@@ -86,7 +86,7 @@ c_att_descs_16 "+10% FP DMG,-20% DMG,100% slower mag reload"
 c_att_skill_17 MB_ATT_TRAD_BOWCASTER
 c_att_names_17 "Kryze Echo-Bolter"
 c_att_ranks_17 3,0,0
-c_att_descs_17 "Prim fire only,+20 ROF%"
+c_att_descs_17 "Prim fire only,+20% ROF"
 c_att_skill_18 MB_ATT_E_22
 c_att_names_18 "Repeater Pistol"
 c_att_ranks_18 1,0,2
@@ -226,11 +226,9 @@ animAttackWalk BOTH_THERMAL_THROW2
 animStand BOTH_THERMAL_READY2
 animReadyRun BOTH_SABER_OBIWAN_STANCE
 animAttackRun BOTH_THERMAL_THROW2
-clipSize 6
-customAmmo 32
+clipSize 2
+customAmmo 8
 reloadTimeModifier 1.5
-rateMod 2
-damageMod 1.1
 primGore 1
 }
 WeaponInfo7{
@@ -265,7 +263,7 @@ primfireenabled 0
 description "Nite Owl Mandalorian[Mandalorian]
 Eagle-eyed sharpshooters with Jetpacks.
 ^8Attributes:
--Dexterity(3)
+-Dex(3)
 -Beskar(2)
 -Tracking Beacon
 ^3Abilities:
