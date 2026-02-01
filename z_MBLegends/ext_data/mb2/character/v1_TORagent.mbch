@@ -29,7 +29,7 @@ WP_DEMP2Flags HELD_POISON|HELD_ALTRELOAD|HELD_STUN
 uioverlay_r "gfx/icons/infantry"
 uioverlay_l "gfx/icons/spec_infantry"
 uioverlay_c "gfx/icons/tactician"
-holdables HI_MEDPAC|HI_SEEKER|HI_CLOAK|HI_STIMPACK
+holdables HI_MEDPAC|HI_BASESEEKER|HI_CLOAK|HI_STIMPACK
 saber1	Legends_Knife_Jagged
 saberstyle	SS_TAVION
 rankSaberDamage	140
@@ -251,7 +251,7 @@ Multi-life elite troopers.
 
 ^6Inventory:
 - Medpac
-- Seeker Drone
+- Defense Seeker
 - Stimpak
 
 ^8Attributes:
