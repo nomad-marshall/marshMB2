@@ -69,7 +69,7 @@ WeaponInfo0
 WeaponInfo1
 {
 	WeaponToReplace 	WP_PROJ
-	WeaponBasedOff 		WP_PROJ
+	WeaponBasedOff 		WP_CONCUSSION
 	NewWorldModel 		"models/weapons2/czerka_adventurer_rifle/model_w.glm"
 	NewViewModel		"models/weapons2/czerka_adventurer_rifle/model.md3"
 	Icon 				"gfx/hud/w_icon_czerka_adventurer"

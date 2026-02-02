@@ -138,7 +138,7 @@ uishader_5	"models/players/saboteur/mb2_icon_default"
 WeaponInfo0
 {
 	WeaponToReplace	WP_BLASTER_PISTOL
-	WeaponBasedOff	WP_BLASTER_PISTOL
+	WeaponBasedOff	WP_CONCUSSION
 	NewWorldModel "models/weapons2/Relby-K23/model_w.GLM"
 	NewViewModel  "models/weapons2/Relby-K23/pistol.MD3"
 	Icon  	"gfx/hud/w_icon_relby_k23"
@@ -204,7 +204,7 @@ ForceInfo0
 	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
-description	"Imperial Agent 
+description	"Imperial Agent
 
 Mid-ranged elite soldiers who can Disguise themselves and Cloak.
 

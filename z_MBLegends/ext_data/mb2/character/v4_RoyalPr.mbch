@@ -86,7 +86,7 @@ WeaponInfo0
 WeaponInfo1
 {
 	WeaponToReplace		WP_SHOTGUN
-	WeaponBasedOff		WP_BLASTER
+	WeaponBasedOff		WP_CONCUSSION
 	NewWorldModel		"models/weapons2/arc_caster/arc_caster_w.glm"  	
 	NewViewModel		"models/weapons2/arc_caster/model.md3" 
 	Icon				"gfx/hud/w_icon_arc_caster" 

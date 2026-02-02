@@ -44,7 +44,7 @@ ClassInfo
 WeaponInfo0
 {
 	WeaponToReplace WP_PROJ
-	WeaponBasedOff WP_PROJ
+	WeaponBasedOff WP_CONCUSSION
 	NewWorldModel "models/weapons2/zamrifle_fa/model_w.glm"
 	NewViewModel		"models/weapons2/zamrifle_fa/model.md3"
 	Icon "gfx/hud/w_icon_zamriflelegends"

@@ -125,9 +125,9 @@ WeaponInfo2
 WeaponInfo3
 {
 	WeaponToReplace	WP_BLASTER_PISTOL
-	WeaponBasedOff	WP_BLASTER_PISTOL
+	WeaponBasedOff	WP_MANDO_PISTOL
 	NewWorldModel    "models/weapons2/cb_pistol/pistol_w.glm"
-	NewViewModel     "models/weapons2/dummy/dummy.md3"
+	NewViewModel    "models/weapons2/cb_pistol/pistol_w.md3"
 	Icon            "gfx/hud/w_icon_cb_pistol"
 	FlashSound0		"sound/weapons/han_pistol/fire.mp3"  
 	altFlashSound0	"sound/weapons/han_pistol/alt_fire.mp3"
