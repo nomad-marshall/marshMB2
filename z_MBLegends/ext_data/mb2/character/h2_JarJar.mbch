@@ -49,7 +49,7 @@ Classinfo
 
 	skilltimermod 2.9
 
-	hackRate 0.5
+	hackRate 1.5
 
 	special1	EAS_HI_DODGE
 	special2	EAS_HI_DEX
