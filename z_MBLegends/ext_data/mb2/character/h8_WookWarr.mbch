@@ -171,6 +171,7 @@ WeaponInfo0
  Icon				"gfx/hud/w_icon_bowcaster" 
  WeaponName			"Bowcaster"
 	clipsize 60
+ customAmmo 800
 	AltFireEnabled 0
 }
 
@@ -240,6 +241,7 @@ NewViewModel		"models/weapons2/wbowcaster/wbowcaster3.md3"
 Icon		"gfx/hud/w_icon_wbowcaster3" 
 WeaponName	"Traditional Bowcaster"
 	clipsize 60
+ customAmmo 800
 	AltFireEnabled 0
 }
 description	"Wookiee Warrior 
