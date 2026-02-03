@@ -211,7 +211,7 @@ WeaponBasedOff WP_THERMAL
 NewWorldModel	"models/weapons/Grenade_Concussion/model.glm"
 NewViewModel	"models/weapons/Grenade_Concussion/viewmodel.md3"
 Icon	"gfx/hud/w_icon_stungrenade"
-WeaponName	"Corrosive Stun Grenade"
+WeaponName	"Corrosive Grenade"
 MissileModel "models/weapons/Grenade_Concussion/proj.md3"
 MissileMissEffect	"noghri_stick/flesh_impact"
 MissileEffect "sonic_pistol/projectile"
