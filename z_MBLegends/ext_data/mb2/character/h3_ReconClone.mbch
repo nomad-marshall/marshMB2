@@ -3,8 +3,8 @@
 ClassInfo
 {
 	name				"h3_ReconClone"
-	weapons				WP_MELEE|WP_DC_CARBINE|WP_PROJ
-	attributes			MB_ATT_DC_CARBINE,1|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_TRACKING_DART,1|MB_ATT_TRACKING_BEACON|MB_ATT_RESPAWNS,1
+	weapons				WP_MELEE|WP_DC_CARBINE|WP_PROJ|WP_BLASTER_PISTOL|WP_CLONE_PISTOL
+	attributes			MB_ATT_CLONE_PISTOL,2|MB_ATT_DC_CARBINE,2|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_STAMINA,1|MB_ATT_DEXTERITY,1|MB_ATT_GRAPPLE_HOOK,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_TRACKING_BEACON|MB_ATT_RESPAWNS,1
 	maxhealth			80
 	maxarmor			80
 	resource			resource_stamina
@@ -12,30 +12,25 @@ ClassInfo
 	MBClass				MB_CLASS_ARCTROOPER
 	classNumberLimit	2
 	modelscale      	1.02
-	holdables			HI_SEEKER
-	
+	WP_BlasterPistolFlags HELD_ALTRELOAD|HELD_LOWDAMAGE|HELD_IGNOREBLOCK|HELD_TRACKING
+	WP_ClonePistolFlags HELD_KNOCKBACK|HELD_KNOCKDOWN|HELD_ALTRELOAD|HELD_STUN
 	flourishAnim 		TORSO_HANDSIGNAL4
 	gloatAnim 			BOTH_STAND5TOAIM
 	
-	classflags			CFL_STATVIEWER
-	
-	model				"clonetrooper_p1"
-	skin				"thire"
-	uishader			"models/players/clonetrooper_p1/mb2_icon_thire"
-
-	model_1				"clonekeller"
-	skin_1				"rgb"
-	uishader_1			"models/players/clonekeller/mb2_icon_rgb"
-	userRGB_1 			1
-
-	model_2				"clonetrooper_p2"
-	skin_2				"deviss_rgb"
-	uishader_2			"models/players/clonetrooper_p2/mb2_icon_deviss_rgb"
-	userRGB_2 			1
+	model				"clonetrooper_p2"
+	skin				"91"
+	uishader			"models/players/clonetrooper_p2/mb2_icon_91"
+	model_1				"clonetrooper_p2"
+	skin_1				"41g"
+	uishader_1			"models/players/clonetrooper_p2/mb2_icon_41g"
+	model_2				"clonekeller"
+	skin_2				"rgb"
+	uishader_2			"models/players/clonekeller/mb2_icon_rgb"
+	userRGB_2			1
 
 	special1			EAS_HI_SPRINT
 	special2			EAS_HI_DEX	
-	special3 			EAS_HI_TRACKER
+
 	special4			EAS_HI_GRAPPLEHOOK
 	
 	uioverlay 			"gfx/icons/scout"
@@ -43,15 +38,65 @@ ClassInfo
 
 WeaponInfo0
 {
-	WeaponToReplace		WP_PROJ					 
-	WeaponBasedOff      WP_PROJ
-	NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
-	NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
-	Icon  "gfx/hud/w_icon_dlt-18"
-	FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
-	WeaponName			"Valken-38x Projectile Rifle"    				 
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"Blaster/Shot10B"
+WeaponToReplace		WP_PROJ					 
+WeaponBasedOff      WP_PROJ
+NewWorldModel "models/weapons2/dlt-18_repeater/dlt-18_repeater_w.glm"
+NewViewModel  "models/weapons2/dlt-18_repeater/dlt-18_repeater.md3"
+Icon  "gfx/hud/w_icon_dlt-18"
+FlashSound0  "sound/weapons/Glie-44/alt_fire.wav"		
+WeaponName			"Valken-38x Projectile Rifle"    				 
+MuzzleEffect		"Blaster/MuzzleFlash01B"
+MissileEffect		"Blaster/Shot10B"
+}
+
+WeaponInfo1
+{
+WeaponToReplace WP_BLASTER_PISTOL
+WeaponBasedOff WP_BLASTER_PISTOL
+NewWorldModel "models/weapons2/Kunai/saber_w.glm"
+NewViewModel "models/weapons2/dummy/dummy.md3"
+MissileEffect "bow/whoosh"
+MissileMissEffect "needler/wall_impact"
+MissileHitHumanEffect "needler/shot"
+FlashSound0 "sound/weapons/knife/knifeswing2.wav"
+MuzzleEffect "null"
+Icon "gfx/hud/w_icon_kunai"
+WeaponName "Tracking Knives"
+hasAnimOverrides 1
+animReady BOTH_SABER_OBIWAN_STANCE
+animReadyWalk BOTH_SABER_OBIWAN_STANCE
+animReadyNoAmmo BOTH_TUSKENTAUNT1
+animAttack BOTH_THERMAL_THROW2
+animAttackWalk BOTH_THERMAL_THROW2
+animStand BOTH_THERMAL_READY2
+animReadyRun BOTH_SABER_OBIWAN_STANCE
+animAttackRun BOTH_THERMAL_THROW2
+clipSize 1
+customAmmo 5
+reloadTimeModifier 2
+primGore 1
+}
+
+WeaponInfo2
+{
+WeaponToReplace WP_CLONE_PISTOL
+WeaponBasedOff WP_CLONE_PISTOL
+NewWorldModel "models/weapons2/kotor_ionpistol/kotor_ionpistol_w.glm"
+NewViewModel "models/weapons2/kotor_ionpistol/kotor_ionpistol.md3"
+Icon "gfx/hud/w_icon_kotor_ionpistol"
+WeaponName "Tranquilizer Pistol"
+CustomAmmo 3
+clipSize 3
+FlashSound0 "sound/weapons/mgun/alt_fire.wav"
+AltFlashSound0 "sound/weapons/mgun/alt_fire.wav"
+MuzzleEffect "Blaster/MuzzleFlash01B"
+AltMuzzleEffect "Blaster/MuzzleFlash03B"
+MissileEffect "blaster/Shot04B"
+AltMissileEffect "blaster/Shot04B"
+FPMult 0.2
+damageMod 0.2
+velocityMod 0.5
+reloadTimeModifier 4
 }
 
 description	"Recon Clone
@@ -62,23 +107,28 @@ A backline sniper with a projectile rifle, dexterity, auxillary gadgets and a ba
 
 ^2Weaponry:
 - Melee
-- DC-15c Carbine (1)
+- DC-15c Carbine (2)
 - Valken-38x Projectile Rifle
 -- Based on Proj
-
-^6Inventory:
-- Tracking Darts ^3[CS3]
-- Seeker Droid
+- Tracking Knives
+-- Based off Blaster Pistol (1)
+-- Ignores block, applies tracking dart on hit
+-- 50% less damage
+-- 2x longer mag reload
+- Tranq Pistol
+-- Based off Clone Pistol (2)
+-- Knocks down & stuns on hit, except for strength 3
+-- 80% less damage, 50% less velocity, 4x longer mag reload
 
 ^8Attributes:
 - Stamina (1)
 - Dexterity (1)
-- Ally Stat Viewer
 - Tracking Beacon
 - Reinforcements (1)
+- Blast Armor
 
 ^3Abilities:
 - Sprint ^3[CS1]
 - Dex Roll ^3[CS2]
-- Grappling Hook (2) ^3[CS4 in ^3Melee]"
+- Grappling Hook (1) ^3[CS4 in ^3Melee]"
 
