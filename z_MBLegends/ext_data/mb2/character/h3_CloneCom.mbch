@@ -4,12 +4,12 @@ name "h3_CloneCom"
 MBClass	MB_CLASS_CLONETROOPER
 classNumberLimit 4
 extralives 1
-weapons	WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL
+weapons	WP_BLASTER_PISTOL|WP_SABER|WP_THERMAL|WP_FRAG_NADE
 WP_UGLFlags HELD_KNOCKBACK
 WP_DCCarbineFlags HELD_ALTRELOAD
 WP_DisruptorFlags HELD_ALTRELOAD
 WP_FlechetteFlags HELD_ALTRELOAD
-attributes MB_ATT_STAMINA,2|MB_ATT_PISTOL,1|MB_ATT_BASE_TD,2|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR|MB_ATT_AMMO,3
+attributes MB_ATT_STAMINA,2|MB_ATT_PISTOL,1|MB_ATT_BASE_TD,2|MB_ATT_DEXTERITY,1|MB_ATT_BLAST_ARMOUR|MB_ATT_AMMO,3|MB_ATT_FRAGS,1
 BPmultiplier 0
 saber1 cc
 saberstyle SS_TAVION
@@ -238,16 +238,7 @@ Icon "gfx/hud/w_icon_arc_shiv_short"
 WeaponName "Knuckle Plate Vibroblade"
 altFireEnabled 0
 }
-WeaponInfo7{
-WeaponToReplace WP_THERMAL
-WeaponBasedOff WP_THERMAL
-NewWorldModel	"models/weapons2/thermal/thermal_w.glm"
-NewViewModel "models/weapons2/thermal/thermal.md3"
-NewHandsModel "models/weapons2/thermal/thermal_hand.md3"
-Icon	"gfx/hud/w_thermal_grenade"
-WeaponName "Hand Thermal Grenades"
-damagemod 2.25
-}
+
 description "Clone Commando 
 
 Adaptable 2-lifes with staying power.
@@ -264,8 +255,7 @@ Adaptable 2-lifes with staying power.
 - DC-15s Side Arm Blaster (Pistol 1)
 -- 40% faster RoF
 -- 100% slower Reload
-- Hand Thermal Grenades (2)
--- 125% more Dmg
+- Frag Grenade (1)
 
 ^8Attributes:
 - 15% less Kb Taken

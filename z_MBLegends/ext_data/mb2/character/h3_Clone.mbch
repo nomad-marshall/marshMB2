@@ -12,7 +12,7 @@ ClassInfo
 	resource RESOURCE_STAMINA
 	forcepool 100
 	
-	modelscale      	1.02
+	modelscale 1.02
 	
 	extralives		1
 
@@ -142,28 +142,28 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 
 	c_att_skill_3	MB_ATT_CLONEBLOBS
 	c_att_names_3	"> Clone Rifle Conc Blobs"
-	c_att_ranks_3	2,2,2
+	c_att_ranks_3	2,2
 
 	c_att_skill_4	MB_ATT_STRONGBLOBS
 	c_att_names_4	"> Clone Rifle Ion Blobs"
-	c_att_ranks_4	2,2,2
+	c_att_ranks_4	2,2
 
 	c_att_skill_5		MB_ATT_MINIGUN
 	c_att_names_5		"Z-6 Rotary Cannon (Minigun)"
 	c_att_ranks_5		10
-	c_att_descs_5		"38% faster RoF, 5% more DMG, 10% more fp DMG"
+	c_att_descs_5		"38% faster RoF, 5% more Dmg, 10% more FP Dmg"
 
 	c_att_skill_6		MB_ATT_PLX1
 	c_att_names_6		"PLX-1 Rocket Launcher"
-	c_att_ranks_6		6,13
+	c_att_ranks_6		6
 
 	c_att_skill_7		MB_ATT_PULSE_GRENADES
-	c_att_names_7		"Pulse Grenades"
-	c_att_ranks_7		4,5
+	c_att_names_7		"Pulse Grenade"
+	c_att_ranks_7		4
 	
 	c_att_skill_8	MB_ATT_RESPAWNS
 	c_att_names_8	"Reinforcement"
-	c_att_ranks_8	19
+	c_att_ranks_8	18
 	c_att_descs_8 "1 default"
 
 	c_att_skill_9	MB_ATT_HEALTH

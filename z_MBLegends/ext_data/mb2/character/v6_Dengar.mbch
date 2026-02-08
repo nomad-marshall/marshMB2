@@ -178,7 +178,7 @@ WeaponInfo3{
 	rateMod 1
 	clipSize 3
 	customAmmo 15
-	altFireEnabled 0
+	altFireEnabled 1
 	hasAnimOverrides 1
 	animReadyRun 	BOTH_THERMAL_READY2
 	animReady 	BOTH_THERMAL_READY2
@@ -262,8 +262,7 @@ A ruthless assault class who likes to bring his bounties in cold.
 -- Obscures vision on det
 -- 40% faster RoF
 -- 99.9% less Dmg
-- Sticky Bombs (6) (MGL 1)
--- Prim only
+- Sticky Bombs (6) (MGL)
 -- Mag Reload
 
 ^8Attributes:

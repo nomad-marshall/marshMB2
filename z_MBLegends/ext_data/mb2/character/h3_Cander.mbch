@@ -80,7 +80,7 @@ ClassInfo
 	
 	c_att_skill_4	MB_ATT_FRAGS
 	c_att_names_4	"Frag Grenades"
-	c_att_ranks_4	8,8,8
+	c_att_ranks_4	5,7,8
 	
 	c_att_skill_5	MB_ATT_HEALTH
 	c_att_names_5	"HP (110/125/150)"

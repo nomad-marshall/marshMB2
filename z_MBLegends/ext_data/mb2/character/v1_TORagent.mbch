@@ -79,10 +79,10 @@ c_att_skill_1	MB_ATT_TRIP_MINES
 c_att_names_1	"Trip Mine"
 c_att_ranks_1	2,3
 c_att_skill_2	MB_ATT_FIRE_GRENADES
-c_att_names_2	"Fire Grenade"
+c_att_names_2	"Fire Grenades"
 c_att_ranks_2	2,3
 c_att_skill_3	MB_ATT_SONIC_DETONATOR
-c_att_names_3	"Sonic Detonator"
+c_att_names_3	"Sonic Detonators"
 c_att_ranks_3	2,3
 c_att_skill_4	MB_ATT_ROF_MULTIPLIER
 c_att_names_4	"RoF (120%)"

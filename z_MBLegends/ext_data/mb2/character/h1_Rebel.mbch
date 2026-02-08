@@ -166,7 +166,25 @@ WeaponInfo1
 	Icon				"gfx/hud/w_icon_dh-17" 
 	WeaponName		"DH-17 Blaster Rifle"
 }
+WeaponInfo2
+{
+	WeaponToReplace			WP_FRAG_NADE
+	WeaponBasedOff			WP_FRAG_NADE
+	NewWorldModel			"models/weapons2/fraggrenade/thermal_w.glm"
+	NewViewModel			"models/weapons2/fraggrenade/thermal_hand.md3"
+	MissileModel 			"models/weapons2/fraggrenade/thermal_proj.md3"
 
+	MissileMissEffect	"Grenades/EXP_Explosion"
+
+	missileHitHumanEffect		"Grenades/EXP_Explosion"
+	missileHitDroidEffect		"Grenades/EXP_Explosion"
+ MissileEffect "repeater/projectile"
+	
+	Icon						"gfx/hud/w_icon_fraggrenade"
+	WeaponName					"Micro-Frag Grenade"
+splashRadius 250
+altFireEnabled 0
+}
 description "Rebel Trooper 
 
 5-life basic infantry units.
@@ -182,7 +200,9 @@ description "Rebel Trooper
 -- 33% more Radius
 - DL-44 Blaster Pistol (2)
 - DH-17 Blaster Rifle (3)
-- Frag Grenade (1)
+- Micro-Frag Grenade (1)
+-- 28% less Splash Radius
+-- Prim only
 - V-59 Conc Grenade (1)
 
 ^8Attributes:

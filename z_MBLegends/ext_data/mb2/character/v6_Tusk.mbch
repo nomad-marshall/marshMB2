@@ -131,7 +131,7 @@ WeaponInfo2
 	CustomAmmo 	15
 	clipsize    1
 	ReloadTimeModifier 1.35
-	damageMod .75
+	damageMod .9
 }
 
 description	"Tusken Raider 
@@ -162,7 +162,7 @@ A 2-life class with a unique blend of Melee weapons, slug-based guns, and Wookie
 - V-59 Conc Grenades (2)
 - Tusken Cycler Projectile Rifle
 -- Staggers on hit
--- 25% less Dmg
+-- 10% less Dmg
 -- 35% slower Mag Reload
 
 ^8Attributes:

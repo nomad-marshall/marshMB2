@@ -157,7 +157,7 @@ ClassInfo
 	c_att_ranks_12	1
 
 	c_att_skill_13	MB_ATT_STM_MULTIPLIER
-	c_att_names_13	"> Skill Cooldown (150%)"
+	c_att_names_13	"> Skill Cd (150%)"
 	c_att_ranks_13	1
 	c_att_descs_13 	"75% default"
 }

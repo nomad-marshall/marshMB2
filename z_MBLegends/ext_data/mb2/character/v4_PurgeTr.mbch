@@ -17,10 +17,10 @@ ClassInfo
 	forcepool 100
 	
 	maxhealth	80
-	rankHealth	100,120
+	rankHealth	100,115
 	
 	MaxArmor		20
-	rankArmor	50,80,120	
+	rankArmor	50,80,115	
 	
 	forcepowers	FP_SABER_OFFENSE,3
 	
@@ -111,11 +111,11 @@ baseSpeed 200
 	c_att_ranks_5	25
 	
 	c_att_skill_6	MB_ATT_HEALTH
-	c_att_names_6	"HP (100/120)"
+	c_att_names_6	"HP (100/115)"
 	c_att_ranks_6	2,2
 		
 	c_att_skill_7	MB_ATT_ARMOUR
-	c_att_names_7	"Armor (50/80/120)"
+	c_att_names_7	"Armor (50/80/115)"
 	c_att_ranks_7	3,4,5
 	
 	c_att_skill_8	MB_ATT_CORTOSIS
