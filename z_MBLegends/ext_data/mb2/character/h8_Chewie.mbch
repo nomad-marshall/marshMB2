@@ -84,22 +84,22 @@ WeaponInfo1
 	FPChargeMult	1.1
 }
 
-description	"Chewbacca aka 'Chewie' 
+description	"Chewbacca aka 'Chewie'
 
-A high-health, high-power brawler/gunner hybrid that can bypass Saber Block with his shotgun spread. Resists Force Push/Pull.
+A high-HP, high-power brawler/gunner hybrid that can bypass Saber Block with his shotgun spread. Resists Force Push/Pull.
 
 ^2Weaponry:
 - Melee
 -- 5% faster RoF
 - Wookiee Slugthrower (Shotgun 2)
 -- Staggers on hit
--- Mag reload
+-- Mag Reload
 - Chewbacca's Bowcaster (3)
--- 10% more charged FP DMG
+-- 10% more Charged FP Dmg
 - Frag Grenades (2)
 
 ^8Attributes:
-- 15% faster skill CD
+- 15% faster Skill Cd
 - 10% faster Hacking
 - Strength (2)
 - Fury (1)

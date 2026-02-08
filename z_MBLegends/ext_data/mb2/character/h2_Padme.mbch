@@ -22,7 +22,7 @@ baseSpeed 255
 	//rateOfFire				0.8
 	rateOfFire_Melee	0.9
 
-	holdables HI_MEDPAC_BIG|HI_MEDPAC
+	holdables HI_MEDPAC_BIG
 
  classflags CFL_STATVIEWER
 
@@ -126,23 +126,22 @@ A frontline/support gunner with multiple forms of self-healing. Powerful in prox
 - Melee
 -- 10% faster RoF
 - ELG-3A Diplomat's Pistol (3)
--- 10% more DMG/FP DMG
+-- 10% more Dmg/FP Dmg
 -- 20% faster RoF
 - Looted E-5 Blaster Rifle (A280 1)
--- 10% more DMG
+-- 10% more Dmg
 -- 20% faster RoF
 - Pulse Grenades (2)
-- Concussion Grenades (2)
+- V-59 Conc Grenades (2)
 
 ^5Powers:
 - Team Energize (1)
 
 ^6Inventory:
-- Medpac
 - Advanced Medpac ^3[CS4]
 
 ^8Attributes:
-- 5% more KB given
+- 5% more Kb Given
 - Dexterity (1)
 - Healing (2)
 - Rally

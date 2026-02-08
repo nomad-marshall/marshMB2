@@ -218,28 +218,28 @@ A highly adaptable special ops unit.
 -- No Saber/Blaster Block
 -- Chain Limit: 1
 -- Staggers on hit
--- 75% more kb
--- 167% spec dmg mult
--- 57% less reach
--- 33% more radius
+-- 75% more Kb
+-- 167% Spec Dmg mult
+-- 57% less Reach
+-- 33% more Radius
 -- Prim only
 - DC-15s Side Arm Blaster (Pistol 1)
--- 40% faster rof
--- 100% slower reload
+-- 40% faster RoF
+-- 100% slower Reload
 - DC-17m ICWS Blaster Attachment (DC Carbine 1)
--- 40% faster rof
--- 25% slower mag reload
+-- 40% faster RoF
+-- 25% slower Mag Reload
 - DC-17m ICWS Sniper Attachment (Disruptor 1)
--- 130% more dmg/FP dmg
--- 10% slower rof
--- 75% slower mag reload
+-- 130% more Dmg/FP Dmg
+-- 10% slower RoF
+-- 75% slower Mag Reload
 - DC-17m ICWS Anti-Armor Attachment (UGL)
 -- Pushes on det
 
 ^8Attributes:
-- 10% faster skill cd
-- 20% less kb taken
-- Health/Armor Regen: 2/s
+- 10% faster Skill Cd
+- 20% less Kb Taken
+- HP/Armor Regen: 2/s
 - Stamina (3)
 - Dexterity (1)
 - Blast Armor

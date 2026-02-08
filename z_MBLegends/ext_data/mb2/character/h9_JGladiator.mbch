@@ -25,7 +25,7 @@ ClassInfo
 	APmultiplier		1.2
 	saberThrowDamage 40
 	saberstyle  	SS_FAST|SS_TAVION
- saberStyleDamage SS_FAST,240|SS_TAVION,240
+ saberDamage 240
  saberSpecialDamage 1.25
 
 	classflags CFL_NOPICKUPS

@@ -119,27 +119,27 @@ A tanky Wookiee/gunner hybrid who specializes in mass destruction and area denia
 
 ^2Weaponry:
 - Melee
--- Flat KB: 90
+-- Flat Kb: 90
 -- 10% slower RoF
 - DC-17m Repeating Blaster Rifle (DC Carbine 3)
--- 50% slower mag reload
+-- 50% slower Mag Reload
 - Heavy Thermal Grenades (6)
 -- Staggers/pushes on det
--- 100% more DMG
+-- 100% more Dmg
 - Frag Grenades (2)
 -- Staggers/pushes on det
 -- Prim only
 - Thermal Detonator (1)
--- Staggers/pushes/knocks down on det
+-- Staggers/pushes/trips on det
 - Trip Mines (4)
--- Staggers/pushes/knocks down on det
+-- Staggers/pushes/trips on det
 - Det Packs (4)
--- Staggers/pushes/knocks down on det
+-- Staggers/pushes/trips on det
 
 ^8Attributes:
-- 10% faster skill CD
-- 15% more KB given
-- 50% less KB taken
+- 10% faster Skill Cd
+- 15% more Kb Given
+- 50% less Kb Taken
 - Strength (2)
 - Fury (1)
 - Healing (2)

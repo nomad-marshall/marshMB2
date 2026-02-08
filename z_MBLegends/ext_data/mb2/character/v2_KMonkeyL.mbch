@@ -11,7 +11,7 @@ ClassInfo
 
 	maxhealth		90
 
-	forcepool 		120
+	forcepool 		115
 	forceregen 	1.25
 	forcepowers		FP_SEE,1|FP_LEVITATION,2
 	resource			RESOURCE_STAMINA
@@ -77,7 +77,7 @@ Small and agile 3-life creatures with many mobility options. Taunting within ran
 
 ^8Attributes:
 - Reinforcements (2)
-- 50% slower skill CD
+- 50% slower Skill Cd
 - Stamina (2)
 - Dexterity (1)
 - Strength (1)

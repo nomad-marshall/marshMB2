@@ -70,7 +70,7 @@ WeaponInfo1
 
 description	"Bo-Katan Kryze 
  
-A speedy Jetpack user who wields a Saber and Dual Pistols. Surprisingly tanky.
+A quick and versatile Mandalorian with a tough suit of armor.
 
 ^2Weaponry:
 - Melee
@@ -79,9 +79,9 @@ A speedy Jetpack user who wields a Saber and Dual Pistols. Surprisingly tanky.
 -- Saber Defense (1)
 -- No Blaster Block
 -- Blocking resists Force Powers
--- 16/40% less Yellow/Purple DMG
+-- 16/40% less Yellow/Purple Dmg
 - Dual WESTAR-35 Blaster Pistols (3)
--- 10% more FP DMG
+-- 10% more FP Dmg
 -- 10% slower RoF
 - Frag Grenade (1)
 

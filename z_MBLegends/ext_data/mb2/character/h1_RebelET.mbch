@@ -1,5 +1,5 @@
 //Legends Mode character file - Created by Frenzy & Leos
-//Customizable version - Created by iPod/Snackbar
+//Customizable version - Created by iPod/SnacKbar
 
 ClassInfo
 {
@@ -30,7 +30,7 @@ ClassInfo
 	uishader  	"models/players/rebel_commando/mb2_icon_default"
 	
 	model_1		"rebel_commando"
-	skin_1  	"desert_legends"
+	skin_1  	"Desert_legends"
 	uishader_1  "models/players/rebel_commando/mb2_icon_desert"
 	
 	model_2		"rebel_commando"
@@ -58,7 +58,7 @@ ClassInfo
 	uishader_6	"models/players/gwethenea/mb2_icon_swamp"
 	
 	model_7		"rebel_pathfinder"
-	skin_7 	"desert"
+	skin_7 	"Desert"
 	uishader_7  "models/players/rebel_pathfinder/mb2_icon_desert"
 	
 	model_8		"rebel_guerilla"
@@ -70,11 +70,11 @@ ClassInfo
 	uishader_9  "models/players/rebel_magma/mb2_icon_sullustan"
 	
 	model_10	"rebel_commando"
-	skin_10  	"duros_scarif"
+	skin_10  	"Duros_scarif"
 	uishader_10 "models/players/rebel_commando/mb2_icon_duros_scarif"
 	
 	model_11	"rebel_commando"
-	skin_11  	"duros_hoth"
+	skin_11  	"Duros_hoth"
 	uishader_11 "models/players/rebel_commando/mb2_icon_duros_hoth"
 	
 	model_12	"rebel_commando"
@@ -142,7 +142,7 @@ ClassInfo
 	c_att_ranks_5	5,8
 	
 	c_att_skill_6	MB_ATT_MICRO_GRENADES
-	c_att_names_6	"Concussion Grenades"
+	c_att_names_6	"V-59 Conc Grenades"
 	c_att_ranks_6	2,3
 
 	c_att_skill_7		MB_ATT_RESPAWNS
@@ -155,7 +155,7 @@ ClassInfo
 	c_att_ranks_8	1,2,2
 
 	c_att_skill_9	MB_ATT_HEALTH
-	c_att_names_9	"Health (60/80)"
+	c_att_names_9	"HP (60/80)"
 	c_att_ranks_9	1,2
 				
 	c_att_skill_10	MB_ATT_ARMOUR

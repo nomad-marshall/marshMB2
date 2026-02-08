@@ -22,7 +22,6 @@ ClassInfo
 	forceregen 1.1
  damageGiven 1.1
 	saberThrowDamage 40
-	saberDamage 240
 	saberstyle	SS_FAST|SS_STRONG
 	saberDamageStyle SS_FAST,130|SS_STRONG,240
 	BPmultiplier		1.2

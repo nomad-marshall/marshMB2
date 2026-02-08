@@ -82,7 +82,7 @@ ClassInfo
 	uishader_12 	"models/players/Shoretrooper/mb2_icon_tank"
 	
 	model_13		"mudtrooper"
-	skin_13		"driver"
+	skin_13		"Driver"
 	uishader_13 	"models/players/mudtrooper/mb2_icon_driver"
 	
 	model_14		"swamptrooper"
@@ -121,7 +121,7 @@ ClassInfo
 	c_att_ranks_5		5,8
 	
 	c_att_skill_6		MB_ATT_MICRO_GRENADES
-	c_att_names_6		"Concussion Grenades"
+	c_att_names_6		"V-59 Conc Grenades"
 	c_att_ranks_6		2,3
 
 	c_att_skill_7		MB_ATT_RESPAWNS
@@ -134,7 +134,7 @@ ClassInfo
 	c_att_ranks_8	1,2,2
 
 	c_att_skill_9	MB_ATT_HEALTH
-	c_att_names_9	"Health (60/80)"
+	c_att_names_9	"HP (60/80)"
 	c_att_ranks_9	1,2
 				
 	c_att_skill_10	MB_ATT_ARMOUR

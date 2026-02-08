@@ -53,7 +53,7 @@ ClassInfo
 	c_att_skill_0	MB_ATT_BASE_TD
 	c_att_names_0	"Heavy Thermal Grenades"
 	c_att_ranks_0	1,1,1
- c_att_descs_0 "Pushes on det, 100% more DMG"
+ c_att_descs_0 "Pushes on det, 100% more Dmg"
 	
 	c_att_skill_1	MB_ATT_POWER
 	c_att_names_1	"Energy Pool (120/125/130)"
@@ -124,16 +124,16 @@ A nimble gunner with a unique projectile shotgun.
 
 ^2Weaponry:
 - Melee
--- 15% faster movement
+-- 15% faster Movement
 - DH-17 Blaster Pistol (Blaster Rifle 2)
 -- 10% faster RoF
--- 10% faster reload
+-- 10% faster Reload
 - FC-1 Flechette Launcher (2)
--- 15% more DMG/FP DMG
+-- 15% more Dmg/FP Dmg
 - PLX-2M Rocket Launcher (5)
 -- Staggers/pushes on det
--- 15% more velocity
--- Mag reload
+-- 15% more Velocity
+-- Mag Reload
 - Frag Grenades (2)
 
 ^6Inventory:

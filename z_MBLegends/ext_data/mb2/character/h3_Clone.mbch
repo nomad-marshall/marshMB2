@@ -114,7 +114,7 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 	uishader_16 "models/players/clonetrooper_p2/mb2_icon_maceunit"
 
 	model_17    "clonetrooper_p2"
-	skin_17     "doomunit"
+	skin_17     "Doomunit"
 	uishader_17 "models/players/clonetrooper_p2/mb2_icon_doomunit"
 
 	model_18    "clonetrooper_p2"
@@ -151,7 +151,8 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 	c_att_skill_5		MB_ATT_MINIGUN
 	c_att_names_5		"Z-6 Rotary Cannon (Minigun)"
 	c_att_ranks_5		10
-	c_att_descs_5 	"24% slower RoF, 5% more DMG, 10% more FP DMG"
+	c_att_descs_5		"38% faster RoF, 5% more DMG, 10% more fp DMG"
+
 	c_att_skill_6		MB_ATT_PLX1
 	c_att_names_6		"PLX-1 Rocket Launcher"
 	c_att_ranks_6		6,13
@@ -162,10 +163,11 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 	
 	c_att_skill_8	MB_ATT_RESPAWNS
 	c_att_names_8	"Reinforcement"
-	c_att_ranks_8	20
+	c_att_ranks_8	19
 	c_att_descs_8 "1 default"
+
 	c_att_skill_9	MB_ATT_HEALTH
-	c_att_names_9	"Health (80/100)"
+	c_att_names_9	"HP (80/100)"
 	c_att_ranks_9	2,2
 	
 	c_att_skill_10	MB_ATT_ARMOUR
@@ -174,7 +176,7 @@ uishader_8  "models/players/clonetrooper_p2/mb2_icon_shock_rgb"
 
 	c_att_skill_11	MB_ATT_ASSEMBLE
 	c_att_names_11	"Assemble"
-	c_att_ranks_11	2,2,3
+	c_att_ranks_11	1,2,2
 	
 	c_att_skill_12	MB_ATT_DEXTERITY
 	c_att_names_12	"Dexterity"
@@ -206,12 +208,11 @@ WeaponInfo0
 	FPMult     1.1
 	damageMod 1.05
 	rateMod 0.62
- velocityMod .76
 }
 
-description	"Clone Trooper 
+description	"Clone Trooper
 
-A trooper characterized by heavier armor and weaponry choices compared to his peers, including extra lives, a Minigun, a Rocket Launcher, damage protection, and mobility options.
+A trooper characterized by heavier armor and weaponry choices compared to his peers.
 
 ^2Weaponry:
 - Melee
@@ -222,9 +223,8 @@ A trooper characterized by heavier armor and weaponry choices compared to his pe
 
 ^8Attributes:
 - Reinforcement (1)
-- 10% less KB taken
+- 10% less Kb Taken
 - Stamina (0)
-- Assemble (3) 
 
 ^3Abilities:
 - Sprint ^3[CS1]"

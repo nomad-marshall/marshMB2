@@ -134,14 +134,13 @@ description	"Imperial Conscript
 -- No Saber/Blaster Block
 -- No Saber Training
 -- Staggers on hit
--- 10% more KB
--- 75/50% less DMG
--- 50% less reach
--- 33% more radius
+-- 10% more Kb
+-- 50% less Reach
+-- 33% more Radius
 - SE-14C Blaster Pistol (2)
 - E-11 Blaster Rifle (3)
 - Frag Grenade (1)
-- Concussion Grenade (1)
+- V-59 Conc Grenade (1)
 
 ^8Attributes:
 - Reinforcements (4)

@@ -109,7 +109,7 @@ A tanky commander that can bolster allies.
 - Melee
 - E-11 Blaster Rifle (3)
 - SE-14C Blaster Rifle (EE-3 3)
--- 10% more FP DMG
+-- 10% more FP Dmg
 - Frag Grenades (3)
 -- 20% faster RoF
 -- Sec only
@@ -124,14 +124,14 @@ A tanky commander that can bolster allies.
 - Seeker Drone (Support Beacon) ^3[CS2]
 
 ^8Attributes:
-- 75% slower skill CD
-- 50% less KB taken
+- 75% slower Skill Cd
+- 50% less Kb Taken
 - Strength (1)
 - Dexterity (1)
 - Battery Recharge (1)
 - Getup (2)
 ^9- ^3*^9Dark's Beacon (Shares Force Powers with ^9a targeted/nearby ally)
-- Health Regen: 1/.5s
+- HP Regen: 1/.5s
 - Armor Regen: 1/2s to 5
 - Beskar (3)
 - Blast Armor

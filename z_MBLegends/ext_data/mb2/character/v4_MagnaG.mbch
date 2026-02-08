@@ -139,15 +139,14 @@ Mobile hybrids with high dueling stats and Armor Regen.
 --- BP-Free Jumps
 -- EX Saber Training (1)
 -- Shocks on hit
--- 3% more KB
--- 6% less reach
--- 76% less DMG
+-- 3% more Kb
+-- 6% less Reach
 - Bulldog Radiation Launcher (1)
 -- Poisons/tracks on hit
--- Bonus explosive DMG
--- 40% faster reload
--- 65% faster shot swap
--- 90% less DMG
+-- Bonus explosive Dmg
+-- 40% faster Reload
+-- 65% faster Shot Swap
+-- 90% less Dmg
 - Modified E-5 Blaster Rifle (EE-3 3)
 
 ^5Powers:
@@ -155,7 +154,7 @@ Mobile hybrids with high dueling stats and Armor Regen.
 
 ^8Attributes:
 - Reinforcement (1)
-- 50% slower skill CD
+- 50% slower Skill Cd
 - Dexterity (2)
 - Magnetic Plating
 - Physical Resist

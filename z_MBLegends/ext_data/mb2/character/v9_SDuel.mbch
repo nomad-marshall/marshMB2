@@ -84,13 +84,11 @@ rateOfFire_Melee .9
 	c_att_skill_2	MB_ATT_SABER_FAST
 	c_att_names_2	"Fast Saber Styles"
 	c_att_ranks_2	0,0,0
-	c_att_descs_2 "Blue, Cyan, both
-33% more Dmg, 166% more Saber Spec Dmg"
+	c_att_descs_2 "Blue, Cyan, both"
 	c_att_skill_3	MB_ATT_SABER_STRONG
 	c_att_names_3	"Strong Saber Styles"
 	c_att_ranks_3	0,0,0
-	c_att_descs_3 "Red, Purple, both 
-69/60% less Dmg, 38/20% less Saber Spec Dmg"
+	c_att_descs_3 "Red, Purple, both"
 }
 
 description	"Sith Duelist 
@@ -105,7 +103,7 @@ A master Saberist with unmatched dueling skills.
 --- BP Regen: 4/.25s
 -- Blaster Defense (2)
 -- Blaster Deflect (3)
--- 200% Spec Dmg mult
+-- 250% Spec Dmg mult
 -- Saber Throw ^3[CS1]
 --- 66% more Dmg
 

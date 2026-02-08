@@ -70,7 +70,7 @@ ClassInfo
 	uishader_2		"models/players/darthvader/mb2_icon_tv"
 	
 	model_3		"Darthvader"
-	skin_3			"Damaged"
+	skin_3			"damaged"
 	uishader_3		"models/players/darthvader/mb2_icon_damaged"
 	
 	//model_4 		"Darthvader"
@@ -115,7 +115,6 @@ A tanky saberist with strong defense and offense, at the cost of mobility.
 -- Blaster Deflect (3)
 -- Chain Limit: 4
 -- 10% more Reach
--- 30/46% less Purple/Red Dmg
 -- 125% Spec Dmg mult
 -- EX Saber Throw (3) ^3[CS1]
 --- 50% more Dmg
