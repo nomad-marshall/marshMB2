@@ -111,7 +111,7 @@ WeaponInfo1
 	NewWorldModel 		"models/weapons2/e5/e5_w.glm"
 	NewViewModel 		"models/weapons2/e5/e5.md3"
  NewHandsModel "models/weapons2/e5/e5_hand.md3"
- NewBarrelModel "models/weaposn2/e5/e5_kitsu.md3"
+ NewBarrelModel "models/weapons2/e5/e5_kitsu.md3"
 	Icon				"gfx/hud/w_icon_e5"
 	WeaponName		"Salvaged E-5 Blaster Rifle"	
 	FlashSound0 		"sound/weapons/blasterMB/fire.mp3"

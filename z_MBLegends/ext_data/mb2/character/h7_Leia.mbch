@@ -54,7 +54,7 @@ ClassInfo
 	uishader_4		"models/players/boushh/mb2_icon_leia"
 	
 	model_5		"leia_SLAVE" 				
-	skin	_5		"default"					
+	skin_5			"default"					
 	uishader_5		"models/players/leia_slave/mb2_icon_default"
 	
 	model_6		"leia_endor" 				 

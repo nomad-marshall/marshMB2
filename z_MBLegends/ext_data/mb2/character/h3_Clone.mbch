@@ -34,7 +34,7 @@ ClassInfo
 	uioverlay_r "gfx/icons/infantry"
 	
 model     "clonetrooper_p1"
-skin_     "shiny"
+skin      "shiny"
 uishader  "models/players/clonetrooper_p1/mb2_icon_shiny"
 
 model_1     "clonetrooper_p1"

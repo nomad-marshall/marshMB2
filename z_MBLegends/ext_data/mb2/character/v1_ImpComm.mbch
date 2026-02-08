@@ -149,8 +149,8 @@ ClassInfo
 
 WeaponInfo0
 {
-	WeaponToReplace		MB_ATT_DLT20A
-	WeaponBasedOff		MB_ATT_DLT20A
+	WeaponToReplace		WP_DLT20A
+	WeaponBasedOff		WP_DLT20A
 	NewWorldModel		"models/weapons2/dlt20a/dlt20a_w.glm"
 	NewViewModel		"models/weapons2/dlt20a/dlt20a.md3"
 	Icon				"gfx/hud/w_icon_DLT20a"
