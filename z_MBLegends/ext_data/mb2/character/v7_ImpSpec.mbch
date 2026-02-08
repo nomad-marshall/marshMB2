@@ -33,7 +33,7 @@ ClassInfo
 	sabercolor	0
 	saberstyle	SS_TAVION
 	saber1_1 reb_wrench_s
-	sabercolor	0
+	sabercolor_1	0
 	saberstyle_1 	SS_TAVION
  ASMultiplier 1.05
  BPMultiplier 0
@@ -128,9 +128,6 @@ WeaponInfo1
 	animAttackRun BOTH_ATTACK3 
 	animAttack BOTH_ATTACK3 
 	animAttackWalk BOTH_ATTACK3
-	altMissileMissEffect "blobs/concussion"
-	altMissileHitHumanEffect "blobs/concussion"
-	altMissileHitDroidEffect "blobs/concussion"
 }
 WeaponInfo2
 {

@@ -157,7 +157,6 @@ WeaponInfo0
 	WeaponName			"Z-6 Rotary Blaster Cannon"
 	customammo		900
 	clipSize	300
-	isMinigun	1
 	altFireEnabled	1
 	FPMult     1.1
 	damageMod 1.05

@@ -104,7 +104,7 @@ WeaponInfo1
 	customAmmo 700
 
 	FlashSound0			"sound/weapons/kotor/fire_power1.wav"
- FlashSound0		"sound/weapons/kotor/fire_hvy.wav"
+ FlashSound1		"sound/weapons/kotor/fire_hvy.wav"
 }
 
 WeaponInfo2

@@ -23,7 +23,7 @@ ClassInfo
 	saberstyle	SS_MEDIUM|SS_STRONG
 
 	saber1_1  Wrench_Legends_2
-	sabercolor	0
+	sabercolor_1	0
 	saberstyle_1 	SS_MEDIUM|SS_STRONG
 
 	saberDamage 120

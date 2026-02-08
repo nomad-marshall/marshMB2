@@ -36,7 +36,7 @@ ClassInfo
 	saberstyle	SS_MEDIUM
 	
 	saber1_1    	nien_leg_s
-	sabercolor	0
+	sabercolor_1	0
 	saberstyle_1 	SS_MEDIUM
 	
 	holdables		HI_CLOAK|HI_SENTRY_GUN|HI_STIMPACK
