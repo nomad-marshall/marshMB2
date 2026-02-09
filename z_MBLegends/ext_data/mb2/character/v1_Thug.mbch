@@ -207,7 +207,8 @@ WeaponInfo2
 	WeaponToReplace			WP_FRAG_NADE
 	WeaponBasedOff			WP_FRAG_NADE
 	NewWorldModel			"models/weapons2/fraggrenade/thermal_w.glm"
-	NewViewModel			"models/weapons2/fraggrenade/thermal_hand.md3"
+	NewHandsModel			"models/weapons2/fraggrenade/thermal_hand.md3"
+ NewViewModel		"models/weapons2/fraggrenade/thermal.md3"
 	MissileModel 			"models/weapons2/fraggrenade/thermal_proj.md3"
 	
 	altMissileMissEffect		"Grenades/EXP_Explosion"
