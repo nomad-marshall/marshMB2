@@ -149,21 +149,6 @@ ClassInfo
 
 WeaponInfo0
 {
-	WeaponToReplace		WP_DLT20A
-	WeaponBasedOff		WP_DLT20A
-	NewWorldModel		"models/weapons2/dlt20a/dlt20a_w.glm"
-	NewViewModel		"models/weapons2/dlt20a/dlt20a.md3"
-	Icon				"gfx/hud/w_icon_DLT20a"
-	WeaponName			"DLT-20A Blaster"
-	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R" 
-	MissileEffect		"Blaster/Shot01R"
-	AltMissileEffect	"Blaster/Shot01R"
-	Missile3Effect		"Blaster/Shot01R"	
-}
-
-WeaponInfo1
-{
 	WeaponToReplace		WP_BLASTER_PISTOL
 	WeaponBasedOff		WP_BLASTER_PISTOL
 	NewWorldModel		"models/weapons2/se-14c_pistol/blaster_pistol_w.glm"  	
@@ -175,7 +160,7 @@ WeaponInfo1
 	ChargeSound			"sound/weapons/leia_pistol/altcharge.mp3"
 }
 
-WeaponInfo2
+WeaponInfo1
 {
 	WeaponToReplace		WP_FRAG_NADE
 	WeaponBasedOff		WP_FRAG_NADE
@@ -188,7 +173,7 @@ WeaponInfo2
 	WeaponName			"Frag Grenade"    
 }
 
-WeaponInfo3
+WeaponInfo2
 {
 	WeaponToReplace		WP_PLX1
 	WeaponBasedOff		WP_ROCKET_LAUNCHER

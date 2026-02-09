@@ -162,6 +162,7 @@ WeaponInfo0
 	damageMod 1.05
 	rateMod 0.62
  velocityMod .76
+isMinigun 1
 }
 
 WeaponInfo1
