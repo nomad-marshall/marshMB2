@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name			"h4_Kyle"
-	MBClass				MB_CLASS_SITH //fp
+	MBClass				MB_CLASS_SITH
 	classNumberLimit  	1
 
 	weapons			WP_SABER|WP_MELEE|WP_STUN_BATON|WP_THERMAL
@@ -27,9 +27,9 @@ ClassInfo
 	saberThrowDamage 40
  saberSpecialDamage 1.25
 	special1	EAS_FP_SABERTHROW
-	special2 EAS_NONE
-	//special3 EAS_FP_ABSORB
-	//special4 EAS_FP_PROTECT
+	special2 EAS_FP_PROTECT
+	//special3 EAS_FP_GRIP
+	//special4 EAS_FP_LIGHTNING
 
 	uioverlay_r "gfx/icons/frontline"
 	uioverlay_l "gfx/icons/hybrid"
@@ -113,11 +113,11 @@ c_att_ranks_9   4,6
 
 c_att_skill_10  MB_ATT_FP_ABSORB
 c_att_names_10  "Force Absorb"
-c_att_ranks_10  4,4
+c_att_ranks_10  4,6
 
 c_att_skill_11  MB_ATT_FP_PROTECT
-c_att_names_11  "Force Protect"
-c_att_ranks_11  4,4
+c_att_names_11  "Force Protect ^3[CS2]"
+c_att_ranks_11  4,6
 
 c_att_skill_12  MB_ATT_FP_SPEED
 c_att_names_12  "Force Speed"
