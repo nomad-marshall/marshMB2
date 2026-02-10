@@ -24,8 +24,6 @@ ASmultiplier 1.3
 speed 1.03
 gloatAnim BOTH_VICTORY_FAST
 flourishAnim BOTH_VICTORY_FAST
-WalkBackward BOTH_WALK_DUAL
-WalkForward BOTH_WALKBACK_DUAL
 model "deathwatch"
 skin "mauldalorian"
 uishader "models/players/deathwatch/mb2_icon_mauldalorian"
@@ -64,7 +62,7 @@ c_att_descs_2 "+25% FP DMG&velocity,40% slower mag reload"
 c_att_skill_3 MB_ATT_EE3
 c_att_names_3 "Sundari Repeater(EE-3)"
 c_att_ranks_3 2,0,1
-c_att_descs_3 "+20% RoF & velocity,40% slower mag reload"
+c_att_descs_3 "+20% RoF & velocity,50% slower mag reload"
 c_att_skill_4 MB_ATT_FLAMETHROWER
 c_att_names_4 "Wrist Flamethrower^3[CS2TM]"
 c_att_ranks_4 1
@@ -183,7 +181,7 @@ AltFlashSound0 "sound/weapons/EL-16/alt_fire.wav"
 AltFlashSound1 "sound/weapons/EL-16/alt_fire.wav"
 AltFlashSound2 "sound/weapons/EL-16/alt_fire.wav"
 AltFlashSound3 "sound/weapons/EL-16/alt_fire.wav"
-customammo 800
+customammo 1000
 clipsize 80
 FPMult 1.25
 ReloadTimeModifier 1.4
@@ -202,9 +200,9 @@ MissileEffect "Blaster/Shot02Y"
 Missile3Effect "Blaster/Shot03Y"
 PowerupShotEffect "Blaster/Shot04Y"
 AltMissileEffect "Blaster/Shot04Y"
-customAmmo 1000
+customAmmo 800
 clipsize 32
-ReloadTimeModifier 1.4
+ReloadTimeModifier 1.5
 rateMod 0.8
 velocityMod 1.2
 }
