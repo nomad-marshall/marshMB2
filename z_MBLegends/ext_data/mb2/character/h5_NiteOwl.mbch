@@ -65,7 +65,7 @@ c_att_descs_2 "-15% dmg,+10% velocity"
 c_att_skill_3 MB_ATT_BLASTER
 c_att_names_3 "Poison-Tipped Throwing Knives"
 c_att_ranks_3 1
-c_att_descs_3 "Ignores block,poisons on hit/-50% damage"
+c_att_descs_3 "Ignores block,poisons on hit/-60% damage"
 c_att_skill_4 MB_ATT_THROWER
 c_att_names_4 "Kelborn Arc Caster"
 c_att_ranks_4 1
@@ -86,7 +86,7 @@ c_att_descs_16 "+10% FP DMG,-20% DMG,100% slower mag reload"
 c_att_skill_17 MB_ATT_TRAD_BOWCASTER
 c_att_names_17 "Kryze Echo-Bolter"
 c_att_ranks_17 3,0,0
-c_att_descs_17 "Prim fire only,+20% ROF"
+c_att_descs_17 "Sec fire only,+50% ROF,-20% dmg"
 c_att_skill_18 MB_ATT_E_22
 c_att_names_18 "Repeater Pistol"
 c_att_ranks_18 1,0,2
@@ -175,7 +175,7 @@ FlashSound2 "sound/weapons/halo_beamrifle/fire2.mp3"
 FlashSound3 "sound/weapons/halo_beamrifle/fire3.mp3"
 CustomAmmo 30
 clipsize 2
-damageMod 0.80
+damageMod 0.9
 ReloadTimeModifier 2
 }
 WeaponInfo4{
@@ -194,7 +194,7 @@ NewViewModel "models/weapons2/a180/a180.md3"
 Icon "gfx/hud/w_icon_a180"
 WeaponName "Repeater Pistol"
 damageMod 0.85
-velocityMod 1.10
+velocityMod 1.1
 clipSize 20
 hasAnimOverrides 1
 animStand BOTH_PISTOL_IDLE2
@@ -227,10 +227,10 @@ animStand BOTH_THERMAL_READY2
 animReadyRun BOTH_SABER_OBIWAN_STANCE
 animAttackRun BOTH_THERMAL_THROW2
 clipSize 2
-customAmmo 8
-reloadTimeModifier 1.5
+customAmmo 4
+reloadTimeModifier 2
 primGore 1
-damageMod 0.5
+damageMod 0.4
 }
 WeaponInfo7{
 WeaponToReplace WP_THROWER
@@ -258,8 +258,9 @@ NewWorldModel "models/weapons2/kotor_bowcaster1/kotor_bowcaster1_w.glm"
 NewViewModel "models/weapons2/kotor_bowcaster1/kotor_bowcaster1.md3"
 Icon "gfx/hud/w_icon_kotor_bowcaster1"
 WeaponName "Kryze Echo-Bolter"
-rateMod 0.4
+rateMod 0.5
 primfireenabled 0
+damageMod 0.8
 }
 description "Nite Owl Mandalorian[Mandalorian]
 Eagle-eyed sharpshooters with Jetpacks.
