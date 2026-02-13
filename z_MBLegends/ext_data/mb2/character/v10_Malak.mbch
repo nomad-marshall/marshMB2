@@ -13,7 +13,7 @@ ClassInfo
 	forcepowers			FP_SABER_OFFENSE,3|FP_LEVITATION,3|FP_PUSH,3|FP_PULL,2|FP_SEE,1|FP_ABSORB,1|FP_PROTECT,2|FP_SABERTHROW,3			
 
 	maxhealth		100
- maxarmour  45
+ maxarmor  45
 
 	resource RESOURCE_FORCE
 	forcepool			125
