@@ -24,8 +24,10 @@ ClassInfo
 
 	BPmultiplier    0
 	saber1			Legends_Knife_Spy
+	saber2	Legends_Knife_Spy
+	
 	forcepowers     FP_SABER_OFFENSE,3
-	saberstyle		SS_TAVION|SS_FAST
+	saberstyle		SS_TAVION|SS_DUAL
 	saberDamage 	100
 
 	//WP_BlasterPistolFlags	HELD_POISON
@@ -80,7 +82,7 @@ uishader_5	"models/players/saboteur/mb2_icon_default"
 
 	c_att_skill_0	MB_ATT_PISTOL
 	c_att_names_0	"Assassin Blaster Pistol"
-	c_att_ranks_0	2,1,3
+	c_att_ranks_0	1,1,3
 	c_att_descs_0	"Prim fire: Hitscan, 25% more Velocity, 50% more Charged FP Dmg,
 35% less Dmg, 25% slower RoF, 25% slower Reload"
 
@@ -192,7 +194,7 @@ WeaponInfo2
 	NewWorldModel	"models/weapons2/vibroknife/model.glm"
 	NewViewModel	"models/weapons2/dummy/dummy.md3"
 	Icon	"gfx/hud/w_icon_prisonknife"
-	WeaponName	"Jagged Vibroknife"
+	WeaponName	"Dual Vibroknifes"
 }
 
 ForceInfo0
@@ -210,7 +212,7 @@ Mid-ranged elite soldiers who can Disguise themselves and Cloak.
 
 ^2Weaponry:
 - Heavy Melee
-- Jagged Vibroknife (Cyan/Blue Saber)
+- Dual Vibroknifes (Cyan/Dual Sabers)
 -- No Saber/Blaster Block
 -- 60% less Reach
 
