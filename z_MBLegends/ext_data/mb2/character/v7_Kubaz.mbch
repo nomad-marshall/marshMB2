@@ -1,7 +1,7 @@
 //Legends Mode character file - Created by Frenzy & Leos
 ClassInfo
 {
-	name			"v7_ImpAgent"
+	name			"v7_Kubaz"
 	MBClass			MB_CLASS_BOUNTY_HUNTER
 	classNumberLimit	2
 	extralives			1
@@ -64,18 +64,6 @@ uishader_1	"models/players/tie_pilot/mb2_icon_kubaz"
 model_2		"tie_pilot"
 skin_2		"kubazb"
 uishader_2	"models/players/tie_pilot/mb2_icon_kubazb"
-
-model_3		"stormie"
-skin_3		"shadow"
-uishader_3	"models/players/stormie/mb2_icon_shadow"
-
-model_4 	"stormie"
-skin_4 		"vader"
-uishader_4	"models/players/stormie/mb2_icon_vader"
-
-model_5		"saboteur" 				
-skin_5		"default"					
-uishader_5	"models/players/saboteur/mb2_icon_default"
 
 	isCustomBuild	1
 	mbPoints	50
@@ -206,9 +194,9 @@ ForceInfo0
 	LoopSound "sound/ambience/cp_02_lp.wav"
 }
 
-description	"Imperial Agent
+description	"Kubaz Spy
 
-Mid-ranged elite soldiers who can Disguise themselves and Cloak.
+Versatile assassins who can Disguise themselves and Cloak.
 
 ^2Weaponry:
 - Heavy Melee
