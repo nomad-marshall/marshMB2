@@ -10,7 +10,7 @@ ClassInfo
 	WP_AmbanFlags			HELD_DISRUPTIFY|HELD_FLAME|HELD_SONIC
 	WP_MeleeFlags			HELD_SLOW
 
-	attributes				MB_ATT_AMBAN,1|MB_ATT_RECHARGE,3|MB_ATT_THERMALS,1|MB_ATT_BESKAR,3|MB_ATT_MANDO_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SONIC_DETONATOR,2|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_SABER_COMBO_NONE|MB_ATT_CORTOSIS,1|MB_ATT_MAGNETIC_PLATING|MB_ATT_THROWER_POISON
+	attributes				MB_ATT_AMBAN,1|MB_ATT_RECHARGE,3|MB_ATT_THERMALS,1|MB_ATT_BESKAR,3|MB_ATT_MANDO_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_BLAST_ARMOUR|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_SHIELD_RECHARGE,1|MB_ATT_SONIC_DETONATOR,2|MB_ATT_ANTI_MT,2|MB_ATT_TRACKING_BEACON|MB_ATT_SABER_COMBO_NONE|MB_ATT_THROWER_POISON
 
 	special1 EAS_NONE
 	special2	EAS_HI_POISONTHROWER
@@ -23,9 +23,16 @@ ClassInfo
 
 	classflags			CFL_SEEING_STEALTH|CFL_AKIMBOPISTOL3|CFL_STRONGAGAINSTPHYSICAL
 
-	forcepool		40
+	forcepool		80
 	forcepowers FP_SEE,1
  resource RESOURCE_BATTERY
+ 
+ forceregen 0.01
+ 	resourceRegenRate 10000
+    resourceRegenCap 80
+    resourceRegenAmount 10
+	
+	DamageTaken 1.3
 
 	saber1 				droidmelee_legends
 	saberstyle			SS_STRONG
@@ -50,15 +57,14 @@ ClassInfo
 	model	"IG88"
 	skin		"default"
 	uishader	"models/players/IG88/mb2_icon_default"
-		
+
 	model_1	"IG88"
 	skin_1		"ig88b"
 	uishader_1	"models/players/IG88/mb2_icon_ig88b"
-		
+
 	model_2	"IG88"
 	skin_2		"ig88c"
 	uishader_2	"models/players/IG88/mb2_icon_ig88c"
-	
 }
 
 WeaponInfo0
@@ -166,6 +172,8 @@ A sturdy and heavily armored gunner.
 ^8Attributes:
 - 25% faster Hacking
 - 20% less Kb Taken
+- Recharge (3)
+-- Resource Regen: 10/10s
 - Strength (2)
 - Beskar (3)
 - Blast Armor
