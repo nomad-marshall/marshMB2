@@ -20,7 +20,7 @@ ClassInfo
 	//ArmourRegenCap 25
 	ArmourRegenRate	1000
 
-	rankArmourRegenAmount 25
+	rankArmourRegenCap 25
 
 	resource	RESOURCE_STAMINA
 	forcepool 60
@@ -64,8 +64,8 @@ uishader_3	"models/players/stormie/mb2_icon_vader"
 	
 hasCustomSpec 2
 isOnlyOneSpec 1
-customSpecName_1 "name"
-customSpecIcon_1 "gfx/menus/alpha/icon_weap_accuracy"
+customSpecName_1 "Soldier"
+customSpecIcon_1 "gfx/menus/alpha/icon_playermodel"
 customSpecDesc_1 ""
 customSpecName_2 "Commando"
 customSpecIcon_2 "gfx/menus/alpha/icon_weap_poison"
@@ -88,7 +88,7 @@ customSpecDesc_2 ""
 	c_att_names_3	"DEMP2"
 	c_att_ranks_3	6
 	c_att_descs_3 	"Shocks on hit, 20% more Velocity, 20% less RoF,
-10% more Dmg, 20% more FP Dmg, 30% slower Mag Reload"
+10% more Dmg, 25% more FP Dmg, 10000% slower Mag Reload"
 
 	c_att_skill_4	MB_ATT_BASE_TD
 	c_att_names_4	"Thermal Grenades"
@@ -143,13 +143,13 @@ customSpecDesc_2 ""
 	c_att_skill_18	MB_ATT_FLECHETTE
 	c_att_names_18	"FC-1 Flechette Launcher"
 	c_att_ranks_18	4,5
-	c_att_descs_18 	"10% more Dmg, 10% more FP Dmg, 21000% slower Reload"
+	c_att_descs_18 	"10% more Dmg, 10% more FP Dmg, 10000% slower Reload"
 
 	c_att_skill_19	MB_ATT_DEMP2
 	c_att_names_19	"DEMP2"
 	c_att_ranks_19	5
 	c_att_descs_19 	"Shocks on hit, 20% more Velocity, 20% less RoF,
-10% more Dmg, 20% more FP Dmg, 30% slower Mag Reload"
+10% more Dmg, 25% more FP Dmg, 40% slower Mag Reload"
 
 	c_att_skill_20	MB_ATT_BASE_TD
 	c_att_names_20	"Thermal Grenades"
@@ -220,11 +220,11 @@ WeaponInfo1
     FlashSound0			"sound/weapons/flechette/fire.mp3"  			
 	WeaponName 			"FC-1 Flechette Launcher"
 	MuzzleEffect 		"Blaster/MuzzleFlash01Y"
-	customAmmo           750
+	customAmmo           540
 	clipsize             15
 	damageMod 1.1
 	fpmult 1.1
-	ReloadTimeModifier 20
+	ReloadTimeModifier 99
 }
 
 WeaponInfo2
@@ -236,13 +236,13 @@ WeaponInfo2
 	NewHandsModel		"models/weapons2/demp2/demp2_hand.md3"
 	Icon				"gfx/hud/w_icon_basedemp2"
 	WeaponName			"DEMP2"
-	FPMult 1.2
+	FPMult 1.25
 	clipSize 6
 	damageMod 1.1
 	customammo 36
 	ratemod 1.2
 	velocityMod 1.2
-	ReloadTimeModifier 1.3
+	ReloadTimeModifier 1.4
 }
 
 description	"Imperial Saboteur
