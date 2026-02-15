@@ -67,6 +67,7 @@ WeaponInfo1
  damageMod 1.1
 	fpmult	1.1
 	rateMod 1.1
+	customammo 750
 }
 
 description	"Bo-Katan Kryze 
