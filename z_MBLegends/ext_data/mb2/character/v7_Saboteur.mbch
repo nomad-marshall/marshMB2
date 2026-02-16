@@ -23,9 +23,9 @@ ClassInfo
 	rankArmourRegenCap 25
 
 	resource	RESOURCE_STAMINA
-	forcepool 60
-	forceregen		0.5
-	rankForcepool 80,100,120
+	forcepool 40
+	forceregen		0.8
+	rankForcepool 60,80,100
 
 	holdables		HI_CLOAK
 	
@@ -112,7 +112,7 @@ customSpecDesc_2 ""
 	c_att_ranks_8	4
 
 	c_att_skill_9	MB_ATT_POWER
-	c_att_names_9	"Stamina pool (80/100)"
+	c_att_names_9	"Stamina pool (60/80)"
 	c_att_ranks_9	2,2
 
 	c_att_skill_10 MB_ATT_DEXTERITY
@@ -176,8 +176,8 @@ customSpecDesc_2 ""
 	c_att_ranks_25	4
 
 	c_att_skill_26	MB_ATT_POWER
-	c_att_names_26	"Stamina Pool (80/100/120)"
-	c_att_ranks_26	2,2,2
+	c_att_names_26	"Stamina Pool (60/80/100)"
+	c_att_ranks_26	1,2,3
 
 	c_att_skill_27	MB_ATT_DEXTERITY
 	c_att_names_27	"Dexterity"
