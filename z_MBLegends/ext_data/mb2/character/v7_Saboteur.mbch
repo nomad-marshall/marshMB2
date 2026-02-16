@@ -24,7 +24,7 @@ ClassInfo
 
 	resource	RESOURCE_STAMINA
 	forcepool 40
-	forceregen		0.8
+	forceregen		1
 	rankForcepool 60,80,100
 
 	holdables		HI_CLOAK
