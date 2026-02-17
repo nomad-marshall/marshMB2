@@ -250,12 +250,12 @@ ClassInfo
 	c_att_skill_31		MB_ATT_ARC_RIFLE_GRENADELAUNCHER
 	c_att_names_31		"> M5 Pulse Grenade Addon"
 	c_att_ranks_31		0,0
-	c_att_descs_31		"FOR THE LOVE OF GOD DON'T PICK SCOPE WITH THIS"
+	c_att_descs_31		"When combined with the below, equips 2 Pulses and a Scope"
 
 	c_att_skill_32		MB_ATT_ARC_RIFLE_SCOPE
 	c_att_names_32		"> M5 Scope Addon"
 	c_att_ranks_32		0
-	c_att_descs_32	"FOR THE LOVE OF GOD DON'T PICK GL WITH THIS"
+	c_att_descs_32	"When combined with the above, equips 2 Pulses and a Scope"
 
  c_att_skill_33		MB_ATT_PLX1
 	c_att_names_33		"PLX-1 Rocket Launcher"
