@@ -80,9 +80,9 @@ animCharge BOTH_PISTOL_ATTACK
 WeaponInfo1
 {
 	WeaponToReplace	WP_PLX1
-	WeaponBasedOff	WP_PLX1
-	NewWorldModel	"models/weapons2/dummyblaster/model.glm"
-	NewViewModel	"models/weapons2/dummy/dummy.md3"
+	WeaponBasedOff	WP_MANDO_PISTOL
+	NewWorldModel	"models/items/datapad.glm"
+	NewViewModel "models/items/datapad.md3"
 	Icon		"gfx/hud/w_icon_realTD"
 	WeaponName	"Test Fire"
 	FlashSound0	null
