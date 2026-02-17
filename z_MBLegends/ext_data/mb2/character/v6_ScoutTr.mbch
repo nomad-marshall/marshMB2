@@ -109,6 +109,7 @@ ClassInfo
 	c_att_skill_5	MB_ATT_PISTOL
 	c_att_names_5	"EC-17 Hold-Out Pistol"
 	c_att_ranks_5	2,0
+	c_att_descs_5 "10% more charged FP drain"
 
 	c_att_skill_6	MB_ATT_PULSE_GRENADES
 	c_att_names_6	"Pulse Grenades"
@@ -139,6 +140,7 @@ ClassInfo
 	c_att_skill_15	MB_ATT_PISTOL
 	c_att_names_15	"EC-17 Hold-Out Pistol"
 	c_att_ranks_15	0,0,2
+	c_att_descs_15 "10% more charged FP drain"
 
 	c_att_skill_16	MB_ATT_BLASTER
 	c_att_names_16	"E-11 Blaster Rifle"
@@ -188,6 +190,7 @@ ClassInfo
 	c_att_skill_30	MB_ATT_PISTOL
 	c_att_names_30	"EC-17 Hold-Out Pistol"
 	c_att_ranks_30	0,0,2
+	c_att_descs_30 "10% more charged FP drain"
 
 	c_att_skill_31	MB_ATT_E_22
 	c_att_names_31	"E-22 Rec. Blaster Rifle"
@@ -245,6 +248,7 @@ WeaponName	"EC-17 Hold-out Blaster Pistol"
 ChargeSound	"sound/weapons/leia_pistol/altcharge.mp3"
 clipSize 24
 customAmmo 500
+FPChargeMult	1.1
 }
 WeaponInfo2
 {
