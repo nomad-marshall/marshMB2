@@ -4,7 +4,7 @@ ClassInfo
 	MBClass			MB_CLASS_CLONETROOPER
 	classNumberLimit	2
 	extralives			1
-	weapons			WP_MELEE|WP_MANDO_PISTOL
+	weapons			WP_MELEE|WP_MANDO_PISTOL|WP_THERMAL
 	attributes		MB_ATT_AMMO,3|MB_ATT_MANDO_PISTOL,2|MB_ATT_GETUPS,2|MB_ATT_STAMINA,1|MB_ATT_QUICKTHROW,3
 
 	maxhealth		80
@@ -87,14 +87,14 @@ customSpecDesc_2 ""
 	c_att_descs_3 	"Shocks on hit, 20% more Velocity, 20% less RoF,
 10% more Dmg, 25% more FP Dmg, 10000% slower Mag Reload"
 
-	c_att_skill_4	MB_ATT_FRAGS
-	c_att_names_4	"Flashbang Grenades (Frags)"
-	c_att_ranks_4	2,2
-	c_att_descs_4 "Blinds on det, Sec only. 99.9% less Dmg, 40% faster RoF"
+	c_att_skill_4	MB_ATT_BASE_TD
+	c_att_names_4	"Thermal Grenades"
+	c_att_ranks_4	1,1
 
-	c_att_skill_5	MB_ATT_BASE_TD
-	c_att_names_5	"Thermal Grenades"
-	c_att_ranks_5	1,1
+	c_att_skill_5	MB_ATT_FRAGS
+	c_att_names_5	"Flashbang Grenades (Frags)"
+	c_att_ranks_5	2,2
+	c_att_descs_5 "Blinds on det, Sec only. 99.9% less Dmg, 40% faster RoF"
 
 	c_att_skill_6	MB_ATT_TRIP_MINES
 	c_att_names_6	"Trip Mines"
@@ -138,25 +138,25 @@ customSpecDesc_2 ""
 	c_att_names_17	"Disruptor Rifle"
 	c_att_ranks_17	2,6
 
-	c_att_skill_18	MB_ATT_FLECHETTE
-	c_att_names_18	"FC-1 Flechette Launcher"
-	c_att_ranks_18	4,5
-	c_att_descs_18 	"10% more Dmg, 10% more FP Dmg, 10000% slower Reload"
-
-	c_att_skill_19	MB_ATT_DEMP2
-	c_att_names_19	"DEMP2"
-	c_att_ranks_19	5
-	c_att_descs_19 	"Shocks on hit, 20% more Velocity, 20% less RoF,
+	c_att_skill_18	MB_ATT_DEMP2
+	c_att_names_18	"DEMP2"
+	c_att_ranks_18	5
+	c_att_descs_18 	"Shocks on hit, 20% more Velocity, 20% less RoF,
 10% more Dmg, 25% more FP Dmg, 40% slower Mag Reload"
 
-	c_att_skill_20	MB_ATT_FRAGS
-	c_att_names_20	"Flashbang Grenades (Frags)"
-	c_att_ranks_20	2,2,2
-	c_att_descs_20 "Blinds on det, Sec only. 99.9% less Dmg, 40% faster RoF"
+	c_att_skill_19	MB_ATT_FLECHETTE
+	c_att_names_19	"FC-1 Flechette Launcher"
+	c_att_ranks_19	4,5
+	c_att_descs_19 	"10% more Dmg, 10% more FP Dmg, 10000% slower Reload"
 
-	c_att_skill_21	MB_ATT_BASE_TD
-	c_att_names_21	"Thermal Grenades"
-	c_att_ranks_21	1,1,1
+	c_att_skill_20	MB_ATT_BASE_TD
+	c_att_names_20	"Thermal Grenades"
+	c_att_ranks_20	1,1,1
+
+	c_att_skill_21	MB_ATT_FRAGS
+	c_att_names_21	"Flashbang Grenades (Frags)"
+	c_att_ranks_21	2,2,2
+	c_att_descs_21 "Blinds on det, Sec only. 99.9% less Dmg, 40% faster RoF"
 
 	c_att_skill_22	MB_ATT_TRIP_MINES
 	c_att_names_22	"Trip Mines"
@@ -267,7 +267,7 @@ WeaponInfo3
 
 description	"Imperial Saboteur
 
-Elite soldiers with cloak.
+Elite soldiers with Cloak.
 
 ^2Weaponry:
 - Melee

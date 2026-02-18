@@ -190,7 +190,7 @@ WeaponInfo2
 	NewWorldModel	"models/weapons2/vibroknife/model.glm"
 	NewViewModel	"models/weapons2/dummy/dummy.md3"
 	Icon	"gfx/hud/w_icon_prisonknife"
-	WeaponName	"Dual Vibroknifes"
+	WeaponName	"Dual Vibroknives"
 }
 
 ForceInfo0
@@ -208,7 +208,7 @@ Versatile assassins who can Disguise themselves and Cloak.
 
 ^2Weaponry:
 - Heavy Melee
-- Dual Vibroknifes (Cyan/Dual Sabers)
+- Dual Vibroknives (Dual/Cyan Sabers)
 -- No Saber/Blaster Block
 -- 60% less Reach
 
