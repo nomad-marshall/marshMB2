@@ -8,7 +8,7 @@ ClassInfo
 	
 	weapons		WP_SABER|WP_MELEE
 
-	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,2|MB_ATT_GETUPS,3
+	attributes	MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,2|MB_ATT_FORCEFOCUS,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_HEALING,1|MB_ATT_GUN_DEFENSE,2|MB_ATT_FP_SABER_DEFENSE,3|MB_ATT_GETUPS,3
 
  saberDamageStyle SS_DESANN,280|SS_STRONG,280
 	saberstyle	SS_DESANN|SS_STRONG
@@ -86,8 +86,8 @@ A massive, tanky Sith with high-powered and long-reaching Lightsaber attacks.
 - Melee
 -- 10% faster RoF
 - Lightsaber (Red/Purple)
--- Saber/Blaster Defense (2)
--- Blaster Deflect (2)
+-- Saber Defense (3)
+-- Blaster Defense/Deflect (2)
 -- 125% Spec Dmg mult
 -- 25% more Reach
 -- 33% more Radius
